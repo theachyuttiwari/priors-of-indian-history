@@ -31,8 +31,12 @@ describe("party flags", () => {
   });
 
   it("draws no flag for parties without a sourced one", () => {
-    for (const party of ["AAP", "RJD", "SS", "PDP", "Janata Dal", "Janata Party"])
+    for (const party of ["Janata Dal", "Janata Party", "other (Socialist Party)"])
       expect(flagFor(party)).toBeUndefined();
+  });
+
+  it("maps the INLD content spelling to its flag", () => {
+    expect(flagFor("other (Indian National Lok Dal)")).toBe(flagFor("INLD"));
   });
 
   it("maps content spellings of PMK to one flag", () => {

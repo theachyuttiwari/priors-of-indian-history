@@ -127,14 +127,14 @@ async function main() {
 
       const results = new Map<string, Snapshot>();
       // Lookups are read-only, so run a few at a time. Captures stay one at a time.
-      const lookups = await pool(todo, 4, (t) => existing(t.url, t.date));
+      const lookups = await pool(todo, 2, (t) => existing(t.url, t.date));
       for (const [i, t] of todo.entries()) {
         let snap = lookups[i];
         if (snap) found++;
         else if (save) {
           snap = await capture(t.url);
           if (snap) saved++;
-          await sleep(6000);
+          await sleep(12000);
         }
         if (snap) results.set(t.id, snap);
         else missing.push(`${rel} ${t.id} ${t.url}`);

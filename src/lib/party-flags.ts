@@ -2,9 +2,9 @@
  * Party flag colours, drawn as flat bands: no election symbol, no logo, same size for every party.
  * Research 2026-10-15. Party documents name colours but publish no codes, so hex values come from
  * Wikimedia Commons drawings (or the party's own logo where noted), checked against images.
- * Only flags with layout and colours at medium confidence or better are drawn. Parties with no
- * sourced flag (Janata Party, Janata Dal, Socialist Party) or a low-confidence one (AAP, RJD) or no
- * sourced colour (undivided Shiv Sena, PDP, INLD) show an empty outline of the same size.
+ * Hex values are close readings of volunteer drawings, not official codes. Parties with no sourced
+ * flag (Janata Party 1977, Janata Dal 1988-99, Socialist Party 1948) show an empty outline of the
+ * same size. Their successors' flags (JD(U), Praja Socialist Party) are not borrowed for them.
  * Several flags look alike as swatches (INC and TMC; DMK and AIADMK; CPI, CPI(M) and NC; the greens),
  * so the party name is always shown next to the swatch.
  */
@@ -133,12 +133,52 @@ const FLAGS: Record<string, Flag> = {
       "https://commons.wikimedia.org/wiki/File:Bahujan_Samaj_Party_Flag.svg",
     ],
   },
+  AAP: {
+    bands: h(["#fdf000", 265], ["#3e47cb", 107]),
+    direction: "horizontal",
+    sources: [
+      "https://en.wikipedia.org/wiki/Aam_Aadmi_Party",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Aam_Aadmi_Party_flag_%282%29.svg",
+    ],
+    note: "Yellow over blue, as in the Wikipedia infobox drawing. A second Commons drawing differs in shade and proportion. Broom and name not drawn.",
+  },
+  RJD: {
+    bands: h("#008000"),
+    direction: "horizontal",
+    sources: [
+      "https://en.wikipedia.org/wiki/Rashtriya_Janata_Dal",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/RJD_Flag.svg",
+    ],
+    note: "Green field. Lantern not drawn.",
+  },
+  SS: {
+    bands: h("#ff6634"),
+    direction: "horizontal",
+    sources: ["https://www.crwflags.com/fotw/flags/in%7Dshiv.html"],
+    note: "Undivided Shiv Sena, before 2022: plain saffron swallow-tailed flag. Drawn as a rectangle. Hex read from a JPG, approximate.",
+  },
+  PDP: {
+    bands: h("#006137"),
+    direction: "horizontal",
+    sources: [
+      "https://www.crwflags.com/fotw/flags/in%7Djkpdp.html",
+      "https://en.wikipedia.org/wiki/Jammu_and_Kashmir_Peoples_Democratic_Party",
+    ],
+    note: "Green field; Wikidata party colour #016138 agrees. Ink-pot and pen not drawn.",
+  },
+  INLD: {
+    bands: h("#00923f"),
+    direction: "horizontal",
+    sources: ["https://www.crwflags.com/fotw/flags/in%7Dinld.html"],
+    note: "Green field. Spectacles not drawn. Hex read from a shaded GIF, approximate.",
+  },
 };
 
 /** Content uses a few spellings for the same party. */
 const ALIASES: Record<string, string> = {
   "Pattali Makkal Katchi (PMK)": "PMK",
   "other (Pattali Makkal Katchi)": "PMK",
+  "other (Indian National Lok Dal)": "INLD",
 };
 
 export function flagFor(party: string): Flag | undefined {
