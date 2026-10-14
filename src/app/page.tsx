@@ -52,7 +52,7 @@ export default function Home() {
                   </div>
                   {ev.reviewed === false && (
                     <p className="small mt-3">
-                      Drafted by the ingestion pipeline. Not yet reviewed by a person.{" "}
+                      Drafted with AI help. Not yet reviewed by a person.{" "}
                       <Link href="/about/#pipeline" className="link">
                         How this works
                       </Link>

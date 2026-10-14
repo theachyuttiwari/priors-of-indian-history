@@ -127,7 +127,7 @@ a.row:hover .row-title { text-decoration: underline; text-underline-offset: 3px;
 /* Surface panel, used only where content sits side by side */
 .panel { background: var(--surface); border-radius: 18px; }
 
-.field { background: var(--surface); border-radius: 10px; padding: 8px 12px; font-size: 15px; color: var(--ink); border: 1px solid transparent; }
+.field { max-width: 100%; text-overflow: ellipsis; background: var(--surface); border-radius: 10px; padding: 8px 12px; font-size: 15px; color: var(--ink); border: 1px solid transparent; }
 .field:focus { outline: none; border-color: var(--ink-3); }
 
 ::selection { background: var(--ink); color: var(--bg); }

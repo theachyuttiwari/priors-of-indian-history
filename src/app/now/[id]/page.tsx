@@ -44,7 +44,7 @@ function Column({ p, types, href, now }: { p: Precedent; types: ActionType[]; hr
         {types.map((t) => {
           const hits = p.actions.filter((a) => a.type === t);
           return (
-            <li key={t} className="grid grid-cols-[14px_1fr] gap-2.5 items-start text-[15px]">
+            <li key={t} className={`grid grid-cols-[14px_1fr] gap-2.5 items-start text-[15px] ${hits.length ? "" : "max-md:hidden"}`}>
               <span className={`mt-[5px] flex ${hits.length ? "text-ink" : "text-line"}`}>
                 <Glyph group={ACTION_META[t].group} />
               </span>
@@ -100,7 +100,7 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
         <p className="lede mt-6 measure">{ev.summary}</p>
         {ev.reviewed === false && (
           <p className="mt-6 small inline-block panel px-3 py-2">
-            Drafted by the ingestion pipeline on {ev.last_updated ? fmtDate(ev.last_updated) : "an unknown date"}. Not yet
+            Drafted with AI help on {ev.last_updated ? fmtDate(ev.last_updated) : "an unknown date"}. Not yet
             reviewed by a person.
           </p>
         )}
@@ -108,7 +108,10 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
 
       <section>
         <h2 className="t-2 mb-2">Side by side</h2>
-        <p className="small mb-6 measure">The current event comes first. Its three closest precedents follow. Every column has the same rows.</p>
+        <p className="small mb-6 measure">
+          The current event comes first. Its three closest precedents follow. Every column has the same rows. On small
+          screens, rows with nothing recorded are hidden.
+        </p>
         <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
           <Column p={ev} types={types} now />
           {sims.map(({ p }) => (

@@ -39,7 +39,7 @@ export default function NowPage() {
                   <ActionChip key={t} type={t} />
                 ))}
               </div>
-              {ev.reviewed === false && <p className="small mt-3">Drafted by the ingestion pipeline. Not yet reviewed by a person.</p>}
+              {ev.reviewed === false && <p className="small mt-3">Drafted with AI help. Not yet reviewed by a person.</p>}
               {sims.length > 0 && (
                 <p className="text-[15px] text-ink-2 mt-4">
                   Closest precedents:{" "}
