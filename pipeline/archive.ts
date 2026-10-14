@@ -28,14 +28,16 @@ function snapshotFrom(timestamp: string, original: string): Snapshot {
 }
 
 /**
- * The first good (HTTP 200) snapshot on or after the publication date, via the CDX API.
- * Never one from before publication: that would be a different page at the same address.
+ * A good (HTTP 200) snapshot via the CDX API. Dated sources get the first snapshot on or after
+ * publication; never an earlier one, which would be a different page at the same address.
+ * Undated sources (living pages such as Wikipedia) get the latest snapshot, nearest to when
+ * the page was read.
  */
 async function existing(url: string, date?: string): Promise<Snapshot | undefined> {
   const from = date ? `&from=${date.replace(/-/g, "").padEnd(8, "0").slice(0, 8)}` : "";
   const api =
     `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}${from}` +
-    `&filter=statuscode:200&limit=1&output=json&fl=timestamp,original`;
+    `&filter=statuscode:200&limit=${date ? 1 : -1}&output=json&fl=timestamp,original`;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const res = await fetch(api, { headers: { "User-Agent": UA } });
@@ -78,6 +80,21 @@ async function capture(url: string): Promise<Snapshot | undefined> {
   return undefined;
 }
 
+/** Map over items with at most `n` promises in flight, keeping order. */
+async function pool<T, R>(items: T[], n: number, fn: (t: T) => Promise<R>): Promise<R[]> {
+  const out: R[] = new Array(items.length);
+  let next = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(n, items.length) }, async () => {
+      while (next < items.length) {
+        const i = next++;
+        out[i] = await fn(items[i]);
+      }
+    }),
+  );
+  return out;
+}
+
 async function main() {
   const root = path.join(process.cwd(), "content");
   let found = 0;
@@ -99,8 +116,10 @@ async function main() {
       if (!todo.length) continue;
 
       const results = new Map<string, Snapshot>();
-      for (const t of todo) {
-        let snap = await existing(t.url, t.date);
+      // Lookups are read-only, so run a few at a time. Captures stay one at a time.
+      const lookups = await pool(todo, 4, (t) => existing(t.url, t.date));
+      for (const [i, t] of todo.entries()) {
+        let snap = lookups[i];
         if (snap) found++;
         else if (save) {
           snap = await capture(t.url);
@@ -110,7 +129,6 @@ async function main() {
         if (snap) results.set(t.id, snap);
         else missing.push(`${rel} ${t.id} ${t.url}`);
         console.log(`${snap ? "ok  " : "none"} ${rel} ${t.id}${snap ? ` ${snap.date}` : ""}`);
-        await sleep(1000);
       }
 
       const next = editSources(text, (b) => {
