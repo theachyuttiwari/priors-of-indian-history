@@ -123,12 +123,16 @@ sources:
     title: Haryana govt digs roads, trenches to stop farmer protests move past barricades
     publisher: The Quint
     url: https://www.thequint.com/news/india/haryana-govt-digs-roads-trenches-to-stop-farmer-protests-move-past-barricades
+    archive_date: 2020-11-27
+    archive_url: https://web.archive.org/web/20201127102206/https://www.thequint.com/news/india/haryana-govt-digs-roads-trenches-to-stop-farmer-protests-move-past-barricades
     date: 2020-11-27
     type: news
   - id: s2
     title: Expired tear gas shells used
     publisher: The Tribune
     url: https://www.tribuneindia.com/news/haryana/expired-tear-gas-shells-used-177431
+    archive_date: 2020-12-09
+    archive_url: https://web.archive.org/web/20201209123033/https://www.tribuneindia.com/news/haryana/expired-tear-gas-shells-used-177431
     date: 2020-11-28
     type: news
   - id: s3
@@ -141,36 +145,48 @@ sources:
     title: "Eleventh round of talks between Modi govt and farmers fails, no date for next meeting"
     publisher: ThePrint
     url: https://theprint.in/india/eleventh-round-of-talks-between-modi-govt-and-farmers-fails-no-date-for-next-meeting/590520/
+    archive_date: 2021-01-22
+    archive_url: https://web.archive.org/web/20210122140320/https://theprint.in/india/eleventh-round-of-talks-between-modi-govt-and-farmers-fails-no-date-for-next-meeting/590520/
     date: 2021-01-22
     type: news
   - id: s5
     title: Supreme Court stays implementation of farm laws, forms committee
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/farmlaws-stayed-supreme-court-farmers-protest-168307
+    archive_date: 2021-01-12
+    archive_url: https://web.archive.org/web/20210112115832/https://www.livelaw.in/top-stories/farmlaws-stayed-supreme-court-farmers-protest-168307
     date: 2021-01-12
     type: news
   - id: s6
     title: "Tractor rally violence: Internet services snapped in parts of Delhi-NCR"
     publisher: Hindustan Times
     url: https://www.hindustantimes.com/cities/delhi-news/internet-services-snapped-in-some-parts-of-delhi-ncr-due-to-farm-stir-violence-101611655900259-amp.html
+    archive_date: 2021-01-26
+    archive_url: https://web.archive.org/web/20210126133746/https://www.hindustantimes.com/cities/delhi-news/internet-services-snapped-in-some-parts-of-delhi-ncr-due-to-farm-stir-violence-101611655900259-amp.html
     date: 2021-01-26
     type: news
   - id: s7
     title: Parliament clears Farm Laws Repeal Bill without a debate
     publisher: The Hindu
     url: https://www.thehindu.com/news/national/parliament-clears-farm-laws-repeal-bill-without-a-debate/article37762376.ece
+    archive_date: 2021-11-30
+    archive_url: https://web.archive.org/web/20211130034515/https://www.thehindu.com/news/national/parliament-clears-farm-laws-repeal-bill-without-a-debate/article37762376.ece
     date: 2021-11-30
     type: news
   - id: s8
     title: Indian farmers head home after year-long demonstrations
     publisher: Al Jazeera
     url: https://www.aljazeera.com/gallery/2021/12/11/indian-farmers-head-home-after-year-long-demonstrations
+    archive_date: 2021-12-11
+    archive_url: https://web.archive.org/web/20211211170719/https://www.aljazeera.com/gallery/2021/12/11/indian-farmers-head-home-after-year-long-demonstrations
     date: 2021-12-11
     type: news
   - id: s9
     title: Bhupinder Singh Mann recuses from Supreme Court farm laws committee
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/bhupinder-singh-mann-farm-laws-committee-supreme-court-168401
+    archive_date: 2021-01-14
+    archive_url: https://web.archive.org/web/20210114090631/https://www.livelaw.in/top-stories/bhupinder-singh-mann-farm-laws-committee-supreme-court-168401
     date: 2021-01-14
     type: news
 tags: [farmers, delhi, haryana, punjab, internet_shutdown, tear_gas, barricading, negotiation, repeal, supreme_court, bjp]

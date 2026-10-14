@@ -216,6 +216,8 @@ sources:
     title: "Civil Rights Investigation into Police Firings on Gurjar Agitation in May-June 2007: Interim Report"
     publisher: PUCL Rajasthan, PUDR and AFDR
     url: "https://www.pudr.org/publicatiosn-files/2007-Jun-Civil Rights Investigation into Police Firings on Gurjar Agitation in May-June 2007.pdf"
+    archive_date: 2025-12-06
+    archive_url: https://web.archive.org/web/20251206173930/https://www.pudr.org/publicatiosn-files/2007-Jun-Civil Rights Investigation into Police Firings on Gurjar Agitation in May-June 2007.pdf
     date: 2007-06-11
     type: archive
   - id: s2
@@ -248,6 +250,8 @@ sources:
     title: Editorial on the end of the Gujjar agitation
     publisher: The Tribune
     url: https://www.tribuneindia.com/2007/20070606/edit.htm
+    archive_date: 2007-07-15
+    archive_url: https://web.archive.org/web/20070715171921/https://www.tribuneindia.com/2007/20070606/edit.htm
     date: 2007-06-06
     type: news
   - id: s7
@@ -306,12 +310,16 @@ sources:
     title: Bainsla rejects Raje's letter to PM as farce
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080527/main1.htm
+    archive_date: 2008-05-29
+    archive_url: https://web.archive.org/web/20080529003211/https://www.tribuneindia.com/2008/20080527/main1.htm
     date: 2008-05-26
     type: news
   - id: s16
     title: Gujjar agitation spreads; Army units deployed, NSA invoked
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080528/main1.htm
+    archive_date: 2008-05-30
+    archive_url: https://web.archive.org/web/20080530094217/https://www.tribuneindia.com/2008/20080528/main1.htm
     date: 2008-05-27
     type: news
   - id: s17
@@ -324,48 +332,64 @@ sources:
     title: Rajasthan ready for fresh talks with Gujjar leaders
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080530/main1.htm
+    archive_date: 2008-06-01
+    archive_url: https://web.archive.org/web/20080601000923/https://www.tribuneindia.com/2008/20080530/main1.htm
     date: 2008-05-29
     type: news
   - id: s19
     title: Government and Gujjars agree to preliminary talks at Bayana
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080609/main2.htm
+    archive_date: 2008-06-18
+    archive_url: https://web.archive.org/web/20080618052742/https://www.tribuneindia.com/2008/20080609/main2.htm
     date: 2008-06-08
     type: news
   - id: s20
     title: Gujjar agitation to be called off after agreement
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080618/main1.htm
+    archive_date: 2008-06-28
+    archive_url: https://web.archive.org/web/20080628002522/https://www.tribuneindia.com/2008/20080618/main1.htm
     date: 2008-06-17
     type: news
   - id: s21
     title: Editorial on the Gujjar settlement
     publisher: The Tribune
     url: https://www.tribuneindia.com/2008/20080619/edit.htm
+    archive_date: 2008-06-27
+    archive_url: https://web.archive.org/web/20080627002719/https://www.tribuneindia.com/2008/20080619/edit.htm
     date: 2008-06-19
     type: news
   - id: s22
     title: Storm in the desert
     publisher: The Tribune (Spectrum)
     url: https://www.tribuneindia.com/2008/20080622/spectrum/main1.htm
+    archive_date: 2011-02-23
+    archive_url: https://web.archive.org/web/20110223191247/https://www.tribuneindia.com/2008/20080622/spectrum/main1.htm
     date: 2008-06-22
     type: news
   - id: s23
     title: Gujjars are back
     publisher: Governance Now
     url: https://www.governancenow.com/views/columns/gujjars-are-back
+    archive_date: 2025-11-07
+    archive_url: https://web.archive.org/web/20251107155714/https://www.governancenow.com/views/columns/gujjars-are-back
     date: 2010-04-15
     type: news
   - id: s24
     title: "Gujjars & 4 Other Castes, Re-included in OBC list: Rajasthan"
     publisher: Sabrang India
     url: https://sabrangindia.in/gujjars-4-other-castes-re-included-obc-list-rajasthan/
+    archive_date: 2023-09-24
+    archive_url: https://web.archive.org/web/20230924175509/https://sabrangindia.in/gujjars-4-other-castes-re-included-obc-list-rajasthan/
     date: 2017-05-20
     type: news
   - id: s25
     title: "Rajasthan: Gujjar reservation and the 50 per cent ceiling"
     publisher: The Wire
     url: https://m.thewire.in/article/caste/rajasthan-reservation-gujjars-50-percent-ceiling
+    archive_date: 2020-10-21
+    archive_url: https://web.archive.org/web/20201021110310/https://m.thewire.in/article/caste/rajasthan-reservation-gujjars-50-percent-ceiling
     date: 2020-10-19
     type: news
   - id: s26

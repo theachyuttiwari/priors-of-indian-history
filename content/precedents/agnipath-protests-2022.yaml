@@ -122,24 +122,32 @@ sources:
     title: "Agnipath scheme: Violent protests in many states, train coaches set on fire"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026311/agnipath-scheme-violent-protests-in-india-train-coaches-set-on-fire
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616100559/https://scroll.in/latest/1026311/agnipath-scheme-violent-protests-in-india-train-coaches-set-on-fire
     date: 2022-06-16
     type: news
   - id: s2
     title: "Agnipath scheme: Government raises age limit to 23 from 21 for recruitment this year"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026341/agnipath-scheme-government-increases-upper-age-limit-to-23-from-21-for-recruitment-in-2022
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617034644/https://scroll.in/latest/1026341/agnipath-scheme-government-increases-upper-age-limit-to-23-from-21-for-recruitment-in-2022
     date: 2022-06-17
     type: news
   - id: s3
     title: "Agnipath protests: One dead in Secunderabad, five trains set ablaze in three states"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617081401/https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up
     date: 2022-06-17
     type: news
   - id: s4
     title: "Agnipath scheme: Home, defence ministries announce 10% job quota for recruits as protests continue"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026422/10-reservation-for-agnipath-recruits-in-central-police-force-and-assam-rifles-announces-centre
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618050301/https://scroll.in/latest/1026422/10-reservation-for-agnipath-recruits-in-central-police-force-and-assam-rifles-announces-centre
     date: 2022-06-18
     type: news
   - id: s5
@@ -147,42 +155,56 @@ sources:
     publisher: The Tribune
     wire: PTI
     url: https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
+    archive_date: 2022-06-20
+    archive_url: https://web.archive.org/web/20220620191213/https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
     date: 2022-06-20
     type: news
   - id: s6
     title: "Agnipath protests top updates: Over 500 trains cancelled, Modi to meet service chiefs on Tuesday"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026511/agnipath-protests-top-updates-security-ramped-up-in-several-states-amid-bharat-bandh-call
+    archive_date: 2022-06-20
+    archive_url: https://web.archive.org/web/20220620052035/https://scroll.in/latest/1026511/agnipath-protests-top-updates-security-ramped-up-in-several-states-amid-bharat-bandh-call
     date: 2022-06-20
     type: news
   - id: s7
     title: "Agnipath protests top updates: Agitation in 13 states, railway stations ransacked in Bihar, Punjab"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026433/agnipath-protests-top-updates-260-persons-arrested-in-uttar-pradesh-23-in-haryana
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618064409/https://scroll.in/latest/1026433/agnipath-protests-top-updates-260-persons-arrested-in-uttar-pradesh-23-in-haryana
     date: 2022-06-18
     type: news
   - id: s7b
     title: "Agnipath protest top updates: Bihar burning but BJP and JD(U) are fighting, says Prashant Kishor"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026487/agnipath-protest-top-updates-bihar-burning-but-bjp-and-jd-u-are-fighting-says-prashant-kishor
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619110435/https://scroll.in/latest/1026487/agnipath-protest-top-updates-bihar-burning-but-bjp-and-jd-u-are-fighting-says-prashant-kishor
     date: 2022-06-19
     type: news
   - id: s8
     title: "Agnipath protests: 60 train coaches burnt, Railways suffers losses of Rs 700 crore"
     publisher: Scroll.in
     url: https://scroll.in/latest/1026482/agnipath-protests-60-train-coaches-burnt-railways-suffers-losses-of-rs-700-crore
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619125047/https://scroll.in/latest/1026482/agnipath-protests-60-train-coaches-burnt-railways-suffers-losses-of-rs-700-crore
     date: 2022-06-19
     type: news
   - id: s9
     title: "Bihar Assembly adjourned after Opposition calls for discussion on Agnipath scheme"
     publisher: Scroll.in
     url: https://scroll.in/latest/1027052/bihar-assembly-adjourned-after-opposition-calls-for-discussion-on-agnipath-scheme
+    archive_date: 2022-06-27
+    archive_url: https://web.archive.org/web/20220627135856/https://scroll.in/latest/1027052/bihar-assembly-adjourned-after-opposition-calls-for-discussion-on-agnipath-scheme
     date: 2022-06-27
     type: news
   - id: s10
     title: "'Agnipath': Anger in India over Modi's new army recruitment plan"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2022/6/16/agnipath-anger-in-india-over-modis-new-army-recruitment-plan
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616101804/https://www.aljazeera.com/news/2022/6/16/agnipath-anger-in-india-over-modis-new-army-recruitment-plan
     date: 2022-06-16
     type: news
 tags: [bihar, military_recruitment, youth, unemployment, internet_shutdown, section_144, firing, concession, railways, bjp, jdu]

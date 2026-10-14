@@ -228,66 +228,88 @@ sources:
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Summary and Recommendations"
     publisher: Human Rights Watch
     url: https://www.hrw.org/reports/1999/enron/
+    archive_date: 2000-08-15
+    archive_url: https://web.archive.org/web/20000815071856/https://www.hrw.org/reports/1999/enron/
     date: 1999-01
     type: archive
   - id: s2
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Violations of Human Rights 1997 (part 1)"
     publisher: Human Rights Watch
     url: https://www.hrw.org/reports/1999/enron/enron5-1.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180231/https://www.hrw.org/reports/1999/enron/enron5-1.htm
     date: 1999-01
     type: archive
   - id: s3
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Violations of Human Rights 1997 (part 2)"
     publisher: Human Rights Watch
     url: https://www.hrw.org/reports/1999/enron/enron5-2.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180236/https://www.hrw.org/reports/1999/enron/enron5-2.htm
     date: 1999-01
     type: archive
   - id: s4
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Legal Restrictions Used to Suppress Opposition"
     publisher: Human Rights Watch
     url: https://hrw.org/reports/1999/enron/enron4-1.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180217/https://hrw.org/reports/1999/enron/enron4-1.htm
     date: 1999-01
     type: archive
   - id: s5
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: the Munde Committee and cancellation"
     publisher: Human Rights Watch
     url: https://hrw.org/reports/1999/enron/enron2-2.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180128/https://hrw.org/reports/1999/enron/enron2-2.htm
     date: 1999-01
     type: archive
   - id: s6
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: renegotiation"
     publisher: Human Rights Watch
     url: https://hrw.org/reports/1999/enron/enron2-3.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180132/https://hrw.org/reports/1999/enron/enron2-3.htm
     date: 1999-01
     type: archive
   - id: s7
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: the CITU lawsuit"
     publisher: Human Rights Watch
     url: https://www.hrw.org/reports/1999/enron/enron2-4.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180138/https://www.hrw.org/reports/1999/enron/enron2-4.htm
     date: 1999-01
     type: archive
   - id: s8
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Veldur raid and Katalwadi"
     publisher: Human Rights Watch
     url: https://hrw.org/reports/1999/enron/enron5-3.htm
+    archive_date: 2000-08-18
+    archive_url: https://web.archive.org/web/20000818180243/https://hrw.org/reports/1999/enron/enron5-3.htm
     date: 1999-01
     type: archive
   - id: s9
     title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Complicity: the Dabhol Power Corporation"
     publisher: Human Rights Watch
     url: https://www.hrw.org/reports/1999/enron/enron7-0.htm
+    archive_date: 2000-08-16
+    archive_url: https://web.archive.org/web/20000816022854/https://www.hrw.org/reports/1999/enron/enron7-0.htm
     date: 1999-01
     type: archive
   - id: s10
     title: "India: The \"Enron project\" in Maharashtra - protests suppressed in the name of development (AI Index ASA 20/31/97)"
     publisher: Amnesty International
     url: https://www.amnesty.org/es/wp-content/uploads/2021/06/asa200311997en.pdf
+    archive_date: 2024-07-15
+    archive_url: https://web.archive.org/web/20240715020719/https://www.amnesty.org/es/wp-content/uploads/2021/06/asa200311997en.pdf
     date: 1997-07
     type: archive
   - id: s11
     title: "Enron's Abuse of Power"
     publisher: Multinational Monitor
     url: https://multinationalmonitor.org/hyper/mm0997.04.html
+    archive_date: 2003-01-06
+    archive_url: https://web.archive.org/web/20030106103552/https://multinationalmonitor.org/hyper/mm0997.04.html
     date: 1997-09
     type: news
   - id: s12

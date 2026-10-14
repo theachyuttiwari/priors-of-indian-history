@@ -95,18 +95,24 @@ sources:
     title: India widens crackdown on gang-rape protests
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/asia/2012/12/20121223630169625.html
+    archive_date: 2012-12-24
+    archive_url: https://web.archive.org/web/20121224221529/https://www.aljazeera.com/news/asia/2012/12/20121223630169625.html
     date: 2012-12-24
     type: news
   - id: s2
     title: "Delhi page: Dikshit flays police crackdown; eight metro stations closed"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2012/20121224/delhi.htm
+    archive_date: 2012-12-31
+    archive_url: https://web.archive.org/web/20121231071447/https://www.tribuneindia.com/2012/20121224/delhi.htm
     date: 2012-12-24
     type: news
   - id: s3
     title: Shinde justifies police crackdown at India Gate
     publisher: International Business Times India
     url: https://www.ibtimes.co.in/shinde-justifies-police-crackdown-at-india-gate-418040
+    archive_date: 2019-10-21
+    archive_url: https://web.archive.org/web/20191021060117/https://www.ibtimes.co.in/shinde-justifies-police-crackdown-at-india-gate-418040
     date: 2012-12-24
     type: news
   - id: s4
@@ -114,18 +120,24 @@ sources:
     publisher: The Assam Tribune
     wire: PTI
     url: https://assamtribune.com/parties-condemn-police-action
+    archive_date: 2022-07-06
+    archive_url: https://web.archive.org/web/20220706163549/https://assamtribune.com/parties-condemn-police-action
     date: 2012-12-22
     type: news
   - id: s5
     title: Justice Verma Committee report summary
     publisher: PRS Legislative Research
     url: https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary
+    archive_date: 2021-04-01
+    archive_url: https://web.archive.org/web/20210401141921/https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary
     date: 2013-01-23
     type: official
   - id: s6
     title: "Delhi page: Nine metro stations shut; BJP seeks judicial inquiry into lathicharge"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2012/20121225/delhi.htm
+    archive_date: 2012-12-31
+    archive_url: https://web.archive.org/web/20121231000624/https://www.tribuneindia.com/2012/20121225/delhi.htm
     date: 2012-12-25
     type: news
 tags: [delhi, section_144, lathi_charge, tear_gas, barricading, womens_safety, commission_of_inquiry, upa]

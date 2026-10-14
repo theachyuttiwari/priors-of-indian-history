@@ -116,66 +116,88 @@ sources:
     title: Indian wrestlers resume protest against federation chief
     publisher: Al Jazeera
     url: https://www.aljazeera.com/sports/2023/4/24/indian-wrestlers-resume-protest-against-federation-chief
+    archive_date: 2023-04-24
+    archive_url: https://web.archive.org/web/20230424121709/https://www.aljazeera.com/sports/2023/4/24/indian-wrestlers-resume-protest-against-federation-chief
     date: 2023-04-24
     type: news
   - id: s2
     title: FIR against Brij Bhushan today, SC told; court directs Delhi Police to assess threat to complainants
     publisher: ThePrint
     url: https://theprint.in/judiciary/fir-against-brij-bhushan-today-sc-told-court-directs-delhi-police-to-assess-threat-to-complainants/1544250/
+    archive_date: 2023-04-30
+    archive_url: https://web.archive.org/web/20230430054726/https://theprint.in/judiciary/fir-against-brij-bhushan-today-sc-told-court-directs-delhi-police-to-assess-threat-to-complainants/1544250/
     date: 2023-04-28
     type: news
   - id: s3
     title: Why are top Indian wrestlers protesting on the streets?
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2023/5/4/why-are-top-indian-wrestlers-protesting-on-the-streets
+    archive_date: 2023-05-04
+    archive_url: https://web.archive.org/web/20230504043502/https://www.aljazeera.com/news/2023/5/4/why-are-top-indian-wrestlers-protesting-on-the-streets
     date: 2023-05-04
     type: news
   - id: s4
     title: "Mahila Maha Panchayat: Farmers detained in Haryana, police clears protest site at Jantar Mantar"
     publisher: Onmanorama
     url: https://www.onmanorama.com/news/india/2023/05/28/mahila-maha-panchayat-farmers-detained-sakshi-malik-vinesh-phogat-bajrang-punia-jantar-mantar-protest.html
+    archive_date: 2023-05-29
+    archive_url: https://web.archive.org/web/20230529024214/https://www.onmanorama.com/news/india/2023/05/28/mahila-maha-panchayat-farmers-detained-sakshi-malik-vinesh-phogat-bajrang-punia-jantar-mantar-protest.html
     date: 2023-05-28
     type: news
   - id: s5
     title: Protesting wrestlers say they will immerse medals into Ganga, begin hunger strike
     publisher: Scroll
     url: https://scroll.in/field/1050052/protesting-wrestlers-say-they-will-immerse-medals-into-ganga-today-begin-hunger-strike
+    archive_date: 2023-05-30
+    archive_url: https://web.archive.org/web/20230530081920/https://scroll.in/field/1050052/protesting-wrestlers-say-they-will-immerse-medals-into-ganga-today-begin-hunger-strike
     date: 2023-05-30
     type: news
   - id: s6
     title: "'If No Action Taken by June 15, We'll Resume Protest': Bajrang Punia After Meeting Anurag Thakur"
     publisher: The Wire
     url: https://thewire.in/government/wrestlers-protest-anurag-thakur-discussion
+    archive_date: 2023-06-07
+    archive_url: https://web.archive.org/web/20230607032723/https://thewire.in/government/wrestlers-protest-anurag-thakur-discussion
     date: 2023-06-07
     type: news
   - id: s7
     title: Chargesheet weak, shows cops protecting Brij Bhushan Singh, says protesting wrestler
     publisher: ThePrint
     url: https://theprint.in/india/chargesheet-weak-shows-cops-protecting-brij-bhushan-singh-says-protesting-wrestler/1627288/
+    archive_date: 2023-06-15
+    archive_url: https://web.archive.org/web/20230615085339/https://theprint.in/india/chargesheet-weak-shows-cops-protecting-brij-bhushan-singh-says-protesting-wrestler/1627288/
     date: 2023-06-15
     type: news
   - id: s8
     title: "'Congress puppets' - BJP's Babita Phogat denies she got wrestlers police nod for Jantar Mantar protest"
     publisher: ThePrint
     url: https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/
+    archive_date: 2023-06-18
+    archive_url: https://web.archive.org/web/20230618085848/https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/
     date: 2023-06-18
     type: news
   - id: s9
     title: "'Motive is to protect the accused': Sidhu lends support to protesting wrestlers"
     publisher: ThePrint
     url: https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/
+    archive_date: 2023-05-02
+    archive_url: https://web.archive.org/web/20230502113735/https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/
     date: 2023-05-01
     type: news
   - id: s10
     title: "'World is watching': Indian police drag away protesting wrestlers"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2023/5/28/world-is-watching-indian-police-drag-away-protesting-wrestlers
+    archive_date: 2023-05-28
+    archive_url: https://web.archive.org/web/20230528125249/https://www.aljazeera.com/news/2023/5/28/world-is-watching-indian-police-drag-away-protesting-wrestlers
     date: 2023-05-28
     type: news
   - id: s11
     title: Brij Bhushan issued notice, wrestlers' plea challenging acquittal flags 'assumptions on victim behaviour'
     publisher: ThePrint
     url: https://theprint.in/judiciary/brij-bhushan-issued-notice-wrestlers-plea-challenging-acquittal-flags-assumptions-on-victim-behaviour/3055490/
+    archive_date: 2026-09-29
+    archive_url: https://web.archive.org/web/20260929122115/https://theprint.in/judiciary/brij-bhushan-issued-notice-wrestlers-plea-challenging-acquittal-flags-assumptions-on-victim-behaviour/3055490/
     date: 2026-09-28
     type: news
 tags: [wrestlers, sexual_harassment, delhi, jantar_mantar, detention, fir]

@@ -120,54 +120,72 @@ sources:
     title: India police storm Jamia, AMU to break citizenship law protests
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/12/16/india-police-storm-jamia-amu-to-break-citizenship-law-protests
+    archive_date: 2020-10-10
+    archive_url: https://web.archive.org/web/20201010042011/https://www.aljazeera.com/news/2019/12/16/india-police-storm-jamia-amu-to-break-citizenship-law-protests
     date: 2019-12-16
     type: news
   - id: s2
     title: "Jamia violence: Two Delhi police officers fired guns during CAA protests, reveals internal inquiry"
     publisher: Scroll.in
     url: https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry
+    archive_date: 2020-01-05
+    archive_url: https://web.archive.org/web/20200105112436/https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry
     date: 2020-01-05
     type: news
   - id: s3
     title: "Internet Shutdown: Lucknow Till December 21, Dakshina Kannada for 48 Hours"
     publisher: The Wire
     url: https://thewire.in/rights/internet-shutdown-lucknow-karnataka-caa
+    archive_date: 2019-12-20
+    archive_url: https://web.archive.org/web/20191220103316/https://thewire.in/rights/internet-shutdown-lucknow-karnataka-caa
     date: 2019-12-20
     type: news
   - id: s4
     title: BJP-ruled state tops death toll in India citizenship law protests
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/12/modi-summons-ministers-india-protests-death-toll-increases-191221063611978.html
+    archive_date: 2019-12-21
+    archive_url: https://web.archive.org/web/20191221101623/https://www.aljazeera.com/news/2019/12/modi-summons-ministers-india-protests-death-toll-increases-191221063611978.html
     date: 2019-12-21
     type: news
   - id: s5
     title: Internet banned in India's Uttar Pradesh amid anger over killings
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/12/internet-banned-india-uttar-pradesh-anger-killings-191227060434667.html
+    archive_date: 2019-12-27
+    archive_url: https://web.archive.org/web/20191227111932/https://www.aljazeera.com/news/2019/12/internet-banned-india-uttar-pradesh-anger-killings-191227060434667.html
     date: 2019-12-27
     type: news
   - id: s6
     title: "'Go to Pakistan', says India officer as leader praises crackdown"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown
+    archive_date: 2020-10-31
+    archive_url: https://web.archive.org/web/20201031114308/https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown
     date: 2019-12-28
     type: news
   - id: s7
     title: "'Shameless': Allahabad HC orders removal of posters with CAA protestors' addresses in UP"
     publisher: Scroll.in
     url: https://scroll.in/latest/955621/caa-allahabad-hc-orders-removal-of-all-posters-with-protestors-photos-and-addresses
+    archive_date: 2020-03-10
+    archive_url: https://web.archive.org/web/20200310202500/https://scroll.in/latest/955621/caa-allahabad-hc-orders-removal-of-all-posters-with-protestors-photos-and-addresses
     date: 2020-03-09
     type: news
   - id: s8
     title: "Delhi Police Removes Jamia Graffiti, Twitter Reminds Them of Their 'Priorities'"
     publisher: The Quint
     url: https://www.thequint.com/news/india/jamia-graffiti-art-shaheen-bagh-anti-caa-protest-removed-reactions
+    archive_date: 2020-03-25
+    archive_url: https://web.archive.org/web/20200325143056/https://www.thequint.com/news/india/jamia-graffiti-art-shaheen-bagh-anti-caa-protest-removed-reactions
     date: 2020-03-24
     type: news
   - id: s9
     title: "Covid-19: Delhi court grants bail to three Shaheen Bagh protestors accused of defying lockdown"
     publisher: Scroll.in
     url: https://scroll.in/latest/957675/covid-19-delhi-court-grants-bail-to-three-shaheen-bagh-protestors-accused-of-defying-lockdown
+    archive_date: 2020-03-31
+    archive_url: https://web.archive.org/web/20200331193106/https://scroll.in/latest/957675/covid-19-delhi-court-grants-bail-to-three-shaheen-bagh-protestors-accused-of-defying-lockdown
     date: 2020-03-30
     type: news
   - id: s10
@@ -175,18 +193,24 @@ sources:
     publisher: Supreme Court of India
     tier: court
     url: https://api.sci.gov.in/supremecourt/2020/2418/2418_2020_36_1501_24294_Judgement_07-Oct-2020.pdf
+    archive_date: 2025-06-14
+    archive_url: https://web.archive.org/web/20250614163353/https://api.sci.gov.in/supremecourt/2020/2418/2418_2020_36_1501_24294_Judgement_07-Oct-2020.pdf
     date: 2020-10-07
     type: court_judgment
   - id: s11
     title: Delhi Assembly Passes Resolution Against NPR in Present Form
     publisher: The Wire
     url: https://thewire.in/government/delhi-assembly-resolution-npr-kejriwal
+    archive_date: 2020-03-14
+    archive_url: https://web.archive.org/web/20200314150428/https://thewire.in/government/delhi-assembly-resolution-npr-kejriwal
     date: 2020-03-13
     type: news
   - id: s12
     title: "CAA protests: 16 killed so far in Uttar Pradesh; 15 arrested from Delhi's Daryaganj"
     publisher: Scroll.in
     url: https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
+    archive_date: 2019-12-21
+    archive_url: https://web.archive.org/web/20191221041838/https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
     date: 2019-12-21
     type: news
 tags: [delhi, uttar_pradesh, caa, students, internet_shutdown, section_144, lathi_charge, tear_gas, supreme_court, bjp, aap]

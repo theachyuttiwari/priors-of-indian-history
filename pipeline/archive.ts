@@ -52,8 +52,18 @@ async function existing(url: string, date?: string): Promise<Snapshot | undefine
   return undefined;
 }
 
-/** Ask Save Page Now for a capture and wait for it. */
+/** Ask Save Page Now for a capture and wait for it. A network error skips the source, not the run. */
 async function capture(url: string): Promise<Snapshot | undefined> {
+  try {
+    return await captureOnce(url);
+  } catch {
+    // Refused connections usually mean rate limiting: wait before the next source.
+    await sleep(60000);
+    return undefined;
+  }
+}
+
+async function captureOnce(url: string): Promise<Snapshot | undefined> {
   const headers: Record<string, string> = {
     "User-Agent": UA,
     Accept: "application/json",

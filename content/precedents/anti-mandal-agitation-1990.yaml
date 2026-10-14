@@ -70,30 +70,40 @@ sources:
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Mandal_Commission
+    archive_date: 2026-09-10
+    archive_url: https://web.archive.org/web/20260910051440/https://en.wikipedia.org/wiki/Mandal_Commission
     type: archive
   - id: s2
     title: Mandal Commission protests of 1990
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
+    archive_date: 2026-08-06
+    archive_url: https://web.archive.org/web/20260806103249/https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
     type: archive
   - id: s3
     title: Indra Sawhney & Others v. Union of India
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
+    archive_date: 2025-12-22
+    archive_url: https://web.archive.org/web/20251222075249/https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
     type: archive
   - id: s4
     title: V. P. Singh
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/V._P._Singh
+    archive_date: 2026-10-02
+    archive_url: https://web.archive.org/web/20261002180351/https://en.wikipedia.org/wiki/V._P._Singh
     type: archive
   - id: s5
     title: Rajiv Goswami
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Rajiv_Goswami
+    archive_date: 2026-10-04
+    archive_url: https://web.archive.org/web/20261004020752/https://en.wikipedia.org/wiki/Rajiv_Goswami
     type: archive
 tags: [reservation, students, self_immolation, firing, delhi, supreme_court]
 review:

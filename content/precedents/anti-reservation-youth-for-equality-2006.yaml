@@ -160,6 +160,8 @@ sources:
     title: Medical students march towards PMO; police use water cannon, teargas (Delhi page)
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060513/delhi.htm
+    archive_date: 2006-08-22
+    archive_url: https://web.archive.org/web/20060822025728/https://www.tribuneindia.com/2006/20060513/delhi.htm
     date: 2006-05-13
     type: news
   - id: s3
@@ -167,30 +169,40 @@ sources:
     publisher: Oneindia
     wire: UNI
     url: https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
+    archive_date: 2019-10-19
+    archive_url: https://web.archive.org/web/20191019183211/https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
     date: 2006-05-16
     type: news
   - id: s4
     title: "No relook at quota proposals: Arjun Singh"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060515/main1.htm
+    archive_date: 2006-05-21
+    archive_url: https://web.archive.org/web/20060521134837/https://www.tribuneindia.com/2006/20060515/main1.htm
     date: 2006-05-15
     type: news
   - id: s5
     title: Panel working out formula, but strikers adamant
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060520/main2.htm
+    archive_date: 2022-01-21
+    archive_url: https://web.archive.org/web/20220121061148/https://www.tribuneindia.com/2006/20060520/main2.htm
     date: 2006-05-20
     type: news
   - id: s6
     title: PM cautious on quota
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060521/main1.htm
+    archive_date: 2006-12-12
+    archive_url: https://web.archive.org/web/20061212210126/https://www.tribuneindia.com/2006/20060521/main1.htm
     date: 2006-05-21
     type: news
   - id: s7
     title: Medicos reject PM's plea, stir will continue
     publisher: Arab News
     url: https://www.arabnews.com/node/285058
+    archive_date: 2012-11-14
+    archive_url: https://web.archive.org/web/20121114224652/https://www.arabnews.com/node/285058
     date: 2006-05-22
     type: news
   - id: s8
@@ -224,6 +236,8 @@ sources:
     title: Supreme Court warns striking doctors
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060531/main2.htm
+    archive_date: 2021-12-08
+    archive_url: https://web.archive.org/web/20211208193644/https://www.tribuneindia.com/2006/20060531/main2.htm
     date: 2006-05-31
     type: news
   - id: s13
@@ -237,24 +251,32 @@ sources:
     title: Medicos end stir; IITs to continue anti-quota agitation
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060601/main1.htm
+    archive_date: 2006-12-12
+    archive_url: https://web.archive.org/web/20061212184603/https://www.tribuneindia.com/2006/20060601/main1.htm
     date: 2006-06-01
     type: news
   - id: s15
     title: Indian doctors call off strike
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2006/5/31/indian-doctors-call-off-strike
+    archive_date: 2025-06-13
+    archive_url: https://web.archive.org/web/20250613080816/https://www.aljazeera.com/news/2006/5/31/indian-doctors-call-off-strike
     date: 2006-05-31
     type: news
   - id: s16
     title: The Central Educational Institutions (Reservation in Admission) Bill, 2006 (bill track)
     publisher: PRS Legislative Research
     url: https://prsindia.org/billtrack/the-central-educational-institutions-reservation-in-admission-bill-2006
+    archive_date: 2021-05-12
+    archive_url: https://web.archive.org/web/20210512172951/https://prsindia.org/billtrack/the-central-educational-institutions-reservation-in-admission-bill-2006
     date: 2006-12-18
     type: official
   - id: s17
     title: The Central Educational Institutions (Reservation in Admission) Act, 2006 (No. 5 of 2007)
     publisher: PRS Legislative Research (Act text)
     url: https://prsindia.org/files/bills_acts/acts_parliament/2006/the-central-educational-institutions-(reservation-in-admission)-act-2006.pdf
+    archive_date: 2021-09-17
+    archive_url: https://web.archive.org/web/20210917024203/https://prsindia.org/files/bills_acts/acts_parliament/2006/the-central-educational-institutions-(reservation-in-admission)-act-2006.pdf
     date: 2007-01-03
     type: official
   - id: s18
@@ -262,12 +284,16 @@ sources:
     publisher: Supreme Court of India (Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/1219385/
+    archive_date: 2012-06-23
+    archive_url: https://web.archive.org/web/20120623045914/https://indiankanoon.org/doc/1219385/
     date: 2008-04-10
     type: court_judgment
   - id: s19
     title: Violent pro-quota medicos lathi-charged, 35 injured; Bihar CM seeks report
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060520/main1.htm
+    archive_date: 2006-12-12
+    archive_url: https://web.archive.org/web/20061212210115/https://www.tribuneindia.com/2006/20060520/main1.htm
     date: 2006-05-20
     type: news
 tags: [reservation, obc, students, doctors, delhi, mumbai, aiims, lathi_charge, supreme_court, upa]
