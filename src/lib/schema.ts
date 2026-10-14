@@ -73,6 +73,35 @@ const OptStr = z
   .nullish()
   .transform((v) => v ?? undefined);
 
+/**
+ * Evidence tiers, rated by the kind of evidence, never by the outlet. See docs/proposal-phase1-rules.html.
+ * record T1, court T2, recording T3, report T4, secondary T5, lead T6 (never enough alone).
+ */
+export const TIERS = ["record", "court", "recording", "report", "secondary", "lead"] as const;
+export type Tier = (typeof TIERS)[number];
+export const TIER_META: Record<Tier, { rank: number; label: string; help: string }> = {
+  record: { rank: 1, label: "Record", help: "The order, gazette, FIR, debate or the speaker's own words" },
+  court: { rank: 2, label: "Court", help: "A judgment, court order, affidavit or inquiry report" },
+  recording: { rank: 3, label: "Recording", help: "A full recording or verbatim transcript" },
+  report: { rank: 4, label: "Report", help: "Contemporaneous reporting by a named reporter" },
+  secondary: { rank: 5, label: "Secondary", help: "Wire copy, unnamed byline, analysis or an NGO report" },
+  lead: { rank: 6, label: "Lead", help: "Wikipedia, a fact-check or an aggregator. Never enough alone" },
+};
+
+export const WIRES = ["PTI", "ANI", "UNI", "IANS", "Reuters", "AFP", "AP"] as const;
+export type Wire = (typeof WIRES)[number];
+
+/** archive.today and its mirrors. Not allowed as an archive: its operators altered archived pages. */
+export const BANNED_ARCHIVE_HOSTS = [
+  "archive.today",
+  "archive.ph",
+  "archive.is",
+  "archive.li",
+  "archive.vn",
+  "archive.md",
+  "archive.fo",
+];
+
 const Source = z.object({
   id: z.string(),
   title: z.string(),
@@ -80,6 +109,18 @@ const Source = z.object({
   url: z.string(),
   date: DateStr.nullish().transform((v) => v ?? undefined),
   type: z.enum(["news", "court_judgment", "official", "academic", "book", "archive"]).optional().default("news"),
+  tier: z.enum(TIERS).optional(),
+  /** The wire service whose copy this is. All copies of one wire story count as one source. */
+  wire: z.enum(WIRES).optional(),
+  /** Named reporter or author. A news report with no named reporter is secondary, not report. */
+  author: OptStr,
+  /** ISO 639-1 code of the source text. */
+  language: z.string().optional().default("en"),
+  /** Wayback Machine snapshot. */
+  archive_url: OptStr,
+  archive_date: DateStr.nullish().transform((v) => v ?? undefined),
+  /** When a person or the pipeline last opened the source. */
+  accessed: DateStr.nullish().transform((v) => v ?? undefined),
 });
 
 const Government = z.object({
@@ -90,12 +131,51 @@ const Government = z.object({
   name: OptStr,
 });
 
+/** What kind of fact a claim is. Each kind has its own minimum evidence. */
+export const CLAIMS = ["ordered", "happened", "held"] as const;
+export type Claim = (typeof CLAIMS)[number];
+
+const Figure = z.object({
+  what: z.string(),
+  value: z.string(),
+  claimed_by: z.string(),
+  source: z.string(),
+});
+
+const CourtOutcome = z.object({
+  summary: z.string(),
+  source: z.string(),
+});
+
 const Action = z.object({
   type: z.enum(ACTION_TYPES),
   date: DateStr.nullish().transform((v) => v ?? undefined),
   description: z.string(),
   actor: z.enum(["centre", "state", "police", "court", "other"]).optional().default("state"),
   sources: z.array(z.string()).optional().default([]),
+  /** Overrides the claim kind inferred from type and actor. */
+  claim: z.enum(CLAIMS).optional(),
+  /** The law the state invoked, as named in the order where possible. */
+  legal_basis: OptStr,
+  court_outcomes: z.array(CourtOutcome).optional().default([]),
+  /** Disputed numbers, each with who gave it. */
+  figures: z.array(Figure).optional().default([]),
+});
+
+export const STATEMENT_KINDS = ["verbatim", "translated", "paraphrase"] as const;
+export type StatementKind = (typeof STATEMENT_KINDS)[number];
+
+const Quote = z.object({
+  /** The exact words as published, in English. */
+  text: z.string(),
+  /** Required for translated quotes: the words in the original language. */
+  original: OptStr,
+  language: OptStr,
+  /** Who translated: the source itself, or Priors. Machine translation is not allowed. */
+  translated_by: z.enum(["source", "priors"]).optional(),
+  /** Timestamp, paragraph or page where the words appear. */
+  locator: OptStr,
+  source: z.string(),
 });
 
 const Position = z.object({
@@ -106,6 +186,21 @@ const Position = z.object({
   date: DateStr.nullish().transform((v) => v ?? undefined),
   statement: z.string(),
   sources: z.array(z.string()).optional().default([]),
+  /** verbatim and translated statements carry a quote. Only quote text goes in quote marks. */
+  kind: z.enum(STATEMENT_KINDS).optional(),
+  quote: Quote.optional(),
+});
+
+const Correction = z.object({
+  date: DateStr,
+  kind: z.enum(["correction", "clarification", "update"]),
+  note: z.string(),
+});
+
+const Review = z.object({
+  status: z.enum(["draft", "checked", "verified"]),
+  by: OptStr,
+  date: DateStr.nullish().transform((v) => v ?? undefined),
 });
 
 export const Precedent = z.object({
@@ -150,6 +245,8 @@ export const Precedent = z.object({
   related_precedents: z.array(z.string()).optional().default([]),
   generated_by: z.string().optional(),
   reviewed: z.boolean().optional(),
+  review: Review.optional(),
+  corrections: z.array(Correction).optional().default([]),
   last_updated: DateStr.optional(),
 });
 
@@ -157,3 +254,6 @@ export type Precedent = z.infer<typeof Precedent>;
 export type Action = z.infer<typeof Action>;
 export type Position = z.infer<typeof Position>;
 export type Source = z.infer<typeof Source>;
+export type Quote = z.infer<typeof Quote>;
+export type Figure = z.infer<typeof Figure>;
+export type Correction = z.infer<typeof Correction>;
