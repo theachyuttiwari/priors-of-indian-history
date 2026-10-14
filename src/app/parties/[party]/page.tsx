@@ -4,6 +4,7 @@ import StatementText from "@/components/StatementText";
 import { allParties, partyRecord, fmtDate, type PartyRecord, isCurrent, entryHref } from "@/lib/content";
 import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
+import PartyFlag from "@/components/PartyFlag";
 import PrecedentRow from "@/components/PrecedentRow";
 import Glyph from "@/components/Glyph";
 
@@ -55,7 +56,10 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
         <Link href="/parties/" className="link small">
           Parties
         </Link>
-        <h1 className="t-1 mt-4">{party}</h1>
+        <h1 className="t-1 mt-4 flex items-center gap-3">
+          <PartyFlag party={party} scale={2} />
+          {party}
+        </h1>
         <p className="small num mt-3">
           {r.inPower.length} cases while in power, {r.statementsInPower.length} statements in power,{" "}
           {r.statementsInOpposition.length} in opposition

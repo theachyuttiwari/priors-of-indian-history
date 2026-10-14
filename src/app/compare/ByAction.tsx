@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import Glyph from "@/components/Glyph";
+import PartyFlag from "@/components/PartyFlag";
 
 type Row = { party: string; slug: string; cases: number; counts: Partial<Record<ActionType, number>> };
 
@@ -37,8 +38,13 @@ export default function ByAction({ rows, types, initial }: { rows: Row[]; types:
           const v = r.counts[type] ?? 0;
           return (
             <li key={r.party} className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1.5 py-3 items-baseline">
-              <Link href={`/parties/${r.slug}/`} className="quiet font-semibold truncate" title={r.party}>
-                {r.party}
+              <Link
+                href={`/parties/${r.slug}/`}
+                className="quiet font-semibold truncate inline-flex items-center gap-2"
+                title={r.party}
+              >
+                <PartyFlag party={r.party} />
+                <span className="truncate">{r.party}</span>
               </Link>
               <span className={`num text-right ${v ? "" : "text-ink-3"}`}>{v}</span>
               <span className="col-span-2 flex items-center gap-3">

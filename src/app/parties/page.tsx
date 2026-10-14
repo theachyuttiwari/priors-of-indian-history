@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { allParties, partyRecord } from "@/lib/content";
 import { partySlug } from "@/components/PartyMark";
+import PartyFlag from "@/components/PartyFlag";
 import ActionChip from "@/components/ActionChip";
 import { ACTION_TYPES } from "@/lib/schema";
 
@@ -25,7 +26,10 @@ export default function PartiesPage() {
               className="quiet grid gap-2 py-5 md:grid-cols-[16rem_1fr] items-baseline group"
             >
               <span>
-                <span className="row-title group-hover:underline underline-offset-4 decoration-1">{party}</span>
+                <span className="inline-flex items-baseline gap-2">
+                  <PartyFlag party={party} />
+                  <span className="row-title group-hover:underline underline-offset-4 decoration-1">{party}</span>
+                </span>
                 <span className="block small num mt-0.5">
                   {r.inPower.length} cases in power, {r.statementsInOpposition.length} statements in opposition
                 </span>
