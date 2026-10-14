@@ -1,15 +1,8 @@
 import Link from "next/link";
 import type { ActionType, Precedent } from "@/lib/schema";
-import { fmtPeriod } from "@/lib/content";
+import { fmtPeriod, years } from "@/lib/format";
 import ActionChip from "./ActionChip";
 import { GroupGlyphs } from "./Glyph";
-
-export function years(start: string, end?: string | null) {
-  const s = start.slice(0, 4);
-  if (end === null || end === undefined) return `${s}–`;
-  const e = end.slice(0, 4);
-  return e === s ? s : `${s}–${e.slice(2)}`;
-}
 
 /** One precedent as a row with one hairline. `detail` adds the summary and labelled chips. */
 export default function PrecedentRow({

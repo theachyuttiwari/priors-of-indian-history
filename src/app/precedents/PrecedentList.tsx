@@ -1,6 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { years } from "@/lib/format";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import { GroupGlyphs } from "@/components/Glyph";
 
@@ -15,13 +16,6 @@ type Item = {
   types: ActionType[];
   states: string[];
 };
-
-function years(start: string, end: string | null) {
-  const s = start.slice(0, 4);
-  if (end === null) return `${s}–`;
-  const e = end.slice(0, 4);
-  return e === s ? s : `${s}–${e.slice(2)}`;
-}
 
 export default function PrecedentList({ items }: { items: Item[] }) {
   const [party, setParty] = useState<string>("");

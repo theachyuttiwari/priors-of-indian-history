@@ -2,7 +2,11 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
+import { year } from "./format";
 import { ACTION_TYPES, ACTION_META, Precedent, type ActionType } from "./schema";
+import { isContentFile } from "./validate";
+
+export { fmtDate, fmtPeriod, year, years } from "./format";
 
 const ROOT = path.join(process.cwd(), "content");
 
@@ -27,7 +31,7 @@ function loadDir(dir: string): Precedent[] {
   if (!fs.existsSync(full)) return [];
   const out: Precedent[] = [];
   for (const f of fs.readdirSync(full).sort()) {
-    if (!f.endsWith(".yaml") && !f.endsWith(".yml")) continue;
+    if (!isContentFile(f)) continue;
     const raw = YAML.parse(fs.readFileSync(path.join(full, f), "utf8"));
     const parsed = Precedent.safeParse(raw);
     if (!parsed.success) {
@@ -78,26 +82,6 @@ export function siteUpdated(): string {
   return dates.sort().at(-1) ?? new Date().toISOString().slice(0, 10);
 }
 
-export function year(d: string): string {
-  return d.slice(0, 4);
-}
-
-export function fmtDate(d?: string | null): string {
-  if (!d) return "";
-  const [y, m, day] = d.split("-");
-  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  if (!m) return y;
-  if (!day) return `${months[+m - 1]} ${y}`;
-  return `${+day} ${months[+m - 1]} ${y}`;
-}
-
-export function fmtPeriod(p: Precedent["period"]): string {
-  const s = fmtDate(p.start);
-  if (p.end === null || p.end === undefined) return `${s} – ongoing`;
-  if (year(p.start) === year(p.end) && p.start === p.end) return s;
-  return `${s} – ${fmtDate(p.end)}`;
-}
-
 /** The government that handled the protest. State govt if present, else centre. */
 export function handlingParties(p: Precedent): string[] {
   const set = new Set<string>();
@@ -123,8 +107,9 @@ export type PartyRecord = {
   statementsInOpposition: { p: Precedent; pos: Precedent["positions"][number] }[];
 };
 
-/** Which actions does an actor attribute to? centre actions go to centre party, state/police to state party (or centre if no state). */
-function actionParties(p: Precedent, actor: string): string[] {
+/** The party an action counts for. Centre actions count for the centre party; state, police and other actions
+ * for the state party (or the centre where no state government is recorded); court actions for nobody. */
+export function actionParties(p: Precedent, actor: string): string[] {
   if (actor === "court") return [];
   if (actor === "centre") return [p.government.centre.party];
   if (p.government.state) return [p.government.state.party];
