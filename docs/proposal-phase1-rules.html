@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Priors phase 1 rules: what gets in, and how it is sourced</title>
+<style>
+:root {
+  --bg: #ffffff; --surface: #f5f5f7; --ink: #1d1d1f; --ink-2: #515154; --ink-3: #86868b; --line: #d2d2d7;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #000; --surface: #1c1c1e; --ink: #f5f5f7; --ink-2: #c7c7cc; --ink-3: #8e8e93; --line: #38383a; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 var(--font); -webkit-font-smoothing: antialiased; padding: 0 18px 96px; }
+.wrap { max-width: 760px; margin: 0 auto; }
+h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.08; letter-spacing: -0.02em; margin: 56px 0 12px; }
+h2 { font-size: 26px; letter-spacing: -0.01em; margin: 64px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+h3 { font-size: 18px; margin: 32px 0 6px; }
+p, li { color: var(--ink-2); }
+strong { color: var(--ink); }
+.lede { font-size: 20px; color: var(--ink-2); }
+.small { font-size: 14px; color: var(--ink-3); }
+code { font: 14px var(--mono); background: var(--surface); padding: 1px 5px; border-radius: 5px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 12px 0; }
+th, td { text-align: left; vertical-align: top; padding: 9px 10px 9px 0; border-bottom: 1px solid var(--line); }
+th { font-weight: 600; color: var(--ink); font-size: 13px; }
+td:first-child { white-space: nowrap; font-weight: 600; color: var(--ink); }
+.scroll { overflow-x: auto; }
+.panel { background: var(--surface); border-radius: 16px; padding: 18px 20px; margin: 16px 0; }
+.ask { border-left: 3px solid var(--ink); padding: 2px 0 2px 16px; margin: 18px 0; }
+.ask p { margin: 4px 0; }
+.ask .q { color: var(--ink); font-weight: 600; }
+.rec { font-size: 14px; color: var(--ink-3); }
+.bars { display: grid; grid-template-columns: 4.5rem 1fr 2rem; gap: 6px 10px; align-items: center; font-size: 14px; margin: 12px 0; }
+.bar { height: 14px; background: var(--ink); border-radius: 3px; }
+.bar.zero { background: none; border: 1px dashed var(--line); height: 14px; }
+.gates { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 16px 0 12px; }
+@media (min-width: 640px) { .gates { grid-template-columns: repeat(4, 1fr); } }
+.gate { background: var(--surface); border-radius: 14px; padding: 14px; }
+.gate b { display: block; color: var(--ink); font-size: 15px; }
+.gate span { display: block; font-size: 14px; line-height: 1.4; color: var(--ink-2); margin-top: 4px; }
+.result { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.pill { background: var(--ink); color: var(--bg); border-radius: 999px; padding: 6px 14px; font-size: 15px; font-weight: 600; }
+svg text { font-family: var(--font); fill: var(--ink); }
+svg .muted { fill: var(--ink-3); }
+svg .box { fill: var(--surface); stroke: var(--line); }
+svg .line { stroke: var(--ink-3); fill: none; }
+ol.steps li { margin: 6px 0; }
+.toc a { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Phase 1 rules</h1>
+<p class="lede">Two decisions are needed before Priors goes public. Which protests get in? And what evidence must each claim have?</p>
+<p class="small">Draft for the owner, 15 Oct 2026. Based on <code>docs/integrity-research.md</code> (about 130 sources opened) and the current content. Nothing here is built yet.</p>
+
+<div class="panel toc">
+  <strong>On this page</strong>
+  <ol>
+    <li><a href="#criteria">What counts as a protest</a>: no written rule exists today</li>
+    <li><a href="#ladder">The evidence ladder</a>: rate the evidence, not the outlet</li>
+    <li><a href="#build">What gets built, in order</a></li>
+    <li><a href="#decide">Decisions for you</a>: 9 questions</li>
+  </ol>
+</div>
+
+<!-- ───────────────────────────── 1 ───────────────────────────── -->
+<h2 id="criteria">1. What counts as a protest</h2>
+
+<p><strong>Today there is no written rule.</strong> The first build session chose 26 precedents by hand. That is a problem for a neutral record. The choice of cases shapes every comparison. A reader can fairly ask: why this protest and not that one?</p>
+
+<h3>Where the current 26 fall</h3>
+<p class="small">Precedents by the decade they started.</p>
+<div class="bars">
+  <span>1950s</span><span class="bar zero" style="width:2%"></span><span>0</span>
+  <span>1960s</span><span class="bar zero" style="width:2%"></span><span>0</span>
+  <span>1970s</span><span class="bar" style="width:20%"></span><span>2</span>
+  <span>1980s</span><span class="bar" style="width:10%"></span><span>1</span>
+  <span>1990s</span><span class="bar" style="width:20%"></span><span>2</span>
+  <span>2000s</span><span class="bar" style="width:50%"></span><span>5</span>
+  <span>2010s</span><span class="bar" style="width:100%"></span><span>10</span>
+  <span>2020s</span><span class="bar" style="width:60%"></span><span>6</span>
+</div>
+<p>Delhi appears in 15 of 26 entries. Nothing comes before 1974. The 1980s have one entry. The northeast has one (Manipur 2023). This reflects what was easy to source online, not what happened.</p>
+
+<h3>Proposed test</h3>
+<p>An event gets in only if it passes all four gates. Anyone can apply the test, and the result does not depend on which party was in power.</p>
+
+<div class="gates" role="list" aria-label="Four gates an event must pass">
+  <div class="gate" role="listitem"><b>1 · A protest</b><span>Collective, public, non-electoral action that makes a demand of the state</span></div>
+  <div class="gate" role="listitem"><b>2 · State acted</b><span>At least one action from the closed list, including permission granted or talks</span></div>
+  <div class="gate" role="listitem"><b>3 · Significant</b><span>Any one of four objective markers (see below)</span></div>
+  <div class="gate" role="listitem"><b>4 · Sourceable</b><span>The core actions meet the minimum evidence in section 2</span></div>
+</div>
+<p class="result"><span class="pill">All four → in the record</span><span class="small">Fails a gate → listed as "considered, not included", with the gate it failed</span></p>
+
+<h3>Gate 1: what a protest is</h3>
+<ul>
+  <li><strong>In:</strong> marches, sit-ins, dharnas, hunger strikes, bandhs, strikes, road and rail blockades and gheraos. They count when people act together in public to press a demand on the Centre or a state government.</li>
+  <li><strong>Out:</strong> riots and communal violence with no demand on the state; armed insurgency; election campaign rallies; purely online campaigns.</li>
+  <li><strong>Edge cases</strong> (for example, a protest that turns violent) stay in. The record states both sides of what happened.</li>
+</ul>
+
+<h3>Gate 3: four markers of significance (any one is enough)</h3>
+<ol>
+  <li><strong>An official order</strong> was issued for it: Section 144 or 163, curfew, internet suspension, or a ban.</li>
+  <li><strong>A court</strong> issued an order or judgment about how the state handled it.</li>
+  <li><strong>A legislature</strong> discussed it: a question, a motion or a debate in Parliament or a state assembly.</li>
+  <li><strong>Sustained coverage:</strong> two independent outlets reported it on at least two separate days.</li>
+</ol>
+<p>Each marker is a public fact you can check. None of them depends on which side the outlet favours.</p>
+
+<h3>Balance without quotas</h3>
+<p>Priors should not pick cases to make the party numbers look even. That would be bias in the other direction. Instead:</p>
+<ul>
+  <li>Publish a <strong>coverage table</strong>: entries per party per year in power, and per state and decade. Gaps stay visible.</li>
+  <li>Find candidates in <strong>neutral sources</strong>, not from memory. Use Section 144 and shutdown judgments on Indian Kanoon, Lok Sabha and Rajya Sabha questions, the SFLC.in shutdown tracker and ACLED India (from 2016). Then fill the oldest and emptiest cells first.</li>
+  <li>Keep a public <strong>candidate list</strong>. Each candidate is marked included, or not included with the gate it failed.</li>
+</ul>
+<p class="small">Examples of candidates to test against the gates, not yet checked: the Samyukta Maharashtra movement (1956–60), the anti-Hindi agitation in Tamil Nadu (1965), the Navnirman Andolan (1974), the Assam movement (1979–85) and the Bodoland and Uttarakhand statehood movements.</p>
+
+<div class="ask">
+  <p class="q">Decision A. Adopt this four-gate test and the "balance without quotas" rule?</p>
+  <p class="rec">Recommended: yes. Start date 26 Jan 1950 (the Constitution), so every case sits under the same Article 19.</p>
+</div>
+
+<!-- ───────────────────────────── 2 ───────────────────────────── -->
+<h2 id="ladder">2. The evidence ladder</h2>
+
+<p>Every outlet looks biased to someone. So Priors rates each piece of evidence by its kind, not by the outlet that published it. This puts the same bar on every party. It also stays out of fights over which outlets are "reliable": ANI sued Wikipedia over its description of ANI.</p>
+
+<div class="scroll">
+<table>
+  <tr><th>Tier</th><th>Kind of evidence</th><th>Examples</th></tr>
+  <tr><td>T1</td><td>The record of the act or the words</td><td>Section 144/163 order, shutdown order, gazette, FIR, PIB release, edited Lok/Rajya Sabha debates, the speaker's own video</td></tr>
+  <tr><td>T2</td><td>Court or inquiry record</td><td>Judgment, order, affidavit, commission report</td></tr>
+  <tr><td>T3</td><td>Recording or verbatim transcript</td><td>Full video of a speech, press-conference transcript</td></tr>
+  <tr><td>T4</td><td>Contemporaneous report, named reporter</td><td>A bylined report from the scene</td></tr>
+  <tr><td>T5</td><td>Wire copy, unnamed byline, analysis</td><td>PTI/ANI/UNI copy, NGO reports, academic papers</td></tr>
+  <tr><td>T6</td><td>Leads only. Never cited alone.</td><td>Wikipedia, fact-checkers, aggregators</td></tr>
+</table>
+</div>
+
+<h3>The minimum evidence depends on the claim</h3>
+<div class="scroll">
+<table>
+  <tr><th>Claim</th><th>Minimum to publish</th></tr>
+  <tr><td>The state ordered X</td><td>One T1. Or a T2 that quotes the order. Or two independent T4.</td></tr>
+  <tr><td>A person said X</td><td>One T1 or T3 with a timestamp or page. Or two independent T4 with the same words.</td></tr>
+  <tr><td>X happened</td><td>Two independent sources at T4 or better, or one court finding. If sides disagree, show both.</td></tr>
+  <tr><td>A number</td><td>Each figure shown with who gave it: "Police: 20,000 · Organisers: 60,000".</td></tr>
+  <tr><td>A court held X</td><td>The judgment itself (T2).</td></tr>
+  <tr><td>"Excessive", "peaceful"</td><td>Only as a quote with the speaker named. Never in Priors' own voice.</td></tr>
+</table>
+</div>
+
+<h3>Three rules on top</h3>
+<ol>
+  <li><strong>One wire story is one source.</strong> PTI copy in five papers counts once. The data already has this problem: "Oneindia (UNI)" and "UNI via Oneindia" are the same wire written two ways.</li>
+  <li><strong>Official sources are authoritative only for what the state ordered or claimed.</strong> They do not settle contested facts. In <em>Anuradha Bhasin</em> (2020), the state first put only sample orders on record.</li>
+  <li><strong>No legal frame is imposed.</strong> Priors records the law the state used (for example, Section 163 BNSS) and what courts later held. It does not judge an action against Indian or US free-speech law.</li>
+</ol>
+
+<h3>Quotes</h3>
+<p>Each statement gets a <code>kind</code>: <strong>verbatim</strong>, <strong>translated</strong> or <strong>paraphrase</strong>. Only verbatim and translated text goes inside quote marks. A translated quote keeps the original-language text and says who translated it. Machine translation of quotes is not allowed. A script checks that each quote appears, word for word, in the archived copy of its source. A person still checks for clipping and context, because a script cannot.</p>
+
+<h3>Where the content stands against these rules</h3>
+<div class="scroll">
+<table>
+  <tr><th>Finding</th><th>Count</th></tr>
+  <tr><td>Statements that are paraphrases</td><td>54 of 153. These no longer show quote marks.</td></tr>
+  <tr><td>Statements with one source</td><td>129 of 153</td></tr>
+  <tr><td>Claims resting only on Wikipedia</td><td>18 actions and 9 statements, in 5 files. Example: the Emergency arrest totals in "side by side".</td></tr>
+  <tr><td>Sources with an archived copy</td><td>0</td></tr>
+</table>
+</div>
+
+<!-- ───────────────────────────── 3 ───────────────────────────── -->
+<h2 id="build">3. What gets built, in order</h2>
+<p>Each step ships alone, with tests, and leaves the site working.</p>
+<ol class="steps">
+  <li><strong>Schema and validator.</strong> Add <code>kind</code>, <code>quote</code>, source <code>tier</code>, <code>wire</code>, <code>language</code>, <code>archive_url</code> and <code>accessed</code>. The validator rejects a claim whose only sources are Wikipedia or fact-checkers, and rejects archive.today links. New rules start as warnings and become errors once the content passes.</li>
+  <li><strong>Archive script.</strong> <code>pipeline/archive.ts</code> saves each source to the Wayback Machine and records the snapshot.</li>
+  <li><strong>Quote matcher.</strong> It fetches each archived page, normalises the text and checks each quote. It runs in CI and before review.</li>
+  <li><strong>Review record and corrections.</strong> <code>review: {status, by, date}</code> replaces <code>reviewed: true/false</code>. Each entry gets a corrections list, and there is a public <code>/corrections</code> page. CI requires a correction note when published text changes.</li>
+  <li><strong>UI.</strong> A tier badge on each source, "original" and "archived" links, a "Paraphrase" label, attributed numbers and a "single source" mark. All are designed at 390px first.</li>
+  <li><strong>Content pass.</strong> Re-source the Wikipedia-only claims and the 6 thin files. Then mark every statement's kind.</li>
+  <li><strong>Docs.</strong> CONTRIBUTING (sourcing), the editorial and corrections policy, and the Code of Conduct.</li>
+  <li><strong>Coverage table and candidate list,</strong> if you adopt Decision A.</li>
+</ol>
+
+<!-- ───────────────────────────── 4 ───────────────────────────── -->
+<h2 id="decide">4. Decisions for you</h2>
+
+<div class="ask"><p class="q">A. Inclusion test.</p><p>Adopt the four gates, the start date and "balance without quotas"?</p><p class="rec">Recommended: yes.</p></div>
+
+<div class="ask"><p class="q">B. Evidence ladder.</p><p>Adopt the six tiers, the minimum for each claim type and the three rules?</p><p class="rec">Recommended: yes.</p></div>
+
+<div class="ask"><p class="q">C. Single-source statements (129 of 153).</p><p>Hide them until they reach the minimum, or show them with a "single source" mark?</p><p class="rec">Recommended: show them with the mark during the content pass, and hide any that still fail at launch.</p></div>
+
+<div class="ask"><p class="q">D. Source text in the repo.</p><p>Store the full text of sources so quotes can be matched? Copyright stays with the publishers, and Lok Sabha debates are Lok Sabha copyright.</p><p class="rec">Recommended: no. Store only the matched excerpt and a hash, and keep full text in a cache outside the repo.</p></div>
+
+<div class="ask"><p class="q">E. Second reader.</p><p>Quotes of named living people should be checked by a second person. Who?</p><p class="rec">Without one, entries can reach "checked" but not "verified".</p></div>
+
+<div class="ask"><p class="q">F. Contact for corrections, right of reply and conduct reports.</p><p>A project email address, or GitHub only? Press Council norm 41 expects a way to reply.</p><p class="rec">Recommended: a project address, such as corrections@ on the chosen domain. Your personal email does not go in the repo.</p></div>
+
+<div class="ask"><p class="q">G. Perma.cc.</p><p>Pay for Perma.cc for the most important T1 records, or use the Wayback Machine only?</p><p class="rec">Recommended: the Wayback Machine only for now.</p></div>
+
+<div class="ask"><p class="q">H. Wire credit.</p><p>Show the wire on each source, for example "PTI via The Tribune"?</p><p class="rec">Recommended: yes. It is what makes the "one wire, one source" rule visible.</p></div>
+
+<div class="ask"><p class="q">I. Legal review.</p><p>Should a lawyer read the corrections policy and the reply process before launch?</p><p class="rec">Recommended: yes, one short review before the public launch. The research notes are not legal advice.</p></div>
+
+<p class="small" style="margin-top:48px">Full research, with sources: <code>docs/integrity-research.md</code>.</p>
+</div>
+</body>
+</html>
