@@ -1,0 +1,181 @@
+id: manipur-violence-internet-shutdown-2023
+title: Manipur ethnic violence and internet shutdown, 2023-2025
+summary: >
+  On 3 May 2023 a Tribal Solidarity March against a proposed Scheduled Tribe status for the Meitei
+  community was followed by violence between Meitei and Kuki-Zo groups across Manipur. The BJP state
+  government under N. Biren Singh imposed curfews, the Governor authorised shoot-at-sight orders in
+  extreme cases, the Centre took charge of security and deployed army and central forces, and mobile
+  and broadband internet were suspended statewide for months. The Supreme Court intervened from May
+  2023 and in August 2023 appointed a committee of former judges and an officer to oversee
+  investigations. More than 250 people were killed and over 60,000 displaced; Biren Singh resigned in
+  February 2025 and President's Rule was imposed until February 2026.
+period:
+  start: 2023-05-03
+  end: 2026-02
+location:
+  states: [Manipur]
+  places: [Imphal West, Imphal East, Churachandpur, Bishnupur, Kangpokpi, Tengnoupal, Kakching, Thoubal, Jiribam]
+protest:
+  cause: "Opposition by tribal groups to Scheduled Tribe status for the Meitei community, after a Manipur High Court order of 27 March 2023; the protest was followed by ethnic violence"
+  organisers: [Tribal groups in the hill districts (Tribal Solidarity March)]
+  scale: Statewide ethnic violence; more than 250 killed and over 60,000 displaced by February 2025
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: BJP
+    head: N. Biren Singh
+    role: Chief Minister
+    name: Manipur
+actions:
+  - type: internet_shutdown
+    date: 2023-05-03
+    description: "Mobile internet was suspended statewide from 3 May 2023 and broadband from 4 May; Churachandpur and Pherzawl had been cut from 28 April. Broadband was partly restored on 25 July after 83 days and the full shutdown was lifted on 23 September after 142 days. Mobile internet was suspended again on 26 September and extended in five-day blocks, then relaxed in unaffected areas on 3 December 2023. The state cited the spread of hate speech, rumours and images that could incite violence."
+    actor: state
+    sources: [s1]
+  - type: curfew
+    date: 2023-05
+    description: Curfews were imposed as violence spread, and Al Jazeera reported in August 2023 that a curfew remained in force in most parts of the state.
+    actor: state
+    sources: [s5]
+  - type: other
+    date: 2023-05-04
+    description: "Shoot-at-sight authorisation. The Governor of Manipur authorised district, sub-divisional and executive magistrates to issue shoot-at-sight orders 'in extreme cases whereby all forms of persuasion, warning, reasonable force etc has been exhausted'."
+    actor: state
+    sources: [s2]
+  - type: other
+    date: 2023-05-04
+    description: "Media reports said the Centre invoked Article 355 of the Constitution and took charge of security, with the Home Ministry appointing former CRPF and NIA officer Kuldip Singh as security adviser. These reports relied on unnamed sources; The Wire later reported that the Centre said it had 'no information' on Article 355 being invoked. Whether it was formally invoked is contested."
+    actor: centre
+    sources: [s2, s3, s4]
+  - type: other
+    date: 2023-05-08
+    description: "The Union Government told the Supreme Court that 52 companies of central armed police forces and 105 columns of the Army and Assam Rifles had been deployed, flag marches held, and helicopters and drones used to monitor the situation."
+    actor: centre
+    sources: [s7]
+  - type: other
+    date: 2023-07-07
+    description: "In Aribam Dhananjoy Sharma v. State of Manipur, the Manipur High Court directed limited internet access through whitelisted numbers and safeguards for broadband. The Supreme Court declined the state's appeal in July. On 1 December 2023 the High Court said the state could not continue a blanket mobile shutdown."
+    actor: court
+    sources: [s1]
+  - type: commission_of_inquiry
+    date: 2023-08-07
+    description: "The Supreme Court appointed a committee of three former High Court judges, Justices Gita Mittal, Shalini Phansalkar Joshi and Asha Menon, to look into relief and rehabilitation, and appointed former Maharashtra DGP Dattatray Padsalgikar to oversee the investigation of cases."
+    actor: court
+    sources: [s7]
+  - type: other
+    date: 2025-02-13
+    description: President's Rule was imposed in Manipur after Chief Minister N. Biren Singh resigned, with the Assembly kept in suspended animation. It was extended in August 2025 and ended in February 2026, when BJP's Yumnam Khemchand Singh became Chief Minister.
+    actor: centre
+    sources: [s6, s9, s10]
+outcome: >
+  The internet shutdown was among the longest in India. Biren Singh resigned in February 2025 and
+  President's Rule ran from 13 February 2025 to February 2026, when a BJP government under Yumnam
+  Khemchand Singh took office. Amnesty International put the death toll at more than 250 and the
+  number displaced at over 60,000 by February 2025.
+positions:
+  - party: BJP
+    person: Narendra Modi
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2023-07-20
+    statement: "The Manipur incident that has surfaced is shameful for any civilised society. I request all chief ministers to strengthen law and order in their states."
+    sources: [s8]
+  - party: BJP
+    person: Narendra Modi
+    role_at_time: Prime Minister, on his first visit to Manipur since the violence began
+    in_power: true
+    date: 2025-09-13
+    statement: "Any kind of violence in Manipur is unfortunate. I am with you, the Government of India is with the people of Manipur."
+    sources: [s12]
+  - party: AAP
+    person: Sanjay Singh
+    role_at_time: Rajya Sabha MP, opposition
+    in_power: false
+    date: 2025-03-17
+    statement: '"PM Modi is in M for Mauritius, when will he go to M for Manipur." He also demanded a probe into leaked audio tapes allegedly linking N. Biren Singh to the conflict.'
+    sources: [s13]
+  - party: BJD
+    person: Sulata Deo
+    role_at_time: Rajya Sabha MP, opposition
+    in_power: false
+    date: 2025-03-17
+    statement: "They have time to roam abroad, but not to go to Manipur. When Manipur was burning, we were sleeping."
+    sources: [s13]
+sources:
+  - id: s1
+    title: Trend of long internet shutdowns in India - Manipur crisis
+    publisher: SFLC.in (internetshutdowns.in)
+    url: https://internetshutdowns.in/blog/trend-long-internet-shutdowns-india-manipur-crisis/
+    date: 2023-10-16
+    type: academic
+  - id: s2
+    title: Centre invokes Article 355 as situation worsens
+    publisher: The Sangai Express
+    url: https://www.thesangaiexpress.com/Encyc/2023/5/5/Guwahati-May-4The-Centre-has-reportedly-invoked-Article-355-of-the-Constitution-in-Manipur-as-the.html
+    date: 2023-05-05
+    type: news
+  - id: s3
+    title: "Manipur: Centre Invokes Article 355, Takes Over Security in Violence-Hit State"
+    publisher: The Quint (EastMojo)
+    url: https://www.thequint.com/news/india/manipur-violence-centre-takes-control-article-355
+    date: 2023-05-05
+    type: news
+  - id: s4
+    title: "Manipur: Centre Says 'No Information' on Article 355"
+    publisher: The Wire
+    url: https://thewire.in/government/manipur-centre-says-no-information-on-article-355
+    date: 2023-08-01
+    type: news
+  - id: s5
+    title: Why ethnic violence in India's Manipur has been going on for three months
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2023/8/9/why-ethnic-violence-in-indias-manipur-has-been-going-on-for-three-months
+    date: 2023-08-09
+    type: news
+  - id: s6
+    title: "India: Authorities must uphold human rights and end violence in Manipur following Biren Singh's resignation"
+    publisher: Amnesty International
+    url: https://www.amnesty.org/en/latest/news/2025/02/india-authorities-must-uphold-human-rights-and-end-violence-in-manipur-following-biren-singhs-resignation/
+    date: 2025-02-11
+    type: news
+  - id: s7
+    title: Dinganglung Gangmei v. Mutum Churamani Meetei, 2023 INSC 698
+    publisher: Supreme Court of India
+    url: https://api.sci.gov.in/supremecourt/2023/19206/19206_2023_1_7_45953_Judgement_07-Aug-2023.pdf
+    date: 2023-08-07
+    type: court_judgment
+  - id: s8
+    title: "Why PM Modi's speech on Manipur is worse than his silence"
+    publisher: Scroll
+    url: https://scroll.in/article/1052988/why-pm-modis-speech-on-manipur-is-worse-than-his-silence
+    date: 2023-07-20
+    type: news
+  - id: s9
+    title: BJP has given a big assurance to its Manipur MLAs frustrated with extended President's Rule
+    publisher: ThePrint
+    url: https://theprint.in/india/bjp-has-given-a-big-assurance-to-its-manipur-mlas-frustrated-with-extended-presidents-rule/2783409/
+    date: 2025-11-13
+    type: news
+  - id: s10
+    title: No cabinet expansion in about 7 months, Manipur CM holds over 20 portfolios, his 4 colleagues the rest
+    publisher: ThePrint
+    url: https://theprint.in/india/governance/no-cabinet-expansion-in-about-7-months-manipur-cm-holds-over-20-portfolios-his-4-colleagues-the-rest/3035010/
+    date: 2026-09-06
+    type: news
+  - id: s12
+    title: "'Good gesture, but will it help us?' Hope & hurt greet Modi in 1st Manipur visit since ethnic violence"
+    publisher: ThePrint
+    url: https://theprint.in/india/good-gesture-but-will-it-help-us-hope-hurt-greet-modi-in-1st-manipur-visit-since-ethnic-violence/2742767/
+    date: 2025-09-13
+    type: news
+  - id: s13
+    title: "'Mauritius, Qatar, Dubai, why not Manipur?' Oppn attacks Modi again for not visiting strife-torn state"
+    publisher: ThePrint
+    url: https://theprint.in/politics/mauritius-qatar-dubai-why-not-manipur-oppn-attacks-modi-again-for-not-visiting-strife-torn-state/2551556/
+    date: 2025-03-17
+    type: news
+tags: [manipur, ethnic_violence, internet_shutdown, curfew, article_355, presidents_rule]

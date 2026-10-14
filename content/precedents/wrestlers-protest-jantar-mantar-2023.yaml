@@ -1,0 +1,181 @@
+id: wrestlers-protest-jantar-mantar-2023
+title: Wrestlers' protest at Jantar Mantar, 2023
+summary: >
+  In January 2023 Olympic medallists Vinesh Phogat, Sakshi Malik and Bajrang Punia led a sit-in at
+  Jantar Mantar, New Delhi, accusing Wrestling Federation of India president and BJP MP Brij Bhushan
+  Sharan Singh of sexually harassing women wrestlers; he denied the allegations. The sit-in ended
+  after the Sports Ministry set up an oversight committee, and resumed in April 2023 when its report
+  was not made public. Delhi Police registered FIRs against Singh after the matter reached the Supreme
+  Court, detained the wrestlers on 28 May 2023 as they marched towards the new Parliament building,
+  cleared the protest site and booked them for rioting. The street protest ended in June 2023 after a
+  chargesheet was filed.
+period:
+  start: 2023-01-18
+  end: 2023-06
+location:
+  states: [Delhi, Haryana, Uttarakhand]
+  places: [Jantar Mantar, New Parliament building, Har ki Pauri Haridwar]
+protest:
+  cause: Arrest of and action against WFI president Brij Bhushan Sharan Singh over sexual harassment allegations by women wrestlers
+  organisers: [Vinesh Phogat, Sakshi Malik, Bajrang Punia]
+  scale: A sit-in by leading wrestlers at Jantar Mantar, joined at times by farmer and khap groups; Bajrang Punia said over 2,000 supporters were detained on 28 May 2023
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: AAP
+    head: Arvind Kejriwal
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: commission_of_inquiry
+    date: 2023-01
+    description: "After the first sit-in (18-20 January 2023), the Sports Ministry stripped the WFI's top leadership of administrative powers and asked an oversight committee to examine the allegations. The committee's report was completed in April but not made public; the wrestlers said they believed the accused had been cleared."
+    actor: centre
+    sources: [s1, s3]
+  - type: other
+    date: 2023-04-24
+    description: The Sports Ministry asked the Indian Olympic Association to form an ad hoc committee to run the WFI and hold fresh elections within 45 days.
+    actor: centre
+    sources: [s1]
+  - type: fir
+    date: 2023-04-28
+    description: "During a Supreme Court hearing on the wrestlers' petition, Solicitor General Tushar Mehta said Delhi Police had decided to register an FIR against Brij Bhushan Sharan Singh that day. The bench of CJI D.Y. Chandrachud and Justice P.S. Narasimha directed the Delhi Police Commissioner to assess threats to the minor complainant and the other complainants and provide security. Delhi Police report to the Union Home Ministry."
+    actor: court
+    sources: [s2]
+  - type: other
+    date: 2023-05-03
+    description: "Late on 3 May wrestlers alleged that police officers manhandled and abused them at Jantar Mantar while they were carrying folding cots into the site. Police denied the allegations. The site was barricaded."
+    actor: police
+    sources: [s3]
+  - type: detention
+    date: 2023-05-28
+    description: "As the new Parliament building was inaugurated, Delhi Police detained Vinesh Phogat, Sakshi Malik, Bajrang Punia and others who were marching towards it for a women's 'mahapanchayat' and took them away in buses. Police said they broke the barricades and did not follow directions; Punia denied that protesters broke barricades. Farmer leaders heading to Delhi were detained in Haryana."
+    actor: police
+    sources: [s4, s5, s10]
+  - type: other
+    date: 2023-05-28
+    description: Immediately after the detentions, police cleared the wrestlers' protest site at Jantar Mantar, removing cots, mattresses, coolers, fans and the tarpaulin cover.
+    actor: police
+    sources: [s4, s5]
+  - type: fir
+    date: 2023-05-28
+    description: "Delhi Police registered FIRs against Bajrang Punia, Sakshi Malik, Vinesh Phogat and others under Indian Penal Code provisions ranging from rioting to obstructing a public servant with assault or criminal force. The detained wrestlers were later released."
+    actor: police
+    sources: [s5, s10]
+  - type: negotiation
+    date: 2023-06-07
+    description: "Bajrang Punia and other wrestlers met Sports Minister Anurag Thakur and suspended the protest, saying they would resume it if no action was taken by 15 June."
+    actor: centre
+    sources: [s6]
+  - type: other
+    date: 2023-06-15
+    description: "Delhi Police filed a chargesheet against Brij Bhushan Sharan Singh under IPC sections 354, 354A and 354D on the complaints of six adult wrestlers, and against his aide Vinod Tomar. In the minor complainant's case police filed a cancellation report under the POCSO Act after the complainant and her father gave a fresh statement withdrawing the allegations."
+    actor: police
+    sources: [s7]
+outcome: >
+  The wrestlers ended the street protest in June 2023 and continued through the courts. On 3 August 2026
+  an Additional Chief Judicial Magistrate acquitted Brij Bhushan Sharan Singh and Vinod Tomar in the
+  case filed by six wrestlers, saying the prosecution had failed to prove the allegations beyond
+  reasonable doubt. Four wrestlers appealed, and the Rouse Avenue Court issued notice on the appeal in
+  September 2026.
+positions:
+  - party: BJP
+    person: Brij Bhushan Sharan Singh
+    role_at_time: BJP MP and WFI president, accused
+    in_power: true
+    date: 2023-05
+    statement: Denied the allegations, called them a political ploy, and said he was ready to be hanged if any wrestler proved the charge.
+    sources: [s3]
+  - party: BJP
+    person: Babita Phogat
+    role_at_time: BJP leader and former wrestler
+    in_power: true
+    date: 2023-06-18
+    statement: "You have become puppets in Congress's hands. I was not in favor of this from the beginning of the protest."
+    sources: [s8]
+  - party: INC
+    person: Priyanka Gandhi Vadra
+    role_at_time: Congress general secretary, opposition
+    in_power: false
+    date: 2023-05
+    statement: '"Our players are the pride of the country. They bring laurels to the country by their performance at the world level." She demanded an investigation.'
+    sources: [s3]
+  - party: INC
+    person: Navjot Singh Sidhu
+    role_at_time: Congress leader and former cricketer, opposition
+    in_power: false
+    date: 2023-05-01
+    statement: "Intent is questionable and motive is to protect the accused. Cases registered under POCSO Act are non-bailable... why no arrest so far?"
+    sources: [s9]
+sources:
+  - id: s1
+    title: Indian wrestlers resume protest against federation chief
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/sports/2023/4/24/indian-wrestlers-resume-protest-against-federation-chief
+    date: 2023-04-24
+    type: news
+  - id: s2
+    title: FIR against Brij Bhushan today, SC told; court directs Delhi Police to assess threat to complainants
+    publisher: ThePrint
+    url: https://theprint.in/judiciary/fir-against-brij-bhushan-today-sc-told-court-directs-delhi-police-to-assess-threat-to-complainants/1544250/
+    date: 2023-04-28
+    type: news
+  - id: s3
+    title: Why are top Indian wrestlers protesting on the streets?
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2023/5/4/why-are-top-indian-wrestlers-protesting-on-the-streets
+    date: 2023-05-04
+    type: news
+  - id: s4
+    title: "Mahila Maha Panchayat: Farmers detained in Haryana, police clears protest site at Jantar Mantar"
+    publisher: Onmanorama
+    url: https://www.onmanorama.com/news/india/2023/05/28/mahila-maha-panchayat-farmers-detained-sakshi-malik-vinesh-phogat-bajrang-punia-jantar-mantar-protest.html
+    date: 2023-05-28
+    type: news
+  - id: s5
+    title: Protesting wrestlers say they will immerse medals into Ganga, begin hunger strike
+    publisher: Scroll
+    url: https://scroll.in/field/1050052/protesting-wrestlers-say-they-will-immerse-medals-into-ganga-today-begin-hunger-strike
+    date: 2023-05-30
+    type: news
+  - id: s6
+    title: "'If No Action Taken by June 15, We'll Resume Protest': Bajrang Punia After Meeting Anurag Thakur"
+    publisher: The Wire
+    url: https://thewire.in/government/wrestlers-protest-anurag-thakur-discussion
+    date: 2023-06-07
+    type: news
+  - id: s7
+    title: Chargesheet weak, shows cops protecting Brij Bhushan Singh, says protesting wrestler
+    publisher: ThePrint
+    url: https://theprint.in/india/chargesheet-weak-shows-cops-protecting-brij-bhushan-singh-says-protesting-wrestler/1627288/
+    date: 2023-06-15
+    type: news
+  - id: s8
+    title: "'Congress puppets' - BJP's Babita Phogat denies she got wrestlers police nod for Jantar Mantar protest"
+    publisher: ThePrint
+    url: https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/
+    date: 2023-06-18
+    type: news
+  - id: s9
+    title: "'Motive is to protect the accused': Sidhu lends support to protesting wrestlers"
+    publisher: ThePrint
+    url: https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/
+    date: 2023-05-01
+    type: news
+  - id: s10
+    title: "'World is watching': Indian police drag away protesting wrestlers"
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2023/5/28/world-is-watching-indian-police-drag-away-protesting-wrestlers
+    date: 2023-05-28
+    type: news
+  - id: s11
+    title: Brij Bhushan issued notice, wrestlers' plea challenging acquittal flags 'assumptions on victim behaviour'
+    publisher: ThePrint
+    url: https://theprint.in/judiciary/brij-bhushan-issued-notice-wrestlers-plea-challenging-acquittal-flags-assumptions-on-victim-behaviour/3055490/
+    date: 2026-09-28
+    type: news
+tags: [wrestlers, sexual_harassment, delhi, jantar_mantar, detention, fir]
