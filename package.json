@@ -2,12 +2,30 @@
   "name": "priors",
   "version": "0.1.0",
   "private": true,
+  "description": "An open, sourced record of how Indian governments, across parties, have handled protests.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theachyuttiwari/priors-of-indian-history.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theachyuttiwari/priors-of-indian-history/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
-    "start": "next start",
+    "start": "npx serve out",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "validate": "tsx pipeline/validate.ts",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run test && npm run validate",
     "ingest": "tsx pipeline/ingest.ts"
   },
   "dependencies": {
@@ -20,14 +38,15 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
-    "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
+    "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.1",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.11"
   }
 }

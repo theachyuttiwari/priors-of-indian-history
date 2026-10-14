@@ -1,0 +1,8 @@
+.next/
+out/
+node_modules/
+coverage/
+package-lock.json
+# Content is hand-edited YAML. Keep each author's layout and avoid noisy diffs.
+content/**/*.yaml
+docs/*.html
