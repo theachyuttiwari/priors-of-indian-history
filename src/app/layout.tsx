@@ -21,7 +21,15 @@ const NAV = [
 /** The mark: one tick on a line. */
 function Mark() {
   return (
-    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" strokeLinecap="round">
+    <svg
+      viewBox="0 0 24 24"
+      width="20"
+      height="20"
+      aria-hidden="true"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+    >
       <path d="M3 17h18" strokeWidth="1.6" />
       <path d="M14 6v11" strokeWidth="2.6" />
     </svg>
@@ -34,13 +42,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col">
         <header className="sticky top-0 z-20 backdrop-blur-xl bg-[var(--header)] border-b border-line">
           <div className="mx-auto max-w-5xl px-5 h-12 flex items-center justify-between gap-6">
-            <Link href="/" className="quiet flex items-center gap-1.5 font-semibold tracking-tight" aria-label="Priors, home">
+            <Link
+              href="/"
+              className="quiet flex items-center gap-1.5 font-semibold tracking-tight"
+              aria-label="Priors, home"
+            >
               <Mark />
               Priors
             </Link>
             <nav className="flex items-center gap-4 sm:gap-5 text-[14px] text-ink-2 overflow-x-auto whitespace-nowrap [scrollbar-width:none]">
               {NAV.map(([href, label]) => (
-                <Link key={href} href={href} className={`quiet hover:text-ink ${href === "/about/" ? "hidden sm:inline" : ""}`}>
+                <Link
+                  key={href}
+                  href={href}
+                  className={`quiet hover:text-ink ${href === "/about/" ? "hidden sm:inline" : ""}`}
+                >
                   {label}
                 </Link>
               ))}

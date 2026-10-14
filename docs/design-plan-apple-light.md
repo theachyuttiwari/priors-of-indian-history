@@ -45,11 +45,11 @@ Both break README rule 3: "Describe actions. Do not judge them."
 
 ## Open decisions
 
-| ID | Default | Alternative |
-|---|---|---|
-| D1 | No hue: links and the "now" mark are ink | Apple link blue `#0066cc` (close to some party colours) |
-| D2 | Light first, dark follows the system | Keep dark as the main design |
-| D3 | Monochrome icon (one tick on a line) | Keep the red "PO" square |
+| ID  | Default                                  | Alternative                                             |
+| --- | ---------------------------------------- | ------------------------------------------------------- |
+| D1  | No hue: links and the "now" mark are ink | Apple link blue `#0066cc` (close to some party colours) |
+| D2  | Light first, dark follows the system     | Keep dark as the main design                            |
+| D3  | Monochrome icon (one tick on a line)     | Keep the red "PO" square                                |
 
 ## Note for the next session
 

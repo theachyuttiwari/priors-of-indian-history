@@ -62,15 +62,16 @@ export const ACTION_META: Record<
   other: { label: "Other", group: "other" },
 };
 
-const DateStr = z
-  .union([z.string(), z.date(), z.number()])
-  .transform((v) => {
-    if (v instanceof Date) return v.toISOString().slice(0, 10);
-    return String(v);
-  });
+const DateStr = z.union([z.string(), z.date(), z.number()]).transform((v) => {
+  if (v instanceof Date) return v.toISOString().slice(0, 10);
+  return String(v);
+});
 
 /** Optional string that also accepts null (YAML authors write `person:` with nothing after it). */
-const OptStr = z.string().nullish().transform((v) => v ?? undefined);
+const OptStr = z
+  .string()
+  .nullish()
+  .transform((v) => v ?? undefined);
 
 const Source = z.object({
   id: z.string(),
@@ -78,10 +79,7 @@ const Source = z.object({
   publisher: OptStr.transform((v) => v ?? ""),
   url: z.string(),
   date: DateStr.nullish().transform((v) => v ?? undefined),
-  type: z
-    .enum(["news", "court_judgment", "official", "academic", "book", "archive"])
-    .optional()
-    .default("news"),
+  type: z.enum(["news", "court_judgment", "official", "academic", "book", "archive"]).optional().default("news"),
 });
 
 const Government = z.object({
@@ -117,15 +115,24 @@ export const Precedent = z.object({
   period: z.object({ start: DateStr, end: DateStr.nullable().optional() }),
   location: z
     .object({
-      states: z.array(z.string()).nullish().transform((v) => v ?? []),
-      places: z.array(z.string()).nullish().transform((v) => v ?? []),
+      states: z
+        .array(z.string())
+        .nullish()
+        .transform((v) => v ?? []),
+      places: z
+        .array(z.string())
+        .nullish()
+        .transform((v) => v ?? []),
     })
     .nullish()
     .transform((v) => v ?? { states: [], places: [] }),
   protest: z
     .object({
       cause: OptStr,
-      organisers: z.array(z.string()).nullish().transform((v) => v ?? []),
+      organisers: z
+        .array(z.string())
+        .nullish()
+        .transform((v) => v ?? []),
       scale: OptStr,
     })
     .nullish()

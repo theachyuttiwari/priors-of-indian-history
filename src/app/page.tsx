@@ -15,8 +15,8 @@ export default function Home() {
       <section>
         <h1 className="t-hero">What did they do before?</h1>
         <p className="lede mt-5 measure">
-          Protests in India since {s.from}, and how the Centre and the states answered them under every party.
-          Every claim links to a dated source.
+          Protests in India since {s.from}, and how the Centre and the states answered them under every party. Every
+          claim links to a dated source.
         </p>
         <div className="mt-8 sm:mt-14">
           <YearStrip precedents={precedents} current={current[0]} />
@@ -60,7 +60,9 @@ export default function Home() {
                   )}
                   {sims.length > 0 && (
                     <div className="mt-8">
-                      <p className="small">Closest priors, by shared actions. Faded glyphs are actions the current event does not share.</p>
+                      <p className="small">
+                        Closest priors, by shared actions. Faded glyphs are actions the current event does not share.
+                      </p>
                       <div className="rows mt-2 border-t border-line">
                         {sims.map(({ p, shared }) => (
                           <PrecedentRow key={p.id} p={p} highlight={shared} />
@@ -97,7 +99,11 @@ export default function Home() {
       <section className="grid gap-x-10 gap-y-8 md:grid-cols-3 border-t border-line pt-10">
         {[
           ["/compare/", "Compare parties", "One grid. Every party and every kind of action, counted the same way."],
-          ["/parties/", "In power and in opposition", "What each party did when it governed, next to what it said when it did not."],
+          [
+            "/parties/",
+            "In power and in opposition",
+            "What each party did when it governed, next to what it said when it did not.",
+          ],
           ["/about/", "Method", "How entries are written, sourced and reviewed. Add a precedent by pull request."],
         ].map(([href, t, d]) => (
           <Link key={href} href={href} className="quiet block group">

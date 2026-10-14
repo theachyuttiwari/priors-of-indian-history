@@ -42,7 +42,12 @@ function loadIndex(): string {
 function existingCurrent(): Set<string> {
   const dir = path.join(ROOT, "current");
   if (!fs.existsSync(dir)) return new Set();
-  return new Set(fs.readdirSync(dir).filter((f) => f.endsWith(".yaml")).map((f) => f.replace(/\.yaml$/, "")));
+  return new Set(
+    fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith(".yaml"))
+      .map((f) => f.replace(/\.yaml$/, "")),
+  );
 }
 
 const SCHEMA_DOC = fs.readFileSync(path.join(ROOT, "SCHEMA.md"), "utf8");
@@ -66,7 +71,12 @@ Rules: open every URL you cite with web_fetch before citing it. Prefer court ord
     max_tokens: 32000,
     output_config: { effort: "high" },
     tools: [
-      { type: "web_search_20260209", name: "web_search", max_uses: 25, user_location: { type: "approximate", country: "IN" } },
+      {
+        type: "web_search_20260209",
+        name: "web_search",
+        max_uses: 25,
+        user_location: { type: "approximate", country: "IN" },
+      },
       { type: "web_fetch_20260209", name: "web_fetch", max_uses: 25 },
     ],
     messages: [{ role: "user", content: prompt }],
@@ -147,7 +157,10 @@ async function main() {
   const have = existingCurrent();
   fs.mkdirSync(path.join(ROOT, "current"), { recursive: true });
   for (const e of entries) {
-    const check = Precedent.safeParse({ ...e, government: { ...e.government, state: e.government.state ?? undefined } });
+    const check = Precedent.safeParse({
+      ...e,
+      government: { ...e.government, state: e.government.state ?? undefined },
+    });
     if (!check.success) {
       console.warn(`skip ${e.id}: ${check.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
       continue;
@@ -160,7 +173,9 @@ async function main() {
       reviewed: false,
       last_updated: TODAY,
     };
-    const text = `# Drafted by the Priors pipeline on ${TODAY}. Check every source before setting reviewed: true.\n` + YAML.stringify(out, { lineWidth: 100 });
+    const text =
+      `# Drafted by the Priors pipeline on ${TODAY}. Check every source before setting reviewed: true.\n` +
+      YAML.stringify(out, { lineWidth: 100 });
     if (DRY) {
       console.log(`--- ${file}\n${text}`);
     } else {
@@ -173,7 +188,8 @@ async function main() {
 
 main().catch((err) => {
   if (err instanceof Anthropic.RateLimitError) console.error("Rate limited; retry later.");
-  else if (err instanceof Anthropic.AuthenticationError) console.error("No credentials. Set ANTHROPIC_API_KEY or run `ant auth login`.");
+  else if (err instanceof Anthropic.AuthenticationError)
+    console.error("No credentials. Set ANTHROPIC_API_KEY or run `ant auth login`.");
   else if (err instanceof Anthropic.APIError) console.error(`API error ${err.status}: ${err.message}`);
   else console.error(err);
   process.exit(1);

@@ -21,7 +21,14 @@ const SHAPE: Record<Group, React.ReactNode> = {
 
 export default function Glyph({ group, className = "" }: { group: Group; className?: string }) {
   return (
-    <svg viewBox="0 0 16 16" className={`glyph ${className}`} fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+    <svg
+      viewBox="0 0 16 16"
+      className={`glyph ${className}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      aria-hidden="true"
+    >
       {SHAPE[group]}
     </svg>
   );

@@ -19,7 +19,11 @@ export default function PartiesPage() {
             .sort((a, b) => r.actions[b] - r.actions[a])
             .slice(0, 4);
           return (
-            <Link key={party} href={`/parties/${partySlug(party)}/`} className="quiet grid gap-2 py-5 md:grid-cols-[16rem_1fr] items-baseline group">
+            <Link
+              key={party}
+              href={`/parties/${partySlug(party)}/`}
+              className="quiet grid gap-2 py-5 md:grid-cols-[16rem_1fr] items-baseline group"
+            >
               <span>
                 <span className="row-title group-hover:underline underline-offset-4 decoration-1">{party}</span>
                 <span className="block small num mt-0.5">

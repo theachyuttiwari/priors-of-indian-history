@@ -4,13 +4,13 @@ Every precedent is one YAML file in `content/precedents/<slug>.yaml`.
 Every claim must point to at least one source id. No source, no claim.
 
 ```yaml
-id: farm-laws-2020                     # kebab-case, unique, matches filename
+id: farm-laws-2020 # kebab-case, unique, matches filename
 title: Farm laws protest
-summary: >                             # 2-4 neutral sentences
+summary: > # 2-4 neutral sentences
   ...
 period:
-  start: 2020-11-26                    # YYYY-MM-DD (use YYYY-MM or YYYY if unknown)
-  end: 2021-12-11                      # null if ongoing
+  start: 2020-11-26 # YYYY-MM-DD (use YYYY-MM or YYYY if unknown)
+  end: 2021-12-11 # null if ongoing
 location:
   states: [Delhi, Punjab, Haryana]
   places: [Singhu border, Tikri border]
@@ -24,16 +24,16 @@ government:
     alliance: NDA
     head: Narendra Modi
     role: Prime Minister
-  state:                               # optional; the state govt that handled policing
+  state: # optional; the state govt that handled policing
     party: AAP
     head: Arvind Kejriwal
     role: Chief Minister
     name: Delhi
-actions:                               # what the government did, one entry per action
-  - type: internet_shutdown            # see ACTION TYPES below
+actions: # what the government did, one entry per action
+  - type: internet_shutdown # see ACTION TYPES below
     date: 2021-01-26
     description: Internet suspended at Singhu, Ghazipur and Tikri after the tractor rally
-    actor: centre                      # centre | state | police | court
+    actor: centre # centre | state | police | court
     sources: [s1]
   - type: negotiation
     date: 2020-12-01
@@ -42,13 +42,13 @@ actions:                               # what the government did, one entry per 
     sources: [s2]
 outcome: >
   Laws repealed by Parliament on 29 Nov 2021.
-positions:                             # what parties and leaders said, in power or not
+positions: # what parties and leaders said, in power or not
   - party: INC
     person: Rahul Gandhi
     role_at_time: Lok Sabha MP, opposition
     in_power: false
     date: 2020-12-24
-    statement: "..."                   # short direct quote or close paraphrase
+    statement: "..." # short direct quote or close paraphrase
     sources: [s3]
 sources:
   - id: s1
@@ -56,7 +56,7 @@ sources:
     publisher: The Hindu
     url: https://...
     date: 2021-01-30
-    type: news                         # news | court_judgment | official | academic | book | archive
+    type: news # news | court_judgment | official | academic | book | archive
 tags: [farmers, delhi, internet_shutdown]
 ```
 

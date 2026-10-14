@@ -30,7 +30,14 @@ export default function Timeline({ p }: { p: Precedent }) {
               {a.sources.map((id) => {
                 const s = src.get(id);
                 return s ? (
-                  <a key={id} href={s.url} target="_blank" rel="noreferrer" className="link small num" title={`${s.publisher || s.title}`}>
+                  <a
+                    key={id}
+                    href={s.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link small num"
+                    title={`${s.publisher || s.title}`}
+                  >
                     [{num.get(id)}]
                   </a>
                 ) : null;

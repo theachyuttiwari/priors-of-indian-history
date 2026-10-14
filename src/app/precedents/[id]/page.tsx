@@ -30,7 +30,9 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
   const { id } = await params;
   const p = getPrecedent(id);
   if (!p) notFound();
-  const related = similar(p, 4).filter((x) => x.p.id !== p.id).slice(0, 3);
+  const related = similar(p, 4)
+    .filter((x) => x.p.id !== p.id)
+    .slice(0, 3);
   const { centre, state } = p.government;
   return (
     <article className="space-y-20">
@@ -97,7 +99,10 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
       {p.positions.length > 0 && (
         <section>
           <h2 className="t-2 mb-2">What they said</h2>
-          <p className="small mb-8 measure">Statements are reported as the cited source gives them. Open the source for exact wording. Each one says whether the speaker&apos;s party was in power or in opposition at the time.</p>
+          <p className="small mb-8 measure">
+            Statements are reported as the cited source gives them. Open the source for exact wording. Each one says
+            whether the speaker&apos;s party was in power or in opposition at the time.
+          </p>
           <Positions p={p} />
         </section>
       )}

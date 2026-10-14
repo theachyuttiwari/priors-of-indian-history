@@ -23,15 +23,15 @@ Memory is short and the record is long. A new generation sees today's crackdown 
 
 ## Layout
 
-| Path | What |
-|---|---|
-| `content/precedents/*.yaml` | One protest, one government's answer. Hand-written or pipeline-drafted, human-checked. |
-| `content/current/*.yaml` | Events underway. Added by hand or drafted by the pipeline, marked `reviewed: false` until checked. |
-| `content/SCHEMA.md` | The schema and action-type vocabulary. |
-| `src/` | Next.js static site. |
-| `pipeline/ingest.ts` | Claude + web search finds recent events, structures them, writes YAML. |
-| `pipeline/validate.ts` | Schema and source-reference checks. Runs in CI. |
-| `docs/` | Landscape research and naming notes. |
+| Path                        | What                                                                                               |
+| --------------------------- | -------------------------------------------------------------------------------------------------- |
+| `content/precedents/*.yaml` | One protest, one government's answer. Hand-written or pipeline-drafted, human-checked.             |
+| `content/current/*.yaml`    | Events underway. Added by hand or drafted by the pipeline, marked `reviewed: false` until checked. |
+| `content/SCHEMA.md`         | The schema and action-type vocabulary.                                                             |
+| `src/`                      | Next.js static site.                                                                               |
+| `pipeline/ingest.ts`        | Claude + web search finds recent events, structures them, writes YAML.                             |
+| `pipeline/validate.ts`      | Schema and source-reference checks. Runs in CI.                                                    |
+| `docs/`                     | Landscape research and naming notes.                                                               |
 
 ## Run
 

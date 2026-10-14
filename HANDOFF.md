@@ -10,6 +10,7 @@ beside precedents from 1974 onward, across every party at Centre and state. It a
 each party did in power next to what it said in opposition. Every claim links to a dated source.
 
 Decisions already made by the owner (do not re-open):
+
 - Name: **Priors**. Tagline: "What they did before."
 - Scope for v1: protest handling only.
 - Phase 1 (confirmed 2026-10-15): make the protest record rock solid (citations, quotes, mobile-first UI).
@@ -32,6 +33,7 @@ docs/landscape.md     competitor research              docs/naming.md     domain
 ```
 
 Commands:
+
 ```
 npm install
 npm run validate          # schema + source-reference checks
@@ -43,17 +45,18 @@ npm run ingest -- --dry   # needs ANTHROPIC_API_KEY or `ant auth login`
 ## What is NOT done
 
 ### 1. Thin content (highest priority)
+
 The session's web-search budget ran out midway. Later agents worked from Wikipedia reference
 lists and direct fetches, and left out facts they could not open. Re-source these with a fresh budget:
 
-| File | Problem |
-|---|---|
-| `anti-mandal-agitation-1990.yaml` | 4 actions, mostly Wikipedia-sourced. No Section 144, no party statements. |
-| `narmada-bachao-andolan-1989-1993.yaml` | 3 actions. Ferkuwa standoff Jan 1991 and Harsud rally not sourced. |
-| `thoothukudi-sterlite-firing-2018.yaml` | No Section 144 entry. Inquiry judge (Aruna Jagadeesan) unnamed. Only 2 positions. |
-| `kashmir-unrest-2016.yaml` | NC/Omar Abdullah statements rest on Wikipedia (source s9). |
+| File                                                 | Problem                                                                                      |
+| ---------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `anti-mandal-agitation-1990.yaml`                    | 4 actions, mostly Wikipedia-sourced. No Section 144, no party statements.                    |
+| `narmada-bachao-andolan-1989-1993.yaml`              | 3 actions. Ferkuwa standoff Jan 1991 and Harsud rally not sourced.                           |
+| `thoothukudi-sterlite-firing-2018.yaml`              | No Section 144 entry. Inquiry judge (Aruna Jagadeesan) unnamed. Only 2 positions.            |
+| `kashmir-unrest-2016.yaml`                           | NC/Omar Abdullah statements rest on Wikipedia (source s9).                                   |
 | `current/election-commission-sir-protests-2026.yaml` | Sources are Al Jazeera, France 24, Wikipedia only. No Section 163 order sourced. Unreviewed. |
-| `current/cjp-exam-leak-protests-2026.yaml` | Section 163, permission-denied and FIR facts come from Wikipedia only. Unreviewed. |
+| `current/cjp-exam-leak-protests-2026.yaml`           | Section 163, permission-denied and FIR facts come from Wikipedia only. Unreviewed.           |
 
 Also wanted across many files: PIB / Lok Sabha primary texts, and statements from the ruling
 party at the time (agents found opposition quotes more easily than government ones).
@@ -62,11 +65,13 @@ Sites that blocked fetch during this session: The Hindu, Indian Express, HT, BBC
 Times of India, Deccan Herald, Business Standard. Agents used `curl` successfully on some of them.
 
 ### 2. Pipeline never ran end to end
+
 `pipeline/ingest.ts` typechecks but has not been executed against the API (no key in this session).
 First run: `npm run ingest -- --days 14 --dry`. Expect to tune the two prompts and the Zod `Entry`
 shape. Model is `claude-opus-5-5`; research call uses `web_search_20260209` + `web_fetch_20260209`.
 
 ### 3. Repo plumbing
+
 - GitHub remote not created. Header and footer link to `https://github.com/` placeholder — fix in
   `src/app/layout.tsx` and `src/app/precedents/[id]/page.tsx`.
 - Add repo secret `ANTHROPIC_API_KEY` for `ingest.yml`. Enable Pages (source: GitHub Actions).
@@ -74,6 +79,7 @@ shape. Model is `claude-opus-5-5`; research call uses `web_search_20260209` + `w
   Available: kathnikarni, pehlebhi, nazeernama, abaurtab on .in/.org/.com; thepriors.in, priorsindia.in.
 
 ### 4. UI polish backlog
+
 Redesign built on branch `design/apple-light` (see `docs/design-plan-apple-light.md`). Not merged.
 Done there: light/dark tokens, glyphs, year strip, rows, grey compare ramp, icon, GitHub links, compare filter.
 Still open: party bucketing, OG image, sitemap, search. Some `positions[].statement` values are paraphrases
@@ -89,11 +95,13 @@ but render in quote marks; add a `paraphrase: true` flag or rewrite them as dire
 - OG image, favicon (use `assets/icon.svg`), sitemap: not done.
 
 ### 5. Ideas not started
+
 - Lok Dhaba (TCPD, CC BY 4.0) as the "who ruled where on date X" join table — see landscape.md.
 - Ingest SFLC.in / Access Now STOP shutdown datasets as a separate action source (confirm licence).
 - Section 144/163 orders archive (district NIC PDFs). No dataset exists anywhere; this is the big gap.
 
 ## Conventions the next session must keep
+
 - Schema is `content/SCHEMA.md`, enforced by `src/lib/schema.ts` (Zod). Action types are a closed list.
 - Neutral voice. Describe actions, never judge. Contested facts: say so and cite both sides.
 - No source, no claim. Validator fails on unknown source ids; it warns on actions with no source.

@@ -54,7 +54,9 @@ export default function ComparePage() {
   return (
     <div>
       <h1 className="t-1">Compare parties</h1>
-      <p className="lede mt-4 measure">Count of recorded actions while in charge. A count, not a measure of severity.</p>
+      <p className="lede mt-4 measure">
+        Count of recorded actions while in charge. A count, not a measure of severity.
+      </p>
       <p className="text-[15px] text-ink-2 mt-4 measure">
         Actions by the Centre count for the party ruling the Centre. Actions by a state government or its police count
         for the party ruling that state. Courts count for no one. Parties with more years in power and more documented
@@ -98,7 +100,11 @@ export default function ComparePage() {
               return (
                 <tr key={party}>
                   <th className="sticky-col text-left pr-4 font-semibold whitespace-nowrap">
-                    <Link href={`/parties/${partySlug(party)}/`} className="quiet block max-w-[11rem] truncate" title={party}>
+                    <Link
+                      href={`/parties/${partySlug(party)}/`}
+                      className="quiet block max-w-[11rem] truncate"
+                      title={party}
+                    >
                       {party}
                     </Link>
                   </th>
@@ -119,7 +125,9 @@ export default function ComparePage() {
           </tbody>
         </table>
       </div>
-      <p className="hidden sm:block small mt-3">Darker cells hold more recorded actions. A zero means none recorded in this archive.</p>
+      <p className="hidden sm:block small mt-3">
+        Darker cells hold more recorded actions. A zero means none recorded in this archive.
+      </p>
 
       <section className="mt-16 sm:mt-24">
         <h2 className="t-2">Said in opposition, did in power</h2>

@@ -41,7 +41,9 @@ for (const dir of ["precedents", "current"]) {
       console.log(`WARN ${dir}/${f}`);
       problems.forEach((x) => console.log(`   ${x}`));
     } else {
-      console.log(`ok   ${dir}/${f}  (${p.actions.length} actions, ${p.positions.length} positions, ${p.sources.length} sources)`);
+      console.log(
+        `ok   ${dir}/${f}  (${p.actions.length} actions, ${p.positions.length} positions, ${p.sources.length} sources)`,
+      );
     }
   }
 }

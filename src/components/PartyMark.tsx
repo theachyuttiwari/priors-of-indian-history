@@ -1,7 +1,10 @@
 import Link from "next/link";
 
 export function partySlug(party: string) {
-  return party.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+  return party
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 }
 
 export default function PartyMark({ party, role }: { party: string; role?: string }) {

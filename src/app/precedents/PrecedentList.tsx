@@ -38,14 +38,25 @@ export default function PrecedentList({ items }: { items: Item[] }) {
   return (
     <div>
       <div className="flex flex-wrap items-center gap-3 mt-10">
-        <input className="field w-full sm:w-64" placeholder="Search titles, summaries, states" aria-label="Search" value={q} onChange={(e) => setQ(e.target.value)} />
+        <input
+          className="field w-full sm:w-64"
+          placeholder="Search titles, summaries, states"
+          aria-label="Search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+        />
         <select className="field" aria-label="Party in power" value={party} onChange={(e) => setParty(e.target.value)}>
           <option value="">Any party in power</option>
           {parties.map((p) => (
             <option key={p}>{p}</option>
           ))}
         </select>
-        <select className="field" aria-label="Action" value={type} onChange={(e) => setType(e.target.value as ActionType | "")}>
+        <select
+          className="field"
+          aria-label="Action"
+          value={type}
+          onChange={(e) => setType(e.target.value as ActionType | "")}
+        >
           <option value="">Any action</option>
           {types.map((t) => (
             <option key={t} value={t}>

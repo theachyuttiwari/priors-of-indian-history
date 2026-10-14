@@ -38,13 +38,18 @@ function Column({ p, types, href, now }: { p: Precedent; types: ActionType[]; hr
       </h3>
       <p className="small mt-1">
         <PartyMark party={govt.party} />
-        {p.government.state ? ` in ${p.government.state.name}, ${p.government.centre.party} at the Centre` : " at the Centre"}
+        {p.government.state
+          ? ` in ${p.government.state.name}, ${p.government.centre.party} at the Centre`
+          : " at the Centre"}
       </p>
       <ul className="mt-5 space-y-3">
         {types.map((t) => {
           const hits = p.actions.filter((a) => a.type === t);
           return (
-            <li key={t} className={`grid grid-cols-[14px_1fr] gap-2.5 items-start text-[15px] ${hits.length ? "" : "max-md:hidden"}`}>
+            <li
+              key={t}
+              className={`grid grid-cols-[14px_1fr] gap-2.5 items-start text-[15px] ${hits.length ? "" : "max-md:hidden"}`}
+            >
               <span className={`mt-[5px] flex ${hits.length ? "text-ink" : "text-line"}`}>
                 <Glyph group={ACTION_META[t].group} />
               </span>
@@ -83,9 +88,9 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
     notFound();
   }
   const sims = similar(ev, 3);
-  const types = [...new Set([...ev.actions.map((a) => a.type), ...sims.flatMap((s) => s.p.actions.map((a) => a.type))])].sort(
-    (a, b) => Object.keys(ACTION_META).indexOf(a) - Object.keys(ACTION_META).indexOf(b),
-  );
+  const types = [
+    ...new Set([...ev.actions.map((a) => a.type), ...sims.flatMap((s) => s.p.actions.map((a) => a.type))]),
+  ].sort((a, b) => Object.keys(ACTION_META).indexOf(a) - Object.keys(ACTION_META).indexOf(b));
   return (
     <article className="space-y-20">
       <header>
@@ -100,8 +105,8 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
         <p className="lede mt-6 measure">{ev.summary}</p>
         {ev.reviewed === false && (
           <p className="mt-6 small inline-block panel px-3 py-2">
-            Drafted with AI help on {ev.last_updated ? fmtDate(ev.last_updated) : "an unknown date"}. Not yet
-            reviewed by a person.
+            Drafted with AI help on {ev.last_updated ? fmtDate(ev.last_updated) : "an unknown date"}. Not yet reviewed
+            by a person.
           </p>
         )}
       </header>

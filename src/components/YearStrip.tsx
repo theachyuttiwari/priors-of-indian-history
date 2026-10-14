@@ -32,7 +32,11 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
 
   return (
     <div>
-      <div className="strip" role="group" aria-label={`Year strip from ${from} to ${now.getFullYear()}, one tick per precedent`}>
+      <div
+        className="strip"
+        role="group"
+        aria-label={`Year strip from ${from} to ${now.getFullYear()}, one tick per precedent`}
+      >
         <div className="strip-axis" />
         {decades.map((y, i) => (
           <span

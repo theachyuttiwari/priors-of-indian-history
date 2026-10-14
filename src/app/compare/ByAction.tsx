@@ -9,7 +9,9 @@ type Row = { party: string; slug: string; cases: number; counts: Partial<Record<
 /** Phone view of the compare grid: one action at a time, every party ranked on the same scale. */
 export default function ByAction({ rows, types, initial }: { rows: Row[]; types: ActionType[]; initial: ActionType }) {
   const [type, setType] = useState<ActionType>(initial);
-  const ranked = [...rows].sort((a, b) => (b.counts[type] ?? 0) - (a.counts[type] ?? 0) || a.party.localeCompare(b.party));
+  const ranked = [...rows].sort(
+    (a, b) => (b.counts[type] ?? 0) - (a.counts[type] ?? 0) || a.party.localeCompare(b.party),
+  );
   const max = Math.max(1, ...rows.map((r) => r.counts[type] ?? 0));
   return (
     <div>
@@ -17,7 +19,12 @@ export default function ByAction({ rows, types, initial }: { rows: Row[]; types:
         <span className="text-ink-2 flex">
           <Glyph group={ACTION_META[type].group} />
         </span>
-        <select className="field flex-1" aria-label="Action" value={type} onChange={(e) => setType(e.target.value as ActionType)}>
+        <select
+          className="field flex-1"
+          aria-label="Action"
+          value={type}
+          onChange={(e) => setType(e.target.value as ActionType)}
+        >
           {types.map((t) => (
             <option key={t} value={t}>
               {ACTION_META[t].label}

@@ -26,7 +26,10 @@ function Statements({ items }: { items: PartyRecord["statementsInPower"] }) {
         <blockquote key={i} className="quote">
           <p className="leading-relaxed">{pos.statement}</p>
           <footer className="small mt-1">
-            {[pos.person && `${pos.person}${pos.role_at_time ? `, ${pos.role_at_time}` : ""}`, pos.date && fmtDate(pos.date)]
+            {[
+              pos.person && `${pos.person}${pos.role_at_time ? `, ${pos.role_at_time}` : ""}`,
+              pos.date && fmtDate(pos.date),
+            ]
               .filter(Boolean)
               .join(", ")}
             <Link href={`/precedents/${p.id}/`} className="link block mt-0.5">
@@ -68,7 +71,10 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
                   <Glyph group={ACTION_META[t].group} />
                   {ACTION_META[t].label}
                 </span>
-                <span className="h-2 rounded-full bg-ink-3" style={{ width: `${(r.actions[t] / max) * 100}%`, minWidth: 4 }} />
+                <span
+                  className="h-2 rounded-full bg-ink-3"
+                  style={{ width: `${(r.actions[t] / max) * 100}%`, minWidth: 4 }}
+                />
                 <span className="num text-ink-2 text-right">{r.actions[t]}</span>
               </li>
             ))}
@@ -94,7 +100,11 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
           <h2 className="t-2 mb-4">Cases handled</h2>
           <div className="rows border-t border-line">
             {r.inPower.map((p) => (
-              <PrecedentRow key={p.id} p={p} href={p.related_precedents.length || p.reviewed === false ? `/now/${p.id}/` : undefined} />
+              <PrecedentRow
+                key={p.id}
+                p={p}
+                href={p.related_precedents.length || p.reviewed === false ? `/now/${p.id}/` : undefined}
+              />
             ))}
           </div>
         </section>
