@@ -2,6 +2,10 @@
 
 # Priors — what they did before
 
+[![CI](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/ci.yml/badge.svg)](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/ci.yml)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-lightgrey.svg)](LICENSE)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](content/LICENSE)
+
 An open record of how Indian governments, across parties, have handled protests. Today's event, set beside the precedents. Every claim links to a dated source.
 
 ```
@@ -30,17 +34,27 @@ Memory is short and the record is long. A new generation sees today's crackdown 
 | `content/SCHEMA.md`         | The schema and action-type vocabulary.                                                             |
 | `src/`                      | Next.js static site.                                                                               |
 | `pipeline/ingest.ts`        | Claude + web search finds recent events, structures them, writes YAML.                             |
-| `pipeline/validate.ts`      | Schema and source-reference checks. Runs in CI.                                                    |
+| `pipeline/validate.ts`      | Command-line wrapper for `src/lib/validate.ts`. Runs in CI.                                        |
+| `tests/`                    | Unit tests for formatting, validation and the counting rules.                                      |
 | `docs/`                     | Landscape research and naming notes.                                                               |
 
 ## Run
 
+Needs Node 22 (see `.nvmrc`).
+
 ```bash
 npm install
-npm run validate      # check content
 npm run dev           # http://localhost:3000
 npm run build         # static export to out/
 ```
+
+| Command                        | What it does                                                            |
+| ------------------------------ | ----------------------------------------------------------------------- |
+| `npm run check`                | Format, lint, typecheck, tests and content validation. Run before a PR. |
+| `npm run validate`             | Schema and source-reference checks on `content/`.                       |
+| `npm run validate -- --strict` | The same, but warnings fail too. CI runs this.                          |
+| `npm test`                     | Unit tests (Vitest).                                                    |
+| `npm run format`               | Format with Prettier.                                                   |
 
 ## Ingest current events
 
@@ -52,13 +66,16 @@ npm run ingest -- --days 14         # write to content/current/
 
 The site is static and refreshed by hand. "Last updated" dates come from git history. The `ingest.yml` workflow can be run by hand once the `ANTHROPIC_API_KEY` repo secret exists. It opens a pull request. Review the sources, set `reviewed: true`, merge.
 
-## Contribute a precedent
+## Contribute
 
-1. Copy the shape in `content/SCHEMA.md`.
-2. Open every URL you cite.
-3. Run `npm run validate`.
-4. Open a pull request.
+- **Found an error?** Open a [correction request](https://github.com/theachyuttiwari/priors-of-indian-history/issues/new?template=correction.yml). Bring a source.
+- **Missing a precedent?** [Suggest one](https://github.com/theachyuttiwari/priors-of-indian-history/issues/new?template=precedent.yml), or add it yourself:
+  1. Copy the shape in `content/SCHEMA.md`.
+  2. Open every URL you cite.
+  3. Run `npm run check`.
+  4. Open a pull request and fill in the checklist.
+- **Security problem?** See [SECURITY.md](SECURITY.md).
 
 ## Licence
 
-Code: MIT. Content: CC BY 4.0. Sources belong to their publishers.
+Code: [MIT](LICENSE). Content in `content/`: [CC BY 4.0](content/LICENSE). Quoted sources belong to their publishers. To cite the record, see [CITATION.cff](CITATION.cff).

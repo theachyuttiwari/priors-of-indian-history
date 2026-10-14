@@ -1,0 +1,39 @@
+name: Suggest a precedent
+description: A protest, and how a government handled it, that the record should include.
+title: "Precedent: "
+labels: [new-precedent]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Phase 1 covers protests in India after 1947 and how the Centre or a state government
+        handled them. Every party is held to the same standard of evidence.
+  - type: input
+    id: event
+    attributes:
+      label: Event
+      placeholder: Railway strike, May 1974
+    validations: { required: true }
+  - type: input
+    id: when
+    attributes:
+      label: Dates
+      placeholder: 1974-05-08 to 1974-05-27
+    validations: { required: true }
+  - type: input
+    id: where
+    attributes:
+      label: States and places
+    validations: { required: true }
+  - type: textarea
+    id: actions
+    attributes:
+      label: What the government did
+      description: For example Section 144 or 163, internet shutdown, detentions, FIRs, talks, concessions. One line each, with a date if known.
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links you have opened yourself. Prefer orders, court records, Parliament debates and contemporaneous reporting with a named reporter.
+    validations: { required: true }

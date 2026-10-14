@@ -1,0 +1,54 @@
+name: Correction request
+description: A fact, date, quote, attribution or source on the site is wrong or missing.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Corrections are handled in public, and every accepted correction is logged.
+        A correction needs a source. "This is biased" without a source cannot be acted on.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The URL of the page with the error.
+      placeholder: https://.../precedents/farm-laws-2020/
+    validations: { required: true }
+  - type: textarea
+    id: claim
+    attributes:
+      label: What the site says
+      description: Copy the exact text.
+    validations: { required: true }
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should say
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: |
+        Links that support the correction. Primary records (orders, court records, Parliament
+        debates, official statements) are strongest. Give the page or paragraph where you can.
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of error
+      options:
+        - Wrong fact or date
+        - Misquote or wrong speaker
+        - Missing context or missing side
+        - Source does not support the claim
+        - Broken or moved source link
+        - Other
+    validations: { required: true }
+  - type: checkboxes
+    id: interest
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am named in, or directly involved in, the event this concerns.

@@ -1,0 +1,21 @@
+name: Site bug
+description: Something on the site looks broken, does not load, or is hard to use.
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: https://.../compare/
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what you saw instead. A screenshot helps.
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 15, Safari
