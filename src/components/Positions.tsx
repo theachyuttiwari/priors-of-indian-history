@@ -11,7 +11,7 @@ export default function Positions({ p }: { p: Precedent }) {
       {p.positions.map((pos, i) => (
         <blockquote key={i} className="quote">
           <p className="stance">{pos.in_power ? "In power" : "In opposition"}</p>
-          <p className="mt-1 leading-relaxed">“{pos.statement}”</p>
+          <p className="mt-1 leading-relaxed">{pos.statement}</p>
           <footer className="mt-2 small flex flex-wrap gap-x-3 gap-y-1 items-baseline">
             <PartyMark party={pos.party} />
             {pos.person && (

@@ -24,7 +24,7 @@ function Statements({ items }: { items: PartyRecord["statementsInPower"] }) {
     <div className="space-y-6">
       {items.map(({ p, pos }, i) => (
         <blockquote key={i} className="quote">
-          <p className="leading-relaxed">“{pos.statement}”</p>
+          <p className="leading-relaxed">{pos.statement}</p>
           <footer className="small mt-1">
             {[pos.person && `${pos.person}${pos.role_at_time ? `, ${pos.role_at_time}` : ""}`, pos.date && fmtDate(pos.date)]
               .filter(Boolean)

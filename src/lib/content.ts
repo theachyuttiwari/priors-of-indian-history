@@ -1,9 +1,26 @@
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
 import { ACTION_TYPES, ACTION_META, Precedent, type ActionType } from "./schema";
 
 const ROOT = path.join(process.cwd(), "content");
+
+/** Date (YYYY-MM-DD) of the last commit that touched a path, or undefined outside git. */
+function gitDate(rel: string): string | undefined {
+  try {
+    const out = execFileSync("git", ["log", "-1", "--format=%cs", "--", rel], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    });
+    return out.trim() || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/** Entry id to its YAML path, filled by loadDir. */
+const _files = new Map<string, string>();
 
 function loadDir(dir: string): Precedent[] {
   const full = path.join(ROOT, dir);
@@ -16,6 +33,7 @@ function loadDir(dir: string): Precedent[] {
     if (!parsed.success) {
       throw new Error(`${dir}/${f}: ${parsed.error.issues.map((i) => `${i.path.join(".")} ${i.message}`).join("; ")}`);
     }
+    _files.set(parsed.data.id, path.join("content", dir, f));
     out.push(parsed.data);
   }
   return out;
@@ -44,6 +62,20 @@ export function getPrecedent(id: string): Precedent | undefined {
 
 export function getCurrentEvent(id: string): Precedent | undefined {
   return getCurrent().find((p) => p.id === id);
+}
+
+/** When an entry last changed: the newer of its last_updated field and its file's last commit. */
+export function entryUpdated(p: Precedent): string | undefined {
+  const file = _files.get(p.id);
+  const dates = [p.last_updated, file ? gitDate(file) : undefined].filter((d): d is string => !!d);
+  return dates.sort().at(-1);
+}
+
+/** When the content as a whole last changed. Falls back to the build date outside git. */
+export function siteUpdated(): string {
+  const all = [...getPrecedents(), ...getCurrent()];
+  const dates = [gitDate("content"), ...all.map((p) => p.last_updated)].filter((d): d is string => !!d);
+  return dates.sort().at(-1) ?? new Date().toISOString().slice(0, 10);
 }
 
 export function year(d: string): string {

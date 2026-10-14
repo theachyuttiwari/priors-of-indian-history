@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPrecedent, getPrecedents, fmtPeriod, similar } from "@/lib/content";
+import { getPrecedent, getPrecedents, fmtPeriod, similar, entryUpdated, fmtDate } from "@/lib/content";
 import { REPO } from "@/lib/site";
 import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
@@ -97,7 +97,7 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
       {p.positions.length > 0 && (
         <section>
           <h2 className="t-2 mb-2">What they said</h2>
-          <p className="small mb-8 measure">Each statement says whether the speaker&apos;s party was in power or in opposition at the time.</p>
+          <p className="small mb-8 measure">Statements are reported as the cited source gives them. Open the source for exact wording. Each one says whether the speaker&apos;s party was in power or in opposition at the time.</p>
           <Positions p={p} />
         </section>
       )}
@@ -120,6 +120,7 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
       )}
 
       <p className="small">
+        {entryUpdated(p) && <>Entry last updated {fmtDate(entryUpdated(p))}. </>}
         Something wrong or missing?{" "}
         <a className="link" href={`${REPO}/blob/main/content/precedents/${p.id}.yaml`} rel="noreferrer">
           Edit content/precedents/{p.id}.yaml

@@ -1,5 +1,5 @@
 import type { Precedent } from "@/lib/schema";
-import { fmtPeriod } from "@/lib/content";
+import { fmtPeriod, siteUpdated } from "@/lib/content";
 
 /** Decimal year from an ISO-ish date string ("2020", "2020-11", "2020-11-26"). */
 function decimal(d: string): number {
@@ -14,8 +14,10 @@ function decimal(d: string): number {
  * Static HTML positioned by percentage, so it needs no client JS.
  */
 export default function YearStrip({ precedents, current }: { precedents: Precedent[]; current?: Precedent }) {
-  const now = new Date();
-  const nowY = now.getFullYear() + now.getMonth() / 12 + (now.getDate() - 1) / 365;
+  // The site is refreshed by hand, so the right edge is the last content update, not the build time.
+  const asOf = siteUpdated();
+  const now = new Date(`${asOf}T00:00:00Z`);
+  const nowY = decimal(asOf);
   const from = Math.min(...precedents.map((p) => +p.period.start.slice(0, 4)));
   const to = nowY + 0.2;
   const x = (y: number) => ((y - from) / (to - from)) * 100;
@@ -26,7 +28,7 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
   const firstDecade = Math.ceil((from + 1) / 10) * 10;
   const decades = [from];
   for (let y = firstDecade; y < nowY - 3; y += 10) decades.push(y);
-  const nowLabel = now.toLocaleDateString("en-GB", { month: "short", year: "numeric" });
+  const nowLabel = now.toLocaleDateString("en-GB", { month: "short", year: "numeric", timeZone: "UTC" });
 
   return (
     <div>
@@ -64,7 +66,7 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
         })}
         <span className="strip-now" style={{ left: `${x(nowY)}%` }} />
         <span className="strip-now-label" style={{ left: `calc(${x(nowY)}% + 8px)` }}>
-          Now, {nowLabel}
+          As of {nowLabel}
         </span>
       </div>
       {current && (

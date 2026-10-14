@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getCurrent, getPrecedents, similar, stats, fmtPeriod } from "@/lib/content";
+import { getCurrent, getPrecedents, similar, stats, fmtPeriod, fmtDate, siteUpdated } from "@/lib/content";
 import PrecedentRow from "@/components/PrecedentRow";
 import ActionChip from "@/components/ActionChip";
 import YearStrip from "@/components/YearStrip";
@@ -79,7 +79,8 @@ export default function Home() {
         <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
           <h2 className="t-2">The record</h2>
           <p className="small num">
-            {s.precedents} precedents, {s.actions} government actions, {s.sources} sources
+            {s.precedents} precedents, {s.actions} government actions, {s.sources} sources. Last updated{" "}
+            {fmtDate(siteUpdated())}.
           </p>
         </div>
         <GlyphLegend className="mt-4" />

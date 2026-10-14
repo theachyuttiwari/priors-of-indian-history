@@ -35,16 +35,19 @@ export default function AboutPage() {
       </section>
 
       <section id="pipeline">
-        <h2 className="t-2">How current events get in</h2>
+        <h2 className="t-2">How entries get in</h2>
         <p className="text-ink-2 mt-3">
-          A pipeline runs on a schedule. It searches recent news for protests in India and government responses,
-          opens the sources, extracts actions and statements into the same schema, and matches the event to the
-          closest precedents. It then opens a pull request. Entries it wrote carry a &quot;not yet reviewed&quot; mark
-          until a person checks the sources and removes it.
+          Priors is not a live feed. It is updated by hand, and every page shows the date it last changed. Current
+          events can be days or weeks behind the news.
         </p>
         <p className="text-ink-2 mt-3">
-          The pipeline uses Claude with web search and web fetch. It can be wrong. The source links are there so you
-          can check.
+          Some entries were drafted with help from Claude, using web search and web fetch, and then added by pull
+          request. A drafted entry carries a &quot;not yet reviewed&quot; mark until a person checks every source and
+          removes it. Drafts can be wrong. The source links are there so you can check.
+        </p>
+        <p className="text-ink-2 mt-3">
+          Statements are reported as the cited source gives them. They are not shown in quote marks, because some are
+          summaries of what was said. Open the source for the exact words.
         </p>
       </section>
 

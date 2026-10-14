@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { REPO } from "@/lib/site";
+import { fmtDate, siteUpdated } from "@/lib/content";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -52,6 +53,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1 mx-auto w-full max-w-5xl px-5 pt-14 pb-24">{children}</main>
         <footer className="bg-surface">
           <div className="mx-auto max-w-5xl px-5 py-8 small space-y-1">
+            <p className="text-ink-2">
+              Last updated <time dateTime={siteUpdated()}>{fmtDate(siteUpdated())}</time>. Updated by hand, not live.
+            </p>
             <p>Priors is open source. Content is CC BY 4.0. Code is MIT.</p>
             <p>Every party gets the same columns. Every claim links to a dated source.</p>
             <p className="flex gap-4 pt-2">

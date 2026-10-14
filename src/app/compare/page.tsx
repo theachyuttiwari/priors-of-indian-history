@@ -40,7 +40,7 @@ function Statement({ label, s }: { label: string; s: Said }) {
   return (
     <blockquote className="quote">
       <p className="stance">{label}</p>
-      <p className="text-[15px] text-ink-2 mt-1">“{s.pos.statement}”</p>
+      <p className="text-[15px] text-ink-2 mt-1">{s.pos.statement}</p>
       <Link href={`/precedents/${s.p.id}/`} className="link small block mt-1">
         {s.p.title}
       </Link>

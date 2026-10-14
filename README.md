@@ -26,7 +26,7 @@ Memory is short and the record is long. A new generation sees today's crackdown 
 | Path | What |
 |---|---|
 | `content/precedents/*.yaml` | One protest, one government's answer. Hand-written or pipeline-drafted, human-checked. |
-| `content/current/*.yaml` | Events underway. Drafted by the pipeline, marked `reviewed: false` until checked. |
+| `content/current/*.yaml` | Events underway. Added by hand or drafted by the pipeline, marked `reviewed: false` until checked. |
 | `content/SCHEMA.md` | The schema and action-type vocabulary. |
 | `src/` | Next.js static site. |
 | `pipeline/ingest.ts` | Claude + web search finds recent events, structures them, writes YAML. |
@@ -50,7 +50,7 @@ npm run ingest -- --days 14 --dry   # print, do not write
 npm run ingest -- --days 14         # write to content/current/
 ```
 
-A GitHub Action runs this daily and opens a pull request. Review the sources, set `reviewed: true`, merge.
+The site is static and refreshed by hand. "Last updated" dates come from git history. The `ingest.yml` workflow can be run by hand once the `ANTHROPIC_API_KEY` repo secret exists. It opens a pull request. Review the sources, set `reviewed: true`, merge.
 
 ## Contribute a precedent
 

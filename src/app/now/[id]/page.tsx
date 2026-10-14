@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCurrent, getCurrentEvent, fmtPeriod, similar, fmtDate } from "@/lib/content";
+import { getCurrent, getCurrentEvent, fmtPeriod, similar, fmtDate, entryUpdated } from "@/lib/content";
 import { ACTION_META, type ActionType, type Precedent } from "@/lib/schema";
 import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
@@ -93,7 +93,10 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
           Now
         </Link>
         <h1 className="t-1 mt-4 max-w-3xl">{ev.title}</h1>
-        <p className="small num mt-3">{fmtPeriod(ev.period)}</p>
+        <p className="small num mt-3">
+          {fmtPeriod(ev.period)}
+          {entryUpdated(ev) && <>. Last updated {fmtDate(entryUpdated(ev))}</>}
+        </p>
         <p className="lede mt-6 measure">{ev.summary}</p>
         {ev.reviewed === false && (
           <p className="mt-6 small inline-block panel px-3 py-2">
