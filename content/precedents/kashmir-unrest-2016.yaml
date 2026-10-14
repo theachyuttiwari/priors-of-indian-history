@@ -102,18 +102,24 @@ sources:
     title: "PRS Parliament Diary: Monsoon Session Day 4, 21 July 2016"
     publisher: PRS Legislative Research
     url: https://prsindia.org/media/media-updates/prs-parliament-diary-monsoon-session-day-4-jul-21-2016
+    archive_date: 2019-01-15
+    archive_url: https://web.archive.org/web/20190115163324/https://prsindia.org/media/media-updates/prs-parliament-diary-monsoon-session-day-4-jul-21-2016
     date: 2016-07-21
     type: official
   - id: s2
     title: Indian authorities shut down media outlets in Jammu and Kashmir
     publisher: Committee to Protect Journalists
     url: https://cpj.org/2016/07/indian-authorities-shut-down-media-outlets-in-jamm/
+    archive_date: 2020-08-07
+    archive_url: https://web.archive.org/web/20200807013424/https://cpj.org/2016/07/indian-authorities-shut-down-media-outlets-in-jamm/
     date: 2016-07-18
     type: news
   - id: s3
     title: RSF condemns Kashmir media blackout by Indian authorities
     publisher: Reporters Without Borders
     url: https://rsf.org/en/rsf-condemns-kashmir-media-blackout-indian-authorities
+    archive_date: 2022-05-24
+    archive_url: https://web.archive.org/web/20220524205209/https://rsf.org/en/rsf-condemns-kashmir-media-blackout-indian-authorities
     date: 2016-07-21
     type: news
   - id: s4
@@ -126,12 +132,16 @@ sources:
     title: "#KashmirNow: GoI to review use of pellet guns"
     publisher: Kashmir Life
     url: https://kashmirlife.net/kashmirnow-goi-to-review-use-of-pellet-guns-111870/
+    archive_date: 2016-07-22
+    archive_url: https://web.archive.org/web/20160722060716/https://kashmirlife.net/kashmirnow-goi-to-review-use-of-pellet-guns-111870/
     date: 2016-07-21
     type: news
   - id: s6
     title: "Govt will look at non-lethal alternatives to pellet guns: Rajnath Singh"
     publisher: rajnathsingh.in (Home Minister's website)
     url: https://www.rajnathsingh.in/news-eng/govt-will-look-at-non-lethal-alternatives-to-pellet-guns-rajnath-singh/
+    archive_date: 2021-11-29
+    archive_url: https://web.archive.org/web/20211129113906/https://www.rajnathsingh.in/news-eng/govt-will-look-at-non-lethal-alternatives-to-pellet-guns-rajnath-singh/
     date: 2016-07-22
     type: official
   - id: s7
@@ -145,6 +155,8 @@ sources:
     title: Dozens killed after Indian forces crackdown on protests in Kashmir
     publisher: Global Voices
     url: https://globalvoices.org/2016/07/11/dozens-killed-after-indian-forces-crackdown-on-protests-in-kashmir/
+    archive_date: 2016-07-12
+    archive_url: https://web.archive.org/web/20160712133300/https://globalvoices.org/2016/07/11/dozens-killed-after-indian-forces-crackdown-on-protests-in-kashmir/
     date: 2016-07-11
     type: news
   - id: s9
@@ -152,12 +164,16 @@ sources:
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
+    archive_date: 2020-09-08
+    archive_url: https://web.archive.org/web/20200908013134/https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
     date: 2016
     type: archive
   - id: s10
     title: "Day 20: Didn't know Burhan was in Bemdoora, says CM"
     publisher: Kashmir Life
     url: https://kashmirlife.net/day20-didnt-know-burhan-was-in-bemdoora-says-cm-112662/
+    archive_date: 2016-07-29
+    archive_url: https://web.archive.org/web/20160729164607/https://kashmirlife.net/day20-didnt-know-burhan-was-in-bemdoora-says-cm-112662/
     date: 2016-07-28
     type: news
 tags: [kashmir, curfew, internet_shutdown, pellet_guns, censorship, pdp, bjp, nda]

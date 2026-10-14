@@ -154,6 +154,8 @@ sources:
     publisher: France 24
     wire: AFP
     url: https://www.france24.com/en/asia-pacific/20261010-india-s-cockroach-movement-chief-detained-ahead-of-major-protest
+    archive_date: 2026-10-10
+    archive_url: https://web.archive.org/web/20261010073800/https://www.france24.com/en/asia-pacific/20261010-india-s-cockroach-movement-chief-detained-ahead-of-major-protest
     date: 2026-10-10
     type: news
   - id: o2
@@ -161,24 +163,32 @@ sources:
     publisher: France 24
     wire: AFP
     url: https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention
+    archive_date: 2026-10-11
+    archive_url: https://web.archive.org/web/20261011055002/https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention
     date: 2026-10-11
     type: news
   - id: o3
     title: Opposition leaders and journalists allege police abuses as fresh protests break out in India
     publisher: France 24
     url: https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india
+    archive_date: 2026-10-12
+    archive_url: https://web.archive.org/web/20261012073629/https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india
     date: 2026-10-12
     type: news
   - id: o4
     title: "'Not backing down': What next after India's crackdown on youth protesters?"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next
+    archive_date: 2026-10-11
+    archive_url: https://web.archive.org/web/20261011133803/https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next
     date: 2026-10-11
     type: news
   - id: o5
     title: Indian opposition defies lockdown, marches to demand election chief sacking
     publisher: Al Jazeera
     url: https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown
+    archive_date: 2026-10-12
+    archive_url: https://web.archive.org/web/20261012090843/https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown
     date: 2026-10-12
     type: news
   - id: o6
@@ -186,6 +196,8 @@ sources:
     publisher: Al Jazeera
     wire: Reuters
     url: https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest
+    archive_date: 2026-10-13
+    archive_url: https://web.archive.org/web/20261013140038/https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest
     date: 2026-10-13
     type: news
   - id: o7
@@ -199,12 +211,16 @@ sources:
     publisher: Al Jazeera
     wire: AP
     url: https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest
+    archive_date: 2026-10-11
+    archive_url: https://web.archive.org/web/20261011100803/https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest
     date: 2026-10-11
     type: news
   - id: o9
     title: Indian police detain demonstrators as protests over voter roll revision intensify
     publisher: France 24
     url: https://www.france24.com/en/video/20261005-ndian-police-detain-demonstrators-as-protests-over-voter-roll-revision-intensify
+    archive_date: 2026-10-05
+    archive_url: https://web.archive.org/web/20261005123144/https://www.france24.com/en/video/20261005-ndian-police-detain-demonstrators-as-protests-over-voter-roll-revision-intensify
     date: 2026-10-05
     type: news
 tags: [elections, voter_roll, delhi, internet_shutdown, detention, preventive_arrest, journalists, youth]

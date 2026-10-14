@@ -113,66 +113,88 @@ sources:
     title: Indian police fire tear gas as protesting farmers march to capital
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2024/2/13/indian-police-fire-tear-gas-as-protesting-farmers-march-to-capital
+    archive_date: 2024-02-13
+    archive_url: https://web.archive.org/web/20240213103626/https://www.aljazeera.com/news/2024/2/13/indian-police-fire-tear-gas-as-protesting-farmers-march-to-capital
     date: 2024-02-13
     type: news
   - id: s2
     title: Tear gas and rubber bullets as Indian farmers march on Delhi
     publisher: Al Jazeera
     url: https://www.aljazeera.com/gallery/2024/2/14/tear-gas-and-rubber-bullets-as-indian-farmers-march-on-delhi
+    archive_date: 2024-02-14
+    archive_url: https://web.archive.org/web/20240214132346/https://www.aljazeera.com/gallery/2024/2/14/tear-gas-and-rubber-bullets-as-indian-farmers-march-on-delhi
     date: 2024-02-14
     type: news
   - id: s3
     title: "'We want dignity': Indian farmers defy pellets, drones to demand new deal"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/features/2024/2/21/we-want-dignity-indian-farmers-defy-pellets-drones-to-demand-new-deal
+    archive_date: 2024-02-21
+    archive_url: https://web.archive.org/web/20240221070740/https://www.aljazeera.com/features/2024/2/21/we-want-dignity-indian-farmers-defy-pellets-drones-to-demand-new-deal
     date: 2024-02-21
     type: news
   - id: s4
     title: "Farmers' protest: 4 farmers dead, 46 admitted to hospital, 18 with 'gunshot' injuries"
     publisher: Newslaundry
     url: https://www.newslaundry.com/2024/02/23/farmers-protest-4-farmers-dead-46-admitted-to-hospital-18-with-gunshot-injuries
+    archive_date: 2024-04-21
+    archive_url: https://web.archive.org/web/20240421015958/https://www.newslaundry.com/2024/02/23/farmers-protest-4-farmers-dead-46-admitted-to-hospital-18-with-gunshot-injuries
     date: 2024-02-23
     type: news
   - id: s5
     title: "Farmers Protest | Dallewal Ended Fast, NH Opened After Clearing Protesters : Punjab Govt Informs Supreme Court"
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/farmers-protest-dallewal-ended-fast-nh-opened-after-clearing-protesters-punjab-govt-informs-supreme-court-287806
+    archive_date: 2025-03-28
+    archive_url: https://web.archive.org/web/20250328082102/https://www.livelaw.in/top-stories/farmers-protest-dallewal-ended-fast-nh-opened-after-clearing-protesters-punjab-govt-informs-supreme-court-287806
     date: 2025-03-28
     type: news
   - id: s6
     title: Haryana Govt Approaches Supreme Court Against High Court's Order To Unblock Shambhu Border
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/haryana-govt-approaches-supreme-court-against-high-courts-order-to-unblock-shambhu-border-263432
+    archive_date: 2024-07-15
+    archive_url: https://web.archive.org/web/20240715152231/https://www.livelaw.in/top-stories/haryana-govt-approaches-supreme-court-against-high-courts-order-to-unblock-shambhu-border-263432
     date: 2024-07-15
     type: news
   - id: s7
     title: "'Reach Out To Farmers, Trust Deficit Is There': Supreme Court To Haryana Govt; Proposes Forming Committee To Resolve Farmers Protest"
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/farmers-protests-reach-out-to-farmers-trust-deficit-is-there-supreme-court-to-haryana-govt-264379
+    archive_date: 2024-07-24
+    archive_url: https://web.archive.org/web/20240724090926/https://www.livelaw.in/top-stories/farmers-protests-reach-out-to-farmers-trust-deficit-is-there-supreme-court-to-haryana-govt-264379
     date: 2024-07-24
     type: news
   - id: s8
     title: "Shambhu Border Blockade | Supreme Court Forms Committee To Negotiate With Protesting Farmers, Says Issue Shouldn't Be Politicised"
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/shambhu-border-blockade-supreme-court-forms-committee-to-negotiate-with-protesting-farmers-says-issue-shouldnt-be-politicised-268319
+    archive_date: 2024-09-02
+    archive_url: https://web.archive.org/web/20240902085302/https://www.livelaw.in/top-stories/shambhu-border-blockade-supreme-court-forms-committee-to-negotiate-with-protesting-farmers-says-issue-shouldnt-be-politicised-268319
     date: 2024-09-02
     type: news
   - id: s9
     title: Why are Indian farmers marching on New Delhi?
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2024/2/13/india-farmers-march-what-are-their-demands-why-is-govt-blocking-roads
+    archive_date: 2024-02-13
+    archive_url: https://web.archive.org/web/20240213145322/https://www.aljazeera.com/news/2024/2/13/india-farmers-march-what-are-their-demands-why-is-govt-blocking-roads
     date: 2024-02-13
     type: news
   - id: s10
     title: "Farmers protest in Delhi: Key players, why is it happening, demands, all the details"
     publisher: Business Today
     url: https://www.businesstoday.in/india/story/farmers-protest-in-delhi-key-players-why-is-it-happening-demands-all-the-details-417231-2024-02-13
+    archive_date: 2024-02-13
+    archive_url: https://web.archive.org/web/20240213023324/https://www.businesstoday.in/india/story/farmers-protest-in-delhi-key-players-why-is-it-happening-demands-all-the-details-417231-2024-02-13
     date: 2024-02-13
     type: news
   - id: s11
     title: "'Need To Bring Modi's Graph Down...': Big 'Political' Comment By Farmer Leader Jagjit Singh Dallewal Triggers Row"
     publisher: Free Press Journal
     url: https://www.freepressjournal.in/india/will-bring-modis-graph-down-says-farmer-leader-jagjit-singh-dallewal-amid-delhi-chalo-protest
+    archive_date: 2024-02-15
+    archive_url: https://web.archive.org/web/20240215093625/https://www.freepressjournal.in/india/will-bring-modis-graph-down-says-farmer-leader-jagjit-singh-dallewal-amid-delhi-chalo-protest
     date: 2024-02-15
     type: news
 tags: [farmers, msp, punjab, haryana, internet_shutdown, tear_gas, drones, barricading]

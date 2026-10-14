@@ -88,24 +88,32 @@ sources:
     title: "Sterlite protest live updates: Tuticorin death toll"
     publisher: India TV
     url: https://www.indiatvnews.com/news/india-sterlite-protest-live-updates-tuticorin-thoothukudi-death-toll-vedanta-copper-plant-443641
+    archive_date: 2018-05-24
+    archive_url: https://web.archive.org/web/20180524075604/https://www.indiatvnews.com/news/india-sterlite-protest-live-updates-tuticorin-thoothukudi-death-toll-vedanta-copper-plant-443641
     date: 2018-05-24
     type: news
   - id: s2
     title: "12 killed in Tuticorin, internet services suspended, top cop shifted"
     publisher: Deccan Chronicle
     url: https://www.deccanchronicle.com/nation/current-affairs/240518/12-killed-in-tuticorin-internet-services-suspended-top-cop-shifted.html
+    archive_date: 2018-05-24
+    archive_url: https://web.archive.org/web/20180524062903/https://www.deccanchronicle.com/nation/current-affairs/240518/12-killed-in-tuticorin-internet-services-suspended-top-cop-shifted.html
     date: 2018-05-24
     type: news
   - id: s3
     title: "Thoothukudi police firing: CBI registers case against police and revenue department officials"
     publisher: Scroll.in
     url: https://scroll.in/latest/903907/thoothukudi-police-firing-cbi-registers-case-against-police-and-revenue-department-officials
+    archive_date: 2018-11-30
+    archive_url: https://web.archive.org/web/20181130155251/https://scroll.in/latest/903907/thoothukudi-police-firing-cbi-registers-case-against-police-and-revenue-department-officials
     date: 2018-11-29
     type: news
   - id: s4
     title: "Sterlite Copper row: activists question neutrality of NGT panel that found closure of plant illegal"
     publisher: Scroll.in
     url: https://scroll.in/article/903809/sterlite-copper-row-activists-question-neutrality-of-ngt-panel-that-found-closure-of-plant-illegal
+    archive_date: 2018-11-29
+    archive_url: https://web.archive.org/web/20181129145117/https://scroll.in/article/903809/sterlite-copper-row-activists-question-neutrality-of-ngt-panel-that-found-closure-of-plant-illegal
     date: 2018-11-29
     type: news
   - id: s5

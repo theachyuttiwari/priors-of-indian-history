@@ -108,6 +108,8 @@ sources:
     title: "Jat riots: Prakash Singh committee submits report to Haryana govt"
     publisher: The Quint
     url: https://www.thequint.com/news/hot-news/jat-riots-parkash-singh-committee-submits-report-to-haryana-govt
+    archive_date: 2021-10-23
+    archive_url: https://web.archive.org/web/20211023184545/https://www.thequint.com/news/hot-news/jat-riots-parkash-singh-committee-submits-report-to-haryana-govt
     date: 2016-05-13
     type: news
   - id: s2
@@ -122,6 +124,8 @@ sources:
     publisher: Moneylife
     wire: IANS
     url: https://www.moneylife.in/article/internet-services-blocked-in-haryana-after-clash/45534.html
+    archive_date: 2016-02-22
+    archive_url: https://web.archive.org/web/20160222042427/https://www.moneylife.in/article/internet-services-blocked-in-haryana-after-clash/45534.html
     date: 2016-02-19
     type: news
   - id: s4
@@ -129,6 +133,8 @@ sources:
     publisher: Ummid
     wire: IANS
     url: https://ummid.com/news/2016/February/21.02.2016/haryana-burns-five-killed-army-called.html
+    archive_date: 2016-02-22
+    archive_url: https://web.archive.org/web/20160222091249/https://ummid.com/news/2016/February/21.02.2016/haryana-burns-five-killed-army-called.html
     date: 2016-02-21
     type: news
   - id: s5

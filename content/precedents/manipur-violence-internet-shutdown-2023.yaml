@@ -110,36 +110,48 @@ sources:
     title: Trend of long internet shutdowns in India - Manipur crisis
     publisher: SFLC.in (internetshutdowns.in)
     url: https://internetshutdowns.in/blog/trend-long-internet-shutdowns-india-manipur-crisis/
+    archive_date: 2023-11-30
+    archive_url: https://web.archive.org/web/20231130204033/https://internetshutdowns.in/blog/trend-long-internet-shutdowns-india-manipur-crisis/
     date: 2023-10-16
     type: academic
   - id: s2
     title: Centre invokes Article 355 as situation worsens
     publisher: The Sangai Express
     url: https://www.thesangaiexpress.com/Encyc/2023/5/5/Guwahati-May-4The-Centre-has-reportedly-invoked-Article-355-of-the-Constitution-in-Manipur-as-the.html
+    archive_date: 2023-05-05
+    archive_url: https://web.archive.org/web/20230505094323/https://www.thesangaiexpress.com/Encyc/2023/5/5/Guwahati-May-4The-Centre-has-reportedly-invoked-Article-355-of-the-Constitution-in-Manipur-as-the.html
     date: 2023-05-05
     type: news
   - id: s3
     title: "Manipur: Centre Invokes Article 355, Takes Over Security in Violence-Hit State"
     publisher: The Quint (EastMojo)
     url: https://www.thequint.com/news/india/manipur-violence-centre-takes-control-article-355
+    archive_date: 2023-05-05
+    archive_url: https://web.archive.org/web/20230505130025/https://www.thequint.com/news/india/manipur-violence-centre-takes-control-article-355
     date: 2023-05-05
     type: news
   - id: s4
     title: "Manipur: Centre Says 'No Information' on Article 355"
     publisher: The Wire
     url: https://thewire.in/government/manipur-centre-says-no-information-on-article-355
+    archive_date: 2023-08-01
+    archive_url: https://web.archive.org/web/20230801181949/https://thewire.in/government/manipur-centre-says-no-information-on-article-355
     date: 2023-08-01
     type: news
   - id: s5
     title: Why ethnic violence in India's Manipur has been going on for three months
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2023/8/9/why-ethnic-violence-in-indias-manipur-has-been-going-on-for-three-months
+    archive_date: 2023-08-09
+    archive_url: https://web.archive.org/web/20230809062226/https://www.aljazeera.com/news/2023/8/9/why-ethnic-violence-in-indias-manipur-has-been-going-on-for-three-months
     date: 2023-08-09
     type: news
   - id: s6
     title: "India: Authorities must uphold human rights and end violence in Manipur following Biren Singh's resignation"
     publisher: Amnesty International
     url: https://www.amnesty.org/en/latest/news/2025/02/india-authorities-must-uphold-human-rights-and-end-violence-in-manipur-following-biren-singhs-resignation/
+    archive_date: 2025-02-12
+    archive_url: https://web.archive.org/web/20250212021411/https://www.amnesty.org/en/latest/news/2025/02/india-authorities-must-uphold-human-rights-and-end-violence-in-manipur-following-biren-singhs-resignation/
     date: 2025-02-11
     type: news
   - id: s7
@@ -147,36 +159,48 @@ sources:
     publisher: Supreme Court of India
     tier: court
     url: https://api.sci.gov.in/supremecourt/2023/19206/19206_2023_1_7_45953_Judgement_07-Aug-2023.pdf
+    archive_date: 2025-06-14
+    archive_url: https://web.archive.org/web/20250614163026/https://api.sci.gov.in/supremecourt/2023/19206/19206_2023_1_7_45953_Judgement_07-Aug-2023.pdf
     date: 2023-08-07
     type: court_judgment
   - id: s8
     title: "Why PM Modi's speech on Manipur is worse than his silence"
     publisher: Scroll
     url: https://scroll.in/article/1052988/why-pm-modis-speech-on-manipur-is-worse-than-his-silence
+    archive_date: 2023-07-20
+    archive_url: https://web.archive.org/web/20230720120619/https://scroll.in/article/1052988/why-pm-modis-speech-on-manipur-is-worse-than-his-silence
     date: 2023-07-20
     type: news
   - id: s9
     title: BJP has given a big assurance to its Manipur MLAs frustrated with extended President's Rule
     publisher: ThePrint
     url: https://theprint.in/india/bjp-has-given-a-big-assurance-to-its-manipur-mlas-frustrated-with-extended-presidents-rule/2783409/
+    archive_date: 2025-11-25
+    archive_url: https://web.archive.org/web/20251125000805/https://theprint.in/india/bjp-has-given-a-big-assurance-to-its-manipur-mlas-frustrated-with-extended-presidents-rule/2783409/
     date: 2025-11-13
     type: news
   - id: s10
     title: No cabinet expansion in about 7 months, Manipur CM holds over 20 portfolios, his 4 colleagues the rest
     publisher: ThePrint
     url: https://theprint.in/india/governance/no-cabinet-expansion-in-about-7-months-manipur-cm-holds-over-20-portfolios-his-4-colleagues-the-rest/3035010/
+    archive_date: 2026-09-07
+    archive_url: https://web.archive.org/web/20260907070839/https://theprint.in/india/governance/no-cabinet-expansion-in-about-7-months-manipur-cm-holds-over-20-portfolios-his-4-colleagues-the-rest/3035010/
     date: 2026-09-06
     type: news
   - id: s12
     title: "'Good gesture, but will it help us?' Hope & hurt greet Modi in 1st Manipur visit since ethnic violence"
     publisher: ThePrint
     url: https://theprint.in/india/good-gesture-but-will-it-help-us-hope-hurt-greet-modi-in-1st-manipur-visit-since-ethnic-violence/2742767/
+    archive_date: 2025-09-13
+    archive_url: https://web.archive.org/web/20250913164242/https://theprint.in/india/good-gesture-but-will-it-help-us-hope-hurt-greet-modi-in-1st-manipur-visit-since-ethnic-violence/2742767/
     date: 2025-09-13
     type: news
   - id: s13
     title: "'Mauritius, Qatar, Dubai, why not Manipur?' Oppn attacks Modi again for not visiting strife-torn state"
     publisher: ThePrint
     url: https://theprint.in/politics/mauritius-qatar-dubai-why-not-manipur-oppn-attacks-modi-again-for-not-visiting-strife-torn-state/2551556/
+    archive_date: 2025-03-17
+    archive_url: https://web.archive.org/web/20250317181212/https://theprint.in/politics/mauritius-qatar-dubai-why-not-manipur-oppn-attacks-modi-again-for-not-visiting-strife-torn-state/2551556/
     date: 2025-03-17
     type: news
 tags: [manipur, ethnic_violence, internet_shutdown, curfew, article_355, presidents_rule]

@@ -122,24 +122,32 @@ sources:
     publisher: Supreme Court of India (via Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/17021567/
+    archive_date: 2012-03-02
+    archive_url: https://web.archive.org/web/20120302054219/https://indiankanoon.org/doc/17021567/
     date: 2012-02-23
     type: court_judgment
   - id: s2
     title: "BJP leads charge against Ramlila crackdown"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2011/20110606/nation.htm
+    archive_date: 2011-06-09
+    archive_url: https://web.archive.org/web/20110609011212/https://www.tribuneindia.com/2011/20110606/nation.htm
     date: 2011-06-06
     type: news
   - id: s3
     title: PM defends crackdown on sleeping protesters
     publisher: Governance Now
     url: https://www.governancenow.com/news/regular-story/pm-defends-crackdown-sleeping-protesters
+    archive_date: 2011-06-11
+    archive_url: https://web.archive.org/web/20110611090006/https://www.governancenow.com/news/regular-story/pm-defends-crackdown-sleeping-protesters
     date: 2011-06-06
     type: news
   - id: s4
     title: "Home Minister Shri Chidambaram's statement on events at Ramdev's protest (reproduced)"
     publisher: TaxGuru (reproduction of Union Home Minister's statement)
     url: https://taxguru.in/finance/home-minister-shri-chidambarams-statement-events-ramdevs-protest.html
+    archive_date: 2014-10-24
+    archive_url: https://web.archive.org/web/20141024173916/https://taxguru.in/finance/home-minister-shri-chidambarams-statement-events-ramdevs-protest.html
     date: 2011-06-08
     type: official
 tags: [delhi, section_144, tear_gas, lathi_charge, supreme_court, black_money, upa]

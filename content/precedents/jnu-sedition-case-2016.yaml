@@ -78,24 +78,32 @@ sources:
     title: "Delhi High Court grants interim bail to Kanhaiya Kumar [Read Order]"
     publisher: LiveLaw
     url: https://livelaw.in/delhi-high-court-grants-interim-bail-kanhaiya-kumar
+    archive_date: 2016-03-05
+    archive_url: https://web.archive.org/web/20160305172346/https://livelaw.in/delhi-high-court-grants-interim-bail-kanhaiya-kumar
     date: 2016-03-02
     type: news
   - id: s2
     title: "SC asks Delhi Police Commissioner to ensure security of Kanhaiya Kumar [Read the Full Order]"
     publisher: LiveLaw
     url: https://livelaw.in/sc-asks-delhi-police-commissioner-to-ensure-security-of-kanhaiya-kumar
+    archive_date: 2016-02-18
+    archive_url: https://web.archive.org/web/20160218171457/https://livelaw.in/sc-asks-delhi-police-commissioner-to-ensure-security-of-kanhaiya-kumar
     date: 2016-02-17
     type: news
   - id: s3
     title: Narendra Modi government bullying JNU, says Rahul Gandhi
     publisher: India.com
     url: https://www.india.com/news/india/narendra-modi-government-bullying-jnu-says-rahul-gandhi-944484/
+    archive_date: 2016-02-14
+    archive_url: https://web.archive.org/web/20160214084129/https://www.india.com/news/india/narendra-modi-government-bullying-jnu-says-rahul-gandhi-944484/
     date: 2016-02-13
     type: news
   - id: s4
     title: "Slogans against nation not acceptable: Rijiju"
     publisher: The Free Press Journal
     url: https://www.freepressjournal.in/headlines/slogans-against-nation-not-acceptable-rijiju
+    archive_date: 2019-12-14
+    archive_url: https://web.archive.org/web/20191214203511/https://www.freepressjournal.in/headlines/slogans-against-nation-not-acceptable-rijiju
     date: 2016-02-12
     type: news
 tags: [delhi, sedition, university, students, nda, court]

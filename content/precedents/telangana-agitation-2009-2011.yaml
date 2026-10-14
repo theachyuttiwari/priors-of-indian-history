@@ -214,36 +214,48 @@ sources:
     title: "Rao's flip-flop on fast triggers confusion"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091202/main5.htm
+    archive_date: 2010-01-05
+    archive_url: https://web.archive.org/web/20100105154453/https://www.tribuneindia.com/2009/20091202/main5.htm
     date: 2009-12-02
     type: news
   - id: s2
     title: "TRS chief shifted to Hyderabad"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091204/nation.htm
+    archive_date: 2009-12-06
+    archive_url: https://web.archive.org/web/20091206123947/https://www.tribuneindia.com/2009/20091204/nation.htm
     date: 2009-12-04
     type: news
   - id: s3
     title: "Centre buckles: Resolution likely today; Rao ends fast"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091210/main1.htm
+    archive_date: 2009-12-13
+    archive_url: https://web.archive.org/web/20091213035518/https://www.tribuneindia.com/2009/20091210/main1.htm
     date: 2009-12-10
     type: news
   - id: s4
     title: "Political crisis rocks AP: 100 MLAs quit over statehood to Telangana"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091211/main1.htm
+    archive_date: 2009-12-13
+    archive_url: https://web.archive.org/web/20091213213616/https://www.tribuneindia.com/2009/20091211/main1.htm
     date: 2009-12-11
     type: news
   - id: s5
     title: "Centre dithers on Telangana: Situation in AP has altered, says Chidambaram"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091224/main1.htm
+    archive_date: 2010-01-18
+    archive_url: https://web.archive.org/web/20100118162855/https://www.tribuneindia.com/2009/20091224/main1.htm
     date: 2009-12-24
     type: news
   - id: s6
     title: "Crisis deepens in Andhra: 65 MLAs quit; protesters damage 57 buses"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2009/20091225/main1.htm
+    archive_date: 2010-01-18
+    archive_url: https://web.archive.org/web/20100118163130/https://www.tribuneindia.com/2009/20091225/main1.htm
     date: 2009-12-25
     type: news
   - id: s7
@@ -251,24 +263,32 @@ sources:
     publisher: Ummid.com
     wire: PTI
     url: https://ummid.com/news/December/31.12.2009/govt._stand_on_telangana_not_changed.htm
+    archive_date: 2010-01-07
+    archive_url: https://web.archive.org/web/20100107160658/https://ummid.com/news/December/31.12.2009/govt._stand_on_telangana_not_changed.htm
     date: 2009-12-31
     type: news
   - id: s8
     title: "Justice Srikrishna heads Telangana panel"
     publisher: Governance Now
     url: https://www.governancenow.com/news/regular-story/justice-srikrishna-heads-telangana-panel
+    archive_date: 2010-02-06
+    archive_url: https://web.archive.org/web/20100206131831/https://www.governancenow.com/news/regular-story/justice-srikrishna-heads-telangana-panel
     date: 2010-02-03
     type: news
   - id: s9
     title: "Six options on Telangana, status quo least favourable"
     publisher: Governance Now
     url: https://www.governancenow.com/news/regular-story/six-options-telangana-status-quo-least-favourable
+    archive_date: 2011-01-08
+    archive_url: https://web.archive.org/web/20110108003651/https://www.governancenow.com/news/regular-story/six-options-telangana-status-quo-least-favourable
     date: 2011-01-06
     type: news
   - id: s10
     title: "Srikrishna panel for united AP: Telangana Regional Council to address core concerns"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2011/20110107/main1.htm
+    archive_date: 2011-01-09
+    archive_url: https://web.archive.org/web/20110109031410/https://www.tribuneindia.com/2011/20110107/main1.htm
     date: 2011-01-07
     type: news
   - id: s11
@@ -289,6 +309,8 @@ sources:
     publisher: Ummid.com
     wire: IANS
     url: https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm
+    archive_date: 2011-10-10
+    archive_url: https://web.archive.org/web/20111010010628/https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm
     date: 2011-09-13
     type: news
   - id: s14
@@ -296,6 +318,8 @@ sources:
     publisher: Governance Now
     wire: PTI
     url: https://www.governancenow.com/news/regular-story/pro-telangana-stir-ap-called
+    archive_date: 2011-10-27
+    archive_url: https://web.archive.org/web/20111027235528/https://www.governancenow.com/news/regular-story/pro-telangana-stir-ap-called
     date: 2011-10-25
     type: news
   - id: s15
@@ -309,12 +333,16 @@ sources:
     title: "10 turning points in Telangana statehood agitation"
     publisher: Deccan Chronicle
     url: https://www.deccanchronicle.com/amp/nation/in-other-news/240523/10-turning-points-in-telangana-statehood-agitation.html
+    archive_date: 2023-05-25
+    archive_url: https://web.archive.org/web/20230525054041/https://www.deccanchronicle.com/amp/nation/in-other-news/240523/10-turning-points-in-telangana-statehood-agitation.html
     date: 2023-05-24
     type: news
   - id: s17
     title: "OU students lead Telangana movement, realise dream"
     publisher: Deccan Chronicle
     url: https://deccanchronicle.com/nation/current-affairs/010623/ou-students-lead-telangana-movement-realise-dream.html
+    archive_date: 2023-06-01
+    archive_url: https://web.archive.org/web/20230601125128/https://deccanchronicle.com/nation/current-affairs/010623/ou-students-lead-telangana-movement-realise-dream.html
     date: 2023-06-01
     type: news
 tags: [telangana, statehood, andhra_pradesh, hunger_strike, students, general_strike, section_144, commission_of_inquiry, concession]

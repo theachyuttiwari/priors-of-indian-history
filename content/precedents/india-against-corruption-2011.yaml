@@ -96,18 +96,24 @@ sources:
     title: "Anna refuses to leave Tihar; police offer 21-day fast at Ramlila"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2011/20110818/main1.htm
+    archive_date: 2018-07-01
+    archive_url: https://web.archive.org/web/20180701220540/https://www.tribuneindia.com/2011/20110818/main1.htm
     date: 2011-08-18
     type: news
   - id: s2
     title: Indian activist set for public hunger strike
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2011/8/19/indian-activist-set-for-public-hunger-strike
+    archive_date: 2025-05-14
+    archive_url: https://web.archive.org/web/20250514063139/https://www.aljazeera.com/news/2011/8/19/indian-activist-set-for-public-hunger-strike
     date: 2011-08-19
     type: news
   - id: s3
     title: Rallies grow across India for jailed activist
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2011/8/17/rallies-grow-across-india-for-jailed-activist
+    archive_date: 2025-05-17
+    archive_url: https://web.archive.org/web/20250517100646/https://www.aljazeera.com/news/2011/8/17/rallies-grow-across-india-for-jailed-activist
     date: 2011-08-17
     type: news
   - id: s4

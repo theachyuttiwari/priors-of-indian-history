@@ -179,12 +179,16 @@ sources:
     publisher: Calcutta High Court via Indian Kanoon
     tier: court
     url: https://indiankanoon.org/doc/1186017/
+    archive_date: 2008-12-09
+    archive_url: https://web.archive.org/web/20081209044249/https://indiankanoon.org/doc/1186017/
     date: 2007-11-16
     type: court_judgment
   - id: s2
     title: "'Wholly Unconstitutional...'"
     publisher: Outlook
     url: https://www.outlookindia.com/national/wholly-unconstitutional-news-236066
+    archive_date: 2026-01-12
+    archive_url: https://web.archive.org/web/20260112204432/https://www.outlookindia.com/national/wholly-unconstitutional-news-236066
     date: 2007-11-20
     type: news
   - id: s3
@@ -226,24 +230,32 @@ sources:
     title: When Ratan Tata's big Nano dream drowned in Bengal
     publisher: Outlook
     url: https://outlookindia.com/national/when-ratan-tatas-big-nano-dream-drowned-in-bengal
+    archive_date: 2024-10-10
+    archive_url: https://web.archive.org/web/20241010003150/https://outlookindia.com/national/when-ratan-tatas-big-nano-dream-drowned-in-bengal
     date: 2024-10-10
     type: news
   - id: s9
     title: Land acquired by Tata Motors in Singur, West Bengal, to be restored to the landowners
     publisher: SCC Online Blog
     url: https://www.scconline.com/blog/post/2016/09/01/land-acquired-by-tata-motors-in-singur-west-bengal-to-be-restored-to-the-landowners/
+    archive_date: 2020-09-24
+    archive_url: https://web.archive.org/web/20200924122801/https://www.scconline.com/blog/post/2016/09/01/land-acquired-by-tata-motors-in-singur-west-bengal-to-be-restored-to-the-landowners/
     date: 2016-09-01
     type: academic
   - id: s11
     title: Statement of the Governor of West Bengal on Nandigram, 9 November 2007
     publisher: Mainstream Weekly
     url: https://www.mainstreamweekly.net/article476.html
+    archive_date: 2007-12-15
+    archive_url: https://web.archive.org/web/20071215184804/https://www.mainstreamweekly.net/article476.html
     date: 2007-12-08
     type: news
   - id: s12
     title: "India: Urgent inquiry needed into Nandigram violence"
     publisher: Human Rights Watch
     url: https://www.hrw.org/news/2008/01/15/india-urgent-inquiry-needed-nandigram-violence
+    archive_date: 2015-10-26
+    archive_url: https://web.archive.org/web/20151026231436/https://www.hrw.org/news/2008/01/15/india-urgent-inquiry-needed-nandigram-violence
     date: 2008-01-15
     type: official
   - id: s13
@@ -284,6 +296,8 @@ sources:
     title: India's cheap car plant abandoned
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2008/10/3/indias-cheap-car-plant-abandoned
+    archive_date: 2025-05-24
+    archive_url: https://web.archive.org/web/20250524103031/https://www.aljazeera.com/news/2008/10/3/indias-cheap-car-plant-abandoned
     date: 2008-10-03
     type: news
   - id: s20
@@ -298,6 +312,8 @@ sources:
     publisher: Supreme Court of India via Indian Kanoon
     tier: court
     url: https://indiankanoon.org/doc/168057026/
+    archive_date: 2018-07-17
+    archive_url: https://web.archive.org/web/20180717131645/https://indiankanoon.org/doc/168057026/
     date: 2016-08-31
     type: court_judgment
 tags: [land_acquisition, west_bengal, sez, firing, section_144, hunger_strike, left_front, singur, nandigram]

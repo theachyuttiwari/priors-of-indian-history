@@ -130,12 +130,16 @@ sources:
     title: "Climate Activist Sonam Wangchuk, His Associates From Ladakh Released And Set Free: SGI Tushar Mehta Tells Delhi High Court"
     publisher: LiveLaw
     url: https://www.livelaw.in/high-court/delhi-high-court/climate-activist-sonam-wangchuk-his-associates-from-ladakh-released-and-set-free-sgi-tushar-mehta-tells-delhi-high-court-271457
+    archive_date: 2024-10-03
+    archive_url: https://web.archive.org/web/20241003082345/https://www.livelaw.in/high-court/delhi-high-court/climate-activist-sonam-wangchuk-his-associates-from-ladakh-released-and-set-free-sgi-tushar-mehta-tells-delhi-high-court-271457
     date: 2024-10-03
     type: news
   - id: s2
     title: Delhi High Court Issues Notice On Plea To Allow Sonam Wangchuk, Others From Ladakh To Hold Peaceful Protest At Jantar Mantar
     publisher: LiveLaw
     url: https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-protest-jantar-mantar-272042
+    archive_date: 2024-10-09
+    archive_url: https://web.archive.org/web/20241009105439/https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-protest-jantar-mantar-272042
     date: 2024-10-09
     type: news
   - id: s3
@@ -148,42 +152,56 @@ sources:
     title: Protests seeking statehood in India's Ladakh turn deadly
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2025/9/24/protests-seeking-statehood-in-indias-ladakh-turn-deadly
+    archive_date: 2025-09-24
+    archive_url: https://web.archive.org/web/20250924151719/https://www.aljazeera.com/news/2025/9/24/protests-seeking-statehood-in-indias-ladakh-turn-deadly
     date: 2025-09-24
     type: news
   - id: s5
     title: Leh turns into a fortress for funeral of ex-serviceman who fought in Kargil but fell to police bullets
     publisher: ThePrint
     url: https://theprint.in/india/leh-turns-into-a-fortress-for-funeral-of-ex-serviceman-who-fought-in-kargil-but-fell-to-police-bullets/2753789/
+    archive_date: 2025-09-29
+    archive_url: https://web.archive.org/web/20250929163152/https://theprint.in/india/leh-turns-into-a-fortress-for-funeral-of-ex-serviceman-who-fought-in-kargil-but-fell-to-police-bullets/2753789/
     date: 2025-09-29
     type: news
   - id: s6
     title: "Release Wangchuk, probe 24 September police firing: Kargil-based group"
     publisher: ThePrint
     url: https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
+    archive_date: 2025-10-01
+    archive_url: https://web.archive.org/web/20251001112154/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
     date: 2025-10-01
     type: news
   - id: s7
     title: Indian police arrest Ladakh activist after deadly protests
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2025/9/26/indian-police-arrest-ladakh-activist-after-deadly-protests
+    archive_date: 2025-09-26
+    archive_url: https://web.archive.org/web/20250926173248/https://www.aljazeera.com/news/2025/9/26/indian-police-arrest-ladakh-activist-after-deadly-protests
     date: 2025-09-26
     type: news
   - id: s8
     title: Centre Revokes Detention Of Sonam Wangchuk Under National Security Act
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/centre-revokes-detention-of-sonam-wangchuk-under-national-security-act-526404
+    archive_date: 2026-03-14
+    archive_url: https://web.archive.org/web/20260314064159/https://www.livelaw.in/top-stories/centre-revokes-detention-of-sonam-wangchuk-under-national-security-act-526404
     date: 2026-03-14
     type: news
   - id: s9
     title: "'You Are Reading Too Much Into Sonam Wangchuk's Speeches' : Supreme Court To Centre, Questions Nexus With Ladakh Violence"
     publisher: LiveLaw
     url: https://www.livelaw.in/top-stories/you-are-reading-too-much-into-sonam-wangchuks-speeches-supreme-court-to-centre-questions-nexus-with-ladakh-violence-522772
+    archive_date: 2026-02-11
+    archive_url: https://web.archive.org/web/20260211132743/https://www.livelaw.in/top-stories/you-are-reading-too-much-into-sonam-wangchuks-speeches-supreme-court-to-centre-questions-nexus-with-ladakh-violence-522772
     date: 2026-02-11
     type: news
   - id: s10
     title: MHA orders deployment of 12 CRPF companies in Ladakh a year after violence during statehood protest
     publisher: ThePrint
     url: https://theprint.in/india/mha-orders-deployment-of-12-crpf-companies-in-ladakh-a-year-after-violence-during-statehood-protest/3023662/
+    archive_date: 2026-08-25
+    archive_url: https://web.archive.org/web/20260825065252/https://theprint.in/india/mha-orders-deployment-of-12-crpf-companies-in-ladakh-a-year-after-violence-during-statehood-protest/3023662/
     date: 2026-08-24
     type: news
 tags: [ladakh, statehood, sixth_schedule, nsa, detention, internet_shutdown, curfew, firing]

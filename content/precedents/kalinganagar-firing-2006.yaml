@@ -180,12 +180,16 @@ sources:
     title: "India: Kalinga Nagar police firing one year on (ASA 20/001/2007)"
     publisher: Amnesty International
     url: https://www.amnesty.org/en/wp-content/uploads/2021/07/asa200012007en.pdf
+    archive_date: 2024-07-06
+    archive_url: https://web.archive.org/web/20240706125254/https://www.amnesty.org/en/wp-content/uploads/2021/07/asa200012007en.pdf
     date: 2007-01-02
     type: archive
   - id: s5
     title: "Bandh in Orissa, Jharkhand over Kalinga Nagar firing"
     publisher: The Tribune
     url: https://www.tribuneindia.com/2006/20060108/nation.htm
+    archive_date: 2006-02-23
+    archive_url: https://web.archive.org/web/20060223215046/https://www.tribuneindia.com/2006/20060108/nation.htm
     date: 2006-01-07
     type: news
   - id: s6
@@ -199,12 +203,16 @@ sources:
     title: Kalinganagar firing report
     publisher: Countercurrents
     url: https://countercurrents.org/hr-im060106.htm
+    archive_date: 2006-03-21
+    archive_url: https://web.archive.org/web/20060321024825/https://countercurrents.org/hr-im060106.htm
     date: 2006-01-06
     type: archive
   - id: s8
     title: Tribe blockades road in protest over killings
     publisher: Survival International
     url: https://survivalinternational.org/news/1306
+    archive_date: 2009-10-29
+    archive_url: https://web.archive.org/web/20091029185455/https://survivalinternational.org/news/1306
     date: 2006-01-11
     type: news
   - id: s9
@@ -217,6 +225,8 @@ sources:
     title: 10 chopped palms recovered in Odisha
     publisher: The Quint
     url: https://www.thequint.com/news/india/10-chopped-palms-recovered-in-odisha-2
+    archive_date: 2018-11-20
+    archive_url: https://web.archive.org/web/20181120132210/https://www.thequint.com/news/india/10-chopped-palms-recovered-in-odisha-2
     date: 2018-11-19
     type: news
   - id: s11
@@ -236,18 +246,24 @@ sources:
     title: "Tribal Tribune news digest, Vol 2 Issue 5 (Kalinga Nagar firing coverage)"
     publisher: Tribal Tribune
     url: https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5
+    archive_date: 2019-04-25
+    archive_url: https://web.archive.org/web/20190425122027/https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5
     date: 2006-01
     type: archive
   - id: s14
     title: "Tribal Tribune news digest, Vol 2 Issue 6 (Kalinga Nagar aftermath)"
     publisher: Tribal Tribune
     url: https://etribaltribune.com/index.php/volume-2/mv2i6/news-v2i6
+    archive_date: 2019-04-25
+    archive_url: https://web.archive.org/web/20190425121809/https://etribaltribune.com/index.php/volume-2/mv2i6/news-v2i6
     date: 2006-02
     type: archive
   - id: s15
     title: Remembering the Kalinga Nagar massacre
     publisher: Sabrang India
     url: https://sabrangindia.in/remembering-the-kalinga-nagar-massacre-a-tragic-reminder-of-a-19-year-struggle-for-justice-after-the-brutal-police-firing-on-tribal-protestors/
+    archive_date: 2025-01-09
+    archive_url: https://web.archive.org/web/20250109100522/https://sabrangindia.in/remembering-the-kalinga-nagar-massacre-a-tragic-reminder-of-a-19-year-struggle-for-justice-after-the-brutal-police-firing-on-tribal-protestors/
     date: 2025-01-03
     type: news
   - id: s16
@@ -260,12 +276,16 @@ sources:
     title: The Commission of Inquiry report on the Kalinganagar firing justifies state violence on citizens
     publisher: Countercurrents
     url: https://countercurrents.org/2017/12/the-commission-of-inquiry-report-on-the-kalinganagar-firing-justifies-state-violence-on-citizens/
+    archive_date: 2019-11-13
+    archive_url: https://web.archive.org/web/20191113201031/https://countercurrents.org/2017/12/the-commission-of-inquiry-report-on-the-kalinganagar-firing-justifies-state-violence-on-citizens/
     date: 2017-12-18
     type: archive
   - id: s18
     title: "13 years on, R&R of Kalinganagar tribals remains unresolved"
     publisher: Orissa Post
     url: https://www.orissapost.com/13-years-on-rr-of-kalinganagar-tribals-remains-unresolved/amp/
+    archive_date: 2020-05-20
+    archive_url: https://web.archive.org/web/20200520070450/https://www.orissapost.com/13-years-on-rr-of-kalinganagar-tribals-remains-unresolved/amp/
     date: 2019
     type: news
 tags: [adivasi, odisha, land_acquisition, tata_steel, firing, commission_of_inquiry, displacement, bjd]

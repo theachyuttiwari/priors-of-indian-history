@@ -146,12 +146,16 @@ sources:
     title: Opposition MPs disrupt Indian parliament in support of Cockroach protesters
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest
+    archive_date: 2026-07-22
+    archive_url: https://web.archive.org/web/20260722073229/https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest
     date: 2026-07-22
     type: news
   - id: s2
     title: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
+    archive_date: 2026-07-23
+    archive_url: https://web.archive.org/web/20260723201136/https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
     date: 2026-07-23
     type: news
   - id: s3
@@ -165,6 +169,8 @@ sources:
     title: Indian education minister resigns after mass protests over exam paper leaks
     publisher: France 24
     url: https://www.france24.com/en/asia-pacific/20260725-indian-education-minister-resigns-after-mass-protests-over-exam-paper-leaks
+    archive_date: 2026-07-25
+    archive_url: https://web.archive.org/web/20260725095809/https://www.france24.com/en/asia-pacific/20260725-indian-education-minister-resigns-after-mass-protests-over-exam-paper-leaks
     date: 2026-07-25
     type: news
   - id: s5

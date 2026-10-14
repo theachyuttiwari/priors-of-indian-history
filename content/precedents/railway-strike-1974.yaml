@@ -94,12 +94,16 @@ sources:
     title: "The 1974 railway strike and George Fernandes"
     publisher: The Caravan
     url: https://caravanmagazine.in/labour/1974-railway-strike-george-fernandes
+    archive_date: 2026-04-30
+    archive_url: https://web.archive.org/web/20260430140916/https://caravanmagazine.in/labour/1974-railway-strike-george-fernandes
     date: 2019-01
     type: news
   - id: s2
     title: "A Forgotten Anniversary: The 1974 Railway Strike"
     publisher: Frontier (Harsh Thakor), Vol 56 No 49
     url: "https://frontierweekly.com/articles/vol-56/56-49/56-49-The 1974 Railway Strike.html"
+    archive_date: 2024-06-14
+    archive_url: https://web.archive.org/web/20240614183100/https://frontierweekly.com/articles/vol-56/56-49/56-49-The 1974 Railway Strike.html
     date: 2024-06-02
     type: news
   - id: s3
@@ -118,6 +122,8 @@ sources:
     title: "Railway Strike: Present and Past"
     publisher: Frontier (Asis Ranjan Sengupta), Vol 49 No 2
     url: "https://frontierweekly.com/archive/vol-number/vol/vol-49-2016-17/49-2/49-2-Railway Strike.html"
+    archive_date: 2019-02-08
+    archive_url: https://web.archive.org/web/20190208224513/https://frontierweekly.com/archive/vol-number/vol/vol-49-2016-17/49-2/49-2-Railway Strike.html
     date: 2016-07-17
     type: news
 tags: [labour, railways, misa, strike, indira_gandhi]

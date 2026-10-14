@@ -115,36 +115,48 @@ sources:
     title: "India imposes Kashmir lockdown, puts leaders 'under house arrest'"
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/08/india-imposes-lockdown-kashmir-puts-leaders-house-arrest-190804174841241.html
+    archive_date: 2019-08-04
+    archive_url: https://web.archive.org/web/20190804204130/https://www.aljazeera.com/news/2019/08/india-imposes-lockdown-kashmir-puts-leaders-house-arrest-190804174841241.html
     date: 2019-08-04
     type: news
   - id: s2
     title: "Article 370 Revoked: J&K Leaders Detained, PM Modi Praises Amit Shah"
     publisher: The Wire
     url: https://thewire.in/security/kashmir-curfew-internet-house-arrest
+    archive_date: 2019-08-05
+    archive_url: https://web.archive.org/web/20190805161054/https://thewire.in/security/kashmir-curfew-internet-house-arrest
     date: 2019-08-05
     type: news
   - id: s3
     title: Key Kashmir political leaders arrested by India since August 5
     publisher: Al Jazeera
     url: https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5
+    archive_date: 2020-12-31
+    archive_url: https://web.archive.org/web/20201231033541/https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5
     date: 2019-08-17
     type: news
   - id: s4
     title: "Explained: What is Jammu and Kashmir's Public Safety Act?"
     publisher: The Indian Express
     url: https://indianexpress.com/article/explained/farooq-abdullah-psa-jammu-and-kashmir-explained-6001031/
+    archive_date: 2019-09-18
+    archive_url: https://web.archive.org/web/20190918043317/https://indianexpress.com/article/explained/farooq-abdullah-psa-jammu-and-kashmir-explained-6001031/
     date: 2019-09-17
     type: news
   - id: s5
     title: "PSA file indicts Omar Abdullah for getting people to vote, refers to Mehbooba Mufti as 'Daddy's girl'"
     publisher: The Indian Express
     url: https://indianexpress.com/article/india/omar-abdullah-mehbooba-mufti-public-safety-act-psa-jammu-and-kashmir-6259588/
+    archive_date: 2020-02-10
+    archive_url: https://web.archive.org/web/20200210154224/https://indianexpress.com/article/india/omar-abdullah-mehbooba-mufti-public-safety-act-psa-jammu-and-kashmir-6259588/
     date: 2020-02-10
     type: news
   - id: s6
     title: Omar Abdullah's Sister Files Petition in Supreme Court Against His Detention Under PSA
     publisher: The Wire
     url: https://thewire.in/rights/omar-abdullah-psa-detention-supreme-court
+    archive_date: 2020-02-11
+    archive_url: https://web.archive.org/web/20200211174110/https://thewire.in/rights/omar-abdullah-psa-detention-supreme-court
     date: 2020-02-10
     type: news
   - id: s7
@@ -152,36 +164,48 @@ sources:
     publisher: Supreme Court of India (via Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/82461587/
+    archive_date: 2020-01-11
+    archive_url: https://web.archive.org/web/20200111004351/https://indiankanoon.org/doc/82461587/
     date: 2020-01-10
     type: court_judgment
   - id: s8
     title: "Data Services on Low Speed 2G Restored Across J&K, Some News Sites Now 'Whitelisted'"
     publisher: The Wire
     url: https://thewire.in/government/2g-data-services-to-be-restored-throughout-jammu-kashmir-union-territory
+    archive_date: 2020-01-25
+    archive_url: https://web.archive.org/web/20200125103750/https://thewire.in/government/2g-data-services-to-be-restored-throughout-jammu-kashmir-union-territory
     date: 2020-01-24
     type: news
   - id: s9
     title: 17 months on, 4G internet services restored in Jammu and Kashmir
     publisher: Hindustan Times
     url: https://www.hindustantimes.com/india-news/17-months-on-4g-internet-services-restored-in-jammu-and-kashmir-101612564917419.html
+    archive_date: 2021-02-06
+    archive_url: https://web.archive.org/web/20210206195033/https://www.hindustantimes.com/india-news/17-months-on-4g-internet-services-restored-in-jammu-and-kashmir-101612564917419.html
     date: 2021-02-06
     type: news
   - id: s10
     title: Kashmir Valley has seen many a lockdown but why this time it is so different
     publisher: The Indian Express
     url: https://indianexpress.com/article/india/valley-has-seen-many-a-lockdown-but-why-this-time-it-is-so-different-article-370-kashmir-amit-shah-5884129/
+    archive_date: 2019-08-07
+    archive_url: https://web.archive.org/web/20190807022631/https://indianexpress.com/article/india/valley-has-seen-many-a-lockdown-but-why-this-time-it-is-so-different-article-370-kashmir-amit-shah-5884129/
     date: 2019-08-07
     type: news
   - id: s11
     title: "'Dark day for democracy': Mehbooba Mufti on scrapping of Article 370 for India's Jammu and Kashmir"
     publisher: Gulf News
     url: https://gulfnews.com/world/asia/dark-day-for-democracy-mehbooba-mufti-on-scrapping-of-article-370--for-indias-jammu-and-kashmir-1.1564989656723
+    archive_date: 2019-08-05
+    archive_url: https://web.archive.org/web/20190805124331/https://gulfnews.com/world/asia/dark-day-for-democracy-mehbooba-mufti-on-scrapping-of-article-370--for-indias-jammu-and-kashmir-1.1564989656723
     date: 2019-08-05
     type: news
   - id: s12
     title: "Mehbooba released, says 'will take back what Delhi snatched'"
     publisher: The Indian Express
     url: https://indianexpress.com/article/india/mehbooba-mufti-released-from-detention-6723785/
+    archive_date: 2020-10-16
+    archive_url: https://web.archive.org/web/20201016052616/https://indianexpress.com/article/india/mehbooba-mufti-released-from-detention-6723785/
     date: 2020-10-14
     type: news
 tags: [jammu-and-kashmir, article-370, internet_shutdown, section_144, house_arrest, public_safety_act, supreme_court, bjp]

@@ -100,30 +100,40 @@ sources:
     title: "Jallikattu: Centre agrees to ordinance"
     publisher: Millennium Post
     url: https://www.millenniumpost.in/nation/news-179974
+    archive_date: 2021-01-20
+    archive_url: https://web.archive.org/web/20210120224033/https://www.millenniumpost.in/nation/news-179974
     date: 2017-01-20
     type: news
   - id: s3
     title: Tamil Nadu jallikattu law gets President's nod
     publisher: Deccan Chronicle
     url: https://deccanchronicle.com/nation/current-affairs/310117/tamil-nadu-jallikattu-law-gets-president-nod.html
+    archive_date: 2017-01-31
+    archive_url: https://web.archive.org/web/20170131015608/https://deccanchronicle.com/nation/current-affairs/310117/tamil-nadu-jallikattu-law-gets-president-nod.html
     date: 2017-01-31
     type: news
   - id: s4
     title: Jallikattu protest turns violent after police eviction
     publisher: Millennium Post
     url: https://www.millenniumpost.in/big-stories/news-180287
+    archive_date: 2022-01-28
+    archive_url: https://web.archive.org/web/20220128002656/https://www.millenniumpost.in/big-stories/news-180287
     date: 2017-01-23
     type: news
   - id: s5
     title: "India: Tamil Nadu assembly passes Jallikattu Bill"
     publisher: WION
     url: https://www.wionews.com/south-asia/india-tamil-nadu-assembly-passes-jallikattu-bill-11596
+    archive_date: 2017-01-28
+    archive_url: https://web.archive.org/web/20170128082659/https://www.wionews.com/south-asia/india-tamil-nadu-assembly-passes-jallikattu-bill-11596
     date: 2017-01-23
     type: news
   - id: s6
     title: The Jallikattu protests in the Indian state of Tamil Nadu are not merely about a bullfight
     publisher: Global Voices
     url: https://globalvoices.org/2017/01/28/the-jallikattu-protests-in-the-indian-state-of-tamil-nadu-are-not-merely-about-a-bullfight/
+    archive_date: 2017-01-28
+    archive_url: https://web.archive.org/web/20170128061935/https://globalvoices.org/2017/01/28/the-jallikattu-protests-in-the-indian-state-of-tamil-nadu-are-not-merely-about-a-bullfight/
     date: 2017-01-28
     type: news
 tags: [tamil_nadu, jallikattu, ordinance, concession, lathi_charge, tear_gas, aiadmk]

@@ -67,29 +67,39 @@ sources:
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
+    archive_date: 2026-08-13
+    archive_url: https://web.archive.org/web/20260813124925/https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
     type: archive
   - id: s2
     title: Narmada River
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Narmada_River
+    archive_date: 2026-09-23
+    archive_url: https://web.archive.org/web/20260923012652/https://en.wikipedia.org/wiki/Narmada_River
     type: archive
   - id: s3
     title: Medha Patkar, 1992 Goldman Environmental Prize recipient
     publisher: Goldman Environmental Prize
     url: https://www.goldmanprize.org/recipient/medha-patkar/
+    archive_date: 2026-05-10
+    archive_url: https://web.archive.org/web/20260510023325/https://www.goldmanprize.org/recipient/medha-patkar/
     type: archive
   - id: s4
     title: Sardar Sarovar Dam
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
+    archive_date: 2026-06-18
+    archive_url: https://web.archive.org/web/20260618064837/https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
     type: archive
   - id: s5
     title: Chimanbhai Patel
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Chimanbhai_Patel
+    archive_date: 2026-07-17
+    archive_url: https://web.archive.org/web/20260717172806/https://en.wikipedia.org/wiki/Chimanbhai_Patel
     type: archive
 tags: [dams, displacement, environment, world_bank, gujarat, madhya_pradesh, maharashtra]
 review:

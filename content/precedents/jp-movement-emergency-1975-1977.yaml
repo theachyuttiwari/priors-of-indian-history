@@ -97,24 +97,32 @@ sources:
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/The_Emergency_(India)
+    archive_date: 2026-10-08
+    archive_url: https://web.archive.org/web/20261008203747/https://en.wikipedia.org/wiki/The_Emergency_(India)
     type: archive
   - id: s2
     title: Shah Commission
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Shah_Commission
+    archive_date: 2026-07-17
+    archive_url: https://web.archive.org/web/20260717163050/https://en.wikipedia.org/wiki/Shah_Commission
     type: archive
   - id: s3
     title: ADM Jabalpur v. Shivkant Shukla
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/ADM_Jabalpur_v._Shivkant_Shukla
+    archive_date: 2026-05-15
+    archive_url: https://web.archive.org/web/20260515151424/https://en.wikipedia.org/wiki/ADM_Jabalpur_v._Shivkant_Shukla
     type: archive
   - id: s4
     title: Jayaprakash Narayan
     publisher: Wikipedia
     tier: lead
     url: https://en.wikipedia.org/wiki/Jayaprakash_Narayan
+    archive_date: 2026-09-25
+    archive_url: https://web.archive.org/web/20260925173541/https://en.wikipedia.org/wiki/Jayaprakash_Narayan
     type: archive
 tags: [emergency, misa, censorship, preventive_detention, commission_of_inquiry, delhi, bihar]
 review:
