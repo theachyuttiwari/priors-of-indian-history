@@ -5,7 +5,7 @@
  *   npx tsx pipeline/archive.ts --save          also ask Save Page Now to capture sources with none
  *   npx tsx pipeline/archive.ts --save farm     only files whose path contains "farm"
  *
- * Optional: IA_ACCESS_KEY and IA_SECRET_KEY (archive.org S3 keys) raise Save Page Now limits.
+ * --save needs IA_ACCESS_KEY and IA_SECRET_KEY (archive.org S3 keys): Save Page Now requires a login.
  * Writes archive_url and archive_date under each source's url. It never sets `accessed`:
  * that means a person or the pipeline opened and read the source.
  */
@@ -106,6 +106,11 @@ async function pool<T, R>(items: T[], n: number, fn: (t: T) => Promise<R>): Prom
 }
 
 async function main() {
+  if (save && !(process.env.IA_ACCESS_KEY && process.env.IA_SECRET_KEY)) {
+    // Save Page Now answers 401 "You need to be logged in" without keys (checked 2026-10-15).
+    console.error("--save needs IA_ACCESS_KEY and IA_SECRET_KEY: see https://archive.org/account/s3.php");
+    process.exit(1);
+  }
   const root = path.join(process.cwd(), "content");
   let found = 0;
   let saved = 0;

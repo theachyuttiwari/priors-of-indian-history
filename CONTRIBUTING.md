@@ -35,7 +35,9 @@ Content is YAML in `content/precedents/` and `content/current/`. The full shape 
 3. Open every URL you cite. Each source must support the exact claim it is attached to.
 4. Give each source its `tier` and, for wire copy, its `wire` (see [How to source a claim](#how-to-source-a-claim)).
 5. Mark each statement as `verbatim`, `translated` or `paraphrase`.
-6. Run `npm run archive -- --save <short-name>` to record a Wayback Machine copy of each source.
+6. Run `npm run archive -- <short-name>` to record an existing Wayback Machine copy of each source.
+   To capture pages that have none, add `--save`. This needs your own
+   [archive.org S3 keys](https://archive.org/account/s3.php) in `IA_ACCESS_KEY` and `IA_SECRET_KEY`.
 7. Run `npm run match-quotes -- <short-name>` to check that each quote appears in its source.
 8. Run `npm run validate -- --todos <short-name>` and fix what it lists.
 9. Leave `review: status: draft`. A reviewer changes it.
