@@ -6,3 +6,5 @@ package-lock.json
 # Content is hand-edited YAML. Keep each author's layout and avoid noisy diffs.
 content/**/*.yaml
 docs/*.html
+# Written by pipeline/match-quotes.ts
+content/checks/

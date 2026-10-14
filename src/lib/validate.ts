@@ -1,12 +1,48 @@
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
 import { claimOf, host, leadOnly, meetsMinimum, mentionsCount, tierOf } from "./evidence";
+import { normalise } from "./quote-match";
 import { BANNED_ARCHIVE_HOSTS, Precedent, type Source } from "./schema";
 
 export const CONTENT_DIRS = ["precedents", "current"] as const;
 
-type RuleName = "lead-only" | "below-minimum" | "tier-missing" | "archive-missing" | "kind-missing" | "figures-missing";
+/** Quote-match results written by pipeline/match-quotes.ts, relative to the content root. */
+export const QUOTE_CHECKS_FILE = "checks/quotes.json";
+
+export type QuoteCheck = {
+  position: number;
+  source: string;
+  fetched: string;
+  checked: string;
+  result: "exact" | "close" | "missing" | "error";
+  score?: number;
+  passage?: string;
+  text_sha256?: string;
+  note?: string;
+};
+/** Entry id to quote key to the latest check. */
+export type QuoteChecks = Record<string, Record<string, QuoteCheck>>;
+
+export function loadQuoteChecks(root: string): QuoteChecks {
+  const file = path.join(root, QUOTE_CHECKS_FILE);
+  return fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, "utf8")) as QuoteChecks) : {};
+}
+
+/** Same value as quoteKey in quote-match.ts, computed synchronously with Node crypto. */
+export function quoteKeySync(text: string): string {
+  return createHash("sha256").update(normalise(text)).digest("hex").slice(0, 16);
+}
+
+type RuleName =
+  | "lead-only"
+  | "below-minimum"
+  | "tier-missing"
+  | "archive-missing"
+  | "kind-missing"
+  | "figures-missing"
+  | "quote-unchecked";
 
 /**
  * Sourcing rules that the current content does not yet meet. Each starts as "todo": reported, never
@@ -19,6 +55,7 @@ export const RULES: Record<RuleName, "todo" | "error"> = {
   "archive-missing": "todo", // a source with no archive_url or accessed date
   "kind-missing": "todo", // a statement not marked verbatim, translated or paraphrase
   "figures-missing": "todo", // a count in a description with no attributed figures
+  "quote-unchecked": "todo", // a quote with no exact match on record in content/checks/quotes.json
 };
 export type Rule = RuleName;
 
@@ -40,8 +77,11 @@ export function isContentFile(name: string): boolean {
   return name.endsWith(".yaml") || name.endsWith(".yml");
 }
 
-/** Check one parsed YAML document. `file` is used for the id-matches-filename rule. */
-export function checkEntry(file: string, raw: unknown): FileReport {
+/**
+ * Check one parsed YAML document. `file` is used for the id-matches-filename rule.
+ * `checks` holds quote-match results; without it, quotes are not checked against them.
+ */
+export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks): FileReport {
   const report: FileReport = { file, errors: [], warnings: [], todos: [] };
   const flag = (rule: Rule, message: string) => {
     if (RULES[rule] === "error") report.errors.push(message);
@@ -120,6 +160,15 @@ export function checkEntry(file: string, raw: unknown): FileReport {
           report.errors.push(`${where}.quote: a translated quote needs original, language and translated_by`);
         }
       }
+      if (checks) {
+        const c = checks[p.id]?.[quoteKeySync(pos.quote.text)];
+        if (!c) flag("quote-unchecked", `${where}.quote: not yet matched against its source`);
+        else if (c.source !== pos.quote.source) {
+          flag("quote-unchecked", `${where}.quote: matched against ${c.source}, but cites ${pos.quote.source}`);
+        } else if (c.result !== "exact") {
+          flag("quote-unchecked", `${where}.quote: ${c.result} in ${c.source} on ${c.checked}`);
+        }
+      }
     }
   });
 
@@ -148,6 +197,7 @@ export function checkEntry(file: string, raw: unknown): FileReport {
 /** Read and check every content file under `root`, then run cross-file checks. */
 export function validateContent(root: string): FileReport[] {
   const reports: FileReport[] = [];
+  const checks = loadQuoteChecks(root);
   for (const dir of CONTENT_DIRS) {
     const full = path.join(root, dir);
     if (!fs.existsSync(full)) continue;
@@ -161,7 +211,7 @@ export function validateContent(root: string): FileReport[] {
         reports.push({ file, errors: [`YAML parse error: ${(e as Error).message}`], warnings: [], todos: [] });
         continue;
       }
-      reports.push(checkEntry(file, raw));
+      reports.push(checkEntry(file, raw, checks));
     }
   }
 
