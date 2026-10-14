@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </nav>
           </div>
         </header>
-        <main className="flex-1 mx-auto w-full max-w-5xl px-5 pt-14 pb-24">{children}</main>
+        <main className="flex-1 mx-auto w-full max-w-5xl px-5 pt-10 pb-16 sm:pt-14 sm:pb-24">{children}</main>
         <footer className="bg-surface">
           <div className="mx-auto max-w-5xl px-5 py-8 small space-y-1">
             <p className="text-ink-2">

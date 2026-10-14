@@ -11,14 +11,14 @@ export default function Home() {
   const precedents = getPrecedents();
   const recent = [...precedents].reverse().slice(0, 10);
   return (
-    <div className="space-y-24">
+    <div className="space-y-16 sm:space-y-24">
       <section>
         <h1 className="t-hero">What did they do before?</h1>
         <p className="lede mt-5 measure">
           Protests in India since {s.from}, and how the Centre and the states answered them under every party.
           Every claim links to a dated source.
         </p>
-        <div className="mt-14">
+        <div className="mt-8 sm:mt-14">
           <YearStrip precedents={precedents} current={current[0]} />
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function Home() {
               All current events
             </Link>
           </div>
-          <div className="mt-8 space-y-16">
+          <div className="mt-6 sm:mt-8 space-y-14 sm:space-y-16">
             {current.slice(0, 2).map((ev) => {
               const sims = similar(ev, 3);
               return (
@@ -44,7 +44,7 @@ export default function Home() {
                     </h3>
                     <span className="small num">{fmtPeriod(ev.period)}</span>
                   </div>
-                  <p className="text-ink-2 mt-2 measure">{ev.summary}</p>
+                  <p className="clamp clamp-4 text-ink-2 mt-2 measure">{ev.summary}</p>
                   <div className="chips mt-4">
                     {[...new Set(ev.actions.map((a) => a.type))].map((t) => (
                       <ActionChip key={t} type={t} />

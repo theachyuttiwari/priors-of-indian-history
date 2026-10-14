@@ -75,7 +75,7 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
           <a href={`/now/${current.id}/`} className="link">
             {current.title}
           </a>
-          . Point at a tick to see the precedent.
+          . Select a tick to open its precedent.
         </p>
       )}
     </div>

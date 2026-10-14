@@ -3,6 +3,7 @@ import { matrix, partyRecord } from "@/lib/content";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
 import Glyph, { GlyphLegend } from "@/components/Glyph";
+import ByAction from "./ByAction";
 
 export const metadata = { title: "Compare" };
 
@@ -61,7 +62,21 @@ export default function ComparePage() {
       </p>
       <GlyphLegend className="mt-6" />
 
-      <div className="mt-8 overflow-x-auto -mx-5 px-5">
+      <div className="mt-8 sm:hidden">
+        <ByAction
+          rows={m.parties.map((party) => ({
+            party,
+            slug: partySlug(party),
+            cases: partyRecord(party).inPower.length,
+            counts: m.cells[party],
+          }))}
+          types={m.types}
+          initial={m.types.includes("section_144") ? "section_144" : m.types[0]}
+        />
+        <p className="small mt-3">Choose an action to rank every party on it. A wider screen shows the full grid.</p>
+      </div>
+
+      <div className="hidden sm:block mt-8 overflow-x-auto -mx-5 px-5">
         <table className="heat text-sm">
           <thead>
             <tr>
@@ -104,9 +119,9 @@ export default function ComparePage() {
           </tbody>
         </table>
       </div>
-      <p className="small mt-3">Darker cells hold more recorded actions. A zero means none recorded in this archive.</p>
+      <p className="hidden sm:block small mt-3">Darker cells hold more recorded actions. A zero means none recorded in this archive.</p>
 
-      <section className="mt-24">
+      <section className="mt-16 sm:mt-24">
         <h2 className="t-2">Said in opposition, did in power</h2>
         <div className="rows mt-6 border-t border-line">
           {m.parties.map((party) => {

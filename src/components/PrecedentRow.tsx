@@ -37,7 +37,7 @@ export default function PrecedentRow({
         <span className="block small mt-0.5">{where}</span>
         {detail && (
           <>
-            <span className="block text-[15px] text-ink-2 mt-2 line-clamp-2 measure">{p.summary}</span>
+            <span className="clamp clamp-2 text-[15px] text-ink-2 mt-2 measure">{p.summary}</span>
             <span className="chips mt-3">
               {types.map((t) => (
                 <ActionChip key={t} type={t} dim={highlight && !highlight.includes(t)} />
