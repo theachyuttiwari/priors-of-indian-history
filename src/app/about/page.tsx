@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { TIERS, TIER_META } from "@/lib/schema";
+
 export const metadata = { title: "About" };
 
 export default function AboutPage() {
@@ -57,13 +60,59 @@ export default function AboutPage() {
           events can be days or weeks behind the news.
         </p>
         <p className="text-ink-2 mt-3">
-          Some entries were drafted with help from Claude, using web search and web fetch, and then added by pull
-          request. A drafted entry carries a &quot;not yet reviewed&quot; mark until a person checks every source and
-          removes it. Drafts can be wrong. The source links are there so you can check.
+          Every entry so far was drafted with help from Claude, using web search and web fetch, and added by pull
+          request. Each entry says where it stands:
+        </p>
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-ink-2">
+          <li>
+            <strong className="text-ink">Draft.</strong> Not yet checked by a person. Drafts can be wrong. The source
+            links are there so you can check.
+          </li>
+          <li>
+            <strong className="text-ink">Checked.</strong> A named person opened every source and confirmed each claim
+            against it.
+          </li>
+          <li>
+            <strong className="text-ink">Verified.</strong> Checked, every quote matched word for word against an
+            archived copy of its source, and quotes of living people read by a second person.
+          </li>
+        </ul>
+        <p className="text-ink-2 mt-3">
+          Once an entry is checked, any change to what it says is logged on the{" "}
+          <Link href="/corrections/" className="link">
+            corrections
+          </Link>{" "}
+          page.
+        </p>
+      </section>
+
+      <section id="sources">
+        <h2 className="t-2">How sources are rated</h2>
+        <p className="text-ink-2 mt-3">
+          Every outlet looks biased to someone. So Priors rates each source by the kind of evidence it is, not by who
+          published it. The same bar applies to every party.
+        </p>
+        <ol className="mt-4 space-y-2 text-ink-2">
+          {TIERS.map((t) => (
+            <li key={t} className="grid grid-cols-[6.5rem_1fr] gap-3">
+              <span className="font-semibold text-ink">{TIER_META[t].label}</span>
+              <span>{TIER_META[t].help}.</span>
+            </li>
+          ))}
+        </ol>
+        <p className="text-ink-2 mt-4">
+          What the state ordered needs the order, a court record, or two independent reports. What happened on the
+          ground needs a court finding or two independent reports. What someone said needs the record, a recording, or
+          two independent reports. Copies of one wire story count as one source. Official sources settle what the state
+          ordered or claimed, not contested facts. Disputed numbers are shown with who gave each one.
         </p>
         <p className="text-ink-2 mt-3">
-          Statements are reported as the cited source gives them. They are not shown in quote marks, because some are
-          summaries of what was said. Open the source for the exact words.
+          Only words that appear exactly in the source go in quote marks. A summary of what someone said is marked as a
+          summary. A translated quote keeps the original words and says who translated it.
+        </p>
+        <p className="text-ink-2 mt-3">
+          Priors records the law the state used and what courts later held. It does not judge an action against any
+          country&apos;s free-speech law.
         </p>
       </section>
 

@@ -5,6 +5,8 @@ import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
 import Sources from "@/components/Sources";
 import SideBySide from "@/components/SideBySide";
+import ReviewNote from "@/components/ReviewNote";
+import CorrectionsList from "@/components/CorrectionsList";
 
 export function generateStaticParams() {
   const ids = getCurrent().map((p) => ({ id: p.id }));
@@ -37,12 +39,7 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
           {entryUpdated(ev) && <>. Last updated {fmtDate(entryUpdated(ev))}</>}
         </p>
         <p className="lede mt-6 measure">{ev.summary}</p>
-        {ev.reviewed === false && (
-          <p className="mt-6 small inline-block panel px-3 py-2">
-            Drafted with AI help on {ev.last_updated ? fmtDate(ev.last_updated) : "an unknown date"}. Not yet reviewed
-            by a person.
-          </p>
-        )}
+        <ReviewNote p={ev} className="mt-6" />
       </header>
 
       <section>
@@ -70,6 +67,13 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
         <h2 className="t-2 mb-6">Sources</h2>
         <Sources p={ev} />
       </section>
+
+      {ev.corrections.length > 0 && (
+        <section>
+          <h2 className="t-2 mb-6">Corrections and updates</h2>
+          <CorrectionsList items={ev.corrections} />
+        </section>
+      )}
     </article>
   );
 }

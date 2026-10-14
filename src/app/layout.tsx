@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { REPO } from "@/lib/site";
+import { CORRECTION_FORM, REPO } from "@/lib/site";
 import { fmtDate, siteUpdated } from "@/lib/content";
 import "./globals.css";
 
@@ -74,10 +74,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
             <p>Priors is open source. Content is CC BY 4.0. Code is MIT.</p>
             <p>Every party gets the same columns. Every claim links to a dated source.</p>
-            <p className="flex gap-4 pt-2">
+            <p className="flex flex-wrap gap-x-4 gap-y-1 pt-2">
               <Link href="/about/" className="link">
                 About and method
               </Link>
+              <Link href="/corrections/" className="link">
+                Corrections
+              </Link>
+              <a href={CORRECTION_FORM} className="link" rel="noreferrer">
+                Report an error
+              </a>
               <a href={REPO} className="link" rel="noreferrer">
                 GitHub
               </a>

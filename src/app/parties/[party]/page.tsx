@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { allParties, partyRecord, fmtDate, type PartyRecord } from "@/lib/content";
+import { allParties, partyRecord, fmtDate, type PartyRecord, isCurrent, entryHref } from "@/lib/content";
 import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
 import PrecedentRow from "@/components/PrecedentRow";
@@ -100,11 +100,7 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
           <h2 className="t-2 mb-4">Cases handled</h2>
           <div className="rows border-t border-line">
             {r.inPower.map((p) => (
-              <PrecedentRow
-                key={p.id}
-                p={p}
-                href={p.related_precedents.length || p.reviewed === false ? `/now/${p.id}/` : undefined}
-              />
+              <PrecedentRow key={p.id} p={p} href={isCurrent(p) ? entryHref(p) : undefined} />
             ))}
           </div>
         </section>

@@ -192,3 +192,25 @@ export function stats() {
     to: Math.max(...years),
   };
 }
+
+export type ReviewStatus = "draft" | "checked" | "verified";
+
+/** Where an entry stands. An entry with no review record has not been checked by a person. */
+export function reviewStatus(p: Precedent): ReviewStatus {
+  return p.review?.status ?? "draft";
+}
+
+export function isCurrent(p: Precedent): boolean {
+  return getCurrent().some((c) => c.id === p.id);
+}
+
+export function entryHref(p: Precedent): string {
+  return isCurrent(p) ? `/now/${p.id}/` : `/precedents/${p.id}/`;
+}
+
+/** Every correction, clarification and update across the record, newest first. */
+export function allCorrections() {
+  return [...getPrecedents(), ...getCurrent()]
+    .flatMap((p) => p.corrections.map((c) => ({ ...c, p })))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}

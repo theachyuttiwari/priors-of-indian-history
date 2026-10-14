@@ -7,6 +7,8 @@ import Positions from "@/components/Positions";
 import Sources from "@/components/Sources";
 import PartyMark from "@/components/PartyMark";
 import PrecedentRow from "@/components/PrecedentRow";
+import ReviewNote from "@/components/ReviewNote";
+import CorrectionsList from "@/components/CorrectionsList";
 
 export function generateStaticParams() {
   return getPrecedents().map((p) => ({ id: p.id }));
@@ -46,6 +48,7 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
           {p.location.states.length > 0 && <>, {[...p.location.places, ...p.location.states].join(", ")}</>}
         </p>
         <p className="lede mt-6 measure">{p.summary}</p>
+        <ReviewNote p={p} className="mt-6" />
         <dl className="mt-10 max-w-3xl border-b border-line">
           <Fact term="Centre">
             <PartyMark party={centre.party} role={centre.alliance} />
@@ -111,6 +114,13 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
         <h2 className="t-2 mb-6">Sources</h2>
         <Sources p={p} />
       </section>
+
+      {p.corrections.length > 0 && (
+        <section>
+          <h2 className="t-2 mb-6">Corrections and updates</h2>
+          <CorrectionsList items={p.corrections} />
+        </section>
+      )}
 
       {related.length > 0 && (
         <section>

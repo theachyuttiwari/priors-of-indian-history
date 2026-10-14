@@ -1,5 +1,14 @@
 import Link from "next/link";
-import { getCurrent, getPrecedents, similar, stats, fmtPeriod, fmtDate, siteUpdated } from "@/lib/content";
+import {
+  getCurrent,
+  getPrecedents,
+  similar,
+  stats,
+  fmtPeriod,
+  fmtDate,
+  siteUpdated,
+  reviewStatus,
+} from "@/lib/content";
 import PrecedentRow from "@/components/PrecedentRow";
 import ActionChip from "@/components/ActionChip";
 import YearStrip from "@/components/YearStrip";
@@ -50,9 +59,9 @@ export default function Home() {
                       <ActionChip key={t} type={t} />
                     ))}
                   </div>
-                  {ev.reviewed === false && (
+                  {reviewStatus(ev) === "draft" && (
                     <p className="small mt-3">
-                      Drafted with AI help. Not yet reviewed by a person.{" "}
+                      Draft, not yet checked by a person.{" "}
                       <Link href="/about/#pipeline" className="link">
                         How this works
                       </Link>

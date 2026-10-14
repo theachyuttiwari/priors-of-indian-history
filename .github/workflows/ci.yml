@@ -28,6 +28,11 @@ jobs:
         run: npm test
       - name: Validate content (strict)
         run: npm run validate -- --strict
+      - name: Changes to checked entries carry a correction
+        if: github.event_name == 'pull_request'
+        run: npx tsx pipeline/check-corrections.ts origin/${{ github.base_ref }}
+        env:
+          SKIP_CORRECTIONS_CHECK: ${{ contains(github.event.pull_request.labels.*.name, 'typo-only') && '1' || '0' }}
       - name: Build
         run: npm run build
       - name: Audit runtime dependencies
