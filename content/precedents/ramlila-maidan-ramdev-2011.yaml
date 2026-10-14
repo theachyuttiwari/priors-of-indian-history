@@ -1,0 +1,144 @@
+id: ramlila-maidan-ramdev-2011
+title: Ramlila Maidan midnight police action on Baba Ramdev's camp
+summary: >
+  Baba Ramdev's Bharat Swabhiman Trust held a permitted yoga camp at Ramlila Maidan from
+  1 June 2011 and turned it into a fast against black money on 4 June. Late that night
+  Delhi Police withdrew the permission, imposed a Section 144 order and cleared the ground
+  after midnight with tear gas; one participant, Rajbala, later died of her injuries. The
+  Supreme Court took suo motu notice and in February 2012 found the action arbitrary and
+  ordered compensation and action against police personnel.
+period:
+  start: 2011-06-04
+  end: 2011-06-05
+location:
+  states: [Delhi]
+  places: [Ramlila Maidan]
+protest:
+  cause: Return of black money held abroad and action against corruption
+  organisers: [Bharat Swabhiman Trust, Baba Ramdev]
+  scale: Over 20,000 people at Ramlila Maidan on the night of 4 June per Delhi Police
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+  state:
+    party: INC
+    head: Sheila Dikshit
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: permission_granted
+    date: 2011-04-25
+    description: "The DCP (Central District) permitted a yoga training camp at Ramlila Ground from 1 to 20 June 2011 for about 4,000 to 5,000 people, subject to conditions. The Trust wrote on 28 May that there would be no programme other than a residential yoga camp."
+    actor: police
+    sources: [s1, s4]
+  - type: negotiation
+    date: 2011-06-01
+    description: "Government representatives negotiated with Ramdev from 1 to 4 June over his announced fast. The Home Minister later told Parliament that by late on 4 June Ramdev had gone back on his assurances."
+    actor: centre
+    sources: [s4]
+  - type: permission_denied
+    date: 2011-06-04
+    description: "At about 11:30 pm police told Ramdev that permission for the camp was withdrawn and that he would be detained. The government's stated basis was section 65 of the Delhi Police Act."
+    actor: police
+    sources: [s1, s4]
+  - type: section_144
+    date: 2011-06-04
+    description: "A prohibitory order under Section 144 CrPC was passed for the area. The Supreme Court later held the order was not served or announced as required and that the assembly was never declared unlawful."
+    actor: police
+    sources: [s1]
+  - type: tear_gas
+    date: 2011-06-05
+    description: "A police force reached the ground at about 12:30 am and moved to the dais at about 1:10 am. Eight rounds of tear gas were fired and water cannon used. Most of the crowd, much of it asleep, was driven out by about 2:10 am."
+    actor: police
+    sources: [s1]
+  - type: lathi_charge
+    date: 2011-06-05
+    description: "Delhi Police denied a lathi charge and said minimum force was used. The Supreme Court found that some personnel inflicted cane injuries and threw bricks. Per Delhi Police, 43 civilians and 32 police personnel were injured. Rajbala, a Gurgaon resident, suffered a spinal injury and later died."
+    actor: police
+    sources: [s1, s4]
+  - type: detention
+    date: 2011-06-05
+    description: "Ramdev was apprehended near Ranjit Singh Flyover at about 3:40 am and flown out of Delhi."
+    actor: police
+    sources: [s1]
+  - type: other
+    date: 2012-02-23
+    description: "The Supreme Court (B.S. Chauhan and Swatanter Kumar JJ) held the eviction suffered from arbitrariness and abuse of power, though not mala fide. It ordered ad hoc compensation of Rs 5 lakh for Rajbala's death, Rs 50,000 for grievous and Rs 25,000 for simple injuries, with the Trust to bear 25 percent in death and grievous-hurt cases; disciplinary action against police who used lathis, excessive tear gas or bricks; and criminal cases against both police personnel and crowd members involved in damage."
+    actor: court
+    sources: [s1]
+outcome: >
+  Supreme Court judgment of 23 February 2012 ordered compensation, disciplinary action
+  against police personnel, and criminal cases on both sides. The Court held Ramdev and
+  the Trust vicariously liable for contributory negligence.
+positions:
+  - party: INC
+    person: Manmohan Singh
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2011-06-06
+    statement: "It is unfortunate that operation had to be conducted but quite honestly, there was no alternative."
+    sources: [s3]
+  - party: INC
+    person: P. Chidambaram
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2011-06-08
+    statement: "Acknowledged the right to peaceful protest but said permission is sometimes refused and Ramlila ground is in a sensitive area: A small spark can trigger a conflagration."
+    sources: [s4]
+  - party: BJP
+    person: Sushma Swaraj
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2011-06-05
+    statement: "Said the action had the approval of the Prime Minister and full approval of the Congress president: This is not democracy."
+    sources: [s2]
+  - party: BJP
+    person: L.K. Advani
+    role_at_time: Senior BJP leader, opposition
+    in_power: false
+    date: 2011-06-05
+    statement: "Called the action naked fascism and said the Prime Minister and Congress president owe an apology not only to Ramdev, but the people of India."
+    sources: [s2]
+  - party: BJP
+    person: Nitin Gadkari
+    role_at_time: BJP president
+    in_power: false
+    date: 2011-06-05
+    statement: "Such brutality against an unarmed sadhu, women and children in the middle of the night is the worst form of tyranny."
+    sources: [s2]
+  - party: BJP
+    person: B.S. Yeddyurappa
+    role_at_time: Chief Minister of Karnataka
+    in_power: false
+    date: 2011-06-06
+    statement: "Called the eviction anti-democratic."
+    sources: [s3]
+sources:
+  - id: s1
+    title: "In Re: Ramlila Maidan Incident Dt. 4/5.06.2011 vs Home Secretary, Union of India and Ors"
+    publisher: Supreme Court of India (via Indian Kanoon)
+    url: https://indiankanoon.org/doc/17021567/
+    date: 2012-02-23
+    type: court_judgment
+  - id: s2
+    title: "BJP leads charge against Ramlila crackdown"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2011/20110606/nation.htm
+    date: 2011-06-06
+    type: news
+  - id: s3
+    title: PM defends crackdown on sleeping protesters
+    publisher: Governance Now
+    url: https://www.governancenow.com/news/regular-story/pm-defends-crackdown-sleeping-protesters
+    date: 2011-06-06
+    type: news
+  - id: s4
+    title: "Home Minister Shri Chidambaram's statement on events at Ramdev's protest (reproduced)"
+    publisher: TaxGuru (reproduction of Union Home Minister's statement)
+    url: https://taxguru.in/finance/home-minister-shri-chidambarams-statement-events-ramdevs-protest.html
+    date: 2011-06-08
+    type: official
+tags: [delhi, section_144, tear_gas, lathi_charge, supreme_court, black_money, upa]

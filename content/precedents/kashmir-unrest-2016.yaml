@@ -1,0 +1,161 @@
+id: kashmir-unrest-2016
+title: Kashmir unrest after the killing of Burhan Wani, 2016
+summary: >
+  Security forces killed Hizbul Mujahideen commander Burhan Wani in Kokernag, Anantnag,
+  on 8 July 2016. Mass protests followed across the Kashmir Valley. The PDP-BJP state
+  government imposed curfew, suspended mobile internet and phone networks, and briefly
+  halted newspaper printing, while security forces used pellet shotguns on crowds. The
+  Union Home Minister announced an expert committee on alternatives to pellet guns on 21 July.
+period:
+  start: 2016-07-08
+  end: 2016-09-25
+location:
+  states: [Jammu and Kashmir]
+  places: [Srinagar, Anantnag, Pulwama, Shopian, Kulgam, Tral, Sopore]
+protest:
+  cause: Anger at the killing of Burhan Wani; wider demand for self-determination
+  organisers: [Separatist leaders including Syed Ali Geelani and Mirwaiz Umar Farooq called valley-wide shutdowns; much of the protest was spontaneous]
+  scale: Valley-wide; RSF cited at least 45 civilians killed and over 1,600 injured by 21 July; Newslaundry cited 96 deaths by January 2017
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: PDP
+    head: Mehbooba Mufti
+    role: Chief Minister
+    name: Jammu and Kashmir
+actions:
+  - type: curfew
+    date: 2016-07-09
+    description: "Curfew was imposed in Pulwama district, the towns of Anantnag, Shopian and Sopore, and areas under seven Srinagar police stations. Wikipedia, citing Deccan Herald and The Hindu, states curfew was extended to all ten Valley districts on 15 July and lifted on 31 August after 53 days, then reimposed in places in September and lifted on 25 September."
+    actor: state
+    sources: [s4, s9]
+  - type: internet_shutdown
+    date: 2016-07-09
+    description: "Authorities suspended mobile internet across the Kashmir Valley on 9 July to curb rumours. Mobile phone networks were suspended in four south Kashmir districts from the evening of 8 July. RSF reported that private mobile networks were cut on 14 July and mobile internet again on 16 July, leaving only state-run BSNL working."
+    actor: state
+    sources: [s4, s8, s3]
+  - type: censorship
+    date: 2016-07-16
+    description: "Police raided newspaper offices and printing presses in Srinagar on the night of 15-16 July, halted presses, seized copies and briefly detained staff. Greater Kashmir, Rising Kashmir, Kashmir Images, Kashmir Observer, Kashmir Reader and Kashmir Uzma were affected; publication was prevented for three days. Cable television was blocked on 16 July. State Education Minister Naeem Akhtar said the measures were aimed at saving lives."
+    actor: state
+    sources: [s2, s3]
+  - type: firing
+    date: 2016-07
+    description: "Security forces used 12-gauge pellet shotguns on protesters. The Home Minister told the Lok Sabha on 21 July that one person had died of pellet injuries and 53 had eye injuries; Kashmir Life reported at least 35 youths had lost eyesight by 21 July. Global Voices reported 31 killed and about 444 injured by 11 July."
+    actor: centre
+    sources: [s6, s5, s8]
+  - type: other
+    date: 2016-07-09
+    description: "The Amarnath pilgrimage was suspended, school board exams postponed and Baramulla-Banihal train services halted."
+    actor: state
+    sources: [s4, s7]
+  - type: commission_of_inquiry
+    date: 2016-07-21
+    description: "Replying to a Lok Sabha debate, Home Minister Rajnath Singh announced an expert committee to recommend non-lethal alternatives to pellet guns, to report in two months. He said the Prime Minister had directed security forces to show maximum restraint."
+    actor: centre
+    sources: [s1, s5, s6]
+outcome: >
+  Curfew was lifted in stages by late September 2016. The expert committee on pellet
+  gun alternatives reported later in 2016; pellet guns remained in use subject to new guidelines.
+positions:
+  - party: BJP
+    person: Rajnath Singh
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2016-07-21
+    statement: "We all feel sad over the lives lost and those injured. The youth of Kashmir are also patriots. We will constitute an expert committee to review the use of pellet guns for controlling crowds."
+    sources: [s6, s5]
+  - party: PDP
+    person: Mehbooba Mufti
+    role_at_time: Chief Minister of Jammu and Kashmir
+    in_power: true
+    date: 2016-07-28
+    statement: "Said she had not known Burhan Wani was in the Kokernag house and that security forces knew only that three militants were hiding there: we imposed curfew so that youths don't come out."
+    sources: [s10]
+  - party: PDP
+    person: Naeem Akhtar
+    role_at_time: State Education Minister and government spokesperson
+    in_power: true
+    date: 2016-07-18
+    statement: "Said the restrictions on the press were aimed at saving lives and strengthening peace efforts."
+    sources: [s2]
+  - party: BJP
+    person: Venkaiah Naidu
+    role_at_time: Union Minister
+    in_power: true
+    date: 2016-07-10
+    statement: "How can any Indian have sympathy for such people?"
+    sources: [s8]
+  - party: NC
+    person: Farooq Abdullah
+    role_at_time: Former Chief Minister, opposition
+    in_power: false
+    date: 2016-08-19
+    statement: "Said Indian forces were unleashing a reign of terror. The National Conference boycotted the 21 July all-party meeting, blaming the government for the situation. (Sourced via Wikipedia summary; primary report not opened.)"
+    sources: [s9]
+sources:
+  - id: s1
+    title: "PRS Parliament Diary: Monsoon Session Day 4, 21 July 2016"
+    publisher: PRS Legislative Research
+    url: https://prsindia.org/media/media-updates/prs-parliament-diary-monsoon-session-day-4-jul-21-2016
+    date: 2016-07-21
+    type: official
+  - id: s2
+    title: Indian authorities shut down media outlets in Jammu and Kashmir
+    publisher: Committee to Protect Journalists
+    url: https://cpj.org/2016/07/indian-authorities-shut-down-media-outlets-in-jamm/
+    date: 2016-07-18
+    type: news
+  - id: s3
+    title: RSF condemns Kashmir media blackout by Indian authorities
+    publisher: Reporters Without Borders
+    url: https://rsf.org/en/rsf-condemns-kashmir-media-blackout-indian-authorities
+    date: 2016-07-21
+    type: news
+  - id: s4
+    title: Mobile internet services suspended in Kashmir
+    publisher: Madhyamam
+    url: https://madhyamamonline.com/national/2016/jul/9/mobile-internet-services-suspended-kashmir
+    date: 2016-07-09
+    type: news
+  - id: s5
+    title: "#KashmirNow: GoI to review use of pellet guns"
+    publisher: Kashmir Life
+    url: https://kashmirlife.net/kashmirnow-goi-to-review-use-of-pellet-guns-111870/
+    date: 2016-07-21
+    type: news
+  - id: s6
+    title: "Govt will look at non-lethal alternatives to pellet guns: Rajnath Singh"
+    publisher: rajnathsingh.in (Home Minister's website)
+    url: https://www.rajnathsingh.in/news-eng/govt-will-look-at-non-lethal-alternatives-to-pellet-guns-rajnath-singh/
+    date: 2016-07-22
+    type: official
+  - id: s7
+    title: India kills top rebel leader in Kashmir, braces for protests
+    publisher: AFP via ecoi.net
+    url: https://www.ecoi.net/en/document/326568
+    date: 2016-07-09
+    type: news
+  - id: s8
+    title: Dozens killed after Indian forces crackdown on protests in Kashmir
+    publisher: Global Voices
+    url: https://globalvoices.org/2016/07/11/dozens-killed-after-indian-forces-crackdown-on-protests-in-kashmir/
+    date: 2016-07-11
+    type: news
+  - id: s9
+    title: "2016-2017 Kashmir unrest (tertiary summary; used only for curfew dates and NC statements)"
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
+    date: 2016
+    type: archive
+  - id: s10
+    title: "Day 20: Didn't know Burhan was in Bemdoora, says CM"
+    publisher: Kashmir Life
+    url: https://kashmirlife.net/day20-didnt-know-burhan-was-in-bemdoora-says-cm-112662/
+    date: 2016-07-28
+    type: news
+tags: [kashmir, curfew, internet_shutdown, pellet_guns, censorship, pdp, bjp, nda]

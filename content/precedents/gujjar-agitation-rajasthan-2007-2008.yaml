@@ -1,0 +1,371 @@
+id: gujjar-agitation-rajasthan-2007-2008
+title: Gujjar reservation agitation in Rajasthan, 2007 and 2008
+summary: >
+  Gujjars in Rajasthan, led by retired Colonel Kirori Singh Bainsla and the Gujjar Aarakshan
+  Sangharsh Samiti, blocked highways and rail lines in May-June 2007 and again in May-June 2008
+  to demand Scheduled Tribe status. Police firing at Patoli (Dausa), Bundi and Bonli in 2007 and
+  at Pilupura near Bayana (Bharatpur) and Sikandra in 2008 killed dozens of people; the Army and
+  central paramilitary forces were deployed both years. The Vasundhara Raje government set up the
+  Justice Jasraj Chopra committee in 2007, and in June 2008 agreed to a 5 per cent reservation for
+  Gujjars and other communities as a special backward class, which the Rajasthan High Court later stayed.
+period:
+  start: 2007-05-28
+  end: 2008-06-18
+location:
+  states: [Rajasthan, Delhi, Haryana, Uttar Pradesh]
+  places: [Patoli, Peepal Khera, Dausa, Bundi, Bonli, Pilupura, Bayana, Bharatpur, Sikandra, Karwadi]
+protest:
+  cause: Inclusion of Gujjars in the Scheduled Tribe list of Rajasthan
+  organisers: [Gujjar Aarakshan Sangharsh Samiti, Kirori Singh Bainsla]
+  scale: Tens of thousands blocked national highways and rail lines across eastern Rajasthan; bandhs in Rajasthan and Delhi
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+  state:
+    party: BJP
+    alliance: NDA
+    head: Vasundhara Raje
+    role: Chief Minister
+    name: Rajasthan
+actions:
+  - type: section_144
+    date: 2007-05-28
+    description: Prohibitory orders under Section 144 CrPC imposed at the planned blockade sites and in six districts ahead of the 29 May highway blockade
+    actor: state
+    sources: [s1, s2]
+  - type: lathi_charge
+    date: 2007-05-28
+    description: "Police lathi charge and tear gas at Patoli-Peepal Khera, Dausa, from the evening of 28 May, according to the PUCL-PUDR fact-finding team"
+    actor: police
+    sources: [s1]
+  - type: firing
+    date: 2007-05-29
+    description: "Police fired on Gujjar protesters at Patoli on the Jaipur-Agra highway and at the Dev Narayan temple in Bundi on 29 May, and at Bonli on 31 May. Early reports put the toll at 13-14 dead including a policeman; the PUDR team counted 25 dead including two constables; later press reports gave 26 to 30"
+    actor: police
+    sources: [s1, s2, s4, s6, s22]
+  - type: other
+    date: 2007-05-29
+    description: Army columns deployed for flag marches near Dausa and in Bundi; army put on alert in Alwar and Bharatpur. By 5 June, 39 Army columns and 36 central force companies were being withdrawn
+    actor: state
+    sources: [s2, s4, s5]
+  - type: detention
+    date: 2007-06
+    description: Several hundred Gujjars arrested on charges including arson and attacking police; Bainsla charged with murder. The PUDR team said arrests were arbitrary and sought release of those in custody
+    actor: police
+    sources: [s1, s9]
+  - type: negotiation
+    date: 2007-06-04
+    description: Bainsla met Chief Minister Raje in Jaipur; the two signed a statement on the evening of 4 June and the Samiti called off the agitation and lifted the blockades
+    actor: state
+    sources: [s1, s5, s6]
+  - type: commission_of_inquiry
+    date: 2007-06-04
+    description: "As part of the 4 June settlement the state set up a three-member committee headed by retired High Court judge Justice Jasraj Chopra to examine the ST demand within three months. The committee reported in December 2007: it found the demand did not meet the Centre's ST criteria and recommended a special development fund for rural Gujjars instead"
+    actor: state
+    sources: [s6, s7, s8, s22]
+  - type: concession
+    date: 2008-05
+    description: A committee under BJP leader Ramdas Agarwal, formed to implement the Chopra recommendations, proposed a special package of about Rs 282 crore for Gujjar-dominated areas; Bainsla rejected it and called a rail roko for 23 May 2008
+    actor: state
+    sources: [s22]
+  - type: section_144
+    date: 2008-05-23
+    description: Prohibitory orders under Section 144 CrPC imposed in six districts after the Pilupura clash
+    actor: state
+    sources: [s12]
+  - type: firing
+    date: 2008-05-23
+    description: "Police fired on Gujjars blocking the Delhi-Mumbai rail line at Pilupura near Bayana, Bharatpur, after a head constable was killed. The state put the first-day toll at 13-15 including the policeman; the state Congress said 19. Firing at Sikandra, Dausa, on 24 May killed 14 more. Cumulative tolls reported were 36 by 25 May, 37 by 27 May and nearly 40 by mid-June; the figures are contested"
+    actor: police
+    sources: [s12, s13, s14, s17, s18, s21]
+  - type: other
+    date: 2008-05-23
+    description: Army, Rapid Action Force and CRPF called out; 22 Army columns and 76 columns of other forces deployed across the affected districts. Reports said the Army blockaded the Karwadi-Pilupura area, mobile signals were jammed and some news channels taken off air
+    actor: state
+    sources: [s13, s16, s17]
+  - type: other
+    date: 2008-05-25
+    description: Union Home Ministry sent 21 companies of central paramilitary forces to Rajasthan and four to Haryana, and put the National Capital Region on alert
+    actor: centre
+    sources: [s14, s18]
+  - type: negotiation
+    date: 2008-05-25
+    description: "Raje invited Bainsla to talks at the Chief Minister's office; he declined and stayed at the Pilupura rail-track dharna with the bodies of the dead. Raje then flew to Bayana for about 40 minutes but the two did not meet"
+    actor: state
+    sources: [s14, s17]
+  - type: concession
+    date: 2008-05-25
+    description: Raje wrote to Prime Minister Manmohan Singh recommending 4 to 6 per cent reservation for Gujjars in the denotified and nomadic tribes category and leaving the ST question to the Centre; the Prime Minister referred the letter to the Law Ministry. Bainsla rejected the letter as a farce
+    actor: state
+    sources: [s15, s16]
+  - type: nsa_detention
+    date: 2008-05-27
+    description: The National Security Act was invoked in 15 districts and district collectors empowered to act against agitators; about 150 people were reported arrested. The Rajasthan High Court issued summons to Bainsla on a contempt petition filed by the state
+    actor: state
+    sources: [s16]
+  - type: negotiation
+    date: 2008-06-08
+    description: The state and the Samiti agreed to preliminary talks at Bayana on 9 June, with main talks in Jaipur, through chief negotiator S.N. Thanvi
+    actor: state
+    sources: [s19, s26]
+  - type: concession
+    date: 2008-06-17
+    description: Raje and Bainsla signed an agreement ending the 26-27 day agitation. The settlement gave 5 per cent reservation to Gujjars and other pastoral communities as a special backward class, enacted through a 2008 state law, and the state agreed to forward a recommendation to the Centre
+    actor: state
+    sources: [s20, s21, s23, s24]
+  - type: other
+    date: 2009
+    description: The Gehlot government notified the 5 per cent special backward class quota in 2009. The Rajasthan High Court stayed it in 2009 because total reservation exceeded 50 per cent, and on 22 December 2010 stayed the relevant sections of the 2008 Act and ordered a study of the communities' backwardness
+    actor: court
+    sources: [s23, s24, s25]
+outcome: >
+  The 2007 agitation ended on 4 June 2007 with a committee that later advised against ST status.
+  The 2008 agitation ended on 17-18 June 2008 with a 5 per cent special backward class quota,
+  which the Rajasthan High Court stayed in 2009 and 2010 for breaching the 50 per cent ceiling.
+  The ST demand was not conceded.
+positions:
+  - party: BJP
+    person: Vasundhara Raje
+    role_at_time: Chief Minister of Rajasthan
+    in_power: true
+    date: 2007-05-30
+    statement: "My doors are open for talks with the Gurjjar community over their demand for scheduled tribe status."
+    sources: [s3]
+  - party: BJP
+    person: Vasundhara Raje
+    role_at_time: Chief Minister of Rajasthan
+    in_power: true
+    date: 2008-05-25
+    statement: "Regretted Bainsla's decision to revive the agitation as one sided and unreasonable, appealed for calm and warned those indulging in politics over dead bodies."
+    sources: [s14]
+  - party: BJP
+    person: Kirodi Lal Meena
+    role_at_time: Minister for Food and Civil Supplies, Rajasthan; Meena community leader
+    in_power: true
+    date: 2007-06
+    statement: "On October 2, 2006, I assured a tribal rally in Jaipur that under no condition would the Gujjars be given ST status."
+    sources: [s9]
+  - party: BJP
+    person: Prakash Javadekar
+    role_at_time: BJP national spokesperson
+    in_power: true
+    date: 2007-09-12
+    statement: "The BJP favours extending the term of the three-member Justice Chopra committee; completing its process will benefit everyone and the issue should be resolved amicably."
+    sources: [s7]
+  - party: BJP
+    person: Ramdas Agarwal
+    role_at_time: BJP leader and head of the state committee on the Chopra recommendations
+    in_power: true
+    date: 2008-06-17
+    statement: "The agreement is not meant for any caste or community. This is for the five crore people of the state."
+    sources: [s20]
+  - party: INC
+    person: Ashok Gehlot
+    role_at_time: AICC General Secretary; former Chief Minister of Rajasthan
+    in_power: false
+    date: 2007-05-29
+    statement: "The agitation could have been avoided had the Gujjar Sangharsh Samiti been called for talks."
+    sources: [s2]
+  - party: INC
+    person: Sachin Pilot
+    role_at_time: Lok Sabha MP, Dausa
+    in_power: false
+    date: 2007-05-31
+    statement: "We demand that chief minister Vasundhara Raje should immediately resign. And if she does not do that, the central government should intervene and dismiss the Rajasthan government."
+    sources: [s10, s11]
+  - party: INC
+    person: B.D. Kalla
+    role_at_time: President, Rajasthan Pradesh Congress Committee
+    in_power: false
+    date: 2007-05-31
+    statement: "If the government brings forward any proposal on the Gujjar demand, the Congress would welcome it."
+    sources: [s10]
+  - party: CPI(M)
+    person: CPI(M) Polit Bureau
+    role_at_time: Opposition party; UPA ally from outside
+    in_power: false
+    date: 2007-05-30
+    statement: "The BJP leadership should take strong action against its state government; the party demanded a judicial inquiry into the firing."
+    sources: [s3]
+  - party: other (Rashtriya Meena Mahasabha)
+    person: Bhanwar Lal Meena
+    role_at_time: President, Rashtriya Meena Mahasabha
+    in_power: false
+    date: 2007-05-29
+    statement: "Warned that Raje could lose power if the BJP government dares to include Gujjars in the ST community."
+    sources: [s2]
+  - party: other (Gujjar Aarakshan Sangharsh Samiti)
+    person: Kirori Singh Bainsla
+    role_at_time: Convener, Gujjar Aarakshan Sangharsh Samiti
+    in_power: false
+    date: 2008-05-29
+    statement: "We will not settle for anything less than ST status and we will not move from here."
+    sources: [s18, s17]
+  - party: other (Gujjar Aarakshan Sangharsh Samiti)
+    person: Kirori Singh Bainsla
+    role_at_time: Convener, Gujjar Aarakshan Sangharsh Samiti
+    in_power: false
+    date: 2008-06-17
+    statement: "This is a historic success. I thank the Gujjar community for coming along with me to resolve the long-pending demand."
+    sources: [s20]
+sources:
+  - id: s1
+    title: "Civil Rights Investigation into Police Firings on Gurjar Agitation in May-June 2007: Interim Report"
+    publisher: PUCL Rajasthan, PUDR and AFDR
+    url: "https://www.pudr.org/publicatiosn-files/2007-Jun-Civil Rights Investigation into Police Firings on Gurjar Agitation in May-June 2007.pdf"
+    date: 2007-06-11
+    type: archive
+  - id: s2
+    title: Quota Kills
+    publisher: Outlook
+    url: https://www.outlookindia.com/national/quota-kills-news-234757
+    date: 2007-05-29
+    type: news
+  - id: s3
+    title: Gujjar Protesters Set Police Stations on Fire
+    publisher: Arab News
+    url: https://www.arabnews.com/node/299068
+    date: 2007-05-31
+    type: news
+  - id: s4
+    title: "Bandhs in Rajasthan, situation tense but peaceful"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2007/05/30/bandhs-in-rajasthan-situation-tense-but-peaceful-1180508949.html
+    date: 2007-05-30
+    type: news
+  - id: s5
+    title: Army and paramilitary forces begin pulling out after Gujjars call off agitation
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2007/06/05/rptg-inserting-matter-in-para-two-1181049162.html
+    date: 2007-06-05
+    type: news
+  - id: s6
+    title: Editorial on the end of the Gujjar agitation
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2007/20070606/edit.htm
+    date: 2007-06-06
+    type: news
+  - id: s7
+    title: BJP favours economic status based reservation
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2007/09/12/bjp-favours-economic-status-based-reservation-1189604322.html
+    date: 2007-09-12
+    type: news
+  - id: s8
+    title: "Highlights of the Report on Gujjars' demand for inclusion in ST List"
+    publisher: Law and Other Things (V. Venkatesan)
+    url: https://lawandotherthings.com/?p=4007
+    date: 2007-12-20
+    type: academic
+  - id: s9
+    title: Scorched Pasture
+    publisher: Outlook
+    url: https://www.outlookindia.com/national/scorched-pasture-news-234910
+    date: 2007-06
+    type: news
+  - id: s10
+    title: Resign Or Be Dismissed
+    publisher: Outlook
+    url: https://www.outlookindia.com/national/resign-or-be-dismissed-news-234761
+    date: 2007-05-31
+    type: news
+  - id: s11
+    title: "Nomad's Wrath"
+    publisher: Outlook
+    url: https://www.outlookindia.com/national/nomads-wrath-news-234844
+    date: 2007-06
+    type: news
+  - id: s12
+    title: "At least 13 killed in Gujjar agitation in Rajasthan, Army alerted"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2008/05/23/at-least-13-killed-in-gujjar-agitation-in-raj-army-alerted-1211560399.html
+    date: 2008-05-23
+    type: news
+  - id: s13
+    title: "Situation tense in Bayana, Gujjars stage dharna with bodies"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2008/05/24/situation-tense-in-bayana-gujjars-stage-dharna-with-bodies-1211621624.html
+    date: 2008-05-24
+    type: news
+  - id: s14
+    title: "Gujjar leader turns down Raje's invitation for dialogue"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2008/05/25/gujjar-leader-turns-down-rajes-invitation-for-dialogue-1211726039.html
+    date: 2008-05-25
+    type: news
+  - id: s15
+    title: Bainsla rejects Raje's letter to PM as farce
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080527/main1.htm
+    date: 2008-05-26
+    type: news
+  - id: s16
+    title: Gujjar agitation spreads; Army units deployed, NSA invoked
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080528/main1.htm
+    date: 2008-05-27
+    type: news
+  - id: s17
+    title: Gujjar Agitation Spreads; Death Toll Reaches 37
+    publisher: Arab News
+    url: https://www.arabnews.com/node/312297
+    date: 2008-05-27
+    type: news
+  - id: s18
+    title: Rajasthan ready for fresh talks with Gujjar leaders
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080530/main1.htm
+    date: 2008-05-29
+    type: news
+  - id: s19
+    title: Government and Gujjars agree to preliminary talks at Bayana
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080609/main2.htm
+    date: 2008-06-08
+    type: news
+  - id: s20
+    title: Gujjar agitation to be called off after agreement
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080618/main1.htm
+    date: 2008-06-17
+    type: news
+  - id: s21
+    title: Editorial on the Gujjar settlement
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080619/edit.htm
+    date: 2008-06-19
+    type: news
+  - id: s22
+    title: Storm in the desert
+    publisher: The Tribune (Spectrum)
+    url: https://www.tribuneindia.com/2008/20080622/spectrum/main1.htm
+    date: 2008-06-22
+    type: news
+  - id: s23
+    title: Gujjars are back
+    publisher: Governance Now
+    url: https://www.governancenow.com/views/columns/gujjars-are-back
+    date: 2010-04-15
+    type: news
+  - id: s24
+    title: "Gujjars & 4 Other Castes, Re-included in OBC list: Rajasthan"
+    publisher: Sabrang India
+    url: https://sabrangindia.in/gujjars-4-other-castes-re-included-obc-list-rajasthan/
+    date: 2017-05-20
+    type: news
+  - id: s25
+    title: "Rajasthan: Gujjar reservation and the 50 per cent ceiling"
+    publisher: The Wire
+    url: https://m.thewire.in/article/caste/rajasthan-reservation-gujjars-50-percent-ceiling
+    date: 2020-10-19
+    type: news
+  - id: s26
+    title: "Gujjar stir: bodies removed from dharna site, rail routes hit"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2008/06/03/gujjar-stirbodies-removed-from-dharna-site-rail-routes-hit-1212485797.html
+    date: 2008-06-03
+    type: news
+tags: [gujjar, reservation, scheduled_tribe, rajasthan, firing, section_144, army_deployment, commission_of_inquiry, bainsla, vasundhara_raje]

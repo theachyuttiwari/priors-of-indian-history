@@ -1,0 +1,27 @@
+name: Ingest current events
+on:
+  schedule:
+    - cron: "30 1 * * *" # 07:00 IST daily
+  workflow_dispatch:
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx tsx pipeline/ingest.ts --days 14
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - run: npx tsx pipeline/validate.ts
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: pipeline/current-events
+          title: "Pipeline: current events update"
+          commit-message: "content: pipeline update for current events"
+          body: "Drafted by the ingestion pipeline. Check every source before merging. Set `reviewed: true` on entries you have checked."
+          labels: pipeline

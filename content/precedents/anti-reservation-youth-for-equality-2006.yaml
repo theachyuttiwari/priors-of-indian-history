@@ -1,0 +1,267 @@
+id: anti-reservation-youth-for-equality-2006
+title: Anti-reservation protests (Youth for Equality), 2006
+summary: >
+  In April 2006 Union HRD Minister Arjun Singh announced a plan to reserve 27 per cent of seats
+  for Other Backward Classes in centrally funded institutions such as the IITs, IIMs and AIIMS.
+  Medical students in Delhi, organised as Youth for Equality, marched, boycotted classes and began
+  a hunger strike at AIIMS; resident doctors struck from 14 May and the agitation spread to Mumbai
+  and other cities. Police used water cannon, tear gas and lathis in Delhi and Mumbai; the Centre
+  formed a Group of Ministers and an oversight committee, and the Supreme Court took suo motu
+  notice and the strike ended on 31 May 2006. Parliament passed the Central Educational
+  Institutions (Reservation in Admission) Act in December 2006 and the Supreme Court upheld it in 2008.
+period:
+  start: 2006-04-05
+  end: 2006-06-03
+location:
+  states: [Delhi, Maharashtra, Bihar, Tamil Nadu, West Bengal]
+  places: [AIIMS Delhi, Rajpath and India Gate, Lady Hardinge Medical College, Azad Maidan Mumbai, Patna]
+protest:
+  cause: Rollback of the proposed 27 per cent OBC reservation in central higher education institutions
+  organisers: [Youth for Equality, Resident doctors' associations of Delhi hospitals, Indian Medical Association, United Students]
+  scale: Hundreds of medical students on the streets in Delhi; resident doctors at AIIMS and other Delhi government hospitals on strike for 18 days; over 1,000 doctors at Azad Maidan in Mumbai; sympathy protests in IITs, JNU, Delhi University and other cities
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+  state:
+    party: INC
+    head: Sheila Dikshit
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: tear_gas
+    date: 2006-05-12
+    description: "Riot police stopped hundreds of medical students marching from Lady Hardinge Medical College towards the Prime Minister's Office on Rajpath, used water cannon and fired tear gas shells. Delhi Police report to the Union Home Ministry, not the Delhi state government."
+    actor: police
+    sources: [s2]
+  - type: lathi_charge
+    date: 2006-05-12
+    description: "Students said police used lathis near India Gate and that 20 students were injured; a police spokesman said nearly a dozen policemen were injured and hospitalised due to violence by students. The injury accounts are contested. The NHRC later called for a factual report from the Delhi Police Commissioner."
+    actor: police
+    sources: [s2, s1]
+  - type: detention
+    date: 2006-05-12
+    description: Protesting students were put into 13 police buses and taken to the Connaught Place, Chanakyapuri and Tughlaq Road police stations.
+    actor: police
+    sources: [s2]
+  - type: lathi_charge
+    date: 2006-05-13
+    description: "Mumbai Police lathi-charged protesting medicos. Police said the doctors tried to barge into Raj Bhavan; the doctors said they were protesting silently. Over 1,000 doctors then protested at Azad Maidan on 15 May. The NHRC called for a factual report from the Mumbai Police Commissioner. Maharashtra was governed by an INC-NCP coalition under CM Vilasrao Deshmukh."
+    actor: police
+    sources: [s3, s1]
+  - type: other
+    date: 2006-05-16
+    description: "The National Human Rights Commission took note of reports of an unprovoked lathi charge on students in Delhi and Mumbai, said the allegations if true raised a serious issue of violation of human rights, and directed the Police Commissioners of Delhi and Mumbai to send factual reports within two weeks. On 26 May it recommended that the government examine the reservation issue thoroughly and asked the strikers to resume work."
+    actor: centre
+    sources: [s1, s10]
+  - type: negotiation
+    date: 2006-05-19
+    description: "The Prime Minister set up a Group of Ministers headed by Defence Minister Pranab Mukherjee, with Arjun Singh and P. Chidambaram, to work out a formula. The GoM proposed increasing total seats so that general-category seats would not fall. The strikers rejected the proposal on 20 May."
+    actor: centre
+    sources: [s5, s7]
+  - type: other
+    date: 2006-05-19
+    description: "Hospital administrations, acting on government instructions, sent termination letters to striking senior residents and threatened termination of doctors who did not return to work. AIIMS authorities told striking doctors to return to work or vacate their hostel rooms."
+    actor: centre
+    sources: [s5, s7]
+  - type: lathi_charge
+    date: 2006-05-19
+    description: "In Patna, pro-quota medical students who attacked journalists and police with hockey sticks were lathi-charged by Bihar Police; over 35 people were injured including about 20 students, journalists and at least five policemen. Bihar CM Nitish Kumar (JD(U)) directed the DGP to inquire into the circumstances of the lathi charge."
+    actor: state
+    sources: [s19]
+  - type: negotiation
+    date: 2006-05-21
+    description: "Prime Minister Manmohan Singh appealed to the students to call off the strike; Youth for Equality rejected the appeal because it did not mention their demands. On 25 May in Srinagar he again urged the agitators to end the stir and said he was not averse to meeting anyone. The government met the striking medicos on 28 May and issued a draft proposal that existing general seats would not be reduced; the medicos rejected it as not concrete."
+    actor: centre
+    sources: [s7, s9, s11]
+  - type: concession
+    date: 2006-05-29
+    description: "The Centre set up an Oversight Committee chaired by Veerappa Moily, Chairman of the Administrative Reforms Commission, to prepare a time-bound road map for implementing the 27 per cent OBC quota without reducing general seats or compromising merit. It held its first meeting on 30 May."
+    actor: centre
+    sources: [s11, s12]
+  - type: other
+    date: 2006-05-30
+    description: "A Supreme Court vacation bench of Justices Arijit Pasayat and Lokeshwar Singh Panta took suo motu notice of the strike, warned the strikers to end the 19-day stir or face contempt action, and asked the Additional Solicitor-General to file a memorandum on the steps taken by the government. The Youth for Equality members said on legal advice they would continue the strike."
+    actor: court
+    sources: [s12]
+  - type: other
+    date: 2006-05-31
+    description: "The Supreme Court directed the striking doctors to return to work, invited the protesters to argue their case in court, directed the government to drop punitive action taken against the strikers and said any sacking orders would stand revoked if doctors resumed duty. Union Health Minister Anbumani Ramadoss the same day warned that doctors who did not resume duty would be terminated and replaced. Resident doctors from AIIMS, Safdarjung, Lady Hardinge and Maulana Azad Medical College called off the 18-day strike that night; IIT, JNU and Delhi University students said they would continue."
+    actor: court
+    sources: [s15, s14]
+  - type: other
+    date: 2006-12-18
+    description: "Parliament passed the Central Educational Institutions (Reservation in Admission) Bill, 2006 (introduced 25 August 2006; passed by the Lok Sabha on 14 December and by the Rajya Sabha on 18 December 2006). It received assent on 3 January 2007 as Act No. 5 of 2007 and provides for 15 per cent SC, 7.5 per cent ST and 27 per cent OBC reservation in central educational institutions, excluding minority institutions."
+    actor: centre
+    sources: [s16, s17]
+  - type: other
+    date: 2008-04-10
+    description: "In Ashoka Kumar Thakur v Union of India (Writ Petition (Civil) No. 265 of 2006) a Constitution Bench of the Supreme Court upheld the 93rd Constitutional Amendment and the 2006 Act, subject to the exclusion of the creamy layer from OBC beneficiaries and periodic review of the backward class lists."
+    actor: court
+    sources: [s18]
+outcome: >
+  The strike ended on 31 May 2006 after the Supreme Court's directions, with the government dropping
+  punitive action against doctors and setting up the Moily Oversight Committee; the quota itself was
+  not rolled back. Parliament enacted the 27 per cent OBC reservation in December 2006 and the
+  Supreme Court upheld it on 10 April 2008 with a creamy-layer exclusion.
+positions:
+  - party: INC
+    person: Arjun Singh
+    role_at_time: Union Minister of Human Resource Development
+    in_power: true
+    date: 2006-05-14
+    statement: "Called the protests \"propaganda\", said there was \"no Mandal II, III or IV\" and refused to reconsider the proposal; said beating students is not a solution and that he would always talk to protesting students."
+    sources: [s4]
+  - party: INC
+    person: Manmohan Singh
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2006-05-20
+    statement: "Told the Congress Working Committee that extending OBC quotas in centrally funded institutions would need extra infrastructure costing at least Rs 8,000 crore and \"cannot happen overnight and will need time\"; on 25 May said the government would find \"viable and credible ways\" to protect all sections and that the UPA-Left resolution on reservation \"is a public document\"."
+    sources: [s6, s9]
+  - party: INC
+    person: Pranab Mukherjee
+    role_at_time: Union Defence Minister and head of the Group of Ministers
+    in_power: true
+    date: 2006-05-19
+    statement: "Said the GoM was working out figures for additional seats in existing and new institutions and that the OBC quota was a \"commitment made in Parliament\"."
+    sources: [s5, s6]
+  - party: Pattali Makkal Katchi (PMK)
+    person: Anbumani Ramadoss
+    role_at_time: Union Health Minister
+    in_power: true
+    date: 2006-05-31
+    statement: "\"We are going to maintain services in the hospitals from tomorrow, come what may\"; warned that doctors who did not resume duties would be terminated and replaced with permanent doctors."
+    sources: [s12, s14]
+  - party: BJP
+    person: L.K. Advani
+    role_at_time: Leader of the Opposition, Lok Sabha
+    in_power: false
+    date: 2006-05-30
+    statement: "At the BJP National Executive said the HRD Minister's \"ill-considered moves to gamble with the institutions of excellence\" had \"precipitated yet another crisis\" and urged the party to \"respond to this crisis by giving the people a correct lead\"."
+    sources: [s13]
+  - party: CPI(M)
+    person: Rup Chand Pal
+    role_at_time: Lok Sabha MP and party Chief Whip; Left supported the UPA from outside
+    in_power: false
+    date: 2006-05-22
+    statement: "Said the Left stood for quotas for the OBCs but the benefits should not go to the creamy layer, that reservation \"must not affect the prospects of other sections of society\", and that the UPA was bound to implement the constitutional amendment passed unanimously by Parliament."
+    sources: [s8]
+sources:
+  - id: s1
+    title: NHRC seeks report on police action against protesters over proposed reservation in higher education; appeals to the medical fraternity to resume duties
+    publisher: National Human Rights Commission
+    url: https://nhrc.nic.in/media/press-release/nhrc-seeks-report-on-police-action-against-protesters-proposed-reservation-in-higher-education-appeals-to-the-medical-fraternity-to-resume-duties-in-the-interest-ailing-people-br
+    date: 2006-05-16
+    type: official
+  - id: s2
+    title: Medical students march towards PMO; police use water cannon, teargas (Delhi page)
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060513/delhi.htm
+    date: 2006-05-13
+    type: news
+  - id: s3
+    title: Mumbai docs protest against lathicharge, reservations
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
+    date: 2006-05-16
+    type: news
+  - id: s4
+    title: "No relook at quota proposals: Arjun Singh"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060515/main1.htm
+    date: 2006-05-15
+    type: news
+  - id: s5
+    title: Panel working out formula, but strikers adamant
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060520/main2.htm
+    date: 2006-05-20
+    type: news
+  - id: s6
+    title: PM cautious on quota
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060521/main1.htm
+    date: 2006-05-21
+    type: news
+  - id: s7
+    title: Medicos reject PM's plea, stir will continue
+    publisher: Arab News
+    url: https://www.arabnews.com/node/285058
+    date: 2006-05-22
+    type: news
+  - id: s8
+    title: CPM says OBC quota necessary but not for creamy layer
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2006/05/22/cpm-says-obc-quota-necessary-but-not-for-creamy-layer-1148299653.html
+    date: 2006-05-22
+    type: news
+  - id: s9
+    title: PM asks anti-quota protestors to call off strike
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2006/05/25/pm-asks-anti-quota-protestors-to-call-off-strike-1148568228.html
+    date: 2006-05-26
+    type: news
+  - id: s10
+    title: NHRC recommends that the reservation issue should be examined thoroughly; appeals to striking students and doctors to call off their strike
+    publisher: National Human Rights Commission
+    url: https://nhrc.nic.in/media/press-release/nhrc-recommends-that-the-reservation-issue-should-be-examined-thoroughly-appeals-to-striking-students-and-br-doctors-to-call-off-their-strike-br
+    date: 2006-05-26
+    type: official
+  - id: s11
+    title: Anti-reservationists continue stir, more support pours in
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2006/05/29/anti-reservations-contiue-stir-more-support-pours-in-1148886621.html
+    date: 2006-05-29
+    type: news
+  - id: s12
+    title: Supreme Court warns striking doctors
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060531/main2.htm
+    date: 2006-05-31
+    type: news
+  - id: s13
+    title: "UPA created crisis on quota, BJP must frame policy for youth: Advani"
+    publisher: Oneindia (UNI)
+    url: https://www.oneindia.com/2006/05/30/upa-created-crisis-on-quota-bjp-must-frame-policy-for-youthadvan-1148991113.html
+    date: 2006-05-30
+    type: news
+  - id: s14
+    title: Medicos end stir; IITs to continue anti-quota agitation
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060601/main1.htm
+    date: 2006-06-01
+    type: news
+  - id: s15
+    title: Indian doctors call off strike
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2006/5/31/indian-doctors-call-off-strike
+    date: 2006-05-31
+    type: news
+  - id: s16
+    title: The Central Educational Institutions (Reservation in Admission) Bill, 2006 (bill track)
+    publisher: PRS Legislative Research
+    url: https://prsindia.org/billtrack/the-central-educational-institutions-reservation-in-admission-bill-2006
+    date: 2006-12-18
+    type: official
+  - id: s17
+    title: The Central Educational Institutions (Reservation in Admission) Act, 2006 (No. 5 of 2007)
+    publisher: PRS Legislative Research (Act text)
+    url: https://prsindia.org/files/bills_acts/acts_parliament/2006/the-central-educational-institutions-(reservation-in-admission)-act-2006.pdf
+    date: 2007-01-03
+    type: official
+  - id: s18
+    title: Ashoka Kumar Thakur vs Union of India and Ors.
+    publisher: Supreme Court of India (Indian Kanoon)
+    url: https://indiankanoon.org/doc/1219385/
+    date: 2008-04-10
+    type: court_judgment
+  - id: s19
+    title: Violent pro-quota medicos lathi-charged, 35 injured; Bihar CM seeks report
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2006/20060520/main1.htm
+    date: 2006-05-20
+    type: news
+tags: [reservation, obc, students, doctors, delhi, mumbai, aiims, lathi_charge, supreme_court, upa]

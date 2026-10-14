@@ -1,0 +1,113 @@
+# Landscape: does something like Priors already exist?
+
+Date of survey: 2026-10-15. Method: about 35 web searches (extended mode) plus direct fetches of the key sites and GitHub repos. Licences are as stated on the sites or repos on that date; confirm before reuse.
+
+## 1. Summary
+
+```
+                 single-incident        cross-government       party said-vs-did
+                 datasets               precedent comparison   (opposition vs power)
+                 ---------------------  ---------------------  ---------------------
+India            SFLC shutdown tracker  (nothing found)        ManifestoWatch,
+                 Article 14 sedition DB                        Sarkari Vaade
+                 FSC tracker, LCW,                             (promise -> delivery
+                 Zombie Tracker, CJP                            only, no statements)
+                 ACLED / Carnegie
+
+Abroad           Access Now STOP        Carnegie GPT (weak)    PolitiFact Flip-O-Meter
+                 Mass Mobilization      Mass Mobilization      Polimeter, Politwoops
+                 CCC (US)               (govt response field)  uturn.to (UK)
+                 ------------------------------------------------------------------
+                                        ^ Priors sits here ^
+```
+
+No existing project, in India or abroad, does what Priors does: take a current event, line it up against dated precedents from earlier centre and state governments across parties, and show each party's stated position in opposition next to its actions in power. The pieces exist as separate single-topic datasets. Nothing joins them.
+
+## 2. Indian projects
+
+| Name | URL | What it does | Open source / data licence | Differs from Priors | Reuse / link |
+|---|---|---|---|---|---|
+| SFLC.in Internet Shutdown Tracker | https://internetshutdowns.in ; https://github.com/sflcin/internetshutdowns | Every shutdown in India since Jan 2012 (934 events, 30 states as of Oct 2026). Filters by state, year, network type, cause. | Code AGPLv3. README says data is ODbL 1.0; sflc.in site says CC BY-NC-SA 4.0. Conflict. Bulk download "feature to be added". | Shutdowns only. No cross-government comparison, no party stance. | Best Indian shutdown source. Link per-event. Ask SFLC for a bulk export and to confirm ODbL. |
+| Access Now #KeepItOn STOP dataset | https://www.accessnow.org/keepiton-data-dashboard/ | Global verified shutdowns 2016 to 2025 (2,102 events). India is the largest share (771 events 2016-2023). Spreadsheet download plus dashboard export. | Site footer CC BY 4.0; not confirmed for the data. Methodology published. | Global, shutdowns only, no party or precedent layer. | Downloadable spreadsheet with cause and region fields. Good secondary source for every shutdown row. |
+| Article 14, "A Decade of Darkness" sedition DB | https://sedition.article-14.com | 13,000 sedition (124A) cases 2010-2021 from 1,300 legal docs, 800 media reports, 125 FIRs. Categories include farm protests, CAA, journalists, UPA II. | "All rights reserved". No download, no API. | Sedition only; cross-UPA/NDA comparison is in the journalism, not in a tool. | Link to case pages. The UPA II vs Modi-era framing is a direct model for Priors' cross-government view. |
+| IFF Zombie Tracker (Section 66A) | https://github.com/CivicDataLab/zombie-tracker | Cases filed under struck-down Section 66A, 11 states, from the e-Courts API (2009-2020). | Code AGPLv3. Data meant to be public. | One statute, one wrong. | Pattern for e-Courts-based case tracking. CivicDataLab is a possible partner. |
+| Free Speech Collective tracker | https://freespeechcollective.in/free-speech-tracker/ | 930+ free speech violations (arrests, censorship, internet control, lawfare) filterable by category, state, year. 2025 data live; earlier years in reports. | No licence stated. No download. | Incident log; no precedent linking, no party layer. | Link per incident. Candidate upstream for "detentions" and "FIRs" rows. |
+| Land Conflict Watch | https://www.landconflictwatch.org | 800+ land conflicts with state response. | Closed. Data by paid licence; no scraping, no bulk download. | Land only; closed data. | Cite aggregate numbers only. |
+| CJP Hate Hatao / Hate Watch | https://cjp.org.in/hate-hatao/ | Hate speech offender list and complaint filing. | No licence, no API. | Hate speech, not protests. | Link only. |
+| Hindutva Watch, India Hate Lab | https://www.hindutvawatch.org | Real-time hate crime dataset; blocked in India since Jan 2024. | Not open. | Different subject. | Link only; note the blocking as a precedent itself. |
+| PUCL UAPA study | https://pucl.org (report Sept 2022) | UAPA abuse 2009-2022 from NCRB and NIA data; 8,371 arrests, 5,924 cases. | PDF report; dataset not confirmed public. | Static report. | Cite figures; NIA case list is public. |
+| ManifestoWatch | https://manifestowatch.in | 2,268 promises, 16 elections, 4 parties (BJP, INC, AAP, more). Status: fulfilled to broken, sourced to orders, budgets, RTIs. | No GitHub, no licence found. Unnamed operators. | Tracks promise delivery, not statements vs conduct, not protest handling. | Closest Indian "said vs did" project. Link; propose data sharing. |
+| Sarkari Vaade | https://sarkarivaade.com | State manifesto audits, evidence ranked CAG > finance accounts > GOs > RTIs > media. Beta. One private citizen. | No licence found. | Same as above; states only. | Its evidence hierarchy is a good model for Priors' sourcing rules. |
+| Informed Voter Project, manifesto.page, bjp-ten.vercel.app, tracker.wbupdates.com | various | Small promise trackers, 22 to 97 promises each, mostly BJP. | Not open. | Narrow, static. | Link only. |
+| Lok Dhaba / Political Career Tracker (TCPD, Ashoka) | https://lokdhaba.ashoka.edu.in | All elections since 1962; who governed which state when; turncoat filter. | CC BY 4.0 site; PCT non-commercial. Future uncertain after 2023 board dissolution. | Elections, not conduct. | Essential join table: which party ruled centre and state on any date. |
+| PRS Legislative Research | https://prsindia.org | Bills, parliament debates, MP data. | CC BY 4.0. No API. | Legislative; no protest data. | Source for what parties said in Parliament. |
+| Common Cause and Lokniti-CSDS, Status of Policing in India | https://www.commoncause.in | Survey reports 2018-2025 on police attitudes, torture, surveillance. | Reports, PDF. | Survey, not events. | Cite as context. |
+| The Wire, Newslaundry, Scroll | e.g. https://thewire.in | Ad hoc lists (e.g. Oct 2026 list of 30+ journalists detained in Delhi). No standing tracker. | Journalism, all rights reserved. | Event-specific lists. | Link as dated sources. |
+| Wikipedia, Category: Protests in India; 2026 Delhi Jantar Mantar protests | https://en.wikipedia.org/wiki/Category:Protests_in_India | Narrative pages. The 2026 page already notes Section 163, shutdown, detentions, FIRs and compares to the CAA and farmers' protests. | CC BY-SA 4.0. | Prose, no structure, no party layer. | Seed list of events; cite via their references. |
+| Section 144 orders | SSRN 4389147 (Bhandari, Sekhri et al.) ; district NIC sites | The only systematic study covers all Delhi 2021 orders. District sites (Indore, Doda, Jammu) post orders with dates. No national archive. | Paper; district PDFs public. | Nothing comparable exists. | Priors must build this. Scrape NIC district sites plus Gazette. Large gap. |
+| Protest permissions | none | No database. Delhi Police 10-day rule; denials known only from news. | n/a | n/a | Needs RTI requests. Large gap. |
+
+## 3. International analogues
+
+| Name | URL | What it does | Open source / licence | Differs from Priors | Reuse |
+|---|---|---|---|---|---|
+| PolitiFact Flip-O-Meter | https://politifact.com | Rates politicians' position changes: No Flip, Half Flip, Full Flop. Also Obameter and promise meters. | Not open. | Individual claims, US. | Rating vocabulary and editorial method. |
+| Politwoops | https://github.com/CodeForAfrica/politwoops | Archive of deleted politician tweets. Sunlight code open sourced 2012; forks by ProPublica, Code for Africa. Stopped after Twitter API change. | Open source. | Deleted posts, not conduct. | Pattern for archiving party statements before they vanish. |
+| Polimeter / TrudeauMeter (Laval) | https://polimeter.org | 1,050 Trudeau promises rated kept, partial, broken. Academic. | Not open; no data licence found. | Promises only. | Method notes. |
+| TheyWorkForYou / parlparse (mySociety) | https://github.com/mysociety/theyworkforyou | UK MP voting and speech records. | BSD-style code. | Parliamentary record, not events. | Code for structured Hansard-style records; apply to Lok Sabha debates. |
+| uturn.to, UK Government Tracker | https://uturn.to | Lists UK policy reversals since July 2024; AI-scanned news. | Not open. | Reversals within one government. | Shows demand for the format. |
+| Carnegie Global Protest Tracker | https://carnegieendowment.org/features/global-protest-tracker | 700+ anti-government protests, 147 countries, 2017 to date. Spreadsheet download. Partly from ACLED. | Terms not stated; ACLED terms may flow through. | Global, one row per protest, short-term outcome only. | Cross-check for major Indian protests. |
+| ACLED | https://acleddata.com | Event-level protests; India has the most demonstrations globally (18,074 in 2026 to Sept). | EULA, registration, no redistribution; research tier 12-month delay. | Counts, no legal response fields. | Cite aggregates only. Do not redistribute. |
+| Mass Mobilization Project (Clark and Regan) | https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HTTWYL | 17,145 protests, 162 countries, 1990 to Mar 2020, with a "state response" field (ignore, crowd dispersal, arrests, shootings, etc). | CC0 on Dataverse. | Ended 2020; coarse. | Best open historical baseline for Indian protests 1990-2020 with a government response coding. |
+| Crowd Counting Consortium | https://ash.harvard.edu/programs/crowd-counting-consortium/ | US protest counts, monthly on Dataverse. | Public Dataverse. | US only. | Schema ideas. |
+| Code for Africa PromiseTracker; OpenPromises | https://github.com/CodeForAfrica/PromiseTracker ; https://github.com/xternal/openpromises | Open-source promise tracking engines. | Open source (OpenPromises Apache-2.0). | Promises, not precedents. | Possible base for the "said vs did" module. |
+
+## 4. GitHub repos found
+
+| Repo | Content | Licence | Use |
+|---|---|---|---|
+| sflcin/internetshutdowns | Tracker map code; Node, MongoDB. | AGPLv3 code, ODbL data (claimed). | Fork or ask for data dump. |
+| CivicDataLab/zombie-tracker | 66A case tracker from e-Courts. | AGPLv3. | Reference architecture. |
+| dw-data/internet-shutdowns | DW's labelled xlsx of about 400 shutdowns 2012 to Mar 2020, with cause labels. | Check repo. | Historical rows with cause coding. |
+| Kajal429/Internet-Shutdown-India- | Cleaned 920-event dataset 2016-2025 (STOP-derived). | Check. | Convenience copy; verify. |
+| jenskoning.com India shutdowns 2016-22 | STOP data aligned to GADM districts, .rds. | Check. | District geocoding. |
+| InetIntel/internet_outages | IODA plus KeepItOn CSVs, global. | Check. | Filter to India. |
+| count-love/protest-data, prateekchauhands/global-protests-tracker | US and Carnegie-derived protest data. | Mixed. | Schema only. |
+| mysociety/theyworkforyou, mysociety/parlparse | Parliament scraping and display. | BSD-style. | Debate records. |
+
+No repo matches "protest tracker india", "section 144 dataset" or "government response india". The india-political-risk-monitor repo is a general news log, not structured data.
+
+## 5. Verdict
+
+**Is Priors novel?** Yes, for the combination. Every component exists somewhere, but as isolated, single-topic, mostly closed datasets. No project in India or elsewhere:
+
+1. Starts from a current event and pulls up dated precedents.
+2. Compares centre and state governments across parties on the same response type (permission denial, 144/163, shutdown, detention, FIR).
+3. Places each party's opposition-era statement next to its in-power conduct, with a dated source on every claim.
+4. Is open source with open data.
+
+**Closest existing things.**
+
+- In India: Article 14's sedition database (cross-government, source-linked, but one statute and closed data) and ManifestoWatch (party said-vs-did, but promises only, closed). The SFLC tracker is the closest open dataset.
+- Abroad: Mass Mobilization Project (open, has a government-response field, ends 2020) and PolitiFact's Flip-O-Meter (consistency ratings, editorial not structured).
+
+**Gaps Priors fills.**
+
+| Gap | Current state |
+|---|---|
+| Section 144 / 163 orders archive | None national. One academic study (Delhi 2021). District PDFs scattered on NIC sites. |
+| Protest permission decisions | No data anywhere. RTI needed. |
+| Cross-party, cross-era comparison of protest handling | None. Only ad hoc journalism (e.g. Owaisi's CAA and farmers comparison, Oct 2026). |
+| Party statements in opposition vs actions in power | None structured. Only news "U-turn" stories. |
+| Open, joinable schema linking event, response, ruling party at centre and state, and source | None. Lok Dhaba supplies the ruling-party join table but nothing joins events to it. |
+
+**Reuse plan.**
+
+1. Shutdowns: ingest Access Now STOP (CC BY 4.0, confirm) and link each row to SFLC's event page. Confirm SFLC's ODbL claim.
+2. Historical protest baseline 1990-2020: Mass Mobilization Project (CC0), filtered to India, for its state-response field.
+3. Who was in power: Lok Dhaba (CC BY 4.0).
+4. Sedition, UAPA, 66A, free-speech incidents: link out to Article 14, PUCL, Zombie Tracker, FSC; do not copy closed data.
+5. Statements: PRS and Lok Sabha debates (CC BY 4.0), party press releases, archived with a Politwoops-style capture.
+6. Build new: 144/163 orders archive, permission decisions, and the precedent-to-current-event link layer. These are the novel parts.
+
+**Risks.** Hindutva Watch and India Hate Lab were blocked in India in 2024; Priors' content is similar in sensitivity. SFLC's licence conflict needs resolving before redistribution. ACLED data must not be redistributed. TCPD's future is uncertain, so mirror Lok Dhaba early.

@@ -1,0 +1,123 @@
+id: railway-strike-1974
+title: All-India railway strike 1974
+summary: >
+  In May 1974 railway workers under the National Coordination Committee for
+  Railwaymen's Struggle (NCCRS), convened by George Fernandes, struck for about
+  20 days over bonus, hours of work and casual labour. The Indira Gandhi
+  government declared the strike illegal, arrested Fernandes and thousands of
+  workers under MISA and the Defence of India Rules, deployed paramilitary
+  forces to railway colonies and dismissed or laid off staff. The strike was
+  withdrawn on 27-28 May 1974 without a settlement; the Janata government
+  reversed the punitive orders in March 1977.
+period:
+  start: 1974-05-02
+  end: 1974-05-28
+location:
+  states: [Uttar Pradesh, Delhi, Maharashtra, West Bengal, Tamil Nadu, Bihar]
+  places: [Lucknow, Tihar Jail, Bombay, Delhi, Kishanganj, Shakurbasti, Malda]
+protest:
+  cause: "Bonus, eight-hour day, dearness allowance and regularisation of casual railway labour"
+  organisers: [National Coordination Committee for Railwaymen's Struggle, All India Railwaymen's Federation]
+  scale: "Reported participation of 1 million to 1.7 million railway workers; about 400 passenger trains cancelled (figures vary by source)"
+government:
+  centre:
+    party: INC
+    alliance: none
+    head: Indira Gandhi
+    role: Prime Minister
+actions:
+  - type: preventive_arrest
+    date: 1974-05-01
+    description: "George Fernandes, AIRF president and NCCRS convener, arrested at Lucknow after a May Day address and flown to Tihar Jail; warrants issued against other leaders on 2 May"
+    actor: centre
+    sources: [s1, s3, s4]
+  - type: other
+    date: 1974-05
+    description: "Government declared the strike illegal and refused to negotiate until it was called off"
+    actor: centre
+    sources: [s1, s2]
+  - type: detention
+    date: 1974-05
+    description: "Thousands of workers detained under MISA and the Defence of India Rules; totals reported range from 20,000 to 50,000 arrests (sources differ)"
+    actor: centre
+    sources: [s1, s2, s3, s5]
+  - type: other
+    date: 1974-05
+    description: "Border Security Force, CRPF and Provincial Armed Constabulary deployed to railway colonies; electricity and water cut to colonies in Bombay, Delhi, Kishanganj, Shakurbasti and Malda"
+    actor: centre
+    sources: [s1, s2]
+  - type: other
+    date: 1974-05
+    description: "Employees removed, laid off or suspended under Rule 14(ii) of the Railway Employees (Discipline and Appeal) Rules, 1968; AIRF gives 10,329 permanent staff laid off and 5,630 temporary workers dismissed, with families reportedly evicted from railway quarters (union figures; other sources give higher totals)"
+    actor: centre
+    sources: [s3, s2, s5]
+  - type: concession
+    date: 1977-03-28
+    description: "Janata government railway minister Madhu Dandavate announced in the Railway Budget speech that dismissed, removed and suspended employees would be reinstated and court cases withdrawn"
+    actor: centre
+    sources: [s3, s5]
+outcome: >
+  The NCCRS called the strike off unconditionally on 27-28 May 1974 with no
+  settlement of demands. Punitive orders against strikers were reversed after
+  the change of government in 1977.
+positions:
+  - party: INC
+    person: Indira Gandhi
+    role_at_time: Prime Minister
+    in_power: true
+    date: 1974-05
+    statement: "Declared the strike illegal and did not concede the demands while the strike continued"
+    sources: [s2, s5]
+  - party: other (Socialist Party)
+    person: George Fernandes
+    role_at_time: President, AIRF; convener, NCCRS
+    in_power: false
+    date: 1974-02-28
+    statement: "As NCCRS convener set a charter of demands including bonus, abolition of the casual labour system and dearness allowance revisions, and gave notice of an indefinite strike from 8 May 1974 after the government did not respond"
+    sources: [s3]
+  - party: CPI
+    person: S.A. Dange
+    role_at_time: AITUC leader
+    in_power: false
+    date: 1974-05
+    statement: "Urged striking workers to surrender, according to a Frontier reconstruction of the strike; the same account says the CPI(M) gave unconditional support"
+    sources: [s5]
+  - party: Janata Party
+    person: Madhu Dandavate
+    role_at_time: Minister of Railways
+    in_power: true
+    date: 1977-03-28
+    statement: "Announced reinstatement of dismissed and suspended employees, withdrawal of victimisation orders and of court cases arising from the 1974 strike"
+    sources: [s3]
+sources:
+  - id: s1
+    title: "The 1974 railway strike and George Fernandes"
+    publisher: The Caravan
+    url: https://caravanmagazine.in/labour/1974-railway-strike-george-fernandes
+    date: 2019-01
+    type: news
+  - id: s2
+    title: "A Forgotten Anniversary: The 1974 Railway Strike"
+    publisher: Frontier (Harsh Thakor), Vol 56 No 49
+    url: "https://frontierweekly.com/articles/vol-56/56-49/56-49-The 1974 Railway Strike.html"
+    date: 2024-06-02
+    type: news
+  - id: s3
+    title: "1974 Railway Strike"
+    publisher: All India Railwaymen's Federation (union account)
+    url: https://www.airfindia.org/?p=13676
+    date: 2023-05-08
+    type: archive
+  - id: s4
+    title: "How the Fernandes brothers fought through Emergency - an interview with Michael Fernandes"
+    publisher: The News Minute
+    url: https://www.thenewsminute.com/amp/story/news/how-fernandes-brothers-fought-through-emergency-interview-michael-fernandes-31528
+    date: 2015-06-25
+    type: news
+  - id: s5
+    title: "Railway Strike: Present and Past"
+    publisher: Frontier (Asis Ranjan Sengupta), Vol 49 No 2
+    url: "https://frontierweekly.com/archive/vol-number/vol/vol-49-2016-17/49-2/49-2-Railway Strike.html"
+    date: 2016-07-17
+    type: news
+tags: [labour, railways, misa, strike, indira_gandhi]

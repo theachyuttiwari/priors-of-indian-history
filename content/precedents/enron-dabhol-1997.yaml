@@ -1,0 +1,311 @@
+id: enron-dabhol-1997
+title: Enron Dabhol power project protests
+summary: >
+  Villagers of Guhagar taluka in Ratnagiri district, Maharashtra, and activists from across India
+  protested against the Dabhol Power Company plant promoted by Enron, with the largest actions in 1997.
+  The Shiv Sena-BJP state government had suspended the project in August 1995 after a cabinet
+  sub-committee review, then accepted a renegotiated agreement in January 1996 and allowed construction
+  to proceed. Police applied rolling prohibitory orders under Section 37 of the Bombay Police Act from
+  January 1997, arrested several hundred protesters at a time, used lathi charges and tear gas, and
+  district magistrates issued Section 144 orders barring Medha Patkar and B.G. Kolse-Patil from the
+  district. Human Rights Watch and Amnesty International documented the response in 1997 and 1999.
+period:
+  start: 1994-11-08
+  end: 1999-01
+location:
+  states: [Maharashtra]
+  places: [Dabhol, Guhagar, Veldur, Anjanvel, Ranavi, Katalwadi, Pawarsakhari, Chiplun, Mahad]
+protest:
+  cause: Opposition to the Enron-led Dabhol Power Company plant on cost, corruption, land acquisition and environmental grounds
+  organisers:
+    - Guhagar Taluka Enron Vaa Salgana Prakalp Virodhi Sangharsh Samiti
+    - Enron Virodhi Sangharsh Samiti
+    - National Alliance of People's Movements
+    - Narmada Bachao Andolan
+    - Samajwadi Jan Parishad
+    - Centre of Indian Trade Unions
+  scale: Demonstrations of 1,500 to 3,000 people at the plant gates; Human Rights Watch studied 30 demonstrations and recorded arrests of several hundred people at a time
+government:
+  centre:
+    party: Janata Dal
+    alliance: United Front
+    head: H.D. Deve Gowda (to April 1997), then I.K. Gujral
+    role: Prime Minister
+  state:
+    party: SS
+    alliance: Shiv Sena-BJP
+    head: Manohar Joshi
+    role: Chief Minister
+    name: Maharashtra
+actions:
+  - type: detention
+    date: 1994-11-08
+    description: "Police arrested 233 unarmed protesters under Sections 37 and 135 of the Bombay Police Act. On 10 November 1994 police arrested 105 more and then about 650 after a demonstration at the site. All were released on personal bonds the same day."
+    actor: police
+    sources: [s4]
+  - type: section_144
+    date: 1994-11-11
+    description: "The district collector imposed prohibitory orders on Guhagar taluka from 11 to 23 November 1994."
+    actor: state
+    sources: [s4]
+  - type: commission_of_inquiry
+    date: 1995-05-03
+    description: "The new Shiv Sena-BJP government constituted a cabinet sub-committee chaired by Deputy Chief Minister Gopinath Munde to review the project. The committee called the one-on-one negotiation a \"grave impropriety\" and recommended cancelling Phase II and repudiating Phase I."
+    actor: state
+    sources: [s5, s13]
+  - type: concession
+    date: 1995-08-03
+    description: "Chief Minister Manohar Joshi announced in the legislature that Phase I would be stopped and Phase II cancelled. Enron began arbitration in the United Kingdom in August 1995. In September 1995 the state filed Civil Writ Petition 3392 of 1995 in the Bombay High Court to have the power purchase agreement declared void."
+    actor: state
+    sources: [s5]
+  - type: other
+    date: 1996-01-08
+    description: "The state government announced it would accept a renegotiated project with a claimed 22.5 percent tariff cut, a 740 MW Phase I and a 1,320 MW Phase II. Construction resumed and local protests began in earnest during 1996."
+    actor: state
+    sources: [s6, s12]
+  - type: other
+    date: 1996-12-12
+    description: "A Bombay High Court division bench (Justices B.P. Saraf and M.S. Rane) dismissed the CITU public interest petition against the agreement, citing delay and non-justiciability. The court said the Munde committee report held \"enough indications\" of corruption and that the public had been \"taken for a ride\". The Supreme Court on 2 May 1997 issued notice only on the accountability of the State of Maharashtra for its inconsistent stand."
+    actor: court
+    sources: [s7, s14]
+  - type: section_144
+    date: 1997-01-06
+    description: "Ratnagiri police imposed prohibitory orders under Section 37(1) and 37(3) of the Bombay Police Act over the area and renewed them at fifteen-day intervals. Human Rights Watch found the orders still in force in October 1998."
+    actor: police
+    sources: [s4, s10]
+  - type: detention
+    date: 1997-01-13
+    description: "Between 13 and 18 January 1997 police arrested 120 protesters from Anjanvel, Ranavi and Veldur at the plant site in groups of about 25, then released them on personal bonds."
+    actor: police
+    sources: [s2]
+  - type: preventive_arrest
+    date: 1997-01-29
+    description: "Police arrested a delegation of Sangharsh Samiti members, including Sadanand Pawar, under Section 151 CrPC when they came to Guhagar police station the day before a planned demonstration. They were moved to Chiplun overnight and released on personal bonds on 30 January."
+    actor: police
+    sources: [s3, s10]
+  - type: lathi_charge
+    date: 1997-01-30
+    description: "Three simultaneous demonstrations took place at Guhagar police station, an MLA's house and the plant gates. Police lathi-charged and tear-gassed marchers at the gates; an AIPRF fact-finding team reported about 40 tear gas canisters and rounds fired in the air. Amnesty reported 17 women among those beaten. A helicopter reportedly contracted to the company was seen monitoring the crowd."
+    actor: police
+    sources: [s2, s9, s10]
+  - type: detention
+    date: 1997-01-30
+    description: "Police arrested about 450 people at Guhagar police station after a barricade broke; 679 people in total were charged under Sections 37 and 135 of the Bombay Police Act. They were produced before the Chiplun magistrate and released on personal bonds on 30 and 31 January. Organiser Surendra Thatte put arrests at about 2,000."
+    actor: police
+    sources: [s2, s10]
+  - type: other
+    date: 1997-02
+    description: "From the second week of February 1997 police issued warning notices under Section 149 CrPC to nearly 200 villagers, accusing them of spreading false information against the government and the company. Externment orders were served on individual activists including Janpath Bane (26 February), Dattaram Jangli (May) and Raman Pardale and Rajesh Jangli (26 August)."
+    actor: police
+    sources: [s3, s10]
+  - type: lathi_charge
+    date: 1997-02-21
+    description: "About 250 villagers at Pawarsakhari blocked a road against two state ministers (Narayan Rane and Ravindra Rane). A State Reserve Police battalion lathi-charged the crowd and arrested 96 people."
+    actor: police
+    sources: [s2, s10]
+  - type: preventive_arrest
+    date: 1997-02-28
+    description: "Police arrested retired Justice B.G. Kolse-Patil, Mangesh Pawar and Sadanand Pawar under Section 151 CrPC before a hunger strike at Guhagar police station, four days before Zilla Parishad elections. Sessions Judge V.G. Munshi released Sadanand Pawar on 6 March on condition he not enter Chiplun and Guhagar talukas until 31 March. About 225 hunger strikers, including Medha Patkar according to Amnesty, were arrested the same day and released on personal bonds."
+    actor: police
+    sources: [s3, s8, s10]
+  - type: section_144
+    date: 1997-03-01
+    description: "District Magistrate T. Chandrasekhar of Ratnagiri issued a Section 144 CrPC order barring Medha Patkar and B.G. Kolse-Patil from the district, citing the Zilla Parishad elections of 2 March 1997. Mangesh Pawar received a show-cause notice on 18 April 1997 proposing a two-year externment from Ratnagiri and Raigad districts."
+    actor: state
+    sources: [s3, s10]
+  - type: fir
+    date: 1997-04-02
+    description: "After pro-project villagers armed with weapons attacked anti-project villagers at Katalwadi during Holi on 1 April, police charged about 20 anti-project villagers, including four injured women who tried to complain, with offences including attempted murder. Most were held until 19 April. The attackers were charged under Section 37 and bailed the same day. State Reserve Police were stationed in the village for a month."
+    actor: police
+    sources: [s8]
+  - type: detention
+    date: 1997-04-28
+    description: "Police arrested groups of visiting activists at the gates under Section 37 and the Chiplun magistrate sentenced them when they refused bail: 150 Samajwadi Jan Parishad members on 28 April, 50 Narmada Bachao Andolan members on 30 April, 11 Sarvodaya Vikas Manch members on 4 May and 50 Bargi Bandh Vistapit Sangathana members on 6 May, with terms of five to fifteen days."
+    actor: police
+    sources: [s2, s10]
+  - type: detention
+    date: 1997-05-15
+    description: "Police and State Reserve Police arrested Medha Patkar and about 178 villagers at a sit-in at the plant gates under Sections 37 and 135. Witnesses described lathi blows and women dragged by their hair. The detainees refused bail, were moved to Yerawada jail in Pune and were sentenced on 20 May to five days plus three days for non-payment of a Rs 50 fine."
+    actor: police
+    sources: [s2, s10]
+  - type: detention
+    date: 1997-05-16
+    description: "Police arrested Janata Dal leader Mrinal Gore and about 30 others, including 22 women and two minor girls, for a road block in Guhagar town. They were charged under the Bombay Police Act and Section 341 IPC and remanded to custody; the women were held in Kalyan jail until bail on 20 May."
+    actor: police
+    sources: [s2, s10]
+  - type: fir
+    date: 1997-06-03
+    description: "Police registered a First Information Report naming about 1,000 to 1,200 people for violating prohibitory orders at a demonstration of about 3,000 against land fencing on 17 May 1997, at which more than 300 had been arrested and held about 14 days. The cases were still pending in October 1998."
+    actor: police
+    sources: [s2, s10]
+  - type: section_144
+    date: 1997-05-28
+    description: "Raigad District Magistrate R.S. Rathod issued a Section 144 order barring Medha Patkar from Raigad district from 28 May to 30 June 1997, after Chief Minister Joshi told Minister of State for Home Prabhakar More to act firmly \"or else the wrong signal would be conveyed to the business world\". On 29 May police stopped an NAPM tour near Mahad, beat activists, diverted a bus carrying Patkar and 31 others to Mangaon police station and remanded them for 14 days; they were released on 31 May. The NHRC in July 1997 found the order \"unjustified\" and recommended action against the officer in charge, Vijay Singh Jadhav; Joshi declined a judicial inquiry."
+    actor: state
+    sources: [s3]
+  - type: detention
+    date: 1997-06-03
+    description: "About 135 Maharashtra Police and State Reserve Police raided Veldur at about 5 to 6 a.m. after a clash over use of the village jetty on 2 June, entered houses and beat residents. Police arrested 26 women and 13 men, including at least three girls under 16 recorded as adults, and charged them with attempted murder and rioting. Two pregnant women were among those beaten; one gave an affidavit to the Chiplun magistrate on 9 June. PUCL and Amnesty documented injuries. 25 of the women were also charged for the 17 May dharna."
+    actor: police
+    sources: [s8, s10, s11]
+  - type: other
+    date: 1994
+    description: "From 1994 the Dabhol Power Company paid the state government Rs 125 per officer per day for State Reserve Police deployed at the site under Section 47 of the Bombay Police Act; between 10 and 300 officers were stationed there at any time. Amnesty reported a 100-strong SRP battalion was deployed after the 30 January 1997 protests. DPC said it had \"no authority over their actions\"."
+    actor: state
+    sources: [s1, s9, s10]
+outcome: >
+  Construction continued and the plant went ahead; in September 1997 the state approved a further
+  Enron facility at the site. Prosecutions of protesters remained pending in October 1998 and no police
+  officer had been charged over the Veldur or Katalwadi incidents by then. The Supreme Court case on the
+  state's accountability lingered until 2019, when the court noted that Maharashtra no longer wished to
+  continue the Kurdukar commission of inquiry appointed in 2001.
+positions:
+  - party: SS
+    person: Manohar Joshi
+    role_at_time: Chief Minister of Maharashtra
+    in_power: true
+    date: 1995-08-03
+    statement: "Called the agreement \"anti-Maharashtra\" in the legislature and said cancelling it was necessary even if it caused a financial burden."
+    sources: [s5]
+  - party: SS
+    person: Manohar Joshi
+    role_at_time: Chief Minister of Maharashtra
+    in_power: true
+    date: 1996-01
+    statement: "Called the renegotiated deal \"the best bargain any state government could negotiate\" and said the tariff fell from Rs 2.40 to Rs 1.86 per unit."
+    sources: [s13]
+  - party: SS
+    person: Manohar Joshi
+    role_at_time: Chief Minister of Maharashtra
+    in_power: true
+    date: 1997-05-28
+    statement: "Told Minister of State for Home Prabhakar More to act firmly against Medha Patkar's tour, \"or else the wrong signal would be conveyed to the business world\"."
+    sources: [s3]
+  - party: SS
+    person: Bal Thackeray
+    role_at_time: Shiv Sena chief, not holding office
+    in_power: true
+    date: 1995-11-01
+    statement: "Said Enron had accepted nearly all the state's conditions after Enron officials apologised and offered a renegotiated project."
+    sources: [s5]
+  - party: BJP
+    person: Gopinath Munde
+    role_at_time: Deputy Chief Minister of Maharashtra
+    in_power: true
+    date: 1997-08
+    statement: "\"There is going to be no change in our position.\" He had earlier campaigned to throw the project into the Arabian Sea; in 1997 he said the project was \"here to stay\" and declined to debate protesters."
+    sources: [s11, s12]
+  - party: INC
+    person: Sharad Pawar
+    role_at_time: Former Chief Minister of Maharashtra, opposition
+    in_power: false
+    date: 1996-01
+    statement: "Said the renegotiation \"has proved beyond a doubt that the allegations they were making were false\" and called Joshi's bargain claims an \"eyewash\"."
+    sources: [s13]
+  - party: INC
+    person: Vilasrao Deshmukh
+    role_at_time: Chairman, state election campaign committee, opposition
+    in_power: false
+    date: 1996-01
+    statement: "\"They said they would drop Enron into the sea. The same people have jumped into the sea and brought it back.\""
+    sources: [s13]
+  - party: Janata Dal
+    person: Mrinal Gore
+    role_at_time: Janata Dal leader, opposition in Maharashtra
+    in_power: false
+    date: 1997-05-16
+    statement: "Led a road block in Guhagar against the project and was arrested; she had earlier said criminal charges in the High Court suit against Enron remained unresolved."
+    sources: [s10, s13]
+  - party: other (National Alliance of People's Movements)
+    person: Medha Patkar
+    role_at_time: NAPM convenor, activist
+    in_power: false
+    date: 1997-08
+    statement: "Vowed to \"expose the government's convoluted logic in reviving the project\"."
+    sources: [s12]
+sources:
+  - id: s1
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Summary and Recommendations"
+    publisher: Human Rights Watch
+    url: https://www.hrw.org/reports/1999/enron/
+    date: 1999-01
+    type: archive
+  - id: s2
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Violations of Human Rights 1997 (part 1)"
+    publisher: Human Rights Watch
+    url: https://www.hrw.org/reports/1999/enron/enron5-1.htm
+    date: 1999-01
+    type: archive
+  - id: s3
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Violations of Human Rights 1997 (part 2)"
+    publisher: Human Rights Watch
+    url: https://www.hrw.org/reports/1999/enron/enron5-2.htm
+    date: 1999-01
+    type: archive
+  - id: s4
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Legal Restrictions Used to Suppress Opposition"
+    publisher: Human Rights Watch
+    url: https://hrw.org/reports/1999/enron/enron4-1.htm
+    date: 1999-01
+    type: archive
+  - id: s5
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: the Munde Committee and cancellation"
+    publisher: Human Rights Watch
+    url: https://hrw.org/reports/1999/enron/enron2-2.htm
+    date: 1999-01
+    type: archive
+  - id: s6
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: renegotiation"
+    publisher: Human Rights Watch
+    url: https://hrw.org/reports/1999/enron/enron2-3.htm
+    date: 1999-01
+    type: archive
+  - id: s7
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Background: the CITU lawsuit"
+    publisher: Human Rights Watch
+    url: https://www.hrw.org/reports/1999/enron/enron2-4.htm
+    date: 1999-01
+    type: archive
+  - id: s8
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Ratnagiri: Veldur raid and Katalwadi"
+    publisher: Human Rights Watch
+    url: https://hrw.org/reports/1999/enron/enron5-3.htm
+    date: 1999-01
+    type: archive
+  - id: s9
+    title: "The Enron Corporation: Corporate Complicity in Human Rights Violations - Complicity: the Dabhol Power Corporation"
+    publisher: Human Rights Watch
+    url: https://www.hrw.org/reports/1999/enron/enron7-0.htm
+    date: 1999-01
+    type: archive
+  - id: s10
+    title: "India: The \"Enron project\" in Maharashtra - protests suppressed in the name of development (AI Index ASA 20/31/97)"
+    publisher: Amnesty International
+    url: https://www.amnesty.org/es/wp-content/uploads/2021/06/asa200311997en.pdf
+    date: 1997-07
+    type: archive
+  - id: s11
+    title: "Enron's Abuse of Power"
+    publisher: Multinational Monitor
+    url: https://multinationalmonitor.org/hyper/mm0997.04.html
+    date: 1997-09
+    type: news
+  - id: s12
+    title: Down with protests
+    publisher: Down To Earth (via India Environment Portal)
+    url: https://indiaenvironmentportal.org.in/news-clippings/down-with-protests
+    date: 1997-08-14
+    type: news
+  - id: s13
+    title: The Enron Jinx
+    publisher: Outlook
+    url: https://www.outlookindia.com/national/the-enron-jinx-news-200660
+    date: 1996-01
+    type: news
+  - id: s14
+    title: "Center of Indian Trade Unions v. State of Maharashtra, SLP (C) No. 7734 of 1997, judgment of 11 April 2019"
+    publisher: Supreme Court of India
+    url: https://api.sci.gov.in/supremecourt/1997/5722/5722_1997_Judgement_11-Apr-2019.pdf
+    date: 2019-04-11
+    type: court_judgment
+tags: [enron, dabhol, maharashtra, ratnagiri, shiv_sena, section_144, preventive_arrest, lathi_charge, power_project, land_acquisition]

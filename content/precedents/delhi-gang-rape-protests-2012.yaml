@@ -1,0 +1,130 @@
+id: delhi-gang-rape-protests-2012
+title: December 2012 Delhi gang-rape protests
+summary: >
+  After the gang rape of a medical student on a Delhi bus on 16 December 2012, crowds
+  gathered at India Gate and Raisina Hill. On 22 and 23 December police used water
+  cannon, tear gas and lathis, imposed Section 144 and closed central metro stations and
+  roads. The Union government set up the Justice Verma Committee on 23 December to
+  recommend changes to criminal law on sexual assault.
+period:
+  start: 2012-12-22
+  end: 2012-12
+location:
+  states: [Delhi]
+  places: [India Gate, Raisina Hill, Vijay Chowk, Rajpath]
+protest:
+  cause: Justice for the victim and tougher laws and policing on sexual violence
+  organisers: [Largely unorganised; students and citizens' groups]
+  scale: Thousands at India Gate on 23 December; about 3,000 per the Home Minister
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+  state:
+    party: INC
+    head: Sheila Dikshit
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: tear_gas
+    date: 2012-12-22
+    description: "Police used water cannon and tear gas on protesters near Rashtrapati Bhavan and Parliament House. Some women protesters were injured when police charged them near a central government building."
+    actor: police
+    sources: [s1, s4]
+  - type: section_144
+    date: 2012-12-23
+    description: "Section 144 CrPC, prohibiting assembly of more than five people, was imposed in central New Delhi. Areas near the President's residence and Parliament were declared off-limits to protesters."
+    actor: police
+    sources: [s1]
+  - type: lathi_charge
+    date: 2012-12-23
+    description: "Police used batons, tear gas and water cannon at India Gate and Vijay Chowk. At least 30 people, including policemen, were treated at a nearby hospital; The Tribune reported about 40 journalists injured and camera equipment destroyed."
+    actor: police
+    sources: [s1, s6]
+  - type: barricading
+    date: 2012-12-23
+    description: "Police cordoned off routes to government buildings and closed metro stations. Sources differ on the count: The Tribune listed eight stations on 23 December (Patel Chowk, Central Secretariat, Udyog Bhawan, Race Course Road, Barakhamba Road, Mandi House, Khan Market, Pragati Maidan) and nine on 24 December, adding Rajiv Chowk. Roads to India Gate and Rajpath were closed."
+    actor: police
+    sources: [s1, s2, s6]
+  - type: commission_of_inquiry
+    date: 2012-12-23
+    description: "The Union government constituted a three-member committee headed by former Chief Justice J.S. Verma, with Justice Leila Seth and Gopal Subramanium, to recommend amendments to criminal law on sexual assault. It reported on 23 January 2013."
+    actor: centre
+    sources: [s5]
+  - type: other
+    date: 2012-12-24
+    description: "The Home Minister said a probe had been ordered to identify and arrest those who started violence at India Gate and Rashtrapati Bhavan. The Delhi Chief Minister held an emergency Cabinet meeting and met the Home Minister to review law and order."
+    actor: centre
+    sources: [s2, s3]
+outcome: >
+  The Justice Verma Committee reported on 23 January 2013. Its recommendations fed into
+  the Criminal Law (Amendment) Ordinance and Act, 2013.
+positions:
+  - party: INC
+    person: Sushilkumar Shinde
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2012-12-24
+    statement: "When it went out of hands, hooligans joined the protesters, we had to act and use force. Tomorrow if BJP workers demonstrate or if Maoists demonstrate with weapons, will I go and meet them too?"
+    sources: [s3]
+  - party: INC
+    person: Sheila Dikshit
+    role_at_time: Chief Minister of Delhi
+    in_power: true
+    date: 2012-12-23
+    statement: "Criticised the Delhi Police crackdown, which she said left several people injured, and said that since confidence in the law and order machinery is shaken, steps must be taken to restore it."
+    sources: [s2, s3]
+  - party: BJP
+    person: Vijender Gupta
+    role_at_time: Delhi BJP president, opposition
+    in_power: false
+    date: 2012-12-24
+    statement: "There should be a judicial enquiry into the incident of lathicharge. Said police brutally assaulted the girls sitting on a peaceful dharna, and that the Chief Minister and Home Minister should take responsibility."
+    sources: [s6]
+  - party: BJP
+    person: Sushma Swaraj
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2012-12-22
+    statement: "BJP and Left parties condemned the police action and attacked the Prime Minister and Sonia Gandhi for silence. Swaraj asked the Prime Minister to convene a special session of Parliament to frame a law with exemplary punishment for crimes against women."
+    sources: [s4]
+sources:
+  - id: s1
+    title: India widens crackdown on gang-rape protests
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/asia/2012/12/20121223630169625.html
+    date: 2012-12-24
+    type: news
+  - id: s2
+    title: "Delhi page: Dikshit flays police crackdown; eight metro stations closed"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2012/20121224/delhi.htm
+    date: 2012-12-24
+    type: news
+  - id: s3
+    title: Shinde justifies police crackdown at India Gate
+    publisher: International Business Times India
+    url: https://www.ibtimes.co.in/shinde-justifies-police-crackdown-at-india-gate-418040
+    date: 2012-12-24
+    type: news
+  - id: s4
+    title: Parties condemn police action
+    publisher: The Assam Tribune (PTI)
+    url: https://assamtribune.com/parties-condemn-police-action
+    date: 2012-12-22
+    type: news
+  - id: s5
+    title: Justice Verma Committee report summary
+    publisher: PRS Legislative Research
+    url: https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary
+    date: 2013-01-23
+    type: official
+  - id: s6
+    title: "Delhi page: Nine metro stations shut; BJP seeks judicial inquiry into lathicharge"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2012/20121225/delhi.htm
+    date: 2012-12-25
+    type: news
+tags: [delhi, section_144, lathi_charge, tear_gas, barricading, womens_safety, commission_of_inquiry, upa]

@@ -1,0 +1,119 @@
+id: india-against-corruption-2011
+title: India Against Corruption fast and Anna Hazare arrest
+summary: >
+  On 16 August 2011 Delhi Police arrested Anna Hazare hours before he was to begin an
+  indefinite fast for a Jan Lokpal Bill at JP Park. He refused bail conditions and stayed
+  in Tihar Jail for three nights while police and his team negotiated the terms of a fast.
+  He left Tihar on 19 August under an agreement that allowed a fast at Ramlila Maidan.
+period:
+  start: 2011-08-16
+  end: 2011-08
+location:
+  states: [Delhi]
+  places: [JP Park, Tihar Jail, Ramlila Maidan, Chhatrasal Stadium]
+protest:
+  cause: Demand for a Jan Lokpal Bill against corruption
+  organisers: [India Against Corruption]
+  scale: Several thousand outside Tihar; candlelight marches at India Gate; protests in many cities
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+  state:
+    party: INC
+    head: Sheila Dikshit
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: permission_denied
+    date: 2011-08-16
+    description: "Delhi Police refused unconditional permission for an indefinite fast at JP Park and offered permission with conditions; Hazare's team rejected them."
+    actor: police
+    sources: [s1, s3]
+  - type: preventive_arrest
+    date: 2011-08-16
+    description: "Police arrested Hazare at about 7 am as he left a flat in Mayur Vihar for JP Park. He refused to sign a bond and was sent to seven days' judicial custody in Tihar Jail. The government ordered his release the same evening; he refused to leave without permission for the fast."
+    actor: police
+    sources: [s1, s3]
+  - type: detention
+    date: 2011-08-16
+    description: "About 1,500 supporters who defied the police order against protesting were detained and later released. Chhatrasal Stadium was used as a makeshift holding site."
+    actor: police
+    sources: [s1, s3]
+  - type: negotiation
+    date: 2011-08-17
+    description: "Special Commissioner (Law and Order) Dharmender Kumar led talks with Hazare inside Tihar. Police offered a seven-day, then a 14-day, then a 21-day permission; Hazare asked for 30 days."
+    actor: police
+    sources: [s1]
+  - type: permission_granted
+    date: 2011-08-18
+    description: "Police and Hazare's team agreed on a fast at Ramlila Maidan. Sources differ on the length: The Tribune reported a 21-day offer; Al Jazeera reported a two-week permission that police agreed to consider extending. Hazare left Tihar on 19 August and began the fast at Ramlila Maidan."
+    actor: police
+    sources: [s1, s2]
+outcome: >
+  Hazare left Tihar on 19 August 2011 and began a public fast at Ramlila Maidan with
+  police permission.
+positions:
+  - party: INC
+    person: Manmohan Singh
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2011-08-17
+    statement: "The path he has chosen is totally misconceived and fraught with grave consequences for our parliamentary democracy."
+    sources: [s3]
+  - party: BJP
+    person: Sushma Swaraj
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2011-08-16
+    statement: "Demanded that the Prime Minister make a statement in both Houses; called the arrest a sign of the government's nervousness and said the opposition was united on a violation of democratic rights, not on the Jan Lokpal Bill."
+    sources: [s4]
+  - party: BJP
+    person: Arun Jaitley
+    role_at_time: Leader of Opposition, Rajya Sabha
+    in_power: false
+    date: 2011-08-16
+    statement: "The government is trying to snatch people's right to protest; the political leadership is trying to hide behind uniform (police)."
+    sources: [s4]
+  - party: BJP
+    person: Arun Jaitley
+    role_at_time: Leader of Opposition, Rajya Sabha
+    in_power: false
+    date: 2011-08-17
+    statement: "It is a wake-up call for all of us unless we put our house in order. The people of this country are becoming restless."
+    sources: [s3]
+  - party: CPI(M)
+    person: null
+    role_at_time: Party statement, opposition
+    in_power: false
+    date: 2011-08-16
+    statement: "The government has attacked the democratic right to conduct peaceful protest; party units asked to hold peaceful agitations the next day."
+    sources: [s4]
+sources:
+  - id: s1
+    title: "Anna refuses to leave Tihar; police offer 21-day fast at Ramlila"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2011/20110818/main1.htm
+    date: 2011-08-18
+    type: news
+  - id: s2
+    title: Indian activist set for public hunger strike
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2011/8/19/indian-activist-set-for-public-hunger-strike
+    date: 2011-08-19
+    type: news
+  - id: s3
+    title: Rallies grow across India for jailed activist
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2011/8/17/rallies-grow-across-india-for-jailed-activist
+    date: 2011-08-17
+    type: news
+  - id: s4
+    title: "Hazare effect: Non-UPA parties join ranks"
+    publisher: Oneindia (PTI)
+    url: https://www.oneindia.com/2011/08/16/hazareeffect-non-upa-parties-join-ranks.html
+    date: 2011-08-16
+    type: news
+tags: [anti_corruption, delhi, preventive_arrest, permission, lokpal, upa]

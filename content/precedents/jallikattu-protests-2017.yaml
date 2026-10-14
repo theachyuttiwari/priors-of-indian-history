@@ -1,0 +1,128 @@
+id: jallikattu-protests-2017
+title: Jallikattu protests in Tamil Nadu, January 2017
+summary: >
+  From 16 January 2017 students and youth gathered in Alanganallur and then on Marina
+  Beach, Chennai, to demand that jallikattu be allowed despite a Supreme Court ban. The
+  AIADMK government obtained Union clearance for an ordinance, promulgated on 21 January,
+  and the Assembly passed a replacement Act on 23 January. On the morning of 23 January
+  police evicted the Marina crowd and used lathis and tear gas during clashes.
+period:
+  start: 2017-01-16
+  end: 2017-01-23
+location:
+  states: [Tamil Nadu]
+  places: [Marina Beach Chennai, Alanganallur Madurai, Coimbatore, Tiruchirappalli]
+protest:
+  cause: Lifting the ban on jallikattu under the Prevention of Cruelty to Animals Act
+  organisers: [Largely leaderless; students and youth groups]
+  scale: Thousands along the Marina promenade for six days; parallel protests across Tamil Nadu
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: AIADMK
+    head: O. Panneerselvam
+    role: Chief Minister
+    name: Tamil Nadu
+actions:
+  - type: negotiation
+    date: 2017-01-19
+    description: "Chief Minister Panneerselvam met Prime Minister Modi in New Delhi and an AIADMK MPs' delegation met Home Minister Rajnath Singh. The Home Ministry vetted a draft state ordinance and the Law and Environment ministries approved it for the President's assent on the night of 20 January. The Attorney General told the Supreme Court the Centre was in talks with the state and the Court agreed not to deliver its judgment for a week."
+    actor: centre
+    sources: [s2]
+  - type: concession
+    date: 2017-01-21
+    description: "The Governor promulgated an ordinance amending the Prevention of Cruelty to Animals Act to permit jallikattu. Protesters at Marina rejected it as a temporary fix and continued the sit-in."
+    actor: state
+    sources: [s3, s5, s6]
+  - type: other
+    date: 2017-01-23
+    description: "Police eviction: early on 23 January police physically removed protesters from Marina Beach, citing the need to secure the beachfront before Republic Day. WION reported about 5,000 evicted; routes to the beach were cordoned off."
+    actor: police
+    sources: [s4, s5]
+  - type: lathi_charge
+    date: 2017-01-23
+    description: "After stone-throwing in Triplicane near Marina, police used lathi charges. Clashes spread to Teynampet, Madurai and Coimbatore; vehicles and a police station near Marina were set on fire. Videos alleging that police set fire to vehicles went viral; Global Voices reported these as allegations, and the matter was contested."
+    actor: police
+    sources: [s1, s4, s5, s6]
+  - type: tear_gas
+    date: 2017-01-23
+    description: "Police fired tear gas shells to disperse crowds on roads leading to Marina."
+    actor: police
+    sources: [s1, s4]
+  - type: concession
+    date: 2017-01-23
+    description: "The Tamil Nadu Assembly unanimously passed the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Bill, 2017, piloted by the Chief Minister, replacing the ordinance. The President gave assent on 30 January 2017."
+    actor: state
+    sources: [s1, s3]
+  - type: other
+    date: 2017-01-23
+    description: "The Madras High Court declined to hear a petition on the police action, saying it would not interfere in administrative matters."
+    actor: court
+    sources: [s5]
+outcome: >
+  The Marina protest was called off on the evening of 23 January 2017 after the Bill
+  passed. The Act received the President's assent on 30 January 2017.
+positions:
+  - party: AIADMK
+    person: O. Panneerselvam
+    role_at_time: Chief Minister of Tamil Nadu
+    in_power: true
+    date: 2017-01-20
+    statement: "After getting the assent of President Pranab Mukherjee tomorrow, an ordinance will be promulgated by our Governor. On 21 January he thanked the Prime Minister for your support and assistance in enabling Jallikattu to be held in Tamil Nadu."
+    sources: [s2, s6]
+  - party: DMK
+    person: M.K. Stalin
+    role_at_time: Leader of Opposition, Tamil Nadu Assembly
+    in_power: false
+    date: 2017-01-23
+    statement: "Condemned the police action at Marina as authoritarian."
+    sources: [s4]
+  - party: other (Pattali Makkal Katchi)
+    person: Anbumani Ramadoss
+    role_at_time: PMK leader and Lok Sabha MP, opposition in the state
+    in_power: false
+    date: 2017-01-23
+    statement: "I salute the democratic revolution by Tamil Nadu youth power and promise to unite against evils of TN."
+    sources: [s6]
+sources:
+  - id: s1
+    title: "Jallikattu stir turns violent; Bill passed"
+    publisher: The Tribune (PTI)
+    url: https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570
+    date: 2017-01-23
+    type: news
+  - id: s2
+    title: "Jallikattu: Centre agrees to ordinance"
+    publisher: Millennium Post
+    url: https://www.millenniumpost.in/nation/news-179974
+    date: 2017-01-20
+    type: news
+  - id: s3
+    title: Tamil Nadu jallikattu law gets President's nod
+    publisher: Deccan Chronicle
+    url: https://deccanchronicle.com/nation/current-affairs/310117/tamil-nadu-jallikattu-law-gets-president-nod.html
+    date: 2017-01-31
+    type: news
+  - id: s4
+    title: Jallikattu protest turns violent after police eviction
+    publisher: Millennium Post
+    url: https://www.millenniumpost.in/big-stories/news-180287
+    date: 2017-01-23
+    type: news
+  - id: s5
+    title: "India: Tamil Nadu assembly passes Jallikattu Bill"
+    publisher: WION
+    url: https://www.wionews.com/south-asia/india-tamil-nadu-assembly-passes-jallikattu-bill-11596
+    date: 2017-01-23
+    type: news
+  - id: s6
+    title: The Jallikattu protests in the Indian state of Tamil Nadu are not merely about a bullfight
+    publisher: Global Voices
+    url: https://globalvoices.org/2017/01/28/the-jallikattu-protests-in-the-indian-state-of-tamil-nadu-are-not-merely-about-a-bullfight/
+    date: 2017-01-28
+    type: news
+tags: [tamil_nadu, jallikattu, ordinance, concession, lathi_charge, tear_gas, aiadmk]

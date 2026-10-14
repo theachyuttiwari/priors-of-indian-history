@@ -1,0 +1,101 @@
+id: jnu-sedition-case-2016
+title: JNU sedition case, February 2016
+summary: >
+  On 9 February 2016 students at Jawaharlal Nehru University held an event on the hanging
+  of Afzal Guru at which slogans were allegedly raised. Delhi Police registered a sedition
+  FIR on 11 February and arrested JNU Students' Union president Kanhaiya Kumar. He was
+  assaulted by lawyers at Patiala House court, the Supreme Court ordered the police
+  commissioner to secure him, and the Delhi High Court granted him interim bail on 2 March.
+period:
+  start: 2016-02-09
+  end: 2016-03-02
+location:
+  states: [Delhi]
+  places: [Jawaharlal Nehru University, Patiala House Courts, Tihar Jail]
+protest:
+  cause: Campus event on Afzal Guru hanging; later protests against the arrests and sedition charge
+  organisers: [JNU students; JNU Students' Union; JNU Teachers' Association]
+  scale: Campus-wide protests at JNU; opposition leaders visited the campus
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: AAP
+    head: Arvind Kejriwal
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: fir
+    date: 2016-02-11
+    description: "Delhi Police registered FIR No. 110/2016 under sections 124A (sedition) and 120B (criminal conspiracy) IPC against Kanhaiya Kumar and unknown persons over slogans at the 9 February event. Delhi Police report to the Union Home Ministry, not the Delhi government."
+    actor: police
+    sources: [s1]
+  - type: sedition_charge
+    date: 2016-02-12
+    description: "Kanhaiya Kumar was arrested on the sedition FIR and remanded to three days' police custody by a Metropolitan Magistrate at Patiala House Courts on 12 February. The LiveLaw summary of the bail order gives the arrest date as 11 February; most reports give 12 February. He denied raising anti-national slogans. He was later held in Tihar Jail."
+    actor: police
+    sources: [s1, s3]
+  - type: other
+    date: 2016-02-17
+    description: "After reports that Kumar was manhandled by lawyers when produced at Patiala House, the Supreme Court directed the Delhi Police Commissioner to take necessary steps to ensure his safety until his next production, and said responsibility for his safety rested with the Commissioner."
+    actor: court
+    sources: [s2]
+  - type: other
+    date: 2016-03-02
+    description: "Justice Pratibha Rani of the Delhi High Court granted Kumar interim bail for six months on a personal bond of Rs 10,000 and one surety, preferably a JNU faculty member. He was barred from leaving the country without permission and directed to cooperate with the investigation. The order said the slogans could not be claimed as protected speech and that the investigation was at a nascent stage."
+    actor: court
+    sources: [s1]
+outcome: >
+  Kanhaiya Kumar was released on interim bail on 2 March 2016. The sedition case remained
+  under investigation at the end of this period.
+positions:
+  - party: BJP
+    person: Kiren Rijiju
+    role_at_time: Union Minister of State for Home Affairs
+    in_power: true
+    date: 2016-02-12
+    statement: "Be it JNU or any other university anywhere in this country, slogans against nation is not acceptable. We consider it as a serious offence. Stern action would be taken against all those who are involved in it."
+    sources: [s4]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Congress vice-president, opposition
+    in_power: false
+    date: 2016-02-13
+    statement: "Modi Govt and ABVP bullying an institution like JNU simply because it won't toe their line is completely condemnable. While anti-India sentiment is unquestionably unacceptable, the right to dissent and debate is an essential ingredient of democracy."
+    sources: [s3]
+  - party: INC
+    person: Abhishek Manu Singhvi
+    role_at_time: Congress spokesperson, opposition
+    in_power: false
+    date: 2016-02-12
+    statement: "You cannot display your intolerance, your complete lack of tolerating dissent of any kind."
+    sources: [s3]
+sources:
+  - id: s1
+    title: "Delhi High Court grants interim bail to Kanhaiya Kumar [Read Order]"
+    publisher: LiveLaw
+    url: https://livelaw.in/delhi-high-court-grants-interim-bail-kanhaiya-kumar
+    date: 2016-03-02
+    type: news
+  - id: s2
+    title: "SC asks Delhi Police Commissioner to ensure security of Kanhaiya Kumar [Read the Full Order]"
+    publisher: LiveLaw
+    url: https://livelaw.in/sc-asks-delhi-police-commissioner-to-ensure-security-of-kanhaiya-kumar
+    date: 2016-02-17
+    type: news
+  - id: s3
+    title: Narendra Modi government bullying JNU, says Rahul Gandhi
+    publisher: India.com
+    url: https://www.india.com/news/india/narendra-modi-government-bullying-jnu-says-rahul-gandhi-944484/
+    date: 2016-02-13
+    type: news
+  - id: s4
+    title: "Slogans against nation not acceptable: Rijiju"
+    publisher: The Free Press Journal
+    url: https://www.freepressjournal.in/headlines/slogans-against-nation-not-acceptable-rijiju
+    date: 2016-02-12
+    type: news
+tags: [delhi, sedition, university, students, nda, court]

@@ -1,0 +1,152 @@
+import { z } from "zod";
+
+export const ACTION_TYPES = [
+  "permission_denied",
+  "permission_granted",
+  "section_144",
+  "curfew",
+  "internet_shutdown",
+  "detention",
+  "preventive_arrest",
+  "fir",
+  "sedition_charge",
+  "uapa_charge",
+  "nsa_detention",
+  "lathi_charge",
+  "tear_gas",
+  "firing",
+  "barricading",
+  "negotiation",
+  "concession",
+  "repeal",
+  "censorship",
+  "surveillance",
+  "property_demolition",
+  "house_arrest",
+  "deportation",
+  "commission_of_inquiry",
+  "other",
+] as const;
+
+export type ActionType = (typeof ACTION_TYPES)[number];
+
+/** Human labels and a coarse group used for colour and ordering. */
+export const ACTION_META: Record<
+  ActionType,
+  { label: string; group: "restrict" | "force" | "legal" | "engage" | "other" }
+> = {
+  permission_denied: { label: "Permission denied", group: "restrict" },
+  permission_granted: { label: "Permission granted", group: "engage" },
+  section_144: { label: "Section 144 / 163", group: "restrict" },
+  curfew: { label: "Curfew", group: "restrict" },
+  internet_shutdown: { label: "Internet shutdown", group: "restrict" },
+  censorship: { label: "Censorship", group: "restrict" },
+  surveillance: { label: "Surveillance", group: "restrict" },
+  barricading: { label: "Barricading", group: "restrict" },
+  detention: { label: "Detention", group: "legal" },
+  preventive_arrest: { label: "Preventive arrest", group: "legal" },
+  house_arrest: { label: "House arrest", group: "legal" },
+  fir: { label: "FIR", group: "legal" },
+  sedition_charge: { label: "Sedition charge", group: "legal" },
+  uapa_charge: { label: "UAPA charge", group: "legal" },
+  nsa_detention: { label: "NSA detention", group: "legal" },
+  deportation: { label: "Deportation", group: "legal" },
+  property_demolition: { label: "Property demolition", group: "force" },
+  lathi_charge: { label: "Lathi charge", group: "force" },
+  tear_gas: { label: "Tear gas", group: "force" },
+  firing: { label: "Firing", group: "force" },
+  negotiation: { label: "Negotiation", group: "engage" },
+  concession: { label: "Concession", group: "engage" },
+  repeal: { label: "Repeal", group: "engage" },
+  commission_of_inquiry: { label: "Commission of inquiry", group: "engage" },
+  other: { label: "Other", group: "other" },
+};
+
+const DateStr = z
+  .union([z.string(), z.date(), z.number()])
+  .transform((v) => {
+    if (v instanceof Date) return v.toISOString().slice(0, 10);
+    return String(v);
+  });
+
+/** Optional string that also accepts null (YAML authors write `person:` with nothing after it). */
+const OptStr = z.string().nullish().transform((v) => v ?? undefined);
+
+const Source = z.object({
+  id: z.string(),
+  title: z.string(),
+  publisher: OptStr.transform((v) => v ?? ""),
+  url: z.string(),
+  date: DateStr.nullish().transform((v) => v ?? undefined),
+  type: z
+    .enum(["news", "court_judgment", "official", "academic", "book", "archive"])
+    .optional()
+    .default("news"),
+});
+
+const Government = z.object({
+  party: z.string(),
+  alliance: OptStr,
+  head: OptStr,
+  role: OptStr,
+  name: OptStr,
+});
+
+const Action = z.object({
+  type: z.enum(ACTION_TYPES),
+  date: DateStr.nullish().transform((v) => v ?? undefined),
+  description: z.string(),
+  actor: z.enum(["centre", "state", "police", "court", "other"]).optional().default("state"),
+  sources: z.array(z.string()).optional().default([]),
+});
+
+const Position = z.object({
+  party: z.string(),
+  person: OptStr,
+  role_at_time: OptStr,
+  in_power: z.boolean(),
+  date: DateStr.nullish().transform((v) => v ?? undefined),
+  statement: z.string(),
+  sources: z.array(z.string()).optional().default([]),
+});
+
+export const Precedent = z.object({
+  id: z.string(),
+  title: z.string(),
+  summary: z.string(),
+  period: z.object({ start: DateStr, end: DateStr.nullable().optional() }),
+  location: z
+    .object({
+      states: z.array(z.string()).nullish().transform((v) => v ?? []),
+      places: z.array(z.string()).nullish().transform((v) => v ?? []),
+    })
+    .nullish()
+    .transform((v) => v ?? { states: [], places: [] }),
+  protest: z
+    .object({
+      cause: OptStr,
+      organisers: z.array(z.string()).nullish().transform((v) => v ?? []),
+      scale: OptStr,
+    })
+    .nullish()
+    .transform((v) => v ?? { cause: undefined, organisers: [], scale: undefined }),
+  government: z.object({
+    centre: Government,
+    state: Government.optional(),
+  }),
+  actions: z.array(Action),
+  outcome: OptStr.transform((v) => v ?? ""),
+  positions: z.array(Position).optional().default([]),
+  sources: z.array(Source),
+  tags: z.array(z.string()).optional().default([]),
+  // current-event only
+  related_precedents: z.array(z.string()).optional().default([]),
+  generated_by: z.string().optional(),
+  reviewed: z.boolean().optional(),
+  last_updated: DateStr.optional(),
+});
+
+export type Precedent = z.infer<typeof Precedent>;
+export type Action = z.infer<typeof Action>;
+export type Position = z.infer<typeof Position>;
+export type Source = z.infer<typeof Source>;

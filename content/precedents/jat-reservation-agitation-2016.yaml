@@ -1,0 +1,155 @@
+id: jat-reservation-agitation-2016
+title: Jat reservation agitation in Haryana, February 2016
+summary: >
+  Jat groups seeking OBC reservation blocked highways and rail lines across Haryana from
+  7 February 2016, and the agitation turned violent in Rohtak, Jhajjar and other districts
+  from 18 February. The state suspended mobile internet, imposed curfews and called in the
+  Army and paramilitary forces. About 30 people died and 320 were injured. A committee
+  under former DGP Prakash Singh later found about 90 officials guilty of deliberate negligence.
+period:
+  start: 2016-02-07
+  end: 2016-02-22
+location:
+  states: [Haryana]
+  places: [Rohtak, Jhajjar, Sonipat, Bhiwani, Hisar, Jind]
+protest:
+  cause: Reservation for Jats in government jobs and educational institutions
+  organisers: [Jat community organisations; described by police and Jat leaders as largely leaderless]
+  scale: Ten districts affected; about 30 dead, 320 injured; nearly 550 trains cancelled or diverted
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: BJP
+    head: Manohar Lal Khattar
+    role: Chief Minister
+    name: Haryana
+actions:
+  - type: internet_shutdown
+    date: 2016-02-19
+    description: "State authorities blocked 2G and 3G mobile internet in Rohtak, Sonipat and Jhajjar from midnight on 18-19 February after a clash in Rohtak. A senior police official said it was done so that rumours are not spread. SMS services were also blocked in affected districts by 20 February."
+    actor: state
+    sources: [s3, s2]
+  - type: negotiation
+    date: 2016-02-19
+    description: "The Chief Minister called an all-party meeting in Chandigarh on 19 February and appealed to protesters to end the agitation; the BJP invited them to talks with its central leadership."
+    actor: state
+    sources: [s3, s4]
+  - type: curfew
+    date: 2016-02-20
+    description: "Curfew was imposed in Rohtak, Bhiwani and Jhajjar, and then in Hisar, Sonipat and Jind after violence."
+    actor: state
+    sources: [s4]
+  - type: other
+    date: 2016-02-20
+    description: "Army deployment: troops were airlifted into Rohtak and deployed in eight districts with flag marches. The DGP said 13 Army columns had reached the state with 10 more being airlifted, and 10 paramilitary companies had arrived with 23 more on the way."
+    actor: centre
+    sources: [s2, s4]
+  - type: firing
+    date: 2016-02-20
+    description: "One person was killed when soldiers fired on a mob in Jhajjar. Four people died in 36 hours of violence and more than 100 were injured, per the IANS report of 21 February."
+    actor: centre
+    sources: [s4]
+  - type: fir
+    date: 2016-02-20
+    description: "The DGP said 129 cases had been registered against agitators by 20 February."
+    actor: police
+    sources: [s4]
+  - type: commission_of_inquiry
+    date: 2016-02
+    description: "The Haryana government appointed a committee headed by former DGP Prakash Singh to examine acts of commission and omission by civil and police officers during the agitation. It reported on 13 May 2016 and identified about 90 officials guilty of deliberate negligence, roughly a third of them in Rohtak. In August 2016 the Home Department wrote to Singh that a second report was not needed."
+    actor: state
+    sources: [s1, s7, s6, s8]
+outcome: >
+  The Prakash Singh committee report of 13 May 2016 led to suspensions and transfers of
+  officials. The state government decided in August 2016 to seek a CBI inquiry into the
+  Rohtak arson.
+positions:
+  - party: BJP
+    person: Manohar Lal Khattar
+    role_at_time: Chief Minister of Haryana
+    in_power: true
+    date: 2016-02-20
+    statement: "Appealed to protesters to stop the violence; after receiving the committee report on 13 May 2016 said the government would examine it and take appropriate action at the earliest."
+    sources: [s4, s1]
+  - party: INC
+    person: Bhupinder Singh Hooda
+    role_at_time: Former Chief Minister, opposition
+    in_power: false
+    date: 2016-02-20
+    statement: "Announced a hunger strike at Jantar Mantar in New Delhi until the situation normalised. In the Assembly on 31 August 2016 he said he had repeatedly condemned arson and violence during the agitation and asked why a pick-and-choose policy was followed in targeting students in MDU."
+    sources: [s4, s5]
+  - party: other (Indian National Lok Dal)
+    person: Abhay Chautala
+    role_at_time: Leader of Opposition, Haryana Assembly
+    in_power: false
+    date: 2016-02-20
+    statement: "Demanded that the Khattar government be dismissed and President's Rule imposed."
+    sources: [s4]
+  - party: INC
+    person: Geeta Bhukkal
+    role_at_time: MLA, Jhajjar, opposition
+    in_power: false
+    date: 2016-08-31
+    statement: "The agitation was a complete failure of the government, the Chief Minister, his Cabinet and the police."
+    sources: [s5]
+  - party: BJP
+    person: Capt Abhimanyu
+    role_at_time: Haryana Finance Minister
+    in_power: true
+    date: 2016-08-31
+    statement: "Those who ruled Haryana neither condemned the wrong-doers nor distanced themselves from them."
+    sources: [s5]
+sources:
+  - id: s1
+    title: "Jat riots: Prakash Singh committee submits report to Haryana govt"
+    publisher: The Quint
+    url: https://www.thequint.com/news/hot-news/jat-riots-parkash-singh-committee-submits-report-to-haryana-govt
+    date: 2016-05-13
+    type: news
+  - id: s2
+    title: Haryana tense, army deployed in eight districts
+    publisher: Moneylife (IANS)
+    url: https://www.moneylife.in/article/haryana-tense-army-deployed-in-eight-districts/45557.html
+    date: 2016-02-20
+    type: news
+  - id: s3
+    title: Internet services blocked in Haryana after clash
+    publisher: Moneylife (IANS)
+    url: https://www.moneylife.in/article/internet-services-blocked-in-haryana-after-clash/45534.html
+    date: 2016-02-19
+    type: news
+  - id: s4
+    title: "Haryana burns: five killed, army called"
+    publisher: Ummid (IANS)
+    url: https://ummid.com/news/2016/February/21.02.2016/haryana-burns-five-killed-army-called.html
+    date: 2016-02-21
+    type: news
+  - id: s5
+    title: BJP, Cong spar over Jat stir violence
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/news/archive/features/bjp-cong-spar-over-jat-stir-violence-288415
+    date: 2016-09-01
+    type: news
+  - id: s6
+    title: "Two commissions and various omissions: the aftermath of the Jat agitations"
+    publisher: The Wire
+    url: https://cms.thewire.in/politics/two-commissions-and-various-omissions-the-aftermath-of-the-jat-agitations
+    date: 2016-06-03
+    type: news
+  - id: s7
+    title: "Prakash Singh panel finds 90 officials guilty of deliberate negligence during Jat stir"
+    publisher: Scroll.in
+    url: https://amp.scroll.in/latest/808098/scroll_in
+    date: 2016-05-13
+    type: news
+  - id: s8
+    title: "Jat agitation: after shocking first report, Haryana govt scraps second"
+    publisher: The Quint
+    url: https://www.thequint.com/amp/story/news/india/haryana-government-jat-quota-agitation-prakash-singh-probe-report-haryana-police
+    date: 2016-08-26
+    type: news
+tags: [haryana, reservation, internet_shutdown, curfew, army_deployment, commission_of_inquiry, bjp]

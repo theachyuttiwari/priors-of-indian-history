@@ -1,0 +1,315 @@
+id: telangana-agitation-2009-2011
+title: Telangana statehood agitation (2009 to 2011)
+summary: >
+  K. Chandrashekar Rao (KCR), president of the Telangana Rashtra Samithi (now BRS),
+  began a fast-unto-death for a separate Telangana state on 29 November 2009 and was
+  arrested the same day. Student protests at Osmania University and a region-wide
+  agitation followed. The Centre announced on 9 December 2009 that it would initiate
+  the process of forming Telangana, then on 23 December 2009 called for wider
+  consultations after resignations by legislators from coastal Andhra and Rayalaseema.
+  The agitation continued through the Srikrishna Committee (2010), the Million March
+  at Tank Bund (10 March 2011) and the 42-day Sakala Janula Samme general strike
+  (13 September to 24 October 2011).
+period:
+  start: 2009-11-29
+  end: 2011-10-24
+location:
+  states: [Andhra Pradesh]
+  places: [Hyderabad, Osmania University, Khammam, Siddipet, Tank Bund, Karimnagar, Warangal, Nizamabad, Adilabad]
+protest:
+  cause: Creation of a separate Telangana state out of Andhra Pradesh
+  organisers: [Telangana Rashtra Samithi (TRS, now BRS), Telangana Joint Action Committee (M. Kodandaram), Osmania University Students JAC, government employees' unions]
+  scale: "Region-wide agitation across the 10 Telangana districts; about 400,000 government employees, teachers and workers and over 100,000 Singareni coal workers joined the 2011 general strike"
+government:
+  centre:
+    party: INC
+    alliance: UPA
+    head: Manmohan Singh
+    role: Prime Minister
+    note: "Home Minister P. Chidambaram (INC) issued the 9 December and 23 December 2009 statements and set up the Srikrishna Committee"
+  state:
+    party: INC
+    head: K. Rosaiah
+    role: Chief Minister
+    name: Andhra Pradesh
+    note: "K. Rosaiah was Chief Minister from September 2009 to November 2010; N. Kiran Kumar Reddy (INC) was Chief Minister from November 2010, including during the Million March and the Sakala Janula Samme"
+actions:
+  - type: preventive_arrest
+    date: 2009-11-29
+    description: "Police arrested KCR on his way to Siddipet to begin his fast. A court in Khammam remanded him to two weeks of judicial custody. He continued the fast in custody and in a government hospital in Khammam."
+    actor: police
+    sources: [s1]
+  - type: other
+    date: 2009-12-03
+    description: "Police shifted KCR overnight from Khammam to the Nizam's Institute of Medical Sciences (NIMS) in Hyderabad after his condition deteriorated, following TRS requests and directions from the State Human Rights Commission. He remained in judicial custody until 12 December."
+    actor: state
+    sources: [s2]
+  - type: detention
+    date: 2009-11-29
+    description: "Central forces stationed on the Osmania University campus stopped a student rally in support of KCR's fast on 29 November. Through December 2009 police closed hostel messes, picked up student leaders from hostel rooms, and in late December removed the tents of a relay hunger strike in a midnight operation. This account comes from a 2023 retrospective."
+    actor: police
+    sources: [s17]
+  - type: preventive_arrest
+    date: 2009-12-09
+    description: "Ahead of a planned 'march to Hyderabad', additional police forces were deployed in the capital and hundreds of activists were rounded up to prevent protests."
+    actor: police
+    sources: [s3]
+  - type: concession
+    date: 2009-12-09
+    description: "Home Minister P. Chidambaram announced late at night that 'the process of forming the state of Telangana will be initiated' and that an appropriate resolution would be moved in the state Assembly. He asked KCR to withdraw his fast and asked the Chief Minister to withdraw cases filed against leaders and students after 29 November. KCR broke his fast at NIMS after midnight."
+    actor: centre
+    sources: [s3, s7]
+  - type: other
+    date: 2009-12-23
+    description: "After about 100 MLAs from coastal Andhra and Rayalaseema submitted resignations, Chidambaram issued a second statement saying 'the situation has altered now' and that the Centre would hold wide-ranging consultations with all concerned. Chidambaram later said the two statements had to be read together and denied a reversal."
+    actor: centre
+    sources: [s4, s5, s7]
+  - type: lathi_charge
+    date: 2009-12-24
+    description: "After the 23 December statement, students at Osmania University clashed with police and threw stones; police baton-charged them. Protesters damaged 57 buses and stopped 11 trains across Telangana, per IGP A.R. Anuradha. Ten CRPF companies were flown in from Delhi, bringing central forces in the state to 38 companies (about 4,000 personnel). The 2023 retrospective dates the tear-gas firing inside B-Hostel to 14 February 2010."
+    actor: police
+    sources: [s6, s17]
+  - type: negotiation
+    date: 2010-01-05
+    description: "Chidambaram convened a meeting of the eight recognised political parties of Andhra Pradesh in New Delhi, with Chief Minister Rosaiah invited in his official capacity, as 'the first step in the consultations' to devise a mechanism and roadmap."
+    actor: centre
+    sources: [s7]
+  - type: commission_of_inquiry
+    date: 2010-02-03
+    description: "The Centre constituted a five-member Committee for Consultations on the Situation in Andhra Pradesh headed by Justice B.N. Srikrishna, with Ranbir Singh, Abusaleh Shariff, Ravinder Kaur and Vinod K. Duggal. It submitted its report on 30 December 2010. The Home Ministry released it on 6 January 2011 with six options; the committee held that the status quo was not practicable and treated a united state with a statutory Telangana Regional Council as the first choice and bifurcation as the 'second best option'. TRS, TDP and BJP boycotted the 6 January meeting."
+    actor: centre
+    sources: [s8, s9, s10]
+  - type: permission_denied
+    date: 2011-03-10
+    description: "Hyderabad police denied permission for the Telangana JAC's 'Million March' at Tank Bund, citing disruption to normal life and law and order."
+    actor: police
+    sources: [s11]
+  - type: section_144
+    date: 2011-03-10
+    description: "Prohibitory orders under Section 144 CrPC banning assemblies, rallies and processions were in force in the Hyderabad and Cyberabad police commissionerate limits. Routes to Tank Bund were barricaded with barbed wire, and state police and central paramilitary forces were deployed."
+    actor: police
+    sources: [s11]
+  - type: detention
+    date: 2011-03-10
+    description: "Police detained JAC convener M. Kodandaram as he left the JAC office, TRS MLA T. Harish Rao, TDP MLA E. Dayakar Rao and BJP leader Ch. Vidyasagar Rao, and made preventive arrests in Telangana districts to stop activists reaching Hyderabad. Kodandaram claimed hundreds were arrested; Police Commissioner A.K. Khan said arrests targeted only those violating the ban orders. Thousands still reached Tank Bund."
+    actor: police
+    sources: [s11, s12]
+  - type: tear_gas
+    date: 2011-03-10
+    description: "At Tank Bund protesters threw stones at police, who responded with tear gas."
+    actor: police
+    sources: [s12]
+  - type: other
+    date: 2011-09-12
+    description: "On the eve of the Sakala Janula Samme, the state government said it would not hesitate to invoke the Essential Services Maintenance Act (ESMA) against strikers, issued a 'no work, no pay' order (GO 177) and announced disciplinary action. The government threatened ESMA through the 42-day strike but did not enforce it."
+    actor: state
+    sources: [s13, s14]
+  - type: detention
+    date: 2011-09-13
+    description: "On the first day of the general strike, police arrested Telugu Desam Party leaders from Telangana who tried to lay siege to the state secretariat."
+    actor: police
+    sources: [s13]
+  - type: negotiation
+    date: 2011-10-24
+    description: "After talks led by Deputy Chief Minister Damodar Rajanarasimha, the government accepted nine demands, including withdrawal of cases against striking employees, treating the strike period as special leave, and seeking High Court permission to relax GO 177. Employees called off the strike on 24 October 2011 after 42 days; teachers, APSRTC and Singareni workers had withdrawn earlier."
+    actor: state
+    sources: [s14]
+  - type: concession
+    date: 2014-03-01
+    description: "After the agitation period, the Union Cabinet cleared a separate Telangana on 3 October 2013; the Andhra Pradesh Reorganisation Bill passed the Lok Sabha on 18 February 2014 and the Rajya Sabha on 20 February 2014, received presidential assent on 1 March 2014, and Telangana was formed on 2 June 2014."
+    actor: centre
+    sources: [s16]
+outcome: >
+  The 2011 strike ended on 24 October 2011 with the state accepting nine employee demands;
+  the statehood demand itself stayed open. The UPA coordination committee decided in favour
+  of Telangana on 30 July 2013, the Andhra Pradesh Reorganisation Bill passed Parliament in
+  February 2014 and received assent on 1 March 2014, and Telangana was formed on 2 June 2014.
+positions:
+  - party: INC
+    person: P. Chidambaram
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2009-12-09
+    statement: "The process of forming the state of Telangana will be initiated. An appropriate resolution will be moved in the state Assembly."
+    sources: [s3, s7]
+  - party: INC
+    person: P. Chidambaram
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2009-12-23
+    statement: "The earlier announcement was based on a consensus among Andhra Pradesh parties; however, the situation has altered now. The Centre will hold wide-ranging consultations and involve all concerned."
+    sources: [s5]
+  - party: INC
+    person: P. Chidambaram
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2009-12-31
+    statement: "We simply responded to the altered situation as a result of divisions in the political parties. The January 5 meeting is the first step in the consultations."
+    sources: [s7]
+  - party: INC
+    person: P. Chidambaram
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2011-07-04
+    statement: "The 9 December 2009 statement was not made by an individual but made on behalf of the Government of India. When you refer to my statement on December 9, 2009, you should also refer to the December 23, 2009 statement."
+    sources: [s15]
+  - party: INC
+    person: K. Rosaiah
+    role_at_time: Chief Minister of Andhra Pradesh
+    in_power: true
+    date: 2009-12-10
+    statement: "The Telangana resolution will be introduced only after consultation and will pass only with majority support. Legislators should not resign in the heat of emotion."
+    sources: [s4]
+  - party: BRS
+    person: K. Chandrashekar Rao
+    role_at_time: President, Telangana Rashtra Samithi (TRS, renamed BRS in 2022); Lok Sabha MP, opposition
+    in_power: false
+    date: 2009-12-24
+    statement: "KCR rejected suggestions that the UPA might set up a States Reorganisation Commission and urged the Prime Minister to begin the constitutional process to bifurcate the state without delay."
+    sources: [s6]
+  - party: BRS
+    person: K. Chandrashekar Rao
+    role_at_time: President, Telangana Rashtra Samithi (TRS, renamed BRS in 2022); opposition
+    in_power: false
+    date: 2011-09-12
+    statement: "Telangana will burn if the government dares to use ESMA against any employee, teacher or worker. The agitation will continue until the Centre fulfils its December 9, 2009 promise."
+    sources: [s13]
+  - party: TDP
+    person: N. Chandrababu Naidu
+    role_at_time: TDP president; Leader of the Opposition, Andhra Pradesh Assembly
+    in_power: false
+    date: 2009-12-10
+    statement: "Naidu, who had earlier challenged the Congress to table the resolution and pledged TDP support, criticised the 'hasty and unilateral' decision and said the Congress was wholly responsible for the crisis."
+    sources: [s4]
+  - party: BJP
+    person: L.K. Advani
+    role_at_time: Leader of the Opposition, Lok Sabha
+    in_power: false
+    date: 2009-12-10
+    statement: "The BJP accused the government of undermining the dignity of Parliament by announcing the Telangana decision outside the House."
+    sources: [s4]
+  - party: BJP
+    person: Bandaru Dattatreya
+    role_at_time: BJP leader, Telangana; former Union minister
+    in_power: false
+    date: 2011-09-12
+    statement: "The indefinite strike will become a 'mega battle' and the Chief Minister will have to leave the secretariat."
+    sources: [s13]
+  - party: other (Telangana Joint Action Committee)
+    person: M. Kodandaram
+    role_at_time: Convener, Telangana Joint Action Committee
+    in_power: false
+    date: 2011-03-10
+    statement: "Police have been behaving in a very undemocratic way."
+    sources: [s11, s12]
+  - party: other (Telangana Joint Action Committee)
+    person: M. Kodandaram
+    role_at_time: Convener, Telangana Joint Action Committee
+    in_power: false
+    date: 2011-10-24
+    statement: "The employees have called off the strike temporarily."
+    sources: [s14]
+sources:
+  - id: s1
+    title: "Rao's flip-flop on fast triggers confusion"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091202/main5.htm
+    date: 2009-12-02
+    type: news
+  - id: s2
+    title: "TRS chief shifted to Hyderabad"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091204/nation.htm
+    date: 2009-12-04
+    type: news
+  - id: s3
+    title: "Centre buckles: Resolution likely today; Rao ends fast"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091210/main1.htm
+    date: 2009-12-10
+    type: news
+  - id: s4
+    title: "Political crisis rocks AP: 100 MLAs quit over statehood to Telangana"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091211/main1.htm
+    date: 2009-12-11
+    type: news
+  - id: s5
+    title: "Centre dithers on Telangana: Situation in AP has altered, says Chidambaram"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091224/main1.htm
+    date: 2009-12-24
+    type: news
+  - id: s6
+    title: "Crisis deepens in Andhra: 65 MLAs quit; protesters damage 57 buses"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2009/20091225/main1.htm
+    date: 2009-12-25
+    type: news
+  - id: s7
+    title: "Govt working to devise mechanism and roadmap on Telangana: Chidambaram"
+    publisher: Ummid.com (PTI)
+    url: https://ummid.com/news/December/31.12.2009/govt._stand_on_telangana_not_changed.htm
+    date: 2009-12-31
+    type: news
+  - id: s8
+    title: "Justice Srikrishna heads Telangana panel"
+    publisher: Governance Now
+    url: https://www.governancenow.com/news/regular-story/justice-srikrishna-heads-telangana-panel
+    date: 2010-02-03
+    type: news
+  - id: s9
+    title: "Six options on Telangana, status quo least favourable"
+    publisher: Governance Now
+    url: https://www.governancenow.com/news/regular-story/six-options-telangana-status-quo-least-favourable
+    date: 2011-01-06
+    type: news
+  - id: s10
+    title: "Srikrishna panel for united AP: Telangana Regional Council to address core concerns"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2011/20110107/main1.htm
+    date: 2011-01-07
+    type: news
+  - id: s11
+    title: "Million March: Telangana leaders taken into custody"
+    publisher: Governance Now (PTI)
+    url: https://www.governancenow.com/news/regular-story/million-march-telangana-leaders-taken-custody
+    date: 2011-03-10
+    type: news
+  - id: s12
+    title: "Govt fails to foil Telangana Million March in Hyderabad"
+    publisher: OneIndia
+    url: https://www.oneindia.com/2011/03/10/telangana-million-march-govt-fails-hyderabad-aid0101.html
+    date: 2011-03-10
+    type: news
+  - id: s13
+    title: "'People's strike' brings Telangana to a halt"
+    publisher: Ummid.com (IANS)
+    url: https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm
+    date: 2011-09-13
+    type: news
+  - id: s14
+    title: "Pro-Telangana stir in AP called off"
+    publisher: Governance Now (PTI)
+    url: https://www.governancenow.com/news/regular-story/pro-telangana-stir-ap-called
+    date: 2011-10-25
+    type: news
+  - id: s15
+    title: "Centre yet to take final view on Telangana: PC"
+    publisher: Morung Express (PTI)
+    url: https://morungexpress.com/centre-yet-take-final-view-telangana-pc
+    date: 2011-07-04
+    type: news
+  - id: s16
+    title: "10 turning points in Telangana statehood agitation"
+    publisher: Deccan Chronicle
+    url: https://www.deccanchronicle.com/amp/nation/in-other-news/240523/10-turning-points-in-telangana-statehood-agitation.html
+    date: 2023-05-24
+    type: news
+  - id: s17
+    title: "OU students lead Telangana movement, realise dream"
+    publisher: Deccan Chronicle
+    url: https://deccanchronicle.com/nation/current-affairs/010623/ou-students-lead-telangana-movement-realise-dream.html
+    date: 2023-06-01
+    type: news
+tags: [telangana, statehood, andhra_pradesh, hunger_strike, students, general_strike, section_144, commission_of_inquiry, concession]
