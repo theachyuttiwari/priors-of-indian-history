@@ -1,0 +1,189 @@
+id: ladakh-wangchuk-statehood-protests-2024-2025
+title: Ladakh statehood protests and Sonam Wangchuk's detention, 2024-2026
+summary: >
+  Groups in Ladakh, including the Leh Apex Body and the Kargil Democratic Alliance, demanded statehood
+  and Sixth Schedule safeguards for the Union Territory. In September-October 2024 climate activist
+  Sonam Wangchuk led a march from Ladakh to Delhi; Delhi Police detained him and about 120 others at
+  the Singhu border and later refused permission for a protest at Jantar Mantar. On 24 September 2025
+  a protest in Leh turned violent: the BJP office was set on fire and four people died in firing by
+  security forces. A curfew and mobile internet shutdown followed, and on 26 September 2025 Wangchuk
+  was detained under the National Security Act and moved to Jodhpur jail. The Centre revoked the
+  detention on 14 March 2026.
+period:
+  start: 2024-09-30
+  end: 2026-03-14
+location:
+  states: [Ladakh, Delhi, Rajasthan]
+  places: [Leh, Singhu border, Jantar Mantar, Jodhpur Central Jail]
+protest:
+  cause: Statehood for Ladakh and constitutional safeguards under the Sixth Schedule
+  organisers: [Leh Apex Body, Kargil Democratic Alliance, Sonam Wangchuk]
+  scale: About 120 marchers detained in Delhi in 2024; a shutdown and protest in Leh in September 2025 that turned violent, leaving four dead and dozens injured
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: other (Union Territory administered by the Centre through a Lieutenant Governor)
+    head: Kavinder Gupta
+    role: Lieutenant Governor (in September 2025)
+    name: Ladakh
+actions:
+  - type: section_144
+    date: 2024-09-30
+    description: The Delhi Police Commissioner issued an order barring assemblies of five or more people and dharnas in public areas in Delhi from 30 September to 5 October 2024. It was withdrawn by an order dated 2 October.
+    actor: police
+    sources: [s1]
+  - type: detention
+    date: 2024-09-30
+    description: "Delhi Police detained Sonam Wangchuk and about 120 others from Ladakh at the Singhu border on the night of 30 September 2024, during their 'Delhi Chalo Padyatra'. On 3 October Solicitor General Tushar Mehta told the Delhi High Court they had been set free; the petitioners' counsel Prashant Bhushan disputed that they were fully free."
+    actor: police
+    sources: [s1]
+  - type: permission_denied
+    date: 2024-10-05
+    description: "The Delhi Police Commissioner, by a letter of 5 October 2024, rejected the request to hold a peaceful demonstration at Jantar Mantar. A petition challenging the refusal was filed in the Delhi High Court; on 22 October the Solicitor General said Wangchuk had withdrawn his fast after discussions, and the petition was dismissed as withdrawn."
+    actor: police
+    sources: [s2, s3]
+  - type: section_144
+    date: 2025-09-24
+    description: The Leh district administration banned gatherings of more than five people, demonstrations and inflammatory speech in Leh district.
+    actor: state
+    sources: [s4]
+  - type: firing
+    date: 2025-09-24
+    description: "A protest in Leh for statehood and the Sixth Schedule turned violent; protesters set fire to the BJP office and a paramilitary vehicle. Police used tear gas and batons, and four men, including Kargil war veteran Tsewang Tharchin, died in firing by security personnel. Lieutenant Governor Kavinder Gupta defended the police action; the Kargil Democratic Alliance and Ladakh MP Haji Hanifa Jan demanded an independent judicial probe."
+    actor: police
+    sources: [s4, s5, s6]
+  - type: curfew
+    date: 2025-09-24
+    description: A curfew was imposed after the violence and was still in force in Leh on 29 September 2025. Many people, including ex-servicemen, were taken into custody.
+    actor: state
+    sources: [s5, s7]
+  - type: internet_shutdown
+    date: 2025-09
+    description: Mobile internet was shut down in Leh after the violence.
+    actor: state
+    sources: [s7]
+  - type: nsa_detention
+    date: 2025-09-26
+    description: "The District Magistrate, Leh, detained Sonam Wangchuk under the National Security Act shortly before a scheduled news briefing, and he was moved to Jodhpur Central Jail. The Home Ministry accused him of provoking crowds with his speeches; he had called off his hunger strike on 24 September, saying violence 'only damages our cause'."
+    actor: state
+    sources: [s4, s7, s8]
+  - type: other
+    date: 2025-09
+    description: The Home Ministry revoked the licence of Wangchuk's organisation, the Students' Educational and Cultural Movement of Ladakh (SECMOL), citing alleged violations.
+    actor: centre
+    sources: [s7]
+  - type: other
+    date: 2026-02-11
+    description: "Hearing the habeas corpus petition of Wangchuk's wife Gitanjali Angmo, a Supreme Court bench of Justices Aravind Kumar and P.B. Varale told the Centre it was 'reading too much into' Wangchuk's speeches and asked it to show a proximate link to the 24 September violence. The Additional Solicitor General argued his speeches could disturb public order."
+    actor: court
+    sources: [s9]
+  - type: concession
+    date: 2026-03-14
+    description: "The Centre revoked Wangchuk's NSA detention, stating the aim was to restore peace and create an atmosphere conducive to dialogue in Ladakh. He had served nearly half of the maximum detention period."
+    actor: centre
+    sources: [s8]
+  - type: negotiation
+    date: 2025-09-30
+    description: The Centre, through a PIB release, said it remained open to dialogue with the Leh Apex Body and the Kargil Democratic Alliance through the High Powered Committee on Ladakh. The Kargil Democratic Alliance said it would not talk until its demands were met.
+    actor: centre
+    sources: [s6]
+outcome: >
+  Wangchuk was released in March 2026 after the Home Ministry revoked his NSA detention. Leh Apex Body
+  and Kargil Democratic Alliance leaders met Home Ministry officials in August 2026 and demanded an
+  elected assembly. The Home Ministry ordered 12 CRPF companies to Ladakh for September 2026, a year
+  after the violence; compensation for the four deaths had not been paid by then.
+positions:
+  - party: BJP
+    person: Union Ministry of Home Affairs
+    role_at_time: Union government (BJP-led NDA)
+    in_power: true
+    date: 2025-09
+    statement: "Accused Wangchuk of 'provoking crowds with his speeches' (as reported by Al Jazeera)."
+    sources: [s7]
+  - party: other (Lieutenant Governor, central appointee)
+    person: Kavinder Gupta
+    role_at_time: Lieutenant Governor of Ladakh
+    in_power: true
+    date: 2025-09
+    statement: Defended the police action, saying the Union Territory would otherwise have been "burnt down" (as reported by ThePrint).
+    sources: [s6]
+  - party: other (Independent)
+    person: Haji Hanifa Jan
+    role_at_time: Lok Sabha MP from Ladakh
+    in_power: false
+    date: 2025-09-30
+    statement: "The police 'could have fired in the air to disperse the crowd.'"
+    sources: [s6]
+  - party: other (Kargil Democratic Alliance)
+    person: Sajjad Kargili
+    role_at_time: Kargil Democratic Alliance leader
+    in_power: false
+    date: 2025-09-30
+    statement: "We will not talk to the Centre till our demands are fulfilled. If need be, we will start another agitation."
+    sources: [s6]
+sources:
+  - id: s1
+    title: "Climate Activist Sonam Wangchuk, His Associates From Ladakh Released And Set Free: SGI Tushar Mehta Tells Delhi High Court"
+    publisher: LiveLaw
+    url: https://www.livelaw.in/high-court/delhi-high-court/climate-activist-sonam-wangchuk-his-associates-from-ladakh-released-and-set-free-sgi-tushar-mehta-tells-delhi-high-court-271457
+    date: 2024-10-03
+    type: news
+  - id: s2
+    title: Delhi High Court Issues Notice On Plea To Allow Sonam Wangchuk, Others From Ladakh To Hold Peaceful Protest At Jantar Mantar
+    publisher: LiveLaw
+    url: https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-protest-jantar-mantar-272042
+    date: 2024-10-09
+    type: news
+  - id: s3
+    title: "Climate Activist Sonam Wangchuk's Fast Withdrawn After Discussions: Delhi Police To High Court"
+    publisher: LiveLaw
+    url: https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-fast-273181
+    date: 2024-10-22
+    type: news
+  - id: s4
+    title: Protests seeking statehood in India's Ladakh turn deadly
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2025/9/24/protests-seeking-statehood-in-indias-ladakh-turn-deadly
+    date: 2025-09-24
+    type: news
+  - id: s5
+    title: Leh turns into a fortress for funeral of ex-serviceman who fought in Kargil but fell to police bullets
+    publisher: ThePrint
+    url: https://theprint.in/india/leh-turns-into-a-fortress-for-funeral-of-ex-serviceman-who-fought-in-kargil-but-fell-to-police-bullets/2753789/
+    date: 2025-09-29
+    type: news
+  - id: s6
+    title: "Release Wangchuk, probe 24 September police firing: Kargil-based group"
+    publisher: ThePrint
+    url: https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
+    date: 2025-10-01
+    type: news
+  - id: s7
+    title: Indian police arrest Ladakh activist after deadly protests
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2025/9/26/indian-police-arrest-ladakh-activist-after-deadly-protests
+    date: 2025-09-26
+    type: news
+  - id: s8
+    title: Centre Revokes Detention Of Sonam Wangchuk Under National Security Act
+    publisher: LiveLaw
+    url: https://www.livelaw.in/top-stories/centre-revokes-detention-of-sonam-wangchuk-under-national-security-act-526404
+    date: 2026-03-14
+    type: news
+  - id: s9
+    title: "'You Are Reading Too Much Into Sonam Wangchuk's Speeches' : Supreme Court To Centre, Questions Nexus With Ladakh Violence"
+    publisher: LiveLaw
+    url: https://www.livelaw.in/top-stories/you-are-reading-too-much-into-sonam-wangchuks-speeches-supreme-court-to-centre-questions-nexus-with-ladakh-violence-522772
+    date: 2026-02-11
+    type: news
+  - id: s10
+    title: MHA orders deployment of 12 CRPF companies in Ladakh a year after violence during statehood protest
+    publisher: ThePrint
+    url: https://theprint.in/india/mha-orders-deployment-of-12-crpf-companies-in-ladakh-a-year-after-violence-during-statehood-protest/3023662/
+    date: 2026-08-24
+    type: news
+tags: [ladakh, statehood, sixth_schedule, nsa, detention, internet_shutdown, curfew, firing]
