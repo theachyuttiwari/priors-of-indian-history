@@ -26,7 +26,7 @@ Both break README rule 3: "Describe actions. Do not judge them."
    ink-3 `#86868b`/`#8e8e93`, ink-2 `#515154`/`#c7c7cc`, ink `#1d1d1f`/`#f5f5f7`.
 3. System font stack only. Remove Fraunces, Inter and JetBrains Mono from `layout.tsx`.
 4. Shape, not colour, for the action groups in `src/lib/schema.ts`. All glyphs are hollow, the same ink and the same size. The label is always beside the glyph:
-   restrict □, legal ◇, force △, engage ○, other —.
+   restrict □, legal ◇, force △, engage ○, other (a short dash).
 5. "In power" and "In opposition" become text labels. Both quote edges are grey.
 6. Compare grid: one grey ramp (surface to ink). No rotated headers; glyph plus a short label.
 7. Precedent cards become rows with one hairline.
