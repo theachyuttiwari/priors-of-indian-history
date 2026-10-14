@@ -1,82 +1,74 @@
 import Link from "next/link";
 import { getCurrent, getPrecedents, similar, stats, fmtPeriod } from "@/lib/content";
-import PrecedentCard from "@/components/PrecedentCard";
+import PrecedentRow from "@/components/PrecedentRow";
 import ActionChip from "@/components/ActionChip";
+import YearStrip from "@/components/YearStrip";
+import { GlyphLegend } from "@/components/Glyph";
 
 export default function Home() {
   const current = getCurrent();
   const s = stats();
-  const recent = [...getPrecedents()].reverse().slice(0, 6);
+  const precedents = getPrecedents();
+  const recent = [...precedents].reverse().slice(0, 10);
   return (
-    <div className="space-y-20">
-      <section className="pt-6">
-        <p className="eyebrow">India · protests and how governments answer them</p>
-        <h1 className="display text-5xl sm:text-7xl leading-[1.02] mt-4 max-w-4xl">
-          What did they do <em className="text-accent not-italic">before</em>?
-        </h1>
-        <p className="text-lg text-ink-2 mt-6 max-w-2xl leading-relaxed">
-          Today&apos;s event, set beside the record. How the Centre and the states, under every party, have
-          handled permissions, Section 144, internet shutdowns, detentions and talks since 1974. Every
-          claim links to a dated source.
+    <div className="space-y-24">
+      <section>
+        <h1 className="t-hero">What did they do before?</h1>
+        <p className="lede mt-5 measure">
+          Protests in India since {s.from}, and how the Centre and the states answered them under every party.
+          Every claim links to a dated source.
         </p>
-        <div className="mono text-xs text-ink-3 mt-8 flex flex-wrap gap-x-6 gap-y-2">
-          <span>{s.precedents} precedents</span>
-          <span>{s.actions} government actions</span>
-          <span>{s.sources} sources</span>
-          <span>{s.parties} parties</span>
-          <span>
-            {s.from}–{s.to}
-          </span>
+        <div className="mt-14">
+          <YearStrip precedents={precedents} current={current[0]} />
         </div>
       </section>
 
       {current.length > 0 && (
         <section>
-          <div className="flex items-baseline justify-between">
-            <h2 className="display text-3xl">Now</h2>
-            <Link href="/now/" className="link text-sm">
-              all current events
+          <div className="flex items-baseline justify-between gap-4">
+            <h2 className="t-2">Now</h2>
+            <Link href="/now/" className="link small">
+              All current events
             </Link>
           </div>
-          <div className="mt-6 space-y-10">
+          <div className="mt-8 space-y-16">
             {current.slice(0, 2).map((ev) => {
               const sims = similar(ev, 3);
               return (
-                <div key={ev.id} className="grid gap-6 lg:grid-cols-[1.1fr_1fr]">
-                  <div className="card p-6 border-accent/30">
-                    <div className="flex items-center justify-between">
-                      <span className="eyebrow text-accent">Happening now</span>
-                      <span className="mono text-xs text-ink-3">{fmtPeriod(ev.period)}</span>
-                    </div>
-                    <h3 className="display text-2xl mt-3">
+                <article key={ev.id}>
+                  <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+                    <h3 className="t-3 text-[24px]">
                       <Link href={`/now/${ev.id}/`} className="quiet">
                         {ev.title}
                       </Link>
                     </h3>
-                    <p className="text-sm text-ink-2 mt-3">{ev.summary}</p>
-                    <div className="flex flex-wrap gap-1.5 mt-4">
-                      {[...new Set(ev.actions.map((a) => a.type))].map((t) => (
-                        <ActionChip key={t} type={t} />
-                      ))}
-                    </div>
-                    {ev.reviewed === false && (
-                      <p className="mt-4 text-xs text-ink-3">
-                        Drafted by the ingestion pipeline. Not yet reviewed by a human.{" "}
-                        <Link href="/about/#pipeline" className="link">
-                          How this works
-                        </Link>
-                      </p>
-                    )}
+                    <span className="small num">{fmtPeriod(ev.period)}</span>
                   </div>
-                  <div>
-                    <p className="eyebrow mb-3">Closest priors</p>
-                    <div className="space-y-3">
-                      {sims.map(({ p, shared }) => (
-                        <PrecedentCard key={p.id} p={p} highlight={shared} />
-                      ))}
-                    </div>
+                  <p className="text-ink-2 mt-2 measure">{ev.summary}</p>
+                  <div className="chips mt-4">
+                    {[...new Set(ev.actions.map((a) => a.type))].map((t) => (
+                      <ActionChip key={t} type={t} />
+                    ))}
                   </div>
-                </div>
+                  {ev.reviewed === false && (
+                    <p className="small mt-3">
+                      Drafted by the ingestion pipeline. Not yet reviewed by a person.{" "}
+                      <Link href="/about/#pipeline" className="link">
+                        How this works
+                      </Link>
+                    </p>
+                  )}
+                  {sims.length > 0 && (
+                    <div className="mt-8">
+                      <p className="small">Closest priors, by shared actions. Faded glyphs are actions the current event does not share.</p>
+                      <div className="rows mt-2 border-t border-line">
+                        {sims.map(({ p, shared }) => (
+                          <PrecedentRow key={p.id} p={p} highlight={shared} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </article>
               );
             })}
           </div>
@@ -84,28 +76,32 @@ export default function Home() {
       )}
 
       <section>
-        <div className="flex items-baseline justify-between">
-          <h2 className="display text-3xl">The record</h2>
-          <Link href="/precedents/" className="link text-sm">
-            all {s.precedents} precedents
-          </Link>
+        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+          <h2 className="t-2">The record</h2>
+          <p className="small num">
+            {s.precedents} precedents, {s.actions} government actions, {s.sources} sources
+          </p>
         </div>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <GlyphLegend className="mt-4" />
+        <div className="rows mt-4 border-t border-line">
           {recent.map((p) => (
-            <PrecedentCard key={p.id} p={p} />
+            <PrecedentRow key={p.id} p={p} />
           ))}
         </div>
+        <Link href="/precedents/" className="link inline-block mt-6">
+          See all {s.precedents} precedents
+        </Link>
       </section>
 
-      <section className="grid gap-6 md:grid-cols-3">
+      <section className="grid gap-x-10 gap-y-8 md:grid-cols-3 border-t border-line pt-10">
         {[
-          ["/compare/", "Compare parties", "One grid. Every party, every kind of action, counted the same way."],
-          ["/parties/", "In power vs in opposition", "What each party did when it governed, next to what it said when it did not."],
-          ["/about/", "Method and contributing", "How entries are written, sourced and reviewed. Add a precedent by pull request."],
+          ["/compare/", "Compare parties", "One grid. Every party and every kind of action, counted the same way."],
+          ["/parties/", "In power and in opposition", "What each party did when it governed, next to what it said when it did not."],
+          ["/about/", "Method", "How entries are written, sourced and reviewed. Add a precedent by pull request."],
         ].map(([href, t, d]) => (
-          <Link key={href} href={href} className="card quiet p-6 block">
-            <h3 className="display text-xl">{t}</h3>
-            <p className="text-sm text-ink-2 mt-2">{d}</p>
+          <Link key={href} href={href} className="quiet block group">
+            <h3 className="t-3 group-hover:underline underline-offset-4 decoration-1">{t}</h3>
+            <p className="text-[15px] text-ink-2 mt-1">{d}</p>
           </Link>
         ))}
       </section>

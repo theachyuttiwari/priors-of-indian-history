@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { allParties, partyRecord, fmtDate } from "@/lib/content";
+import { allParties, partyRecord, fmtDate, type PartyRecord } from "@/lib/content";
 import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
-import PrecedentCard from "@/components/PrecedentCard";
-import { groupColor } from "@/components/ActionChip";
+import PrecedentRow from "@/components/PrecedentRow";
+import Glyph from "@/components/Glyph";
 
 export function generateStaticParams() {
   return allParties().map((p) => ({ party: partySlug(p) }));
@@ -18,6 +18,27 @@ export async function generateMetadata({ params }: { params: Promise<{ party: st
   return { title: find((await params).party) ?? "Party" };
 }
 
+function Statements({ items }: { items: PartyRecord["statementsInPower"] }) {
+  if (items.length === 0) return <p className="small">Nothing recorded yet.</p>;
+  return (
+    <div className="space-y-6">
+      {items.map(({ p, pos }, i) => (
+        <blockquote key={i} className="quote">
+          <p className="leading-relaxed">“{pos.statement}”</p>
+          <footer className="small mt-1">
+            {[pos.person && `${pos.person}${pos.role_at_time ? `, ${pos.role_at_time}` : ""}`, pos.date && fmtDate(pos.date)]
+              .filter(Boolean)
+              .join(", ")}
+            <Link href={`/precedents/${p.id}/`} className="link block mt-0.5">
+              {p.title}
+            </Link>
+          </footer>
+        </blockquote>
+      ))}
+    </div>
+  );
+}
+
 export default async function PartyPage({ params }: { params: Promise<{ party: string }> }) {
   const party = find((await params).party);
   if (!party) notFound();
@@ -25,85 +46,55 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
   const rows = ACTION_TYPES.filter((t) => r.actions[t] > 0).sort((a, b) => r.actions[b] - r.actions[a]);
   const max = rows.length ? r.actions[rows[0]] : 1;
   return (
-    <article className="space-y-14">
+    <article className="space-y-20">
       <header>
-        <p className="eyebrow">
-          <Link href="/parties/" className="quiet">
-            Parties
-          </Link>
-        </p>
-        <h1 className="display text-5xl mt-3">{party}</h1>
-        <p className="mono text-xs text-ink-3 mt-3">
-          {r.inPower.length} cases while in power · {r.statementsInPower.length} statements in power · {r.statementsInOpposition.length} in opposition
+        <Link href="/parties/" className="link small">
+          Parties
+        </Link>
+        <h1 className="t-1 mt-4">{party}</h1>
+        <p className="small num mt-3">
+          {r.inPower.length} cases while in power, {r.statementsInPower.length} statements in power,{" "}
+          {r.statementsInOpposition.length} in opposition
         </p>
       </header>
 
       {rows.length > 0 && (
         <section>
-          <h2 className="display text-2xl mb-6">Actions taken while governing</h2>
-          <ul className="space-y-2 max-w-2xl">
+          <h2 className="t-2 mb-6">Actions taken while governing</h2>
+          <ul className="space-y-2.5 max-w-2xl">
             {rows.map((t) => (
-              <li key={t} className="grid grid-cols-[180px_1fr_32px] items-center gap-3 text-sm">
-                <span className="text-ink-2">{ACTION_META[t].label}</span>
-                <span className="h-3 rounded-r-[4px]" style={{ width: `${(r.actions[t] / max) * 100}%`, background: groupColor(t), minWidth: 4 }} />
-                <span className="mono text-xs text-ink-3 text-right">{r.actions[t]}</span>
+              <li key={t} className="grid grid-cols-[12rem_1fr_2rem] items-center gap-3 text-[15px]">
+                <span className="chip text-[15px]">
+                  <Glyph group={ACTION_META[t].group} />
+                  {ACTION_META[t].label}
+                </span>
+                <span className="h-2 rounded-full bg-ink-3" style={{ width: `${(r.actions[t] / max) * 100}%`, minWidth: 4 }} />
+                <span className="num text-ink-2 text-right">{r.actions[t]}</span>
               </li>
             ))}
           </ul>
         </section>
       )}
 
-      <section className="grid gap-10 lg:grid-cols-2">
+      <section className="grid gap-12 lg:grid-cols-2">
         <div>
-          <h2 className="display text-2xl mb-1">
-            Said in <span className="text-cool">opposition</span>
-          </h2>
-          <p className="text-xs text-ink-3 mb-6">When another party was handling the protest.</p>
-          {r.statementsInOpposition.length === 0 && <p className="text-sm text-ink-3">Nothing recorded yet.</p>}
-          <div className="space-y-5">
-            {r.statementsInOpposition.map(({ p, pos }, i) => (
-              <blockquote key={i} className="quote opp">
-                <p className="text-sm">“{pos.statement}”</p>
-                <footer className="text-xs text-ink-3 mt-1">
-                  {pos.person}
-                  {pos.role_at_time ? `, ${pos.role_at_time}` : ""} · {pos.date ? fmtDate(pos.date) : ""} ·{" "}
-                  <Link href={`/precedents/${p.id}/`} className="link">
-                    {p.title}
-                  </Link>
-                </footer>
-              </blockquote>
-            ))}
-          </div>
+          <h2 className="t-2">Said in opposition</h2>
+          <p className="small mt-1 mb-6">When another party was handling the protest.</p>
+          <Statements items={r.statementsInOpposition} />
         </div>
         <div>
-          <h2 className="display text-2xl mb-1">
-            Said in <span className="text-accent">power</span>
-          </h2>
-          <p className="text-xs text-ink-3 mb-6">When this party was handling the protest.</p>
-          {r.statementsInPower.length === 0 && <p className="text-sm text-ink-3">Nothing recorded yet.</p>}
-          <div className="space-y-5">
-            {r.statementsInPower.map(({ p, pos }, i) => (
-              <blockquote key={i} className="quote power">
-                <p className="text-sm">“{pos.statement}”</p>
-                <footer className="text-xs text-ink-3 mt-1">
-                  {pos.person}
-                  {pos.role_at_time ? `, ${pos.role_at_time}` : ""} · {pos.date ? fmtDate(pos.date) : ""} ·{" "}
-                  <Link href={`/precedents/${p.id}/`} className="link">
-                    {p.title}
-                  </Link>
-                </footer>
-              </blockquote>
-            ))}
-          </div>
+          <h2 className="t-2">Said in power</h2>
+          <p className="small mt-1 mb-6">When this party was handling the protest.</p>
+          <Statements items={r.statementsInPower} />
         </div>
       </section>
 
       {r.inPower.length > 0 && (
         <section>
-          <h2 className="display text-2xl mb-4">Cases handled</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <h2 className="t-2 mb-4">Cases handled</h2>
+          <div className="rows border-t border-line">
             {r.inPower.map((p) => (
-              <PrecedentCard key={p.id} p={p} href={p.related_precedents.length || p.reviewed === false ? `/now/${p.id}/` : undefined} />
+              <PrecedentRow key={p.id} p={p} href={p.related_precedents.length || p.reviewed === false ? `/now/${p.id}/` : undefined} />
             ))}
           </div>
         </section>

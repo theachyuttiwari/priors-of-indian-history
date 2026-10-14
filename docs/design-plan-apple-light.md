@@ -1,6 +1,6 @@
 # Design plan: Apple-style redesign (`design/apple-light`)
 
-Status: PLAN ONLY. No site code changed. Three decisions are open (see below).
+Status: BUILT on this branch (2026-10-15) with the three defaults: no hue, light first, monochrome icon. Not merged.
 
 - Visual plan: `docs/design-plan-apple-light.html` (open in a browser; light and dark).
 - Same plan, published: https://claude.ai/artifact/WacCuCkAHLaNFo4uxtQCbz (private to the owner).
@@ -54,3 +54,10 @@ Both break README rule 3: "Describe actions. Do not judge them."
 ## Note for the next session
 
 The main checkout (`~/.t3/projects/priors-of-indian-history`, on `main`) had four untracked precedent YAML files when this plan was written. They belong to another session. This branch does not include them.
+
+## Build notes (2026-10-15)
+
+- The year strip is static HTML positioned by percentage, not SVG. It needs no client JS and stays legible at 390px.
+- Tick height shows how many kinds of action a precedent shares with the lead current event. Every precedent shares at least one, so a binary dark/faded rule faded nothing. Ticks in the lower third fade.
+- Compare grid: only parties with at least one attributed action get a row. Long `other (...)` names are truncated with a tooltip.
+- Source links in the timeline and quotes are numbered `[n]` and match the numbered Sources list.

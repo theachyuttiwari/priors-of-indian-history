@@ -123,7 +123,8 @@ export function partyRecord(party: string): PartyRecord {
 }
 
 export function matrix(): { parties: string[]; types: ActionType[]; cells: Record<string, Record<ActionType, number>>; max: number } {
-  const parties = allParties().filter((party) => partyRecord(party).inPower.length > 0);
+  // Only parties with at least one attributed action; a centre-only party with no centre actions would be an empty row.
+  const parties = allParties().filter((party) => Object.values(partyRecord(party).actions).some((n) => n > 0));
   const cells: Record<string, Record<ActionType, number>> = {};
   let max = 0;
   for (const party of parties) {

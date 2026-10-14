@@ -1,11 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPrecedent, getPrecedents, fmtPeriod, similar } from "@/lib/content";
+import { REPO } from "@/lib/site";
 import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
 import Sources from "@/components/Sources";
 import PartyMark from "@/components/PartyMark";
-import PrecedentCard from "@/components/PrecedentCard";
+import PrecedentRow from "@/components/PrecedentRow";
 
 export function generateStaticParams() {
   return getPrecedents().map((p) => ({ id: p.id }));
@@ -16,114 +17,111 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: p?.title ?? "Precedent" };
 }
 
+function Fact({ term, children }: { term: string; children: React.ReactNode }) {
+  return (
+    <div className="grid grid-cols-[6rem_1fr] sm:grid-cols-[7.5rem_1fr] gap-x-[14px] py-3 border-t border-line">
+      <dt className="small pt-0.5">{term}</dt>
+      <dd>{children}</dd>
+    </div>
+  );
+}
+
 export default async function PrecedentPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const p = getPrecedent(id);
   if (!p) notFound();
   const related = similar(p, 4).filter((x) => x.p.id !== p.id).slice(0, 3);
+  const { centre, state } = p.government;
   return (
-    <article className="space-y-14">
+    <article className="space-y-20">
       <header>
-        <p className="eyebrow">
-          <Link href="/precedents/" className="quiet">
-            Precedents
-          </Link>{" "}
-          / {fmtPeriod(p.period)}
+        <Link href="/precedents/" className="link small">
+          Precedents
+        </Link>
+        <h1 className="t-1 mt-4 max-w-3xl">{p.title}</h1>
+        <p className="small num mt-3">
+          {fmtPeriod(p.period)}
+          {p.location.states.length > 0 && <>, {[...p.location.places, ...p.location.states].join(", ")}</>}
         </p>
-        <h1 className="display text-4xl sm:text-5xl mt-3 max-w-3xl">{p.title}</h1>
-        <p className="text-lg text-ink-2 mt-5 max-w-3xl leading-relaxed">{p.summary}</p>
-        <dl className="mt-8 grid gap-x-10 gap-y-4 sm:grid-cols-2 lg:grid-cols-4 text-sm">
-          <div>
-            <dt className="eyebrow">Centre</dt>
-            <dd className="mt-1">
-              <PartyMark party={p.government.centre.party} role={p.government.centre.alliance} />
-              <div className="text-ink-3 text-xs">
-                {p.government.centre.head}
-                {p.government.centre.role ? `, ${p.government.centre.role}` : ""}
-              </div>
-            </dd>
-          </div>
-          {p.government.state && (
-            <div>
-              <dt className="eyebrow">State · {p.government.state.name}</dt>
-              <dd className="mt-1">
-                <PartyMark party={p.government.state.party} />
-                <div className="text-ink-3 text-xs">
-                  {p.government.state.head}
-                  {p.government.state.role ? `, ${p.government.state.role}` : ""}
-                </div>
-              </dd>
-            </div>
+        <p className="lede mt-6 measure">{p.summary}</p>
+        <dl className="mt-10 max-w-3xl border-b border-line">
+          <Fact term="Centre">
+            <PartyMark party={centre.party} role={centre.alliance} />
+            {centre.head && (
+              <span className="text-ink-2">
+                , {centre.head}
+                {centre.role ? `, ${centre.role}` : ""}
+              </span>
+            )}
+          </Fact>
+          {state && (
+            <Fact term={`State`}>
+              <PartyMark party={state.party} />
+              <span className="text-ink-2">
+                {state.name ? ` in ${state.name}` : ""}
+                {state.head ? `, ${state.head}` : ""}
+                {state.role ? `, ${state.role}` : ""}
+              </span>
+            </Fact>
           )}
           {p.protest.cause && (
-            <div>
-              <dt className="eyebrow">Cause</dt>
-              <dd className="mt-1 text-ink-2">{p.protest.cause}</dd>
-            </div>
-          )}
-          {p.protest.scale && (
-            <div>
-              <dt className="eyebrow">Scale</dt>
-              <dd className="mt-1 text-ink-2">{p.protest.scale}</dd>
-            </div>
+            <Fact term="Cause">
+              <span className="text-ink-2">{p.protest.cause}</span>
+            </Fact>
           )}
           {p.protest.organisers.length > 0 && (
-            <div>
-              <dt className="eyebrow">Organisers</dt>
-              <dd className="mt-1 text-ink-2">{p.protest.organisers.join(", ")}</dd>
-            </div>
+            <Fact term="Organisers">
+              <span className="text-ink-2">{p.protest.organisers.join(", ")}</span>
+            </Fact>
           )}
-          {p.location.states.length > 0 && (
-            <div>
-              <dt className="eyebrow">Where</dt>
-              <dd className="mt-1 text-ink-2">{[...p.location.places, ...p.location.states].join(", ")}</dd>
-            </div>
+          {p.protest.scale && (
+            <Fact term="Scale">
+              <span className="text-ink-2">{p.protest.scale}</span>
+            </Fact>
           )}
         </dl>
       </header>
 
       <section>
-        <h2 className="display text-2xl mb-6">What the government did</h2>
+        <h2 className="t-2 mb-6">What the government did</h2>
         <Timeline p={p} />
       </section>
 
       {p.outcome && (
         <section>
-          <h2 className="display text-2xl mb-3">Outcome</h2>
-          <p className="text-ink-2 max-w-3xl">{p.outcome}</p>
+          <h2 className="t-2 mb-3">Outcome</h2>
+          <p className="text-ink-2 measure">{p.outcome}</p>
         </section>
       )}
 
       {p.positions.length > 0 && (
         <section>
-          <h2 className="display text-2xl mb-2">What they said</h2>
-          <p className="text-xs text-ink-3 mb-6">
-            <span className="text-accent">Gold</span> edge: speaker&apos;s party was in power. <span className="text-cool">Blue</span>{" "}
-            edge: in opposition.
-          </p>
+          <h2 className="t-2 mb-2">What they said</h2>
+          <p className="small mb-8 measure">Each statement says whether the speaker&apos;s party was in power or in opposition at the time.</p>
           <Positions p={p} />
         </section>
       )}
 
       <section>
-        <h2 className="display text-2xl mb-4">Sources</h2>
+        <h2 className="t-2 mb-6">Sources</h2>
         <Sources p={p} />
       </section>
 
       {related.length > 0 && (
         <section>
-          <h2 className="display text-2xl mb-4">Similar priors</h2>
-          <div className="grid gap-4 md:grid-cols-3">
+          <h2 className="t-2 mb-2">Similar precedents</h2>
+          <p className="small mb-4">Faded actions are ones this precedent does not share.</p>
+          <div className="rows border-t border-line">
             {related.map(({ p: r, shared }) => (
-              <PrecedentCard key={r.id} p={r} highlight={shared} />
+              <PrecedentRow key={r.id} p={r} highlight={shared} detail />
             ))}
           </div>
         </section>
       )}
 
-      <p className="text-xs text-ink-3">
+      <p className="small">
         Something wrong or missing?{" "}
-        <a className="link" href={`https://github.com/`} rel="noreferrer">
+        <a className="link" href={`${REPO}/blob/main/content/precedents/${p.id}.yaml`} rel="noreferrer">
           Edit content/precedents/{p.id}.yaml
         </a>
       </p>

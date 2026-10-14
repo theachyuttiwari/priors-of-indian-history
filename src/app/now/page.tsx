@@ -8,38 +8,41 @@ export default function NowPage() {
   const current = getCurrent();
   return (
     <div>
-      <p className="eyebrow">Current events</p>
-      <h1 className="display text-4xl mt-2">Now</h1>
-      <p className="text-ink-2 mt-3 max-w-2xl">
-        Protests underway in India and how governments are answering them, each matched to its closest priors.
+      <h1 className="t-1">Now</h1>
+      <p className="lede mt-4 measure">
+        Protests underway in India and how governments are answering them. Each one is matched to its closest
+        precedents.
       </p>
       {current.length === 0 && (
-        <p className="mt-10 text-ink-3">No current events yet. Run the pipeline or add a file under content/current.</p>
+        <p className="mt-10 text-ink-2">No current events yet. Run the pipeline or add a file under content/current.</p>
       )}
-      <ol className="mt-10 space-y-6">
+      <div className="rows mt-10 border-t border-line">
         {current.map((ev) => {
           const sims = similar(ev, 3);
+          const where = ev.government.state
+            ? `${ev.government.state.party} in ${ev.government.state.name}, ${ev.government.centre.party} at the Centre`
+            : `${ev.government.centre.party} at the Centre`;
           return (
-            <li key={ev.id} className="card p-6">
-              <div className="flex items-center justify-between">
-                <span className="mono text-xs text-ink-3">{fmtPeriod(ev.period)}</span>
-                <span className="text-xs text-ink-3">
-                  {ev.government.state ? `${ev.government.state.party} (${ev.government.state.name}) · ` : ""}
-                  centre {ev.government.centre.party}
-                </span>
+            <article key={ev.id} className="py-8">
+              <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+                <h2 className="t-3 text-[24px]">
+                  <Link href={`/now/${ev.id}/`} className="quiet">
+                    {ev.title}
+                  </Link>
+                </h2>
+                <span className="small num">{fmtPeriod(ev.period)}</span>
               </div>
-              <Link href={`/now/${ev.id}/`} className="quiet display text-2xl mt-2 block hover:text-accent">
-                {ev.title}
-              </Link>
-              <p className="text-sm text-ink-2 mt-2 max-w-3xl">{ev.summary}</p>
-              <div className="flex flex-wrap gap-1.5 mt-3">
+              <p className="small mt-1">{where}</p>
+              <p className="text-ink-2 mt-3 measure">{ev.summary}</p>
+              <div className="chips mt-4">
                 {[...new Set(ev.actions.map((a) => a.type))].map((t) => (
                   <ActionChip key={t} type={t} />
                 ))}
               </div>
+              {ev.reviewed === false && <p className="small mt-3">Drafted by the ingestion pipeline. Not yet reviewed by a person.</p>}
               {sims.length > 0 && (
-                <p className="text-xs text-ink-3 mt-4">
-                  Closest priors:{" "}
+                <p className="text-[15px] text-ink-2 mt-4">
+                  Closest precedents:{" "}
                   {sims.map(({ p }, i) => (
                     <span key={p.id}>
                       {i > 0 && ", "}
@@ -50,10 +53,10 @@ export default function NowPage() {
                   ))}
                 </p>
               )}
-            </li>
+            </article>
           );
         })}
-      </ol>
+      </div>
     </div>
   );
 }

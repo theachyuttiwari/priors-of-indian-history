@@ -3,18 +3,16 @@ import { fmtDate } from "@/lib/content";
 
 export default function Sources({ p }: { p: Precedent }) {
   return (
-    <ol className="space-y-2 text-sm">
-      {p.sources.map((s) => (
-        <li key={s.id} className="flex gap-3">
-          <span className="mono text-xs text-ink-3 w-8 shrink-0">{s.id}</span>
+    <ol className="space-y-3 text-[15px] measure">
+      {p.sources.map((s, i) => (
+        <li key={s.id} className="grid grid-cols-[2rem_1fr]">
+          <span className="num text-ink-3">{i + 1}</span>
           <span>
             <a href={s.url} target="_blank" rel="noreferrer" className="link">
               {s.title}
             </a>
-            <span className="text-ink-3">
-              {" "}
-              — {s.publisher}
-              {s.date ? `, ${fmtDate(s.date)}` : ""} · {s.type.replace("_", " ")}
+            <span className="block small">
+              {[s.publisher, s.date ? fmtDate(s.date) : "", s.type.replace("_", " ")].filter(Boolean).join(", ")}
             </span>
           </span>
         </li>

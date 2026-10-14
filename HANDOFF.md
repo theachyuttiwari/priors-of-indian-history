@@ -69,6 +69,11 @@ shape. Model is `claude-opus-5-5`; research call uses `web_search_20260209` + `w
   Available: kathnikarni, pehlebhi, nazeernama, abaurtab on .in/.org/.com; thepriors.in, priorsindia.in.
 
 ### 4. UI polish backlog
+Redesign built on branch `design/apple-light` (see `docs/design-plan-apple-light.md`). Not merged.
+Done there: light/dark tokens, glyphs, year strip, rows, grey compare ramp, icon, GitHub links, compare filter.
+Still open: party bucketing, OG image, sitemap, search. Some `positions[].statement` values are paraphrases
+but render in quote marks; add a `paraphrase: true` flag or rewrite them as direct quotes.
+
 - Compare heatmap: parties that only appear as "centre" with no centre-actor actions show a
   case count but all dots (e.g. Janata Dal). Consider counting only parties with >= 1 action.
 - Party list shows 16 "parties" because `other (...)` free-text values each count as a party.
