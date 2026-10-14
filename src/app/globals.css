@@ -447,3 +447,113 @@ a.row:hover .row-title {
   background: var(--ink);
   color: var(--bg);
 }
+
+/* Side by side: one column per event, one row per action type. Rows open to show the detail. */
+.sbs {
+  --sbs-label: minmax(0, 1fr);
+  --sbs-cell: 3rem;
+}
+.sbs-grid {
+  display: grid;
+  grid-template-columns: var(--sbs-label) repeat(var(--sbs-cols), var(--sbs-cell));
+  align-items: center;
+  column-gap: 4px;
+}
+.sbs-head {
+  position: sticky;
+  top: var(--header-h, 49px);
+  z-index: 5;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+  align-items: end;
+}
+.sbs-col {
+  text-align: center;
+  font-size: 14px;
+  min-width: 0;
+}
+.sbs-row > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 0;
+  min-height: 48px;
+}
+.sbs-row > summary::-webkit-details-marker {
+  display: none;
+}
+.sbs-label {
+  display: grid;
+  grid-template-columns: 14px 1fr 12px;
+  gap: 10px;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.25;
+}
+.sbs-label::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid var(--ink-3);
+  border-bottom: 1.5px solid var(--ink-3);
+  transform: rotate(-45deg);
+  transition: transform 0.15s;
+}
+.sbs-row[open] .sbs-label::after {
+  transform: rotate(45deg);
+}
+.sbs-cell {
+  display: flex;
+  justify-content: center;
+}
+.sbs-n {
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.sbs-none {
+  color: var(--line);
+  font-size: 14px;
+}
+.sbs-detail {
+  padding: 2px 0 18px 24px;
+  display: grid;
+  gap: 14px;
+}
+.sbs-entry-head {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 2px;
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 640px) {
+  .sbs {
+    --sbs-label: 13rem;
+    --sbs-cell: minmax(0, 1fr);
+  }
+  .sbs-grid {
+    column-gap: 20px;
+  }
+  .sbs-col {
+    text-align: left;
+  }
+  .sbs-cell {
+    justify-content: flex-start;
+  }
+  .sbs-detail {
+    padding-left: 0;
+    grid-template-columns: var(--sbs-label) repeat(var(--sbs-cols), var(--sbs-cell));
+    column-gap: 20px;
+    gap: 20px;
+  }
+}

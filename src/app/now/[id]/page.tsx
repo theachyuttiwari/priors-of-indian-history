@@ -1,12 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getCurrent, getCurrentEvent, fmtPeriod, similar, fmtDate, entryUpdated } from "@/lib/content";
-import { ACTION_META, type ActionType, type Precedent } from "@/lib/schema";
 import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
 import Sources from "@/components/Sources";
-import PartyMark from "@/components/PartyMark";
-import Glyph from "@/components/Glyph";
+import SideBySide from "@/components/SideBySide";
 
 export function generateStaticParams() {
   const ids = getCurrent().map((p) => ({ id: p.id }));
@@ -19,67 +17,6 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return { title: p?.title ?? "Now" };
 }
 
-function Column({ p, types, href, now }: { p: Precedent; types: ActionType[]; href?: string; now?: boolean }) {
-  const govt = p.government.state ?? p.government.centre;
-  return (
-    <div className="panel p-5">
-      <p className="small num">
-        {now ? "Now, " : ""}
-        {fmtPeriod(p.period)}
-      </p>
-      <h3 className="t-3 text-[17px] mt-1">
-        {href ? (
-          <Link href={href} className="quiet">
-            {p.title}
-          </Link>
-        ) : (
-          p.title
-        )}
-      </h3>
-      <p className="small mt-1">
-        <PartyMark party={govt.party} />
-        {p.government.state
-          ? ` in ${p.government.state.name}, ${p.government.centre.party} at the Centre`
-          : " at the Centre"}
-      </p>
-      <ul className="mt-5 space-y-3">
-        {types.map((t) => {
-          const hits = p.actions.filter((a) => a.type === t);
-          return (
-            <li
-              key={t}
-              className={`grid grid-cols-[14px_1fr] gap-2.5 items-start text-[15px] ${hits.length ? "" : "max-md:hidden"}`}
-            >
-              <span className={`mt-[5px] flex ${hits.length ? "text-ink" : "text-line"}`}>
-                <Glyph group={ACTION_META[t].group} />
-              </span>
-              <span className={hits.length ? "" : "text-ink-3"}>
-                <span className="font-semibold">{ACTION_META[t].label}</span>
-                {hits.length ? (
-                  hits.map((h, i) => (
-                    <span key={i} className="block text-ink-2 text-[14px] mt-0.5">
-                      {h.date ? <span className="num text-ink-3">{fmtDate(h.date)}. </span> : null}
-                      {h.description}
-                    </span>
-                  ))
-                ) : (
-                  <span className="block text-[14px]">Not recorded</span>
-                )}
-              </span>
-            </li>
-          );
-        })}
-      </ul>
-      {p.outcome && (
-        <div className="mt-5 pt-4 border-t border-line">
-          <p className="small">Outcome</p>
-          <p className="text-[14px] text-ink-2 mt-0.5">{p.outcome}</p>
-        </div>
-      )}
-    </div>
-  );
-}
-
 export default async function NowEventPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const ev = getCurrentEvent(id);
@@ -88,9 +25,6 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
     notFound();
   }
   const sims = similar(ev, 3);
-  const types = [
-    ...new Set([...ev.actions.map((a) => a.type), ...sims.flatMap((s) => s.p.actions.map((a) => a.type))]),
-  ].sort((a, b) => Object.keys(ACTION_META).indexOf(a) - Object.keys(ACTION_META).indexOf(b));
   return (
     <article className="space-y-20">
       <header>
@@ -114,15 +48,10 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
       <section>
         <h2 className="t-2 mb-2">Side by side</h2>
         <p className="small mb-6 measure">
-          The current event comes first. Its three closest precedents follow. Every column has the same rows. On small
-          screens, rows with nothing recorded are hidden.
+          This event and the three closest precedents. Each number counts the actions of that kind in our sources. Tap a
+          row to read them.
         </p>
-        <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
-          <Column p={ev} types={types} now />
-          {sims.map(({ p }) => (
-            <Column key={p.id} p={p} types={types} href={`/precedents/${p.id}/`} />
-          ))}
-        </div>
+        <SideBySide cols={[{ p: ev, now: true }, ...sims.map(({ p }) => ({ p, href: `/precedents/${p.id}/` }))]} />
       </section>
 
       <section>
