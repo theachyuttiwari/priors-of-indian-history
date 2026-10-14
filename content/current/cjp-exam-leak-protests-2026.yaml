@@ -1,0 +1,178 @@
+id: cjp-exam-leak-protests-2026
+title: Cockroach Janta Party protests over exam paper leaks
+summary: >
+  After the NEET-UG 2026 medical entrance paper leaked and the May exam was annulled, the
+  youth-led Cockroach Janta Party (CJP) held protests at Jantar Mantar in New Delhi from June
+  2026 to demand the resignation of Education Minister Dharmendra Pradhan and exam reform.
+  Sonam Wangchuk began a hunger strike on 28 June. On 20 July a march toward Parliament met
+  tear gas and batons, and opposition leaders were detained on 21 July. Pradhan resigned on
+  25 July and the CJP called off the protests after talks with Union ministers.
+period:
+  start: 2026-06-06
+  end: 2026-07-25
+location:
+  states: [Delhi, Maharashtra]
+  places: [Jantar Mantar, Parliament Street, Prime Minister's residence, Mumbai]
+protest:
+  cause: NEET-UG 2026 paper leak and other exam irregularities; demand for the Education Minister's resignation
+  organisers: [Cockroach Janta Party, AISA, AISF, SFI, KYS, Sonam Wangchuk]
+  scale: "Tens of thousands marched in New Delhi on 20 July (Al Jazeera); solidarity protests in Mumbai, Bengaluru, Kolkata, Goa, Ahmedabad and abroad"
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+actions:
+  - type: censorship
+    date: 2026-05
+    description: "After the May NEET-UG exam was annulled over leaked questions, the government temporarily banned Telegram to curb further leaks. About 2.2 million candidates had to retake the exam."
+    actor: centre
+    sources: [s1]
+  - type: permission_granted
+    date: 2026-06-06
+    description: "Delhi Police granted permission for the first Jantar Mantar protest until 5 pm and deployed about 5,000 personnel in New Delhi district."
+    actor: police
+    sources: [s5]
+  - type: other
+    date: 2026-07-18
+    description: "Delhi Police removed Sonam Wangchuk, on hunger strike since 28 June, from Jantar Mantar to hospital. Police cited medical advice and Delhi High Court directions; Al Jazeera and the organisers described the move as forcible."
+    actor: police
+    sources: [s1, s5]
+  - type: section_144
+    date: 2026-07-20
+    description: "Prohibitory orders under Section 163 of the BNSS were in force for the 'Chalo Sansad' march, and a DCP advisory said permission for the march had not been granted."
+    actor: police
+    sources: [s5]
+  - type: permission_denied
+    date: 2026-07-20
+    description: "Police said permission for the march from Jantar Mantar to Parliament had not been granted."
+    actor: police
+    sources: [s5]
+  - type: tear_gas
+    date: 2026-07-20
+    description: "Police fired tear gas at marchers heading toward Parliament. Police said stones were thrown at security forces and reported 118 personnel and 60 civilians injured; organisers said at least 150 protesters were wounded."
+    actor: police
+    sources: [s1, s3]
+  - type: lathi_charge
+    date: 2026-07-20
+    description: "Police used batons and canes on the march. Police denied the use of pellet guns; Wikipedia records a hospital report of a pellet wound, so the use of pellets is contested."
+    actor: police
+    sources: [s1, s3, s5]
+  - type: internet_shutdown
+    date: 2026-07-20
+    description: "Mobile internet was suspended at and near Jantar Mantar and Parliament. Human Rights Watch and Amnesty International condemned the suspension."
+    actor: police
+    sources: [s2, s5]
+  - type: detention
+    date: 2026-07-21
+    description: "Police detained Rahul Gandhi, Priyanka Gandhi and other opposition figures at a sit-in outside the Prime Minister's residence; Gandhi was released by 22 July."
+    actor: police
+    sources: [s1, s3]
+  - type: other
+    date: 2026-07-21
+    description: "On a petition from his wife alleging illegal detention, a court ordered Wangchuk moved to a private hospital (Medanta, Gurugram, per Wikipedia)."
+    actor: court
+    sources: [s1, s5]
+  - type: fir
+    date: 2026-07-23
+    description: "Mumbai police booked about 400 people in 13 FIRs over five days for protesting without permission. Delhi Police also registered FIRs over violence during the 20 July march."
+    actor: police
+    sources: [s5]
+  - type: negotiation
+    date: 2026-07-20
+    description: "The government held rounds of talks with CJP leaders on about 20 and 24 July; Union ministers J. P. Nadda and Jitendra Singh were the government negotiators."
+    actor: centre
+    sources: [s4, s5]
+  - type: concession
+    date: 2026-07-23
+    description: "Prime Minister Modi announced in a video on X a tougher law against paper leaks and fast-tracked court proceedings against those involved. Wangchuk ended his 26-day fast the same night after what he called a long negotiation on conditions."
+    actor: centre
+    sources: [s2]
+  - type: concession
+    date: 2026-07-25
+    description: "Dharmendra Pradhan resigned as Education Minister before a third round of talks. The CJP said its demands had been met and called off the protests; its other demands included compensation and the withdrawal of cases against protesters."
+    actor: centre
+    sources: [s4, s5]
+outcome: >
+  Pradhan resigned on 25 July 2026 and the CJP called off the Jantar Mantar protests the same
+  day. On 27-28 July the CJP said the government had not kept its pledge against action on
+  protesters and threatened to resume protests. An anti-paper-leak Bill was later cleared.
+positions:
+  - party: BJP
+    person: Dharmendra Pradhan
+    role_at_time: Union Education Minister
+    in_power: true
+    date: 2026-07-21
+    statement: "Accused Rahul Gandhi of trying to 'shamelessly exploit students as political tools to manufacture disruption'; also said 'We owe them (students) answers, reforms and accountability.'"
+    sources: [s1, s3]
+  - party: BJP
+    person: Narendra Modi
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2026-07-23
+    statement: "Called the paper leaks a 'matter of great pain' for students and promised a tougher law and fast-tracked trials."
+    sources: [s2]
+  - party: BJP
+    person: Dharmendra Pradhan
+    role_at_time: Union Education Minister (resigning)
+    in_power: true
+    date: 2026-07-25
+    statement: "I am pained to see the events of the past 10 days."
+    sources: [s4]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2026-07-20
+    statement: "Said the tear-gassing and lathi-charging of students was not democratic and called Modi India's most 'anti-youth' Prime Minister."
+    sources: [s5]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2026-07-25
+    statement: "Called the resignation a 'huge step', urged Modi to apologise and said action should be taken against those guilty of violence against students."
+    sources: [s4]
+  - party: other (Cockroach Janta Party)
+    person: Abhijeet Dipke
+    role_at_time: CJP founder
+    in_power: false
+    date: 2026-07-23
+    statement: "Said the protest at Jantar Mantar would continue 'until Dharmendra Pradhan resigns.'"
+    sources: [s2]
+sources:
+  - id: s1
+    title: Opposition MPs disrupt Indian parliament in support of Cockroach protesters
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest
+    date: 2026-07-22
+    type: news
+  - id: s2
+    title: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
+    date: 2026-07-23
+    type: news
+  - id: s3
+    title: India opposition leader released after protest detention
+    publisher: France 24 (AFP)
+    url: https://www.france24.com/en/live-news/20260722-india-opposition-leader-released-after-protest-detention
+    date: 2026-07-22
+    type: news
+  - id: s4
+    title: Indian education minister resigns after mass protests over exam paper leaks
+    publisher: France 24
+    url: https://www.france24.com/en/asia-pacific/20260725-indian-education-minister-resigns-after-mass-protests-over-exam-paper-leaks
+    date: 2026-07-25
+    type: news
+  - id: s5
+    title: 2026 Jantar Mantar protests
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/2026_Jantar_Mantar_protests
+    date: 2026-10-15
+    type: archive
+tags: [students, exams, delhi, internet_shutdown, section_163, detention, resignation, youth]
+related_precedents: [agnipath-protests-2022, anti-reservation-youth-for-equality-2006, delhi-gang-rape-protests-2012, india-against-corruption-2011]
+reviewed: false
+last_updated: 2026-10-15

@@ -20,7 +20,7 @@ export default function Timeline({ p }: { p: Precedent }) {
           </div>
           <p className="text-sm text-ink-2 mt-1 max-w-2xl">{a.description}</p>
           {a.sources.length > 0 && (
-            <p className="mt-1 text-xs text-ink-3 space-x-2">
+            <p className="mt-1 text-xs text-ink-3 flex flex-wrap gap-x-3 gap-y-1">
               {a.sources.map((id) => {
                 const s = src.get(id);
                 return s ? (

@@ -1,0 +1,186 @@
+id: kashmir-lockdown-article-370-2019
+title: Jammu and Kashmir lockdown after the abrogation of Article 370, 2019-2021
+summary: >
+  On 4-5 August 2019, as Parliament moved to read down Article 370 and split Jammu and Kashmir
+  into two union territories, authorities cut mobile, internet, landline and cable TV services in
+  the Kashmir Valley, imposed Section 144 orders, and detained mainstream political leaders,
+  including three former chief ministers. Former chief ministers Farooq Abdullah, Omar Abdullah and
+  Mehbooba Mufti were later held under the Public Safety Act. The Supreme Court ruled in January 2020
+  that indefinite internet suspension is not permitted and ordered a review of the orders. Mobile
+  internet returned at 2G speed in January 2020, and 4G across the union territory in February 2021.
+period:
+  start: 2019-08-04
+  end: 2021-02-05
+location:
+  states: [Jammu and Kashmir]
+  places: [Srinagar, Kashmir Valley, Jammu, Kishtwar, Rajouri, Banihal]
+protest:
+  cause: Abrogation of Article 370 and bifurcation of Jammu and Kashmir into two union territories
+  organisers: [No single organiser; the restrictions were pre-emptive and targeted mainstream parties, separatists and activists]
+  scale: "Valley-wide communications blackout and movement restrictions; an unnamed official told Al Jazeera in August 2019 that over 1,000 people had been detained"
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: other (President's rule; Union Territory administration from 31 October 2019)
+    head: Satya Pal Malik
+    role: Governor
+    name: Jammu and Kashmir
+actions:
+  - type: internet_shutdown
+    date: 2019-08-04
+    description: "Mobile phone networks, internet services and landline connectivity were discontinued in the Kashmir Valley on 4 August 2019, as recorded in the Supreme Court judgment. Cable TV was also cut. Landlines were restored between mid-August and September 2019, postpaid mobile voice on 14 October 2019, and SMS on 1 January 2020."
+    actor: state
+    sources: [s7, s10, s9]
+  - type: section_144
+    date: 2019-08-05
+    description: "Prohibitory orders under Section 144 CrPC were imposed in Srinagar, banning assembly of more than four people and closing educational institutions; similar orders were imposed in Jammu district, with night curfew in Kishtwar, Rajouri and Banihal. The Srinagar district administration said no curfew orders were issued, while reporters described the restrictions as an effective curfew."
+    actor: state
+    sources: [s2, s1, s10]
+  - type: house_arrest
+    date: 2019-08-04
+    description: "Omar Abdullah, Mehbooba Mufti and other mainstream leaders were placed under house arrest on the night of 4 August 2019. On 5 August Mehbooba Mufti was taken into custody and both she and Omar Abdullah were moved to government guest houses (Hari Niwas and Chashm-e-Shahi). Farooq Abdullah, a sitting Lok Sabha MP, was held at his home on Gupkar Road. The administration did not publish detention figures."
+    actor: state
+    sources: [s2, s3, s1]
+  - type: detention
+    date: 2019-09-16
+    description: "It emerged on Monday 16 September 2019 that Farooq Abdullah had been detained under the Jammu and Kashmir Public Safety Act, 1978, which allows detention without trial for up to two years."
+    actor: state
+    sources: [s4, s5]
+  - type: detention
+    date: 2020-02-06
+    description: "Omar Abdullah and Mehbooba Mufti were booked under the PSA on the night of 6 February 2020, when their six-month preventive custody was ending. The police dossiers accused Omar Abdullah of instigating the masses against central policies and called Mehbooba Mufti a promoter of separatism. Omar Abdullah's sister challenged the order in the Supreme Court, calling the dossier 'patently false and ridiculous'. Mehbooba Mufti was released on 13 October 2020."
+    actor: state
+    sources: [s5, s6, s12]
+  - type: other
+    date: 2020-01-10
+    description: "Supreme Court judgment in Anuradha Bhasin v. Union of India: free speech and trade over the internet are protected under Article 19; indefinite suspension of internet is not permitted; all suspension and Section 144 orders must be published and reviewed; a review committee must re-examine suspensions every seven working days; and restoration of e-banking, hospital and government website access must be considered."
+    actor: court
+    sources: [s7]
+  - type: concession
+    date: 2020-01-25
+    description: "Mobile data was restored across the union territory at 2G speed from 25 January 2020, limited to a government whitelist of websites with social media and VPNs blocked. A first whitelist and partial 2G restoration in Jammu division and two Valley districts had been announced on 18 January."
+    actor: state
+    sources: [s8, s9]
+  - type: concession
+    date: 2021-02-05
+    description: "The J&K administration ordered restoration of 4G mobile internet across the union territory on 5 February 2021, more than 17 months after it was suspended. The order cited an assessment by a special committee set up on the Supreme Court's 11 May 2020 directions. 4G had been restored on trial in Ganderbal and Udhampur in August 2020."
+    actor: state
+    sources: [s9]
+outcome: >
+  Mobile internet was restored in stages, with 4G across Jammu and Kashmir from February 2021.
+  The J&K government revoked Mehbooba Mufti's PSA detention on 13 October 2020, fourteen months
+  after her arrest and two days before the Supreme Court was to hear her daughter's petition.
+positions:
+  - party: BJP
+    person: Amit Shah
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2019-08-05
+    statement: "In the Rajya Sabha, said Jammu and Kashmir could be made a state again as soon as normalcy returns, and tweeted that the 'historic decision will usher in a new dawn of peace and development in J&K and Ladakh region'."
+    sources: [s2]
+  - party: other (J&K administration)
+    person: BVR Subrahmanyam
+    role_at_time: Chief Secretary, Jammu and Kashmir
+    in_power: true
+    date: 2019-08-17
+    statement: "Preventive detentions are being reviewed and appropriate decisions will be taken based on law and order assessments."
+    sources: [s3]
+  - party: PDP
+    person: Mehbooba Mufti
+    role_at_time: Former Chief Minister, PDP president
+    in_power: false
+    date: 2019-08-05
+    statement: "Called it the darkest day in Indian democracy, and said the unilateral decision to scrap Article 370 is illegal and unconstitutional and will make India an occupational force in J&K."
+    sources: [s11]
+  - party: NC
+    person: Omar Abdullah
+    role_at_time: Former Chief Minister, NC vice-president
+    in_power: false
+    date: 2019-08-04
+    statement: "If officers in the state government are to be believed mobile internet is going down now, an unofficial curfew is going to start & mainstream leaders are going to be detained."
+    sources: [s2]
+  - party: NC
+    person: Omar Abdullah
+    role_at_time: Former Chief Minister, NC vice-president
+    in_power: false
+    date: 2021-02-05
+    statement: "4G Mubarak! For the first time since Aug 2019 all of J&K will have 4G mobile data. Better late than never."
+    sources: [s9]
+sources:
+  - id: s1
+    title: "India imposes Kashmir lockdown, puts leaders 'under house arrest'"
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/08/india-imposes-lockdown-kashmir-puts-leaders-house-arrest-190804174841241.html
+    date: 2019-08-04
+    type: news
+  - id: s2
+    title: "Article 370 Revoked: J&K Leaders Detained, PM Modi Praises Amit Shah"
+    publisher: The Wire
+    url: https://thewire.in/security/kashmir-curfew-internet-house-arrest
+    date: 2019-08-05
+    type: news
+  - id: s3
+    title: Key Kashmir political leaders arrested by India since August 5
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5
+    date: 2019-08-17
+    type: news
+  - id: s4
+    title: "Explained: What is Jammu and Kashmir's Public Safety Act?"
+    publisher: The Indian Express
+    url: https://indianexpress.com/article/explained/farooq-abdullah-psa-jammu-and-kashmir-explained-6001031/
+    date: 2019-09-17
+    type: news
+  - id: s5
+    title: "PSA file indicts Omar Abdullah for getting people to vote, refers to Mehbooba Mufti as 'Daddy's girl'"
+    publisher: The Indian Express
+    url: https://indianexpress.com/article/india/omar-abdullah-mehbooba-mufti-public-safety-act-psa-jammu-and-kashmir-6259588/
+    date: 2020-02-10
+    type: news
+  - id: s6
+    title: Omar Abdullah's Sister Files Petition in Supreme Court Against His Detention Under PSA
+    publisher: The Wire
+    url: https://thewire.in/rights/omar-abdullah-psa-detention-supreme-court
+    date: 2020-02-10
+    type: news
+  - id: s7
+    title: Anuradha Bhasin v. Union of India (W.P. (C) No. 1031 of 2019)
+    publisher: Supreme Court of India (via Indian Kanoon)
+    url: https://indiankanoon.org/doc/82461587/
+    date: 2020-01-10
+    type: court_judgment
+  - id: s8
+    title: "Data Services on Low Speed 2G Restored Across J&K, Some News Sites Now 'Whitelisted'"
+    publisher: The Wire
+    url: https://thewire.in/government/2g-data-services-to-be-restored-throughout-jammu-kashmir-union-territory
+    date: 2020-01-24
+    type: news
+  - id: s9
+    title: 17 months on, 4G internet services restored in Jammu and Kashmir
+    publisher: Hindustan Times
+    url: https://www.hindustantimes.com/india-news/17-months-on-4g-internet-services-restored-in-jammu-and-kashmir-101612564917419.html
+    date: 2021-02-06
+    type: news
+  - id: s10
+    title: Kashmir Valley has seen many a lockdown but why this time it is so different
+    publisher: The Indian Express
+    url: https://indianexpress.com/article/india/valley-has-seen-many-a-lockdown-but-why-this-time-it-is-so-different-article-370-kashmir-amit-shah-5884129/
+    date: 2019-08-07
+    type: news
+  - id: s11
+    title: "'Dark day for democracy': Mehbooba Mufti on scrapping of Article 370 for India's Jammu and Kashmir"
+    publisher: Gulf News
+    url: https://gulfnews.com/world/asia/dark-day-for-democracy-mehbooba-mufti-on-scrapping-of-article-370--for-indias-jammu-and-kashmir-1.1564989656723
+    date: 2019-08-05
+    type: news
+  - id: s12
+    title: "Mehbooba released, says 'will take back what Delhi snatched'"
+    publisher: The Indian Express
+    url: https://indianexpress.com/article/india/mehbooba-mufti-released-from-detention-6723785/
+    date: 2020-10-14
+    type: news
+tags: [jammu-and-kashmir, article-370, internet_shutdown, section_144, house_arrest, public_safety_act, supreme_court, bjp]

@@ -1,0 +1,187 @@
+id: agnipath-protests-2022
+title: Protests against the Agnipath military recruitment scheme, June 2022
+summary: >
+  The Union government announced the Agnipath scheme on 14 June 2022. It recruits people
+  aged 17.5 to 21 into the armed forces for four-year terms, with about a quarter retained.
+  Job aspirants protested from 15-16 June in Bihar, Uttar Pradesh, Haryana, Rajasthan,
+  Madhya Pradesh, Telangana and other states. Protesters set train coaches on fire, attacked
+  BJP offices and blocked rail lines. In Bihar about 60 coaches were burnt and railway losses
+  were put at about Rs 700 crore. The Centre raised the 2022 age limit to 23 and announced
+  10% job reservations for Agniveers, but did not withdraw the scheme.
+period:
+  start: 2022-06-15
+  end: 2022-06-20
+location:
+  states: [Bihar, Uttar Pradesh, Haryana, Telangana, Rajasthan, Madhya Pradesh, Delhi]
+  places: [Bhabua, Chhapra, Nawada, Samastipur, Lakhisarai, Ballia, Palwal, Faridabad, Secunderabad, Gwalior]
+protest:
+  cause: Withdrawal of the Agnipath four-year recruitment scheme and a return to regular recruitment with pension
+  organisers: [Largely unorganised job aspirants; a Bharat Bandh on 20 June was called on social media without a named organiser]
+  scale: Protests in about 13 states; about 60 train coaches burnt in Bihar; hundreds of trains cancelled; one dead in Secunderabad
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: JD(U)
+    head: Nitish Kumar
+    role: Chief Minister
+    name: Bihar
+actions:
+  - type: tear_gas
+    date: 2022-06-16
+    description: "Police in Bihar fired tear gas shells and baton-charged protesters at some locations, on a day when protesters set train coaches on fire in Bhabua and Chhapra and a BJP office was set on fire in Nawada."
+    actor: police
+    sources: [s1]
+  - type: firing
+    date: 2022-06-16
+    description: "In Palwal, Haryana, police fired shots to disperse protesters who had thrown stones outside the district commissioner's office and torched police vehicles; internet services in Palwal were suspended."
+    actor: police
+    sources: [s1, s2]
+  - type: concession
+    date: 2022-06-16
+    description: "The Union government gave a one-time waiver that raised the upper age limit for Agnipath recruitment in 2022 from 21 to 23. The Ministry of Defence said this was because there had been no recruitment in the services in the last two years."
+    actor: centre
+    sources: [s2]
+  - type: internet_shutdown
+    date: 2022-06-17
+    description: "The Bihar government suspended internet services in 12 districts until 19 June. By 20 June, internet remained suspended in 17 of Bihar's 38 districts. Haryana also suspended mobile internet and SMS for 24 hours in Mahendragarh and the Ballabhgarh area of Faridabad."
+    actor: state
+    sources: [s3, s5]
+  - type: firing
+    date: 2022-06-17
+    description: "Police opened fire on protesters at Secunderabad railway station in Telangana after protesters vandalised the station and set train bogies on fire. One person died and 13 injured people were admitted to Gandhi Hospital."
+    actor: police
+    sources: [s3, s4]
+  - type: section_144
+    date: 2022-06-17
+    description: "Prohibitory orders under Section 144 were imposed in Faridabad and large gatherings were banned in Gurugram. On 20 June, the day of a Bharat Bandh call, police in several areas imposed Section 144, and prohibitory orders were reported in some districts of Bihar, Jharkhand, Uttar Pradesh, Kerala, Assam and Rajasthan."
+    actor: state
+    sources: [s3, s6, s5]
+  - type: fir
+    date: 2022-06-18
+    description: "Bihar Police registered 24 cases and detained more than 125 people by 17 June. ADGP Sanjay Singh said about 620 people had been arrested and 130 FIRs filed by 18 June. A later report cited 718 arrests in Bihar. Uttar Pradesh reported six FIRs and 260 arrests, and Haryana 23 arrests and more than 1,000 people booked in Palwal. Reported Bihar figures differ between sources."
+    actor: police
+    sources: [s3, s7, s8]
+  - type: concession
+    date: 2022-06-18
+    description: "The Home Ministry announced 10% reservation for Agniveers in the Central Armed Police Forces and Assam Rifles, with a 3-year age relaxation (5 years for the first batch). Defence Minister Rajnath Singh approved 10% reservation of Ministry of Defence vacancies, including the Indian Coast Guard, defence civilian posts and 16 defence PSUs. Army officer Lt Gen Anil Puri said these concessions were already planned and were not a response to the protests."
+    actor: centre
+    sources: [s4, s9, s7b]
+outcome: >
+  The government did not roll back the scheme. The Army issued a notification on 20 June
+  to begin registrations for the first batch from July. The opposition raised the scheme in
+  the Bihar Assembly on 27 June 2022, and the Assembly was adjourned for the day.
+positions:
+  - party: BJP
+    person: Ashwini Vaishnaw
+    role_at_time: Union Railway Minister
+    in_power: true
+    date: 2022-06-19
+    statement: "The government is listening to your grievances with sensitivity. Taking part in discussions is the appropriate approach for any situation."
+    sources: [s8]
+  - party: BJP
+    person: Rajnath Singh
+    role_at_time: Union Defence Minister
+    in_power: true
+    date: 2022-06-18
+    statement: "On the 10% reservation for Agniveers in Defence Ministry jobs, said: This reservation would be in addition to existing reservation for ex-servicemen. Necessary amendments to relevant recruitment rules will be undertaken to implement these provisions."
+    sources: [s4]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Lok Sabha MP, opposition
+    in_power: false
+    date: 2022-06-16
+    statement: "Said the BJP government must stop compromising the dignity, traditions, valour and discipline of our forces."
+    sources: [s10]
+  - party: INC
+    person: Mallikarjun Kharge
+    role_at_time: Leader of Opposition, Rajya Sabha
+    in_power: false
+    date: 2022-06-20
+    statement: "For the first time in 75 years, service chiefs are being fronted to defend a policy decision by the government."
+    sources: [s6]
+  - party: RJD
+    person: Tejashwi Yadav
+    role_at_time: Leader of Opposition, Bihar Assembly
+    in_power: false
+    date: 2022-06-19
+    statement: "Asked whether the scheme was like MGNREGA or had a hidden agenda, and demanded its withdrawal."
+    sources: [s7b]
+  - party: JD(U)
+    person: Lalan Singh
+    role_at_time: JD(U) National President, BJP ally in Bihar
+    in_power: true
+    date: 2022-06-19
+    statement: "Said the BJP had not consulted the JD(U) before announcing the scheme, in reply to Bihar BJP chief Sanjay Jaiswal, who blamed the JD(U) for the vandalism of his house in Bettiah."
+    sources: [s7b]
+sources:
+  - id: s1
+    title: "Agnipath scheme: Violent protests in many states, train coaches set on fire"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026311/agnipath-scheme-violent-protests-in-india-train-coaches-set-on-fire
+    date: 2022-06-16
+    type: news
+  - id: s2
+    title: "Agnipath scheme: Government raises age limit to 23 from 21 for recruitment this year"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026341/agnipath-scheme-government-increases-upper-age-limit-to-23-from-21-for-recruitment-in-2022
+    date: 2022-06-17
+    type: news
+  - id: s3
+    title: "Agnipath protests: One dead in Secunderabad, five trains set ablaze in three states"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up
+    date: 2022-06-17
+    type: news
+  - id: s4
+    title: "Agnipath scheme: Home, defence ministries announce 10% job quota for recruits as protests continue"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026422/10-reservation-for-agnipath-recruits-in-central-police-force-and-assam-rifles-announces-centre
+    date: 2022-06-18
+    type: news
+  - id: s5
+    title: "Bharat Bandh against Agnipath scheme disrupts road, rail traffic; Railways cancels over 600 trains"
+    publisher: The Tribune (PTI)
+    url: https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
+    date: 2022-06-20
+    type: news
+  - id: s6
+    title: "Agnipath protests top updates: Over 500 trains cancelled, Modi to meet service chiefs on Tuesday"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026511/agnipath-protests-top-updates-security-ramped-up-in-several-states-amid-bharat-bandh-call
+    date: 2022-06-20
+    type: news
+  - id: s7
+    title: "Agnipath protests top updates: Agitation in 13 states, railway stations ransacked in Bihar, Punjab"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026433/agnipath-protests-top-updates-260-persons-arrested-in-uttar-pradesh-23-in-haryana
+    date: 2022-06-18
+    type: news
+  - id: s7b
+    title: "Agnipath protest top updates: Bihar burning but BJP and JD(U) are fighting, says Prashant Kishor"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026487/agnipath-protest-top-updates-bihar-burning-but-bjp-and-jd-u-are-fighting-says-prashant-kishor
+    date: 2022-06-19
+    type: news
+  - id: s8
+    title: "Agnipath protests: 60 train coaches burnt, Railways suffers losses of Rs 700 crore"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1026482/agnipath-protests-60-train-coaches-burnt-railways-suffers-losses-of-rs-700-crore
+    date: 2022-06-19
+    type: news
+  - id: s9
+    title: "Bihar Assembly adjourned after Opposition calls for discussion on Agnipath scheme"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1027052/bihar-assembly-adjourned-after-opposition-calls-for-discussion-on-agnipath-scheme
+    date: 2022-06-27
+    type: news
+  - id: s10
+    title: "'Agnipath': Anger in India over Modi's new army recruitment plan"
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2022/6/16/agnipath-anger-in-india-over-modis-new-army-recruitment-plan
+    date: 2022-06-16
+    type: news
+tags: [bihar, military_recruitment, youth, unemployment, internet_shutdown, section_144, firing, concession, railways, bjp, jdu]

@@ -1,0 +1,90 @@
+id: narmada-bachao-andolan-1989-1993
+title: Narmada Bachao Andolan and Sardar Sarovar, 1989-1993
+summary: >
+  The Narmada Bachao Andolan (NBA), led by Medha Patkar with Baba Amte, opposed the Sardar
+  Sarovar dam over displacement and environmental damage. Patkar led a long march from Madhya
+  Pradesh towards the dam site, which police resisted, and undertook a 22-day hunger strike in
+  1991. The World Bank set up an independent review (the Morse review), which called the project
+  ill-conceived. In 1993 the Government of India stopped drawing on the World Bank loan and chose
+  to finish the project with national resources.
+period:
+  start: 1989
+  end: 1993-03-31
+location:
+  states: [Gujarat, Madhya Pradesh, Maharashtra]
+  places: [Narmada valley, Sardar Sarovar dam site]
+protest:
+  cause: Displacement and environmental damage from the Sardar Sarovar dam
+  organisers: [Narmada Bachao Andolan, Medha Patkar, Baba Amte]
+  scale: "A five-week Sangharsh Yatra in 1991; a 36-day march; a 22-day hunger strike"
+government:
+  centre:
+    party: INC
+    head: P. V. Narasimha Rao
+    role: Prime Minister
+  state:
+    party: Janata Dal
+    head: Chimanbhai Patel
+    role: Chief Minister
+    name: Gujarat
+actions:
+  - type: other
+    date: 1991
+    description: "Medha Patkar led a 36-day march from Madhya Pradesh to the dam site, which police resisted. A five-week Sangharsh Yatra took place in 1991. The sources do not describe the police action in detail."
+    actor: police
+    sources: [s1]
+  - type: detention
+    date: 1991
+    description: "Patkar was repeatedly beaten and arrested by police during her protests, according to the Goldman Prize citation. The source does not date the individual arrests."
+    actor: police
+    sources: [s3]
+  - type: other
+    date: 1993-03-31
+    description: "After the independent review, the Government of India decided to terminate further drawing from the World Bank loan and to complete the project with national resources. Wikipedia's Sardar Sarovar Dam article dates the World Bank withdrawal to 1994; the NBA article gives 31 March 1993."
+    actor: centre
+    sources: [s1, s2, s4]
+outcome: >
+  The World Bank left the project and the government continued it with its own funds. The Supreme
+  Court stalled the project in 1995 and in 2000 upheld the Tribunal Award, allowing construction
+  to proceed with conditions.
+positions:
+  - party: other (Narmada Bachao Andolan)
+    person: Medha Patkar
+    role_at_time: Leader of the Narmada Bachao Andolan
+    in_power: false
+    date: 1991
+    statement: "Described the march as \"a path symbolizing the long path of struggle (both immediate and long-term)\"."
+    sources: [s1]
+  - party: INC
+    role_at_time: Government of India
+    in_power: true
+    date: 1993
+    statement: "Did not accept the independent review's report and decided to \"terminate further drawing from the World Bank loan\" and complete the project with national resources."
+    sources: [s2]
+sources:
+  - id: s1
+    title: Narmada Bachao Andolan
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
+    type: archive
+  - id: s2
+    title: Narmada River
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Narmada_River
+    type: archive
+  - id: s3
+    title: Medha Patkar, 1992 Goldman Environmental Prize recipient
+    publisher: Goldman Environmental Prize
+    url: https://www.goldmanprize.org/recipient/medha-patkar/
+    type: archive
+  - id: s4
+    title: Sardar Sarovar Dam
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
+    type: archive
+  - id: s5
+    title: Chimanbhai Patel
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Chimanbhai_Patel
+    type: archive
+tags: [dams, displacement, environment, world_bank, gujarat, madhya_pradesh, maharashtra]

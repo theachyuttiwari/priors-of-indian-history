@@ -1,0 +1,93 @@
+id: anti-mandal-agitation-1990
+title: Anti-Mandal agitation, 1990
+summary: >
+  On 7 August 1990 the National Front government of V. P. Singh announced 27 per cent reservation
+  for socially and educationally backward classes in central government jobs and public sector
+  undertakings, following the Mandal Commission report. Upper-caste students across north India
+  closed colleges, held rallies and clashed with police. On 19 September 1990 Delhi student Rajeev
+  Goswami attempted self-immolation, and about 200 attempts followed with more than 60 deaths.
+  Police firing was reported in six states, and the Supreme Court stayed the government order.
+period:
+  start: 1990-08-07
+  end: 1990-11
+location:
+  states: [Delhi, Uttar Pradesh, Bihar, Andhra Pradesh]
+  places: [Deshbandhu College, AIIMS intersection Delhi, Hyderabad]
+protest:
+  cause: Withdrawal of the 27 per cent OBC reservation in central government jobs
+  organisers: [College and university students in north India, Delhi University students]
+  scale: "Bandhs and campus shutdowns across north India; nearly 200 self-immolation attempts with 62 deaths reported"
+government:
+  centre:
+    party: Janata Dal
+    alliance: National Front
+    head: V. P. Singh
+    role: Prime Minister
+actions:
+  - type: other
+    date: 1990-08-13
+    description: The Government Order reserving 27 per cent of central government and public sector posts for socially and educationally backward classes was issued. V. P. Singh announced its implementation in his Independence Day speech on 15 August.
+    actor: centre
+    sources: [s1]
+  - type: firing
+    date: 1990-09
+    description: "Police firing was reported in six states and claimed more than 50 lives, according to Wikipedia's Mandal Commission article. The source does not give dates or places for each firing."
+    actor: police
+    sources: [s1]
+  - type: other
+    date: 1990
+    description: "Police prevented the extension of student strikes and stopped some strike activity, according to Wikipedia's article on the 1990 protests. The source gives no details."
+    actor: police
+    sources: [s2]
+  - type: other
+    date: 1990
+    description: A five-judge bench of the Supreme Court, hearing a petition by Indra Sawhney filed in September 1990, stayed the 13 August government order until the case was finally decided.
+    actor: court
+    sources: [s1, s3]
+outcome: >
+  V. P. Singh lost a confidence vote and resigned on 7 November 1990, after the BJP withdrew
+  support over L. K. Advani's arrest during the Rath Yatra. On 16 November 1992 the Supreme Court
+  in Indra Sawhney upheld 27 per cent OBC reservation, excluded the creamy layer, and set a 50 per
+  cent ceiling.
+positions:
+  - party: Janata Dal
+    person: V. P. Singh
+    role_at_time: Prime Minister
+    in_power: true
+    date: 1990
+    statement: "Asked his opponents in Parliament: \"What kind of India do you want?\""
+    sources: [s4]
+  - party: other (no party; petitioner)
+    person: Indra Sawhney
+    role_at_time: Petitioner in the Supreme Court
+    in_power: false
+    date: 1990-09
+    statement: "Argued that the order violated equality of opportunity, that caste was not a reliable indicator of backwardness, and that the efficiency of public institutions was at risk."
+    sources: [s1, s3]
+sources:
+  - id: s1
+    title: Mandal Commission
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Mandal_Commission
+    type: archive
+  - id: s2
+    title: Mandal Commission protests of 1990
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
+    type: archive
+  - id: s3
+    title: Indra Sawhney & Others v. Union of India
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
+    type: archive
+  - id: s4
+    title: V. P. Singh
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/V._P._Singh
+    type: archive
+  - id: s5
+    title: Rajiv Goswami
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Rajiv_Goswami
+    type: archive
+tags: [reservation, students, self_immolation, firing, delhi, supreme_court]

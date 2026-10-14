@@ -1,0 +1,191 @@
+id: anti-caa-shaheen-bagh-2019-2020
+title: Anti-CAA protests and the Shaheen Bagh sit-in, December 2019 - March 2020
+summary: >
+  Protests against the Citizenship (Amendment) Act, 2019 spread across India in December 2019.
+  Delhi Police entered the Jamia Millia Islamia campus on 15 December 2019, and the same day a
+  sit-in led largely by women closed the Kalindi Kunj-Shaheen Bagh road in Delhi. Uttar Pradesh,
+  governed by the BJP under Yogi Adityanath, imposed Section 144 statewide, suspended mobile
+  internet in many districts and demanded payment for property damage from protesters. Delhi Police
+  cleared Shaheen Bagh on 24 March 2020 during the COVID-19 lockdown, and the Supreme Court later
+  held that public ways cannot be occupied indefinitely for protest.
+period:
+  start: 2019-12-15
+  end: 2020-03-24
+location:
+  states: [Delhi, Uttar Pradesh]
+  places: [Shaheen Bagh, Jamia Millia Islamia, New Friends Colony, Lucknow, Sambhal, Aligarh, Mau, Ghaziabad, Azamgarh, Rampur, Meerut]
+protest:
+  cause: Repeal of the Citizenship (Amendment) Act, 2019 and opposition to the proposed NPR and NRC
+  organisers: [Students of Jamia Millia Islamia; local residents and women of Shaheen Bagh; the Supreme Court noted an absence of leadership at Shaheen Bagh]
+  scale: Nationwide protests; at least 27 deaths nationwide by 27 December 2019, most of them in Uttar Pradesh; Shaheen Bagh road closed for about 100 days
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: AAP
+    head: Arvind Kejriwal
+    role: Chief Minister
+    name: Delhi
+actions:
+  - type: lathi_charge
+    date: 2019-12-15
+    description: "Delhi Police, which reports to the Union Home Ministry, entered the Jamia Millia Islamia campus after clashes nearby and charged students with batons. The university said it gave no permission. Students said police broke a library gate lock and beat people inside. Police said about 4,000 people were protesting, crowds burned buses, they entered the campus to maintain order and six officers were wounded. Accounts are contested."
+    actor: police
+    sources: [s1]
+  - type: tear_gas
+    date: 2019-12-15
+    description: "Indian media reported that tear gas was fired into some classrooms at Jamia Millia Islamia. Hospital officials said more than 100 people were injured. A senior officer said: \"If it had been a peaceful mob, it would have been dispersed peacefully.\""
+    actor: police
+    sources: [s1]
+  - type: detention
+    date: 2019-12-15
+    description: "Nearly 100 students were detained after the Jamia action and released early on 16 December 2019."
+    actor: police
+    sources: [s1]
+  - type: firing
+    date: 2019-12-15
+    description: "Delhi Police first said no bullets were fired near Jamia and that injuries could have come from tear gas shells. An internal inquiry reported in January 2020 found that two police personnel fired three bullets at New Friends Colony; the officers said they fired in self-defence."
+    actor: police
+    sources: [s2]
+  - type: section_144
+    date: 2019-12
+    description: "Section 144 of the CrPC, which bans assembly of more than four people, was in force across the whole of Uttar Pradesh for several days by 20 December 2019. The order was also imposed elsewhere in India."
+    actor: state
+    sources: [s3, s4]
+  - type: internet_shutdown
+    date: 2019-12-19
+    description: "The Uttar Pradesh government suspended mobile internet and SMS in Lucknow from 3 pm on 19 December to noon on 21 December 2019, citing violence during the protests. Internet was also suspended in Sambhal, Aligarh, Mau, Ghaziabad and Azamgarh districts. On 21 December suspension in the state was extended by 48 hours, and mobile internet was cut again in many parts of the state, including Lucknow, on 26 December."
+    actor: state
+    sources: [s3, s4, s5]
+  - type: other
+    date: 2019-12
+    description: "Recovery of property damage: the Uttar Pradesh government demanded millions of rupees from more than 200 people and threatened to confiscate their property to pay for protest damage. In March 2020 the Lucknow administration put up hoardings with the photos, names and addresses of 53 people accused of violence. On 9 March 2020 the Allahabad High Court ordered their removal as an unwarranted interference in privacy."
+    actor: state
+    sources: [s6, s7]
+  - type: other
+    date: 2020-03-24
+    description: "Delhi Police cleared the Shaheen Bagh protest site on 24 March 2020, in view of the COVID-19 lockdown, and removed graffiti and art installations at Shaheen Bagh and Jamia. Three protesters charged with disobeying restrictions on gatherings got bail on 30 March 2020. The Supreme Court judgment says the site was cleared with some police action to remove structures."
+    actor: police
+    sources: [s8, s9, s10]
+  - type: other
+    date: 2020-10-07
+    description: "Supreme Court judgment in Amit Sahni v Commissioner of Police (Civil Appeal No. 3282 of 2020; Kaul, Bose and Murari JJ). The court held that public ways and public spaces cannot be occupied indefinitely, that dissent must be expressed in designated places, and that the administration ought to keep such areas clear. It also noted that court-appointed interlocutors failed to find a solution and criticised the administration for neither negotiating nor acting."
+    actor: court
+    sources: [s10]
+outcome: >
+  The Shaheen Bagh site was cleared on 24 March 2020 during the COVID-19 lockdown. The CAA was not
+  repealed. On 7 October 2020 the Supreme Court held that public ways cannot be occupied indefinitely
+  for protest.
+positions:
+  - party: BJP
+    person: Yogi Adityanath
+    role_at_time: Chief Minister of Uttar Pradesh
+    in_power: true
+    date: 2019-12-28
+    statement: "Said he would take revenge against those behind the violence. His official account posted: \"Every rioter is shocked. Every troublemaker is astonished.\" and \"Do whatever you want to, but the damages will be paid by those who cause damages\"."
+    sources: [s5, s6]
+  - party: BJP
+    person: Amit Shah
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2020-03-12
+    statement: "Told the Rajya Sabha that no documents would be sought from people during NPR enumeration and that there was a need to remove apprehensions over the CAA and NPR."
+    sources: [s11]
+  - party: INC
+    person: Priyanka Gandhi Vadra
+    role_at_time: Congress General Secretary, opposition
+    in_power: false
+    date: 2019-12-21
+    statement: "Accused the government of being \"bent upon using repression and violence to suppress the voice of people\" and said: \"The NRC and the Citizenship (Amendment) Act is against the fundamental spirit of the Constitution of India\"."
+    sources: [s12]
+  - party: BSP
+    person: Mayawati
+    role_at_time: BSP president, opposition
+    in_power: false
+    date: 2019-12-21
+    statement: "\"Now that voices opposed to the CAA and NRC have started coming from within the NDA, the central government should give up its stubborn stand and withdraw its decisions.\""
+    sources: [s12]
+  - party: AAP
+    person: Arvind Kejriwal
+    role_at_time: Chief Minister of Delhi (in power in Delhi, opposition to the BJP at the centre)
+    in_power: true
+    date: 2020-03-13
+    statement: "In the Delhi Assembly debate on a resolution against the NPR in its present form, said: \"Either Hindus will have to say that they are Pakistanis or they too will have to go to detention centres.\""
+    sources: [s11]
+sources:
+  - id: s1
+    title: India police storm Jamia, AMU to break citizenship law protests
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/12/16/india-police-storm-jamia-amu-to-break-citizenship-law-protests
+    date: 2019-12-16
+    type: news
+  - id: s2
+    title: "Jamia violence: Two Delhi police officers fired guns during CAA protests, reveals internal inquiry"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry
+    date: 2020-01-05
+    type: news
+  - id: s3
+    title: "Internet Shutdown: Lucknow Till December 21, Dakshina Kannada for 48 Hours"
+    publisher: The Wire
+    url: https://thewire.in/rights/internet-shutdown-lucknow-karnataka-caa
+    date: 2019-12-20
+    type: news
+  - id: s4
+    title: BJP-ruled state tops death toll in India citizenship law protests
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/12/modi-summons-ministers-india-protests-death-toll-increases-191221063611978.html
+    date: 2019-12-21
+    type: news
+  - id: s5
+    title: Internet banned in India's Uttar Pradesh amid anger over killings
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/12/internet-banned-india-uttar-pradesh-anger-killings-191227060434667.html
+    date: 2019-12-27
+    type: news
+  - id: s6
+    title: "'Go to Pakistan', says India officer as leader praises crackdown"
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown
+    date: 2019-12-28
+    type: news
+  - id: s7
+    title: "'Shameless': Allahabad HC orders removal of posters with CAA protestors' addresses in UP"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/955621/caa-allahabad-hc-orders-removal-of-all-posters-with-protestors-photos-and-addresses
+    date: 2020-03-09
+    type: news
+  - id: s8
+    title: "Delhi Police Removes Jamia Graffiti, Twitter Reminds Them of Their 'Priorities'"
+    publisher: The Quint
+    url: https://www.thequint.com/news/india/jamia-graffiti-art-shaheen-bagh-anti-caa-protest-removed-reactions
+    date: 2020-03-24
+    type: news
+  - id: s9
+    title: "Covid-19: Delhi court grants bail to three Shaheen Bagh protestors accused of defying lockdown"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/957675/covid-19-delhi-court-grants-bail-to-three-shaheen-bagh-protestors-accused-of-defying-lockdown
+    date: 2020-03-30
+    type: news
+  - id: s10
+    title: Amit Sahni v Commissioner of Police and Ors, Civil Appeal No. 3282 of 2020
+    publisher: Supreme Court of India
+    url: https://api.sci.gov.in/supremecourt/2020/2418/2418_2020_36_1501_24294_Judgement_07-Oct-2020.pdf
+    date: 2020-10-07
+    type: court_judgment
+  - id: s11
+    title: Delhi Assembly Passes Resolution Against NPR in Present Form
+    publisher: The Wire
+    url: https://thewire.in/government/delhi-assembly-resolution-npr-kejriwal
+    date: 2020-03-13
+    type: news
+  - id: s12
+    title: "CAA protests: 16 killed so far in Uttar Pradesh; 15 arrested from Delhi's Daryaganj"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
+    date: 2019-12-21
+    type: news
+tags: [delhi, uttar_pradesh, caa, students, internet_shutdown, section_144, lathi_charge, tear_gas, supreme_court, bjp, aap]

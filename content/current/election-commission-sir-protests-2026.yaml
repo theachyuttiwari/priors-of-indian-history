@@ -1,0 +1,209 @@
+id: election-commission-sir-protests-2026
+title: Protests demanding the Chief Election Commissioner's resignation
+summary: >
+  In October 2026 the Cockroach Janta Party (CJP), student groups and opposition parties held
+  protests in New Delhi and Mumbai demanding the resignation of Chief Election Commissioner
+  Gyanesh Kumar over the Special Intensive Revision (SIR) of voter rolls, which removed more
+  than 130 million names. Protests grew after an Indian Express report that two election
+  commissioners had questioned Kumar's decisions. On 10 October police denied permission for a
+  Jantar Mantar rally, sealed central Delhi, suspended mobile internet and detained CJP
+  leaders and thousands of protesters. The Election Commission denies wrongdoing.
+period:
+  start: 2026-10-04
+  end: null
+location:
+  states: [Delhi, Maharashtra]
+  places: [Jantar Mantar, Parliament Street, Supreme Court, Delhi airport, RK Ashram, Dilli Haat, Mumbai]
+protest:
+  cause: "Alleged misconduct in the Election Commission's voter-roll revision (SIR); demand for CEC Gyanesh Kumar's resignation and a halt to the revision"
+  organisers: [Cockroach Janta Party, AISA, INC, INDIA bloc parties]
+  scale: "Thousands in New Delhi on 10-13 October; detention counts range from more than 2,000 (AP) to more than 15,000 (CJP)"
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+actions:
+  - type: detention
+    date: 2026-10-04
+    description: "Police detained AISA national president Neha Bora at a protest over alleged assaults on women protesters and journalists by Delhi Police."
+    actor: police
+    sources: [o5]
+  - type: detention
+    date: 2026-10-05
+    description: "Police in Delhi and Mumbai detained demonstrators for a third day as youth and opposition supporters rallied for the election chief's resignation. No count was given."
+    actor: police
+    sources: [o9]
+  - type: detention
+    date: 2026-10-07
+    description: "Police detained Rahul Gandhi at an opposition protest demanding Kumar's resignation; he was held briefly."
+    actor: police
+    sources: [o4, o5]
+  - type: permission_denied
+    date: 2026-10-10
+    description: "Authorities denied permission for the 10 October rally at Jantar Mantar, saying the request was submitted late."
+    actor: police
+    sources: [o8]
+  - type: barricading
+    date: 2026-10-10
+    description: "Police sealed Jantar Mantar, set up checkpoints and concrete barriers on main roads, and deployed more than 30,000 police and paramilitary personnel (local media figure). Dozens of metro stations and markets were shut and more than 200 trains were cancelled."
+    actor: police
+    sources: [o1, o4, o8]
+  - type: internet_shutdown
+    date: 2026-10-10
+    description: "Mobile internet was suspended in the central business district and several other areas of New Delhi around the protest site."
+    actor: police
+    sources: [o1, o4, o8]
+  - type: preventive_arrest
+    date: 2026-10-10
+    description: "Police detained CJP founder Abhijeet Dipke and leaders Saurav Das and Ashutosh Ranka on arrival at Delhi airport from Mumbai, before the rally. YouTuber Dhruv Rathee was detained from his home and Neha Bora was also detained."
+    actor: police
+    sources: [o2, o4]
+  - type: detention
+    date: 2026-10-10
+    description: "Mass detentions across New Delhi. Counts differ: more than 2,000 (AP photo caption), more than 5,000 (The Hindu, as cited by France 24), more than 15,000 (CJP). TV channels reported that Mamata Banerjee, Arvind Kejriwal and Pinarayi Vijayan were detained. ANI reported about 600 arrests in Mumbai. Police did not comment."
+    actor: police
+    sources: [o1, o4, o8]
+  - type: detention
+    date: 2026-10-10
+    description: "Several journalists, including reporters from Scroll and Newslaundry, were detained during the weekend protests; Reporters Without Borders counted at least 16. Newslaundry said some equipment was seized."
+    actor: police
+    sources: [o1, o3, o4]
+  - type: other
+    date: 2026-10-11
+    description: "An executive magistrate's court ordered the release of the three CJP leaders on condition of 'no breach of peace' for one year; Dhruv Rathee was also released. Police said all detainees were released. Al Jazeera reported that the Supreme Court called the detention 'illegal'; France 24 reported only that the Supreme Court was due to hear a petition against the metro closures."
+    actor: court
+    sources: [o2, o4]
+  - type: barricading
+    date: 2026-10-12
+    description: "For a third day police deployed thousands of personnel in central Delhi, erected metal barricades and closed six major metro stations as Rahul Gandhi led MPs and protesters toward the Supreme Court. The march turned back at the second barricade after Congress said its petition had been submitted."
+    actor: police
+    sources: [o3, o5]
+  - type: other
+    date: 2026-10-12
+    description: "Delhi Police announced that Jantar Mantar was no longer an official protest site and named three new venues. The reports seen do not give the legal basis for the change."
+    actor: police
+    sources: [o6]
+  - type: detention
+    date: 2026-10-13
+    description: "Police detained about 20 CJP volunteers, including Ashutosh Ranka, Saurav Das and Ajinkya Shinde, after they crossed barricades into Jantar Mantar."
+    actor: police
+    sources: [o6]
+  - type: detention
+    date: 2026-10-14
+    description: "Ashutosh Ranka and Saurav Das were sent to five days in jail after entering Jantar Mantar. The report does not name the ordering authority or the charges."
+    actor: other
+    sources: [o7]
+outcome: >
+  Ongoing as of 15 October 2026. The CJP and opposition parties say they will continue protests
+  until Gyanesh Kumar resigns. No talks between the government and protesters have been reported.
+positions:
+  - party: BJP
+    person: Sambit Patra
+    role_at_time: BJP spokesperson
+    in_power: true
+    date: 2026-10-10
+    statement: "Called the protesters 'anarchic elements' staging a 'flop show' and said the CJP had failed to spread 'anarchy'; 'What is happening at Jantar Mantar... is not India's story.'"
+    sources: [o1, o8]
+  - party: BJP
+    person: null
+    role_at_time: Permanent Mission of India to the UN, Geneva
+    in_power: true
+    date: 2026-10-10
+    statement: "Called the UN Human Rights Office's concerns about mass detentions 'misplaced'."
+    sources: [o4]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2026-10-11
+    statement: "The more Modi and his government crack down, the more the anger of Gen Z and students will grow."
+    sources: [o2]
+  - party: INC
+    person: Rahul Gandhi
+    role_at_time: Leader of Opposition, Lok Sabha
+    in_power: false
+    date: 2026-10-12
+    statement: "Demanded an end to 'vote theft' and Kumar's resignation, said the government had put the capital 'in jail', and wrote that 'these cowards can do absolutely nothing to us.'"
+    sources: [o3, o5]
+  - party: INC
+    person: Mallikarjun Kharge
+    role_at_time: Congress president
+    in_power: false
+    date: 2026-10-11
+    statement: "Called India a 'Muzzled Democracy'."
+    sources: [o4]
+  - party: CPI(M)
+    person: John Brittas
+    role_at_time: Rajya Sabha MP
+    in_power: false
+    date: 2026-10-11
+    statement: "Said police 'manhandled, dragged, assaulted' him and called it 'an assault on democratic freedoms and the rule of law.'"
+    sources: [o3]
+  - party: other (Cockroach Janta Party)
+    person: Abhijeet Dipke
+    role_at_time: CJP founder
+    in_power: false
+    date: 2026-10-12
+    statement: "You cannot denotify the resistance."
+    sources: [o6]
+sources:
+  - id: o1
+    title: Indian police crack down on 'cockroach' movement protest in New Delhi
+    publisher: France 24 (AFP)
+    url: https://www.france24.com/en/asia-pacific/20261010-india-s-cockroach-movement-chief-detained-ahead-of-major-protest
+    date: 2026-10-10
+    type: news
+  - id: o2
+    title: India court orders release of 'cockroach' movement leaders after detention
+    publisher: France 24 (AFP)
+    url: https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention
+    date: 2026-10-11
+    type: news
+  - id: o3
+    title: Opposition leaders and journalists allege police abuses as fresh protests break out in India
+    publisher: France 24
+    url: https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india
+    date: 2026-10-12
+    type: news
+  - id: o4
+    title: "'Not backing down': What next after India's crackdown on youth protesters?"
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next
+    date: 2026-10-11
+    type: news
+  - id: o5
+    title: Indian opposition defies lockdown, marches to demand election chief sacking
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown
+    date: 2026-10-12
+    type: news
+  - id: o6
+    title: Police detain leaders of India's 'cockroach' movement at New Delhi protest
+    publisher: Al Jazeera (Reuters)
+    url: https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest
+    date: 2026-10-13
+    type: news
+  - id: o7
+    title: India's 'Cockroach' leaders jailed after entering 'banned' protest site
+    publisher: Al Jazeera
+    url: https://www.aljazeera.com/video/newsfeed/2026/10/14/indias-cockroach-leaders-jailed-after-entering-banned-protest-site
+    date: 2026-10-14
+    type: news
+  - id: o8
+    title: "Photos: Thousands detained in police crackdown on India's youth protest"
+    publisher: Al Jazeera (AP)
+    url: https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest
+    date: 2026-10-11
+    type: news
+  - id: o9
+    title: Indian police detain demonstrators as protests over voter roll revision intensify
+    publisher: France 24
+    url: https://www.france24.com/en/video/20261005-ndian-police-detain-demonstrators-as-protests-over-voter-roll-revision-intensify
+    date: 2026-10-05
+    type: news
+tags: [elections, voter_roll, delhi, internet_shutdown, detention, preventive_arrest, journalists, youth]
+related_precedents: [anti-caa-shaheen-bagh-2019-2020, india-against-corruption-2011, delhi-gang-rape-protests-2012, jp-movement-emergency-1975-1977]
+reviewed: false
+last_updated: 2026-10-15

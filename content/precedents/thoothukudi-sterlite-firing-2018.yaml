@@ -1,0 +1,117 @@
+id: thoothukudi-sterlite-firing-2018
+title: Thoothukudi anti-Sterlite protest and police firing, May 2018
+summary: >
+  Residents of Thoothukudi (Tuticorin) protested against the expansion of Vedanta's Sterlite
+  Copper smelter. On 22 May 2018 police opened fire after clashes, and one more person was
+  shot on 23 May; 13 people died and 102 were injured. The Tamil Nadu government suspended
+  internet in three districts, appointed a retired High Court judge to inquire, and ordered
+  the plant shut on 28 May 2018. The Madurai bench of the Madras High Court later handed the
+  investigation to the CBI.
+period:
+  start: 2018-05-22
+  end: 2018-05-28
+location:
+  states: [Tamil Nadu]
+  places: [Thoothukudi, Tirunelveli, Kanyakumari]
+protest:
+  cause: Opposition to the expansion and operation of the Sterlite Copper smelter
+  organisers: [Local residents and anti-Sterlite groups]
+  scale: Thousands marched on the Thoothukudi Collectorate on 22 May 2018; 13 dead, 102 injured
+government:
+  centre:
+    party: BJP
+    alliance: NDA
+    head: Narendra Modi
+    role: Prime Minister
+  state:
+    party: AIADMK
+    head: Edappadi K. Palaniswami
+    role: Chief Minister
+    name: Tamil Nadu
+actions:
+  - type: firing
+    date: 2018-05-22
+    description: "Police fired on protesters on 22 May after clashes between security personnel and locals; one more person died in firing on 23 May. IG (South Range) Shailesh Kumar said 13 people died (11 men, 2 women) and 102 were injured, 19 severely. Whether the firing was provoked is contested. The Chief Minister said police acted to defend themselves. A probe panel later reported that police shot at fleeing protesters unprovoked."
+    actor: police
+    sources: [s1, s2, s3, s5]
+  - type: detention
+    date: 2018-05-24
+    description: "The District Collector said 65 people were arrested and remanded for violence, and 68 more would be produced before a magistrate for damaging public property. The IG said vehicles worth Rs 1.27 crore were burnt."
+    actor: police
+    sources: [s1]
+  - type: internet_shutdown
+    date: 2018-05-23
+    description: "The Tamil Nadu government suspended internet services in Thoothukudi, Tirunelveli and Kanyakumari districts for five days, until 27 May. The stated aim was to stop the spread of rumours through social media and restore public tranquility."
+    actor: state
+    sources: [s2, s1]
+  - type: other
+    date: 2018-05-23
+    description: "Officer transfers: District Collector N. Venkatesh and Superintendent of Police P. Mahendran were transferred. Sandeep Nanduri became Collector and Murali Rambha became SP of Thoothukudi."
+    actor: state
+    sources: [s2]
+  - type: commission_of_inquiry
+    date: 2018-05
+    description: "The state government appointed a retired High Court judge to inquire into the police firing. The panel later reported that police shot at fleeing protesters unprovoked."
+    actor: state
+    sources: [s1, s5]
+  - type: other
+    date: 2018-05-28
+    description: "Plant closure: the Tamil Nadu government ordered the permanent shutdown of the Sterlite Copper smelter. A National Green Tribunal committee later found the closure orders not maintainable because the company was not heard."
+    actor: state
+    sources: [s4]
+  - type: other
+    date: 2018-08-14
+    description: "CBI probe: on the order of the Madurai bench of the Madras High Court, the case was transferred to the CBI. In November 2018 the CBI registered a case against unidentified Tamil Nadu police personnel and revenue officials for criminal conspiracy, criminal intimidation and disobeying law with intent to cause injury."
+    actor: court
+    sources: [s3]
+outcome: >
+  The state ordered Sterlite Copper shut on 28 May 2018. The CBI took over the investigation
+  after a Madras High Court order and registered a case in November 2018 against unnamed police
+  and revenue officials. The inquiry panel later reported that police fired unprovoked.
+positions:
+  - party: AIADMK
+    person: Edappadi K. Palaniswami
+    role_at_time: Chief Minister of Tamil Nadu
+    in_power: true
+    date: 2018-05-24
+    statement: "If someone is attacked, the natural course would be to defend and safeguard themselves. He blamed certain political parties, NGOs and anti-social elements for leading protesters to a wrong path, and said the government was taking the legal route to shut the plant."
+    sources: [s1]
+  - party: DMK
+    person: M.K. Stalin
+    role_at_time: Working President of DMK and Leader of Opposition, Tamil Nadu Assembly
+    in_power: false
+    date: 2018-05-24
+    statement: "The TN Govt has been unable to give answers to #TuticorinMassacre. He said the fight would not stop till the Chief Minister and DGP resigned."
+    sources: [s1]
+sources:
+  - id: s1
+    title: "Sterlite protest live updates: Tuticorin death toll"
+    publisher: India TV
+    url: https://www.indiatvnews.com/news/india-sterlite-protest-live-updates-tuticorin-thoothukudi-death-toll-vedanta-copper-plant-443641
+    date: 2018-05-24
+    type: news
+  - id: s2
+    title: "12 killed in Tuticorin, internet services suspended, top cop shifted"
+    publisher: Deccan Chronicle
+    url: https://www.deccanchronicle.com/nation/current-affairs/240518/12-killed-in-tuticorin-internet-services-suspended-top-cop-shifted.html
+    date: 2018-05-24
+    type: news
+  - id: s3
+    title: "Thoothukudi police firing: CBI registers case against police and revenue department officials"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/903907/thoothukudi-police-firing-cbi-registers-case-against-police-and-revenue-department-officials
+    date: 2018-11-29
+    type: news
+  - id: s4
+    title: "Sterlite Copper row: activists question neutrality of NGT panel that found closure of plant illegal"
+    publisher: Scroll.in
+    url: https://scroll.in/article/903809/sterlite-copper-row-activists-question-neutrality-of-ngt-panel-that-found-closure-of-plant-illegal
+    date: 2018-11-29
+    type: news
+  - id: s5
+    title: "Probe panel on Thoothukudi firing says police shot at fleeing protesters unprovoked"
+    publisher: The Wire
+    url: https://thewire.in/government/probe-panel-on-thoothukudi-firing-says-police-shot-at-fleeing-protesters-unprovoked-report
+    date: null
+    type: news
+tags: [tamil-nadu, environment, sterlite, firing, internet_shutdown, commission_of_inquiry, cbi, aiadmk]

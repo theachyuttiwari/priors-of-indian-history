@@ -1,0 +1,115 @@
+id: jp-movement-emergency-1975-1977
+title: JP movement and the Emergency, 1975-1977
+summary: >
+  In 1974 Jayaprakash Narayan called for a "total revolution" against the Indira Gandhi
+  government. On 12 June 1975 the Allahabad High Court voided Indira Gandhi's election, and on
+  25 June 1975 JP told a large Delhi rally that police should reject immoral orders. That night
+  the President proclaimed an Emergency under Article 352 on the ground of internal disturbance.
+  Over 100,000 people were detained under MISA and the Defence of India rules, the press was
+  censored, and the Emergency ended on 21 March 1977 after the Congress lost the general election.
+  The Janata government then set up the Shah Commission to inquire into Emergency excesses.
+period:
+  start: 1974-04
+  end: 1977-03-21
+location:
+  states: [Delhi, Bihar, Uttar Pradesh, Chandigarh]
+  places: [Ramlila grounds Delhi, Chandigarh, Muzaffarnagar]
+protest:
+  cause: "Removal of the Indira Gandhi government; the JP movement's call for total revolution"
+  organisers: [Jayaprakash Narayan, Opposition parties later merged into the Janata Party]
+  scale: "A crowd of about 100,000 at the Ramlila grounds; more than 100,000 people detained during the Emergency"
+government:
+  centre:
+    party: INC
+    head: Indira Gandhi
+    role: Prime Minister
+actions:
+  - type: other
+    date: 1975-06-25
+    description: "Shortly before midnight, President Fakhruddin Ali Ahmed proclaimed an Emergency under Article 352 on the advice of Indira Gandhi, citing internal disturbance. The Union Cabinet learned of it afterwards and ratified it the next morning."
+    actor: centre
+    sources: [s1]
+  - type: preventive_arrest
+    date: 1975-06-25
+    description: Morarji Desai, other opposition leaders and dissenting members of the ruling party were arrested on the day of the proclamation. Jayaprakash Narayan was detained in Chandigarh and released on 12 November 1975 after his kidneys failed.
+    actor: centre
+    sources: [s4]
+  - type: detention
+    date: 1975-06
+    description: "Wikipedia's article on the Emergency gives 110,806 arrests in total, 34,988 under MISA and 75,818 under the Defence and Internal Security of India Rules. It notes that the figures include ordinary criminals as well as political prisoners."
+    actor: centre
+    sources: [s1]
+  - type: censorship
+    date: 1975-06-25
+    description: "Within hours of the proclamation, electricity to major newspapers was cut. Press censorship was imposed a few days later. On 28 June 1975 the Delhi edition of the Indian Express ran a blank editorial."
+    actor: centre
+    sources: [s1]
+  - type: other
+    date: 1976-04-28
+    description: "In ADM Jabalpur v. Shivkant Shukla the Supreme Court held 4-1 that the right to seek habeas corpus against unlawful detention could be suspended during the Emergency. Justice H. R. Khanna dissented. A nine-judge bench overruled the decision in Puttaswamy (2017)."
+    actor: court
+    sources: [s3]
+  - type: property_demolition
+    date: 1976
+    description: "About 700,000 people in Delhi were displaced by slum clearance. The Shah Commission said Jagmohan became a law unto himself while carrying out Sanjay Gandhi's orders, and its second interim report examined police firing on protesters against demolitions at Turkman Gate."
+    actor: centre
+    sources: [s1, s2]
+  - type: firing
+    date: 1976-10-18
+    description: Police firing killed 30 people in Muzaffarnagar during a protest against the compulsory sterilisation drive.
+    actor: police
+    sources: [s1]
+  - type: commission_of_inquiry
+    date: 1977-05-28
+    description: "The Janata Party government appointed the Shah Commission, chaired by former Chief Justice J. C. Shah, under the Commissions of Inquiry Act 1952. It issued interim reports on 11 March 1978 and a final report on 6 August 1978. It found no economic or law-and-order crisis that justified the Emergency and said preventive detention laws were abused against political opponents."
+    actor: centre
+    sources: [s2]
+outcome: >
+  Indira Gandhi called elections on 18 January 1977. The Janata Party and allies won 298 seats and
+  the Congress 154, and the Emergency ended on 21 March 1977. Special courts set up in 1979 to try
+  Emergency cases never held trials after the Supreme Court ruled in 1980 that they were not
+  legally constituted.
+positions:
+  - party: other (Jayaprakash Narayan, no party)
+    person: Jayaprakash Narayan
+    role_at_time: Leader of the JP movement
+    in_power: false
+    date: 1975-06-25
+    statement: "Told a Delhi rally that a police officer must reject government orders that are immoral and unethical; the government treated this as incitement."
+    sources: [s1]
+  - party: INC
+    person: Indira Gandhi
+    role_at_time: Prime Minister
+    in_power: true
+    date: 1975-06-25
+    statement: "The proclamation, drafted for the President by Siddhartha Shankar Ray on her advice, cited \"imminent danger to the security of India being threatened by internal disturbances\"."
+    sources: [s1]
+  - party: INC
+    person: Indira Gandhi
+    role_at_time: Former Prime Minister, opposition
+    in_power: false
+    date: 1978
+    statement: "Disputed the legality of the Shah Commission, refused to testify under oath, and in a 1978 TV interview called it biased and its findings untrue."
+    sources: [s2]
+sources:
+  - id: s1
+    title: The Emergency (India)
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/The_Emergency_(India)
+    type: archive
+  - id: s2
+    title: Shah Commission
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Shah_Commission
+    type: archive
+  - id: s3
+    title: ADM Jabalpur v. Shivkant Shukla
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/ADM_Jabalpur_v._Shivkant_Shukla
+    type: archive
+  - id: s4
+    title: Jayaprakash Narayan
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Jayaprakash_Narayan
+    type: archive
+tags: [emergency, misa, censorship, preventive_detention, commission_of_inquiry, delhi, bihar]

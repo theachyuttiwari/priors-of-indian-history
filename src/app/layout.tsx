@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="display text-xl">Priors</span>
               <span className="eyebrow hidden sm:inline">what they did before</span>
             </Link>
-            <nav className="flex items-center gap-5 text-sm text-ink-2">
+            <nav className="flex items-center gap-4 sm:gap-5 text-sm text-ink-2 overflow-x-auto whitespace-nowrap [scrollbar-width:none]">
               {NAV.map(([href, label]) => (
                 <Link key={href} href={href} className="quiet">
                   {label}
