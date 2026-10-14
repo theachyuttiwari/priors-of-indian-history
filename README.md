@@ -74,6 +74,7 @@ The site is static and refreshed by hand. "Last updated" dates come from git his
   2. Open every URL you cite.
   3. Run `npm run check`.
   4. Open a pull request and fill in the checklist.
+- **Before you start,** read [CONTRIBUTING.md](CONTRIBUTING.md) and the [editorial policy](docs/editorial-policy.md).
 - **Security problem?** See [SECURITY.md](SECURITY.md).
 
 ## Licence
