@@ -12,6 +12,11 @@ each party did in power next to what it said in opposition. Every claim links to
 Decisions already made by the owner (do not re-open):
 - Name: **Priors**. Tagline: "What they did before."
 - Scope for v1: protest handling only.
+- Phase 1 (confirmed 2026-10-15): make the protest record rock solid (citations, quotes, mobile-first UI).
+  Phase 2, only after public response: widen to other topics (speech and press, internet, Art 356, etc.)
+  and possibly pre-1947 provincial ministries. Do not start phase 2 work without the owner's word.
+- The site is static and refreshed by hand. No API key, no scheduled ingest, for now.
+- Most readers are on phones. Design and check at 390px first.
 - Data entry: fully automated LLM ingestion, with human review before an entry loses its
   "not yet reviewed" mark.
 - Stack: Next.js 16 static export, Tailwind 4, content as YAML in the repo. Host on GitHub Pages or Vercel.
