@@ -6,7 +6,7 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-lightgrey.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](content/LICENSE)
 
-An open record of how Indian governments, across parties, have handled protests. Today's event, set beside the precedents. Every claim links to a dated source.
+An open record of how the Indian state acts when different parties hold power. It starts with protest: today's event, set beside how earlier governments of every party handled the same kind of protest. Every claim links to a dated source.
 
 ```
   LIVE EVENT ──► tagged by action type ──► PRECEDENT SHELF (1974 → now)

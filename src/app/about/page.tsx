@@ -6,11 +6,27 @@ export default function AboutPage() {
       <header>
         <h1 className="t-1">About Priors</h1>
         <p className="lede mt-4">
-          Priors is a public record of how Indian governments answer protests. It exists because memory is short and the
-          record is long. A new generation sees today&apos;s crackdown or today&apos;s permission without the thirty
-          cases before it. Priors puts them side by side.
+          Priors is a public record of how the Indian state acts when different parties hold power. It sets what a party
+          does in government beside what earlier governments did in the same situation, and beside what the same party
+          said in opposition.
+        </p>
+        <p className="text-ink-2 mt-4">
+          It exists because memory is short and the record is long. A new generation sees today&apos;s decision without
+          the thirty cases before it. Priors puts them side by side, with the same columns for every party.
         </p>
       </header>
+
+      <section>
+        <h2 className="t-2">Scope</h2>
+        <p className="text-ink-2 mt-3">
+          The record starts with one question: how do governments answer protest? Permission, Section 144 or 163,
+          internet shutdowns, detentions, charges, force, talks and concessions are concrete acts with dates, orders and
+          sources. That makes protest a good place to test the method.
+        </p>
+        <p className="text-ink-2 mt-3">
+          The same method can cover other powers of the state later. That happens only once the protest record is solid.
+        </p>
+      </section>
 
       <section>
         <h2 className="t-2">Three rules</h2>
