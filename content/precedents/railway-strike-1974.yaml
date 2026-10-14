@@ -121,3 +121,5 @@ sources:
     date: 2016-07-17
     type: news
 tags: [labour, railways, misa, strike, indira_gandhi]
+review:
+  status: draft

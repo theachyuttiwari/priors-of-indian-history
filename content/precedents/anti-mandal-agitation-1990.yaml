@@ -68,26 +68,33 @@ sources:
   - id: s1
     title: Mandal Commission
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Mandal_Commission
     type: archive
   - id: s2
     title: Mandal Commission protests of 1990
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
     type: archive
   - id: s3
     title: Indra Sawhney & Others v. Union of India
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
     type: archive
   - id: s4
     title: V. P. Singh
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/V._P._Singh
     type: archive
   - id: s5
     title: Rajiv Goswami
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Rajiv_Goswami
     type: archive
 tags: [reservation, students, self_immolation, firing, delhi, supreme_court]
+review:
+  status: draft

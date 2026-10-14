@@ -111,7 +111,8 @@ sources:
     type: news
   - id: s4
     title: Parties condemn police action
-    publisher: The Assam Tribune (PTI)
+    publisher: The Assam Tribune
+    wire: PTI
     url: https://assamtribune.com/parties-condemn-police-action
     date: 2012-12-22
     type: news
@@ -128,3 +129,5 @@ sources:
     date: 2012-12-25
     type: news
 tags: [delhi, section_144, lathi_charge, tear_gas, barricading, womens_safety, commission_of_inquiry, upa]
+review:
+  status: draft

@@ -150,6 +150,7 @@ sources:
   - id: s7
     title: Anuradha Bhasin v. Union of India (W.P. (C) No. 1031 of 2019)
     publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
     url: https://indiankanoon.org/doc/82461587/
     date: 2020-01-10
     type: court_judgment
@@ -184,3 +185,5 @@ sources:
     date: 2020-10-14
     type: news
 tags: [jammu-and-kashmir, article-370, internet_shutdown, section_144, house_arrest, public_safety_act, supreme_court, bjp]
+review:
+  status: draft

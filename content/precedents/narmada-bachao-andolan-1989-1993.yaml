@@ -65,11 +65,13 @@ sources:
   - id: s1
     title: Narmada Bachao Andolan
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
     type: archive
   - id: s2
     title: Narmada River
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Narmada_River
     type: archive
   - id: s3
@@ -80,11 +82,15 @@ sources:
   - id: s4
     title: Sardar Sarovar Dam
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
     type: archive
   - id: s5
     title: Chimanbhai Patel
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/Chimanbhai_Patel
     type: archive
 tags: [dams, displacement, environment, world_bank, gujarat, madhya_pradesh, maharashtra]
+review:
+  status: draft

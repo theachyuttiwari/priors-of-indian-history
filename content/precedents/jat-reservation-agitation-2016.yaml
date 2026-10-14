@@ -112,19 +112,22 @@ sources:
     type: news
   - id: s2
     title: Haryana tense, army deployed in eight districts
-    publisher: Moneylife (IANS)
+    publisher: Moneylife
+    wire: IANS
     url: https://www.moneylife.in/article/haryana-tense-army-deployed-in-eight-districts/45557.html
     date: 2016-02-20
     type: news
   - id: s3
     title: Internet services blocked in Haryana after clash
-    publisher: Moneylife (IANS)
+    publisher: Moneylife
+    wire: IANS
     url: https://www.moneylife.in/article/internet-services-blocked-in-haryana-after-clash/45534.html
     date: 2016-02-19
     type: news
   - id: s4
     title: "Haryana burns: five killed, army called"
-    publisher: Ummid (IANS)
+    publisher: Ummid
+    wire: IANS
     url: https://ummid.com/news/2016/February/21.02.2016/haryana-burns-five-killed-army-called.html
     date: 2016-02-21
     type: news
@@ -153,3 +156,5 @@ sources:
     date: 2016-08-26
     type: news
 tags: [haryana, reservation, internet_shutdown, curfew, army_deployment, commission_of_inquiry, bjp]
+review:
+  status: draft

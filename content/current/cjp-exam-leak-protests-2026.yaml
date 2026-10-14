@@ -156,7 +156,8 @@ sources:
     type: news
   - id: s3
     title: India opposition leader released after protest detention
-    publisher: France 24 (AFP)
+    publisher: France 24
+    wire: AFP
     url: https://www.france24.com/en/live-news/20260722-india-opposition-leader-released-after-protest-detention
     date: 2026-07-22
     type: news
@@ -169,6 +170,7 @@ sources:
   - id: s5
     title: 2026 Jantar Mantar protests
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/2026_Jantar_Mantar_protests
     date: 2026-10-15
     type: archive
@@ -176,3 +178,5 @@ tags: [students, exams, delhi, internet_shutdown, section_163, detention, resign
 related_precedents: [agnipath-protests-2022, anti-reservation-youth-for-equality-2006, delhi-gang-rape-protests-2012, india-against-corruption-2011]
 reviewed: false
 last_updated: 2026-10-15
+review:
+  status: draft

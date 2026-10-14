@@ -91,7 +91,8 @@ positions:
 sources:
   - id: s1
     title: "Jallikattu stir turns violent; Bill passed"
-    publisher: The Tribune (PTI)
+    publisher: The Tribune
+    wire: PTI
     url: https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570
     date: 2017-01-23
     type: news
@@ -126,3 +127,5 @@ sources:
     date: 2017-01-28
     type: news
 tags: [tamil_nadu, jallikattu, ordinance, concession, lathi_charge, tear_gas, aiadmk]
+review:
+  status: draft

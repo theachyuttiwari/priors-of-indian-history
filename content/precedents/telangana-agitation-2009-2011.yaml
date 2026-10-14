@@ -248,7 +248,8 @@ sources:
     type: news
   - id: s7
     title: "Govt working to devise mechanism and roadmap on Telangana: Chidambaram"
-    publisher: Ummid.com (PTI)
+    publisher: Ummid.com
+    wire: PTI
     url: https://ummid.com/news/December/31.12.2009/govt._stand_on_telangana_not_changed.htm
     date: 2009-12-31
     type: news
@@ -272,31 +273,35 @@ sources:
     type: news
   - id: s11
     title: "Million March: Telangana leaders taken into custody"
-    publisher: Governance Now (PTI)
+    publisher: Governance Now
+    wire: PTI
     url: https://www.governancenow.com/news/regular-story/million-march-telangana-leaders-taken-custody
     date: 2011-03-10
     type: news
   - id: s12
     title: "Govt fails to foil Telangana Million March in Hyderabad"
-    publisher: OneIndia
+    publisher: Oneindia
     url: https://www.oneindia.com/2011/03/10/telangana-million-march-govt-fails-hyderabad-aid0101.html
     date: 2011-03-10
     type: news
   - id: s13
     title: "'People's strike' brings Telangana to a halt"
-    publisher: Ummid.com (IANS)
+    publisher: Ummid.com
+    wire: IANS
     url: https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm
     date: 2011-09-13
     type: news
   - id: s14
     title: "Pro-Telangana stir in AP called off"
-    publisher: Governance Now (PTI)
+    publisher: Governance Now
+    wire: PTI
     url: https://www.governancenow.com/news/regular-story/pro-telangana-stir-ap-called
     date: 2011-10-25
     type: news
   - id: s15
     title: "Centre yet to take final view on Telangana: PC"
-    publisher: Morung Express (PTI)
+    publisher: Morung Express
+    wire: PTI
     url: https://morungexpress.com/centre-yet-take-final-view-telangana-pc
     date: 2011-07-04
     type: news
@@ -313,3 +318,5 @@ sources:
     date: 2023-06-01
     type: news
 tags: [telangana, statehood, andhra_pradesh, hunger_strike, students, general_strike, section_144, commission_of_inquiry, concession]
+review:
+  status: draft

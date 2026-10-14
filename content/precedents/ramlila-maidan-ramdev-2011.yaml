@@ -120,6 +120,7 @@ sources:
   - id: s1
     title: "In Re: Ramlila Maidan Incident Dt. 4/5.06.2011 vs Home Secretary, Union of India and Ors"
     publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
     url: https://indiankanoon.org/doc/17021567/
     date: 2012-02-23
     type: court_judgment
@@ -142,3 +143,5 @@ sources:
     date: 2011-06-08
     type: official
 tags: [delhi, section_144, tear_gas, lathi_charge, supreme_court, black_money, upa]
+review:
+  status: draft

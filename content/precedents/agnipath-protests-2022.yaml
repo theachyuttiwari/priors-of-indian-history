@@ -144,7 +144,8 @@ sources:
     type: news
   - id: s5
     title: "Bharat Bandh against Agnipath scheme disrupts road, rail traffic; Railways cancels over 600 trains"
-    publisher: The Tribune (PTI)
+    publisher: The Tribune
+    wire: PTI
     url: https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
     date: 2022-06-20
     type: news
@@ -185,3 +186,5 @@ sources:
     date: 2022-06-16
     type: news
 tags: [bihar, military_recruitment, youth, unemployment, internet_shutdown, section_144, firing, concession, railways, bjp, jdu]
+review:
+  status: draft

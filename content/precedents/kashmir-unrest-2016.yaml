@@ -136,7 +136,8 @@ sources:
     type: official
   - id: s7
     title: India kills top rebel leader in Kashmir, braces for protests
-    publisher: AFP via ecoi.net
+    publisher: ecoi.net
+    wire: AFP
     url: https://www.ecoi.net/en/document/326568
     date: 2016-07-09
     type: news
@@ -149,6 +150,7 @@ sources:
   - id: s9
     title: "2016-2017 Kashmir unrest (tertiary summary; used only for curfew dates and NC statements)"
     publisher: Wikipedia
+    tier: lead
     url: https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
     date: 2016
     type: archive
@@ -159,3 +161,5 @@ sources:
     date: 2016-07-28
     type: news
 tags: [kashmir, curfew, internet_shutdown, pellet_guns, censorship, pdp, bjp, nda]
+review:
+  status: draft

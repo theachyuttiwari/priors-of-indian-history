@@ -305,7 +305,10 @@ sources:
   - id: s14
     title: "Center of Indian Trade Unions v. State of Maharashtra, SLP (C) No. 7734 of 1997, judgment of 11 April 2019"
     publisher: Supreme Court of India
+    tier: court
     url: https://api.sci.gov.in/supremecourt/1997/5722/5722_1997_Judgement_11-Apr-2019.pdf
     date: 2019-04-11
     type: court_judgment
 tags: [enron, dabhol, maharashtra, ratnagiri, shiv_sena, section_144, preventive_arrest, lathi_charge, power_project, land_acquisition]
+review:
+  status: draft

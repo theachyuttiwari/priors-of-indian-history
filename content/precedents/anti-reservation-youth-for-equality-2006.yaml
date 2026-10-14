@@ -164,7 +164,8 @@ sources:
     type: news
   - id: s3
     title: Mumbai docs protest against lathicharge, reservations
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
     date: 2006-05-16
     type: news
@@ -194,13 +195,15 @@ sources:
     type: news
   - id: s8
     title: CPM says OBC quota necessary but not for creamy layer
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/05/22/cpm-says-obc-quota-necessary-but-not-for-creamy-layer-1148299653.html
     date: 2006-05-22
     type: news
   - id: s9
     title: PM asks anti-quota protestors to call off strike
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/05/25/pm-asks-anti-quota-protestors-to-call-off-strike-1148568228.html
     date: 2006-05-26
     type: news
@@ -212,7 +215,8 @@ sources:
     type: official
   - id: s11
     title: Anti-reservationists continue stir, more support pours in
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/05/29/anti-reservations-contiue-stir-more-support-pours-in-1148886621.html
     date: 2006-05-29
     type: news
@@ -224,7 +228,8 @@ sources:
     type: news
   - id: s13
     title: "UPA created crisis on quota, BJP must frame policy for youth: Advani"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/05/30/upa-created-crisis-on-quota-bjp-must-frame-policy-for-youthadvan-1148991113.html
     date: 2006-05-30
     type: news
@@ -255,6 +260,7 @@ sources:
   - id: s18
     title: Ashoka Kumar Thakur vs Union of India and Ors.
     publisher: Supreme Court of India (Indian Kanoon)
+    tier: court
     url: https://indiankanoon.org/doc/1219385/
     date: 2008-04-10
     type: court_judgment
@@ -265,3 +271,5 @@ sources:
     date: 2006-05-20
     type: news
 tags: [reservation, obc, students, doctors, delhi, mumbai, aiims, lathi_charge, supreme_court, upa]
+review:
+  status: draft

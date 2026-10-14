@@ -112,8 +112,11 @@ sources:
     type: news
   - id: s4
     title: "Hazare effect: Non-UPA parties join ranks"
-    publisher: Oneindia (PTI)
+    publisher: Oneindia
+    wire: PTI
     url: https://www.oneindia.com/2011/08/16/hazareeffect-non-upa-parties-join-ranks.html
     date: 2011-08-16
     type: news
 tags: [anti_corruption, delhi, preventive_arrest, permission, lokpal, upa]
+review:
+  status: draft

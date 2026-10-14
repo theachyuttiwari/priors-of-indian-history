@@ -232,13 +232,15 @@ sources:
     type: news
   - id: s4
     title: "Bandhs in Rajasthan, situation tense but peaceful"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/05/30/bandhs-in-rajasthan-situation-tense-but-peaceful-1180508949.html
     date: 2007-05-30
     type: news
   - id: s5
     title: Army and paramilitary forces begin pulling out after Gujjars call off agitation
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/06/05/rptg-inserting-matter-in-para-two-1181049162.html
     date: 2007-06-05
     type: news
@@ -250,7 +252,8 @@ sources:
     type: news
   - id: s7
     title: BJP favours economic status based reservation
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/09/12/bjp-favours-economic-status-based-reservation-1189604322.html
     date: 2007-09-12
     type: news
@@ -280,19 +283,22 @@ sources:
     type: news
   - id: s12
     title: "At least 13 killed in Gujjar agitation in Rajasthan, Army alerted"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2008/05/23/at-least-13-killed-in-gujjar-agitation-in-raj-army-alerted-1211560399.html
     date: 2008-05-23
     type: news
   - id: s13
     title: "Situation tense in Bayana, Gujjars stage dharna with bodies"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2008/05/24/situation-tense-in-bayana-gujjars-stage-dharna-with-bodies-1211621624.html
     date: 2008-05-24
     type: news
   - id: s14
     title: "Gujjar leader turns down Raje's invitation for dialogue"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2008/05/25/gujjar-leader-turns-down-rajes-invitation-for-dialogue-1211726039.html
     date: 2008-05-25
     type: news
@@ -364,8 +370,11 @@ sources:
     type: news
   - id: s26
     title: "Gujjar stir: bodies removed from dharna site, rail routes hit"
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2008/06/03/gujjar-stirbodies-removed-from-dharna-site-rail-routes-hit-1212485797.html
     date: 2008-06-03
     type: news
 tags: [gujjar, reservation, scheduled_tribe, rajasthan, firing, section_144, army_deployment, commission_of_inquiry, bainsla, vasundhara_raje]
+review:
+  status: draft

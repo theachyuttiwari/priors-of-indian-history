@@ -190,7 +190,8 @@ sources:
     type: news
   - id: s6
     title: Kalinga Nagar tribals agree to lift 14-month road blockade
-    publisher: Oneindia (UNI)
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/03/09/kalinga-nagar-tribals-agree-to-lift-14-months-road-blockade-1174142365.html
     date: 2007-03-09
     type: news
@@ -226,7 +227,8 @@ sources:
     type: news
   - id: s12
     title: Odisha tribals remember 14 people allegedly killed in police firing in Kalinga Nagar
-    publisher: The Week (PTI)
+    publisher: The Week
+    wire: PTI
     url: https://www.theweek.in/wire-updates/business/2025/01/02/ces23-od-tribals-firing.html
     date: 2025-01-02
     type: news
@@ -267,3 +269,5 @@ sources:
     date: 2019
     type: news
 tags: [adivasi, odisha, land_acquisition, tata_steel, firing, commission_of_inquiry, displacement, bjd]
+review:
+  status: draft

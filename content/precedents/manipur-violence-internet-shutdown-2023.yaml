@@ -145,6 +145,7 @@ sources:
   - id: s7
     title: Dinganglung Gangmei v. Mutum Churamani Meetei, 2023 INSC 698
     publisher: Supreme Court of India
+    tier: court
     url: https://api.sci.gov.in/supremecourt/2023/19206/19206_2023_1_7_45953_Judgement_07-Aug-2023.pdf
     date: 2023-08-07
     type: court_judgment
@@ -179,3 +180,5 @@ sources:
     date: 2025-03-17
     type: news
 tags: [manipur, ethnic_violence, internet_shutdown, curfew, article_355, presidents_rule]
+review:
+  status: draft

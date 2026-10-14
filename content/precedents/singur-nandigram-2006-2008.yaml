@@ -177,6 +177,7 @@ sources:
   - id: s1
     title: "Association for Protection of Democratic Rights v State of West Bengal and Ors, 2007 (4) CHN 842"
     publisher: Calcutta High Court via Indian Kanoon
+    tier: court
     url: https://indiankanoon.org/doc/1186017/
     date: 2007-11-16
     type: court_judgment
@@ -188,31 +189,36 @@ sources:
     type: news
   - id: s3
     title: WB Governor calls Nandigram excesses an outrage
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/03/14/wb-governor-calls-nandigram-excesses-and-outrage-1174138571.html
     date: 2007-03-14
     type: news
   - id: s4
     title: "I was right in defending CPI(M)'s retaliation: Buddhadeb"
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/11/14/i-was-right-in-defending-cpims-retaliation-buddhadeb-1195065411.html
     date: 2007-11-14
     type: news
   - id: s5
     title: Singur demarcation continues amid heavy security
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/12/01/singur-demarcation-continues-amid-heavy-security-1164960360.html
     date: 2006-12-01
     type: news
   - id: s6
     title: 144 CrPC reimposed in Singur after yesterday's violence
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/02/05/144-crpc-reimposed-in-singur-after-ysterdays-violence-1170657648.html
     date: 2007-02-05
     type: news
   - id: s7
     title: Dasmunsi asks Bhattacharjee to come clean on Singur
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/12/03/dasmunsi-asks-bhattacharjee-to-come-clean-on-singur-1165158277.html
     date: 2006-12-03
     type: news
@@ -248,25 +254,29 @@ sources:
     type: official
   - id: s14
     title: Buddha says no SEZ against people's wishes, welcomes HC order
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/03/15/buddha-says-no-sez-against-peoples-wishes-welcomes-hc-order-1174296006.html
     date: 2007-03-15
     type: news
   - id: s15
     title: BJP demands dismissal of WB government on Nandigram issue
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/11/12/bjp-demands-dismissal-of-wb-government-on-nandigram-issue-1194863754.html
     date: 2007-11-12
     type: news
   - id: s16
     title: Mamata's condition stable after respectable retreat
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2006/12/29/mamatas-condition-stable-after-respectable-retreat-1167385318.html
     date: 2006-12-29
     type: news
   - id: s17
     title: "No police to Nandigram if firing had been predicted: Bhattacharjee"
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/12/26/no-police-to-nandigram-if-firing-had-been-predicted-bhattacharjee-1198660111.html
     date: 2007-12-26
     type: news
@@ -278,14 +288,18 @@ sources:
     type: news
   - id: s20
     title: HC orders CBI probe, Parliament adjourned for day over Nandigram
-    publisher: UNI via Oneindia
+    publisher: Oneindia
+    wire: UNI
     url: https://www.oneindia.com/2007/03/15/hc-orders-cbi-probe-parliament-adjourned-for-day-over-nandigram-1174296105.html
     date: 2007-03-15
     type: news
   - id: s21
     title: Kedar Nath Yadav v State of West Bengal and Ors, Civil Appeal No. 8438 of 2016
     publisher: Supreme Court of India via Indian Kanoon
+    tier: court
     url: https://indiankanoon.org/doc/168057026/
     date: 2016-08-31
     type: court_judgment
 tags: [land_acquisition, west_bengal, sez, firing, section_144, hunger_strike, left_front, singur, nandigram]
+review:
+  status: draft

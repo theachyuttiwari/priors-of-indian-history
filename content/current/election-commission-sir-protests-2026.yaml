@@ -151,13 +151,15 @@ positions:
 sources:
   - id: o1
     title: Indian police crack down on 'cockroach' movement protest in New Delhi
-    publisher: France 24 (AFP)
+    publisher: France 24
+    wire: AFP
     url: https://www.france24.com/en/asia-pacific/20261010-india-s-cockroach-movement-chief-detained-ahead-of-major-protest
     date: 2026-10-10
     type: news
   - id: o2
     title: India court orders release of 'cockroach' movement leaders after detention
-    publisher: France 24 (AFP)
+    publisher: France 24
+    wire: AFP
     url: https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention
     date: 2026-10-11
     type: news
@@ -181,7 +183,8 @@ sources:
     type: news
   - id: o6
     title: Police detain leaders of India's 'cockroach' movement at New Delhi protest
-    publisher: Al Jazeera (Reuters)
+    publisher: Al Jazeera
+    wire: Reuters
     url: https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest
     date: 2026-10-13
     type: news
@@ -193,7 +196,8 @@ sources:
     type: news
   - id: o8
     title: "Photos: Thousands detained in police crackdown on India's youth protest"
-    publisher: Al Jazeera (AP)
+    publisher: Al Jazeera
+    wire: AP
     url: https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest
     date: 2026-10-11
     type: news
@@ -207,3 +211,5 @@ tags: [elections, voter_roll, delhi, internet_shutdown, detention, preventive_ar
 related_precedents: [anti-caa-shaheen-bagh-2019-2020, india-against-corruption-2011, delhi-gang-rape-protests-2012, jp-movement-emergency-1975-1977]
 reviewed: false
 last_updated: 2026-10-15
+review:
+  status: draft

@@ -173,6 +173,7 @@ sources:
   - id: s10
     title: Amit Sahni v Commissioner of Police and Ors, Civil Appeal No. 3282 of 2020
     publisher: Supreme Court of India
+    tier: court
     url: https://api.sci.gov.in/supremecourt/2020/2418/2418_2020_36_1501_24294_Judgement_07-Oct-2020.pdf
     date: 2020-10-07
     type: court_judgment
@@ -189,3 +190,5 @@ sources:
     date: 2019-12-21
     type: news
 tags: [delhi, uttar_pradesh, caa, students, internet_shutdown, section_144, lathi_charge, tear_gas, supreme_court, bjp, aap]
+review:
+  status: draft
