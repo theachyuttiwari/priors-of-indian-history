@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { matrix, partyRecord } from "@/lib/content";
+import { matrix, partyRecord, entryHref } from "@/lib/content";
+import StatementText from "@/components/StatementText";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
 import Glyph, { GlyphLegend } from "@/components/Glyph";
@@ -41,8 +42,10 @@ function Statement({ label, s }: { label: string; s: Said }) {
   return (
     <blockquote className="quote">
       <p className="stance">{label}</p>
-      <p className="text-[15px] text-ink-2 mt-1">{s.pos.statement}</p>
-      <Link href={`/precedents/${s.p.id}/`} className="link small block mt-1">
+      <div className="mt-1">
+        <StatementText p={s.p} pos={s.pos} size="sm" />
+      </div>
+      <Link href={entryHref(s.p)} className="link small block mt-1">
         {s.p.title}
       </Link>
     </blockquote>

@@ -557,3 +557,44 @@ a.row:hover .row-title {
     gap: 20px;
   }
 }
+
+/* Evidence: tier badge on each source, plain marks on thin claims. Same ink for every party. */
+.tier {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px 7px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.tier-lead,
+.tier-none {
+  border-style: dashed;
+  color: var(--ink-3);
+}
+.mark {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.mark::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  vertical-align: 1px;
+}
+.figures {
+  display: grid;
+  gap: 4px;
+  font-size: 15px;
+  color: var(--ink-2);
+}

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { fmtDate, years } from "@/lib/format";
 import { ACTION_META, ACTION_TYPES, type ActionType, type Precedent } from "@/lib/schema";
+import { claimOf } from "@/lib/evidence";
+import { EvidenceMark } from "./Evidence";
 import Glyph from "./Glyph";
 
 type Col = { p: Precedent; href?: string; now?: boolean };
@@ -70,7 +72,8 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
                 hs.map((h, i) => (
                   <p key={i} className="text-[14px] text-ink-2 leading-snug [&+&]:mt-2">
                     {h.date && <span className="num text-ink-3">{fmtDate(h.date)}. </span>}
-                    {h.description}
+                    {h.description}{" "}
+                    <EvidenceMark claim={claimOf(h)} sources={c.p.sources.filter((x) => h.sources.includes(x.id))} />
                   </p>
                 ))
               ) : (

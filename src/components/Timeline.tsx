@@ -1,7 +1,10 @@
 import type { Precedent } from "@/lib/schema";
 import { ACTION_META } from "@/lib/schema";
 import { fmtDate } from "@/lib/content";
+import { claimOf } from "@/lib/evidence";
+import { EvidenceMark } from "./Evidence";
 import Glyph from "./Glyph";
+import SourceRefs from "./SourceRefs";
 
 const ACTOR: Record<string, string> = {
   centre: "Centre",
@@ -13,8 +16,6 @@ const ACTOR: Record<string, string> = {
 
 export default function Timeline({ p }: { p: Precedent }) {
   const actions = [...p.actions].sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
-  const src = new Map(p.sources.map((s) => [s.id, s]));
-  const num = new Map(p.sources.map((s, i) => [s.id, i + 1]));
   return (
     <ol className="timeline">
       {actions.map((a, i) => (
@@ -27,23 +28,29 @@ export default function Timeline({ p }: { p: Precedent }) {
             <p className="flex flex-wrap items-baseline gap-x-3">
               <span className="font-semibold">{ACTION_META[a.type].label}</span>
               <span className="small">{ACTOR[a.actor] ?? a.actor}</span>
-              {a.sources.map((id) => {
-                const s = src.get(id);
-                return s ? (
-                  <a
-                    key={id}
-                    href={s.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="link small num"
-                    title={`${s.publisher || s.title}`}
-                  >
-                    [{num.get(id)}]
-                  </a>
-                ) : null;
-              })}
+              <SourceRefs p={p} ids={a.sources} className="small" />
+              <EvidenceMark claim={claimOf(a)} sources={p.sources.filter((s) => a.sources.includes(s.id))} />
             </p>
             <p className="text-[15px] text-ink-2 mt-1 measure">{a.description}</p>
+            {a.legal_basis && <p className="small mt-1">Under {a.legal_basis}</p>}
+            {a.figures.length > 0 && (
+              <ul className="figures mt-2">
+                {a.figures.map((f, j) => (
+                  <li key={j}>
+                    <span className="num font-semibold text-ink">{f.value}</span> {f.what}
+                    <span className="small">
+                      , said {f.claimed_by} <SourceRefs p={p} ids={[f.source]} />
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {a.court_outcomes.map((c, j) => (
+              <p key={j} className="text-[15px] text-ink-2 mt-2 measure">
+                <span className="font-semibold text-ink">Court:</span> {c.summary}{" "}
+                <SourceRefs p={p} ids={[c.source]} className="small" />
+              </p>
+            ))}
           </div>
         </li>
       ))}

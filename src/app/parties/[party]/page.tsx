@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import StatementText from "@/components/StatementText";
 import { allParties, partyRecord, fmtDate, type PartyRecord, isCurrent, entryHref } from "@/lib/content";
 import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
@@ -24,7 +25,7 @@ function Statements({ items }: { items: PartyRecord["statementsInPower"] }) {
     <div className="space-y-6">
       {items.map(({ p, pos }, i) => (
         <blockquote key={i} className="quote">
-          <p className="leading-relaxed">{pos.statement}</p>
+          <StatementText p={p} pos={pos} />
           <footer className="small mt-1">
             {[
               pos.person && `${pos.person}${pos.role_at_time ? `, ${pos.role_at_time}` : ""}`,
@@ -32,7 +33,7 @@ function Statements({ items }: { items: PartyRecord["statementsInPower"] }) {
             ]
               .filter(Boolean)
               .join(", ")}
-            <Link href={`/precedents/${p.id}/`} className="link block mt-0.5">
+            <Link href={entryHref(p)} className="link block mt-0.5">
               {p.title}
             </Link>
           </footer>

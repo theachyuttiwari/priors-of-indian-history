@@ -103,8 +103,8 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
         <section>
           <h2 className="t-2 mb-2">What they said</h2>
           <p className="small mb-8 measure">
-            Statements are reported as the cited source gives them. Open the source for exact wording. Each one says
-            whether the speaker&apos;s party was in power or in opposition at the time.
+            Words in quote marks were matched in the source. Everything else is a summary; open the source for the exact
+            words. Each statement says whether the speaker&apos;s party was in power or in opposition at the time.
           </p>
           <Positions p={p} />
         </section>
