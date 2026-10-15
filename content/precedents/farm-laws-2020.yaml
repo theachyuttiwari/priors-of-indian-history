@@ -31,164 +31,416 @@ government:
 actions:
   - type: barricading
     date: 2020-11-26
-    description: "To stop the Delhi Chalo march, trenches were dug in roads leading to Delhi, ahead of barricades and police lines. Barbed wire, sand-laden trucks, shipping containers and concrete blocks were also placed at Shambhu on the Punjab-Haryana border, near Kurukshetra and in Sonipat. The Quint reported that Chief Minister Manohar Lal Khattar ordered police to stop protesters from reaching the capital. An unnamed police officer said the aim was to delay farmers from Punjab so that they did not reach Karnal."
+    claim: happened
+    description: "To stop the Delhi Chalo march, Haryana announced it would seal its border with Punjab, and police placed cement and steel barricades, dumpers and trucks on roads at the Shambhu border and other crossing points. Farmers removed many of these, and at most points police let them through after face-offs. The Tribune reported that the national highway near Karhans village (Panipat) was dug up and stone pillars raised to stop the farmers. The Quint reported trenches dug on highways leading to Delhi on the night of 26-27 November, and an unnamed police officer told NDTV that the aim was to delay farmers from Punjab so that they did not reach Karnal. The Quint also reported that Chief Minister Manohar Lal Khattar had ordered police to stop protesters from reaching the capital. On the Delhi side, PTI reported that the Delhi Police stationed five sand-laden trucks at the Singhu border to stop tractor-trolleys."
     actor: state
-    sources: [s1]
+    sources: [s10, s3, s1, s12]
   - type: tear_gas
     date: 2020-11-26
-    description: "Haryana police used tear gas shells and water cannons against farmers from Punjab on the Rohtak-Hisar road in Meham on 26-27 November 2020, after farmers removed barricades to move toward Delhi. Tear gas, water cannons and barricades were also reported at the Tikri and Singhu borders with Delhi."
+    claim: happened
+    description: "On 26 November Haryana police used water cannons and tear gas against farmers from Punjab who pushed through barricades at the Shambhu border in Ambala district, and used water cannons at Karnal, Kaithal, Khanauri and other points. Down To Earth reported tear gas and water cannons in Ambala and Kurukshetra. The Tribune reported that police used tear gas shells and water cannons on farmers on the Rohtak-Hisar road in Meham on 26-27 November after farmers removed barricades, that some of the shells were past their expiry date, and that DGP Manoj Yadava said the matter was being examined. The Quint reported tear gas and water cannons at the Singhu and Tikri borders with Delhi on 27 November. Haryana Police said they acted with restraint, that nobody was seriously hurt and that no farmer was arrested (PTI)."
     actor: police
-    sources: [s2, s1, s3]
+    sources: [s10, s11, s2, s1, s12, s3]
   - type: negotiation
     date: 2021-01-22
-    description: "Union ministers and farm unions held eleven rounds of talks. The eleventh round, at Vigyan Bhavan on 22 January 2021, ended without agreement, and for the first time no date was set for the next round."
+    claim: happened
+    description: "The Centre and farm unions held eleven rounds of talks. The first, on 14 October 2020, was with the Agriculture Secretary; later rounds were with a panel of Union ministers led by Agriculture Minister Narendra Singh Tomar. The eleventh round, at Vigyan Bhavan on 22 January 2021, ended without agreement, and for the first time no date was set for the next round."
     actor: centre
-    sources: [s4]
+    sources: [s4, s13]
   - type: concession
-    date: 2021-01-22
-    description: "The government offered to put the three laws on hold for 12-18 months, to file an affidavit in the Supreme Court and to set up a committee on the disputed provisions and a legal guarantee for minimum support price (MSP). The unions held out for full repeal."
+    date: 2021-01-20
+    claim: ordered
+    description: "At the tenth round of talks on 20 January 2021, the government offered to suspend the three laws for a year and a half (reported as 12-18 months or up to 18 months), to file an affidavit in the Supreme Court and to set up a joint committee. ThePrint reported that the committee would look at the disputed provisions and a legal guarantee for minimum support price (MSP); farm leader Kavitha Kuruganti told The Tribune it would discuss the future of the laws, and a union leader said it was finally specified that it would cover only the three laws. The unions rejected the offer on 21 January and held out for full repeal, and Tomar repeated it at the eleventh round on 22 January."
     actor: centre
-    sources: [s4, s3]
+    sources: [s4, s13, s14]
   - type: other
     date: 2021-01-12
-    description: "Supreme Court stay: the Court stayed implementation of the three farm laws until further orders and formed a four-member committee (Bhupinder Singh Mann, Pramod Kumar Joshi, Ashok Gulati, Anil Ghanwat) to hear both sides and report within two months. The order also said the existing MSP system would be maintained. Mann recused himself from the committee on 14 January 2021."
+    description: "Supreme Court stay: in Rakesh Vaishnav v. Union of India, the Court stayed implementation of the three farm laws until further orders and ordered that the MSP system in existence before the laws be maintained and that no farmer be dispossessed of land under them. It formed a four-member committee (Bhupinder Singh Mann, Parmod Kumar Joshi, Ashok Gulati, Anil Ghanwat) to hear the farmers' bodies and the government and report within two months of its first sitting, which was to be held within ten days. The order also recorded that a few deaths had taken place at the protest sites, 'though not out of any violence'. Mann recused himself from the committee on 14 January 2021."
     actor: court
-    sources: [s5, s9]
+    sources: [s15, s5, s9]
+    figures:
+      - { what: "deaths at the protest sites recorded by 12 January 2021", value: "a few, 'either out of illness or by way of suicide'", claimed_by: Supreme Court order of 12 January 2021, source: s15 }
   - type: internet_shutdown
     date: 2021-01-26
-    description: "After violence during the Republic Day tractor rally, the Union Home Ministry (MHA) ordered temporary suspension of internet services at Singhu, Ghazipur, Tikri, Mukarba Chowk, Nangloi and adjoining areas of Delhi from 12:00 to 23:59 hrs on 26 January 2021, under section 7 of the Indian Telegraph Act, 1885 and the 2017 Temporary Suspension of Telecom Services Rules, citing public safety."
+    claim: ordered
+    description: "After violence during the Republic Day tractor rally, the Union Home Ministry (MHA) ordered temporary suspension of internet services at Singhu, Ghazipur, Tikri, Mukarba Chowk, Nangloi and adjoining areas of Delhi from 12:00 to 23:59 hrs on 26 January 2021, citing public safety and averting a public emergency. Business Today reported that the order did not say whether mobile or home broadband was covered."
     actor: centre
-    sources: [s6]
+    sources: [s16, s17, s6]
+    legal_basis: "Section 7, Indian Telegraph Act, 1885, read with Rule 2(1) of the Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (as quoted from the MHA order by Hindustan Times)"
+  - type: internet_shutdown
+    date: 2021-01-29
+    claim: ordered
+    description: "Three further MHA orders suspended internet services in Singhu, Ghazipur and Tikri and their adjoining areas in Delhi: from 23:00 on 29 January to 23:00 on 31 January 2021, from 23:00 on 31 January to 23:00 on 2 February 2021, and from 00:00 to 23:59 on 6 February 2021. Each order cites a letter from the Delhi Police Commissioner of the same date and the approval of the Union Home Secretary, and gives public safety and averting a public emergency as the reason."
+    actor: centre
+    sources: [s18, s19, s20]
+    legal_basis: "Rule 2(1), Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017"
   - type: concession
     date: 2021-11-19
-    description: "In an address on 19 November 2021, Prime Minister Narendra Modi announced that the government would repeal all three farm laws in the Parliament session starting at the end of the month, and asked protesting farmers to return home."
+    claim: ordered
+    description: "In an address on 19 November 2021, Prime Minister Narendra Modi announced that the government had decided to withdraw all three farm laws and would complete the repeal in the Parliament session starting later that month. He also announced a committee on zero-budget farming, crop patterns and making MSP more effective and transparent, and asked protesting farmers to return home."
     actor: centre
-    sources: [s3]
+    sources: [s21, s3]
   - type: repeal
     date: 2021-11-29
-    description: "Parliament passed the Farm Laws Repeal Bill, 2021 on 29 November 2021. Lok Sabha passed it by voice vote without debate amid opposition protests, and Rajya Sabha passed it the same afternoon. Opposition parties had demanded a discussion. The government said a debate was not needed because the Prime Minister had already agreed to the repeal."
+    claim: ordered
+    description: "Parliament passed the Farm Laws Repeal Bill, 2021 on 29 November 2021. Lok Sabha passed it by voice vote without debate amid opposition protests, and Rajya Sabha passed it the same afternoon. Opposition parties had demanded a discussion. The government said a debate was not needed because the Prime Minister had already agreed to the repeal. The President assented on 30 November, and the Farm Laws Repeal Act, 2021 (No. 40 of 2021), which repeals the three 2020 Acts, was published in the Gazette on 1 December 2021. Around the repeal, protest leaders and opposition MPs put the number of farmers who died during the agitation at 700 to 750; the Agriculture Ministry told the Lok Sabha in a written reply that it had no record of such deaths (see figures)."
     actor: centre
-    sources: [s7]
+    sources: [s22, s7, s24, s26]
+    legal_basis: "Farm Laws Repeal Act, 2021 (No. 40 of 2021)"
+    figures:
+      - { what: "farmers who died during the protest", value: "more than 700", claimed_by: "Rakesh Tikait, Bharatiya Kisan Union (reported by The Guardian, 19 November 2021)", source: s3 }
+      - { what: "farmers who died during the agitation", value: "750", claimed_by: "Mallikarjun Kharge, Leader of Opposition, Rajya Sabha (as reported by The Hindu)", source: s7 }
+      - { what: "farmers who died during the agitation", value: "700", claimed_by: "Mallikarjun Kharge, Leader of Opposition, Rajya Sabha (as reported by Scroll)", source: s24 }
+      - { what: "farmers who died during the agitation", value: "700", claimed_by: "Rahul Gandhi, Congress (to reporters, 29 November 2021)", source: s23 }
+      - { what: "farmers who died during the protest", value: "750", claimed_by: "Adhir Ranjan Chowdhury, Congress, in the Lok Sabha", source: s26 }
+      - { what: "farmers who died during the agitation", value: "no record", claimed_by: "Union Ministry of Agriculture and Farmers Welfare (written Lok Sabha reply by Narendra Singh Tomar)", source: s26 }
 outcome: >
   The three farm laws were repealed by Parliament on 29 November 2021. Farmers dismantled
   their camps at Delhi's borders and went home on 11 December 2021, after the government agreed
   to their demands, including an assurance to consider guaranteed prices for produce. Farm leaders
-  and the opposition said more than 700 farmers died during the protest; this figure comes from
-  protest leaders and opposition parties and was not confirmed by the government in these sources.
+  and opposition MPs said 700 to 750 farmers died during the protest; the Union Agriculture
+  Ministry told the Lok Sabha that it had no record of these deaths.
 positions:
   - party: BJP
     person: Narendra Singh Tomar
     role_at_time: Union Agriculture Minister
     in_power: true
     date: 2021-01-22
-    statement: "Talks remained inconclusive as farmers' welfare was not at the heart of talks from the unions' side."
+    kind: paraphrase
+    statement: "Said after the eleventh round that the talks were inconclusive because the unions wanted only repeal of the laws despite the government asking for alternatives, and that farmers' welfare was not at the heart of the talks from the unions' side. Asked the unions to reply to the government's proposal by Saturday."
     sources: [s4]
   - party: BJP
     person: Narendra Modi
     role_at_time: Prime Minister
     in_power: true
     date: 2021-11-19
-    statement: "We have decided to repeal all three farm laws. Said the government had been unable to convince farmers, and that whatever he did was for farmers and what he was doing was for the country."
-    sources: [s3]
+    kind: translated
+    statement: "Announced that the government had decided to withdraw all three farm laws and would complete their repeal in the Parliament session starting later that month. Said the laws had been brought for the welfare of farmers, especially small farmers, but the government could not explain them to some farmers despite its efforts. Appealed to protesting farmers to return home."
+    quote:
+      text: "today I have come to tell you, the whole country, that we have decided to withdraw all three agricultural laws. In the Parliament session starting later this month, we will complete the constitutional process to repeal these three agricultural laws"
+      original: "आज मैं आपको, पूरे देश को, ये बताने आया हूं कि हमने तीनों कृषि कानूनों को वापस लेने का निर्णय लिया है। इस महीने के अंत में शुरू होने जा रहे संसद सत्र में, हम इन तीनों कृषि कानूनों को Repeal करने की संवैधानिक प्रक्रिया को पूरा कर देंगे"
+      language: hi
+      translated_by: source
+      locator: "English: paragraph beginning 'The Prime Minister said that the Government brought these laws'; Hindi: embedded @PMOIndia post of 19 November 2021 on the same page"
+      source: s21
+    sources: [s21, s3]
   - party: BJP
     person: Pralhad Joshi
     role_at_time: Union Minister for Parliamentary Affairs
     in_power: true
     date: 2021-11-29
-    statement: "What is your intention? Prime Minister in his large heartedness agreed that the Bills be repealed, why are you delaying it?"
-    sources: [s7]
+    kind: paraphrase
+    statement: "Said there was little need for a debate because the Prime Minister had already agreed to repeal the laws, and asked what the opposition's intention was in delaying the bill."
+    sources: [s7, s25]
   - party: INC
     person: Rahul Gandhi
     role_at_time: Lok Sabha MP, opposition
     in_power: false
     date: 2021-11-29
-    statement: "The manner in which the government passed the Farm Laws Repeal Bill, 2021 proves that the government was wrong and was scared of a discussion."
-    sources: [s7]
+    kind: verbatim
+    statement: "Said it was unfortunate that the laws were repealed without discussion, that the opposition had wanted to discuss MSP, the Lakhimpur Kheri incident and the farmers who died in the agitation, and that the government had avoided a debate because it was 'terrified'."
+    quote:
+      text: "What is unfortunate is how the bills have been repealed, without any discussion, without any conversation."
+      locator: "Paragraph beginning 'What is unfortunate is how the bills have been repealed'"
+      source: s23
+    sources: [s23, s7]
   - party: INC
     person: Mallikarjun Kharge
     role_at_time: Leader of Opposition, Rajya Sabha
     in_power: false
     date: 2021-11-29
-    statement: "Welcomed the repeal and congratulated the government for its belated wisdom, then raised the deaths of 750 farmers during the agitation before the chair said his time was up."
-    sources: [s7]
+    kind: paraphrase
+    statement: "Speaking briefly in the Rajya Sabha before the vote, welcomed the repeal and congratulated the government for what he called its belated wisdom, then raised the deaths of farmers during the agitation (750 in The Hindu's report, 700 in Scroll's) before the chair said his time was up. Said the government had decided on repeal after assessing the effect of the protests on recent by-elections and ahead of elections in five states."
+    sources: [s7, s24]
   - party: INC
     person: P. Chidambaram
     role_at_time: Rajya Sabha MP, opposition
     in_power: false
     date: 2021-11-19
-    statement: "PM's announcement on the withdrawal of the three farm laws is not inspired by a change of policy or a change of heart. It is impelled by fear of elections!"
-    sources: [s3]
+    kind: verbatim
+    statement: "In a series of posts on X (then Twitter), said the repeal was driven by fear of elections rather than a change of policy, and called it a victory for farmers and for the Congress."
+    quote:
+      text: "PM’s announcement on the withdrawal of the three farm laws is not inspired by a change of policy or a change of heart. It is impelled by fear of elections!"
+      locator: "Paragraph beginning 'An opposition MP, Palaniappan Chidambaram, said in a tweet'"
+      source: s3
+    sources: [s3, s27]
 sources:
   - id: s1
-    title: Haryana govt digs roads, trenches to stop farmer protests move past barricades
+    title: "Haryana Govt Digs Trenches to Stop Delhi March, Farmers Undeterred"
     publisher: The Quint
+    tier: secondary
     url: https://www.thequint.com/news/india/haryana-govt-digs-roads-trenches-to-stop-farmer-protests-move-past-barricades
     archive_date: 2020-11-27
     archive_url: https://web.archive.org/web/20201127102206/https://www.thequint.com/news/india/haryana-govt-digs-roads-trenches-to-stop-farmer-protests-move-past-barricades
     date: 2020-11-27
     type: news
+    accessed: 2026-10-15
   - id: s2
-    title: Expired tear gas shells used
+    title: Expired tear gas shells used in Haryana to disperse Punjab farmers
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/news/haryana/expired-tear-gas-shells-used-177431
     archive_date: 2020-12-09
     archive_url: https://web.archive.org/web/20201209123033/https://www.tribuneindia.com/news/haryana/expired-tear-gas-shells-used-177431
     date: 2020-11-28
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Indian PM Narendra Modi to repeal farm laws after year of protests
     publisher: The Guardian
+    author: Hannah Ellis-Petersen
+    tier: report
     url: https://www.theguardian.com/world/2021/nov/19/indian-pm-narendra-modi-to-repeal-farm-laws-after-year-of-protests
     date: 2021-11-19
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Eleventh round of talks between Modi govt and farmers fails, no date for next meeting"
     publisher: ThePrint
+    author: Sravasti Dasgupta
+    tier: report
     url: https://theprint.in/india/eleventh-round-of-talks-between-modi-govt-and-farmers-fails-no-date-for-next-meeting/590520/
     archive_date: 2021-01-22
     archive_url: https://web.archive.org/web/20210122140320/https://theprint.in/india/eleventh-round-of-talks-between-modi-govt-and-farmers-fails-no-date-for-next-meeting/590520/
     date: 2021-01-22
     type: news
+    accessed: 2026-10-15
   - id: s5
-    title: Supreme Court stays implementation of farm laws, forms committee
+    title: "Breaking: Farm Laws Implementation Stayed, Committee Formed For Talks, MSP To Continue- Read Summary Of Supreme Court Directions"
     publisher: LiveLaw
+    tier: secondary
     url: https://www.livelaw.in/top-stories/farmlaws-stayed-supreme-court-farmers-protest-168307
     archive_date: 2021-01-12
     archive_url: https://web.archive.org/web/20210112115832/https://www.livelaw.in/top-stories/farmlaws-stayed-supreme-court-farmers-protest-168307
     date: 2021-01-12
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "Tractor rally violence: Internet services snapped in parts of Delhi-NCR"
     publisher: Hindustan Times
+    tier: secondary
     url: https://www.hindustantimes.com/cities/delhi-news/internet-services-snapped-in-some-parts-of-delhi-ncr-due-to-farm-stir-violence-101611655900259-amp.html
     archive_date: 2021-01-26
     archive_url: https://web.archive.org/web/20210126133746/https://www.hindustantimes.com/cities/delhi-news/internet-services-snapped-in-some-parts-of-delhi-ncr-due-to-farm-stir-violence-101611655900259-amp.html
     date: 2021-01-26
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Parliament clears Farm Laws Repeal Bill without a debate
     publisher: The Hindu
+    tier: secondary
     url: https://www.thehindu.com/news/national/parliament-clears-farm-laws-repeal-bill-without-a-debate/article37762376.ece
     archive_date: 2021-11-30
     archive_url: https://web.archive.org/web/20211130034515/https://www.thehindu.com/news/national/parliament-clears-farm-laws-repeal-bill-without-a-debate/article37762376.ece
     date: 2021-11-30
     type: news
+    accessed: 2026-10-15
   - id: s8
-    title: Indian farmers head home after year-long demonstrations
+    title: "Photos: Indian farmers head home after year-long protests"
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/gallery/2021/12/11/indian-farmers-head-home-after-year-long-demonstrations
     archive_date: 2021-12-11
     archive_url: https://web.archive.org/web/20211211170719/https://www.aljazeera.com/gallery/2021/12/11/indian-farmers-head-home-after-year-long-demonstrations
     date: 2021-12-11
     type: news
+    accessed: 2026-10-15
   - id: s9
-    title: Bhupinder Singh Mann recuses from Supreme Court farm laws committee
+    title: "Breaking- Bhupinder Singh Mann Recuses From Supreme Court Formed Committee To Negotiate On Farm Laws"
     publisher: LiveLaw
+    tier: secondary
     url: https://www.livelaw.in/top-stories/bhupinder-singh-mann-farm-laws-committee-supreme-court-168401
     archive_date: 2021-01-14
     archive_url: https://web.archive.org/web/20210114090631/https://www.livelaw.in/top-stories/bhupinder-singh-mann-farm-laws-committee-supreme-court-168401
     date: 2021-01-14
     type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: Adamant farmers break barricades in Haryana
+    publisher: The Tribune
+    author: Geetanjali Gayatri
+    tier: report
+    url: https://www.tribuneindia.com/news/punjab/adamant-farmers-break-barricades-in-haryana-176463
+    archive_date: 2020-11-27
+    archive_url: https://web.archive.org/web/20201127014016/https://www.tribuneindia.com/news/punjab/adamant-farmers-break-barricades-in-haryana-176463
+    date: 2020-11-27
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: "On Constitution Day, police use tear gas, water cannon on farmers"
+    publisher: Down To Earth
+    author: Shagun
+    tier: report
+    url: https://www.downtoearth.org.in/agriculture/on-constitution-day-police-use-tear-gas-water-cannon-on-farmers-74419
+    archive_date: 2024-10-03
+    archive_url: https://web.archive.org/web/20241003135344/https://www.downtoearth.org.in/agriculture/on-constitution-day-police-use-tear-gas-water-cannon-on-farmers-74419
+    date: 2020-11-26
+    type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: "Delhi Chalo march: Punjab farmers face water cannons, push through Haryana barricades"
+    publisher: Deccan Herald
+    wire: PTI
+    tier: secondary
+    url: https://www.deccanherald.com/national/north-and-central/delhi-chalo-march-punjab-farmers-face-water-cannons-push-through-haryana-barricades-920274.html
+    archive_date: 2020-11-27
+    archive_url: https://web.archive.org/web/20201127052725/https://www.deccanherald.com/national/north-and-central/delhi-chalo-march-punjab-farmers-face-water-cannons-push-through-haryana-barricades-920274.html
+    date: 2020-11-26
+    type: news
+    accessed: 2026-10-15
+  - id: s13
+    title: "11 rounds and 45 hours of talks, yet deadlock over farm laws continues"
+    publisher: Deccan Herald
+    author: Sagar Kulkarni
+    tier: report
+    url: https://www.deccanherald.com/national/11-rounds-and-45-hours-of-talks-yet-deadlock-over-farm-laws-continues-942926.html
+    archive_date: 2021-01-25
+    archive_url: https://web.archive.org/web/20210125012719/https://www.deccanherald.com/national/11-rounds-and-45-hours-of-talks-yet-deadlock-over-farm-laws-continues-942926.html
+    date: 2021-01-24
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: Govt offers to put farm laws on hold for 1.5 years
+    publisher: The Tribune
+    author: Vibha Sharma
+    tier: report
+    url: https://www.tribuneindia.com/news/nation/govt-offers-to-put-farm-laws-on-hold-for-1-5-years-201295
+    archive_date: 2021-01-21
+    archive_url: https://web.archive.org/web/20210121130605/https://www.tribuneindia.com/news/nation/govt-offers-to-put-farm-laws-on-hold-for-1-5-years-201295
+    date: 2021-01-21
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Rakesh Vaishnav & Ors. v. Union of India & Ors., W.P.(C) No. 1118/2020 with connected matters, record of proceedings and order of 12 January 2021"
+    publisher: Supreme Court of India (copy hosted by LiveLaw)
+    tier: court
+    url: https://www.livelaw.in/pdf_upload/supreme-court-387289.pdf
+    archive_date: 2021-04-10
+    archive_url: https://web.archive.org/web/20210410111432/https://www.livelaw.in/pdf_upload/supreme-court-387289.pdf
+    date: 2021-01-12
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s16
+    title: "Telecom, internet services suspended in some parts of Delhi as clashes erupt amid tractor rally"
+    publisher: Deccan Herald
+    author: Sagar Kulkarni
+    tier: report
+    url: https://www.deccanherald.com/india/telecom-internet-services-suspended-in-some-parts-of-delhi-as-clashes-erupt-amid-tractor-rally-943559.html
+    archive_date: 2023-11-29
+    archive_url: https://web.archive.org/web/20231129051701/https://www.deccanherald.com/india/telecom-internet-services-suspended-in-some-parts-of-delhi-as-clashes-erupt-amid-tractor-rally-943559.html
+    date: 2021-01-26
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: 50 million subscribers hit by blocked internet in NCR
+    publisher: Business Today
+    author: Manu Kaushik
+    tier: report
+    url: https://www.businesstoday.in/industry/telecom/story/farmers-protest-internet-restrictions-in-delhi-affect-50-million-subscribers-285501-2021-01-26
+    archive_date: 2022-09-25
+    archive_url: https://web.archive.org/web/20220925210019/https://www.businesstoday.in/industry/telecom/story/farmers-protest-internet-restrictions-in-delhi-affect-50-million-subscribers-285501-2021-01-26
+    date: 2021-01-26
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: "MHA order No. 22016/12/2019-CIS-IV: temporary suspension of internet services in Singhu, Ghazipur and Tikri, 29-31 January 2021"
+    publisher: Ministry of Home Affairs
+    tier: record
+    url: https://www.mha.gov.in/sites/default/files/shutdown29thJan_30012021_0.pdf
+    archive_date: 2021-11-17
+    archive_url: https://web.archive.org/web/20211117014011/https://www.mha.gov.in/sites/default/files/shutdown29thJan_30012021_0.pdf
+    date: 2021-01-29
+    type: official
+    accessed: 2026-10-15
+  - id: s19
+    title: "MHA order No. 22016/12/2019-CIS-IV: temporary suspension of internet services in Singhu, Ghazipur and Tikri, 31 January-2 February 2021"
+    publisher: Ministry of Home Affairs
+    tier: record
+    url: https://www.mha.gov.in/sites/default/files/suspension31st01022021.pdf
+    archive_date: 2021-02-12
+    archive_url: https://web.archive.org/web/20210212223318/https://www.mha.gov.in/sites/default/files/suspension31st01022021.pdf
+    date: 2021-01-31
+    type: official
+    accessed: 2026-10-15
+  - id: s20
+    title: "MHA order No. 22016/12/2019-CIS-IV: temporary suspension of internet services in Singhu, Ghazipur and Tikri, 6 February 2021"
+    publisher: Ministry of Home Affairs
+    tier: record
+    url: https://www.mha.gov.in/sites/default/files/shutdown5th_06022021_0.pdf
+    archive_date: 2021-02-06
+    archive_url: https://web.archive.org/web/20210206102151/https://www.mha.gov.in/sites/default/files/shutdown5th_06022021_0.pdf
+    date: 2021-02-05
+    type: official
+    accessed: 2026-10-15
+  - id: s21
+    title: PM addresses the Nation
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    tier: record
+    url: https://www.pmindia.gov.in/en/news_updates/pm-addresses-the-nation-3/
+    date: 2021-11-19
+    type: official
+    accessed: 2026-10-15
+  - id: s22
+    title: "The Farm Laws Repeal Act, 2021 (No. 40 of 2021), Gazette of India Extraordinary, Part II, Section 1, No. 57"
+    publisher: Ministry of Law and Justice (Legislative Department), Gazette of India
+    tier: record
+    url: https://egazette.gov.in/WriteReadData/2021/231519.pdf
+    archive_date: 2024-03-20
+    archive_url: https://web.archive.org/web/20240320101637/https://egazette.gov.in/WriteReadData/2021/231519.pdf
+    date: 2021-12-01
+    type: official
+    accessed: 2026-10-15
+  - id: s23
+    title: "Repealing of farm laws without discussion shows government 'terrified': Rahul"
+    publisher: Deccan Herald
+    author: Shemin Joy
+    tier: report
+    url: https://www.deccanherald.com/india/repealing-of-farm-laws-without-discussion-shows-government-terrified-rahul-1055779.html
+    date: 2021-11-29
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Parliament passes Bill to repeal farm laws without discussion during Winter Session
+    publisher: Scroll
+    tier: secondary
+    url: https://scroll.in/latest/1011675/parliament-passes-bill-to-repeal-farm-laws-without-discussion-during-winter-session
+    archive_date: 2021-11-29
+    archive_url: https://web.archive.org/web/20211129113606/https://scroll.in/latest/1011675/parliament-passes-bill-to-repeal-farm-laws-without-discussion-during-winter-session
+    date: 2021-11-29
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Farm laws repealed in Parliament without discussion
+    publisher: Down To Earth
+    tier: secondary
+    url: https://www.downtoearth.org.in/news/agriculture/farm-laws-repealed-in-parliament-without-discussion-80423
+    archive_date: 2021-11-29
+    archive_url: https://web.archive.org/web/20211129140924/https://www.downtoearth.org.in/news/agriculture/farm-laws-repealed-in-parliament-without-discussion-80423
+    date: 2021-11-29
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "No data on farmers who died, so no compensation, says Centre"
+    publisher: Deccan Herald
+    author: Anirban Bhaumik
+    tier: report
+    url: https://www.deccanherald.com/india/no-data-on-farmers-who-died-so-no-compensation-says-centre-1056278.html
+    archive_date: 2023-12-01
+    archive_url: https://web.archive.org/web/20231201191355/https://www.deccanherald.com/india/no-data-on-farmers-who-died-so-no-compensation-says-centre-1056278.html
+    date: 2021-11-30
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Withdrawal of farm laws impelled by fear of elections, says Chidambaram"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/nation/withdrawal-of-farm-laws-impelled-by-fear-of-elections-chidambaram-340223
+    archive_date: 2021-11-19
+    archive_url: https://web.archive.org/web/20211119054310/https://www.tribuneindia.com/news/nation/withdrawal-of-farm-laws-impelled-by-fear-of-elections-chidambaram-340223
+    date: 2021-11-19
+    type: news
+    accessed: 2026-10-15
 tags: [farmers, delhi, haryana, punjab, internet_shutdown, tear_gas, barricading, negotiation, repeal, supreme_court, bjp]
 review:
   status: draft

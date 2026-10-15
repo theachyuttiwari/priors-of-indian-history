@@ -5,9 +5,13 @@ summary: >
   aged 17.5 to 21 into the armed forces for four-year terms, with about a quarter retained.
   Job aspirants protested from 15-16 June in Bihar, Uttar Pradesh, Haryana, Rajasthan,
   Madhya Pradesh, Telangana and other states. Protesters set train coaches on fire, attacked
-  BJP offices and blocked rail lines. In Bihar about 60 coaches were burnt and railway losses
-  were put at about Rs 700 crore. The Centre raised the 2022 age limit to 23 and announced
-  10% job reservations for Agniveers, but did not withdraw the scheme.
+  BJP offices and blocked rail lines. The East Central Railway said more than 60 coaches were
+  burnt in Bihar. Estimates of railway losses differ: India Today, citing the East Central
+  Railway, put losses in Bihar at about Rs 700 crore, and the Railway Minister told the Rajya
+  Sabha in July 2022 that damage to railway assets in the agitation came to Rs 259.44 crore.
+  The Centre raised the 2022 age limit to 23 and announced 10% reservations for Agniveers in
+  the Central Armed Police Forces, the Assam Rifles and Defence Ministry posts, but did not
+  withdraw the scheme.
 period:
   start: 2022-06-15
   end: 2022-06-20
@@ -32,181 +36,605 @@ government:
 actions:
   - type: tear_gas
     date: 2022-06-16
-    description: "Police in Bihar fired tear gas shells and baton-charged protesters at some locations, on a day when protesters set train coaches on fire in Bhabua and Chhapra and a BJP office was set on fire in Nawada."
+    claim: happened
+    description: "Police in Bihar fired tear gas shells and baton-charged protesters at several places, on a day when protesters set train coaches on fire at Bhabua, Chhapra and other stations and a BJP office was set on fire in Nawada. Hindustan Times reported tear gas at Ara and Bhabua and baton charges in Begusarai, Nawada, Jehanabad and other districts; at Chhapra, an RPF inspector said the RPF fired eight rounds in the air to disperse the crowd."
     actor: police
-    sources: [s1]
+    sources: [s1, s16, s17]
   - type: firing
     date: 2022-06-16
-    description: "In Palwal, Haryana, police fired shots to disperse protesters who had thrown stones outside the district commissioner's office and torched police vehicles; internet services in Palwal were suspended."
+    claim: happened
+    description: "In Palwal, Haryana, protesters attacked the Deputy Commissioner's office and residence, threw stones and set police vehicles on fire. Hindustan Times and The Tribune reported that police fired in the air to disperse them; Palwal SP Mukesh Malhotra, quoted by The Tribune, described the police response as a cane charge and tear gas. Police said two SHOs and 15 other policemen were seriously injured."
     actor: police
-    sources: [s1, s2]
+    sources: [s1, s2, s18, s33]
+    figures:
+      - { what: "police personnel seriously injured in Palwal", value: "two SHOs and 15 other policemen", claimed_by: "Palwal SP Mukesh Malhotra (quoted by The Tribune)", source: s33 }
   - type: concession
     date: 2022-06-16
-    description: "The Union government gave a one-time waiver that raised the upper age limit for Agnipath recruitment in 2022 from 21 to 23. The Ministry of Defence said this was because there had been no recruitment in the services in the last two years."
+    claim: ordered
+    description: "The Union government gave a one-time waiver that raised the upper age limit for Agnipath recruitment in 2022 from 21 to 23. The Defence Ministry release said this was because it had not been possible to undertake recruitment during the last two years."
     actor: centre
-    sources: [s2]
+    sources: [s11, s2, s41]
   - type: internet_shutdown
     date: 2022-06-17
-    description: "The Bihar government suspended internet services in 12 districts until 19 June. By 20 June, internet remained suspended in 17 of Bihar's 38 districts. Haryana also suspended mobile internet and SMS for 24 hours in Mahendragarh and the Ballabhgarh area of Faridabad."
+    claim: ordered
+    description: "The Haryana government suspended mobile internet, SMS and dongle services in Palwal district for 24 hours from 16 June, and on 17 June for 24 hours in Mahendragarh district and the Ballabhgarh area of Faridabad, saying it wanted to stop the spread of disinformation and rumours. The Bihar Home Department suspended internet services in 12 districts from 17 June until 19 June. Reports differ on the later extent in Bihar: a Police Headquarters statement on 19 June said 17 of 38 districts remained under suspension, while Hindustan Times and The Times of India reported 20 districts. Services were restored on 21 June."
     actor: state
-    sources: [s3, s5]
+    sources: [s3, s5, s18, s24, s25, s27, s33, s34, s39, s40]
+    legal_basis: "Haryana (Palwal): Section 5 of the Indian Telegraph Act, 1885, read with Rule 2 of the Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017, as quoted from the order by The Indian Express. Bihar: Home Department order No. C/C.I.Misc-4013/2017-01 of 17 June 2022, as cited by SFLC.in (law not named in the sources opened)"
+    figures:
+      - { what: "Bihar districts with internet suspended from 17 June", value: "12 of 38", claimed_by: "ADG (Law and Order) Sanjay Singh (to PTI); Bihar government order (reported by ThePrint)", source: s24 }
+      - { what: "Bihar districts with internet still suspended on 19 June", value: "17 of 38", claimed_by: "Bihar Police Headquarters statement (PTI)", source: s34 }
+      - { what: "Bihar districts with mobile internet suspended", value: "20", claimed_by: "Hindustan Times (Subhash Pathak)", source: s27 }
   - type: firing
     date: 2022-06-17
-    description: "Police opened fire on protesters at Secunderabad railway station in Telangana after protesters vandalised the station and set train bogies on fire. One person died and 13 injured people were admitted to Gandhi Hospital."
+    claim: happened
+    description: "Police opened fire on protesters at Secunderabad railway station in Telangana after protesters vandalised the station and set train coaches on fire. One person, Damera (Damira) Rakesh from Warangal district, died; Gandhi Hospital's superintendent said 13 people were brought to the hospital. Reports differ on which force fired: The Indian Express reported that Telangana police allegedly opened fire, while The Hindu reported that the station manager's complaint, on which the Secunderabad Railway Police registered a case, said police opened fire on the legs in self-defence to stop protesters setting fire to locomotives. Reports give Rakesh's age as 24 (The Indian Express) and 18 (The News Minute)."
     actor: police
-    sources: [s3, s4]
+    sources: [s3, s4, s20, s21, s22, s23]
+    figures:
+      - { what: "people killed", value: "1", claimed_by: "Gandhi Hospital superintendent Raja Rao (quoted by The Indian Express)", source: s20 }
+      - { what: "people brought to Gandhi Hospital, including the dead man", value: "13", claimed_by: "Gandhi Hospital superintendent Raja Rao (quoted by ANI, via Scroll)", source: s3 }
+      - { what: "rounds fired by police", value: "at least 10", claimed_by: "The Indian Express ('reportedly')", source: s20 }
+      - { what: "rounds fired by police", value: "at least 15", claimed_by: "The Hindu ('preliminary reports')", source: s21 }
   - type: section_144
     date: 2022-06-17
-    description: "Prohibitory orders under Section 144 were imposed in Faridabad and large gatherings were banned in Gurugram. On 20 June, the day of a Bharat Bandh call, police in several areas imposed Section 144, and prohibitory orders were reported in some districts of Bihar, Jharkhand, Uttar Pradesh, Kerala, Assam and Rajasthan."
+    claim: ordered
+    description: "Prohibitory orders under Section 144 CrPC were imposed in Palwal on 16 June and in Faridabad. On 17 June, Gurugram District Magistrate Nishant Kumar Yadav issued an order prohibiting the free movement of persons and gatherings of more than four people in Gurugram district, in force until further orders. On 20 June, the day of a Bharat Bandh call, police in several areas imposed Section 144, and prohibitory orders were reported in some districts of Bihar, Jharkhand, Uttar Pradesh, Kerala, Assam and Rajasthan."
     actor: state
-    sources: [s3, s6, s5]
+    sources: [s3, s6, s5, s19, s43, s33]
+    legal_basis: Section 144 CrPC
   - type: fir
     date: 2022-06-18
-    description: "Bihar Police registered 24 cases and detained more than 125 people by 17 June. ADGP Sanjay Singh said about 620 people had been arrested and 130 FIRs filed by 18 June. A later report cited 718 arrests in Bihar. Uttar Pradesh reported six FIRs and 260 arrests, and Haryana 23 arrests and more than 1,000 people booked in Palwal. Reported Bihar figures differ between sources."
+    claim: ordered
+    description: "Police in Bihar, Uttar Pradesh, Haryana and Telangana registered cases and made arrests. Bihar figures given by police and officials rose from 24 FIRs on 17 June to between 145 and 159 FIRs by 19-20 June, and arrests from more than 125 to between 804 and 879; one figure from the ADG (Law and Order), 600 cases, differs from the others (see figures). In Uttar Pradesh, police said on 18 June that 340 people had been arrested and 29 cases lodged in 12 districts. In Palwal, Haryana, police booked over 1,000 people in three FIRs and arrested 23. In Secunderabad, the Railway Police registered a case on the station manager's complaint under rioting, attempt to murder and other IPC sections, the Prevention of Damage to Public Property Act and the Railways Act."
     actor: police
-    sources: [s3, s7, s8]
+    sources: [s3, s7, s8, s24, s26, s27, s28, s31, s32, s34, s23]
+    legal_basis: "Secunderabad: IPC sections 143, 147, 324, 307, 435, 427, 448, 336, 332 and 341 read with 149, the Prevention of Damage to Public Property Act and the Railways Act (as reported by The Hindu)"
+    figures:
+      - { what: "Bihar FIRs and people detained, by 17 June", value: "24 FIRs; more than 125 detained", claimed_by: "ADG (Law and Order) Sanjay Singh (to ANI)", source: s3 }
+      - { what: "Bihar arrests and FIRs, by 18 June", value: "about 620 arrested; 130 FIRs", claimed_by: "ADG (Law and Order) Sanjay Singh (to ANI)", source: s7 }
+      - { what: "Bihar arrests and FIRs, by 18 June", value: "over 325 arrested; about 60 FIRs", claimed_by: "Bihar police (reported by The Hindu)", source: s28 }
+      - { what: "Bihar cases registered, by 18 June", value: "600", claimed_by: "ADG (Law and Order) Sanjay Kumar Singh (reported by ThePrint)", source: s24 }
+      - { what: "Bihar arrests and cases, by 19 June", value: "718 arrested; 25 cases", claimed_by: "Bihar Police (reported by The Indian Express, via Scroll)", source: s8 }
+      - { what: "Bihar arrests and FIRs, by 19 June", value: "804 arrested; 145 FIRs", claimed_by: "Bihar Police Headquarters statement (PTI)", source: s34 }
+      - { what: "Bihar arrests and FIRs, by 19 June", value: "805 arrested; 148 FIRs", claimed_by: "officials (reported by Hindustan Times)", source: s26 }
+      - { what: "Bihar arrests and FIRs, by 20 June", value: "879 arrested; 159 FIRs", claimed_by: "Bihar Home Department official (reported by Hindustan Times)", source: s27 }
+      - { what: "Uttar Pradesh arrests and FIRs, by 18 June", value: "260 arrested; 6 FIRs", claimed_by: "Uttar Pradesh Police (reported by ANI, via Scroll)", source: s7 }
+      - { what: "Uttar Pradesh arrests and cases, by 18 June", value: "340 arrested (145 preventive under Section 151 CrPC, 195 under FIRs); 29 cases in 12 districts", claimed_by: "Uttar Pradesh Police (reported by The Hindu)", source: s31 }
+      - { what: "Palwal arrests and people booked", value: "23 arrested; over 1,000 booked in three FIRs", claimed_by: "Palwal district police (reported by The Tribune)", source: s32 }
   - type: concession
     date: 2022-06-18
-    description: "The Home Ministry announced 10% reservation for Agniveers in the Central Armed Police Forces and Assam Rifles, with a 3-year age relaxation (5 years for the first batch). Defence Minister Rajnath Singh approved 10% reservation of Ministry of Defence vacancies, including the Indian Coast Guard, defence civilian posts and 16 defence PSUs. Army officer Lt Gen Anil Puri said these concessions were already planned and were not a response to the protests."
+    claim: ordered
+    description: "The Home Ministry announced 10% reservation of vacancies for Agniveers in the Central Armed Police Forces and Assam Rifles, with a 3-year age relaxation (5 years for the first batch). Defence Minister Rajnath Singh approved 10% reservation of Ministry of Defence job vacancies for Agniveers, in the Indian Coast Guard, defence civilian posts and 16 defence PSUs. On 19 June, Lt Gen Anil Puri, Additional Secretary in the Department of Military Affairs, said the reservation announcement was planned and was not a reaction to the protests."
     actor: centre
-    sources: [s4, s9, s7b]
+    sources: [s12, s13, s4, s7b, s30]
+  - type: other
+    date: 2023-02-27
+    claim: held
+    description: "A Division Bench of the Delhi High Court (Chief Justice Satish Chandra Sharma and Justice Subramonium Prasad) dismissed a batch of writ petitions that challenged the Agnipath scheme or sought completion of earlier recruitment processes. It held that the scheme was not arbitrary, capricious or devoid of reason and that it was made in national interest to ensure that the Armed Forces are better equipped."
+    actor: court
+    sources: [s37]
 outcome: >
   The government did not roll back the scheme. The Army issued a notification on 20 June
   to begin registrations for the first batch from July. The opposition raised the scheme in
-  the Bihar Assembly on 27 June 2022, and the Assembly was adjourned for the day.
+  the Bihar Assembly on 27 June 2022, and the Assembly was adjourned for the day. On 27 February
+  2023 the Delhi High Court dismissed the petitions challenging the scheme.
 positions:
   - party: BJP
     person: Ashwini Vaishnaw
     role_at_time: Union Railway Minister
     in_power: true
-    date: 2022-06-19
-    statement: "The government is listening to your grievances with sensitivity. Taking part in discussions is the appropriate approach for any situation."
-    sources: [s8]
+    date: 2022-06-17
+    kind: verbatim
+    statement: "Appealed to young people not to take part in violent protests or damage railway property, saying the Railways are the property of the country. On 18 June, as reported by Scroll, he repeated that rail property belongs to the country and said the government was listening to protesters' grievances with sensitivity."
+    quote:
+      text: "I appeal to the youth to not indulge in violent protests and not damage the property of the Railways."
+      locator: "ANI post of 17 June 2022 with video, beginning '#WATCH | I appeal to the youth'"
+      source: s15
+    sources: [s15, s3, s8]
   - party: BJP
     person: Rajnath Singh
     role_at_time: Union Defence Minister
     in_power: true
     date: 2022-06-18
-    statement: "On the 10% reservation for Agniveers in Defence Ministry jobs, said: This reservation would be in addition to existing reservation for ex-servicemen. Necessary amendments to relevant recruitment rules will be undertaken to implement these provisions."
-    sources: [s4]
+    kind: verbatim
+    statement: "His office announced that he had approved a proposal to reserve 10% of Ministry of Defence job vacancies for Agniveers, in addition to existing reservations for ex-servicemen, and that recruitment rules would be amended and age relaxation provided."
+    quote:
+      text: "This reservation would be in addition to existing reservations for ex-servicemen."
+      locator: "First paragraph of the release on rajnathsingh.in, last sentence"
+      source: s13
+    sources: [s13, s4]
   - party: INC
     person: Rahul Gandhi
     role_at_time: Lok Sabha MP, opposition
     in_power: false
-    date: 2022-06-16
-    statement: "Said the BJP government must stop compromising the dignity, traditions, valour and discipline of our forces."
-    sources: [s10]
+    date: 2022-06-15
+    kind: paraphrase
+    statement: "Said on Twitter that, with India facing threats on two fronts, the Agnipath scheme reduces the operational effectiveness of the armed forces, and that the BJP government must stop compromising the dignity, traditions, valour and discipline of the forces."
+    sources: [s10, s35, s36]
   - party: INC
     person: Mallikarjun Kharge
     role_at_time: Leader of Opposition, Rajya Sabha
     in_power: false
     date: 2022-06-20
-    statement: "For the first time in 75 years, service chiefs are being fronted to defend a policy decision by the government."
-    sources: [s6]
+    kind: verbatim
+    statement: "Said service chiefs were being fronted to defend a government policy decision for the first time in 75 years, and asked why the Prime Minister, Home Minister and Defence Minister were quiet on the scheme."
+    quote:
+      text: "For the first time in 75 years, service chiefs are being fronted to defend a policy decision by the government."
+      locator: "Post on X, first sentence"
+      source: s14
+    sources: [s14, s6, s5]
   - party: RJD
     person: Tejashwi Yadav
     role_at_time: Leader of Opposition, Bihar Assembly
     in_power: false
     date: 2022-06-19
-    statement: "Asked whether the scheme was like MGNREGA or had a hidden agenda, and demanded its withdrawal."
-    sources: [s7b]
+    kind: paraphrase
+    statement: "At a press conference in Patna, asked whether the scheme was a MGNREGA-like step for educated youth or a hidden agenda of the RSS, demanded its withdrawal and urged protesters to demonstrate peacefully."
+    sources: [s7b, s38]
   - party: JD(U)
     person: Lalan Singh
     role_at_time: JD(U) National President, BJP ally in Bihar
     in_power: true
-    date: 2022-06-19
-    statement: "Said the BJP had not consulted the JD(U) before announcing the scheme, in reply to Bihar BJP chief Sanjay Jaiswal, who blamed the JD(U) for the vandalism of his house in Bettiah."
-    sources: [s7b]
+    date: 2022-06-18
+    kind: verbatim
+    statement: "Replying to Bihar BJP president Sanjay Jaiswal, who had accused the state administration and police of standing by while BJP offices and leaders' homes were attacked, asked why BJP-led state governments had not had police fire on protesters, and said BJP leaders were targeted because the BJP heads the Union government. The Indian Express reported that he also said the BJP had not consulted the JD(U) before announcing the scheme."
+    quote:
+      text: "They don’t realise a simple thing: that BJP leaders are being targeted because the party heads the government at the Centre."
+      locator: "Paragraph beginning 'Reacting sharply to Jaiswal’s statement'"
+      source: s29
+    sources: [s29, s24, s28, s7b]
 sources:
   - id: s1
     title: "Agnipath scheme: Violent protests in many states, train coaches set on fire"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026311/agnipath-scheme-violent-protests-in-india-train-coaches-set-on-fire
     archive_date: 2022-06-16
     archive_url: https://web.archive.org/web/20220616100559/https://scroll.in/latest/1026311/agnipath-scheme-violent-protests-in-india-train-coaches-set-on-fire
     date: 2022-06-16
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "Agnipath scheme: Government raises age limit to 23 from 21 for recruitment this year"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026341/agnipath-scheme-government-increases-upper-age-limit-to-23-from-21-for-recruitment-in-2022
     archive_date: 2022-06-17
     archive_url: https://web.archive.org/web/20220617034644/https://scroll.in/latest/1026341/agnipath-scheme-government-increases-upper-age-limit-to-23-from-21-for-recruitment-in-2022
     date: 2022-06-17
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: "Agnipath protests: One dead in Secunderabad, five trains set ablaze in three states"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up
     archive_date: 2022-06-17
     archive_url: https://web.archive.org/web/20220617081401/https://scroll.in/latest/1026366/violent-protests-against-agnipath-scheme-enters-third-day-trains-set-on-fire-in-bihar-and-up
     date: 2022-06-17
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Agnipath scheme: Home, defence ministries announce 10% job quota for recruits as protests continue"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026422/10-reservation-for-agnipath-recruits-in-central-police-force-and-assam-rifles-announces-centre
     archive_date: 2022-06-18
     archive_url: https://web.archive.org/web/20220618050301/https://scroll.in/latest/1026422/10-reservation-for-agnipath-recruits-in-central-police-force-and-assam-rifles-announces-centre
     date: 2022-06-18
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "Bharat Bandh against Agnipath scheme disrupts road, rail traffic; Railways cancels over 600 trains"
     publisher: The Tribune
     wire: PTI
+    tier: secondary
     url: https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
     archive_date: 2022-06-20
     archive_url: https://web.archive.org/web/20220620191213/https://www.tribuneindia.com/news/nation/bharat-bandh-against-agnipath-scheme-disrupts-road-rail-traffic-railways-cancels-529-trains-405495
     date: 2022-06-20
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "Agnipath protests top updates: Over 500 trains cancelled, Modi to meet service chiefs on Tuesday"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026511/agnipath-protests-top-updates-security-ramped-up-in-several-states-amid-bharat-bandh-call
     archive_date: 2022-06-20
     archive_url: https://web.archive.org/web/20220620052035/https://scroll.in/latest/1026511/agnipath-protests-top-updates-security-ramped-up-in-several-states-amid-bharat-bandh-call
     date: 2022-06-20
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: "Agnipath protests top updates: Agitation in 13 states, railway stations ransacked in Bihar, Punjab"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026433/agnipath-protests-top-updates-260-persons-arrested-in-uttar-pradesh-23-in-haryana
     archive_date: 2022-06-18
     archive_url: https://web.archive.org/web/20220618064409/https://scroll.in/latest/1026433/agnipath-protests-top-updates-260-persons-arrested-in-uttar-pradesh-23-in-haryana
     date: 2022-06-18
     type: news
+    accessed: 2026-10-15
   - id: s7b
     title: "Agnipath protest top updates: Bihar burning but BJP and JD(U) are fighting, says Prashant Kishor"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026487/agnipath-protest-top-updates-bihar-burning-but-bjp-and-jd-u-are-fighting-says-prashant-kishor
     archive_date: 2022-06-19
     archive_url: https://web.archive.org/web/20220619110435/https://scroll.in/latest/1026487/agnipath-protest-top-updates-bihar-burning-but-bjp-and-jd-u-are-fighting-says-prashant-kishor
     date: 2022-06-19
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: "Agnipath protests: 60 train coaches burnt, Railways suffers losses of Rs 700 crore"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1026482/agnipath-protests-60-train-coaches-burnt-railways-suffers-losses-of-rs-700-crore
     archive_date: 2022-06-19
     archive_url: https://web.archive.org/web/20220619125047/https://scroll.in/latest/1026482/agnipath-protests-60-train-coaches-burnt-railways-suffers-losses-of-rs-700-crore
     date: 2022-06-19
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: "Bihar Assembly adjourned after Opposition calls for discussion on Agnipath scheme"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/1027052/bihar-assembly-adjourned-after-opposition-calls-for-discussion-on-agnipath-scheme
     archive_date: 2022-06-27
     archive_url: https://web.archive.org/web/20220627135856/https://scroll.in/latest/1027052/bihar-assembly-adjourned-after-opposition-calls-for-discussion-on-agnipath-scheme
     date: 2022-06-27
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: "'Agnipath': Anger in India over Modi's new army recruitment plan"
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2022/6/16/agnipath-anger-in-india-over-modis-new-army-recruitment-plan
     archive_date: 2022-06-16
     archive_url: https://web.archive.org/web/20220616101804/https://www.aljazeera.com/news/2022/6/16/agnipath-anger-in-india-over-modis-new-army-recruitment-plan
     date: 2022-06-16
     type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: "Extension of entry age: Agnipath scheme"
+    publisher: Press Information Bureau (Defence Wing), Ministry of Defence
+    tier: record
+    url: https://mod.gov.in/sites/default/files/pr3.pdf
+    archive_date: 2023-06-05
+    archive_url: https://web.archive.org/web/20230605171929/https://mod.gov.in/sites/default/files/pr3.pdf
+    date: 2022-06-16
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: "The Ministry of Home Affairs (MHA) decides to reserve 10% vacancies for recruitment in CAPFs and Assam Rifles for Agniveers. (thread)"
+    publisher: Office of the Home Minister (@HMOIndia), X
+    tier: record
+    url: https://x.com/HMOIndia/status/1538000194251653120
+    date: 2022-06-18
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: "Agnipath – Raksha Mantri Shri Rajnath Singh approves 10% reservation of jobs for Agniveers in Indian Coast Guard, Defence Civilian posts & 16 DPSUs"
+    publisher: Rajnath Singh (official website)
+    tier: record
+    url: https://www.rajnathsingh.in/?p=31239
+    date: 2022-06-18
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: "For the first time in 75 years, service chiefs are being fronted to defend a policy decision by the government."
+    publisher: Mallikarjun Kharge (@kharge), X
+    tier: record
+    url: https://x.com/kharge/status/1538755874323562496
+    date: 2022-06-20
+    type: official
+    accessed: 2026-10-15
+  - id: s15
+    title: "#WATCH | I appeal to the youth to not indulge in violent protests and not damage the property of the Railways"
+    publisher: ANI (@ANI), X
+    wire: ANI
+    tier: secondary
+    url: https://x.com/ANI/status/1537753156020342784
+    archive_date: 2025-04-27
+    archive_url: https://web.archive.org/web/20250427152602/https://x.com/ANI/status/1537753156020342784
+    date: 2022-06-17
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: "Protests continue in Bihar over Central government’s ‘Agnipath’ scheme"
+    publisher: The Hindu
+    author: Amarnath Tewary
+    tier: report
+    url: https://www.thehindu.com/news/national/other-states/protest-erupts-across-bihar-over-central-governments-agnipath-scheme/article65532441.ece
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616095532/https://www.thehindu.com/news/national/other-states/protest-erupts-across-bihar-over-central-governments-agnipath-scheme/article65532441.ece
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "Protest against Agnipath: Three trains set on fire, BJP MLAs, offices attacked in Bihar"
+    publisher: Hindustan Times
+    author: Avinash Kumar
+    tier: report
+    url: https://www.hindustantimes.com/cities/patna-news/protest-against-agnipath-three-trains-set-on-fire-bjp-mlas-offices-attacked-in-bihar-101655395460338.html
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616170527/https://www.hindustantimes.com/cities/patna-news/protest-against-agnipath-three-trains-set-on-fire-bjp-mlas-offices-attacked-in-bihar-101655395460338.html
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: "Agnipath: Protests erupt in Gurugram, Rewari, Palwal against government"
+    publisher: Hindustan Times
+    author: Abhishek Behl
+    tier: report
+    url: https://www.hindustantimes.com/cities/gurugram-news/agnipath-protests-erupt-in-gurugram-rewari-palwal-against-government-101655405300374.html
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617091017/https://www.hindustantimes.com/cities/gurugram-news/agnipath-protests-erupt-in-gurugram-rewari-palwal-against-government-101655405300374.html
+    date: 2022-06-17
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: "Prohibitory orders in place in Gurugram to curb protests against Agnipath scheme"
+    publisher: Hindustan Times
+    author: Debashish Karmakar
+    tier: report
+    url: https://www.hindustantimes.com/cities/gurugram-news/prohibitory-orders-in-place-in-gurugram-to-curb-protests-against-agnipath-scheme-101655491525709.html
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618094026/https://www.hindustantimes.com/cities/gurugram-news/prohibitory-orders-in-place-in-gurugram-to-curb-protests-against-agnipath-scheme-101655491525709.html
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: "Agnipath protests: One dead, several injured amid violence and arson at Secunderabad railway station"
+    publisher: The Indian Express
+    author: Sreenivas Janyala and Rahul V Pisharody
+    tier: report
+    url: https://indianexpress.com/article/cities/hyderabad/agnipath-scheme-protests-secunderabad-railway-station-police-open-fire-7974855/
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617063021/https://indianexpress.com/article/cities/hyderabad/agnipath-scheme-protests-secunderabad-railway-station-police-open-fire-7974855/
+    date: 2022-06-17
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "Agnipath protests | Police fire in air to quell protests at Secunderabad station, three injured"
+    publisher: The Hindu
+    author: Ravi Reddy, B. Pradeep and Syed Mohammed
+    tier: report
+    url: https://www.thehindu.com/news/national/telangana/agnipath-protests-police-fire-in-air-to-quell-protests-at-secunderabad-station-three-injured/article65535989.ece
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617064943/https://www.thehindu.com/news/national/telangana/agnipath-protests-police-fire-in-air-to-quell-protests-at-secunderabad-station-three-injured/article65535989.ece
+    date: 2022-06-17
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: "How anti-agnipath violence unfolded in the Secunderabad Rly station"
+    publisher: The News Minute
+    author: Charan Teja
+    tier: report
+    url: https://www.thenewsminute.com/article/how-anti-agnipath-violence-unfolded-secunderabad-rly-station-165050
+    archive_date: 2022-06-17
+    archive_url: https://web.archive.org/web/20220617150843/https://www.thenewsminute.com/article/how-anti-agnipath-violence-unfolded-secunderabad-rly-station-165050
+    date: 2022-06-17
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: "Secunderabad Railway Police invoke 14 charges against protestors"
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/national/telangana/secunderabad-railway-police-invoke-14-charges-against-protestors/article65538206.ece
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618215322/https://www.thehindu.com/news/national/telangana/secunderabad-railway-police-invoke-14-charges-against-protestors/article65538206.ece
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: "Why BJP finds itself isolated from allies JD-U, HAM as Agnipath protests set Bihar on fire"
+    publisher: ThePrint
+    author: Dipak Mishra
+    tier: report
+    url: https://theprint.in/india/why-bjp-finds-itself-isolated-from-allies-jd-u-ham-as-agnipath-protests-set-bihar-on-fire/1002480/
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619034009/https://theprint.in/india/why-bjp-finds-itself-isolated-from-allies-jd-u-ham-as-agnipath-protests-set-bihar-on-fire/1002480/
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "Agnipath protests: Net services restored in 20 districts of Bihar"
+    publisher: The Times of India
+    author: Faryal Rumi
+    tier: report
+    url: https://timesofindia.indiatimes.com/city/patna/agnipath-protests-net-services-restored-in-20-districts-of-bihar/articleshow/92376429.cms
+    archive_date: 2022-06-22
+    archive_url: https://web.archive.org/web/20220622032657/https://timesofindia.indiatimes.com/city/patna/agnipath-protests-net-services-restored-in-20-districts-of-bihar/articleshow/92376429.cms
+    date: 2022-06-22
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "Agnipath protest: 805 nabbed, 148 FIRs lodge for creating public chaos in Bihar"
+    publisher: Hindustan Times
+    author: Subhash Pathak
+    tier: report
+    url: https://www.hindustantimes.com/cities/patna-news/agnipath-protest-805-nabbed-148-firs-lodge-for-creating-public-chaos-in-bihar-101655659177318.html
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619174042/https://www.hindustantimes.com/cities/patna-news/agnipath-protest-805-nabbed-148-firs-lodge-for-creating-public-chaos-in-bihar-101655659177318.html
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Agnipath protests: Bharat Bandh passes off peacefully in Bihar"
+    publisher: Hindustan Times
+    author: Subhash Pathak
+    tier: report
+    url: https://www.hindustantimes.com/cities/patna-news/agnipath-protests-bharat-bandh-passes-off-peacefully-in-bihar-101655741621775.html
+    archive_date: 2022-06-20
+    archive_url: https://web.archive.org/web/20220620161741/https://www.hindustantimes.com/cities/patna-news/agnipath-protests-bharat-bandh-passes-off-peacefully-in-bihar-101655741621775.html
+    date: 2022-06-20
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "BJP in Bihar accuses State administration for targeted vandalism"
+    publisher: The Hindu
+    author: Amarnath Tewary
+    tier: report
+    url: https://www.thehindu.com/news/national/other-states/bjp-in-bihar-accuses-state-administration-for-targeted-vandalism/article65540191.ece
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618164942/https://www.thehindu.com/news/national/other-states/bjp-in-bihar-accuses-state-administration-for-targeted-vandalism/article65540191.ece
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: "Agnipath scheme protests: NDA allies face off in Bihar; Centre steps up security for 10 BJP leaders"
+    publisher: The Indian Express
+    author: Santosh Singh and Mahender Singh Manral
+    tier: report
+    url: https://indianexpress.com/article/political-pulse/agnipath-protests-bihar-nda-allies-jdu-bjp-face-off-7977759/
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618172332/https://indianexpress.com/article/political-pulse/agnipath-protests-bihar-nda-allies-jdu-bjp-face-off-7977759/
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: "‘No rollback of Agnipath, aspirants will have to pledge they didn’t participate in arson, vandalism’"
+    publisher: The Indian Express
+    author: Krishn Kaushik
+    tier: report
+    url: https://indianexpress.com/article/india/no-rollback-agnipath-aspirants-will-have-pledge-didnt-participate-arson-vandalism-7978831/
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619142246/https://indianexpress.com/article/india/no-rollback-agnipath-aspirants-will-have-pledge-didnt-participate-arson-vandalism-7978831/
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: "U.P. police arrest 340 people for protesting against Agnipath scheme"
+    publisher: The Hindu
+    author: Omar Rashid
+    tier: report
+    url: https://www.thehindu.com/news/national/other-states/uttar-pradesh-police-arrest-many-for-protesting-against-agnipath-scheme/article65540853.ece
+    archive_date: 2022-06-20
+    archive_url: https://web.archive.org/web/20220620195957/https://www.thehindu.com/news/national/other-states/uttar-pradesh-police-arrest-many-for-protesting-against-agnipath-scheme/article65540853.ece
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: "Agnipath Row: 23 held, over 1K booked for violence in Palwal"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/haryana/agnipath-row-23-held-over-1k-booked-for-violence-in-palwal-404785
+    archive_date: 2022-06-18
+    archive_url: https://web.archive.org/web/20220618064420/https://www.tribuneindia.com/news/haryana/agnipath-row-23-held-over-1k-booked-for-violence-in-palwal-404785
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: "'Agnipath' scheme: Protests turn violent; police vehicles set on fire in Haryana's Palwal; internet suspended"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/haryana/gurugram-rewari-witness-protests-as-army-aspirants-seek-withdrawal-of-agniveer-scheme-traffic-diverted-at-major-points-404412
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616075338/https://www.tribuneindia.com/news/haryana/gurugram-rewari-witness-protests-as-army-aspirants-seek-withdrawal-of-agniveer-scheme-traffic-diverted-at-major-points-404412
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: "Violence against Agnipath scheme subsides in Bihar; over 800 arrested so far"
+    publisher: ThePrint
+    wire: PTI
+    tier: secondary
+    url: https://theprint.in/india/violence-against-agnipath-scheme-subsides-in-bihar-over-800-arrested-so-far/1003498/
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s35
+    title: "Stop compromising dignity, valour of armed forces: Rahul on 'Agnipath'"
+    publisher: Business Standard
+    wire: PTI
+    tier: secondary
+    url: https://www.business-standard.com/article/politics/stop-compromising-dignity-valour-of-armed-forces-rahul-on-agnipath-122061500810_1.html
+    archive_date: 2022-06-15
+    archive_url: https://web.archive.org/web/20220615125551/https://www.business-standard.com/article/politics/stop-compromising-dignity-valour-of-armed-forces-rahul-on-agnipath-122061500810_1.html
+    date: 2022-06-15
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: "'No Rank, No Pension': Rahul, Priyanka, Kejriwal Slam Govt Over Agnipath Scheme"
+    publisher: The Quint
+    tier: secondary
+    url: https://www.thequint.com/news/india/rahul-priyanka-mayawati-slam-govt-over-agnipath-scheme
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616110438/https://www.thequint.com/news/india/rahul-priyanka-mayawati-slam-govt-over-agnipath-scheme
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s37
+    title: "Harsh Ajay Singh v. Union of India and Ors., W.P.(C) 11011/2022 and connected matters, 2023/DHC/001414"
+    publisher: Delhi High Court (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/106439718/
+    date: 2023-02-27
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s38
+    title: "Is this MGNREGA-like step for educated youth or ‘hidden agenda’ of RSS: Tejashwi Yadav on ‘Agnipath’ scheme"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/nation/is-this-mgnrega-like-step-for-educated-youth-or-hidden-agenda-of-rss-tejashwi-yadav-on-agnipath-scheme-405207
+    archive_date: 2022-06-19
+    archive_url: https://web.archive.org/web/20220619072712/https://www.tribuneindia.com/news/nation/is-this-mgnrega-like-step-for-educated-youth-or-hidden-agenda-of-rss-tejashwi-yadav-on-agnipath-scheme-405207
+    date: 2022-06-19
+    type: news
+    accessed: 2026-10-15
+  - id: s39
+    title: "Letter to Bihar Government regarding Internet Shutdowns"
+    publisher: SFLC.in
+    tier: secondary
+    url: https://sflc.in/letter-bihar-government-regarding-internet-shutdowns/
+    archive_date: 2022-06-22
+    archive_url: https://web.archive.org/web/20220622145259/https://sflc.in/letter-bihar-government-regarding-internet-shutdowns/
+    date: 2022-06-22
+    type: news
+    accessed: 2026-10-15
+  - id: s40
+    title: "Haryana: Mobile internet suspended in Palwal as Agnipath protests erupt"
+    publisher: The Indian Express
+    tier: secondary
+    url: https://indianexpress.com/article/cities/chandigarh/haryana-mobile-internet-suspended-in-palwal-as-agnipath-protests-erupt-7973745/
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616130451/https://indianexpress.com/article/cities/chandigarh/haryana-mobile-internet-suspended-in-palwal-as-agnipath-protests-erupt-7973745/
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s41
+    title: "Upper age limit for Agnipath scheme hiring raised to 23 for 2022"
+    publisher: The Hindu
+    author: Vijaita Singh
+    tier: report
+    url: https://www.thehindu.com/news/national/agnipath-scheme-upper-age-limit-raised-to-23-for-2022/article65533184.ece
+    archive_date: 2022-06-16
+    archive_url: https://web.archive.org/web/20220616200242/https://www.thehindu.com/news/national/agnipath-scheme-upper-age-limit-raised-to-23-for-2022/article65533184.ece
+    date: 2022-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s42
+    title: "Agnipath: Railways suffered losses worth Rs 259.44 crore during protests, Centre tells Parliament"
+    publisher: Scroll.in
+    tier: secondary
+    url: https://scroll.in/latest/1028857/agnipath-railways-suffered-losses-worth-rs-259-44-crore-during-protests-centre-tells-parliament
+    date: 2022-07-22
+    type: news
+    accessed: 2026-10-15
+  - id: s43
+    title: "Sec 144 in city, cops try to track protesters with institutes’ help"
+    publisher: The Times of India
+    author: Bagish Jha
+    tier: report
+    url: https://timesofindia.indiatimes.com/city/gurgaon/sec-144-in-city-cops-try-to-track-protesters-with-institutes-help/articleshow/92292598.cms
+    archive_date: 2022-06-20
+    archive_url: https://web.archive.org/web/20220620202327/https://timesofindia.indiatimes.com/city/gurgaon/sec-144-in-city-cops-try-to-track-protesters-with-institutes-help/articleshow/92292598.cms
+    date: 2022-06-18
+    type: news
+    accessed: 2026-10-15
 tags: [bihar, military_recruitment, youth, unemployment, internet_shutdown, section_144, firing, concession, railways, bjp, jdu]
 review:
   status: draft

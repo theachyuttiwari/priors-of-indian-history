@@ -499,5 +499,69 @@
       "result": "exact",
       "text_sha256": "d9ed58318e1dd65b6af5d0d123ad685ef40006cf2948d3287fa66bd86b65a695"
     }
+  },
+  "agnipath-protests-2022": {
+    "77b8fbf54b2167bd": {
+      "position": 0,
+      "source": "s15",
+      "fetched": "https://api.fxtwitter.com/status/1537753156020342784",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "41102c9ab2617fe3f8da7a8573e9a365861fe07931a758e2617ddf474829b802"
+    },
+    "4b85258928b39b74": {
+      "position": 1,
+      "source": "s13",
+      "fetched": "https://www.rajnathsingh.in/?p=31239",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "340434f544c39fecf44d67e8c27ae94812ba6495267191223aeb4b3c754876fc",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "d5f57d6ef2d30ea6": {
+      "position": 3,
+      "source": "s14",
+      "fetched": "https://x.com/kharge/status/1538755874323562496",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "df576b53a0ac67e52fc7e374141612927a762546748cf7ad0cef3e1f310647cc",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "d31a798c8475c957": {
+      "position": 5,
+      "source": "s29",
+      "fetched": "https://web.archive.org/web/20220618172332id_/https://indianexpress.com/article/political-pulse/agnipath-protests-bihar-nda-allies-jdu-bjp-face-off-7977759/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "699d5e041cdca6ce96488d2941afa01e10aedc045334bb4e6514ca3a5b944d2d"
+    }
+  },
+  "farm-laws-2020": {
+    "7b016d9622516037": {
+      "position": 1,
+      "source": "s21",
+      "fetched": "https://www.pmindia.gov.in/en/news_updates/pm-addresses-the-nation-3/",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "8e16703fe35f4109": {
+      "position": 3,
+      "source": "s23",
+      "fetched": "https://www.deccanherald.com/india/repealing-of-farm-laws-without-discussion-shows-government-terrified-rahul-1055779.html",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "b3599a30c794b46971eda65ba5f2232f9245d14e3c7c2f8ce6978dcf78bbe388",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "d7f3bbcdcc295ac8": {
+      "position": 5,
+      "source": "s3",
+      "fetched": "https://www.theguardian.com/world/2021/nov/19/indian-pm-narendra-modi-to-repeal-farm-laws-after-year-of-protests",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "19f08824e33b8a1ad18a38117bc4b5345386d34bacebd754537697101aa1b239",
+      "note": "checked against the live page; archive the source and re-check"
+    }
   }
 }

@@ -36,6 +36,17 @@ function rawArchiveUrl(archiveUrl: string): string {
   return archiveUrl.replace(/\/web\/(\d+)\//, "/web/$1id_/");
 }
 
+const FX_API = "https://api.fxtwitter.com/status/";
+
+/**
+ * A post on X: x.com serves no text without JavaScript, and archived copies rarely hold it. The
+ * fxtwitter API returns the post text as JSON. The fetched address is recorded with the result.
+ */
+function xPostText(url: string): string | undefined {
+  const id = url.match(/^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/(\d+)/)?.[1];
+  return id ? `${FX_API}${id}` : undefined;
+}
+
 /**
  * A scanned book or report on archive.org: its details page holds no text, but the item has an OCR
  * file (`*_djvu.txt`). archive.org is itself the archive, so its own copy is used, not a snapshot.
@@ -77,7 +88,11 @@ async function sourceText(url: string): Promise<{ text: string; sha256: string }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const bytes = Buffer.from(await res.arrayBuffer());
     if (bytes.subarray(0, 5).toString("latin1") === "%PDF-") text = pdfToText(bytes);
-    else {
+    else if (url.startsWith(FX_API)) {
+      const post = (JSON.parse(bytes.toString("utf8")) as { tweet?: { text?: string; quote?: { text?: string } } })
+        .tweet;
+      text = [post?.text, post?.quote?.text].filter(Boolean).join("\n");
+    } else {
       const body = bytes.toString("utf8");
       text = /<html|<body|<p\b/i.test(body) ? htmlToText(body) : body;
     }
@@ -105,7 +120,10 @@ async function main() {
       const src = p.sources.find((s) => s.id === q.source);
       const where = `${p.id} positions[${i}]`;
       if (!src) continue; // the validator reports unknown sources
-      const fetchUrl = (await archiveOrgText(src.url)) ?? (src.archive_url ? rawArchiveUrl(src.archive_url) : src.url);
+      const fetchUrl =
+        xPostText(src.url) ??
+        (await archiveOrgText(src.url)) ??
+        (src.archive_url ? rawArchiveUrl(src.archive_url) : src.url);
       const needle = pos.kind === "translated" && q.translated_by === "priors" ? (q.original ?? q.text) : q.text;
 
       let record: QuoteCheck;
