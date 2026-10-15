@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { claimOf, independenceKey, isLeadUrl, leadOnly, meetsMinimum, mentionsCount, tierOf } from "@/lib/evidence";
+import {
+  claimOf,
+  holdBack,
+  independenceKey,
+  isLeadUrl,
+  leadOnly,
+  meetsMinimum,
+  mentionsCount,
+  tierOf,
+} from "@/lib/evidence";
 import type { Source, Tier, Wire } from "@/lib/schema";
 
 let n = 0;
@@ -100,6 +109,26 @@ describe("meetsMinimum", () => {
     const v = meetsMinimum("happened", [src(undefined), src(undefined)]);
     expect(v.ok).toBe(false);
     expect(!v.ok && v.untiered).toBe(2);
+  });
+});
+
+describe("holdBack", () => {
+  const record = src("record");
+  const one = src("report");
+  const action = (sources: string[]) =>
+    ({ type: "section_144", date: "2020-01-02", description: "d", actor: "state", sources }) as never;
+  const p = {
+    sources: [record, one],
+    actions: [action([record.id]), action([one.id])],
+    positions: [{ sources: [record.id] }, { sources: [one.id] }],
+  };
+
+  it("drops claims below their minimum and counts them", () => {
+    const { entry, held } = holdBack(p);
+    expect(entry.actions).toHaveLength(1);
+    expect(entry.positions).toEqual([{ sources: [record.id] }]);
+    expect(held).toEqual({ actions: 1, positions: 1 });
+    expect(entry.sources).toBe(p.sources);
   });
 });
 

@@ -109,6 +109,26 @@ export function meetsMinimum(claim: Claim | "said", sources: Source[]): Verdict 
   }
 }
 
+export type HeldBack = { actions: number; positions: number };
+
+/**
+ * Decision C at launch: a claim that does not meet its minimum is not published. It stays in the
+ * YAML and in the validator todo list until it is sourced. Returns the entry without those claims
+ * and how many were held back, so the page can say so.
+ */
+export function holdBack<P extends { actions: Action[]; positions: { sources: string[] }[]; sources: Source[] }>(
+  p: P,
+): { entry: P; held: HeldBack } {
+  const byId = new Map(p.sources.map((s) => [s.id, s]));
+  const resolve = (ids: string[]) => ids.map((id) => byId.get(id)).filter((s): s is Source => !!s);
+  const actions = p.actions.filter((a) => meetsMinimum(claimOf(a), resolve(a.sources)).ok);
+  const positions = p.positions.filter((pos) => meetsMinimum("said", resolve(pos.sources)).ok);
+  return {
+    entry: { ...p, actions, positions },
+    held: { actions: p.actions.length - actions.length, positions: p.positions.length - positions.length },
+  };
+}
+
 /** True when every source is a lead. Used for the hard rule: a lead is never enough alone. */
 export function leadOnly(sources: Source[]): boolean {
   return sources.length > 0 && sources.every((s) => tierOf(s) === "lead");

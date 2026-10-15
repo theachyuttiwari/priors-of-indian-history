@@ -2,6 +2,7 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
+import { holdBack, type HeldBack } from "./evidence";
 import { year } from "./format";
 import { ACTION_TYPES, ACTION_META, Precedent, type ActionType } from "./schema";
 import { isContentFile } from "./validate";
@@ -26,6 +27,19 @@ function gitDate(rel: string): string | undefined {
 /** Entry id to its YAML path, filled by loadDir. */
 const _files = new Map<string, string>();
 
+/**
+ * Decision C: claims below their evidence minimum are not published. Reviewers can build with
+ * PRIORS_SHOW_ALL=1 to see every claim, with its "Single source" mark.
+ */
+export const SHOW_ALL = process.env.PRIORS_SHOW_ALL === "1";
+
+/** Entry id to the number of claims held back, filled by loadDir. */
+const _held = new Map<string, HeldBack>();
+
+export function heldBack(p: Precedent): HeldBack {
+  return _held.get(p.id) ?? { actions: 0, positions: 0 };
+}
+
 function loadDir(dir: string): Precedent[] {
   const full = path.join(ROOT, dir);
   if (!fs.existsSync(full)) return [];
@@ -38,7 +52,14 @@ function loadDir(dir: string): Precedent[] {
       throw new Error(`${dir}/${f}: ${parsed.error.issues.map((i) => `${i.path.join(".")} ${i.message}`).join("; ")}`);
     }
     _files.set(parsed.data.id, path.join("content", dir, f));
-    out.push(parsed.data);
+    if (SHOW_ALL) {
+      out.push(parsed.data);
+      continue;
+    }
+    const { entry, held } = holdBack(parsed.data);
+    _held.set(entry.id, held);
+    // An entry with nothing left to show is not published at all.
+    if (entry.actions.length) out.push(entry);
   }
   return out;
 }

@@ -107,6 +107,10 @@ export default function AboutPage() {
           ordered or claimed, not contested facts. Disputed numbers are shown with who gave each one.
         </p>
         <p className="text-ink-2 mt-3">
+          A claim that does not yet meet this bar is held back. It is not shown or counted until it is sourced. Each
+          entry says how many of its claims are held back.
+        </p>
+        <p className="text-ink-2 mt-3">
           Only words that appear exactly in the source go in quote marks. A summary of what someone said is marked as a
           summary. A translated quote keeps the original words and says who translated it.
         </p>

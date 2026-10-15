@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CORRECTION_FORM, REPO } from "@/lib/site";
+import { CORRECTION_FORM, REPO, SITE_URL } from "@/lib/site";
 import { fmtDate, siteUpdated } from "@/lib/content";
 import "./globals.css";
 
+const DESCRIPTION =
+  "How Indian governments, across parties, have handled protests. Today's event, compared with the record. Every claim sourced.";
+
 export const metadata: Metadata = {
+  // Origin only: Next adds the base path to image and canonical URLs itself.
+  metadataBase: new URL(new URL(SITE_URL).origin),
   title: { default: "Priors: what they did before", template: "%s · Priors" },
-  description:
-    "How Indian governments, across parties, have handled protests. Today's event, compared with the record. Every claim sourced.",
+  description: DESCRIPTION,
+  openGraph: { siteName: "Priors", type: "website", locale: "en_IN", description: DESCRIPTION },
+  twitter: { card: "summary_large_image" },
 };
 
 const NAV = [

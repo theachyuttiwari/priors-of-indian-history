@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Precedent } from "@/lib/schema";
 import { fmtPeriod, siteUpdated } from "@/lib/content";
 
@@ -53,7 +54,7 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
           const h = Math.round(8 + k * 26);
           const side = pos < 20 ? "l" : pos > 80 ? "r" : "";
           return (
-            <a
+            <Link
               key={p.id}
               href={`/precedents/${p.id}/`}
               className={`tick ${k < 1 / 3 ? "faded" : ""} ${side}`}
@@ -65,7 +66,7 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
                 <span className="num">{p.period.start.slice(0, 4)}</span> {p.title}
                 {current && <span className="block opacity-70 num">Shares {kinds(shared(p))}</span>}
               </span>
-            </a>
+            </Link>
           );
         })}
         <span className="strip-now" style={{ left: `${x(nowY)}%` }} />
@@ -76,9 +77,9 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
       {current && (
         <p className="small mt-1 measure">
           Taller ticks share more kinds of action with{" "}
-          <a href={`/now/${current.id}/`} className="link">
+          <Link href={`/now/${current.id}/`} className="link">
             {current.title}
-          </a>
+          </Link>
           . Select a tick to open its precedent.
         </p>
       )}

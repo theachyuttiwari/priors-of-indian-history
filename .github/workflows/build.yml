@@ -18,6 +18,11 @@ jobs:
       - run: npm ci
       - run: npm run validate -- --strict
       - run: npm run build
+        env:
+          # Repository variables. SITE_URL: the public address, with any sub-path, no trailing slash.
+          # BASE_PATH: only when serving from user.github.io/repo, for example /priors-of-indian-history.
+          PRIORS_SITE_URL: ${{ vars.SITE_URL }}
+          PRIORS_BASE_PATH: ${{ vars.BASE_PATH }}
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with: { path: out }
   deploy:

@@ -16,7 +16,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const p = getPrecedent((await params).id);
-  return { title: p?.title ?? "Precedent" };
+  if (!p) return { title: "Precedent" };
+  return { title: p.title, description: p.summary, openGraph: { title: p.title, description: p.summary } };
 }
 
 function Fact({ term, children }: { term: string; children: React.ReactNode }) {

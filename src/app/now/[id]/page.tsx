@@ -16,7 +16,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const p = getCurrentEvent((await params).id);
-  return { title: p?.title ?? "Now" };
+  if (!p) return { title: "Now" };
+  return { title: p.title, description: p.summary, openGraph: { title: p.title, description: p.summary } };
 }
 
 export default async function NowEventPage({ params }: { params: Promise<{ id: string }> }) {
