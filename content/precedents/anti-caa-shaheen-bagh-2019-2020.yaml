@@ -35,6 +35,7 @@ actions:
     claim: happened
     description: "Delhi Police, which reports to the Union Home Ministry, entered the Jamia Millia Islamia campus on the evening of 15 December after clashes nearby in which buses were set on fire, and used batons on people inside, including in the reading rooms of the two library buildings. The chief proctor and the Vice-Chancellor said police entered without permission. Students said police beat people who were studying in the library and not protesting; library staff described broken doors, smashed CCTV cameras and blood on the floor. A senior police officer, Chinmoy Biswal, said about 4,000 people were protesting, police acted to disperse them when the crowd burned buses, police entered the campus to maintain order, and six officers were wounded. In a June 2020 reply to petitions in the Delhi High Court, Delhi Police called the allegations of police brutality an 'utter falsehood' and said it had to enter the university because rioters were using it as a shield to throw stones. Accounts are contested."
     actor: police
+    state: Delhi
     sources: [s13, s14, s15, s47, s1, s16]
     figures:
       - { what: "people protesting near Jamia on 15 December", value: "about 4,000", claimed_by: "Chinmoy Biswal, senior Delhi Police officer (quoted by Al Jazeera)", source: s1 }
@@ -46,6 +47,7 @@ actions:
     claim: happened
     description: "Students and library staff said police fired tear gas inside the Jamia library reading rooms, and that students broke windows to escape the smoke; reporters found the remains of tear gas shells there the next day. Al Jazeera reported that tear gas was fired into some classrooms. A senior officer, Chinmoy Biswal, said: \"If it had been a peaceful mob, it would have been dispersed peacefully.\""
     actor: police
+    state: Delhi
     sources: [s13, s15, s1]
     figures:
       - { what: "people with injuries brought to al-Shifa and Holy Family hospitals", value: "more than 100", claimed_by: hospital officials (quoted by Al Jazeera), source: s1 }
@@ -54,6 +56,7 @@ actions:
     claim: happened
     description: "Police took students to the Kalkaji and New Friends Colony police stations after the Jamia action and released them early on 16 December, after protests outside Delhi Police headquarters. Students said some of them were injured and were not given medical aid at the police stations; a lawyer said lawyers were at first not allowed to meet them. Counts differ (see figures). In its June 2020 reply to the Delhi High Court, Delhi Police said that students among the persons temporarily apprehended for verification were handed over to the proctor, and that no student was arrested or detained."
     actor: police
+    state: Delhi
     sources: [s1, s17, s18, s16]
     figures:
       - { what: "students detained", value: "nearly 100", claimed_by: Al Jazeera (agency report), source: s1 }
@@ -64,6 +67,7 @@ actions:
     claim: happened
     description: "Three Jamia students were treated in hospital for what they said were bullet injuries. Delhi Police first said no bullets were fired and that any foreign body could have caused the injuries. The Indian Express reported in January 2020, citing sources, that a case diary of the Southeast district police records that two police personnel fired three bullets at New Friends Colony in front of an ACP-rank officer, and that the personnel said they fired in self-defence. The two FIRs on the violence do not mention police firing. Asked again, DCP Chinmoy Biswal declined to comment while the investigation was under way."
     actor: police
+    state: Delhi
     sources: [s19, s2]
     figures:
       - { what: "bullets fired by two police personnel at New Friends Colony", value: "3", claimed_by: "police case diary, as reported by The Indian Express from sources", source: s19 }
@@ -72,6 +76,7 @@ actions:
     claim: happened
     description: "Deaths in Uttar Pradesh during the protests of 19 to 21 December 2019 are contested. Police officials said police did not open fire on protesters: on 21 December IG (Law and Order) Praveen Kumar said none of the deaths was due to police firing, and DGP O.P. Singh said that not a single bullet was fired at protesters and that protesters died in firing among themselves. On 24 December the Bijnor Superintendent of Police said that a constable had shot Mohammad Suleman in self-defence after being shot himself, the first official admission of police firing in the state; Suleman's family said police took him into a lane and shot him. In Meerut, the families of five men killed on 20 December said police shot them; police said they used baton charges, tear gas and firing to control the crowd but killed no one, and that the men must have been killed by armed protesters. In February 2020 the state told the Allahabad High Court that no one lost his life due to police action."
     actor: police
+    state: Uttar Pradesh
     sources: [s24, s25, s26, s4, s5, s6]
     figures:
       - { what: "deaths in Uttar Pradesh from 20 to 21 December, plus one in Lucknow on 19 December", value: "15, plus 1", claimed_by: "IG (Law and Order) Praveen Kumar (quoted by Hindustan Times)", source: s26 }
@@ -83,6 +88,7 @@ actions:
     claim: happened
     description: "Police and paramilitary forces (PAC and RAF) entered the Aligarh Muslim University campus on the evening of 15 December 2019 after a clash at the Sir Syed Gate, used batons and tear gas, and entered hostels. Students said police beat them and used abusive language and religious slurs. The Superintendent of Police (City) said about 1,500 students broke the gate and threw stones and about 30 policemen were injured. The university said police entered at its call. On 7 January 2020 the Allahabad High Court asked the NHRC to inquire. LiveLaw reported that the NHRC report found the use of force by police justified and necessary, but criticised policemen seen caning apprehended students and damaging motorcycles; it recommended compensation for six grievously injured students and action against those policemen."
     actor: police
+    state: Uttar Pradesh
     sources: [s20, s1, s23, s21, s22]
     figures:
       - { what: "students injured", value: "at least 100, six of them seriously", claimed_by: The Hindu, source: s20 }
@@ -97,6 +103,7 @@ actions:
     claim: ordered
     description: "Section 144 of the CrPC, which bans unlawful assembly, was enforced in all of Uttar Pradesh on the night of 18 December 2019, ahead of protests planned for 19 December. DGP O.P. Singh said in a post on X (then Twitter) that no permission for any gathering had been given for 19 December. The order was also imposed elsewhere in India."
     actor: state
+    state: Uttar Pradesh
     sources: [s27, s28, s3, s4]
     legal_basis: Section 144 CrPC
   - type: section_144
@@ -104,6 +111,7 @@ actions:
     claim: ordered
     description: "Bengaluru Police Commissioner Bhaskar Rao prohibited assemblies of five or more people and any protest, procession or public meeting in the city from 6 am on 19 December to 12 am on 21 December 2019, citing calls for an all-India bandh against the CAA and NRC. On 13 February 2020 the Karnataka High Court held that the order did not stand the test of judicial scrutiny under the parameters laid down by the Supreme Court in Anuradha Bhasin and Ramlila Maidan, and did not formally set it aside only because the order had worked itself out."
     actor: police
+    state: Karnataka
     sources: [s37]
     legal_basis: "Section 144 CrPC (Order No. SB/Gu.Va/Prohibition/50/2019 dated 18 December 2019, Commissioner of Police, Bengaluru City)"
     court_outcomes:
@@ -114,6 +122,7 @@ actions:
     claim: ordered
     description: "An order of the Uttar Pradesh Additional Chief Secretary (Home), Awanish Kumar Awasthi, suspended mobile internet and SMS in Lucknow from 3 pm on 19 December to noon on 21 December 2019, citing possible misuse of SMS and social media to inflame the law and order situation. Internet was also suspended in other districts, including Sambhal, Aligarh, Mau, Ghaziabad and Azamgarh (see figures). On 21 December the suspension was extended, and mobile internet was cut again in many parts of the state, including Lucknow, on 26 December."
     actor: state
+    state: Uttar Pradesh
     sources: [s29, s41, s3, s31, s26, s4, s5]
     figures:
       - { what: "districts with internet and SMS suspended on 20 December", value: "14", claimed_by: Hindustan Times, source: s31 }
@@ -123,6 +132,7 @@ actions:
     claim: ordered
     description: "Recovery of property damage: the Uttar Pradesh government sent show-cause notices demanding payment for damage during the protests and threatened to confiscate property. In March 2020 the Lucknow administration put up roadside banners with the photos, names and addresses of people accused of violence. On 9 March 2020 the Allahabad High Court, acting on its own, held the banners an unwarranted interference in privacy and ordered their removal. On 12 March 2020 the Supreme Court referred the state's appeal to a larger bench without staying the High Court order. On 18 February 2022 the state told the Supreme Court it had withdrawn the show-cause notices issued since December 2019, and the court ordered a refund of amounts recovered, leaving the state free to proceed under its 2020 recovery law."
     actor: state
+    state: Uttar Pradesh
     sources: [s6, s7, s33, s34, s32]
     legal_basis: "A government order on recovery of damages, which the state said follows the Supreme Court's guidelines in Re: Destruction of Public and Private Properties (2009); later the Uttar Pradesh Recovery of Damage to Public and Private Property Act, 2020"
     figures:
@@ -141,6 +151,7 @@ actions:
     claim: ordered
     description: "On 6 March 2020 the Delhi Police Crime Branch registered FIR 59/2020. It alleges that the communal riots in north-east Delhi on 23 to 25 February 2020 were the result of a pre-planned conspiracy by JNU student Umar Khalid and associates, including road blockades by women and children near anti-CAA protest sites. Offences under the UAPA were added later, and students and protest organisers were charged. The accused deny the allegations; Natasha Narwal's counsel, for example, said she took part in the sit-in protests but was not involved in any violent protest. On 15 June 2021 the Delhi High Court granted Narwal bail, holding that the charge-sheet did not prima facie show offences under sections 15, 17 or 18 of the UAPA, and said that 'in its anxiety to suppress dissent', the line between the right to protest and terrorist activity seemed to be getting blurred in the mind of the State. On 18 June 2021 the Supreme Court directed that the High Court's judgment not be treated as a precedent, without interfering with the bail. On 5 January 2026 the Supreme Court refused bail to Umar Khalid and Sharjeel Imam, finding that the prosecution material prima facie attributed to them a central role in the alleged conspiracy, and granted bail to five other accused."
     actor: police
+    state: Delhi
     sources: [s40, s38, s39]
     legal_basis: "FIR 59/2020, initially under sections 147, 148, 149 and 120B IPC; UAPA sections added later"
     court_outcomes:
@@ -155,6 +166,7 @@ actions:
     claim: happened
     description: "Delhi Police cleared the Shaheen Bagh protest site on the morning of 24 March 2020, citing the COVID-19 lockdown and prohibitory orders, after the remaining protesters refused a request to leave. Police removed the tents, stage and art installations; police also cleared the protest sites at Jamia and Hauz Rani. Protest graffiti at Jamia and Shaheen Bagh was painted over the same day: protesters blamed the police, while a senior police officer denied any police role and the South Delhi Municipal Corporation said it was not involved. Three protesters charged with disobeying restrictions on gatherings got bail on 30 March 2020. The Supreme Court judgment says the site was cleared with some police action to remove structures."
     actor: police
+    state: Delhi
     sources: [s35, s36, s8, s9, s10]
     legal_basis: "Section 144 CrPC prohibitory orders in Delhi; the FIR against those removed cites the IPC and Section 3 of the Epidemic Diseases Act, 1897"
     figures:

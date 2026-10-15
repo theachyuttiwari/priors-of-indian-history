@@ -109,6 +109,60 @@ describe("validateContent", () => {
     expect(reports[0].errors).toEqual([]);
     expect(reports[1].errors).toContain('id "test-protest-2020" is also used by precedents/test-protest-2020.yaml');
   });
+
+  const govSource = { id: "g", title: "List", publisher: "Assembly", url: "https://example.org/g", tier: "record" };
+  const centre = {
+    name: "Centre",
+    terms: [{ from: "2014-05-26", head: "A", party: "Blue Party", sources: ["g"] }],
+    sources: [govSource],
+  };
+
+  it("checks government tables: order, overlap, party, sources", () => {
+    setup();
+    write("governments/centre.yaml", centre);
+    write("governments/somestate.yaml", {
+      name: "Somestate",
+      terms: [
+        { from: "2010-01-01", to: "2015-01-01", head: "B", party: "Red Party", sources: ["g"] },
+        { from: "2014-06-01", to: "2013-01-01", head: "C", sources: ["missing"] },
+        { from: "2016-01-01", head: "President's Rule", kind: "presidents_rule", party: "Red Party", sources: ["w"] },
+      ],
+      sources: [govSource, { id: "w", title: "W", url: "https://en.wikipedia.org/wiki/x" }],
+    });
+    const reports = validateContent(root);
+    expect(reports[0]).toMatchObject({ file: "governments/centre.yaml", errors: [] });
+    expect(reports[1].errors).toEqual([
+      "terms[1] (C, from 2014-06-01): unknown source missing",
+      "terms[1] (C, from 2014-06-01): ends before it starts",
+      "terms[1] (C, from 2014-06-01): an elected term needs a party",
+      "terms[1] (C, from 2014-06-01): overlaps the term before (B, to 2015-01-01)",
+      "terms[2] (President's Rule, from 2016-01-01): rests only on lead sources",
+      "terms[2] (President's Rule, from 2016-01-01): presidents_rule counts for the Centre; drop party",
+    ]);
+  });
+
+  it("fails actions the tables cannot attribute", () => {
+    setup();
+    write("governments/centre.yaml", centre);
+    const action = { type: "section_144", date: "2020-01-02", description: "x", sources: ["s1"] };
+    write(
+      "precedents/test-protest-2020.yaml",
+      entry({
+        actions: [
+          { ...action, actor: "centre" },
+          { ...action, actor: "state" },
+          { ...action, actor: "police", state: "Nowhere" },
+          { ...action, actor: "centre", date: "2001-01-01" },
+        ],
+      }),
+    );
+    const r = validateContent(root).find((x) => x.file.startsWith("precedents/"))!;
+    expect(r.errors).toEqual([
+      "actions[1]: state action names no state; set state to where it happened",
+      "actions[2]: no government table for Nowhere",
+      "actions[3]: no Centre government recorded on 2001-01-01",
+    ]);
+  });
 });
 
 describe("sourcing rules", () => {

@@ -79,6 +79,7 @@ actions:
     claim: happened
     description: "On 19 April 1976 police fired on residents of the Turkman Gate area of Delhi who were protesting against demolitions. Delhi Police and the Delhi Administration reported six deaths. A police assistant sub-inspector told the Shah Commission that eight had died, then said this was a slip. The Commission found that the firing resulted in at least six deaths and that the authorities had made no elementary inquiry into it."
     actor: police
+    state: Delhi
     sources: [s2]
     figures:
       - { what: killed in the Turkman Gate firing, value: "6", claimed_by: Delhi Police and Delhi Administration, source: s2 }
@@ -89,6 +90,7 @@ actions:
     claim: happened
     description: "On 18 and 19 October 1976 police fired in Muzaffarnagar, Uttar Pradesh, to deal with resistance to the sterilisation drive. The Shah Commission listed it among at least eight police firings in the state between August and December 1976 linked to the family planning programme, and reported that the firings at Gorakhpur, Muzaffarnagar and Pratapgarh together resulted in 12 deaths. The state government ordered inquiries into all the firings."
     actor: police
+    state: Uttar Pradesh
     sources: [s5]
     figures:
       - { what: killed in police firings at Gorakhpur, Muzaffarnagar and Pratapgarh combined, value: "12", claimed_by: Shah Commission (as reported to it), source: s5 }

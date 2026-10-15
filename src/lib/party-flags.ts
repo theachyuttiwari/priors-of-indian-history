@@ -8,6 +8,7 @@
  * Several flags look alike as swatches (INC and TMC; DMK and AIADMK; CPI, CPI(M) and NC; the greens),
  * so the party name is always shown next to the swatch.
  */
+import { canonicalParty } from "./parties";
 
 export type Flag = {
   /** Bands, in order from top (horizontal) or from the hoist (vertical). `share` defaults to equal. */
@@ -174,13 +175,7 @@ const FLAGS: Record<string, Flag> = {
   },
 };
 
-/** Content uses a few spellings for the same party. */
-const ALIASES: Record<string, string> = {
-  "Pattali Makkal Katchi (PMK)": "PMK",
-  "other (Pattali Makkal Katchi)": "PMK",
-  "other (Indian National Lok Dal)": "INLD",
-};
-
+/** Takes any spelling of a party; see parties.ts. */
 export function flagFor(party: string): Flag | undefined {
-  return FLAGS[ALIASES[party] ?? party];
+  return FLAGS[canonicalParty(party)];
 }

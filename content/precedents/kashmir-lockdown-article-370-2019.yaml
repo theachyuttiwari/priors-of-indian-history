@@ -36,6 +36,7 @@ actions:
     legal_basis: "Section 5(2), Indian Telegraph Act, 1885, and the Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (as stated by the Union Home Ministry in the Lok Sabha on 20 September 2020; the Supreme Court reviewed the orders under the 2017 Suspension Rules)"
     description: "Mobile phone networks, internet services and landline connectivity were discontinued in the Kashmir Valley on 4 August 2019, as recorded in the Supreme Court judgment. Cable TV was also cut, The Indian Express reported. Hindustan Times reported that landlines were restored between mid-August and September 2019, postpaid mobile services on 14 October 2019, and SMS on 1 January 2020. Before the Supreme Court, the Solicitor General said internet was never restricted in the Jammu and Ladakh regions, and that the limited use of the internet was meant to stop messages from outside the country that could incite violence. The court recorded that the State placed only sample orders on record, citing difficulty in producing orders that were withdrawn and modified day to day."
     actor: state
+    state: Jammu and Kashmir
     sources: [s7, s10, s9, s20]
   - type: section_144
     date: 2019-08-05
@@ -43,6 +44,7 @@ actions:
     legal_basis: Section 144 CrPC (orders by District Magistrates restricting movement and public gatherings, as recorded by the Supreme Court)
     description: "District Magistrates imposed restrictions on movement and public gatherings under Section 144 CrPC, as recorded by the Supreme Court. A J&K government statement on the night of 4 August said there would be no movement of public in Srinagar district and all educational institutions would stay closed. PTI, as carried by The Wire, reported that the Srinagar orders banned assembly of more than four people, that similar orders were imposed in Jammu district, and that night curfew was imposed in Kishtwar and Rajouri districts and the Banihal area. The Srinagar district administration posted that restrictions under Section 144 had been imposed and that there were no curfew orders anywhere; The Indian Express reported that residents were not allowed outside their neighbourhoods and that curfew passes were not being issued. Before the Supreme Court, the Solicitor General said individual movement had never been restricted, that restrictions were never imposed in Ladakh, and that they were being relaxed gradually. On 16 August 2019 Chief Secretary BVR Subrahmanyam said no lives had been lost since the restrictions began; AFP reported a family's account that a 62-year-old man died from tear gas fired by security forces (see figures)."
     actor: state
+    state: Jammu and Kashmir
     sources: [s7, s1, s2, s17, s10, s25, s26, s24]
     figures:
       - { what: "deaths or serious injuries since the restrictions began, as of 16 August 2019", value: "none", claimed_by: "Chief Secretary BVR Subrahmanyam (press conference, as reported by AP)", source: s25 }
@@ -54,6 +56,7 @@ actions:
     legal_basis: Section 107 CrPC (for Omar Abdullah, according to his sister's petition in the Supreme Court, as reported by The Wire)
     description: "Omar Abdullah, Mehbooba Mufti and other mainstream leaders were placed under house arrest on the night of 4 August 2019. Al Jazeera reported that both were arrested on 5 August, with Omar Abdullah held at Hari Niwas and Mehbooba Mufti at Chashm-e-Shahi, both government guest houses; The Wire reported on 5 August that Mehbooba Mufti had been shifted to Hari Niwas. Farooq Abdullah, a sitting Lok Sabha MP, was held at his home on Gupkar Road, Al Jazeera reported; The Quint reported the government's claim that he had not been put under house arrest. The administration did not publish detention figures at the time, and AFP reported that the J&K government spokesman said there was no centralised figure. Counts given later by the Union Home Ministry in Parliament, and earlier by unnamed officials to the press, differ (see figures). On 15 September 2020 the Home Ministry told the Lok Sabha that no political leader was under house arrest in the union territory; former Union Minister Saifuddin Soz said in a statement that he had been under house arrest since 5 August 2019."
     actor: state
+    state: Jammu and Kashmir
     sources: [s3, s10, s2, s1, s6, s26, s24, s18, s19, s20, s21, s28]
     figures:
       - { what: "people detained by mid-August 2019, including politicians, separatists and activists", value: "over 1,000", claimed_by: "unnamed official in Jammu and Kashmir, to Al Jazeera", source: s3 }
@@ -71,6 +74,7 @@ actions:
     legal_basis: Jammu and Kashmir Public Safety Act, 1978
     description: "The District Magistrate of Srinagar, Shahid Iqbal Choudhary, ordered the detention of Farooq Abdullah under the Jammu and Kashmir Public Safety Act, 1978 on 14 September 2019, according to documents reported by The Tribune. The order became public on Monday 16 September 2019. The Tribune reported that the dossier cited 34 media reports and documents, and that the order called the detention necessary to maintain public order."
     actor: state
+    state: Jammu and Kashmir
     sources: [s27, s5, s4]
   - type: detention
     date: 2020-02-06
@@ -78,6 +82,7 @@ actions:
     legal_basis: Jammu and Kashmir Public Safety Act, 1978
     description: "Omar Abdullah and Mehbooba Mufti were booked under the PSA on the night of 6 February 2020, when their six-month preventive custody was ending (The Indian Express of 14 October 2020 gives the date as 5 February). The police dossiers accused Omar Abdullah of instigating the masses against central policies and said Mehbooba Mufti had been promoting separatism. Omar Abdullah's sister challenged the order in the Supreme Court; according to The Wire, her petition called the dossier's material 'patently false and ridiculous'. The J&K government revoked Mehbooba Mufti's detention under Section 19(1) of the PSA on 13 October 2020."
     actor: state
+    state: Jammu and Kashmir
     sources: [s5, s6, s12]
   - type: other
     date: 2020-01-10
@@ -90,6 +95,7 @@ actions:
     claim: ordered
     description: "The J&K administration said on 24 January 2020 that mobile data would be restored across the union territory at 2G speed from 25 January 2020, limited to a government whitelist of websites with social media and VPNs blocked. The Union Home Ministry later told the Lok Sabha that mobile data at 2G speed had been available since 24 January 2020, and that restrictions on social media sites were lifted on 4 March 2020. A first whitelist and partial 2G restoration in the Jammu division and two Valley districts had been announced on 18 January."
     actor: state
+    state: Jammu and Kashmir
     sources: [s8, s9, s20]
   - type: other
     date: 2020-05-11
@@ -102,6 +108,7 @@ actions:
     claim: ordered
     description: "The J&K administration ordered restoration of 4G mobile internet across the union territory on 5 February 2021, more than 17 months after it was suspended. The order cited an assessment by a special committee set up on the Supreme Court's 11 May 2020 directions. 4G had been restored on trial in Ganderbal and Udhampur districts from 16 August 2020."
     actor: state
+    state: Jammu and Kashmir
     sources: [s22, s9, s23]
 outcome: >
   Mobile internet was restored in stages, with 4G across Jammu and Kashmir from February 2021.

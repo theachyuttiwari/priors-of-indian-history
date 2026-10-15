@@ -1,0 +1,148 @@
+# Rajasthan, from the term in office on 1974-01-01.
+# Dates: Rajasthan Legislative Assembly "Former Chief Minister" list (no party given).
+# Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# President's Rule: MHA statement of proclamations under Article 356.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Rajasthan
+terms:
+  - from: 1973-10-11
+    to: 1977-04-29
+    head: Hari Dev Joshi
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  # MHA: proclaimed 30.4.1977, revoked 22.6.1977. TCPD-CMID starts it on 1977-04-29.
+  - from: 1977-04-30
+    to: 1977-06-21
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  # Party not given by TCPD-CMID; Wikipedia (lead) gives Janata Party.
+  - from: 1977-06-22
+    to: 1980-02-16
+    head: Bhairon Singh Shekhawat
+    party: Janata Party
+    sources: [rj-assembly-former-cm, wp-rajasthan-cms]
+  # MHA: proclaimed 17.2.1980, revoked 5.6.1980.
+  - from: 1980-02-17
+    to: 1980-06-05
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1980-06-06
+    to: 1981-07-13
+    head: Jagannath Pahadia
+    party: other (Indian National Congress (I))
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1981-07-14
+    to: 1985-02-22
+    head: Shiv Charan Mathur
+    party: other (Indian National Congress (I))
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1985-02-23
+    to: 1985-03-09
+    head: Heera Lal Devpura
+    party: other (Indian National Congress (I))
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1985-03-10
+    to: 1988-01-19
+    head: Hari Dev Joshi
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1988-01-20
+    to: 1989-12-03
+    head: Shiv Charan Mathur
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1989-12-04
+    to: 1990-03-03
+    head: Hari Dev Joshi
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1990-03-04
+    to: 1992-12-14
+    head: Bhairon Singh Shekhawat
+    party: BJP
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  # MHA: proclaimed 15.12.1992, revoked 4.12.1993.
+  - from: 1992-12-15
+    to: 1993-12-03
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1993-12-04
+    to: 1998-11-30
+    head: Bhairon Singh Shekhawat
+    party: BJP
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 1998-12-01
+    to: 2003-12-07
+    head: Ashok Gehlot
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 2003-12-08
+    to: 2008-12-12
+    head: Vasundhara Raje
+    party: BJP
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 2008-12-13
+    to: 2013-12-12
+    head: Ashok Gehlot
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 2013-12-13
+    to: 2018-12-16
+    head: Vasundhara Raje
+    party: BJP
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 2018-12-17
+    to: 2023-12-14
+    head: Ashok Gehlot
+    party: INC
+    sources: [rj-assembly-former-cm, tcpd-cmid]
+  - from: 2023-12-15
+    head: Bhajan Lal Sharma
+    party: BJP
+    sources: [pmindia-2023-bhajan-lal, ddnews-2023-bhajan-lal]
+sources:
+  - id: rj-assembly-former-cm
+    title: Former Chief Minister (Archives, Former.aspx, "Former Chief Minister" selection)
+    publisher: Rajasthan Legislative Assembly
+    url: https://assembly.rajasthan.gov.in/Containers/Archives/Former.aspx
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: pmindia-2023-bhajan-lal
+    title: PM congratulates Shri Bhajan Lal Sharma on taking oath as Chief Minister of Rajasthan
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/news_updates/pm-congratulates-shri-bhajan-lal-sharma-on-taking-oath-as-chief-minister-of-rajasthan/
+    date: 2023-12-15
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ddnews-2023-bhajan-lal
+    title: Bhajan Lal Sharma takes oath as CM of Rajasthan
+    publisher: DD News
+    url: https://ddnews.gov.in/en/bhajan-lal-sharma-takes-oath-as-cm-of-rajasthan/
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-rajasthan-cms
+    title: List of chief ministers of Rajasthan
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Rajasthan
+    tier: lead
+    accessed: 2026-10-15

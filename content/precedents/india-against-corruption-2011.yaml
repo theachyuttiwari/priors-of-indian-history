@@ -33,6 +33,7 @@ actions:
     claim: ordered
     description: "India Against Corruption applied to Delhi Police on 2 August for a month-long fast from 16 August. On 13 August police said permission would be granted at JP Park subject to conditions and an undertaking to abide by them. On 15 August the organisers refused six of the conditions, including a three-day limit, and police refused permission, according to the Prime Minister's statement to Parliament. Home Minister P. Chidambaram said the organisers would not guarantee to limit the protest to 5,000 people and three days. Arun Jaitley told the Rajya Sabha that 22 conditions had been imposed"
     actor: police
+    state: Delhi
     sources: [s5, s6, s3]
     figures:
       - what: conditions the organisers refused to accept
@@ -48,6 +49,7 @@ actions:
     claim: ordered
     description: "Prohibitory orders under Section 144 CrPC were imposed on 15 August in and around JP Park and some other areas, according to the Prime Minister's statement. Governance Now reported on 16 August that police had sealed the park under Section 144 and taken supporters who tried to enter it to Chhatrasal Stadium"
     actor: police
+    state: Delhi
     legal_basis: Section 144 CrPC
     sources: [s5, s6, s10]
   - type: preventive_arrest
@@ -55,6 +57,7 @@ actions:
     claim: happened
     description: "Police arrested Hazare in the morning outside a flat in Mayur Vihar, East Delhi, before he could go to JP Park. The Prime Minister said Hazare and six others were arrested as a preventive measure under Sections 151 and 107 CrPC because police concluded they would defy the prohibitory orders. A magistrate offered release on personal bonds with an undertaking not to violate the orders; Hazare refused and was remanded to seven days' judicial custody in Tihar Jail. That evening Delhi Police asked the magistrate to review the order, and he ordered the release at about 7 pm, according to the Prime Minister. Hazare refused to leave the jail without permission to fast at JP Park without conditions"
     actor: police
+    state: Delhi
     legal_basis: Sections 107 and 151 CrPC
     sources: [s5, s6, s7, s10]
   - type: detention
@@ -62,6 +65,7 @@ actions:
     claim: happened
     description: "Supporters who went to JP Park and other places under prohibitory orders were detained through the day, many of them taken by bus to Chhatrasal Stadium, which was used as a holding site. The Prime Minister said all of them were released that evening. Counts of those detained differ"
     actor: police
+    state: Delhi
     legal_basis: Section 144 CrPC (detained in areas under prohibitory orders, as stated by the Prime Minister); Section 65 of the Delhi Police Act for Kiran Bedi and Shanti Bhushan, per The Tribune
     sources: [s5, s7, s10, s11, s1, s3]
     figures:
@@ -94,12 +98,14 @@ actions:
     claim: happened
     description: "Special Commissioner (Law and Order) Dharmender Kumar led talks with Hazare at the office of the Director General (Prisons) in Tihar. Police offered a seven-day, then a 14-day, then a 21-day permission; Hazare asked for 30 days"
     actor: police
+    state: Delhi
     sources: [s1, s9]
   - type: permission_granted
     date: 2011-08-18
     claim: ordered
     description: "After a meeting in the early hours of 18 August between Police Commissioner B.K. Gupta and four members of Hazare's team, Delhi Police allowed a 15-day fast at Ramlila Maidan, according to The Tribune; Al Jazeera reported two weeks, with police willing to consider an extension. A senior police official told The Tribune that the organisers signed an undertaking on all 22 conditions, revised so that the limit rose from three to 15 days and from 5,000 to 50,000 people. Arvind Kejriwal said the earlier conditions had been withdrawn. Hazare left Tihar on 19 August and began the fast at Ramlila Maidan"
     actor: police
+    state: Delhi
     sources: [s9, s2, s1]
 outcome: >
   Hazare left Tihar on 19 August 2011 and began a public fast at Ramlila Maidan with

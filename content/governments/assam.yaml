@@ -1,0 +1,232 @@
+# Assam, from the term in office on 1974-01-01.
+# Dates and party: Assam Legislative Assembly page "Chief Ministers of Assam Legislative Assembly -
+# since 1937". The page was last brought up to date in 2022 (it shows Himanta Biswa Sarma as
+# incumbent with "362 days" in office). Its party column uses merged cells; the party shown here is
+# the one the merged cell covers. President's Rule spells: the same page, cross-checked against the
+# Lok Sabha book "President's Rule in States and Union Territories" (2016), which gives the dates
+# of each proclamation and revocation from the Gazette of India.
+# 2021 and 2026: Assam Parliamentary Affairs Department notifications (appointment of the Chief
+# Minister; resignation and caretaker government) and news reports.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Assam
+terms:
+  # Assembly list: 31 January 1972 to 12 March 1978; Borbora from 12 March 1978.
+  # Party: Assembly list, Indian National Congress.
+  - from: 1972-01-31
+    to: 1978-03-11
+    head: Sarat Chandra Singha
+    party: INC
+    sources: [as-la-cms]
+  # Assembly list: 12 March 1978 to 4 September 1979. The list assigns no Chief Minister to
+  # 5-8 September 1979. Party: Assembly list, Janata Party.
+  - from: 1978-03-12
+    to: 1979-09-04
+    head: Golap Borbora
+    party: Janata Party
+    sources: [as-la-cms]
+  # Assembly list: 9 September 1979 to 11 December 1979. CONFLICT on party: the Assembly list shows
+  # Janata Party (merged cell with Borbora); the Lok Sabha book gives "Asom Janata Dal", supported by
+  # the Congress (U), Congress (I) and CPI, at the time of the December 1979 proclamation. The
+  # Assembly list is used.
+  - from: 1979-09-09
+    to: 1979-12-11
+    head: Jogendra Nath Hazarika
+    party: Janata Party
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 12 December 1979 to 5 December 1980. Lok Sabha book: proclaimed 12-12-79,
+  # revoked 6-12-80, the day Anwara Taimur took office.
+  - from: 1979-12-12
+    to: 1980-12-05
+    head: President's Rule
+    kind: presidents_rule
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 6 December 1980 to 30 June 1981. Lok Sabha book: she resigned on 28-6-81 and
+  # President's Rule was proclaimed on 30-6-81. Party: Assembly list, Indian National Congress
+  # (Lok Sabha book: "Cong-I").
+  - from: 1980-12-06
+    to: 1981-06-29
+    head: Anwara Taimur
+    party: INC
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 30 June 1981 to 13 January 1982. Lok Sabha book: proclaimed 30-6-81, revoked
+  # 13-1-82.
+  - from: 1981-06-30
+    to: 1982-01-12
+    head: President's Rule
+    kind: presidents_rule
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 13 January 1982 to 19 March 1982. Lok Sabha book: the ministry resigned on
+  # 18-3-82 and President's Rule was proclaimed on 19-3-82. Party: Assembly list, Indian National
+  # Congress (Lok Sabha book: "Congress (I) Government"). The Lok Sabha book gives 13-1-82 as the
+  # revocation date but says the Gogoi ministry "assumed office on 13-5-82"; 13-5-82 is taken to be
+  # a misprint, as he resigned on 18-3-82.
+  - from: 1982-01-13
+    to: 1982-03-18
+    head: Kesab Chandra Gogoi
+    party: INC
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 19 March 1982 to 27 February 1983. Lok Sabha book: proclaimed 19-3-82, revoked
+  # 27-2-83.
+  - from: 1982-03-19
+    to: 1983-02-26
+    head: President's Rule
+    kind: presidents_rule
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 27 February 1983 to 23 December 1985. Party: Assembly list, Indian National
+  # Congress (Lok Sabha book: "Shri Hiteshwar Saikia of Cong-I formed the Ministry on 27-2-83").
+  - from: 1983-02-27
+    to: 1985-12-23
+    head: Hiteswar Saikia
+    party: INC
+    sources: [as-la-cms, ls-pr-book]
+  # CONFLICT: the Assembly list ends this term on 28 November 1990 and starts President's Rule on
+  # that day. The Lok Sabha book gives the proclamation as 27-11-90 (G.S.R. 925(E), Gazette of
+  # India, 27-11-90). The Lok Sabha book date is used. Party: Assembly list, Asom Gana Parishad
+  # (Lok Sabha book: "AGP").
+  - from: 1985-12-24
+    to: 1990-11-26
+    head: Prafulla Kumar Mahanta
+    party: other (Asom Gana Parishad)
+    sources: [as-la-cms, ls-pr-book]
+  # Lok Sabha book: proclaimed 27-11-90, revoked 30-6-91. Assembly list: 28 November 1990 to
+  # 30 June 1991.
+  - from: 1990-11-27
+    to: 1991-06-29
+    head: President's Rule
+    kind: presidents_rule
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 30 June 1991 to 22 April 1996. Party: Assembly list, Indian National Congress
+  # (Lok Sabha book: "Leader of the Congress-I Legislature Party formed the new Ministry on
+  # 30.6.91").
+  - from: 1991-06-30
+    to: 1996-04-21
+    head: Hiteswar Saikia
+    party: INC
+    sources: [as-la-cms, ls-pr-book]
+  # Assembly list: 22 April 1996 to 14 May 1996. Party: Assembly list, Indian National Congress
+  # (merged cell with Saikia).
+  - from: 1996-04-22
+    to: 1996-05-14
+    head: Bhumidhar Barman
+    party: INC
+    sources: [as-la-cms]
+  # Assembly list: 15 May 1996 to 17 May 2001. Party: Assembly list, Asom Gana Parishad.
+  - from: 1996-05-15
+    to: 2001-05-17
+    head: Prafulla Kumar Mahanta
+    party: other (Asom Gana Parishad)
+    sources: [as-la-cms]
+  # Assembly list: 18 May 2001 to 24 May 2016. Party: Assembly list, Indian National Congress.
+  - from: 2001-05-18
+    to: 2016-05-23
+    head: Tarun Gogoi
+    party: INC
+    sources: [as-la-cms]
+  # Assembly list: 24 May 2016 to 10 May 2021. Party: Assembly list, Bharatiya Janata Party.
+  - from: 2016-05-24
+    to: 2021-05-09
+    head: Sarbananda Sonowal
+    party: BJP
+    sources: [as-la-cms]
+  # Start: Assembly list and the Governor's order of 9 May 2021 (sworn in on 10 May 2021). End: he
+  # resigned with effect from 6 May 2026 and the Governor asked him to continue in a caretaker
+  # capacity until the new government was sworn in (notification of 7 May 2026), which was on
+  # 12 May 2026. Party: Assembly list, Bharatiya Janata Party; PTI, "BJP's Himanta Biswa Sarma".
+  - from: 2021-05-10
+    to: 2026-05-11
+    head: Himanta Biswa Sarma
+    party: BJP
+    alliance: NDA
+    sources: [as-la-cms, as-pad-cm-2021, as-pad-resign-2026, air-sarma-resign-2026, morung-sarma-2021]
+  # Appointed by the Governor's order of 10 May 2026; sworn in on 12 May 2026 (Tuesday) at the
+  # Veterinary College Field, Khanapara, Guwahati. Party: the Daily Pioneer and The Hitavada
+  # describe a "BJP-led NDA" government; the BJP won 82 of 126 seats (News Arena India).
+  # The Assembly list has not yet been brought up to date for this term.
+  - from: 2026-05-12
+    head: Himanta Biswa Sarma
+    party: BJP
+    alliance: NDA
+    sources: [as-pad-cm-2026, pioneer-sarma-2026, hitavada-sarma-2026, newsarena-sarma-2026]
+sources:
+  - id: as-la-cms
+    title: Chief Ministers of Assam Legislative Assembly - since 1937
+    publisher: Assam Legislative Assembly
+    url: https://assambidhansabha.org/chiefministersince
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: as-pad-cm-2021
+    title: "Orders by the Governor, Notification No. PARL.05/2021/5: appointment of Dr. Himanta Biswa Sarma as Chief Minister of Assam"
+    publisher: Government of Assam, Parliamentary Affairs Department
+    url: https://parliamentaryaffairs.assam.gov.in/sites/default/files/swf1/information_services64_appointment_of_chief_minister-1.pdf
+    date: 2021-05-09
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: as-pad-resign-2026
+    title: "Orders by the Governor, Notification No. PARL.785166/6: resignation of the Chief Minister and Council of Ministers and caretaker government"
+    publisher: Government of Assam, Parliamentary Affairs Department
+    url: https://parliamentaryaffairs.assam.gov.in/sites/default/files/public_utility/2026-05-07%20English-%20Resignation%20and%20Caretaker%20Govt.%20PARL.785166.6%20%281%29.pdf
+    date: 2026-05-07
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: as-pad-cm-2026
+    title: "Orders by the Governor, Notification No. PARL.785166/13: appointment of Dr. Himanta Biswa Sarma as Chief Minister of Assam"
+    publisher: Government of Assam, Parliamentary Affairs Department
+    url: https://parliamentaryaffairs.assam.gov.in/sites/default/files/public_utility/785166.13%20Appointment%20of%20Honble%20Chief%20Minister%20Assam%202026%20%281%29.pdf
+    date: 2026-05-10
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: air-sarma-resign-2026
+    title: Assam CM Himanta Biswa Sarma tenders resignation; Swearing-in ceremony of new govt to take place after May 11
+    publisher: All India Radio News
+    url: https://newsonair.gov.in/assam-cm-himanta-biswa-sarma-tenders-his-resignation-to-governor-in-guwahati/
+    date: 2026-05-06
+    type: official
+    tier: secondary
+    accessed: 2026-10-15
+  - id: morung-sarma-2021
+    title: Himanta Biswa Sarma sworn-in as 15th Chief Minister of Assam
+    publisher: The Morung Express
+    url: https://morungexpress.com/himanta-biswa-sarma-sworn-in-as-15th-chief-minister-of-assam
+    date: 2021-05-10
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: pioneer-sarma-2026
+    title: Himanta sworn-in for second term
+    publisher: The Daily Pioneer
+    author: Tony Das
+    url: https://www.dailypioneer.com/news/himanta-sworn-in-for-second-term
+    date: 2026-05-13
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: hitavada-sarma-2026
+    title: Himanta takes oath for 2nd term, 4 MLAs sworn in as Ministers
+    publisher: The Hitavada
+    url: https://www.thehitavada.com/Encyc/2026/5/13/himanta-takes-oath-for-2nd-term-4-mlas-sworn-in-as-ministers.html
+    date: 2026-05-13
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: newsarena-sarma-2026
+    title: Himanta Biswa Sarma takes oath as Assam CM
+    publisher: News Arena India
+    author: Neha Singh
+    url: https://newsarenaindia.com/states/himanta-biswa-sarma-takes-oath-as-assam-cm/76998
+    date: 2026-05-12
+    type: news
+    tier: report
+    accessed: 2026-10-15

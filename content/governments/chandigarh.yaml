@@ -1,0 +1,30 @@
+# Union Territory of Chandigarh, from 1974-01-01. A Union Territory under the Centre since
+# 1 November 1966 (Section 4, Punjab Reorganisation Act, 1966), with no Legislative Assembly or
+# Chief Minister. Source: Chandigarh Administration, "Administrator" page.
+name: Chandigarh
+police: centre
+police_note: >
+  Chandigarh has no elected government. Chandigarh Police is part of the Chandigarh
+  Administration, which works directly under the Central Government through the Administrator.
+terms:
+  # "The practice of appointing an Administrator of the UT designated as 'Chief Commissioner'
+  # continued up to May 31, 1984."
+  - from: 1974-01-01
+    to: 1984-05-31
+    head: Chief Commissioner (Administrator of the Union Territory)
+    kind: centre
+    sources: [chd-administrator]
+  # "On June 1, 1984, the Governor of Punjab took over the direct administration of the Union
+  # Territory as the Administrator."
+  - from: 1984-06-01
+    head: Governor of Punjab as Administrator of the Union Territory
+    kind: centre
+    sources: [chd-administrator]
+sources:
+  - id: chd-administrator
+    title: Administrator
+    publisher: Chandigarh Administration
+    url: https://chandigarh.gov.in/administrator
+    type: official
+    tier: record
+    accessed: 2026-10-15

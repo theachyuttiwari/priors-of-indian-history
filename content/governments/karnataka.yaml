@@ -1,0 +1,320 @@
+# Karnataka, from the term in office on 1974-01-01. The state was renamed from Mysore on
+# 1 November 1973; no term before that date is included, so no Mysore alias is given.
+# Dates: Karnataka Legislative Assembly list of previous Chief Ministers, which also lists the
+# President's Rule spells. The Legislative Council list is used where the two lists differ.
+# President's Rule dates are cross-checked against the Lok Sabha Secretariat book (2016).
+# Party: the Karnataka lists give no party. Party rests on the Lok Sabha book or news reports where
+# a comment says so; otherwise on Wikipedia (lead) only, as each comment says.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Karnataka
+terms:
+  # Party: Lok Sabha book, "Shri D. Devaraj Urs (Congress)" at the December 1977 proclamation.
+  - from: 1972-03-20
+    to: 1977-12-30
+    head: D. Devaraj Urs
+    party: INC
+    sources: [ka-la-cms, ls-pr-book]
+  # Karnataka list: 31-12-1977 to 28-02-1978. Lok Sabha book: the proclamation lapsed on 27-2-1978
+  # and Urs (Congress (I)) was sworn in on 28-2-1978.
+  - from: 1977-12-31
+    to: 1978-02-27
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ka-la-cms, ls-pr-book]
+  # Party: Lok Sabha book, "Congress (I)" at the swearing-in. The sources here do not date any
+  # later change of party during this term. The Karnataka list ends this term on 07-01-1980 and
+  # starts the next on 12-01-1980; Wikipedia ends it on 12 January 1980. No source found for 8-11 Jan.
+  - from: 1978-02-28
+    to: 1980-01-07
+    head: D. Devaraj Urs
+    party: other (Indian National Congress (I))
+    sources: [ka-la-cms, ls-pr-book]
+  # Party rests on Wikipedia (lead) only. The list assigns no Chief Minister to 7-9 January 1983.
+  - from: 1980-01-12
+    to: 1983-01-06
+    head: R. Gundu Rao
+    party: INC
+    sources: [ka-la-cms, wp-ka-cms]
+  # The Karnataka list ends this term on 29-12-1984 and starts the next on 08-03-1985. Frontline:
+  # Hegde resigned after the 1984 Lok Sabha election and was allowed to head a caretaker government
+  # until the 1985 election; this term is extended to the day before the new term.
+  # Party: Frontline, Janata Party.
+  - from: 1983-01-10
+    to: 1985-03-07
+    head: Ramakrishna Hegde
+    party: Janata Party
+    sources: [ka-la-cms, frontline-hegde]
+  # Party: Frontline, Janata Party. The list assigns no Chief Minister to 14-15 February 1986.
+  - from: 1985-03-08
+    to: 1986-02-13
+    head: Ramakrishna Hegde
+    party: Janata Party
+    sources: [ka-la-cms, frontline-hegde]
+  # Party: Frontline, Janata Party. The list assigns no Chief Minister to 11-12 August 1988.
+  - from: 1986-02-16
+    to: 1988-08-10
+    head: Ramakrishna Hegde
+    party: Janata Party
+    sources: [ka-la-cms, frontline-hegde]
+  # Party: Lok Sabha book, "Shri S.R. Bommai (Janata Dal)" at the April 1989 proclamation.
+  # Wikipedia gives Janata Party, the party in office when he was sworn in.
+  - from: 1988-08-13
+    to: 1989-04-20
+    head: S. R. Bommai
+    party: Janata Dal
+    sources: [ka-la-cms, ls-pr-book]
+  # Karnataka list: 21-04-1989 to 30-11-1989. Lok Sabha book: Veerendra Patil (Cong-I) sworn in
+  # on 30-11-1989.
+  - from: 1989-04-21
+    to: 1989-11-29
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ka-la-cms, ls-pr-book]
+  # Party: Lok Sabha book, "Congress (I)" at the October 1990 proclamation.
+  - from: 1989-11-30
+    to: 1990-10-09
+    head: Veerendra Patil
+    party: other (Indian National Congress (I))
+    sources: [ka-la-cms, ls-pr-book]
+  # Karnataka list and Lok Sabha book: 10-10-1990 to 17-10-1990; Bangarappa sworn in on 17-10-1990.
+  - from: 1990-10-10
+    to: 1990-10-16
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ka-la-cms, ls-pr-book]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1990-10-17
+    to: 1992-11-18
+    head: S. Bangarappa
+    party: INC
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1992-11-19
+    to: 1994-12-10
+    head: M. Veerappa Moily
+    party: INC
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1994-12-11
+    to: 1996-05-30
+    head: H. D. Deve Gowda
+    party: Janata Dal
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party rests on Wikipedia (lead) only. The list assigns no Chief Minister to 8-10 October 1999.
+  - from: 1996-05-31
+    to: 1999-10-07
+    head: J. H. Patel
+    party: Janata Dal
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1999-10-11
+    to: 2004-05-27
+    head: S. M. Krishna
+    party: INC
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 2004-05-28
+    to: 2006-02-02
+    head: N. Dharam Singh
+    party: INC
+    sources: [ka-la-cms, wp-ka-cms]
+  # Alliance: Lok Sabha book, "BJP & JD(S) coalition" headed by Kumaraswamy. Party rests on
+  # Wikipedia (lead) only.
+  - from: 2006-02-03
+    to: 2007-10-08
+    head: H. D. Kumaraswamy
+    party: JD(S)
+    alliance: JD(S)-BJP
+    sources: [ka-la-cms, ls-pr-book, wp-ka-cms]
+  # Lok Sabha book: proclamation G.S.R. 653(E) dated 9-10-2007; Yeddyurappa sworn in on 12-11-2007.
+  # The Karnataka list gives the start as 08-10-2007; the Gazette date is used.
+  - from: 2007-10-09
+    to: 2007-11-11
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book, ka-la-cms]
+  # Party: Lok Sabha book.
+  - from: 2007-11-12
+    to: 2007-11-19
+    head: B. S. Yeddyurappa
+    party: BJP
+    sources: [ka-la-cms, ls-pr-book]
+  # Karnataka list: 20-11-2007 to 29-05-2008. Lok Sabha book: Yeddyurappa (BJP) sworn in on 30-5-2008.
+  - from: 2007-11-20
+    to: 2008-05-29
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ka-la-cms, ls-pr-book]
+  # Party: Lok Sabha book.
+  - from: 2008-05-30
+    to: 2011-08-04
+    head: B. S. Yeddyurappa
+    party: BJP
+    sources: [ka-la-cms, ls-pr-book]
+  # Party rests on Wikipedia (lead) only.
+  - from: 2011-08-05
+    to: 2012-07-11
+    head: D. V. Sadananda Gowda
+    party: BJP
+    sources: [ka-la-cms, wp-ka-cms]
+  # Party: PTI.
+  - from: 2012-07-12
+    to: 2013-05-12
+    head: Jagadish Shettar
+    party: BJP
+    sources: [ka-la-cms, governancenow-shettar-2012]
+  # Party: PTI. The list assigns no Chief Minister to 16 May 2018.
+  - from: 2013-05-13
+    to: 2018-05-15
+    head: Siddaramaiah
+    party: INC
+    sources: [ka-la-cms, bs-siddaramaiah-2013]
+  # The Karnataka list ends this term on 23-05-2018. IANS: Yeddyurappa resigned on 19 May 2018
+  # before a trust vote; the list's later date is taken to cover the period until Kumaraswamy's
+  # swearing-in. Party: IANS.
+  - from: 2018-05-17
+    to: 2018-05-22
+    head: B. S. Yeddyurappa
+    party: BJP
+    sources: [ka-la-cms, morung-bsy-resigns-2018]
+  # Party and alliance: PTI. The list assigns no Chief Minister to 24-25 July 2019.
+  - from: 2018-05-23
+    to: 2019-07-23
+    head: H. D. Kumaraswamy
+    party: JD(S)
+    alliance: JD(S)-INC
+    sources: [ka-la-cms, onmanorama-hdk-2018]
+  # Party: Onmanorama. The Assembly list ends this term on 26-07-2021; the Council list on
+  # 28-07-2021. The Assembly list date is used.
+  - from: 2019-07-26
+    to: 2021-07-26
+    head: B. S. Yeddyurappa
+    party: BJP
+    sources: [ka-la-cms, ka-lc-cms, onmanorama-bsy-2019]
+  # The Assembly list starts this term on 27-07-2021; the Council list and the news report give
+  # 28-07-2021, which is used. No Chief Minister is assigned to 27 July 2021. The Assembly list ends
+  # the term on 20-05-2023; the Council list on 13-05-2023. The Assembly list date is used.
+  - from: 2021-07-28
+    to: 2023-05-19
+    head: Basavaraj Bommai
+    party: BJP
+    sources: [ka-la-cms, ka-lc-cms, onmanorama-bommai-2021]
+  # Party: ANI. Scroll: Siddaramaiah resigned on 28 May 2026; the Governor accepted the resignation
+  # on 29 May and dissolved the Council of Ministers. No Chief Minister from 30 May to 2 June 2026.
+  - from: 2023-05-20
+    to: 2026-05-29
+    head: Siddaramaiah
+    party: INC
+    sources: [ka-la-cms, dtnext-siddaramaiah-2023, scroll-shivakumar-2026]
+  # Party: Scroll, Congress.
+  - from: 2026-06-03
+    head: D. K. Shivakumar
+    party: INC
+    sources: [ka-la-cms, scroll-shivakumar-2026]
+sources:
+  - id: ka-la-cms
+    title: Previous Chief Ministers
+    publisher: Karnataka Legislative Assembly
+    url: https://kla.kar.nic.in/assembly/review/previouscms.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ka-lc-cms
+    title: Chief Ministers
+    publisher: Karnataka Legislative Council
+    url: https://kla.kar.nic.in/council/house/review/cms.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: frontline-hegde
+    title: "A politician with elan: Ramakrishna Hegde, 1926-2004"
+    publisher: Frontline
+    author: Parvathi Menon
+    url: https://frontline.thehindu.com/other/article30221082.ece
+    date: 2004-01-31
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: governancenow-shettar-2012
+    title: Jagadish Shettar sworn in as Karnataka CM
+    publisher: Governance Now
+    url: https://www.governancenow.com/news/regular-story/jagadish-shettar-sworn-karnataka-cm
+    date: 2012-07-12
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: bs-siddaramaiah-2013
+    title: Siddaramaiah sworn in Karnataka CM
+    publisher: Business Standard
+    url: https://www.business-standard.com/article/pti-stories/siddaramaiah-sworn-in-karnataka-cm-113051300310_1.html
+    date: 2013-05-13
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: morung-bsy-resigns-2018
+    title: Yeddyurappa steps down as Karnataka CM before trust vote
+    publisher: The Morung Express
+    url: https://morungexpress.com/yeddyurappa-steps-down-karnataka-cm-trust-vote
+    date: 2018-05-19
+    type: news
+    tier: secondary
+    wire: IANS
+    accessed: 2026-10-15
+  - id: onmanorama-hdk-2018
+    title: Kumaraswamy takes oath as Karnataka CM
+    publisher: Onmanorama
+    url: https://onmanorama.com/in-depth/karnataka-polls-2018/2018/05/23/kumaraswamy-karnataka-cm-jds-congress-govt.html
+    date: 2018-05-23
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: onmanorama-bsy-2019
+    title: BJP leader BS Yediyurappa takes oath as Karnataka CM
+    publisher: Onmanorama
+    url: https://onmanorama.com/news/india/2019/07/26/bs-yeddyurappa-take-oath-as-karnataka-cm.html
+    date: 2019-07-26
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: onmanorama-bommai-2021
+    title: Basavaraj Bommai sworn-in as 30th Chief Minister of Karnataka
+    publisher: Onmanorama
+    url: https://onmanorama.com/news/india/2021/07/28/basavaraj-bommai-sworn-in-as-30th-chief-minister-of-karnataka.html
+    date: 2021-07-28
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: dtnext-siddaramaiah-2023
+    title: Congress veteran Siddaramaiah sworn in as Karnataka Chief Minister
+    publisher: DT Next
+    url: https://www.dtnext.in/news/national/congress-veteran-siddaramaiah-sworn-in-as-karnataka-chief-minister
+    date: 2023-05-20
+    type: news
+    tier: secondary
+    wire: ANI
+    accessed: 2026-10-15
+  - id: scroll-shivakumar-2026
+    title: DK Shivakumar takes oath as Karnataka chief minister
+    publisher: Scroll.in
+    url: https://scroll.in/latest/1093320/dk-shivakumar-takes-oath-as-karnataka-chief-minister
+    date: 2026-06-03
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-ka-cms
+    title: Chief Minister of Karnataka
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Chief_Minister_of_Karnataka
+    tier: lead
+    accessed: 2026-10-15

@@ -1,0 +1,114 @@
+# West Bengal, from the term in office on 1974-01-01.
+# The West Bengal Legislative Assembly website could not be reached. Dates up to 1977 come from the
+# Lok Sabha Secretariat book on President's Rule (2016); later dates come from news reports and
+# All India Radio.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: West Bengal
+terms:
+  # Lok Sabha book: the Congress Legislature Party elected S.S. Ray its leader; he formed the
+  # ministry on 20-3-1972. President's Rule was proclaimed on 30-4-1977.
+  - from: 1972-03-20
+    to: 1977-04-29
+    head: Siddhartha Shankar Ray
+    party: INC
+    sources: [ls-pr-book]
+  # Lok Sabha book: proclaimed 30-4-1977; revoked 21-6-1977, when a Left Front government headed by
+  # Jyoti Basu assumed office.
+  - from: 1977-04-30
+    to: 1977-06-20
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: assumed office 21-6-1977, heading a Left Front government. The Tribune (2000)
+  # calls his successor "the second Marxist Chief Minister after Mr Jyoti Basu", and Rediff (2000)
+  # describes the CPI-M handing charge from Basu to Buddhadeb Bhattacharjee. The end date is the day
+  # before Bhattacharjee's swearing-in.
+  - from: 1977-06-21
+    to: 2000-11-05
+    head: Jyoti Basu
+    party: CPI(M)
+    alliance: Left Front
+    sources: [ls-pr-book, tribune-buddhadeb-2000, rediff-basu-2000]
+  # The Tribune: sworn in on 6 November 2000; "a CPM whole-timer". The end date is the day before
+  # Mamata Banerjee's swearing-in.
+  - from: 2000-11-06
+    to: 2011-05-19
+    head: Buddhadeb Bhattacharjee
+    party: CPI(M)
+    alliance: Left Front
+    sources: [tribune-buddhadeb-2000, governancenow-mamata-2011]
+  # PTI: sworn in on 20 May 2011 as head of a Trinamool Congress-Congress alliance ministry.
+  # The state portal's Chief Minister page (now headed with her successor's name, over her old
+  # biography) gives swearing-in dates of 20 May 2011, 27 May 2016 and 5 May 2021; these terms are
+  # merged here. Business Today: after the 2026 election she refused to resign; the Governor
+  # dissolved the Assembly with effect from 7 May 2026, which "formally ended" her tenure. She called
+  # the result "not a people's mandate but a conspiracy"; the end of her tenure is contested.
+  # No Chief Minister is assigned to 8 May 2026.
+  - from: 2011-05-20
+    to: 2026-05-07
+    head: Mamata Banerjee
+    party: AITC
+    sources: [governancenow-mamata-2011, wb-portal-cm, businesstoday-wb-dissolution-2026]
+  # All India Radio: took oath on 9 May 2026 as the first BJP Chief Minister of West Bengal.
+  - from: 2026-05-09
+    head: Suvendu Adhikari
+    party: BJP
+    sources: [air-suvendu-2026]
+sources:
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tribune-buddhadeb-2000
+    title: Bhattacharya sworn in
+    publisher: The Tribune
+    author: Subhrangshu Gupta
+    url: https://www.tribuneindia.com/2000/20001107/nation.htm
+    date: 2000-11-07
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: rediff-basu-2000
+    title: "Rediff Special: Bengal after Basu"
+    publisher: Rediff.com
+    url: https://www.rediff.com/news/2000/nov/06basu.htm
+    date: 2000-11-06
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: governancenow-mamata-2011
+    title: Mamata sworn in as chief minister
+    publisher: Governance Now
+    url: https://www.governancenow.com/news/regular-story/mamata-sworn-chief-minister
+    date: 2011-05-20
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: wb-portal-cm
+    title: Meet the Chief Minister
+    publisher: Government of West Bengal (state portal)
+    url: https://wb.gov.in/government-meet-the-chief-minister.aspx
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: businesstoday-wb-dissolution-2026
+    title: Mamata Banerjee no longer CM as West Bengal Governor dissolves Assembly
+    publisher: Business Today
+    url: https://www.businesstoday.in/india/story/mamata-banerjee-no-longer-cm-as-west-bengal-governor-dissolves-cabinet-530395-2026-05-07
+    date: 2026-05-07
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: air-suvendu-2026
+    title: Suvendu Adhikari takes oath as first BJP CM of West Bengal
+    publisher: All India Radio News (News On AIR)
+    url: https://newsonair.gov.in/suvendu-adhikari-takes-oath-as-first-bjp-cm-of-west-bengal/
+    date: 2026-05-09
+    type: official
+    tier: secondary
+    accessed: 2026-10-15

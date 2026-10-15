@@ -1,0 +1,290 @@
+# Bihar, from the term in office on 1974-01-01. Includes the territory of present-day Jharkhand
+# until Jharkhand was created in November 2000.
+# Dates: Bihar Vidhan Sabha list "Chief Ministers since 1937" (PDF, Hindi, legacy Kruti Dev font;
+# names decoded by hand). The list also gives President's Rule spells, cross-checked against the
+# MHA statement of proclamations under Article 356.
+# Party: the Bihar Vidhan Sabha lists of elected members of each assembly give the party on which
+# a Chief Minister was elected as an MLA. Chief Ministers who sat in the Legislative Council (MLC)
+# or entered by a by-election do not appear with a party there; their party rests on Wikipedia
+# (lead) only, as each comment says. TCPD-CMID does not cover Bihar.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Bihar
+terms:
+  # Party: 6th Assembly (1972-77) member list, Madhubani, "कांग्रेस".
+  - from: 1973-07-02
+    to: 1975-04-10
+    head: Abdul Ghafoor
+    party: INC
+    sources: [br-vs-cms, br-vs-mla-6]
+  # Party: 6th Assembly member list, Jhanjharpur, "कांग्रेस".
+  - from: 1975-04-11
+    to: 1977-04-29
+    head: Jagannath Mishra
+    party: INC
+    sources: [br-vs-cms, br-vs-mla-6]
+  # Bihar list: 30-04-1977 to 24-06-1977 (54 days). MHA: revoked 24.6.1977.
+  - from: 1977-04-30
+    to: 1977-06-23
+    head: President's Rule
+    kind: presidents_rule
+    sources: [br-vs-cms, mha-pr-statement]
+  # Party rests on Wikipedia (lead) only: he entered the assembly at a by-election (Phulparas,
+  # 20-12-1977), and the by-election entry in the 7th Assembly list gives no party.
+  - from: 1977-06-24
+    to: 1979-04-20
+    head: Karpoori Thakur
+    party: Janata Party
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party: 7th Assembly (1977-80) member list, Sonpur, "जनता".
+  - from: 1979-04-21
+    to: 1980-02-16
+    head: Ram Sundar Das
+    party: Janata Party
+    sources: [br-vs-cms, br-vs-mla-7]
+  # Bihar list: 17-02-1980 to 08-06-1980. MHA: proclaimed 17.2.1980, revoked 8.6.1980.
+  - from: 1980-02-17
+    to: 1980-06-07
+    head: President's Rule
+    kind: presidents_rule
+    sources: [br-vs-cms, mha-pr-statement]
+  # Party: 8th Assembly (1980-85) member list, Jhanjharpur, "कांग्रेस (आई)".
+  - from: 1980-06-08
+    to: 1983-08-13
+    head: Jagannath Mishra
+    party: other (Indian National Congress (I))
+    sources: [br-vs-cms, br-vs-mla-8]
+  # Party rests on Wikipedia (lead) only (MLC when appointed).
+  - from: 1983-08-14
+    to: 1985-03-11
+    head: Chandrashekhar Singh
+    party: INC
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party: 9th Assembly (1985-90) member list, Shahpur, "कांग्रेस".
+  - from: 1985-03-12
+    to: 1988-02-13
+    head: Bindeshwari Dubey
+    party: INC
+    sources: [br-vs-cms, br-vs-mla-9]
+  # Party rests on Wikipedia (lead) only (MLC).
+  - from: 1988-02-14
+    to: 1989-03-10
+    head: Bhagwat Jha Azad
+    party: INC
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party rests on Wikipedia (lead) only (MLC).
+  - from: 1989-03-11
+    to: 1989-12-05
+    head: Satyendra Narayan Sinha
+    party: INC
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party: 10th Assembly (1990-95) member list, Jhanjharpur, "भा.रा.कां." (INC).
+  - from: 1989-12-06
+    to: 1990-03-09
+    head: Jagannath Mishra
+    party: INC
+    sources: [br-vs-cms, br-vs-mla-10]
+  # Party rests on Wikipedia (lead) only (MLC). CONFLICT: the Bihar list shows Lalu Prasad in office
+  # continuously (10-03-1990 to 03-04-1995, then from 04-04-1995). MHA lists President's Rule from
+  # 28.3.1995 to 4.4.1995, as does the Lok Sabha book ("from 28.3.95 to 4.4.95";
+  # Lalu Prasad "sworn in on 4-4-95"). The MHA dates are used.
+  - from: 1990-03-10
+    to: 1995-03-27
+    head: Lalu Prasad
+    party: Janata Dal
+    sources: [br-vs-cms, wp-bihar-cms]
+  - from: 1995-03-28
+    to: 1995-04-03
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, ls-pr-book]
+  # Party: 11th Assembly (1995-2000) member list, Raghopur, "जनता दल". He formed the RJD in July
+  # 1997, shortly before leaving office; that change is not dated in the sources used here.
+  - from: 1995-04-04
+    to: 1997-07-24
+    head: Lalu Prasad
+    party: Janata Dal
+    sources: [br-vs-cms, br-vs-mla-11]
+  # Party rests on Wikipedia (lead) only (MLC).
+  - from: 1997-07-25
+    to: 1999-02-11
+    head: Rabri Devi
+    party: RJD
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Bihar list: 12-02-1999 to 08-03-1999 (25 days). MHA: proclaimed 12.2.1999, revoked 8.3.1999.
+  - from: 1999-02-12
+    to: 1999-03-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [br-vs-cms, mha-pr-statement]
+  # Party rests on Wikipedia (lead) only (MLC).
+  - from: 1999-03-09
+    to: 2000-03-02
+    head: Rabri Devi
+    party: RJD
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 2000-03-03
+    to: 2000-03-10
+    head: Nitish Kumar
+    party: other (Samata Party)
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party: 12th Assembly (2000-05) member list, Raghopur, "राजद" (RJD).
+  - from: 2000-03-11
+    to: 2005-03-06
+    head: Rabri Devi
+    party: RJD
+    sources: [br-vs-cms, br-vs-mla-12]
+  # Bihar list: 07-03-2005 to 24-11-2005 (262 days). MHA: revoked 24.11.05, the day Nitish Kumar
+  # took office.
+  - from: 2005-03-07
+    to: 2005-11-23
+    head: President's Rule
+    kind: presidents_rule
+    sources: [br-vs-cms, mha-pr-statement]
+  # Party for all Nitish Kumar terms from 2005 rests on Wikipedia (lead) only (MLC).
+  # The Bihar list gives two terms here: 24-11-2005 to 25-11-2010 and 26-11-2010 to 19-05-2014.
+  - from: 2005-11-24
+    to: 2014-05-19
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Party: 15th Assembly (2010-15) member list, Makhdumpur, "जनता दल (यू)".
+  - from: 2014-05-20
+    to: 2015-02-21
+    head: Jitan Ram Manjhi
+    party: JD(U)
+    sources: [br-vs-cms, br-vs-mla-15]
+  # The Bihar list gives 22-02-2015 to 19-11-2015 and 20-11-2015 to 26-07-2017 as two terms.
+  - from: 2015-02-22
+    to: 2017-07-26
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  # The Bihar list ends this term on 12-11-2020 and starts the next on 16-11-2020. Nitish Kumar is
+  # taken to have continued until he was sworn in again (caretaker gap of 13-15 Nov 2020).
+  - from: 2017-07-27
+    to: 2020-11-15
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  - from: 2020-11-16
+    to: 2022-08-09
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  - from: 2022-08-10
+    to: 2024-01-27
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  - from: 2024-01-28
+    to: 2026-04-14
+    head: Nitish Kumar
+    party: JD(U)
+    sources: [br-vs-cms, wp-bihar-cms]
+  # Bihar list: from 15-04-2026. Party: Bihar Vidhan Sabha profile of the Chief Minister.
+  - from: 2026-04-15
+    head: Samrat Choudhary
+    party: BJP
+    sources: [br-vs-cms, br-vs-cm-profile]
+sources:
+  - id: br-vs-cms
+    title: बिहार के प्रीमियर एवं मुख्यमंत्री की सूची (Chief Ministers since 1937)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/primer%20chief%20minister.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-cm-profile
+    title: Hon'ble Chief Minister of Bihar - Shri Samrat Choudhary
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/Chief_Minister_of_Bihar_Profile.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: br-vs-mla-6
+    title: षष्ठम् बिहार विधान सभा में निर्वाचित माननीय सदस्यों की सूची (1972-1977)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/6.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-7
+    title: सप्तम् बिहार विधान सभा में निर्वाचित माननीय सदस्यों की सूची (1977-1980)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/7.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-8
+    title: Members elected to the Eighth Bihar Vidhan Sabha (1980-1985)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/8.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-9
+    title: Members elected to the Ninth Bihar Vidhan Sabha (1985-1990)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/9.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-10
+    title: Members elected to the Tenth Bihar Vidhan Sabha (1990-1995)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/10.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-11
+    title: Members elected to the Eleventh Bihar Vidhan Sabha (1995-2000)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/11.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-12
+    title: Members elected to the Twelfth Bihar Vidhan Sabha (2000-2005)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/12.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: br-vs-mla-15
+    title: Members elected to the Fifteenth Bihar Vidhan Sabha (2010-2015)
+    publisher: Bihar Vidhan Sabha
+    url: https://vidhansabha.bihar.gov.in/pdf/ex%20mla/15.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: wp-bihar-cms
+    title: List of chief ministers of Bihar
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Bihar
+    tier: lead
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15

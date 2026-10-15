@@ -35,18 +35,21 @@ actions:
     legal_basis: Section 144 CrPC (orders restricting movement of people and vehicles, as recorded by the J&K High Court on 21 September 2016)
     description: "Authorities imposed curfew and other restrictions from 9 July. Madhyamam reported restrictions that day in Pulwama district, the towns of Anantnag, Shopian, Kulgam and Sopore, and areas under seven Srinagar police stations; a PTI report said curfew was imposed across Kashmir on 9 July. The J&K High Court recorded that the State Government had passed orders under Section 144 CrPC restricting the movement of people and vehicles. In the Lok Sabha on 21 July, Home Minister Rajnath Singh said the Chief Minister had ordered relaxation of the curfew in the evening and night hours. Curfew was lifted and reimposed in stages: PTI reported it lifted from all parts except Anantnag town on 26 July, reimposed across Kashmir on 29 July, and in force in Srinagar district and the towns of Anantnag and Pampore on 20 August. The Hindu reported curfew lifted from all ten Valley districts on 31 August and reimposed in Srinagar and other district headquarters and towns on 2 September."
     actor: state
+    state: Jammu and Kashmir
     sources: [s11, s13, s4, s15, s17, s18, s19, s22, s23]
   - type: internet_shutdown
     date: 2016-07-08
     claim: ordered
     description: "Mobile internet was suspended across the Valley after Wani's killing; Hindustan Times and CPJ date this to 8 July, Madhyamam to 9 July. Mobile internet was also suspended in the Jammu region on the evening of 9 July. Hindustan Times reported that non-BSNL mobile phone services were blocked from 14 to 26 July, that private networks were suspended again on the night of 11 August, and that mobile internet was still suspended on 12 August. PTI reported that mobile phone services were cut on 13 August and postpaid services restored on 20 August. In the Rajya Sabha on 18 July, Rajnath Singh said he agreed that the ban on the internet and newspapers should be lifted soon. In the Lok Sabha on 21 July he said the Chief Minister had told him the internet had been blocked for a short time and the restrictions had since been removed; Tathagata Satpathy said the internet was still not working, and Singh replied that the government had not shut it down."
     actor: state
+    state: Jammu and Kashmir
     sources: [s12, s11, s4, s16, s21, s19, s2, s3]
   - type: censorship
     date: 2016-07-16
     claim: ordered
     description: "Police raided newspaper offices and printing presses in and around Srinagar on the night of 15-16 July, seized printing plates and printed copies, and briefly detained staff, according to CPJ, RSF and AP. Greater Kashmir, Rising Kashmir, Kashmir Observer, Kashmir Times, Daily Kashmir Images, Kashmir Reader and Kashmir Uzma were among the papers affected. CPJ reported that newspapers were kept from publishing for three days and that cable television was blocked on 16 July. Accounts differ on who ordered the ban. Government spokesperson and Education Minister Naeem Akhtar said the measures were aimed at saving lives and strengthening peace efforts. On 18 July the Chief Minister's political adviser Amitabh Mattoo said the decision had been taken without the Chief Minister's knowledge, possibly at a local level. On 19 July Union Information and Broadcasting Minister Venkaiah Naidu said Mehbooba Mufti had told him there was no ban, and on 21 July Rajnath Singh told the Lok Sabha that the Chief Minister had said there was no restriction on the press. IANS reported that newspapers were to resume on 21 July after the Chief Minister met editors, who said she had regretted the ban."
     actor: state
+    state: Jammu and Kashmir
     sources: [s2, s3, s25, s20, s12, s11, s26]
   - type: firing
     date: 2016-07
@@ -88,6 +91,7 @@ actions:
     date: 2016-07-09
     description: "On 9 July the Amarnath pilgrimage convoy from Jammu was halted, vehicle movement on the Jammu-Srinagar highway between Batote and Banihal was suspended, school board exams were postponed, and train services between Baramulla and Banihal were suspended."
     actor: state
+    state: Jammu and Kashmir
     sources: [s16, s4, s7]
   - type: commission_of_inquiry
     date: 2016-07-21

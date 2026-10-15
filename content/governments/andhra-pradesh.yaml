@@ -1,0 +1,223 @@
+# Andhra Pradesh, from the term in office on 1974-01-01.
+# Until 2014-06-02 these terms are for undivided Andhra Pradesh, which included the territory of
+# present-day Telangana. Telangana has its own file from 2014-06-02.
+# Dates: Andhra Pradesh State Portal list of Chief Ministers (archived copy of June 2018; the live
+# page no longer exists). President's Rule dates come from the Lok Sabha Secretariat book on
+# President's Rule (2016). Terms after 2018 come from news reports.
+# Party: the State Portal list gives no party. Party rests on the Lok Sabha book or news reports
+# where a comment says so; otherwise on Wikipedia (lead) only, as each comment says. Wikipedia
+# labels the Congress of 1978-83 and 1989-94 "Indian National Congress (Indira)"; the terms whose
+# party rests on it use that label.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Andhra Pradesh
+terms:
+  # Undivided Andhra Pradesh. Lok Sabha book: President's Rule revoked 10-12-1973, when Vengal Rao
+  # (Congress) was sworn in. The portal list ends this term on 06/03/1978, the day Chenna Reddy starts.
+  - from: 1973-12-10
+    to: 1978-03-05
+    head: J. Vengala Rao
+    party: INC
+    sources: [ap-portal-cms, ls-pr-book]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only. The portal list ends this term
+  # on 10/10/1980 and starts the next on 11/10/1980.
+  - from: 1978-03-06
+    to: 1980-10-10
+    head: M. Chenna Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1980-10-11
+    to: 1982-02-23
+    head: T. Anjaiah
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1982-02-24
+    to: 1982-09-19
+    head: Bhavanam Venkataram Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1982-09-20
+    to: 1983-01-08
+    head: K. Vijaya Bhaskara Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1983-01-09
+    to: 1984-08-15
+    head: N. T. Rama Rao
+    party: TDP
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only, which lists him under the TDP.
+  - from: 1984-08-16
+    to: 1984-09-15
+    head: Nadendla Bhaskara Rao
+    party: TDP
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1984-09-16
+    to: 1989-12-02
+    head: N. T. Rama Rao
+    party: TDP
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only. The portal list ends this term
+  # on 17/12/1990, the day Janardhana Reddy starts.
+  - from: 1989-12-03
+    to: 1990-12-16
+    head: M. Chenna Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only. The list ends this term on
+  # 09/10/1992, the day the next term starts.
+  - from: 1990-12-17
+    to: 1992-10-08
+    head: N. Janardhana Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only. The list ends this term on
+  # 12/12/1994, the day the next term starts.
+  - from: 1992-10-09
+    to: 1994-12-11
+    head: K. Vijaya Bhaskara Reddy
+    party: other (Indian National Congress (I))
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only. The list ends this term on
+  # 01/09/1995, the day Naidu starts.
+  - from: 1994-12-12
+    to: 1995-08-31
+    head: N. T. Rama Rao
+    party: TDP
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party rests on Wikipedia (lead) only.
+  - from: 1995-09-01
+    to: 2004-05-13
+    head: N. Chandrababu Naidu
+    party: TDP
+    sources: [ap-portal-cms, wp-ap-cms]
+  # Undivided Andhra Pradesh. Party: Sakshi Post, "led the Congress". Sakshi is owned by the
+  # family of Y.S. Jaganmohan Reddy, the son of Y.S. Rajasekhara Reddy.
+  - from: 2004-05-14
+    to: 2009-09-02
+    head: Y. S. Rajasekhara Reddy
+    party: INC
+    sources: [ap-portal-cms, sakshipost-ysr-2004]
+  # Undivided Andhra Pradesh. IANS: Chief Minister from 3 September 2009 to 24 November 2010.
+  # The Tribune: he resigned on 24 November 2010 and Kiran Kumar Reddy was to be sworn in the next
+  # day. Party: The News Minute, "Senior Congress leader".
+  - from: 2009-09-03
+    to: 2010-11-24
+    head: K. Rosaiah
+    party: INC
+    sources: [ap-portal-cms, morung-rosaiah, tribune-rosaiah-2010, tnm-rosaiah]
+  # Undivided Andhra Pradesh. Lok Sabha book: Kiran Kumar Reddy (INC) resigned on 19-02-2014;
+  # President's Rule was proclaimed on 01-03-2014. The portal list ends the term on 01/03/2014.
+  # The term runs here to the day before President's Rule.
+  - from: 2010-11-25
+    to: 2014-02-28
+    head: N. Kiran Kumar Reddy
+    party: INC
+    sources: [ap-portal-cms, ls-pr-book]
+  # Undivided Andhra Pradesh until 2014-06-01; from 2014-06-02 the residuary state. Lok Sabha book:
+  # proclaimed 01-03-2014; revoked 08-06-2014, when Naidu (TDP) was sworn in.
+  - from: 2014-03-01
+    to: 2014-06-07
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Party: Lok Sabha book, TDP. The end date is the day before Jaganmohan Reddy's swearing-in;
+  # no source was found for the exact date Naidu left office.
+  - from: 2014-06-08
+    to: 2019-05-29
+    head: N. Chandrababu Naidu
+    party: TDP
+    sources: [ap-portal-cms, ls-pr-book, businesstoday-jagan-2019]
+  # PTI: sworn in on 30 May 2019; party YSR Congress Party. The end date is the day before Naidu's
+  # swearing-in; no source was found for the exact date Jaganmohan Reddy left office.
+  - from: 2019-05-30
+    to: 2024-06-11
+    head: Y. S. Jaganmohan Reddy
+    party: YSRCP
+    sources: [businesstoday-jagan-2019, southfirst-naidu-2024]
+  # South First: sworn in on 12 June 2024 for the fourth time; TDP, with Jana Sena and BJP ministers.
+  - from: 2024-06-12
+    head: N. Chandrababu Naidu
+    party: TDP
+    alliance: TDP-Jana Sena-BJP
+    sources: [southfirst-naidu-2024]
+sources:
+  - id: ap-portal-cms
+    title: List of Chief Ministers
+    publisher: Government of Andhra Pradesh, AP State Portal
+    url: http://www.ap.gov.in/about-ap/history/list-of-chief-ministers/
+    archive_url: http://web.archive.org/web/20180622031953/http://www.ap.gov.in:80/about-ap/history/list-of-chief-ministers/
+    archive_date: 2018-06-22
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: sakshipost-ysr-2004
+    title: Dr YSR became AP CM this day in 2004
+    publisher: Sakshi Post
+    url: https://www.sakshipost.com/news/2018/05/14/dr-ysr-became-ap-cm-this-day-in-2004
+    date: 2018-05-14
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: morung-rosaiah
+    title: Former Andhra CM K Rosaiah is no more
+    publisher: The Morung Express
+    url: https://morungexpress.com/former-andhra-cm-k-rosaiah-is-no-more
+    date: 2021-12-04
+    type: news
+    tier: secondary
+    wire: IANS
+    accessed: 2026-10-15
+  - id: tribune-rosaiah-2010
+    title: Kiran Reddy new Andhra CM
+    publisher: The Tribune
+    author: Suresh Dharur
+    url: https://www.tribuneindia.com/2010/20101125/main4.htm
+    date: 2010-11-25
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: tnm-rosaiah
+    title: Former Andhra Pradesh CM Rosaiah passes away at 88
+    publisher: The News Minute
+    url: https://www.thenewsminute.com/article/former-andhra-pradesh-cm-rosaiah-passes-away-88-158359
+    date: 2021-12-04
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: businesstoday-jagan-2019
+    title: Jaganmohan Reddy sworn in as Chief Minister of Andhra Pradesh
+    publisher: Business Today
+    url: https://www.businesstoday.in/latest/economy-politics/story/jaganmohan-reddy-sworn-in-as-chief-minister-of-andhra-pradesh-198732-2019-05-30
+    date: 2019-05-30
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: southfirst-naidu-2024
+    title: Chandrababu Naidu sworn in as Andhra Pradesh CM for the fourth time; 24 ministers from TDP, Jana Sena, BJP take oath
+    publisher: The South First
+    author: Raj Rayasam
+    url: https://thesouthfirst.com/news/chandrababu-naidu-sworn-in-as-andhra-pradesh-cm-for-the-fourth-time-24-ministers-from-tdp-jana-sena-bjp-take-oath
+    date: 2024-06-12
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: wp-ap-cms
+    title: Chief Minister of Andhra Pradesh
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Chief_Minister_of_Andhra_Pradesh
+    tier: lead
+    accessed: 2026-10-15

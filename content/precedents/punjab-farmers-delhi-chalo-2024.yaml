@@ -37,6 +37,7 @@ actions:
     claim: happened
     description: "By 13 February Haryana had sealed its border with Punjab at Shambhu and other points with layered concrete barricades, iron nails and barbed wire to stop the march to Delhi. Reports differ on the number of layers at Shambhu (see figures). Police sealed entry points into Delhi with barbed wire, spikes, cement blocks and iron nails. On 24 July 2024 the Supreme Court directed Haryana and Punjab to submit proposals to remove the barricades at Shambhu in a phased manner. The highway at Shambhu stayed closed until March 2025; Haryana began removing the cement barricades on 20 March 2025, after Punjab Police cleared the protest sites."
     actor: state
+    state: [Haryana, Delhi]
     sources: [s2, s1, s10, s33, s23, s32]
     figures:
       - { what: "layers of concrete barricades at Shambhu", value: "six", claimed_by: "Al Jazeera (photo caption, Rohit Lohia)", source: s2 }
@@ -46,6 +47,7 @@ actions:
     claim: ordered
     description: "Delhi Police Commissioner Sanjay Arora issued an order under Section 144 CrPC on 12 February for a month. It prohibited rallies, processions and the blocking of roads, and banned tractor rallies from crossing into Delhi; Business Today reported that it also restricted the entry of tractors and trolleys. Business Today reported that Rajasthan sealed its borders with Punjab and Haryana on 11 February and imposed prohibitory orders under Section 144 CrPC in Sri Ganganagar and Hanumangarh districts. The Supreme Court recorded in September 2024 that prohibition orders had been imposed to stop the movement of tractors and trolleys on the national highways."
     actor: police
+    state: [Delhi, Rajasthan]
     legal_basis: Section 144 CrPC
     sources: [s33, s10, s1, s24]
   - type: internet_shutdown
@@ -53,6 +55,7 @@ actions:
     claim: ordered
     description: "The Haryana Home Department ordered the suspension of mobile internet, bulk SMS and dongle services, except voice calls, in Ambala, Kurukshetra, Kaithal, Jind, Hisar, Fatehabad and Sirsa districts from 06:00 on 11 February to 23:59 on 13 February 2024. The order cited a request from the Additional Director General of Police, CID, and the risk that inflammatory material and rumours would spread on mobile internet. Extension orders followed; the order of 23 February extended the suspension in the seven districts to 24 February. PTI reported that the Union government ordered internet services suspended in areas of Patiala, Sangrur and Fatehgarh Sahib districts of Punjab from 12 to 16 February, and from 17 to 24 February in areas of six Punjab districts near the border points."
     actor: state
+    state: Haryana
     legal_basis: "Section 5, Indian Telegraph Act, 1885, read with Rule 2, Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (Haryana orders); the Union order for the Punjab areas cites Section 7 of the Telegraph Act read with Rule 2(1) of the same Rules, as quoted by PTI"
     sources: [s12, s13, s14, s1, s9]
   - type: tear_gas
@@ -60,6 +63,7 @@ actions:
     claim: happened
     description: "From 13 February Haryana Police fired tear gas and rubber bullets, and used water cannon, to stop farmers at the Shambhu border near Ambala, including when farmers tried to remove the barricades. Al Jazeera and The Tribune reported that drones were used to drop tear gas shells. The Ambala Deputy Commissioner said only tear gas and rubber bullets were used. Farmers alleged that police also fired pellets; Haryana DGP Shatrujeet Kapur told The Hindu that police did not use pellet guns and that their procedure was tear gas, water cannon, cane charge and then rubber bullets fired at the ground. The Punjab government said three farmers had lost their eyesight to pellet injuries. A Supreme Court order of September 2024 records allegations that the agitators had gathered with weapons and modified tractors, and that the agitation was marred by violence on 13, 14 and 21 February. Injury counts differ (see figures)."
     actor: police
+    state: Haryana
     sources: [s2, s15, s3, s16, s9, s1, s24]
     figures:
       - { what: "people seriously injured, including by pellet guns", value: "around 200", claimed_by: "Amrik Singh, farm union member (to The Hindu)", source: s16 }
@@ -77,6 +81,7 @@ actions:
     claim: happened
     description: "Shubhkaran Singh, 21, of Bathinda district, died at the Khanauri border on 21 February 2024 (The Tribune later gave his age as 22). Farmers alleged he died in police firing. In the FIR registered by Punjab Police on 28 February, his father said a bullet fired from the Haryana side hit him in the head; the investigating officer wrote that the source of the bullet was a matter of investigation. Hospital documents seen by Newslaundry said he was 'brought dead'. On the afternoon of 21 February Haryana Police said on X that, according to information received so far, no farmer had died and that this was a rumour, and that two police personnel and one protester had been injured at the Data Singh-Khanauri border. The Tribune reported that the autopsy found a fatal blow to the back of the head and that a 'pellet' sample was sent for ballistic examination. 46 farmers had been admitted to Rajindra Hospital, Patiala, by 23 February, 18 of them reportedly with gunshot injuries. The Supreme Court recorded in September 2024 that he lost his life and that related issues were before a committee appointed by the High Court. The cause of death is contested."
     actor: police
+    state: Haryana
     sources: [s19, s4, s18, s20, s21, s24]
     legal_basis: "Zero FIR No. 0041 at Patran police station, Patiala, under Sections 302 and 114 IPC, against unidentified persons (as reported by The Tribune)"
     figures:
@@ -108,6 +113,7 @@ actions:
     claim: happened
     description: "Punjab Police detained farmer leaders including Jagjit Singh Dallewal and Sarwan Singh Pandher in Mohali as they returned from the seventh round of talks with a Union delegation in Chandigarh, and cleared the Shambhu and Khanauri protest sites in a late-evening operation, removing tents, stages and trolleys. The Indian Express reported that the Patiala Range DIG told protesters that police did not want to use force and asked them to board buses voluntarily. Punjab Finance Minister Harpal Singh Cheema said the closure of the highways had hit trade and industry. On 28 March the Punjab government told the Supreme Court that it had cleared the protesters and reopened the national highway, and that Dallewal, on hunger strike since November 2024, had ended his fast. LiveLaw reported that a contempt petition alleging violation of the status quo order was withdrawn after the bench called it misconceived; the Court's signed order says the contempt proceedings against Punjab's Chief Secretary and DGP were dropped at this stage in light of subsequent events. Counts of detained farmers and police differ (see figures)."
     actor: state
+    state: Punjab
     sources: [s26, s5, s25, s27, s32]
     figures:
       - { what: "farmers detained", value: "more than 300", claimed_by: "The Tribune, citing sources", source: s27 }

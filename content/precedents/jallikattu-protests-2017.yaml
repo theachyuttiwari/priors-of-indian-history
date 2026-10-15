@@ -40,6 +40,7 @@ actions:
     claim: ordered
     description: "The Governor, C. Vidyasagar Rao, promulgated the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Ordinance, 2017 (Tamil Nadu Ordinance 1 of 2017), published in a Gazette Extraordinary on 21 January, amending the 1960 Act to permit jallikattu. Protesters at Marina rejected it as a temporary fix and continued the sit-in."
     actor: state
+    state: Tamil Nadu
     legal_basis: Article 213 of the Constitution (as cited in the state government's statement, reported by Deccan Herald); Tamil Nadu Ordinance 1 of 2017
     sources: [s10, s17, s15, s3, s6, s13]
   - type: other
@@ -47,6 +48,7 @@ actions:
     claim: happened
     description: "Police eviction: early on 23 January police gave protesters on Marina Beach a copy of the ordinance and asked them to leave, then physically removed those who stayed. Protesters told Scroll that they asked for time to consult lawyers and were refused. Roads to the beach were barricaded, and Hindustan Times reported that most protesters had been cleared by noon. Officials told Hindustan Times that some people seemed to have infiltrated the protests and urged others to stay, forcing the police to use force; WION reported that police said they needed to secure the beachfront before Republic Day."
     actor: police
+    state: Tamil Nadu
     sources: [s13, s14, s5, s4]
     figures:
       - what: protesters on Marina Beach when police handed over the ordinance
@@ -62,6 +64,7 @@ actions:
     claim: happened
     description: "Police used lathis during the eviction and in clashes that followed in Triplicane, Teynampet, Madurai and Coimbatore. Accounts of the sequence differ: protesters told Scroll that police began hitting the crowd with lathis while they were still protesting at Marina, while IANS reported that protesters threw stones at police in Triplicane and police then retaliated with a baton charge. Vehicles outside the Ice House police station in Triplicane were set on fire. Who set the fires is contested. Protesters and residents of the Nadukuppam fishing colony alleged that police set fire to vehicles and the fish market; Assistant Commissioner S. Pandian denied this and showed a video of youths damaging property outside the station. Videos that purported to show police setting fire to autorickshaws circulated on social media."
     actor: police
+    state: Tamil Nadu
     sources: [s13, s14, s22, s1, s4, s6]
     figures:
       - what: policemen injured in the violence
@@ -73,12 +76,14 @@ actions:
     claim: happened
     description: "Police fired tear gas shells to disperse crowds on roads leading to Marina and elsewhere in Chennai and the state."
     actor: police
+    state: Tamil Nadu
     sources: [s14, s22, s1, s4, s5]
   - type: concession
     date: 2017-01-23
     claim: ordered
     description: "The Tamil Nadu Assembly unanimously passed the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Bill, 2017, introduced by the Chief Minister, by a voice vote. It replaced the ordinance and was deemed in force from 21 January 2017. The Tamil Nadu Government Gazette records the President's assent to the Act, Act No. 1 of 2017, on 31 January 2017; Deccan Chronicle had reported the assent on 30 January."
     actor: state
+    state: Tamil Nadu
     legal_basis: Prevention of Cruelty to Animals (Tamil Nadu Amendment) Act, 2017 (Tamil Nadu Act No. 1 of 2017)
     sources: [s11, s12, s15, s1, s3]
     court_outcomes:
@@ -95,6 +100,7 @@ actions:
     claim: ordered
     description: "The Commissioner of Police, Greater Chennai, S. George, issued a prohibitory order covering the Marina, Ice House, Foreshore Estate, Triplicane and Anna Square police station areas until 12 February. It prohibited assemblies, processions, fasts, demonstrations, human chains and meetings; family visits to the beach were exempt. The Commissioner said anti-social elements and anti-nationals had infiltrated the agitation and that some were using social media to gather people at Marina again. The order was rescinded on 4 February 2017, and a regulatory order under Section 41 of the Chennai City Police Act then barred assemblies and demonstrations on the Marina stretch from Napier Bridge to the Lighthouse."
     actor: police
+    state: Tamil Nadu
     legal_basis: Section 144 CrPC
     sources: [s23, s24, s25]
   - type: commission_of_inquiry
@@ -102,6 +108,7 @@ actions:
     claim: ordered
     description: "Chief Minister Panneerselvam announced in the Assembly a commission of inquiry under a retired High Court judge into the law and order problems after the protests, including whether the force used by police was appropriate. It was asked to report in three months. Retired judge S. Rajeswaran headed the one-member commission. After repeated extensions it submitted its report to Chief Minister Edappadi K. Palaniswami in January 2020. The Federal reported in January 2021 that the report had not been published."
     actor: state
+    state: Tamil Nadu
     sources: [s23, s18, s19, s20]
     figures:
       - what: persons the commission inquired

@@ -1,0 +1,167 @@
+# Haryana, from the term in office on 1974-01-01.
+# Dates and party: Haryana CMO "EX-CM" list, unless a comment says otherwise. Where one term's
+# end date equals the next term's start date in the source, `to` here is the day before.
+# President's Rule: MHA statement of proclamations under Article 356.
+name: Haryana
+terms:
+  - from: 1972-03-14
+    to: 1975-11-30
+    head: Bansi Lal
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  # The CMO list ends this term on 30-04-1977, the day President's Rule was proclaimed.
+  - from: 1975-12-01
+    to: 1977-04-29
+    head: Banarsi Das Gupta
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 1977-04-30
+    to: 1977-06-20
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  # CONFLICT: the CMO list labels this term "Janata Dal", a party founded in 1988. TCPD-CMID gives
+  # JNP (Janata Party), the party that won the 1977 Haryana election. Janata Party is used here.
+  - from: 1977-06-21
+    to: 1979-06-27
+    head: Devi Lal
+    party: Janata Party
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  # The CMO list labels the whole 1979-1982 term "Janata Party". TCPD-CMID also gives JNP for
+  # 1979-06-28 to 1982-05-23. Bhajan Lal is widely reported to have taken his government into
+  # the Congress (I) in January 1980; that switch is not dated in the sources used here.
+  - from: 1979-06-28
+    to: 1982-05-22
+    head: Bhajan Lal
+    party: Janata Party
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 1982-05-23
+    to: 1986-06-04
+    head: Bhajan Lal
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 1986-06-05
+    to: 1987-06-19
+    head: Bansi Lal
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 1987-06-20
+    to: 1989-12-01
+    head: Devi Lal
+    party: Lok Dal
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  # The CMO list labels the four short terms from 1989 to 1991 "Janata Dal". TCPD-CMID gives
+  # LKD (Lok Dal) for Banarsi Das Gupta and Hukam Singh, from their 1987 election.
+  - from: 1989-12-02
+    to: 1990-05-22
+    head: Om Prakash Chautala
+    party: Janata Dal
+    sources: [hr-cmo-ex-cm]
+  - from: 1990-05-23
+    to: 1990-07-11
+    head: Banarsi Das Gupta
+    party: Janata Dal
+    sources: [hr-cmo-ex-cm]
+  - from: 1990-07-12
+    to: 1990-07-16
+    head: Om Prakash Chautala
+    party: Janata Dal
+    sources: [hr-cmo-ex-cm]
+  - from: 1990-07-17
+    to: 1991-03-21
+    head: Hukam Singh
+    party: Janata Dal
+    sources: [hr-cmo-ex-cm]
+  - from: 1991-03-22
+    to: 1991-04-05
+    head: Om Prakash Chautala
+    party: Janata Dal
+    sources: [hr-cmo-ex-cm]
+  # MHA: proclaimed 6.4.1991, revoked 23.6.1991, the day Bhajan Lal took office.
+  - from: 1991-04-06
+    to: 1991-06-22
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1991-06-23
+    to: 1996-05-10
+    head: Bhajan Lal
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  # CONFLICT: the CMO list ends this term on 21-05-1997, which would leave a two-year gap before
+  # Chautala's term began on 24-07-1999. TCPD-CMID ends it on 1999-07-21. The Tribune (UNI copy,
+  # 24 July 1999) reports Bansi Lal's resignation and Chautala's cabinet to be "sworn-in tomorrow",
+  # and calls the Bansi Lal government "38-month-old" (Tribune, 23 July 1999). The term is taken to
+  # run until the day before Chautala took office.
+  - from: 1996-05-11
+    to: 1999-07-23
+    head: Bansi Lal
+    party: Haryana Vikas Party
+    sources: [hr-cmo-ex-cm, tcpd-cmid, tribune-1999-07-24, tribune-1999-07-23]
+  # CMO list: INLD for 24-07-1999 to 02-03-2000 and 02-03-2000 to 05-03-2005.
+  - from: 1999-07-24
+    to: 2005-03-04
+    head: Om Prakash Chautala
+    party: INLD
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 2005-03-05
+    to: 2014-10-25
+    head: Bhupinder Singh Hooda
+    party: INC
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  - from: 2014-10-26
+    to: 2024-03-11
+    head: Manohar Lal
+    party: BJP
+    sources: [hr-cmo-ex-cm, tcpd-cmid]
+  # Sworn in on 12 March 2024 and again on 17 October 2024 after the 2024 election.
+  - from: 2024-03-12
+    head: Nayab Singh Saini
+    party: BJP
+    sources: [hr-cmo-know-your-cm]
+sources:
+  - id: hr-cmo-ex-cm
+    title: EX-CM (former Chief Ministers of Haryana, with party and tenure)
+    publisher: Chief Minister's Office, Government of Haryana
+    url: https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: hr-cmo-know-your-cm
+    title: Know Your CM
+    publisher: Chief Minister's Office, Government of Haryana
+    url: https://haryanacmoffice.gov.in/know-your-cm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-1999-07-24
+    title: Chautala meets Vajpayee
+    publisher: The Tribune (UNI)
+    url: https://www.tribuneindia.com/1999/99jul24/nation.htm
+    date: 1999-07-24
+    type: news
+    tier: secondary
+    wire: UNI
+    accessed: 2026-10-15
+  - id: tribune-1999-07-23
+    title: Haryana page (reactions to Bansi Lal's resignation)
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/1999/99jul23/haryana.htm
+    date: 1999-07-23
+    type: news
+    tier: secondary
+    accessed: 2026-10-15

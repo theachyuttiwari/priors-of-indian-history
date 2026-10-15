@@ -26,11 +26,12 @@ for (const r of reports) {
     console.log(`WARN ${r.file}`);
     if (strict) failed++;
   } else {
-    const p = r.entry!;
+    const p = r.entry;
     const todo = r.todos.length ? `, ${r.todos.length} todo` : "";
-    console.log(
-      `ok   ${r.file}  (${p.actions.length} actions, ${p.positions.length} positions, ${p.sources.length} sources${todo})`,
-    );
+    const what = p
+      ? `${p.actions.length} actions, ${p.positions.length} positions, ${p.sources.length} sources`
+      : r.summary;
+    console.log(`ok   ${r.file}  (${what}${todo})`);
   }
   for (const e of r.errors) console.log(`   error: ${e}`);
   for (const w of r.warnings) console.log(`   warn:  ${w}`);

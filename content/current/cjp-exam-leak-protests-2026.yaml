@@ -39,6 +39,7 @@ actions:
     claim: ordered
     description: "Delhi Police granted permission for the first Jantar Mantar protest until 5 pm, which police called a one-time exception, and relaxed the advance-notice requirement. Police sources told PTI that more than 1,000 personnel were deployed across New Delhi district and other locations."
     actor: police
+    state: Delhi
     sources: [s11, s10]
     figures:
       - { what: police personnel deployed across New Delhi district and other locations, value: "more than 1,000", claimed_by: police sources (PTI), source: s11 }
@@ -47,12 +48,14 @@ actions:
     claim: happened
     description: "Police and paramilitary personnel removed Sonam Wangchuk, on hunger strike since 28 June, from the stage at Jantar Mantar and took him to Safdarjung Hospital. DCP Sachin Sharma said he was moved in compliance with a court order and on medical advice. The BBC and The Guardian reported that he was removed by force; his wife Gitanjali Angmo called his confinement in hospital illegal detention."
     actor: police
+    state: Delhi
     sources: [s12, s13]
   - type: section_144
     date: 2026-07-19
     claim: ordered
     description: "Prohibitory orders under Section 163 of the BNSS were in force across New Delhi district before the 20 July 'Chalo Sansad' march. A public advisory from the DCP, New Delhi said that protest marches, processions, demonstrations and assemblies of five or more persons were prohibited except at the designated site at Jantar Mantar, with prior permission."
     actor: police
+    state: Delhi
     legal_basis: Section 163 BNSS
     sources: [s15, s14, s13, s16]
   - type: permission_denied
@@ -60,12 +63,14 @@ actions:
     claim: ordered
     description: "In a public advisory posted on X on 19 July, the DCP, New Delhi said that no permission had been sought or granted for the CJP's proposed march to Parliament on 20 July."
     actor: police
+    state: Delhi
     sources: [s15, s14, s13, s16]
   - type: tear_gas
     date: 2026-07-20
     claim: happened
     description: "Police fired tear gas at marchers heading toward Parliament. Police said protesters tried to breach barricades and threw stones at security forces, and that 118 personnel and 60 civilians were injured and about 70 people detained. Organisers said at least 150 protesters were wounded."
     actor: police
+    state: Delhi
     sources: [s13, s18, s19, s1, s3]
     figures:
       - { what: police personnel injured, value: "118", claimed_by: Delhi Police, source: s3 }
@@ -77,6 +82,7 @@ actions:
     claim: happened
     description: "Police used batons and canes on the march. The use of pellets is contested: Delhi Police denied using pellet guns, while The Hindu reported a hospital source who said one protester had pellet injuries, and the Hindustan Times reported a police general diary entry that recorded plastic pellets fired by the Rapid Action Force on a DCP's orders."
     actor: police
+    state: Delhi
     sources: [s13, s17, s18, s20, s21, s1]
     court_outcomes:
       - summary: On 22 July the Delhi High Court asked the Union government and Delhi Police to respond to petitions alleging excessive force and directed that CCTV and video records of the march be preserved; the Additional Solicitor General said protesters had thrown stones.
@@ -93,6 +99,7 @@ actions:
     claim: happened
     description: "Police detained Rahul Gandhi, Priyanka Gandhi Vadra and other opposition leaders at a sit-in outside the Prime Minister's residence and released them later the same day."
     actor: police
+    state: Delhi
     sources: [s26, s27, s1, s3]
   - type: other
     date: 2026-07-21
@@ -105,6 +112,7 @@ actions:
     claim: ordered
     description: "Mumbai Police registered 13 FIRs naming about 400 people over protests held without permission since 18 July. Delhi Police registered FIRs over violence during the 20 July march, and police cases were filed against students in Delhi, Assam, West Bengal and Bihar."
     actor: police
+    state: [Maharashtra, Delhi, Assam, West Bengal, Bihar]
     sources: [s29, s30, s31]
     figures:
       - { what: FIRs registered in Mumbai, value: "13", claimed_by: Mumbai Police, source: s29 }

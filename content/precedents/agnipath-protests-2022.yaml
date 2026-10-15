@@ -39,12 +39,14 @@ actions:
     claim: happened
     description: "Police in Bihar fired tear gas shells and baton-charged protesters at several places, on a day when protesters set train coaches on fire at Bhabua, Chhapra and other stations and a BJP office was set on fire in Nawada. Hindustan Times reported tear gas at Ara and Bhabua and baton charges in Begusarai, Nawada, Jehanabad and other districts; at Chhapra, an RPF inspector said the RPF fired eight rounds in the air to disperse the crowd."
     actor: police
+    state: Bihar
     sources: [s1, s16, s17]
   - type: firing
     date: 2022-06-16
     claim: happened
     description: "In Palwal, Haryana, protesters attacked the Deputy Commissioner's office and residence, threw stones and set police vehicles on fire. Hindustan Times and The Tribune reported that police fired in the air to disperse them; Palwal SP Mukesh Malhotra, quoted by The Tribune, described the police response as a cane charge and tear gas. Police said two SHOs and 15 other policemen were seriously injured."
     actor: police
+    state: Haryana
     sources: [s1, s2, s18, s33]
     figures:
       - { what: "police personnel seriously injured in Palwal", value: "two SHOs and 15 other policemen", claimed_by: "Palwal SP Mukesh Malhotra (quoted by The Tribune)", source: s33 }
@@ -59,6 +61,7 @@ actions:
     claim: ordered
     description: "The Haryana government suspended mobile internet, SMS and dongle services in Palwal district for 24 hours from 16 June, and on 17 June for 24 hours in Mahendragarh district and the Ballabhgarh area of Faridabad, saying it wanted to stop the spread of disinformation and rumours. The Bihar Home Department suspended internet services in 12 districts from 17 June until 19 June. Reports differ on the later extent in Bihar: a Police Headquarters statement on 19 June said 17 of 38 districts remained under suspension, while Hindustan Times and The Times of India reported 20 districts. Services were restored on 21 June."
     actor: state
+    state: [Haryana, Bihar]
     sources: [s3, s5, s18, s24, s25, s27, s33, s34, s39, s40]
     legal_basis: "Haryana (Palwal): Section 5 of the Indian Telegraph Act, 1885, read with Rule 2 of the Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017, as quoted from the order by The Indian Express. Bihar: Home Department order No. C/C.I.Misc-4013/2017-01 of 17 June 2022, as cited by SFLC.in (law not named in the sources opened)"
     figures:
@@ -70,6 +73,7 @@ actions:
     claim: happened
     description: "Police opened fire on protesters at Secunderabad railway station in Telangana after protesters vandalised the station and set train coaches on fire. One person, Damera (Damira) Rakesh from Warangal district, died; Gandhi Hospital's superintendent said 13 people were brought to the hospital. Reports differ on which force fired: The Indian Express reported that Telangana police allegedly opened fire, while The Hindu reported that the station manager's complaint, on which the Secunderabad Railway Police registered a case, said police opened fire on the legs in self-defence to stop protesters setting fire to locomotives. Reports give Rakesh's age as 24 (The Indian Express) and 18 (The News Minute)."
     actor: police
+    state: Telangana
     sources: [s3, s4, s20, s21, s22, s23]
     figures:
       - { what: "people killed", value: "1", claimed_by: "Gandhi Hospital superintendent Raja Rao (quoted by The Indian Express)", source: s20 }
@@ -81,6 +85,7 @@ actions:
     claim: ordered
     description: "Prohibitory orders under Section 144 CrPC were imposed in Palwal on 16 June and in Faridabad. On 17 June, Gurugram District Magistrate Nishant Kumar Yadav issued an order prohibiting the free movement of persons and gatherings of more than four people in Gurugram district, in force until further orders. On 20 June, the day of a Bharat Bandh call, police in several areas imposed Section 144, and prohibitory orders were reported in some districts of Bihar, Jharkhand, Uttar Pradesh, Kerala, Assam and Rajasthan."
     actor: state
+    state: [Haryana, Bihar, Jharkhand, Uttar Pradesh, Kerala, Assam, Rajasthan]
     sources: [s3, s6, s5, s19, s43, s33]
     legal_basis: Section 144 CrPC
   - type: fir
@@ -88,6 +93,7 @@ actions:
     claim: ordered
     description: "Police in Bihar, Uttar Pradesh, Haryana and Telangana registered cases and made arrests. Bihar figures given by police and officials rose from 24 FIRs on 17 June to between 145 and 159 FIRs by 19-20 June, and arrests from more than 125 to between 804 and 879; one figure from the ADG (Law and Order), 600 cases, differs from the others (see figures). In Uttar Pradesh, police said on 18 June that 340 people had been arrested and 29 cases lodged in 12 districts. In Palwal, Haryana, police booked over 1,000 people in three FIRs and arrested 23. In Secunderabad, the Railway Police registered a case on the station manager's complaint under rioting, attempt to murder and other IPC sections, the Prevention of Damage to Public Property Act and the Railways Act."
     actor: police
+    state: [Bihar, Uttar Pradesh, Haryana, Telangana]
     sources: [s3, s7, s8, s24, s26, s27, s28, s31, s32, s34, s23]
     legal_basis: "Secunderabad: IPC sections 143, 147, 324, 307, 435, 427, 448, 336, 332 and 341 read with 149, the Prevention of Damage to Public Property Act and the Railways Act (as reported by The Hindu)"
     figures:

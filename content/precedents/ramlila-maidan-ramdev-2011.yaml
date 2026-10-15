@@ -35,6 +35,7 @@ actions:
     claim: ordered
     description: "By a letter of 25 April 2011 the DCP (Central District) permitted the Bharat Swabhiman Trust to hold a yoga training session at Ramlila Ground from 1 to 20 June 2011, on conditions that included following police instructions, failing which the permission could be revoked at any time. The Trust had applied for a camp for 4,000 to 5,000 people. After the DCP asked about media reports of a planned fast, the Trust wrote on 28 May that there would be no programme other than a residential yoga camp."
     actor: police
+    state: Delhi
     sources: [s1, s5]
   - type: negotiation
     date: 2011-06-01
@@ -47,6 +48,7 @@ actions:
     claim: ordered
     description: "According to the police account recorded by the Supreme Court, the order withdrawing permission for the yoga camp was passed at 9:30 pm on 4 June and police reached the ground after 10:30 pm to inform the organisers. The judgment's narrative of events records that at about 11:30 pm a police team led by the Joint Commissioner of Police told Ramdev that the permission was withdrawn and that he would be detained. The Home Minister said a decision had been taken in advance that Ramdev would not be allowed to fast at Ramlila ground and, if he persisted, would be directed to leave Delhi."
     actor: police
+    state: Delhi
     legal_basis: Revocation clause in the permission letter of 25 April 2011; directions under Section 65 of the Delhi Police Act, 1978 (as stated by the Home Minister)
     sources: [s1, s5]
   - type: section_144
@@ -54,6 +56,7 @@ actions:
     claim: ordered
     description: "At about 11:30 pm the Assistant Commissioner of Police, Sub-Division Kamla Market, passed a prohibitory order for the area. The order recited that it was passed ex parte because it could not be served individually, and that it would be published through the press and on official notice boards. In the Supreme Court, Justice Swatanter Kumar found that the police made no public announcement asking the crowd to leave, contrary to Delhi Police Standing Order 309, and Justice B.S. Chauhan found that the crowd was not informed of the order and the assembly was never declared unlawful."
     actor: police
+    state: Delhi
     legal_basis: Section 144 CrPC, 1973, read with Ministry of Home Affairs notification No. U.11036/1/2010 of 9 September 2010 (as quoted in the judgment)
     sources: [s1]
   - type: tear_gas
@@ -61,6 +64,7 @@ actions:
     claim: happened
     description: "Police, CRPF and Rapid Action Force personnel reached the ground at about 12:30 am, when most of the crowd was asleep, and went to the dais at about 1:10 am; Ramdev left the stage for the crowd at 1:25 am. Police and members of the crowd threw bricks, and police fired tear gas shells. The police said they first used water cannon; the court found that the only water cannon available was at the VIP gate and that footage and photographs did not show it in use. The court found from CCTV footage that tear gas was fired at about 2:20 am, and its narrative records that by about 2:10 am almost all supporters had been driven out towards New Delhi Railway Station."
     actor: police
+    state: Delhi
     sources: [s1]
     figures:
       - what: tear gas shells fired
@@ -88,6 +92,7 @@ actions:
     claim: happened
     description: "Accounts of force differ. The Home Minister said that according to Delhi Police minimum force was used. Before the Supreme Court the police denied a lathi charge, though one police affidavit stated that tear gas, water cannon and finally a lathi charge were used in response to violence by the crowd. The Trust said police attacked the crowd and threw bricks. Justice Swatanter Kumar rejected the police submission that no lathi charge took place, and found that some police personnel inflicted cane injuries and threw bricks while others helped people leave. Rajbala, recorded in the police log as a Gurgaon resident, suffered a cervical spine fracture and later died of septicaemia; the police said she probably fell from the stage, which the court found was not supported by the CCTV footage."
     actor: police
+    state: Delhi
     sources: [s1, s5]
     figures:
       - what: civilians injured
@@ -119,6 +124,7 @@ actions:
     claim: happened
     description: "Ramdev was apprehended near Ranjit Singh Flyover at about 3:40 am and taken to the airport guest house. At about 9:50 am he was flown out of Delhi in an Indian Air Force helicopter from Indira Gandhi International Airport."
     actor: police
+    state: Delhi
     legal_basis: Directions under Section 65 of the Delhi Police Act, 1978 (as stated by the Home Minister)
     sources: [s1, s5]
   - type: other

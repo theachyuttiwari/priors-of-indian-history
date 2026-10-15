@@ -57,12 +57,14 @@ actions:
     claim: happened
     description: "Late on 3 May a scuffle broke out at Jantar Mantar after police stopped protesters from bringing folding beds into the site after rain. Wrestlers alleged that policemen pushed, hit and abused them and that one officer was drunk; The Times of India reported that Bajrang Punia and Vinesh Phogat were injured and that wrestler Dushyant Phogat was taken to hospital with a cut on his forehead. DCP Pranav Tayal said AAP MLA Somnath Bharti had brought the beds and was not allowed in, that some police personnel and wrestlers were injured, and that action would be taken against the policeman alleged to be drunk. Delhi Police denied that its officers assaulted the protesters. Police detained Bharti and two others and barricaded the site."
     actor: police
+    state: Delhi
     sources: [s20, s21, s3]
   - type: detention
     date: 2023-05-28
     claim: happened
     description: "As the new Parliament building was inaugurated, Delhi Police detained Vinesh Phogat, Sakshi Malik, Bajrang Punia and their supporters, who had crossed barricades while marching towards it for a women's 'mahapanchayat', and took them away in buses to police stations across Delhi; the women wrestlers were released that evening. Special Commissioner of Police Dependra Pathak said they broke the barricades, did not follow police directions and created a 'riot-like situation'; Punia denied that the protesters broke barricades and violated law and order. Farmer leaders travelling to support the wrestlers were detained at Delhi's borders and, according to BKU (Charuni), in Haryana. The numbers detained differ (see figures)."
     actor: police
+    state: [Delhi, Haryana]
     sources: [s22, s23, s24, s4, s5, s10, s25]
     figures:
       - { what: "persons detained at Jantar Mantar", value: "109", claimed_by: "Special CP Dependra Pathak, Delhi Police", source: s23 }
@@ -74,12 +76,14 @@ actions:
     claim: happened
     description: Soon after the detentions, police cleared the wrestlers' protest site at Jantar Mantar, taking down the tent and removing cots, mattresses, cooler fans, the tarpaulin cover and other belongings.
     actor: police
+    state: Delhi
     sources: [s22, s23, s24, s4]
   - type: fir
     date: 2023-05-28
     claim: ordered
     description: "Delhi Police registered an FIR at Barakhamba police station against the organisers of the protest, including Bajrang Punia, Sakshi Malik and Vinesh Phogat, and their supporters, on charges including rioting, unlawful assembly and obstructing and assaulting public servants. Reports list the sections differently (see legal basis). On 7 June the wrestlers said the government had agreed to withdraw these FIRs."
     actor: police
+    state: Delhi
     sources: [s24, s22, s25, s10, s5, s26]
     legal_basis: "IPC sections 147, 149, 186, 188, 332 and 353 and Section 3 of the Prevention of Damage to Public Property Act, as reported by The Tribune; PTI also lists IPC section 352. The Indian Express, citing police sources before the FIR was lodged, listed IPC sections 147, 148, 149, 352, 353 and 186."
   - type: negotiation
@@ -93,6 +97,7 @@ actions:
     claim: ordered
     description: "Delhi Police filed a chargesheet in the Rouse Avenue court against Brij Bhushan Sharan Singh under IPC sections 354, 354A and 354D on the complaints of six adult wrestlers, and against former WFI assistant secretary Vinod Tomar under sections including 354A, 109 (abetment) and 506 (criminal intimidation). In the POCSO Act case, police filed a cancellation report in the Patiala House court after the minor complainant and her father withdrew the allegations in fresh statements before a magistrate. The father said he had filed a false complaint out of anger; a protesting wrestler told ThePrint that the father had said his second statement was made under pressure. Singh denied the allegations when questioned by police."
     actor: police
+    state: Delhi
     sources: [s28, s29, s7]
     legal_basis: "IPC sections 354, 354A and 354D (Singh); IPC sections including 109, 354A and 506 (Tomar); cancellation report under Section 173 CrPC (POCSO case)"
     court_outcomes:

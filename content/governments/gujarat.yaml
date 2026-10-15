@@ -1,0 +1,184 @@
+# Gujarat, from the term in office on 1974-01-01.
+# Dates: "Leader of the House" table on the Legislative Bodies in India site (Lok Sabha
+# Secretariat / NIC; archived copy of 4 July 2022), which runs to Narendra Modi's term; and the
+# Gujarat State Portal list "All Chief Ministers of Gujarat" for later terms. The state portal list
+# gives only one term for some Chief Ministers; it agrees with the Legislative Bodies table where
+# both give a term. Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# President's Rule: MHA statement of proclamations under Article 356.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Gujarat
+terms:
+  - from: 1973-07-17
+    to: 1974-02-08
+    head: Chimanbhai Patel
+    party: INC
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  # MHA: proclaimed 9.2.1974, revoked 18.6.1975.
+  - from: 1974-02-09
+    to: 1975-06-17
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, lbi-gujarat]
+  # TCPD-CMID gives NCO (Indian National Congress (Organisation)). Wikipedia (lead) agrees.
+  - from: 1975-06-18
+    to: 1976-03-11
+    head: Babubhai J. Patel
+    party: other (Indian National Congress (Organisation))
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  # MHA: proclaimed 12.3.1976, revoked 24.12.1976.
+  - from: 1976-03-12
+    to: 1976-12-23
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, lbi-gujarat]
+  - from: 1976-12-24
+    to: 1977-04-10
+    head: Madhavsinh Solanki
+    party: INC
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  # CONFLICT: TCPD-CMID gives NCO (his 1975 election party). Wikipedia (lead) gives Janata Party,
+  # which Congress (O) joined in 1977. Janata Party is used; it rests on a lead source only.
+  - from: 1977-04-11
+    to: 1980-02-16
+    head: Babubhai J. Patel
+    party: Janata Party
+    sources: [lbi-gujarat, tcpd-cmid, wp-gujarat-cms]
+  # MHA: proclaimed 17.2.1980, revoked 7.6.1980. Legislative Bodies: to 06/06/1980.
+  - from: 1980-02-17
+    to: 1980-06-06
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, lbi-gujarat]
+  # TCPD-CMID: INC(I) to 1985-03-08, INC from 1985-03-09.
+  - from: 1980-06-07
+    to: 1985-03-08
+    head: Madhavsinh Solanki
+    party: other (Indian National Congress (I))
+    sources: [lbi-gujarat, tcpd-cmid]
+  - from: 1985-03-09
+    to: 1985-07-05
+    head: Madhavsinh Solanki
+    party: INC
+    sources: [lbi-gujarat, tcpd-cmid]
+  - from: 1985-07-06
+    to: 1989-12-09
+    head: Amarsinh Chaudhary
+    party: INC
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  - from: 1989-12-10
+    to: 1990-03-03
+    head: Madhavsinh Solanki
+    party: INC
+    sources: [lbi-gujarat, tcpd-cmid]
+  # Party change inside one term. TCPD-CMID gives JD for the whole term (his 1990 election party).
+  # Wikipedia (lead) gives Janata Dal to 25 October 1990 and INC from 25 October 1990. The split
+  # and the INC label rest on a lead source only and need checking.
+  - from: 1990-03-04
+    to: 1990-10-24
+    head: Chimanbhai Patel
+    party: Janata Dal
+    sources: [lbi-gujarat, tcpd-cmid, wp-gujarat-cms]
+  # Chimanbhai Patel died in office on 17 February 1994 (not verified here); the Legislative
+  # Bodies table ends his term and starts Chhabildas Mehta's on 17/02/1994.
+  - from: 1990-10-25
+    to: 1994-02-16
+    head: Chimanbhai Patel
+    party: INC
+    sources: [lbi-gujarat, wp-gujarat-cms]
+  # CONFLICT: TCPD-CMID gives JD (his 1990 election party); Wikipedia (lead) places him in the
+  # same INC government as Chimanbhai Patel. INC rests on a lead source only.
+  - from: 1994-02-17
+    to: 1995-03-13
+    head: Chhabildas Mehta
+    party: INC
+    sources: [lbi-gujarat, gj-portal-cms, wp-gujarat-cms]
+  - from: 1995-03-14
+    to: 1995-10-20
+    head: Keshubhai Patel
+    party: BJP
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  - from: 1995-10-21
+    to: 1996-09-18
+    head: Suresh Mehta
+    party: BJP
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  # MHA: proclaimed 19.9.1996, revoked 23.10.1996.
+  - from: 1996-09-19
+    to: 1996-10-22
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, lbi-gujarat]
+  # TCPD-CMID: RJP(G); Wikipedia (lead): Rashtriya Janata Party.
+  - from: 1996-10-23
+    to: 1997-10-27
+    head: Shankersinh Vaghela
+    party: other (Rashtriya Janata Party)
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  # CONFLICT: TCPD-CMID gives BJP (his 1995 election party); Wikipedia (lead) places him in the
+  # same Rashtriya Janata Party government as Vaghela. The RJP label rests on a lead source only.
+  - from: 1997-10-28
+    to: 1998-03-03
+    head: Dilip Parikh
+    party: other (Rashtriya Janata Party)
+    sources: [lbi-gujarat, gj-portal-cms, wp-gujarat-cms]
+  - from: 1998-03-04
+    to: 2001-10-06
+    head: Keshubhai Patel
+    party: BJP
+    sources: [lbi-gujarat, tcpd-cmid]
+  - from: 2001-10-07
+    to: 2014-05-21
+    head: Narendra Modi
+    party: BJP
+    sources: [lbi-gujarat, gj-portal-cms, tcpd-cmid]
+  - from: 2014-05-22
+    to: 2016-08-06
+    head: Anandiben Patel
+    party: BJP
+    sources: [gj-portal-cms, tcpd-cmid]
+  - from: 2016-08-07
+    to: 2021-09-12
+    head: Vijay Rupani
+    party: BJP
+    sources: [gj-portal-cms, tcpd-cmid]
+  - from: 2021-09-13
+    head: Bhupendra Patel
+    party: BJP
+    sources: [gj-portal-cms, tcpd-cmid]
+sources:
+  - id: lbi-gujarat
+    title: Gujarat Legislative Assembly (Leader of the House table)
+    publisher: Legislative Bodies in India (Lok Sabha Secretariat / NIC)
+    url: https://legislativebodiesinindia.nic.in/STATISTICAL/GUJARAT.htm
+    archive_url: https://web.archive.org/web/20220704232412/https://legislativebodiesinindia.nic.in/STATISTICAL/GUJARAT.htm
+    archive_date: 2022-07-04
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: gj-portal-cms
+    title: All Chief Ministers of Gujarat
+    publisher: Gujarat State Portal, Government of Gujarat
+    url: https://gujaratindia.gov.in/Home/AllChiefMinistersofGujarat
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-gujarat-cms
+    title: List of chief ministers of Gujarat
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Gujarat
+    tier: lead
+    accessed: 2026-10-15

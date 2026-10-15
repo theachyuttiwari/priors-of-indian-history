@@ -1,0 +1,281 @@
+# Prime Ministers of India, 1947-08-15 to today.
+# Dates: pmindia.gov.in lists each term as "from - to", where "to" is the day the successor was
+# sworn in. Here `to` is the last full day before the successor took office, so terms do not overlap.
+# Party: the party label pmindia.gov.in prints under each former PM's biography.
+name: Centre
+aliases: [Union Government, Government of India]
+terms:
+  - from: 1947-08-15
+    to: 1964-05-26
+    head: Jawaharlal Nehru
+    party: INC
+    sources: [pmindia-list, pmindia-nehru]
+  - from: 1964-05-27
+    to: 1964-06-08
+    head: Gulzarilal Nanda (acting)
+    party: INC
+    sources: [pmindia-list, pmindia-nanda-1964]
+  - from: 1964-06-09
+    to: 1966-01-10
+    head: Lal Bahadur Shastri
+    party: INC
+    sources: [pmindia-list, pmindia-shastri]
+  - from: 1966-01-11
+    to: 1966-01-23
+    head: Gulzarilal Nanda (acting)
+    party: INC
+    sources: [pmindia-list, pmindia-nanda-1966]
+  # pmindia labels this term "Congress"; the party split in 1969 (Congress (R) / Congress (O))
+  # is not distinguished by the source, so INC is used throughout.
+  - from: 1966-01-24
+    to: 1977-03-23
+    head: Indira Gandhi
+    party: INC
+    sources: [pmindia-list, pmindia-indira-1966]
+  - from: 1977-03-24
+    to: 1979-07-27
+    head: Morarji Desai
+    party: Janata Party
+    sources: [pmindia-list, pmindia-desai]
+  # pmindia labels Charan Singh "Janata Party". Many secondary works call his party at the time
+  # Janata Party (Secular), later Lok Dal. The official label is used here.
+  - from: 1979-07-28
+    to: 1980-01-13
+    head: Charan Singh
+    party: Janata Party
+    sources: [pmindia-list, pmindia-charan-singh]
+  # pmindia labels this term and Rajiv Gandhi's "Congress (I)".
+  - from: 1980-01-14
+    to: 1984-10-30
+    head: Indira Gandhi
+    party: other (Indian National Congress (I))
+    sources: [pmindia-list, pmindia-indira-1980]
+  - from: 1984-10-31
+    to: 1989-12-01
+    head: Rajiv Gandhi
+    party: other (Indian National Congress (I))
+    sources: [pmindia-list, pmindia-rajiv]
+  - from: 1989-12-02
+    to: 1990-11-09
+    head: V. P. Singh
+    party: Janata Dal
+    alliance: National Front
+    sources: [pmindia-list, pmindia-vp-singh, ncert-politics-ch8]
+  # pmindia labels Chandra Shekhar "Janata Dal (S)" (Samajwadi Janata Dal, later Samajwadi
+  # Janata Party (Rashtriya)). TCPD's cabinet dataset gives "JD" (his 1989 election party).
+  - from: 1990-11-10
+    to: 1991-06-20
+    head: Chandra Shekhar
+    party: other (Janata Dal (Socialist))
+    sources: [pmindia-list, pmindia-chandra-shekhar]
+  - from: 1991-06-21
+    to: 1996-05-15
+    head: P. V. Narasimha Rao
+    party: other (Indian National Congress (I))
+    sources: [pmindia-list, pmindia-rao, tcpd-cabinet]
+  - from: 1996-05-16
+    to: 1996-05-31
+    head: Atal Bihari Vajpayee
+    party: BJP
+    sources: [pmindia-list, pmindia-vajpayee-1996, tcpd-cabinet]
+  - from: 1996-06-01
+    to: 1997-04-20
+    head: H. D. Deve Gowda
+    party: Janata Dal
+    alliance: United Front
+    sources: [pmindia-list, pmindia-deve-gowda, ncert-politics-ch8]
+  - from: 1997-04-21
+    to: 1998-03-18
+    head: I. K. Gujral
+    party: Janata Dal
+    alliance: United Front
+    sources: [pmindia-list, pmindia-gujral, ncert-politics-ch8]
+  # NCERT calls the 1998 government both "the BJP-led coalition in 1998" and one of "these NDA
+  # governments". pmindia names the NDA only for the term from 13 Oct 1999.
+  - from: 1998-03-19
+    to: 1999-10-12
+    head: Atal Bihari Vajpayee
+    party: BJP
+    alliance: NDA
+    sources: [pmindia-list, pmindia-vajpayee-1998, ncert-politics-ch8, tcpd-cabinet]
+  - from: 1999-10-13
+    to: 2004-05-21
+    head: Atal Bihari Vajpayee
+    party: BJP
+    alliance: NDA
+    sources: [pmindia-list, pmindia-vajpayee-1998, ncert-politics-ch8]
+  - from: 2004-05-22
+    to: 2014-05-25
+    head: Manmohan Singh
+    party: INC
+    alliance: UPA
+    sources: [pmindia-list, pmindia-manmohan, president-2009-manmohan, ncert-politics-ch8]
+  - from: 2014-05-26
+    head: Narendra Modi
+    party: BJP
+    alliance: NDA
+    sources: [pib-2014-modi-appointed, pmindia-know-the-pm]
+sources:
+  - id: pmindia-list
+    title: Former Prime Ministers
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former-prime-ministers/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-nehru
+    title: Shri Jawaharlal Nehru
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-jawaharlal-nehru/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-nanda-1964
+    title: Shri Gulzari Lal Nanda (May 27, 1964 - June 9, 1964)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-gulzari-lal-nanda-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-nanda-1966
+    title: Shri Gulzari Lal Nanda (January 11, 1966 - January 24, 1966)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-gulzari-lal-nanda-3/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-shastri
+    title: Shri Lal Bahadur Shastri
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-lal-bahadur-shastri/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-indira-1966
+    title: Smt. Indira Gandhi (January 24, 1966 - March 24, 1977)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/smt-indira-gandhi-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-desai
+    title: Shri Morarji Desai
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-morarji-desai-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-charan-singh
+    title: Shri Charan Singh
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-charan-singh/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-indira-1980
+    title: Smt. Indira Gandhi (January 14, 1980 - October 31, 1984)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/smt-indira-gandhi/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-rajiv
+    title: Shri Rajiv Gandhi
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/%e0%a4%b6%e0%a5%8d%e0%a4%b0%e0%a5%80-%e0%a4%b0%e0%a4%be%e0%a4%9c%e0%a5%80%e0%a4%b5-%e0%a4%97%e0%a4%be%e0%a4%82%e0%a4%a7%e0%a5%80/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-vp-singh
+    title: Shri Vishwanath Pratap Singh
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-vishwanath-pratap-singh/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-chandra-shekhar
+    title: Shri Chandra Shekhar
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-chandra-shekhar/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-rao
+    title: Shri P. V. Narasimha Rao
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-p-v-narasimha-rao-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-vajpayee-1996
+    title: Shri Atal Bihari Vajpayee (May 16, 1996 - June 1, 1996)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-atal-bihari-vajpayee/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-deve-gowda
+    title: Shri H. D. Deve Gowda
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-h-d-deve-gowda/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-gujral
+    title: Shri Inder Kumar Gujral
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-inder-kumar-gujral/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-vajpayee-1998
+    title: Shri Atal Bihari Vajpayee (March 19, 1998 - May 22, 2004)
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/shri-atal-bihari-vajpayee-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-manmohan
+    title: Dr. Manmohan Singh
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/former_pm/dr-manmohan-singh-2/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: president-2009-manmohan
+    title: President Appoints Dr. Manmohan Singh as Prime Minister; Oath-taking Ceremony on May 22
+    publisher: President's Secretariat (presidentofindia.nic.in)
+    url: https://presidentofindia.nic.in/smt-pratibha-devisingh-patil/press_releases/president-appoints-dr-manmohan-singh-prime-minister
+    date: 2009-05-20
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pib-2014-modi-appointed
+    title: President appoints Narendra Modi as Prime Minister, Oath taking ceremony on May 26
+    publisher: Press Information Bureau (President's Secretariat)
+    url: https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=105107
+    date: 2014-05-20
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pmindia-know-the-pm
+    title: Know the PM
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    url: https://www.pmindia.gov.in/en/pms-profile/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ncert-politics-ch8
+    title: "Politics in India since Independence, Chapter 8: Recent Developments in Indian Politics"
+    publisher: National Council of Educational Research and Training
+    url: https://ncert.nic.in/textbook/pdf/leps208.pdf
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tcpd-cabinet
+    title: TCPD Indian Cabinet dataset, 1990-2021 (TCPD_Indian_Cabinet_1990_2021.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cabinet_data
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15

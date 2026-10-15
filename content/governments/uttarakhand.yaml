@@ -1,0 +1,125 @@
+# Uttarakhand (Uttaranchal until 2007), from its creation on 2000-11-09.
+# Dates: Chief Minister's Office "Former Chief Ministers and their tenure" and the current Chief
+# Minister's biography. Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Uttarakhand
+aliases: [Uttaranchal]
+terms:
+  # Party not given by TCPD-CMID for the interim government; Wikipedia (lead) gives BJP.
+  - from: 2000-11-09
+    to: 2001-10-29
+    head: Nityanand Swami
+    party: BJP
+    sources: [uk-cmo-former-cms, wp-uk-cms]
+  # Party not given by TCPD-CMID; Wikipedia (lead) gives BJP.
+  - from: 2001-10-30
+    to: 2002-03-01
+    head: Bhagat Singh Koshyari
+    party: BJP
+    sources: [uk-cmo-former-cms, wp-uk-cms]
+  - from: 2002-03-02
+    to: 2007-03-06
+    head: Narayan Dutt Tiwari
+    party: INC
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2007-03-07
+    to: 2009-06-26
+    head: Bhuwan Chandra Khanduri
+    party: BJP
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2009-06-27
+    to: 2011-09-10
+    head: Ramesh Pokhriyal Nishank
+    party: BJP
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2011-09-11
+    to: 2012-03-12
+    head: Bhuwan Chandra Khanduri
+    party: BJP
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2012-03-13
+    to: 2014-01-31
+    head: Vijay Bahuguna
+    party: INC
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2014-02-01
+    to: 2016-03-26
+    head: Harish Rawat
+    party: INC
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  # MHA: proclaimed 27.3.2016 (the statement was prepared while this spell was in force and
+  # gives no revocation). The CMO list gives Harish Rawat's tenures as 01/02/2014 to 27/03/2016,
+  # 21/04/2016 to 22/04/2016 and 11/05/2016 to 18/03/2017; TCPD-CMID gives President's Rule from
+  # 2016-03-27 to 2016-04-21 and from 2016-04-22 to 2016-05-11. The break in President's Rule
+  # followed court proceedings over the proclamation; no court record was checked here.
+  - from: 2016-03-27
+    to: 2016-04-20
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, uk-cmo-former-cms, tcpd-cmid]
+  - from: 2016-04-21
+    to: 2016-04-21
+    head: Harish Rawat
+    party: INC
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2016-04-22
+    to: 2016-05-10
+    head: President's Rule
+    kind: presidents_rule
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2016-05-11
+    to: 2017-03-17
+    head: Harish Rawat
+    party: INC
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  - from: 2017-03-18
+    to: 2021-03-09
+    head: Trivendra Singh Rawat
+    party: BJP
+    sources: [uk-cmo-former-cms, tcpd-cmid]
+  # Party not given by TCPD-CMID; Wikipedia (lead) gives BJP.
+  - from: 2021-03-10
+    to: 2021-07-03
+    head: Tirath Singh Rawat
+    party: BJP
+    sources: [uk-cmo-former-cms, wp-uk-cms]
+  # CMO biography: first tenure 4 July 2021 to 23 March 2022, second from 23 March 2022.
+  - from: 2021-07-04
+    head: Pushkar Singh Dhami
+    party: BJP
+    sources: [uk-cmo-dhami-bio, tcpd-cmid]
+sources:
+  - id: uk-cmo-former-cms
+    title: Former Chief Ministers and their tenure
+    publisher: Chief Minister's Office, Government of Uttarakhand
+    url: https://cm.uk.gov.in/former-chief-ministers/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: uk-cmo-dhami-bio
+    title: Hon'ble Chief Minister's Biography
+    publisher: Chief Minister's Office, Government of Uttarakhand
+    url: https://cm.uk.gov.in/about-chief-minister/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-uk-cms
+    title: List of chief ministers of Uttarakhand
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Uttarakhand
+    tier: lead
+    accessed: 2026-10-15

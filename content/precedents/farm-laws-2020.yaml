@@ -34,12 +34,14 @@ actions:
     claim: happened
     description: "To stop the Delhi Chalo march, Haryana announced it would seal its border with Punjab, and police placed cement and steel barricades, dumpers and trucks on roads at the Shambhu border and other crossing points. Farmers removed many of these, and at most points police let them through after face-offs. The Tribune reported that the national highway near Karhans village (Panipat) was dug up and stone pillars raised to stop the farmers. The Quint reported trenches dug on highways leading to Delhi on the night of 26-27 November, and an unnamed police officer told NDTV that the aim was to delay farmers from Punjab so that they did not reach Karnal. The Quint also reported that Chief Minister Manohar Lal Khattar had ordered police to stop protesters from reaching the capital. On the Delhi side, PTI reported that the Delhi Police stationed five sand-laden trucks at the Singhu border to stop tractor-trolleys."
     actor: state
+    state: [Haryana, Delhi]
     sources: [s10, s3, s1, s12]
   - type: tear_gas
     date: 2020-11-26
     claim: happened
     description: "On 26 November Haryana police used water cannons and tear gas against farmers from Punjab who pushed through barricades at the Shambhu border in Ambala district, and used water cannons at Karnal, Kaithal, Khanauri and other points. Down To Earth reported tear gas and water cannons in Ambala and Kurukshetra. The Tribune reported that police used tear gas shells and water cannons on farmers on the Rohtak-Hisar road in Meham on 26-27 November after farmers removed barricades, that some of the shells were past their expiry date, and that DGP Manoj Yadava said the matter was being examined. The Quint reported tear gas and water cannons at the Singhu and Tikri borders with Delhi on 27 November. Haryana Police said they acted with restraint, that nobody was seriously hurt and that no farmer was arrested (PTI)."
     actor: police
+    state: Haryana
     sources: [s10, s11, s2, s1, s12, s3]
   - type: negotiation
     date: 2021-01-22

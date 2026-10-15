@@ -1,0 +1,282 @@
+# Maharashtra, from the term in office on 1974-01-01.
+# Dates: Maharashtra Legislature Secretariat list of Chief Ministers (PDF, Marathi, to November
+# 2024), with its footnotes on President's Rule. President's Rule dates are cross-checked against
+# the Lok Sabha Secretariat book on President's Rule (2016) and, for 2019, PTI.
+# Party: the Maharashtra list gives no party. Party rests on the Lok Sabha book, the University of
+# Pune paper on coalitions (Palshikar et al., 2010) or news reports where a comment says so.
+# Otherwise party rests on Wikipedia (lead) only, as each comment says.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+# Gaps between terms are periods the official list does not assign to any Chief Minister. They are
+# explained in comments where a source gives the reason.
+name: Maharashtra
+terms:
+  # Party rests on Wikipedia (lead) only.
+  - from: 1963-12-05
+    to: 1975-02-20
+    head: Vasantrao Naik
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1975-02-21
+    to: 1977-04-16
+    head: Shankarrao Chavan
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Wikipedia gives the start as 17 May 1977; the official list gives 17 April 1977.
+  # The Congress split in January 1978 fell inside this term. Party rests on Wikipedia (lead) only.
+  - from: 1977-04-17
+    to: 1978-03-06
+    head: Vasantdada Patil
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party: Palshikar et al. call him "Vasantdada Patil (Congress-Reddy)", heading a coalition with
+  # the Congress (I). Wikipedia labels the party "Indian National Congress (U)".
+  - from: 1978-03-07
+    to: 1978-07-17
+    head: Vasantdada Patil
+    party: other (Indian National Congress (Reddy))
+    sources: [mh-ls-cms, pune-coalitions]
+  # Party: Palshikar et al.: Pawar left the Congress (Reddy) with 44 MLAs and formed the Congress (S),
+  # then led the Progressive Democratic Front. The Lok Sabha book calls it the "Peoples Democratic Front".
+  - from: 1978-07-18
+    to: 1980-02-16
+    head: Sharad Pawar
+    party: other (Indian National Congress (Socialist))
+    alliance: Progressive Democratic Front
+    sources: [mh-ls-cms, pune-coalitions, ls-pr-book]
+  # Official list footnote: President's Rule from 17 February 1980 to 9 June 1980. Lok Sabha book:
+  # Antulay of the Congress (I) formed the ministry on 9 June 1980.
+  - from: 1980-02-17
+    to: 1980-06-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mh-ls-cms, ls-pr-book]
+  # Party: Lok Sabha book, "Congress (I)". Wikipedia gives the end as 21 January 1982; the official
+  # list gives 12 January 1982. The list assigns no Chief Minister to 13-19 January 1982.
+  - from: 1980-06-09
+    to: 1982-01-12
+    head: A. R. Antulay
+    party: other (Indian National Congress (I))
+    sources: [mh-ls-cms, ls-pr-book]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1982-01-20
+    to: 1983-02-01
+    head: Babasaheb Bhosale
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # The official list has two terms (2 Feb 1983 - 9 Mar 1985 and 10 Mar - 1 Jun 1985) with no gap;
+  # merged here. Party rests on Wikipedia (lead) only. The list assigns no Chief Minister to 2 June 1985.
+  - from: 1983-02-02
+    to: 1985-06-01
+    head: Vasantdada Patil
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party rests on Wikipedia (lead) only. The list assigns no Chief Minister to 8-13 March 1986.
+  - from: 1985-06-03
+    to: 1986-03-07
+    head: Shivajirao Patil Nilangekar
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 1986-03-14
+    to: 1988-06-24
+    head: Shankarrao Chavan
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # The official list has two terms (25 Jun 1988 - 3 Mar 1990 and 4 Mar 1990 - 25 Jun 1991) with
+  # no gap; merged here. The list ends this term on 25 June 1991, the day Sudhakarrao Naik starts.
+  # Party: Palshikar et al. describe Pawar "as leader of the Congress" in 1990; for 1988 the party
+  # rests on Wikipedia (lead) only.
+  - from: 1988-06-25
+    to: 1991-06-24
+    head: Sharad Pawar
+    party: INC
+    sources: [mh-ls-cms, pune-coalitions, wp-mh-cms]
+  # Party rests on Wikipedia (lead) only. The list assigns no Chief Minister to 24 Feb - 5 Mar 1993.
+  - from: 1991-06-25
+    to: 1993-02-23
+    head: Sudhakarrao Naik
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party: Palshikar et al., "The Congress government of Pawar" (Enron contract).
+  - from: 1993-03-06
+    to: 1995-03-13
+    head: Sharad Pawar
+    party: INC
+    sources: [mh-ls-cms, pune-coalitions]
+  # Party: Palshikar et al., Joshi as the first chief minister of the Sena-BJP coalition. Asian Age
+  # (2022) also names Joshi and Rane as Shiv Sena CMs.
+  # The list assigns no Chief Minister to 31 January 1999.
+  - from: 1995-03-14
+    to: 1999-01-30
+    head: Manohar Joshi
+    party: SS
+    alliance: Shiv Sena-BJP
+    sources: [mh-ls-cms, pune-coalitions, asianage-shinde-2022]
+  # Party: Palshikar et al., "the chief minister of Sena-BJP coalition Narayan Rane, left the
+  # Shivsena to join the Congress (2005)".
+  - from: 1999-02-01
+    to: 1999-10-17
+    head: Narayan Rane
+    party: SS
+    alliance: Shiv Sena-BJP
+    sources: [mh-ls-cms, pune-coalitions, asianage-shinde-2022]
+  # The official list ends this term on 18 January 2003, the day Shinde starts.
+  # Party rests on Wikipedia (lead) only.
+  - from: 1999-10-18
+    to: 2003-01-17
+    head: Vilasrao Deshmukh
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party rests on Wikipedia (lead) only.
+  - from: 2003-01-18
+    to: 2004-10-31
+    head: Sushilkumar Shinde
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party: Palshikar et al. say the post of chief minister went to the Congress in 2004, though the
+  # NCP had more MLAs.
+  - from: 2004-11-01
+    to: 2008-12-07
+    head: Vilasrao Deshmukh
+    party: INC
+    alliance: Congress-NCP
+    sources: [mh-ls-cms, pune-coalitions]
+  # The official list has two terms (8 Dec 2008 - 8 Nov 2009 and 9 Nov 2009 - 10 Nov 2010) with no
+  # gap; merged here. Party rests on Wikipedia (lead) only.
+  - from: 2008-12-08
+    to: 2010-11-10
+    head: Ashok Chavan
+    party: INC
+    sources: [mh-ls-cms, wp-mh-cms]
+  # Party: Lok Sabha book, "INC".
+  - from: 2010-11-11
+    to: 2014-09-27
+    head: Prithviraj Chavan
+    party: INC
+    sources: [mh-ls-cms, ls-pr-book]
+  # Official list footnote: President's Rule from 28 September 2014 to 31 October 2014. Lok Sabha
+  # book: revocation notified by a G.S.R. dated 30-10-2014; Fadnavis (BJP) sworn in 31-10-2014.
+  - from: 2014-09-28
+    to: 2014-10-30
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mh-ls-cms, ls-pr-book]
+  # Party: Lok Sabha book, "BJP". The list assigns no Chief Minister to 9-11 November 2019.
+  - from: 2014-10-31
+    to: 2019-11-08
+    head: Devendra Fadnavis
+    party: BJP
+    sources: [mh-ls-cms, ls-pr-book]
+  # Official list footnote: President's Rule from 12 November 2019 to 23 November 2019. PTI:
+  # revoked at 5.47 am on 23 November 2019.
+  - from: 2019-11-12
+    to: 2019-11-22
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mh-ls-cms, outlook-pr-revoked-2019]
+  # IANS: Fadnavis and Ajit Pawar quit about 80 hours after the swearing-in. The list assigns no
+  # Chief Minister to 27 November 2019.
+  - from: 2019-11-23
+    to: 2019-11-26
+    head: Devendra Fadnavis
+    party: BJP
+    sources: [mh-ls-cms, morung-fadnavis-quits-2019]
+  # Party: Scroll, "Shiv Sena President Uddhav Thackeray". Alliance: Asian Age (2022) names the
+  # "Maha Vikas Aghadi government".
+  - from: 2019-11-28
+    to: 2022-06-29
+    head: Uddhav Thackeray
+    party: SS
+    alliance: Maha Vikas Aghadi
+    sources: [mh-ls-cms, scroll-uddhav-2019, asianage-shinde-2022]
+  # Party: Asian Age, "the BJP announced rebel Shiv Sena leader Eknath Shinde as the new chief
+  # minister"; it counts him as "the fourth Shiv Sena CM".
+  # The label SS is kept for the party before the 2022 split; the Thackeray group is SS (UBT).
+  # The list assigns no Chief Minister to 27 November - 4 December 2024.
+  - from: 2022-06-30
+    to: 2024-11-26
+    head: Eknath Shinde
+    party: other (Shiv Sena (Eknath Shinde group))
+    sources: [mh-ls-cms, asianage-shinde-2022]
+  # Party: PTI, "BJP legislature party leader Devendra Fadnavis".
+  - from: 2024-12-05
+    head: Devendra Fadnavis
+    party: BJP
+    sources: [mh-ls-cms, tribune-fadnavis-2024]
+sources:
+  - id: mh-ls-cms
+    title: माननीय मुख्यमंत्री (१९३७ ते नोव्हेंबर, २०२४) (List of Chief Ministers, 1937 to November 2024)
+    publisher: Maharashtra Legislature Secretariat (Library)
+    url: https://mls.org.in/list/Maharashtra%20state%20Chief%20Minister%20list.pdf
+    type: official
+    tier: record
+    language: mr
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pune-coalitions
+    title: "Coalitions in Maharashtra: Political fragmentation or Social Reconfiguration? (CAS Occasional Paper No. 4)"
+    publisher: Department of Politics and Public Administration, University of Pune
+    author: Suhas Palshikar, Nitin Birmal and Vivek Ghotale
+    url: https://www.unipune.ac.in/dept/mental_moral_and_social_science/politics_and_public_administration/ppa_webfiles/pdf/Link_Occ_Paper_Suhas_Palshikar_Coalition%20_CAS.pdf
+    date: 2010-01-01
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: outlook-pr-revoked-2019
+    title: President Rule Revoked In Maharashtra At 5.47AM
+    publisher: Outlook
+    url: https://outlookindia.com/national/india-news-president-rule-revoked-in-maharashtra-at-547am-news-342866
+    date: 2019-11-23
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: morung-fadnavis-quits-2019
+    title: Fadnavis, Ajit Pawar quit after 80 hours in power
+    publisher: The Morung Express
+    url: https://morungexpress.com/fadnavis-ajit-pawar-quit-after-80-hours-power
+    date: 2019-11-26
+    type: news
+    tier: secondary
+    wire: IANS
+    accessed: 2026-10-15
+  - id: scroll-uddhav-2019
+    title: "Maharashtra oath-taking ceremony: Shiv Sena President Uddhav Thackeray sworn in as chief minister"
+    publisher: Scroll.in
+    url: https://scroll.in/latest/945199/maharashtra-uddhav-thackeray-sworn-in-as-chief-minister-after-a-month-of-political-instability
+    date: 2019-11-28
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: asianage-shinde-2022
+    title: Shinde sworn in as Maha CM, Fadnavis is Dy CM
+    publisher: The Asian Age
+    author: Bhagwan Parab
+    url: https://www.asianage.com/india/politics/010722/shinde-sworn-in-maha-cm-fadnavis-is-dy-cm.html
+    date: 2022-07-01
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: tribune-fadnavis-2024
+    title: Devendra Fadnavis sworn in as Maharashtra CM
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/news/india/devendra-fadnavis-sworn-in-as-maharashtra-cm
+    date: 2024-12-05
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: wp-mh-cms
+    title: Chief Minister of Maharashtra
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Chief_Minister_of_Maharashtra
+    tier: lead
+    accessed: 2026-10-15

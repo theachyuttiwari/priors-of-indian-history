@@ -4,7 +4,8 @@ import path from "node:path";
 import YAML from "yaml";
 import { holdBack, type HeldBack } from "./evidence";
 import { year } from "./format";
-import { ACTION_TYPES, ACTION_META, Precedent, type ActionType } from "./schema";
+import { centreParty, loadGovernments, stateParty, termAt, type Governments } from "./governments";
+import { ACTION_TYPES, ACTION_META, Precedent, type Action, type ActionType } from "./schema";
 import { isContentFile } from "./validate";
 
 export { fmtDate, fmtPeriod, year, years } from "./format";
@@ -114,7 +115,8 @@ export function handlingParties(p: Precedent): string[] {
 export function allParties(): string[] {
   const counts = new Map<string, number>();
   for (const p of [...getPrecedents(), ...getCurrent()]) {
-    for (const party of handlingParties(p)) counts.set(party, (counts.get(party) ?? 0) + 1);
+    const parties = new Set([...handlingParties(p), ...p.actions.flatMap((a) => actionParties(p, a))]);
+    for (const party of parties) counts.set(party, (counts.get(party) ?? 0) + 1);
     for (const pos of p.positions) counts.set(pos.party, (counts.get(pos.party) ?? 0) + 1);
   }
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
@@ -128,13 +130,82 @@ export type PartyRecord = {
   statementsInOpposition: { p: Precedent; pos: Precedent["positions"][number] }[];
 };
 
-/** The party an action counts for. Centre actions count for the centre party; state, police and other actions
- * for the state party (or the centre where no state government is recorded); court actions for nobody. */
-export function actionParties(p: Precedent, actor: string): string[] {
-  if (actor === "court") return [];
-  if (actor === "centre") return [p.government.centre.party];
-  if (p.government.state) return [p.government.state.party];
-  return [p.government.centre.party];
+let _govs: Governments | null = null;
+function governments(): Governments {
+  return (_govs ??= loadGovernments(ROOT));
+}
+
+/**
+ * The parties an action counts for, looked up by place and date in content/governments:
+ * - court and other actions count for nobody (other: a statutory commission, the protesters);
+ * - Centre actions count for the party ruling the Centre on the action date;
+ * - state and police actions count, for each state named, for the party ruling that state on
+ *   that date, or the Centre under President's Rule, in a Centre-run territory, or for Delhi Police.
+ * Where the table has no answer (no state named, no term recorded), the entry's own government
+ * block is used, as before. The validator lists those as attribution todos.
+ */
+export function actionParties(p: Precedent, a: ActionRef): string[] {
+  return [...new Set(attribute(p, a).map((x) => x.party))];
+}
+
+type ActionRef = Pick<Action, "actor" | "state"> & { date?: string };
+
+/** Each party an action counts for, with the place it acted through: "Centre", a state, or "Delhi Police". */
+function attribute(p: Precedent, a: ActionRef): { party: string; place: string }[] {
+  if (a.actor === "court" || a.actor === "other") return [];
+  const date = a.date ?? p.period.start;
+  const govs = governments();
+  const fallback =
+    a.actor === "centre" || !p.government.state
+      ? { party: p.government.centre.party, place: "Centre" }
+      : { party: p.government.state.party, place: p.government.state.name ?? "the state" };
+  if (a.actor === "centre") {
+    const r = centreParty(govs, date);
+    return [r.ok ? { party: r.party, place: "Centre" } : fallback];
+  }
+  if (a.state.length === 0) return [fallback];
+  return a.state.map((st) => {
+    const police = a.actor === "police";
+    const r = stateParty(govs, st, date, police);
+    if (!r.ok) return fallback;
+    const g = govs.get(st)!;
+    if (police && g.police === "centre") return { party: r.party, place: `${g.name} Police` };
+    const kind = termAt(g, date)?.kind;
+    const note = kind === "presidents_rule" ? " (President’s Rule)" : kind === "centre" ? " (run by the Centre)" : "";
+    return { party: r.party, place: g.name + note };
+  });
+}
+
+/**
+ * Who acted in an entry, by party, most actions first: "BJP: Centre, Delhi Police, Uttar Pradesh".
+ * Entries whose only actions are by courts or others fall back to who governed.
+ */
+export function whereLine(p: Precedent): string {
+  const by = new Map<string, { n: number; places: Set<string> }>();
+  for (const a of p.actions) {
+    for (const { party, place } of attribute(p, a)) {
+      const e = by.get(party) ?? { n: 0, places: new Set<string>() };
+      e.n++;
+      e.places.add(place);
+      by.set(party, e);
+    }
+  }
+  if (by.size === 0) {
+    const s = p.government.state;
+    return s
+      ? `${s.party} in ${s.name}, ${p.government.centre.party} at the Centre`
+      : `${p.government.centre.party} at the Centre`;
+  }
+  return [...by.entries()]
+    .sort((x, y) => y[1].n - x[1].n)
+    .map(([party, e]) => `${party}: ${[...e.places].join(", ")}`)
+    .join("; ");
+}
+
+/** Parties an entry's actions count for; who governed when no action counts for a party. */
+export function entryParties(p: Precedent): string[] {
+  const parties = [...new Set(p.actions.flatMap((a) => actionParties(p, a)))];
+  return parties.length ? parties : handlingParties(p);
 }
 
 export function partyRecord(party: string): PartyRecord {
@@ -146,12 +217,12 @@ export function partyRecord(party: string): PartyRecord {
   for (const p of all) {
     let handled = false;
     for (const a of p.actions) {
-      if (actionParties(p, a.actor).includes(party)) {
+      if (actionParties(p, a).includes(party)) {
         actions[a.type]++;
         handled = true;
       }
     }
-    if (handled || handlingParties(p).includes(party)) inPower.push(p);
+    if (handled) inPower.push(p);
     for (const pos of p.positions) {
       if (pos.party !== party) continue;
       (pos.in_power ? statementsInPower : statementsInOpposition).push({ p, pos });

@@ -1,0 +1,296 @@
+# Jammu and Kashmir, from the term in office on 1974-01-01: the State until 2019-10-30, then the
+# Union Territory of Jammu and Kashmir from 2019-10-31 (Jammu and Kashmir Reorganisation Act, 2019).
+# Dates: J&K General Administration Department list "Chief Ministers/Governors/Lt Governors of
+# Jammu and Kashmir" (PDF of August 2020), unless a comment says otherwise. That list names each
+# spell of central rule by the Governor in charge and does not separate Governor's Rule under
+# Section 92 of the J&K Constitution from President's Rule under Article 356; the split here uses
+# the MHA Article 356 statement and PIB releases. It also omits the Governor's Rule spells of
+# October 2002, January-March 2015 and June-August 2018, which come from the sources cited.
+# Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Jammu and Kashmir
+aliases: [J&K, Jammu & Kashmir]
+police: state
+police_note: >
+  Until 2019-10-30 police was under the State government. From 2019-10-31 Jammu and Kashmir is a
+  Union Territory: its Legislative Assembly cannot make laws on Public Order or Police (Section 32,
+  J&K Reorganisation Act, 2019), and the Lieutenant Governor acts in his discretion on matters
+  outside the Assembly's powers (Section 53). Police action from that date counts for the Centre,
+  even after a Chief Minister took office on 2024-10-16.
+terms:
+  - from: 1971-12-12
+    to: 1975-02-24
+    head: Syed Mir Qasim
+    party: INC
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # Party: TCPD-CMID gives none. Wikipedia (lead) gives National Conference. NC rests on a lead
+  # source only and needs checking against the circumstances of the 1975 accord.
+  - from: 1975-02-25
+    to: 1977-03-25
+    head: Sheikh Mohammad Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, wp-jk-cms]
+  - from: 1977-03-26
+    to: 1977-07-08
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [jk-gad-cm-archive, dh-2019-governors-rule-history]
+  # GAD list ends this term on 08 Sept 1982 and starts Farooq Abdullah on the same day.
+  - from: 1977-07-09
+    to: 1982-09-07
+    head: Sheikh Mohammad Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # Party: TCPD-CMID gives none. Wikipedia (lead) gives National Conference.
+  - from: 1982-09-08
+    to: 1984-07-01
+    head: Farooq Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, wp-jk-cms]
+  - from: 1984-07-02
+    to: 1986-03-05
+    head: Ghulam Mohammad Shah
+    party: other (Awami National Conference)
+    sources: [jk-gad-cm-archive, kashmirlife-2016-seventh-time, wp-jk-cms]
+  # GAD: Governor's Rule 06 March 1986 to 07 Nov 1986, as one spell. MHA: President's Rule
+  # proclaimed 7.9.1986, revoked 6.11.1986. Wikipedia (lead) gives Governor's Rule to 5 September
+  # and President's Rule from 6 September 1986. MHA's date is used for the change-over.
+  - from: 1986-03-06
+    to: 1986-09-06
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [jk-gad-cm-archive, mha-pr-statement]
+  - from: 1986-09-07
+    to: 1986-11-06
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, jk-gad-cm-archive]
+  - from: 1986-11-07
+    to: 1990-01-18
+    head: Farooq Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # GAD: Governor's Rule 19 Jan 1990 to 09 Oct 1996, as one spell. MHA: President's Rule
+  # proclaimed 18.7.1990, revoked 9.10.1996. Wikipedia (lead) gives President's Rule from
+  # 19 July 1990. MHA's date is used.
+  - from: 1990-01-19
+    to: 1990-07-17
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [jk-gad-cm-archive, mha-pr-statement, dh-2019-governors-rule-history]
+  - from: 1990-07-18
+    to: 1996-10-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, jk-gad-cm-archive]
+  # GAD ends this term on 18th Oct 2002.
+  - from: 1996-10-09
+    to: 2002-10-17
+    head: Farooq Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # Not in the GAD list. Deccan Herald (2019) gives "two weeks from October 18, 2002"; The Tribune
+  # (2008) gives "between October 17 and November 2, 2002". The 18 October start is used.
+  - from: 2002-10-18
+    to: 2002-11-01
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [dh-2019-governors-rule-history, tribune-2008-07-12]
+  - from: 2002-11-02
+    to: 2005-11-01
+    head: Mufti Mohammad Sayeed
+    party: PDP
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # Party: TCPD-CMID gives none. Wikipedia (lead) gives INC.
+  - from: 2005-11-02
+    to: 2008-07-10
+    head: Ghulam Nabi Azad
+    party: INC
+    sources: [jk-gad-cm-archive, wp-jk-cms]
+  # GAD: from 11th July 2008. Deccan Herald (2019) says it was imposed on July 8, 2008. GAD is used.
+  - from: 2008-07-11
+    to: 2009-01-04
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [jk-gad-cm-archive, tribune-2008-07-12]
+  # GAD ends this term on 08th Jan 2015. The Raj Bhavan statement quoted by IANS says Governor's
+  # Rule took effect from 8 January 2015; the Tribune (2018) gives 9 January. Raj Bhavan's date is
+  # used, so this term ends on 7 January.
+  - from: 2009-01-05
+    to: 2015-01-07
+    head: Omar Abdullah
+    party: NC
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  - from: 2015-01-08
+    to: 2015-02-28
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [sentinel-2015-governors-rule, kashmirlife-2015-governors-rule, tribune-2018-06-20]
+  # CONFLICT: GAD (and TCPD-CMID, which follows it) start this term on 03rd March 2015. A PIB photo
+  # caption records the swearing-in at Jammu University on March 01, 2015. PIB's date is used.
+  - from: 2015-03-01
+    to: 2016-01-07
+    head: Mufti Mohammad Sayeed
+    party: PDP
+    sources: [pib-2015-mufti-oath, jk-gad-cm-archive, tcpd-cmid]
+  - from: 2016-01-08
+    to: 2016-04-03
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [jk-gad-cm-archive, tribune-2018-06-20]
+  - from: 2016-04-04
+    to: 2018-06-19
+    head: Mehbooba Mufti
+    party: PDP
+    sources: [jk-gad-cm-archive, tcpd-cmid]
+  # PIB: Governor's proclamation under Section 92 issued on 20.6.2018, "ceased on 19.12.2018";
+  # President's Rule "imposed ... on 19th December, 2018". Wikipedia (lead) starts President's Rule
+  # on 20 December 2018. The PIB date of imposition is used.
+  - from: 2018-06-20
+    to: 2018-12-18
+    head: Governor's Rule (Section 92)
+    kind: presidents_rule
+    sources: [pib-2019-pr-extension, tribune-2018-06-20]
+  - from: 2018-12-19
+    to: 2019-10-30
+    head: President's Rule
+    kind: presidents_rule
+    sources: [pib-2019-section-73, pib-2019-pr-extension]
+  # Union Territory from 2019-10-31. President's Rule under Section 73 of the Reorganisation Act was
+  # imposed on 31 October 2019 (PIB) and revoked by an MHA notification "immediately before the
+  # appointment of the chief minister" (Outlook, quoting the gazette, October 2024).
+  # GAD names Lt. Governor Girish Chandra Murmu (31 Oct 2019 to 05 Aug 2020); Manoj Sinha was
+  # Lieutenant Governor when Omar Abdullah took office (Tribune, October 2024).
+  - from: 2019-10-31
+    to: 2024-10-15
+    head: Lieutenant Governor (President's Rule under Section 73, J&K Reorganisation Act, 2019)
+    kind: centre
+    sources: [pib-2019-section-73, jk-reorganisation-act-2019, jk-gad-cm-archive, outlook-2024-pr-revoked]
+  - from: 2024-10-16
+    head: Omar Abdullah
+    party: NC
+    sources: [tribune-2024-10-16, outlook-2024-pr-revoked]
+sources:
+  - id: jk-gad-cm-archive
+    title: Chief Ministers/Governors/Lt Governors of Jammu and Kashmir
+    publisher: General Administration Department, Government of Jammu and Kashmir
+    url: https://jkgad.nic.in/PDF/cmarchive.PDF
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pib-2019-pr-extension
+    title: Cabinet approves extension of President's Rule in J&K for six months with effect from 3rd July, 2019
+    publisher: Press Information Bureau (Cabinet)
+    url: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1574072
+    date: 2019-06-12
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pib-2019-section-73
+    title: Cabinet approves ex post facto ... order under section 73 of Jammu and Kashmir Reorganisation Act 2019 along with order under section 74 of the Act
+    publisher: Press Information Bureau (Cabinet)
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592557
+    date: 2019-11-20
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jk-reorganisation-act-2019
+    title: The Jammu and Kashmir Reorganisation Act, 2019 (No. 34 of 2019), Gazette of India Extraordinary, Part II Section 1, No. 53
+    publisher: Ministry of Law and Justice (Gazette of India)
+    url: https://egazette.gov.in/WriteReadData/2019/210407.pdf
+    date: 2019-08-09
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pib-2015-mufti-oath
+    title: Photo caption - The Prime Minister at the swearing-in ceremony of Shri Mufti Mohammad Sayeed as Jammu and Kashmir Chief Minister, at Jammu University, on March 01, 2015
+    publisher: Press Information Bureau (Prime Minister's Office)
+    url: https://archive.pib.gov.in/archive2/photoright.aspx?phid=62720
+    date: 2015-03-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: sentinel-2015-governors-rule
+    title: Governor's rule imposed in Jammu and Kashmir
+    publisher: The Sentinel (IANS)
+    url: https://sentinelassam.com/news/governors-rule-imposed-in-jammu-and-kashmir
+    date: 2015-01-09
+    type: news
+    tier: secondary
+    wire: IANS
+    accessed: 2026-10-15
+  - id: kashmirlife-2015-governors-rule
+    title: Stalemate Ends In Governor's Rule
+    publisher: Kashmir Life
+    url: https://kashmirlife.net/stalemate-ends-in-governors-rule-71436/
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-2018-06-20
+    title: Governor's Rule imposed in J&K
+    publisher: The Tribune
+    author: Ehsan Fazili
+    url: https://www.tribuneindia.com/news/archive/j-k/governor-s-rule-imposed-in-j-k-608117
+    date: 2018-06-20
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: tribune-2008-07-12
+    title: "Governor's rule: Fifth time in state"
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2008/20080712/j&k.htm
+    date: 2008-07-12
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: dh-2019-governors-rule-history
+    title: J&K heads for Governor's rule 8th time in last 41 years
+    publisher: Deccan Herald
+    url: https://www.deccanherald.com/amp/story/india%2Fjk-heads-guvs-rule-8th-time-last-41-yrs-675852.html
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: kashmirlife-2016-seventh-time
+    title: "'It is Seventh Time that J&K is Under Governor's Rule'"
+    publisher: Kashmir Life
+    url: https://kashmirlife.net/it-is-seventh-time-that-jk-is-under-governors-rule-93803/
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: outlook-2024-pr-revoked
+    title: President's Rule Revoked In Jammu And Kashmir, Preparations For New Govt Underway
+    publisher: Outlook India
+    url: https://www.outlookindia.com/elections/presidents-rule-revoked-in-jammu-and-kashmir-preparations-for-new-govt-underway
+    date: 2024-10-14
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-2024-10-16
+    title: Omar Abdullah to take oath as CM today
+    publisher: The Tribune
+    author: Adil Akhzer
+    url: https://www.tribuneindia.com/news/j-k/omar-abdullah-to-take-oath-as-cm-today
+    date: 2024-10-16
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: wp-jk-cms
+    title: List of chief ministers of Jammu and Kashmir
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Jammu_and_Kashmir
+    tier: lead
+    accessed: 2026-10-15

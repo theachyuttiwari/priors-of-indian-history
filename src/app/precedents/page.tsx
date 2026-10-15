@@ -1,4 +1,4 @@
-import { getPrecedents } from "@/lib/content";
+import { entryParties, getPrecedents, whereLine } from "@/lib/content";
 import PrecedentList from "./PrecedentList";
 
 export const metadata = { title: "Precedents" };
@@ -10,10 +10,8 @@ export default function PrecedentsPage() {
     summary: p.summary,
     start: p.period.start,
     end: p.period.end ?? null,
-    where: p.government.state
-      ? `${p.government.state.party} in ${p.government.state.name}, ${p.government.centre.party} at the Centre`
-      : `${p.government.centre.party} at the Centre`,
-    parties: [p.government.centre.party, ...(p.government.state ? [p.government.state.party] : [])],
+    where: whereLine(p),
+    parties: entryParties(p),
     types: [...new Set(p.actions.map((a) => a.type))],
     states: p.location.states,
   }));

@@ -35,6 +35,7 @@ actions:
     claim: ordered
     description: "District administrations stopped mobile internet from 18 February. The Rohtak Deputy Commissioner stopped internet services throughout the district by order No. 4011-51/MB of 18 February, to check the misuse of social media for rumour mongering. Orders of 18 February also stopped mobile internet or bulk messaging in Jind, Sonepat and Hisar (in Hisar under Section 144 CrPC), Panipat issued Section 144 orders on 18 and 19 February that included suspending internet, and wireless internet was stopped in Bhiwani, according to the Prakash Singh committee. A senior police official told IANS it was done so that rumours are not spread. The Indian Express reported that mobile internet and SMS were blocked from early on 19 February"
     actor: state
+    state: Haryana
     legal_basis: Section 144 CrPC (named in the Hisar and Panipat orders)
     sources: [s9, s10, s3, s2]
   - type: section_144
@@ -42,6 +43,7 @@ actions:
     claim: ordered
     description: "District Magistrates issued prohibitory orders under Section 144 CrPC on 18 February in Rohtak (the committee report gives the order as No. 3018-57/MB in one place and No. 4011-51/MB, the number of the internet order, in another), Jind, Hisar and Panipat, according to the Prakash Singh committee. The Indian Express reported on 20 February that Section 144 had been imposed in at least six districts"
     actor: state
+    state: Haryana
     legal_basis: Section 144 CrPC
     sources: [s9, s10]
   - type: negotiation
@@ -49,12 +51,14 @@ actions:
     claim: happened
     description: "The state Cabinet met on 18 February. The Chief Minister called an all-party meeting at Haryana Niwas, Chandigarh, at 11 am on 19 February and offered to introduce a reservation bill in the coming session of the Vidhan Sabha; leaders of all parties then appealed for peace. Violence broke out in Rohtak within hours. On 21 February a group of Jat leaders met Union Home Minister Rajnath Singh, who gave an assurance of a central committee under M. Venkaiah Naidu and of a state reservation bill in the coming Budget Session; the blockades were lifted by the evening of 23 February"
     actor: state
+    state: Haryana
     sources: [s9, s10, s3]
   - type: curfew
     date: 2016-02-19
     claim: ordered
     description: "Curfew orders were issued in Rohtak (order No. 4047-5000/MB of 19 February) and Jhajjar on 19 February, in Hisar city and Hansi and in Sonepat and Gohana on 20 February, and in Kaithal city on 21 February, according to the Prakash Singh committee, which treats them as orders under Section 144 CrPC. The Indian Express reported curfew in Rohtak, Bhiwani and Jhajjar and shoot-at-sight orders in Rohtak and Bhiwani by the evening of 19 February. IANS reported curfew in Hisar, Sonipat and Jind towns on 20 February, and the Hindustan Times reported on 21 February that curfew covered eight districts"
     actor: state
+    state: Haryana
     legal_basis: Section 144 CrPC (curfew orders, as described by the Prakash Singh committee)
     sources: [s9, s10, s11, s12, s4]
   - type: other
@@ -108,6 +112,7 @@ actions:
     claim: ordered
     description: "The DGP said 129 cases had been registered against agitators by 20 February. The Prakash Singh committee recorded 2,122 cases registered across the state in connection with the agitation by 30 April 2016, four of them for murder"
     actor: police
+    state: Haryana
     sources: [s4, s13, s9]
     figures:
       - what: cases registered against agitators by 20 February
@@ -127,6 +132,7 @@ actions:
     claim: ordered
     description: "By an order of 25 February 2016 the Home Department appointed Prakash Singh, IPS (retd), to inquire into acts of omission and commission by police and civil officers during the agitation from 7 to 22 February and to report within 45 days, and to suggest improvements to the law-and-order system within a further month. An order of 3 March appointed Vijai Vardhan (IAS) and K.P. Singh (IPS) to assist him. The committee heard 2,217 persons and reported on 13 May 2016, naming officers in its district chapters. Singh told PTI that about 90 officials were guilty of deliberate negligence, a third of them in Rohtak; The Quint, with agency inputs, reported nearly 30. The report was made public on 31 May. Additional Chief Secretary (Home) P.K. Das was moved from the Home Department a day after it was submitted, and DGP Yashpal Singal had been moved a few days before. In August 2016 Singh said the Home Department had written that his second report was not needed"
     actor: state
+    state: Haryana
     sources: [s9, s7, s1, s6, s17, s16, s8]
     figures:
       - what: killed during the agitation (20 rioters and 10 others)

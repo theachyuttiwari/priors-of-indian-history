@@ -1,0 +1,185 @@
+# Odisha (Orissa until 2011), from the term in office on 1974-01-01.
+# Dates: Odisha Legislative Assembly list of Chief Ministers. The list omits Nandini Satpathy's
+# 1974-76 term and gives no President's Rule spells; these come from the Lok Sabha Secretariat book
+# on President's Rule (2016).
+# Party: the Odisha Legislative Assembly profile page of each Chief Minister, and the Lok Sabha book.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Odisha
+aliases: [Orissa]
+terms:
+  # Lok Sabha book: proclaimed 3-3-1973 (G.S.R. 155(E)); revoked 6-3-1974, when Nandini Satpathy,
+  # leader of the Congress Party, formed the ministry.
+  - from: 1973-03-03
+    to: 1974-03-05
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: formed the ministry on 6-3-1974; "Smt. Nandini Satpathy (Congress)" at the
+  # proclamation of 16-12-1976. The Assembly list shows only her 1972-74 term, ending 06-03-1974.
+  # Party: Assembly profile, Congress.
+  - from: 1974-03-06
+    to: 1976-12-15
+    head: Nandini Satpathy
+    party: INC
+    sources: [ls-pr-book, od-la-satpathy]
+  # Lok Sabha book: proclaimed 16-12-1976 (G.S.R. 923(E)); revoked 29-12-1976.
+  - from: 1976-12-16
+    to: 1976-12-28
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Party: Lok Sabha book ("new Leader of the Congress Legislature Party") and Assembly profile.
+  - from: 1976-12-29
+    to: 1977-04-29
+    head: Binayak Acharya
+    party: INC
+    sources: [od-la-cms, ls-pr-book, od-la-acharya]
+  # Lok Sabha book: proclaimed 30-4-1977 (G.S.R. 207(E)); revoked 26-6-1977, when a Janata Party
+  # ministry headed by Nilamani Routray assumed office.
+  - from: 1977-04-30
+    to: 1977-06-25
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book, od-la-cms]
+  # Party: Lok Sabha book, "Janata Party Ministry"; Assembly profile, Janata. The Lok Sabha book
+  # names his party as Lok Dal at the proclamation of 17-2-1980.
+  - from: 1977-06-26
+    to: 1980-02-16
+    head: Nilamani Routray
+    party: Janata Party
+    sources: [od-la-cms, ls-pr-book, od-la-routray]
+  # Lok Sabha book: proclaimed 17-2-1980; revoked 9-6-1980.
+  - from: 1980-02-17
+    to: 1980-06-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book, od-la-cms]
+  # The list ends this term on 07-12-1989, the day Biswal starts. Party: Lok Sabha book,
+  # "Congress (I) Government headed by Shri J.B. Patnaik"; Assembly profile, Congress.
+  - from: 1980-06-09
+    to: 1989-12-06
+    head: Janaki Ballav Patnaik
+    party: other (Indian National Congress (I))
+    sources: [od-la-cms, ls-pr-book, od-la-jb-patnaik]
+  # Party: Assembly profile, Congress. The list assigns no Chief Minister to 4 March 1990.
+  - from: 1989-12-07
+    to: 1990-03-03
+    head: Hemananda Biswal
+    party: INC
+    sources: [od-la-cms, od-la-biswal]
+  # The list ends this term on 15-03-1995, the day J.B. Patnaik starts. Party: Assembly profile,
+  # Janata Dal.
+  - from: 1990-03-05
+    to: 1995-03-14
+    head: Biju Patnaik
+    party: Janata Dal
+    sources: [od-la-cms, od-la-biju-patnaik]
+  # The list ends this term on 17-02-1999, the day Gomango starts. Party: Assembly profile, Congress.
+  - from: 1995-03-15
+    to: 1999-02-16
+    head: Janaki Ballav Patnaik
+    party: INC
+    sources: [od-la-cms, od-la-jb-patnaik]
+  # The list ends this term on 06-12-1999, the day Biswal starts. Party: Assembly profile,
+  # Indian National Congress.
+  - from: 1999-02-17
+    to: 1999-12-05
+    head: Giridhar Gomango
+    party: INC
+    sources: [od-la-cms, od-la-gomango]
+  # The list ends this term on 05-03-2000, the day Naveen Patnaik starts. Party: Assembly profile.
+  - from: 1999-12-06
+    to: 2000-03-04
+    head: Hemananda Biswal
+    party: INC
+    sources: [od-la-cms, od-la-biswal]
+  # Party: Assembly profile, Biju Janata Dal.
+  - from: 2000-03-05
+    to: 2024-06-11
+    head: Naveen Patnaik
+    party: BJD
+    sources: [od-la-cms, od-la-naveen-patnaik]
+  # Party: Assembly profile, Bharatiya Janata Party.
+  - from: 2024-06-12
+    head: Mohan Charan Majhi
+    party: BJP
+    sources: [od-la-cms, od-la-majhi]
+sources:
+  - id: od-la-cms
+    title: Chief Ministers
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/Chiefminister.aspx
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-satpathy
+    title: Profile, Late Nandini Satpathy
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Nandini%20Satpathy.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-acharya
+    title: Profile, Late Binayak Acharya
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Binayak%20Acharya.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-routray
+    title: Profile, Late Nilamani Routray
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Nilamani%20Routray.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-jb-patnaik
+    title: Profile, Late Janaki Ballav Patnaik
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Janaki%20Ballav%20Patnaik.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-biswal
+    title: Profile, Late Hemananda Biswal
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Hemananda%20Biswal.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-biju-patnaik
+    title: Profile, Late Biju Patnaik
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Late%20Biju%20Patnaik.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-gomango
+    title: Profile, Shri Giridhar Gomango
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Shri%20Giridhar%20Gomango.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-naveen-patnaik
+    title: Profile, Shri Naveen Patnaik
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Shri%20Naveen%20Patnaik.HTML
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: od-la-majhi
+    title: Profile, Shri Mohan Charan Majhi
+    publisher: Odisha Legislative Assembly
+    url: https://assembly.odisha.gov.in/ChiefMinister/Shri%20Mohan%20Charan%20Majhi.html
+    type: official
+    tier: record
+    accessed: 2026-10-15

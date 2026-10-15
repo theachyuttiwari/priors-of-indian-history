@@ -65,23 +65,24 @@ Known gaps across files:
 - Many party statements have one bylined report only and are held back.
 - Commission reports not found online: Aruna Jagadeesan (Thoothukudi). Findings rest on reports.
 
-## Attribution (next build, before party counts return)
+## Attribution (built; party counts still off)
 
-Each entry records one Centre government and one state government, and `actionParties()` counts every
-state or police action for that one state party. Protests that cross states, or outlast a government,
-are counted for the wrong party (anti-CAA: Uttar Pradesh and Karnataka actions counted for AAP).
+Each action counts for the party in power where it happened, on its date. Rules: `content/SCHEMA.md`,
+"Which party an action counts for". Code: `src/lib/governments.ts` and `attribute()` in
+`src/lib/content.ts`.
 
-Fix, approved in principle by the owner:
+- `content/governments/`: 24 tables (the Centre, 21 states, Delhi, Chandigarh, Ladakh). Every term has
+  a source that is not a lead. Conflicts between sources are noted in YAML comments.
+- Every state and police action has a `state:` field. `court` and `other` actions count for
+  no party.
+- The validator checks the tables (order, overlaps, party, sources) and lists any action it cannot
+  place as an `attribution-missing` error.
+- Party spellings map to one label in `src/lib/parties.ts`.
+- The "where" line under each entry now names who acted (`whereLine()`).
 
-1. A table of who governed each state, by date, including President's Rule and Delhi Police under the
-   Centre. Lok Dhaba (TCPD, CC BY 4.0) is a starting point; check against official lists.
-2. A `place` on every action.
-3. `actionParties()` looks up the table by place and date. Tests for multi-state and mid-protest change.
-4. Set `PARTY_COUNTS = true`.
-
-Files whose agents reported mismatches: narmada, election-commission-sir, gujjar, telangana, enron,
-ladakh, kalinganagar, anti-reservation, singur-nandigram, wrestlers, punjab-farmers, agnipath,
-farm-laws, anti-caa, kashmir-lockdown, manipur, thoothukudi, india-against-corruption.
+Before `PARTY_COUNTS = true` in `src/lib/site.ts`: the owner reviews the per-party counts. Weak
+points: many party labels in the Maharashtra, Karnataka, Andhra Pradesh and Manipur tables rest on
+one official list plus Wikipedia; the official Assam list stops in 2022.
 
 ## Open decisions for the owner
 

@@ -1,0 +1,169 @@
+# National Capital Territory of Delhi, from 1974-01-01.
+# Before the Legislative Assembly and Council of Ministers created under Article 239AA (first
+# Chief Minister sworn in on 2 December 1993), Delhi was a Union Territory run by a Lieutenant
+# Governor appointed by the President; the Metropolitan Council (1966-1990) was advisory only.
+# Chief Ministers and party: Delhi Legislative Assembly list "Chief Ministers of Delhi", which
+# gives years only. Exact dates come from the sources cited on each term.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Delhi
+aliases: [NCT of Delhi, National Capital Territory of Delhi]
+police: centre
+police_note: >
+  Delhi Police reports to the Union Ministry of Home Affairs, not to the Delhi government. The
+  Delhi Legislative Assembly cannot make laws on Public Order, Police or Land (State List entries
+  1, 2 and 18), so police action in Delhi counts for the Centre under every Chief Minister.
+terms:
+  - from: 1974-01-01
+    to: 1993-12-01
+    head: Administered by the Centre (Lieutenant Governor)
+    kind: centre
+    sources: [dl-assembly-history, dl-assembly-about]
+  # Exact start date: Wikipedia (lead) gives 2 December 1993, as does the task brief. The Assembly
+  # list gives 1993-1996; its first sitting was on 14.12.1993.
+  - from: 1993-12-02
+    to: 1996-02-25
+    head: Madan Lal Khurana
+    party: BJP
+    sources: [dl-assembly-about, wp-delhi-cms]
+  # Exact dates: Wikipedia (lead) only (26 February 1996 to 12 October 1998). Assembly: 1996-1998.
+  - from: 1996-02-26
+    to: 1998-10-11
+    head: Sahib Singh Verma
+    party: BJP
+    sources: [dl-assembly-about, wp-delhi-cms]
+  - from: 1998-10-12
+    to: 1998-12-02
+    head: Sushma Swaraj
+    party: BJP
+    sources: [dl-assembly-about, tribune-1998-10-12]
+  # Three terms in the Assembly list (1998-2003, 2003-2008, 2008-2013).
+  - from: 1998-12-03
+    to: 2013-12-27
+    head: Sheila Dikshit
+    party: INC
+    sources: [dl-assembly-about, tribune-1998-12-04]
+  # Kejriwal resigned on 14 February 2014 (Wikipedia, lead); the President accepted the resignation
+  # and imposed President's Rule on 17 February 2014 (Tribune). Wikipedia dates President's Rule
+  # from 14 February 2014. The Tribune date is used; Kejriwal is taken to have stayed in office
+  # until the resignation was accepted.
+  - from: 2013-12-28
+    to: 2014-02-16
+    head: Arvind Kejriwal
+    party: AAP
+    sources: [dl-assembly-about, tribune-2013-12-29]
+  # President's Rule in Delhi is under Article 239AB, not Article 356, so it is not in the MHA
+  # Article 356 statement. The Assembly was kept in suspended animation.
+  - from: 2014-02-17
+    to: 2015-02-13
+    head: President's Rule
+    kind: presidents_rule
+    sources: [tribune-2014-02-18, pib-2015-kejriwal-appointed]
+  # PIB (13 Feb 2015): appointed "with effect from the date he is sworn in". The oath date of
+  # 14 February 2015 rests on Wikipedia (lead). The Assembly list gives 2015-2020 and 2020-2024.
+  - from: 2015-02-14
+    to: 2024-09-20
+    head: Arvind Kejriwal
+    party: AAP
+    sources: [dl-assembly-about, pib-2015-kejriwal-appointed, wp-delhi-cms]
+  - from: 2024-09-21
+    to: 2025-02-19
+    head: Atishi
+    party: AAP
+    sources: [dl-assembly-about, tribune-2024-09-22, ddnews-2024-atishi]
+  - from: 2025-02-20
+    head: Rekha Gupta
+    party: BJP
+    sources: [dl-assembly-about, tribune-2025-02-21, air-2025-rekha-gupta]
+sources:
+  - id: dl-assembly-about
+    title: Legislative Assembly Secretariat, National Capital Territory of Delhi (about the Assembly, with list "Chief Ministers of Delhi")
+    publisher: Delhi Legislative Assembly
+    url: https://delhiassembly.delhi.gov.in/sites/default/files/2025-07/about_delhi_assembly.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: dl-assembly-history
+    title: History of the Old Secretariat and Delhi's legislatures (Metropolitan Council, 1966-1990)
+    publisher: Delhi Legislative Assembly
+    url: https://delhiassembly.delhi.gov.in/sites/default/files/2023-06/history_assembly.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tribune-1998-10-12
+    title: Sushma elected Delhi BJP leader; Swearing in today
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/1998/98oct12/head.htm
+    date: 1998-10-12
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-1998-12-04
+    title: Sheila Dikshit sworn in Delhi CM
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/1998/98dec04/index.htm
+    date: 1998-12-04
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-2013-12-29
+    title: All roads led to Ramlila Ground
+    publisher: The Tribune
+    author: Syed Ali Ahmed
+    url: https://www.tribuneindia.com/2013/20131229/nation.htm
+    date: 2013-12-29
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: tribune-2014-02-18
+    title: President's Rule imposed in Delhi
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2014/20140218/nation.htm
+    date: 2014-02-18
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: pib-2015-kejriwal-appointed
+    title: President of India appoints Arvind Kejriwal as Chief Minister of Delhi
+    publisher: Press Information Bureau (Ministry of Home Affairs)
+    url: https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=115456
+    date: 2015-02-13
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tribune-2024-09-22
+    title: Atishi takes oath as Delhi's youngest CM
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/news/delhi/atishi-takes-oath-as-delhis-youngest-cm/
+    date: 2024-09-22
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: ddnews-2024-atishi
+    title: AAP leader Atishi sworn in as Delhi Chief Minister
+    publisher: DD News
+    url: https://ddnews.gov.in/en/aap-leader-atishi-sworn-in-as-delhi-chief-minister/
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-2025-02-21
+    title: CM Rekha, 6 ministers take charge
+    publisher: The Tribune
+    author: Ujwal Jalali, Anshita Mehra
+    url: https://www.tribuneindia.com/news/delhi/cm-rekha-6-ministers-take-charge/
+    date: 2025-02-21
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: air-2025-rekha-gupta
+    title: Rekha Gupta assumes charge as 4th woman CM of Delhi; Chairs 1st Cabinet meeting
+    publisher: Akashvani News (newsonair.gov.in)
+    url: https://newsonair.gov.in/rekha-gupta-takes-charge-as-delhi-cm-becomes-bjps-2nd-woman-leader-to-hold-office/
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-delhi-cms
+    title: List of chief ministers of Delhi
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Delhi
+    tier: lead
+    accessed: 2026-10-15

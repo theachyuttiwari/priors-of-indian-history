@@ -1,0 +1,30 @@
+# Union Territory of Ladakh, from its creation on 2019-10-31 under the Jammu and Kashmir
+# Reorganisation Act, 2019, as a Union Territory without a legislature. Before that date the area
+# was part of the State of Jammu and Kashmir (see jammu-and-kashmir.yaml).
+name: Ladakh
+police: centre
+police_note: >
+  Ladakh has no legislature or Chief Minister. It is administered by the President through a
+  Lieutenant Governor, so police and public order are under the Centre.
+terms:
+  - from: 2019-10-31
+    head: Lieutenant Governor of Ladakh (administered by the Centre)
+    kind: centre
+    sources: [jk-reorganisation-act-2019, pib-2019-section-73]
+sources:
+  - id: jk-reorganisation-act-2019
+    title: The Jammu and Kashmir Reorganisation Act, 2019 (No. 34 of 2019), Gazette of India Extraordinary, Part II Section 1, No. 53
+    publisher: Ministry of Law and Justice (Gazette of India)
+    url: https://egazette.gov.in/WriteReadData/2019/210407.pdf
+    date: 2019-08-09
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pib-2019-section-73
+    title: Cabinet approves ex post facto ... order under section 73 of Jammu and Kashmir Reorganisation Act 2019 along with order under section 74 of the Act
+    publisher: Press Information Bureau (Cabinet)
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592557
+    date: 2019-11-20
+    type: official
+    tier: record
+    accessed: 2026-10-15

@@ -34,6 +34,7 @@ actions:
     claim: happened
     description: "On 22 December Delhi Police and Rapid Action Force personnel used water cannon, tear gas and baton charges to push back protesters who gathered at Raisina Hill, near Rashtrapati Bhavan and Parliament House, and tried to march towards Rashtrapati Bhavan. Some protesters tried to break through barricades, and buses and police vehicles were damaged. Al Jazeera reported that some women protesters were injured when police charged them near a central government building. Delhi Police registered a case of rioting and damage to public property at Parliament Street police station."
     actor: police
+    state: Delhi
     sources: [s11, s19, s9, s4, s1]
     figures:
       - what: civilians injured on 22 December
@@ -49,6 +50,7 @@ actions:
     claim: ordered
     description: "Delhi Police prohibitory orders barred assemblies in central New Delhi, including India Gate, Rajpath and the area near Rashtrapati Bhavan, and police asked protesters to demonstrate at Jantar Mantar or Ramlila Maidan instead. Reports differ on the threshold: PTI reported a ban on four or more people, Al Jazeera on more than five. A public interest petition in the Delhi High Court (WP 8127 of 2012, Anand K. Mishra v. Delhi Police) described the order as dated 22 December and challenged it as a breach of the rights to assemble and move freely; the Additional Solicitor General argued for Delhi Police that protesters were obstructing traffic and that the order was within Section 144, and on 2 January 2013 the Chief Justice's bench reserved orders. The Associated Press reported that on 23 December authorities withdrew the ban on assembly in the high-security zone as crowds converged, while keeping barricades. On 25 December police told protesters at Jantar Mantar that prohibitory orders were in place and no protests were allowed in and around India Gate."
     actor: police
+    state: Delhi
     legal_basis: Section 144 CrPC, 1973 (as reported; the order itself was not found)
     sources: [s13, s17, s22, s1, s26, s36, s27]
   - type: lathi_charge
@@ -56,6 +58,7 @@ actions:
     claim: happened
     description: "On 23 December police used batons, tear gas and water cannon to clear crowds at India Gate and near Vijay Chowk. Reports describe some protesters throwing stones, burning barricades and overturning vehicles; police said the protest had been joined by hooligans. Journalists' bodies protested at the Press Club of India against police action on reporters. Late on 24 December Delhi Police tweeted an apology to any innocent protester who had been hurt or lathi-charged. In its report the Justice Verma Committee wrote: \"The lathi charge on peaceful demonstrators after the December 16 gang rape has scarred the Indian democracy.\""
     actor: police
+    state: Delhi
     sources: [s7, s10, s17, s29, s23, s1, s6, s32]
     figures:
       - what: tear gas shells fired at India Gate on 23 December
@@ -91,6 +94,7 @@ actions:
     claim: happened
     description: "On Delhi Police directions, the Delhi Metro Rail Corporation announced late on 22 December that four stations near India Gate would close until further orders, and shut four more on the morning of 23 December. The eight stations shut on 23 December were Race Course, Udyog Bhawan, Central Secretariat, Patel Chowk, Barakhamba Road, Mandi House, Khan Market and Pragati Maidan. On 24 December nine were shut, adding Rajiv Chowk. Police barricaded Rajpath and the road from India Gate to Rashtrapati Bhavan, and traffic police closed the arterial roads leading to India Gate. All nine stations reopened on 25 December."
     actor: police
+    state: Delhi
     sources: [s12, s14, s9, s10, s2, s6, s33]
     figures:
       - what: metro stations closed on 23 December
@@ -106,12 +110,14 @@ actions:
     claim: happened
     description: "Early on 23 December police removed protesters who had spent the night at Raisina Hill, taking them away in a bus, and took into custody protesters outside Congress president Sonia Gandhi's residence. Later that morning police forcibly removed protesters from India Gate for defying the prohibitory orders; women protesters alleged that male police personnel manhandled them. The Guardian reported that scores of protesters had been detained or forcibly removed from sit-ins over 24 hours."
     actor: police
+    state: Delhi
     sources: [s9, s22, s27]
   - type: detention
     date: 2012-12-25
     claim: happened
     description: "On 25 December police detained a group of young women protesters from Jantar Mantar and outside Parliament Street police station for violating prohibitory orders, and released them after about four hours. The women alleged that police manhandled them; police sources denied this and said the group had tried to incite others and break through barricades."
     actor: police
+    state: Delhi
     sources: [s13, s16]
     figures:
       - what: women detained
@@ -123,6 +129,7 @@ actions:
     claim: ordered
     description: "Constable Subhash Chand Tomar, deployed at India Gate on 23 December, collapsed during the clashes and died at Ram Manohar Lohia Hospital on 25 December. Delhi Police said protesters attacked him. Police registered a case at Tilak Marg police station against eight people arrested after the protest, first for attempt to murder and rioting, and after his death invoked a murder charge. The eight were granted bail and said they had been wrongly implicated. The cause of death was disputed. The post-mortem report, as released by police, recorded myocardial infarction that could be precipitated by blunt-force injuries to the neck and chest. The hospital's medical superintendent said he had no major external injury marks except some cuts and bruises. Two protesters who helped him said he collapsed while running and was not beaten; a third witness later told the Crime Branch that he saw a stone hit Tomar and men kick him. The investigation was transferred to the Crime Branch."
     actor: police
+    state: Delhi
     legal_basis: Section 302 IPC (murder), as stated by the Police Commissioner
     sources: [s18, s17, s25, s24, s28, s34]
     figures:

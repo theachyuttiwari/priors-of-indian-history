@@ -123,9 +123,16 @@ export default function AboutPage() {
       <section>
         <h2 className="t-2">How counts work</h2>
         <p className="text-ink-2 mt-3">
-          An action by the Centre counts for the party ruling the Centre. An action by a state government or its police
-          counts for the party ruling that state. Court orders count for nobody. A count is a count of entries in this
-          archive, not a measure of severity, and parties with longer time in power will have more.
+          Each action counts for the party in power where it happened, on the day it happened. An action by the Centre
+          counts for the party ruling the Centre. An action by a state government or its police counts for the party
+          ruling that state on that date. Delhi Police reports to the Union Home Ministry, so its actions count for the
+          party ruling the Centre. So do actions under President&apos;s Rule and in Union Territories run by the Centre.
+          Court orders, commissions and protesters count for nobody.
+        </p>
+        <p className="text-ink-2 mt-3">
+          Who governed where, and when, is in <code className="text-[15px]">content/governments</code>, with a source
+          for each term. A count is a count of actions in this archive, not a measure of severity, and parties with
+          longer time in power will have more.
         </p>
       </section>
 

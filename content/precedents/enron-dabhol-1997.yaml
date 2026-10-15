@@ -43,6 +43,7 @@ actions:
     claim: happened
     description: "According to the Center for Holistic Studies, cited by Human Rights Watch, police arrested 233 unarmed protesters under Sections 37 and 135 of the Bombay Police Act on 8 November 1994. On 10 November 1994 police arrested 105 more and then 650 after a demonstration at the site. All were released on personal bonds the same day."
     actor: police
+    state: Maharashtra
     legal_basis: Sections 37 and 135, Bombay Police Act
     sources: [s4]
     figures:
@@ -54,6 +55,7 @@ actions:
     claim: ordered
     description: "The district collector imposed prohibitory orders under Section 37 of the Bombay Police Act on Guhagar taluka from 11 to 23 November 1994."
     actor: state
+    state: Maharashtra
     legal_basis: Section 37, Bombay Police Act
     sources: [s4]
   - type: commission_of_inquiry
@@ -61,12 +63,14 @@ actions:
     claim: ordered
     description: "The new Shiv Sena-BJP government constituted a cabinet sub-committee chaired by Deputy Chief Minister Gopinath Munde to review the project. The committee called the one-on-one negotiation a \"grave impropriety\" and recommended cancelling Phase II and repudiating Phase I."
     actor: state
+    state: Maharashtra
     sources: [s15, s5, s13]
   - type: concession
     date: 1995-08-03
     claim: ordered
     description: "After a Cabinet meeting, Chief Minister Manohar Joshi announced in the legislature that construction on Phase I would stop and Phase II would be cancelled. Enron began arbitration in the United Kingdom in August 1995. In September 1995 the state filed Civil Writ Petition 3392 of 1995 in the Bombay High Court to have the power purchase agreement declared void."
     actor: state
+    state: Maharashtra
     sources: [s5, s16, s17, s18]
     court_outcomes:
       - summary: In its judgment of 2 December 1996 the Bombay High Court found that the agreement had in fact never been scrapped; the company had only been asked to stop work.
@@ -76,6 +80,7 @@ actions:
     claim: ordered
     description: "The state government announced that it would accept a renegotiated project. Chief Minister Joshi said the tariff would fall by 22.5 percent, from Rs 2.40 to Rs 1.86 per unit. According to Human Rights Watch, the deal committed the state to a 740 MW Phase I and a 1,320 MW Phase II."
     actor: state
+    state: Maharashtra
     sources: [s6, s12, s19, s20]
   - type: other
     date: 1996-12-02
@@ -87,6 +92,7 @@ actions:
     claim: ordered
     description: "Ratnagiri police imposed prohibitory orders under Section 37(1) and 37(3) of the Bombay Police Act over the area and renewed them at fifteen-day intervals. Human Rights Watch found the orders still in force in October 1998."
     actor: police
+    state: Maharashtra
     legal_basis: Section 37(1) and 37(3), Bombay Police Act
     sources: [s4, s10]
   - type: detention
@@ -94,6 +100,7 @@ actions:
     claim: happened
     description: "According to three Indian human rights groups cited by Human Rights Watch, between 13 and 18 January 1997 police arrested 120 protesters from Anjanvel, Ranavi and Veldur who had demonstrated at the plant site in groups of about 25, then released them on personal bonds."
     actor: police
+    state: Maharashtra
     sources: [s2]
     figures:
       - { what: "arrested, 13 to 18 January 1997", value: "120", claimed_by: "Center for Holistic Studies, AIPRF and CPDR (cited by Human Rights Watch)", source: s2 }
@@ -102,6 +109,7 @@ actions:
     claim: happened
     description: "Police arrested a delegation of Sangharsh Samiti members and villagers, including Sadanand Pawar, under Section 151 CrPC when they went to Guhagar police station the night before a planned demonstration to report a rumoured threat of violence. They were moved to Chiplun overnight and released on personal bonds on 30 January."
     actor: police
+    state: Maharashtra
     legal_basis: Section 151 CrPC
     sources: [s3, s10]
     figures:
@@ -111,6 +119,7 @@ actions:
     claim: happened
     description: "Three demonstrations took place: at Guhagar police station, at an MLA's house and on the road to the plant gates. Police lathi-charged and tear-gassed marchers at the gates. Human Rights Watch reported that stones were thrown at one demonstration, and the Guhagar police officer in charge told it that this was one of two violent agitations. Counts of the crowd, tear gas and injuries differ by source. The Indian Express reported that police said Medha Patkar was arrested that afternoon. Eyewitnesses told Human Rights Watch that a helicopter reportedly contracted to the company carried officials monitoring the crowd."
     actor: police
+    state: Maharashtra
     sources: [s2, s9, s10, s23]
     figures:
       - { what: "marchers at the plant gates", value: "about 1,500 to 2,000", claimed_by: "Human Rights Watch", source: s2 }
@@ -125,6 +134,7 @@ actions:
     claim: happened
     description: "Police arrested about 450 people at Guhagar police station after a barricade broke; 679 people in total were charged under the Bombay Police Act. They were produced before the Chiplun magistrate and released on personal bonds on 30 and 31 January. Organiser Surendra Thatte put the number arrested at the company gates at almost 2,000."
     actor: police
+    state: Maharashtra
     legal_basis: Sections 37(1), 37(3) and 135, Bombay Police Act
     sources: [s2, s10]
     figures:
@@ -136,6 +146,7 @@ actions:
     claim: ordered
     description: "From the second week of February 1997 police reportedly issued undated warning notices under Section 149 CrPC to nearly 200 villagers, accusing them of spreading false information against the government and the company. Externment orders under Section 144 CrPC were served on individual villagers including Janpath Bane (26 February), Dattaram Jangli (May) and Raman Pardale and Rajesh Jangli (26 August)."
     actor: police
+    state: Maharashtra
     legal_basis: Section 149 CrPC (warning notices); Section 144 CrPC (externment orders)
     sources: [s3, s10]
     figures:
@@ -145,6 +156,7 @@ actions:
     claim: happened
     description: "About 250 villagers at Pawarsakhari blocked a road against two state ministers (Narayan Rane and Ravindra Rane). A State Reserve Police battalion lathi-charged the crowd and arrested 96 people."
     actor: police
+    state: Maharashtra
     legal_basis: Section 37, Bombay Police Act; Section 143 IPC
     sources: [s2, s10]
     figures:
@@ -155,6 +167,7 @@ actions:
     claim: happened
     description: "Police arrested retired Justice B.G. Kolse-Patil, Mangesh Pawar and Sadanand Pawar under Section 151 CrPC before a hunger strike at Guhagar police station, four days before Zilla Parishad elections. Kolse-Patil was released the same day on a personal bond. Sessions Judge V.G. Munshi released Sadanand Pawar on 6 March on condition he not enter Chiplun and Guhagar talukas until 31 March. About 225 of the hunger strikers, including Medha Patkar according to Amnesty, were arrested the same day; Amnesty reported they were released on personal bonds."
     actor: police
+    state: Maharashtra
     legal_basis: Section 151 CrPC; Section 37, Bombay Police Act
     sources: [s3, s8, s10, s11]
     figures:
@@ -165,6 +178,7 @@ actions:
     claim: ordered
     description: "District Magistrate T. Chandrasekhar of Ratnagiri issued a Section 144 CrPC order barring Medha Patkar and B.G. Kolse-Patil from the district, citing the Zilla Parishad elections of 2 March 1997. Mangesh Pawar received a show-cause notice on 18 April 1997 proposing a two-year externment from Ratnagiri and Raigad districts."
     actor: state
+    state: Maharashtra
     legal_basis: Section 144 CrPC
     sources: [s3, s10]
   - type: fir
@@ -172,6 +186,7 @@ actions:
     claim: happened
     description: "After pro-project villagers armed with weapons attacked anti-project villagers at Katalwadi during Holi on 1 April, police acted on a complaint filed by the attackers and charged anti-project villagers, including four injured women who had tried to complain, with offences including attempted murder. Most were held until 19 April. The attackers were charged under Section 37 of the Bombay Police Act and bailed the same day. State Reserve Police were stationed in the village for about a month."
     actor: police
+    state: Maharashtra
     sources: [s8, s10]
     figures:
       - { what: "anti-project villagers charged", value: "20 (18 held until 19 April, 2 until 21 April)", claimed_by: "Human Rights Watch", source: s8 }
@@ -181,6 +196,7 @@ actions:
     claim: happened
     description: "Police arrested groups of visiting activists at the gates for violating prohibitory orders, and the Chiplun magistrate sentenced them when they refused bail: Samajwadi Jan Parishad members on 28 April, Narmada Bachao Andolan members on 30 April, Sarvodaya Vikas Manch members on 4 May and Bargi Bandh Vistapit Sangathana members on 6 May. Amnesty reported sentences of three to five days plus four to ten days for non-payment of fines; Human Rights Watch gave total terms of nine to fifteen days."
     actor: police
+    state: Maharashtra
     legal_basis: Sections 37(1), 37(3) and 135, Bombay Police Act
     sources: [s2, s10]
     figures:
@@ -193,6 +209,7 @@ actions:
     claim: happened
     description: "Police and State Reserve Police arrested Medha Patkar and about 178 villagers at a sit-in at the plant gates under Sections 37 and 135. Witnesses described lathi blows and women dragged by their hair. The detainees refused bail and were moved to Yerawada jail in Pune. Amnesty reported they were sentenced on 20 May to five days plus three days for non-payment of a Rs 50 fine."
     actor: police
+    state: Maharashtra
     legal_basis: Sections 37(1), 37(3) and 135, Bombay Police Act
     sources: [s2, s10]
     figures:
@@ -202,6 +219,7 @@ actions:
     claim: happened
     description: "Police arrested Janata Dal leader Mrinal Gore and about 30 others, including 22 women and two minor girls, for a road block in Guhagar town. They were charged under the Bombay Police Act and Section 341 IPC and remanded to custody until 31 May; Amnesty reported that the women and girls were held in Kalyan jail until bail on 20 May."
     actor: police
+    state: Maharashtra
     legal_basis: Sections 37 and 135, Bombay Police Act; Section 341 IPC
     sources: [s2, s10]
     figures:
@@ -211,6 +229,7 @@ actions:
     claim: happened
     description: "On 17 May 1997 police arrested more than 300 people protesting against the fencing of land around their farms, and the Chiplun magistrate remanded them to fourteen days' custody. The same day about 3,000 people gathered at the plant gates and were not arrested. On 3 June police registered a First Information Report against those at the gates for violating prohibitory orders. The cases were still pending in October 1998."
     actor: police
+    state: Maharashtra
     legal_basis: Section 37, Bombay Police Act
     sources: [s2, s10]
     figures:
@@ -223,6 +242,7 @@ actions:
     claim: ordered
     description: "Raigad District Magistrate R.S. Rathod issued a Section 144 order barring Medha Patkar from Raigad district from 28 May to 30 June 1997. According to the National Human Rights Commission, as quoted by Human Rights Watch, Chief Minister Joshi had asked Minister of State for Home Prabhakar More to handle the situation, and More asked Rathod to stop Patkar entering the district. On 29 May police stopped a National Alliance of People's Movements tour near Mahad, diverted a bus carrying Patkar and other activists to Mangaon police station and detained them; a magistrate remanded them for 14 days. Activists said police beat them. Human Rights Watch reported their release on 31 May; the Indian Express reported that they accepted bail on 30 May. The NHRC found the order \"unjustified\" and recommended action against the police officer in charge, Vijay Singh Jadhav. Joshi declined a judicial inquiry."
     actor: state
+    state: Maharashtra
     legal_basis: Section 144 CrPC
     sources: [s3, s24, s25]
     figures:
@@ -233,6 +253,7 @@ actions:
     claim: happened
     description: "On 2 June villagers tried to stop company workers passing through Veldur. In the clash that followed, a policewoman slapped a 16-year-old girl, the policewoman's sari was partly torn off, and police fired one round in the air. Early on 3 June police and State Reserve Police raided Veldur, entered houses and beat residents. Police arrested 26 women and 13 men and charged them with offences including attempted murder and rioting. A PUCL team found three girls aged 15 and 16 among those detained, recorded by police as 19 or 20. Two pregnant women were among those beaten; Sadhana Bhalekar described her treatment to the Chiplun magistrate on 9 June. Amnesty reported that 25 of the women were also charged over the 17 May dharna. The Dabhol Power Company said the incidents did not occur within its project site."
     actor: police
+    state: Maharashtra
     sources: [s8, s10, s11]
     figures:
       - { what: "police and State Reserve Police in the raid", value: "about 135", claimed_by: "CPDR (cited by Human Rights Watch); Amnesty International", source: s10 }
@@ -242,6 +263,7 @@ actions:
     claim: happened
     description: "Human Rights Watch reported that from 1994 the Dabhol Power Company paid the state government Rs 125 per officer per day for police stationed at the site under Section 47 of the Bombay Police Act, with between 10 and 300 officers there at any time. In June 1995 the Los Angeles Times reported 200 police assigned to guard workers at the site. Amnesty reported that a 100-strong State Reserve Police battalion was deployed after the 30 January 1997 protests. The company said that by law it had to offset the cost of the extra police and that it had \"no authority over their actions\"."
     actor: state
+    state: Maharashtra
     legal_basis: Section 47, Bombay Police Act
     sources: [s1, s9, s10, s11, s26]
     figures:

@@ -36,6 +36,7 @@ actions:
     claim: ordered
     description: Prohibitory orders under Section 144 CrPC imposed at the planned blockade sites and in six districts ahead of the 29 May highway blockade
     actor: state
+    state: Rajasthan
     legal_basis: Section 144 CrPC
     sources: [s1, s2]
   - type: lathi_charge
@@ -43,12 +44,14 @@ actions:
     claim: happened
     description: "The PUCL-PUDR-AFDR fact-finding team said police used lathis and tear gas at Patoli-Peepal Khera from the evening of 28 May. Villagers told Frontline that police beat people there the night before the firing, and staff at a highway outlet said they saw villagers beaten at about 1.30 a.m. on 29 May. The official version, as reported by Outlook, was that police used a lathi charge and tear gas on the morning of 29 May after about 30,000 Gujjars blocking the highway refused to disperse"
     actor: police
+    state: Rajasthan
     sources: [s1, s34, s2]
   - type: firing
     date: 2007-05-29
     claim: happened
     description: "Police fired on Gujjars at Patoli-Peepal Khera on the Jaipur-Agra highway (Dausa) and at the Dev Narayan temple in Bundi on 29 May, and in Sawai Madhopur district, including Bonli, on 31 May. Home Minister Gulab Chand Kataria said the police fired as a last resort, in self-defence and under extreme provocation from armed crowds. The PUCL-PUDR-AFDR team said the firing was unwarranted, that police fired at Patoli at about 7.30 a.m. when the highway was not blocked, and that at least three of the dead there were shot in the back. Frontline reported that at Bundi and Peepalkheda police fired on unarmed people early in the morning, before the planned blockade began. Death tolls differ by source and by date"
     actor: police
+    state: Rajasthan
     sources: [s27, s28, s29, s30, s9, s33, s34, s1, s2, s4]
     figures:
       - { what: killed on 29 May in police firing and violence at Patoli-Peepalkheda and Bundi, including a policeman, value: "13", claimed_by: The Hindu (Sunny Sebastian), source: s27 }
@@ -63,36 +66,42 @@ actions:
     claim: happened
     description: "Army columns were called out on 29 May: six columns from Jaipur and two from Mahuwa to Dausa, and two from Kota to Bundi, for flag marches, according to the state Home Minister. The Army was put on alert in Alwar and Bharatpur, and troops held a flag march in Kota on 31 May. The Centre sent 24 companies of central paramilitary forces on 29 May. By 5 June, 39 Army columns and 36 companies of central forces were being withdrawn"
     actor: state
+    state: Rajasthan
     sources: [s27, s28, s50, s29, s11, s2, s5]
   - type: detention
     date: 2007-06
     claim: happened
     description: Outlook reported that several hundred Gujjars were arrested on charges including arson, destruction of public property and attacking police, and that Bainsla was charged with murder. The PUCL-PUDR-AFDR team said arrests were being made arbitrarily and asked for the release of those in custody
     actor: police
+    state: Rajasthan
     sources: [s9, s1]
   - type: negotiation
     date: 2007-06-04
     claim: happened
     description: Bainsla met Chief Minister Raje at her residence in Jaipur on 4 June, in the fifth round of talks and the first in which the two spoke directly. After about six hours they issued a joint statement, and the Samiti called off the agitation and lifted the blockades
     actor: state
+    state: Rajasthan
     sources: [s31, s9, s34, s1, s5]
   - type: commission_of_inquiry
     date: 2007-06-07
     claim: ordered
     description: "The 4 June joint statement provided for a three-member high-level committee, headed by a retired High Court judge, to report within three months. A notification of 7 June 2007 constituted the committee with Justice Jasraj Chopra (retd) as chairperson, and a notification of 12 June 2007 set its terms of reference: to examine the Gujjar demand against the Government of India's criteria for inclusion in the Scheduled Tribes. The committee reported on 15 December 2007. It did not support ST status, and recommended a special development fund and area-based measures for Gujjars in remote areas"
     actor: state
+    state: Rajasthan
     sources: [s37, s36, s31, s8, s22]
   - type: concession
     date: 2008-05
     claim: ordered
     description: A committee under BJP leader Ramdas Agarwal, formed to make an action plan on the Chopra committee's suggestions, proposed a special package of Rs 282 crore for Gujjar-dominated areas, which the government announced in May 2008. Bainsla rejected it and called a rail roko for 23 May 2008
     actor: state
+    state: Rajasthan
     sources: [s22, s38]
   - type: section_144
     date: 2008-05-23
     claim: ordered
     description: Prohibitory orders under Section 144 CrPC imposed after the Pilupura clash. The Hindu and UNI reported six districts, including Jaipur; PTI, citing official sources, reported four Gujjar-dominated districts
     actor: state
+    state: Rajasthan
     legal_basis: Section 144 CrPC
     sources: [s38, s12, s49]
   - type: firing
@@ -100,6 +109,7 @@ actions:
     claim: happened
     description: "On 23 May police fired on Gujjars at the rail roko near Pilupura and Dumariya, Bayana tehsil, Bharatpur, on the Delhi-Mumbai line; a crowd lynched a head constable of the Rajasthan Armed Constabulary. Officials said police fired after tear gas and rubber bullets failed to stop the crowd. The state ordered a judicial inquiry by retired High Court judge F.C. Bansal. On 24 May police fired at Sikandra, Dausa, where the DGP said a crowd of 2,000-2,500 armed protesters attacked the police station. Tolls for both days are contested"
     actor: police
+    state: Rajasthan
     sources: [s38, s39, s48, s22, s16, s49, s12, s13, s14, s17, s26, s21]
     figures:
       - { what: killed at Bayana on 23 May (deaths in police firing confirmed by the Home Minister, plus one in mob violence; seven more bodies held by Gujjars), value: "4 + 1", claimed_by: Rajasthan Home Minister Gulab Chand Kataria, source: s38 }
@@ -117,6 +127,7 @@ actions:
     claim: happened
     description: "The Army, the Rapid Action Force and the CRPF were called out; 10 Army columns moved into the Bharatpur-Karauli-Sawai Madhopur belt, and by 27 May a further 22 Army columns and 76 columns of other security forces were deployed in the affected districts. Arab News reported that the Army blockaded the Karwadi-Pilupura area and cut off food supplies, that mobile signals were jammed and that the state took some news channels off air. Chitleen K Sethi wrote in The Tribune that the Army was called in but never used, and that the protest site was fenced in, water and electricity to the villages feeding the protesters were cut off and mobile phone jammers were installed"
     actor: state
+    state: Rajasthan
     sources: [s38, s16, s13, s17, s22]
   - type: other
     date: 2008-05-25
@@ -129,18 +140,21 @@ actions:
     claim: happened
     description: "The Chief Minister's Office invited Bainsla to talks in Jaipur on 25 May; he declined, stayed at the Pilupura rail-track dharna with the bodies of the dead, and asked that talks be held at the site. Officials said Raje flew to Bayana that day and stayed about 40 minutes to try to meet Bainsla; Bainsla said no effort was made to contact him"
     actor: state
+    state: Rajasthan
     sources: [s39, s14, s17]
   - type: concession
     date: 2008-05-26
     claim: ordered
     description: After a Cabinet meeting, Raje wrote to Prime Minister Manmohan Singh recommending 4 to 6 per cent reservation for Gujjars in the category of denotified or nomadic tribes, and asked the Centre to decide the ST question. The Prime Minister referred the letter to the Law Ministry. Bainsla rejected the letter as a farce
     actor: state
+    state: Rajasthan
     sources: [s15, s40, s16]
   - type: nsa_detention
     date: 2008-05-27
     claim: ordered
     description: The state invoked the National Security Act in 15 districts and empowered the district collectors to act against agitators. The government said about 150 people had been arrested in agitation-related cases. Police filed cases against Bainsla over the killing of the head constable at Bayana, and the Rajasthan High Court summoned him on a contempt petition filed by the state for breach of an undertaking he gave in 2007 to maintain law and order
     actor: state
+    state: Rajasthan
     legal_basis: National Security Act, 1980
     sources: [s16, s41]
     figures:
@@ -151,12 +165,14 @@ actions:
     claim: happened
     description: The state and the Samiti agreed to hold the first round of talks at Bayana on 9 June, with the main talks in Jaipur. The state's negotiator, Principal Secretary S.N. Thanvi, was camping at Bayana; the government asked Bainsla to cut his 45-member delegation and leave out leaders from other states
     actor: state
+    state: Rajasthan
     sources: [s43, s19]
   - type: concession
     date: 2008-06-18
     claim: ordered
     description: "Talks between a Gujjar delegation led by Bainsla and a government team led by BJP leader Ramdas Agarwal concluded on 17 June. On 18 June Raje, Bainsla and Agarwal announced the agreement at a joint press conference, ending the 27-day agitation. It gave 5 per cent special reservation to Gujjars, Banjaras, Gadia Lohars and Raikas. The state enacted it in a 2008 Act that created a 5 per cent quota for special backward classes. Gujjar leaders spoke of a letter to the Centre on ST status; BJP leaders said the letter would reply to a 1999 letter from the Centre"
     actor: state
+    state: Rajasthan
     sources: [s45, s44, s20, s36, s37, s21]
   - type: other
     date: 2009-10-12

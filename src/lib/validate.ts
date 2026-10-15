@@ -3,8 +3,9 @@ import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
 import { claimOf, host, leadOnly, meetsMinimum, mentionsCount, tierOf } from "./evidence";
+import { centreParty, GOVERNMENTS_DIR, stateParty, type Governments } from "./governments";
 import { normalise } from "./quote-match";
-import { BANNED_ARCHIVE_HOSTS, Precedent, type Source } from "./schema";
+import { BANNED_ARCHIVE_HOSTS, GovernmentFile, Precedent, type Source } from "./schema";
 
 export const CONTENT_DIRS = ["precedents", "current"] as const;
 
@@ -42,7 +43,8 @@ type RuleName =
   | "archive-missing"
   | "kind-missing"
   | "figures-missing"
-  | "quote-unchecked";
+  | "quote-unchecked"
+  | "attribution-missing";
 
 /**
  * Sourcing rules that the current content does not yet meet. Each starts as "todo": reported, never
@@ -56,6 +58,7 @@ export const RULES: Record<RuleName, "todo" | "error"> = {
   "kind-missing": "error", // a statement not marked verbatim, translated or paraphrase
   "figures-missing": "error", // a count in a description with no attributed figures
   "quote-unchecked": "todo", // a quote with no exact match on record in content/checks/quotes.json
+  "attribution-missing": "error", // an action the government tables cannot attribute to a party
 };
 export type Rule = RuleName;
 
@@ -71,6 +74,8 @@ export type FileReport = {
   /** Sourcing debt under a rule still being phased in. Never fails. */
   todos: Todo[];
   entry?: Precedent;
+  /** One-line description for files that are not entries, such as government tables. */
+  summary?: string;
 };
 
 export function isContentFile(name: string): boolean {
@@ -80,8 +85,9 @@ export function isContentFile(name: string): boolean {
 /**
  * Check one parsed YAML document. `file` is used for the id-matches-filename rule.
  * `checks` holds quote-match results; without it, quotes are not checked against them.
+ * `govs` holds the government tables; without it, attribution is not checked.
  */
-export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks): FileReport {
+export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks, govs?: Governments): FileReport {
   const report: FileReport = { file, errors: [], warnings: [], todos: [] };
   const flag = (rule: Rule, message: string) => {
     if (RULES[rule] === "error") report.errors.push(message);
@@ -133,6 +139,7 @@ export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks): Fi
     if (a.figures.length === 0 && mentionsCount(a.description)) {
       flag("figures-missing", `${where}: gives a count; record it in figures with who gave it`);
     }
+    if (govs) checkAttribution(where, a);
   });
 
   // Statements
@@ -185,6 +192,25 @@ export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks): Fi
 
   return report;
 
+  /** Can the government tables say which party this action counts for? */
+  function checkAttribution(where: string, a: Precedent["actions"][number]) {
+    if (!govs || a.actor === "court" || a.actor === "other") return;
+    const date = a.date ?? p.period.start;
+    if (a.actor === "centre") {
+      const r = centreParty(govs, date);
+      if (!r.ok) flag("attribution-missing", `${where}: ${r.reason}`);
+      return;
+    }
+    if (a.state.length === 0) {
+      flag("attribution-missing", `${where}: ${a.actor} action names no state; set state to where it happened`);
+      return;
+    }
+    for (const st of a.state) {
+      const r = stateParty(govs, st, date, a.actor === "police");
+      if (!r.ok) flag("attribution-missing", `${where}: ${r.reason}`);
+    }
+  }
+
   function checkMinimum(where: string, claim: Parameters<typeof meetsMinimum>[0], sources: Source[]) {
     if (sources.length === 0) return;
     const v = meetsMinimum(claim, sources);
@@ -194,10 +220,71 @@ export function checkEntry(file: string, raw: unknown, checks?: QuoteChecks): Fi
   }
 }
 
+/**
+ * Check every government table: it parses, its terms are in order and do not overlap, every term
+ * cites a source in the file and at least one that is not a lead, and no name is used twice.
+ */
+export function checkGovernments(root: string): { reports: FileReport[]; govs: Governments } {
+  const reports: FileReport[] = [];
+  const govs: Governments = new Map();
+  const dir = path.join(root, GOVERNMENTS_DIR);
+  if (!fs.existsSync(dir)) return { reports, govs };
+  const owner = new Map<string, string>();
+  for (const f of fs.readdirSync(dir).sort()) {
+    if (!isContentFile(f)) continue;
+    const file = `${GOVERNMENTS_DIR}/${f}`;
+    const report: FileReport = { file, errors: [], warnings: [], todos: [] };
+    reports.push(report);
+    let raw: unknown;
+    try {
+      raw = YAML.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    } catch (e) {
+      report.errors.push(`YAML parse error: ${(e as Error).message}`);
+      continue;
+    }
+    const r = GovernmentFile.safeParse(raw);
+    if (!r.success) {
+      for (const i of r.error.issues) report.errors.push(`${i.path.join(".") || "(root)"}: ${i.message}`);
+      continue;
+    }
+    const g = r.data;
+    report.summary = `${g.name}: ${g.terms.length} terms, ${g.sources.length} sources`;
+    for (const name of [g.name, ...g.aliases]) {
+      const other = owner.get(name);
+      if (other) report.errors.push(`name "${name}" is also used by ${other}`);
+      else owner.set(name, file);
+      govs.set(name, g);
+    }
+    const byId = new Map<string, Source>();
+    for (const s of g.sources) {
+      if (byId.has(s.id)) report.errors.push(`duplicate source id ${s.id}`);
+      byId.set(s.id, s);
+      if (!tierOf(s)) report.errors.push(`sources ${s.id}: no evidence tier`);
+    }
+    g.terms.forEach((t, i) => {
+      const where = `terms[${i}] (${t.head}, from ${t.from})`;
+      for (const id of t.sources) if (!byId.has(id)) report.errors.push(`${where}: unknown source ${id}`);
+      const sources = t.sources.map((id) => byId.get(id)).filter((s): s is Source => !!s);
+      if (sources.length && leadOnly(sources)) report.errors.push(`${where}: rests only on lead sources`);
+      if (t.to && t.to < t.from) report.errors.push(`${where}: ends before it starts`);
+      if (t.kind === "elected" && !t.party) report.errors.push(`${where}: an elected term needs a party`);
+      if (t.kind !== "elected" && t.party) report.errors.push(`${where}: ${t.kind} counts for the Centre; drop party`);
+      const prev = g.terms[i - 1];
+      if (prev && (!prev.to || prev.to >= t.from)) {
+        report.errors.push(`${where}: overlaps the term before (${prev.head}, to ${prev.to ?? "now"})`);
+      }
+    });
+  }
+  return { reports, govs };
+}
+
 /** Read and check every content file under `root`, then run cross-file checks. */
 export function validateContent(root: string): FileReport[] {
-  const reports: FileReport[] = [];
   const checks = loadQuoteChecks(root);
+  const { reports: govReports, govs } = checkGovernments(root);
+  // Attribution is checked only when tables exist and all parse; a broken table is reported above.
+  const tablesOk = govs.size > 0 && govReports.every((r) => r.errors.length === 0);
+  const reports: FileReport[] = [...govReports];
   for (const dir of CONTENT_DIRS) {
     const full = path.join(root, dir);
     if (!fs.existsSync(full)) continue;
@@ -211,7 +298,7 @@ export function validateContent(root: string): FileReport[] {
         reports.push({ file, errors: [`YAML parse error: ${(e as Error).message}`], warnings: [], todos: [] });
         continue;
       }
-      reports.push(checkEntry(file, raw, checks));
+      reports.push(checkEntry(file, raw, checks, tablesOk ? govs : undefined));
     }
   }
 

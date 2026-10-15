@@ -1,0 +1,198 @@
+# Uttar Pradesh, from the term in office on 1974-01-01. Includes the territory of present-day
+# Uttarakhand until 2000-11-08.
+# Dates: Uttar Pradesh Vidhan Sabha list of former Chief Ministers (served by the assembly's
+# angular.asmx/show_selected_member_tenure service behind the page cited). No party given there.
+# Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# President's Rule: MHA statement of proclamations under Article 356.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Uttar Pradesh
+aliases: [UP]
+terms:
+  # The assembly list gives two terms, 08-11-1973 to 04-03-1974 and 05-03-1974 to 29-11-1975.
+  - from: 1973-11-08
+    to: 1975-11-29
+    head: Hemvati Nandan Bahuguna
+    party: INC
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # MHA: proclaimed 30.11.1975, revoked 21.1.1976.
+  - from: 1975-11-30
+    to: 1976-01-20
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1976-01-21
+    to: 1977-04-29
+    head: Narayan Dutt Tiwari
+    party: INC
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # MHA: proclaimed 30.4.1977, revoked 23.6.1977.
+  - from: 1977-04-30
+    to: 1977-06-22
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  # Party not given by TCPD-CMID; Wikipedia (lead) gives Janata Party.
+  - from: 1977-06-23
+    to: 1979-02-27
+    head: Ram Naresh Yadav
+    party: Janata Party
+    sources: [up-vidhan-sabha-former-cm, wp-up-cms]
+  - from: 1979-02-28
+    to: 1980-02-16
+    head: Banarasi Das
+    party: Janata Party
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # MHA: proclaimed 17.2.1980, revoked 9.6.1980.
+  - from: 1980-02-17
+    to: 1980-06-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1980-06-09
+    to: 1982-07-18
+    head: Vishwanath Pratap Singh
+    party: other (Indian National Congress (I))
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 1982-07-19
+    to: 1984-08-02
+    head: Sripati Mishra
+    party: other (Indian National Congress (I))
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # The assembly list gives two terms, 03-08-1984 to 10-03-1985 and 11-03-1985 to 24-09-1985.
+  # TCPD-CMID gives INC for the second and no party for the first.
+  - from: 1984-08-03
+    to: 1985-09-23
+    head: Narayan Dutt Tiwari
+    party: INC
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 1985-09-24
+    to: 1988-06-24
+    head: Vir Bahadur Singh
+    party: INC
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 1988-06-25
+    to: 1989-12-04
+    head: Narayan Dutt Tiwari
+    party: INC
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 1989-12-05
+    to: 1991-06-23
+    head: Mulayam Singh Yadav
+    party: Janata Dal
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 1991-06-24
+    to: 1992-12-05
+    head: Kalyan Singh
+    party: BJP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # MHA: proclaimed 6.12.1992, revoked 4.12.1993.
+  - from: 1992-12-06
+    to: 1993-12-03
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1993-12-04
+    to: 1995-06-02
+    head: Mulayam Singh Yadav
+    party: SP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # Party not given by TCPD-CMID for this term; TCPD-CMID gives BSP for her 1997 and 2002 terms.
+  - from: 1995-06-03
+    to: 1995-10-17
+    head: Mayawati
+    party: BSP
+    sources: [up-vidhan-sabha-former-cm, wp-up-cms]
+  # MHA lists two proclamations: 18.10.1995 to 17.10.1996 and 17.10.1996 to 21.3.1997.
+  - from: 1995-10-18
+    to: 1997-03-20
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 1997-03-21
+    to: 1997-09-20
+    head: Mayawati
+    party: BSP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # CONTESTED, NOT VERIFIED HERE: in February 1998 Jagdambika Pal was briefly sworn in as Chief
+  # Minister after Kalyan Singh's dismissal, and Kalyan Singh was later restored. The assembly
+  # list and TCPD-CMID show Kalyan Singh in office without a break and do not list Jagdambika Pal.
+  # No source for the dates of that episode was opened for this file.
+  - from: 1997-09-21
+    to: 1999-11-11
+    head: Kalyan Singh
+    party: BJP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # Party not given by TCPD-CMID; Wikipedia (lead) lists him under the BJP governments.
+  - from: 1999-11-12
+    to: 2000-10-27
+    head: Ram Prakash Gupta
+    party: BJP
+    sources: [up-vidhan-sabha-former-cm, wp-up-cms]
+  - from: 2000-10-28
+    to: 2002-03-07
+    head: Rajnath Singh
+    party: BJP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # MHA: proclaimed 8.3.2002, revoked 3.5.2002.
+  - from: 2002-03-08
+    to: 2002-05-02
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, tcpd-cmid]
+  - from: 2002-05-03
+    to: 2003-08-28
+    head: Mayawati
+    party: BSP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  - from: 2003-08-29
+    to: 2007-05-12
+    head: Mulayam Singh Yadav
+    party: SP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+  # Party not given by TCPD-CMID for this term (she was an MLC); Wikipedia (lead) gives BSP.
+  - from: 2007-05-13
+    to: 2012-03-14
+    head: Mayawati
+    party: BSP
+    sources: [up-vidhan-sabha-former-cm, wp-up-cms]
+  # Party not given by TCPD-CMID (he was an MLC); Wikipedia (lead) gives SP.
+  - from: 2012-03-15
+    to: 2017-03-18
+    head: Akhilesh Yadav
+    party: SP
+    sources: [up-vidhan-sabha-former-cm, wp-up-cms]
+  # The assembly list gives two terms, from 19-03-2017 and from 25-03-2022 (in office).
+  # TCPD-CMID gives BJP for the second.
+  - from: 2017-03-19
+    head: Yogi Adityanath
+    party: BJP
+    sources: [up-vidhan-sabha-former-cm, tcpd-cmid]
+sources:
+  - id: up-vidhan-sabha-former-cm
+    title: Former Chief Ministers of Uttar Pradesh (tenure list)
+    publisher: Uttar Pradesh Vidhan Sabha
+    url: https://uplegisassembly.gov.in/chiefminister/present_chiefminister_hi_.aspx#/formerchiefminister/1
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-up-cms
+    title: List of chief ministers of Uttar Pradesh
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Uttar_Pradesh
+    tier: lead
+    accessed: 2026-10-15

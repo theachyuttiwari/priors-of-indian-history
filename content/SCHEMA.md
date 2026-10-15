@@ -33,7 +33,8 @@ actions: # what the government did, one entry per action
   - type: internet_shutdown # see ACTION TYPES below
     date: 2021-01-26
     description: Internet suspended at Singhu, Ghazipur and Tikri after the tractor rally
-    actor: centre # centre | state | police | court
+    actor: centre # centre | state | police | court | other
+    state: [Delhi, Haryana] # where it happened; required for state and police actions
     sources: [s1]
   - type: negotiation
     date: 2020-12-01
@@ -156,6 +157,43 @@ positions:
       locator: "11:06" # timestamp, paragraph or page
       source: s3 # must also be in sources
     sources: [s3]
+```
+
+### Which party an action counts for
+
+An action counts for the party that governed the place, on the action's date. The site looks this up
+in `content/governments/`, not in the entry's `government` block.
+
+| `actor`  | Counts for                                                                                            |
+| -------- | ----------------------------------------------------------------------------------------------------- |
+| `centre` | The party ruling the Centre on that date                                                              |
+| `state`  | For each name in `state`, the party ruling that state on that date                                    |
+| `police` | The same as `state`, except where the Centre controls the police (Delhi Police)                       |
+| `court`  | No party                                                                                              |
+| `other`  | No party: a statutory commission, the protesters, or an office the sources do not tie to a government |
+
+Under President's Rule, and in a Union Territory run by the Centre, a state or police action counts
+for the party ruling the Centre. The validator lists any action it cannot place as an
+`attribution-missing` error.
+
+Each file in `content/governments/` covers the Centre, one state or one Union Territory:
+
+```yaml
+name: Odisha # the name used in an action's `state`
+aliases: [Orissa] # earlier names
+police: state # state | centre. Delhi is centre
+terms: # in date order, no overlaps
+  - from: 1977-04-30
+    to: 1977-06-25 # last day in office; omit for the term in office now
+    head: President's Rule
+    kind: presidents_rule # elected | presidents_rule | centre; the last two have no party
+    sources: [ls-pr-book, od-la-cms] # at least one that is not a lead
+  - from: 1977-06-26
+    to: 1980-02-16
+    head: Nilamani Routray
+    party: Janata Party # required for an elected term
+    sources: [od-la-cms, ls-pr-book, od-la-routray]
+sources: [] # the same source format as entries
 ```
 
 ### Review and corrections

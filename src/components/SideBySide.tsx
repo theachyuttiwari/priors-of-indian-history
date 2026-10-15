@@ -2,13 +2,14 @@ import Link from "next/link";
 import { fmtDate, years } from "@/lib/format";
 import { ACTION_META, ACTION_TYPES, type ActionType, type Precedent } from "@/lib/schema";
 import { claimOf } from "@/lib/evidence";
+import { entryParties, whereLine } from "@/lib/content";
 import { EvidenceMark } from "./Evidence";
 
 type Col = { p: Precedent; href?: string; now?: boolean };
 
+/** Who acted, by party: see whereLine. */
 function govtLine(p: Precedent) {
-  const s = p.government.state;
-  return s ? `${s.party}, ${s.name}` : `${p.government.centre.party}, Centre`;
+  return whereLine(p);
 }
 
 function label(c: Col) {
@@ -100,7 +101,7 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
                 c.p.title
               )}
               <span className="block small num">
-                {govtLine(c.p)}, {years(c.p.period.start, c.p.period.end)}
+                {years(c.p.period.start, c.p.period.end)}. {govtLine(c.p)}
               </span>
             </span>
           </li>
@@ -130,7 +131,7 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
             </span>
             <span className="block small mt-0.5 max-sm:text-[11px]">
               <span className="max-sm:hidden">{govtLine(c.p)}</span>
-              <span className="sm:hidden">{(c.p.government.state ?? c.p.government.centre).party}</span>
+              <span className="sm:hidden">{entryParties(c.p).join(", ")}</span>
             </span>
           </span>
         ))}

@@ -39,6 +39,7 @@ actions:
     claim: happened
     description: "Police arrested KCR near Karimnagar on 29 November, before he reached Siddipet to begin his fast, together with other TRS leaders. The Indian Express reported the charges as spreading disaffection, criminal conspiracy and inciting people to violence. A magistrate in Khammam remanded him to 14 days of judicial custody, and he began the fast in custody. On 30 November he accepted fruit juice at the government hospital in Khammam, as shown in footage released by the authorities; the TRS called this a government conspiracy, and on 1 December KCR said he was continuing the fast. The Srikrishna Committee report says he 'reportedly broke his fast but resumed it soon thereafter'."
     actor: police
+    state: Andhra Pradesh
     sources: [s1, s19, s27]
     legal_basis: "Charges of spreading disaffection, criminal conspiracy and inciting people to violence, as reported by The Indian Express (sections not named)"
   - type: other
@@ -46,18 +47,21 @@ actions:
     claim: happened
     description: "Police shifted KCR late on the night of 2 December from Khammam to the Nizam's Institute of Medical Sciences (NIMS) in Hyderabad after his condition deteriorated, following repeated TRS requests and directions from the State Human Rights Commission. He was in judicial custody until 12 December. A 2023 Deccan Chronicle retrospective dates the shift to the morning of 4 December."
     actor: state
+    state: Andhra Pradesh
     sources: [s2, s16]
   - type: detention
     date: 2009-11-29
     claim: happened
     description: "On 29 November police caned groups of slogan-shouting hostel students at Osmania University and at Kakatiya University in Warangal; the Hyderabad Police Commissioner said that a student who died on the Osmania campus that day died of fits and not because of the caning. On 7 December, after students threw stones at Rapid Action Force personnel and police around the Osmania campus, police baton-charged them. Before the planned 10 December march to the Assembly, police evicted students from 12 hostels after the university ordered the rooms vacated; The Indian Express reported that the High Court set aside the government order closing universities and colleges in Hyderabad and nine other Telangana districts and directed that hostels be reopened. A 2023 Deccan Chronicle retrospective, based partly on a student leader's account, adds that central forces stopped an Osmania University students' JAC rally on 29 November, that police picked up student leaders from hostel rooms, that police removed the tents of a relay hunger strike begun on 24 December in a midnight operation about eight days later, and that on 14 February 2010 police fired tear gas shells into B-Hostel rooms."
     actor: police
+    state: Andhra Pradesh
     sources: [s19, s21, s18, s17]
   - type: preventive_arrest
     date: 2009-12-09
     claim: happened
     description: "Ahead of a 'march to Hyderabad' to the Assembly called by the students' JAC and the TRS for 10 December, additional police forces were deployed in the capital, and police and paramilitary forces took hundreds of students and activists into preventive custody. The Srikrishna Committee report states that during the agitation that began on 29 November 'reportedly over five thousand persons were taken into preventive custody'."
     actor: police
+    state: Andhra Pradesh
     sources: [s3, s18, s27]
     figures:
       - { what: "persons taken into preventive custody during the agitation from 29 November 2009", value: "over 5,000", claimed_by: "Srikrishna Committee report ('reportedly')", source: s27 }
@@ -87,6 +91,7 @@ actions:
     claim: happened
     description: "After the 23 December statement, students at Osmania University clashed with police and threw stones; police baton-charged them. IANS reported that police fired rubber bullets at Osmania University, injuring one student, and caned Nizam College students in Basheerbagh who threw stones when stopped from marching to the Assembly. Protesters burned buses and stopped trains across Telangana. Ten CRPF companies were flown in from Delhi, bringing central forces in the state to 38 companies, about 4,000 personnel."
     actor: police
+    state: Andhra Pradesh
     sources: [s6, s33, s37]
     figures:
       - { what: "buses damaged by protesters on 24 December", value: "57", claimed_by: "IGP A.R. Anuradha (quoted in The Tribune)", source: s6 }
@@ -112,12 +117,14 @@ actions:
     claim: ordered
     description: "Hyderabad Police Commissioner A.K. Khan refused permission for the Telangana JAC's 'Million March' at Tank Bund. The Indian Express reported his reason as the march throwing traffic out of gear; PTI reported that police cited disruption to normal life and possible law and order problems."
     actor: police
+    state: Andhra Pradesh
     sources: [s11, s22, s23]
   - type: section_144
     date: 2011-03-10
     claim: ordered
     description: "Prohibitory orders under Section 144 CrPC banning assemblies, rallies and processions were in force in the Hyderabad and Cyberabad police commissionerate limits. Routes to Tank Bund were barricaded with barbed wire, and state police and central paramilitary forces were deployed."
     actor: police
+    state: Andhra Pradesh
     sources: [s11, s23, s35]
     legal_basis: Section 144 CrPC
   - type: detention
@@ -125,6 +132,7 @@ actions:
     claim: happened
     description: "Police detained JAC convener M. Kodandaram as he left the JAC office, TRS MLA T. Harish Rao, TDP MLA E. Dayakar Rao and BJP leader Ch. Vidyasagar Rao, and made preventive arrests in Telangana districts to stop activists reaching Hyderabad. Kodandaram said hundreds were arrested across Telangana; Police Commissioner A.K. Khan said preventive arrests were made only against those violating the ban orders. Thousands still reached Tank Bund."
     actor: police
+    state: Andhra Pradesh
     sources: [s11, s12, s23, s35]
     figures:
       - { what: "people arrested across Telangana", value: "hundreds", claimed_by: "M. Kodandaram, Telangana JAC (to PTI)", source: s11 }
@@ -135,6 +143,7 @@ actions:
     claim: happened
     description: "Police lobbed tear gas shells at Tank Bund. A release from the Director General of Police's office said that after the main JAC leaders left at about 5 pm, a group of about 1,000 people from the Indian Federation of Trade Unions surged towards police and threw stones, and police dispersed them with tear gas. Police also fired tear gas at Osmania University students who threw stones after being stopped from marching to Tank Bund. During the march, protesters attacked two Congress MPs and journalists, set some police vehicles on fire and damaged statues of Telugu cultural figures on Tank Bund."
     actor: police
+    state: Andhra Pradesh
     sources: [s12, s23, s35]
     figures:
       - { what: "people in the group dispersed with tear gas after 5 pm", value: "about 1,000", claimed_by: "DGP's office (release quoted by PTI)", source: s35 }
@@ -143,6 +152,7 @@ actions:
     claim: happened
     description: "On the eve of the Sakala Janula Samme, the state government said it would not hesitate to invoke the Essential Services Maintenance Act (ESMA) against strikers, would implement a 'no work, no pay' rule and would take disciplinary action. Reports differ on whether ESMA was applied: a PTI report at the end of the strike said the government threatened ESMA but did not enforce it, while an agency report carried by The Indian Express on 12 October said the employees' JAC demanded withdrawal of ESMA 'enforced in certain departments'. The 'no work, no pay' rule was Government Order No. 177, which the 12 October report said was being implemented on the orders of the High Court."
     actor: state
+    state: Andhra Pradesh
     sources: [s13, s24, s14, s36]
     legal_basis: "Essential Services Maintenance Act (threatened); Government Order No. 177 ('no work, no pay')"
   - type: detention
@@ -150,12 +160,14 @@ actions:
     claim: happened
     description: "On the first day of the general strike, police arrested Telugu Desam Party leaders from Telangana who tried to lay siege to the state secretariat."
     actor: police
+    state: Andhra Pradesh
     sources: [s13]
   - type: negotiation
     date: 2011-10-24
     claim: happened
     description: "After talks led by Deputy Chief Minister Damodar Rajanarasimha, the government accepted nine demands, including withdrawal of cases against striking employees, treating the strike period as special leave, and seeking High Court permission to relax GO 177. Employees called off the strike on 24 October 2011 after 42 days; teachers, APSRTC and Singareni workers had withdrawn earlier. A Coal Ministry reply in the Lok Sabha records the Singareni strike in support of the Telangana bandh call as running from 13 September to the third shift of 17 October 2011."
     actor: state
+    state: Andhra Pradesh
     sources: [s14, s25, s31]
   - type: concession
     date: 2014-03-01

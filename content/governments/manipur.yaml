@@ -1,0 +1,323 @@
+# Manipur, from the term in office on 1974-01-01.
+# No official list of Chief Ministers could be reached: the Manipur Legislative Assembly site is
+# down and the Chief Minister's site shows "Coming Soon" for former Chief Ministers. President's
+# Rule spells to 2002, and the ministries formed after them, come from the Lok Sabha Secretariat
+# book on President's Rule (2016). The 2025-26 spell comes from the Gazette of India. Terms that
+# start or end without a President's Rule spell on either side rest on Wikipedia (lead) for that
+# date, as each comment says.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Manipur
+terms:
+  # Lok Sabha book: proclaimed 28-3-1973 (G.S.R. 18(E)); revoked 4-3-1974 (G.S.R. 117(E)), when
+  # Mohammed Alimuddin formed the ministry.
+  - from: 1973-03-28
+    to: 1974-03-03
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Start: Lok Sabha book. End and party rest on Wikipedia (lead) only; it gives 9 July 1974 as both
+  # this term's end and the next term's start.
+  - from: 1974-03-04
+    to: 1974-07-08
+    head: Mohammed Alimuddin
+    party: other (Manipur People's Party)
+    sources: [ls-pr-book, wp-mn-cms]
+  # Start, party and alliance: JPI Oct-Dec 1974, an eight-member "Progressive Democratic Front
+  # Ministry, led by Shri Yangmaso Shaiza was sworn in on July 10, 1974"; the Front is a coalition
+  # of the Congress, the CPI, "Manipur Hills Union (Shaiza faction)" and the Manipur Democratic
+  # Party. The same issue gives Alimuddin's resignation on 8 July 1974; no source assigns 9 July.
+  # End: JPI Apr-Jun 1975, the ministry "resigned on December 5, 1974". CONFLICT: Wikipedia gives
+  # 9 July to 5 December 1974 (with the next term from 5 December). The Lok Sabha Secretariat
+  # journal is used.
+  - from: 1974-07-10
+    to: 1974-12-05
+    head: Yangmaso Shaiza
+    party: other (Manipur Hills Union)
+    alliance: Progressive Democratic Front
+    sources: [jpi-1974-oct-dec, jpi-1975-apr-jun, wp-mn-cms]
+  # Start: JPI Apr-Jun 1975, "On December 6, 1974, a two-member Ministry headed by the Congress-led
+  # Democratic Legislature Party leader, Shri Raj Kumar Dorendra Singh was sworn-in". CONFLICT:
+  # Wikipedia gives 5 December 1974; the journal is used. Party: Lok Sabha book, "Shri R.K.
+  # Dorendra Singh (Congress)" at the proclamation of 16-5-1977.
+  - from: 1974-12-06
+    to: 1977-05-15
+    head: R. K. Dorendra Singh
+    party: INC
+    sources: [jpi-1975-apr-jun, ls-pr-book, wp-mn-cms]
+  # Lok Sabha book: proclaimed 16-5-1977 (G.S.R. 241(E)); the detailed entry gives revocation on
+  # 26-6-1977 and Shaiza's ministry on 29-6-1977. The book's summary table gives 29-06-1977 as the end
+  # of President's Rule. The detailed entry is used; no source assigns 26-28 June 1977.
+  - from: 1977-05-16
+    to: 1977-06-25
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: "unanimously elected as leader of the Janata Party", formed the ministry on
+  # 29-6-1977; "(Janta Party)" at the proclamation of 14-11-1979.
+  - from: 1977-06-29
+    to: 1979-11-13
+    head: Yangmaso Shaiza
+    party: Janata Party
+    sources: [ls-pr-book]
+  # Lok Sabha book: proclaimed 14-11-1979 (G.S.R. 624(E)); revoked 13-1-1980; Dorendra Singh's
+  # coalition ministry assumed office on 14-1-1980. No source assigns 13 January 1980.
+  - from: 1979-11-14
+    to: 1980-01-12
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Start: Lok Sabha book ("a coalition Ministry"). End and party rest on Wikipedia (lead) only.
+  - from: 1980-01-14
+    to: 1980-11-26
+    head: R. K. Dorendra Singh
+    party: INC
+    sources: [ls-pr-book, wp-mn-cms]
+  # Start rests on Wikipedia (lead) only. Party: Lok Sabha book, "(Congress-I)" at the proclamation
+  # of 28-2-1981.
+  - from: 1980-11-27
+    to: 1981-02-27
+    head: Rishang Keishing
+    party: other (Indian National Congress (I))
+    sources: [ls-pr-book, wp-mn-cms]
+  # Lok Sabha book: proclaimed 28-2-1981 (G.S.R. 85(E)); revoked 19-6-1981, when a Congress-I
+  # government headed by Keishing assumed office.
+  - from: 1981-02-28
+    to: 1981-06-18
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Start and party: Lok Sabha book, "Congress-I Government". End rests on Wikipedia (lead) only.
+  - from: 1981-06-19
+    to: 1988-03-03
+    head: Rishang Keishing
+    party: other (Indian National Congress (I))
+    sources: [ls-pr-book, wp-mn-cms]
+  # Start: JPI Jun 1988, "Shri R. K. Jaichandra Singh was sworn in as the Chief Minister of the
+  # State on 4 March" (1988). India Today (31 July 1988) also reports that the Prime Minister
+  # replaced Keishing with him in March. End: JPI Jun 1990, a United Legislature Front ministry
+  # headed by R.K. Ranbir Singh "was sworn in by Governor, Shri Chintamani Panigrahi on 23
+  # February" (1990). Party: the Rajya Sabha biographical sketches list him as "Congress (I)
+  # (Manipur)". Wikipedia gives INC; the Congress (I) label is used, as for Keishing's 1981-88 term.
+  - from: 1988-03-04
+    to: 1990-02-22
+    head: R. K. Jaichandra Singh
+    party: other (Indian National Congress (I))
+    sources: [jpi-1988-jun, jpi-1990-jun, rs-bio-sketches-s, indiatoday-1988-07-31, wp-mn-cms]
+  # Start and party rest on Wikipedia (lead) only. The Lok Sabha book names his ministry the United
+  # Legislature Front at the proclamation of 7-1-1992.
+  - from: 1990-02-23
+    to: 1992-01-06
+    head: R. K. Ranbir Singh
+    party: other (Manipur People's Party)
+    alliance: United Legislature Front
+    sources: [ls-pr-book, wp-mn-cms]
+  # Lok Sabha book: proclaimed 7-1-1992; revoked 8-4-1992, when "a Congress (I) coalition Ministry
+  # headed by Shri R.K. Dorendra Singh was sworn in".
+  - from: 1992-01-07
+    to: 1992-04-07
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: Congress (I) coalition ministry, sworn in after the revocation of 8-4-1992; the
+  # book gives no separate swearing-in date. Start rests on Wikipedia (lead) for the exact day.
+  - from: 1992-04-08
+    to: 1993-12-30
+    head: R. K. Dorendra Singh
+    party: other (Indian National Congress (I))
+    sources: [ls-pr-book, wp-mn-cms]
+  # Lok Sabha book: proclaimed 31-12-1993; revoked 13-12-1994, when Keishing was sworn in.
+  - from: 1993-12-31
+    to: 1994-12-12
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: "Shri Rishang Keishing (Congress Party) was sworn in on 13-12-94". Wikipedia
+  # gives 14 December 1994. Governor's Address 1998: he lost a vote of confidence on 15 December
+  # 1997 and resigned.
+  - from: 1994-12-13
+    to: 1997-12-15
+    head: Rishang Keishing
+    party: INC
+    sources: [ls-pr-book, mn-governor-address-1998]
+  # Governor's Address 1998: the Governor invited Nipamacha Singh on 15 December 1997 to assume
+  # office. The start date (16 December 1997) and party rest on Wikipedia (lead) only. Wikipedia
+  # shows his first ministry under INC and his ministry after the 2000 election under the Manipur
+  # State Congress Party; the latter is shown here. Party is contested between these labels.
+  - from: 1997-12-16
+    to: 2001-02-14
+    head: W. Nipamacha Singh
+    party: other (Manipur State Congress Party)
+    sources: [mn-governor-address-1998, wp-mn-cms]
+  # Start and party rest on Wikipedia (lead) only. Lok Sabha book: his People's Front ministry lost a
+  # confidence vote on 21-5-2001; President's Rule from 2-6-2001.
+  - from: 2001-02-15
+    to: 2001-06-01
+    head: Radhabinod Koijam
+    party: other (Samata Party)
+    alliance: People's Front
+    sources: [ls-pr-book, wp-mn-cms]
+  # Lok Sabha book: proclaimed 2-6-2001 (G.S.R. 410(E)); revoked 5-3-2002. Ibobi Singh took oath on
+  # 7 March 2002. No source assigns 5-6 March 2002.
+  - from: 2001-06-02
+    to: 2002-03-04
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Lok Sabha book: "Shri O. Ibobi Singh, Leader of the INC Legislative Party and the Secular
+  # Progressive Front took oath as the Chief Minister on 7 March 2002". The end date is the day before
+  # Biren Singh's swearing-in.
+  - from: 2002-03-07
+    to: 2017-03-14
+    head: Okram Ibobi Singh
+    party: INC
+    alliance: Secular Progressive Front
+    sources: [ls-pr-book, newslaundry-biren-2017]
+  # Newslaundry and ANI: BJP's Biren Singh sworn in on 15 March 2017. Onmanorama: he resigned on
+  # 9 February 2025 and was asked to continue as caretaker. President's Rule began on 13 February 2025.
+  - from: 2017-03-15
+    to: 2025-02-12
+    head: N. Biren Singh
+    party: BJP
+    sources: [newslaundry-biren-2017, tribune-biren-2017, onmanorama-biren-resigns-2025]
+  # Gazette S.O. 509(E) of 4 February 2026 revokes the proclamation of 13 February 2025 with effect
+  # from 4 February 2026. All India Radio: President's Rule imposed on 13 February 2025.
+  - from: 2025-02-13
+    to: 2026-02-03
+    head: President's Rule
+    kind: presidents_rule
+    sources: [gazette-mn-pr-revocation-2026, air-mn-pr-revoked-2026]
+  # All India Radio (4 February 2026): "BJP MLA- Yumnam Khemchand Singh sworn in as Chief Minister
+  # of Manipur today". PMO and the state portal confirm him as Chief Minister.
+  - from: 2026-02-04
+    head: Yumnam Khemchand Singh
+    party: BJP
+    sources: [air-mn-pr-revoked-2026, pmo-mn-cm-2026, mn-portal-cm]
+sources:
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mn-governor-address-1998
+    title: Governor's Address 1998
+    publisher: Manipur Legislative Assembly
+    url: http://manipurassembly.nic.in/govadd98.htm
+    archive_url: http://web.archive.org/web/20041027143106/http://manipurassembly.nic.in:80/govadd98.htm
+    archive_date: 2004-10-27
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: newslaundry-biren-2017
+    title: N Biren Singh sworn in as Manipur CM
+    publisher: Newslaundry
+    url: https://www.newslaundry.com/2017/03/15/n-biren-singh-sworn-in-as-manipur-cm
+    date: 2017-03-15
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-biren-2017
+    title: BJP's Biren Singh takes oath as Manipur CM
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/news/archive/nation/bjps-biren-singh-takes-oath-as-manipur-cm-377402
+    date: 2017-03-15
+    type: news
+    tier: secondary
+    wire: ANI
+    accessed: 2026-10-15
+  - id: onmanorama-biren-resigns-2025
+    title: Manipur Guv accepts Biren Singh's resignation, asks him to continue as caretaker CM
+    publisher: Onmanorama
+    url: https://www.onmanorama.com/news/india/2025/02/09/biren-singh-resigns-as-manipur-cm-to-continue-as-caretaker-cm.html
+    date: 2025-02-09
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: gazette-mn-pr-revocation-2026
+    title: Proclamation revoking the Proclamation of 13 February 2025 in relation to the State of Manipur (S.O. 509(E))
+    publisher: Gazette of India, Extraordinary
+    url: https://egazette.gov.in/WriteReadData/2026/269819.pdf
+    date: 2026-02-04
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: air-mn-pr-revoked-2026
+    title: BJP MLA- Yumnam Khemchand Singh sworn in as Chief Minister of Manipur
+    publisher: All India Radio News (News On AIR)
+    url: https://newsonair.gov.in/presidents-rule-revoked-in-manipur/
+    date: 2026-02-04
+    type: official
+    tier: secondary
+    accessed: 2026-10-15
+  - id: pmo-mn-cm-2026
+    title: PM Congratulates Newly Sworn-in Chief Minister and Ministers of Manipur
+    publisher: Prime Minister's Office
+    url: https://www.pmindia.gov.in/en/news_updates/pm-congratulates-newly-sworn-in-chief-minister-and-ministers-of-manipur
+    date: 2026-02-04
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mn-portal-cm
+    title: Official Website of Manipur, Chief Minister page
+    publisher: Government of Manipur
+    url: https://manipur.gov.in/?page_id=31673
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jpi-1974-oct-dec
+    title: "Journal of Parliamentary Information, Vol. XX, No. 4 (October-December 1974): State Legislatures, Manipur"
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/5abef577-b7d3-47be-b772-7b1d4c09722c/content
+    date: 1974-10-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jpi-1975-apr-jun
+    title: "Journal of Parliamentary Information, Vol. XXI, No. 2 (April-June 1975): State Legislatures, Manipur"
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/421ada26-03c6-4883-8dbe-10c16f475bfc/content
+    date: 1975-04-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jpi-1988-jun
+    title: "Journal of Parliamentary Information, Vol. XXXIV, No. 2 (June 1988): State Legislatures, Manipur"
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/07578b4e-c91b-404d-b8ff-2887ce545ef0/content
+    date: 1988-06-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jpi-1990-jun
+    title: "Journal of Parliamentary Information, Vol. XXXVI, No. 2 (June 1990): State Legislatures, Manipur"
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/220a844a-c970-421a-8b11-a89e3368e94e/content
+    date: 1990-06-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: rs-bio-sketches-s
+    title: "Rajya Sabha Members: Biographical Sketches 1952-2003 (S)"
+    publisher: Rajya Sabha Secretariat
+    url: http://rajyasabha.nic.in/rsnew/pre_member/1952_2003/s.pdf
+    archive_url: http://web.archive.org/web/20101005170300/http://rajyasabha.nic.in/rsnew/pre_member/1952_2003/s.pdf
+    archive_date: 2010-10-05
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: indiatoday-1988-07-31
+    title: Manipur Chief Minister R.K. Jaichandra Singh finally wins an election
+    publisher: India Today
+    url: https://www.indiatoday.in/magazine/states/story/19880731-manipur-chief-minister-rk-jaichandra-singh-finally-wins-an-election-797536-1988-07-30
+    date: 1988-07-31
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-mn-cms
+    title: Chief Minister of Manipur
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Chief_Minister_of_Manipur
+    tier: lead
+    accessed: 2026-10-15

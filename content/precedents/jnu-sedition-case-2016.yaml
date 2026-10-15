@@ -35,6 +35,7 @@ actions:
     claim: ordered
     description: "Delhi Police registered FIR No. 110/2016 at PS Vasant Kunj North on 11 February. The Delhi High Court's bail order records that the FIR was registered under Section 124-A/34 IPC, and that by the time of the status report the case was under investigation under Sections 124-A/120-B/34/147/149 IPC. The Additional Solicitor General told the court the FIR was registered after raw video footage was obtained from Zee News following its telecast of 10 February. The Wire reported that the case was registered against unknown persons after a complaint by BJP MP Maheish Girri. LiveLaw, summarising the bail petition, gave the sections as 124A/120B IPC and said the FIR was against Kumar and unknown persons. Delhi Police report to the Union Home Ministry, not the Delhi government."
     actor: police
+    state: Delhi
     legal_basis: Section 124A read with Section 34 IPC (as registered); Sections 120B, 147 and 149 IPC added during investigation
     sources: [s5, s8, s1]
   - type: sedition_charge
@@ -42,6 +43,7 @@ actions:
     claim: ordered
     description: "Kanhaiya Kumar was arrested on the JNU campus on 12 February, according to The Wire and Al Jazeera, and a Metropolitan Magistrate at Patiala House Courts remanded him to three days' police custody the same day. The LiveLaw summary of his bail petition gives the arrest date as 11 February. The High Court's bail order records that he was remanded to police custody three times, and that he denied making seditious utterances or raising anti-national slogans. On 17 February his judicial custody was extended until 2 March, and he was released from Tihar Jail on 3 March after furnishing the bail bond."
     actor: police
+    state: Delhi
     legal_basis: Section 124A IPC
     sources: [s5, s8, s9, s10, s11, s1, s24]
   - type: commission_of_inquiry
@@ -49,6 +51,7 @@ actions:
     claim: ordered
     description: "On 13 February Chief Minister Arvind Kejriwal said the Delhi government was directing the District Magistrate to conduct an enquiry, citing competing claims about who shouted the slogans. The inquiry by New Delhi District Magistrate Sanjay Kumar reported on 2 March; PTI reported that it found nothing adverse against Kumar and said Umar Khalid's role needed further investigation. Videos of the event are contested. PTI reported that the inquiry found three of seven videos sent to Truth Labs, Hyderabad, doctored; The Hindu, citing unnamed sources, reported two. The Delhi government later filed a complaint against three news channels over the videos. Delhi Police said the FIR rested on the channel's unedited footage, not the aired clips, and a police source said in June 2016 that the Central Forensic Science Laboratory had found that footage authentic. In the High Court, Kumar's counsel said the footage did not show him raising anti-national slogans, and the order records that the State did not dispute this at that stage."
     actor: state
+    state: Delhi
     sources: [s17, s18, s21, s22, s25, s23, s5]
     figures:
       - what: videos of the event found doctored, of seven sent to Truth Labs, Hyderabad
@@ -79,6 +82,7 @@ actions:
     claim: ordered
     description: "Delhi Police filed a chargesheet against Kumar, Umar Khalid, Anirban Bhattacharya and seven Kashmiri students, and mentioned 36 others without naming them as accused for lack of evidence. Police said it rested on documentary evidence, CCTV footage and about 90 eyewitness accounts. On 19 January 2019 the Patiala House court refused to take cognizance because the chargesheet was filed without sanction from the Delhi government; police told the court sanction would be obtained within ten days."
     actor: police
+    state: Delhi
     legal_basis: Sections 124A, 143, 147, 149, 120B and 323 IPC (Sections 465 and 471 IPC also appear in the cognizance order)
     sources: [s26, s27, s29]
     figures:
@@ -99,6 +103,7 @@ actions:
     claim: ordered
     description: "The Home Department of the Delhi government granted sanction to prosecute the accused. The magistrate's cognizance order cites a sanction order dated 27 February 2020. AAP spokesperson Raghav Chadha said the sanction was given on 20 February after the Law Department gave its opinion, and denied a BJP charge that the government had stalled the case."
     actor: state
+    state: Delhi
     sources: [s29, s30]
   - type: other
     date: 2021-02-15

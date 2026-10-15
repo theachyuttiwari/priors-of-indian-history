@@ -38,6 +38,7 @@ actions:
     date: 1990-09
     description: "Police fired on protesters in several states. By 10 October the Christian Science Monitor reported 40 deaths in police shootings connected with the demonstrations. India Today reported that six people were killed in police firing in Orissa, and Manushi reported three deaths in police firing in Bihar. Accounts of police conduct in Delhi differ: the video magazine Newstrack presented the police firing at Laxmibai Nagar as brutality, while Madhu Kishwar, reviewing that coverage in Manushi, wrote that the police had been mostly on the defensive and fired after days of stone-throwing."
     actor: police
+    state: [Odisha, Bihar, Delhi]
     sources: [s3, s4, s8, s9]
     figures:
       - { what: killed in police shootings connected with the demonstrations, by 10 October, value: "40", claimed_by: The Christian Science Monitor, source: s3 }
@@ -47,6 +48,7 @@ actions:
     date: 1990-09
     description: "Police detained protesting students. India Today reported that more than 3,500 students were rounded up in Uttar Pradesh in connection with the violence. In Delhi, police cleared a student blockade at the AIIMS crossing by loading students into vans, according to Newstrack commentary quoted in Manushi; Madhu Kishwar wrote that the students were let off a short distance away."
     actor: police
+    state: [Uttar Pradesh, Delhi]
     sources: [s4, s9]
     figures:
       - { what: students rounded up in Uttar Pradesh, value: "more than 3,500", claimed_by: India Today, source: s4 }

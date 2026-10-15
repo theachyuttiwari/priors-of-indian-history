@@ -1,0 +1,278 @@
+# Kerala, from the term in office on 1974-01-01.
+# Dates: Kerala Legislative Assembly list of Chief Ministers and its list of President's Rule spells.
+# The Assembly's Council of Ministers pages carry footnotes for several resignations: the
+# resignation was accepted and the Chief Minister was "requested to continue in office till
+# alternative arrangements are made". Where such a footnote exists, the term here runs to the day
+# before the successor or President's Rule, and the comment says so. Elsewhere the list's dates are
+# kept and the gap is noted.
+# Party: the Kerala Legislative Assembly book "Chief Ministers of Kerala" (2006) for Chief Ministers
+# up to 2006; news reports and the Assembly party-affiliation list after that.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+name: Kerala
+terms:
+  # Party: Assembly CM book, CPI.
+  - from: 1970-10-04
+    to: 1977-03-24
+    head: C. Achutha Menon
+    party: CPI
+    sources: [kl-la-cms, kl-la-cm-book]
+  # The Assembly list gives 25 March 1977; the Assembly member page for Karunakaran gives
+  # 30 March 1977. The list ends the term on 25 April 1977; a Council of Ministers footnote says he
+  # was requested to continue until other arrangements were made, so the term runs to 26 April.
+  # Party: Assembly CM book, Congress.
+  - from: 1977-03-25
+    to: 1977-04-26
+    head: K. Karunakaran
+    party: INC
+    sources: [kl-la-cms, kl-la-ministers-5, kl-la-cm-book]
+  # List: to 27 October 1978; continued until other arrangements (footnote). Party: the CM book says
+  # Antony joined the Devaraj Urs faction after the 1978 Congress split; the sources here give no
+  # date for the change, so the party at the swearing-in is shown.
+  - from: 1977-04-27
+    to: 1978-10-28
+    head: A. K. Antony
+    party: INC
+    sources: [kl-la-cms, kl-la-ministers-5, kl-la-cm-book]
+  # List: to 7 October 1979; continued until other arrangements (footnote). Party: CM book, CPI.
+  - from: 1978-10-29
+    to: 1979-10-11
+    head: P. K. Vasudevan Nair
+    party: CPI
+    sources: [kl-la-cms, kl-la-ministers-5, kl-la-cm-book]
+  # List: to 1 December 1979; continued until other arrangements (footnote). Party: CM book,
+  # Indian Union Muslim League.
+  - from: 1979-10-12
+    to: 1979-12-04
+    head: C. H. Mohammed Koya
+    party: other (Indian Union Muslim League)
+    sources: [kl-la-cms, kl-la-ministers-5, kl-la-cm-book]
+  # Assembly list: President's Rule 5-12-1979 to 25-1-1980. Lok Sabha book agrees.
+  - from: 1979-12-05
+    to: 1980-01-24
+    head: President's Rule
+    kind: presidents_rule
+    sources: [kl-la-pr, ls-pr-book]
+  # The list ends this term on 20 October 1981; a footnote says the resignation was accepted from
+  # that date with a request to continue, and President's Rule began on 21 October. Party: CM book.
+  - from: 1980-01-25
+    to: 1981-10-20
+    head: E. K. Nayanar
+    party: CPI(M)
+    sources: [kl-la-cms, kl-la-ministers-6, kl-la-cm-book]
+  # Assembly list: President's Rule 21-10-1981 to 28-12-1981. Lok Sabha book agrees.
+  - from: 1981-10-21
+    to: 1981-12-27
+    head: President's Rule
+    kind: presidents_rule
+    sources: [kl-la-pr, ls-pr-book]
+  # Party: Lok Sabha book, "Congress (I)-led UDF".
+  - from: 1981-12-28
+    to: 1982-03-16
+    head: K. Karunakaran
+    party: other (Indian National Congress (I))
+    alliance: UDF
+    sources: [kl-la-cms, ls-pr-book]
+  # Assembly list: President's Rule 17-3-1982 to 23-5-1982. Lok Sabha book: revoked 24-5-1982.
+  - from: 1982-03-17
+    to: 1982-05-23
+    head: President's Rule
+    kind: presidents_rule
+    sources: [kl-la-pr, ls-pr-book]
+  # The list ends this term on 25 March 1987; a footnote says he was requested to continue, and
+  # Nayanar took office on 26 March. Party: CM book, Congress.
+  - from: 1982-05-24
+    to: 1987-03-25
+    head: K. Karunakaran
+    party: INC
+    alliance: UDF
+    sources: [kl-la-cms, kl-la-ministers-7, kl-la-cm-book]
+  # List: to 17 June 1991; continued until other arrangements (footnote). Party: CM book, CPI(M).
+  - from: 1987-03-26
+    to: 1991-06-23
+    head: E. K. Nayanar
+    party: CPI(M)
+    sources: [kl-la-cms, kl-la-ministers-8, kl-la-cm-book]
+  # List: to 16 March 1995; continued until other arrangements (footnote). Party: CM book, Congress.
+  - from: 1991-06-24
+    to: 1995-03-21
+    head: K. Karunakaran
+    party: INC
+    sources: [kl-la-cms, kl-la-ministers-9, kl-la-cm-book]
+  # List: to 9 May 1996; continued until other arrangements (footnote). Party: CM book, Congress.
+  - from: 1995-03-22
+    to: 1996-05-19
+    head: A. K. Antony
+    party: INC
+    sources: [kl-la-cms, kl-la-ministers-9, kl-la-cm-book]
+  # Party: CM book, CPI(M). The list assigns no Chief Minister to 14-16 May 2001.
+  - from: 1996-05-20
+    to: 2001-05-13
+    head: E. K. Nayanar
+    party: CPI(M)
+    sources: [kl-la-cms, kl-la-cm-book]
+  # Party: CM book, Congress. The list assigns no Chief Minister to 30 August 2004; no
+  # "continue in office" footnote was found for this resignation.
+  - from: 2001-05-17
+    to: 2004-08-29
+    head: A. K. Antony
+    party: INC
+    sources: [kl-la-cms, kl-la-cm-book]
+  # Party: CM book, Congress. The list assigns no Chief Minister to 13-17 May 2006.
+  - from: 2004-08-31
+    to: 2006-05-12
+    head: Oommen Chandy
+    party: INC
+    sources: [kl-la-cms, kl-la-cm-book]
+  # Party: Arab News, "leader of the Communist Party of India-Marxist (CPI-M)". The list assigns no Chief Minister to 15-17 May 2011.
+  - from: 2006-05-18
+    to: 2011-05-14
+    head: V. S. Achuthanandan
+    party: CPI(M)
+    sources: [kl-la-cms, arabnews-vsa-2006]
+  # Party: PTI, Congress. The list assigns no Chief Minister to 21-24 May 2016.
+  - from: 2011-05-18
+    to: 2016-05-20
+    head: Oommen Chandy
+    party: INC
+    sources: [kl-la-cms, indiatv-chandy-2011]
+  # Party: Madhyamam, CPI(M). The list assigns no Chief Minister to 4-19 May 2021.
+  - from: 2016-05-25
+    to: 2021-05-03
+    head: Pinarayi Vijayan
+    party: CPI(M)
+    sources: [kl-la-cms, madhyamam-pinarayi-2016]
+  # Party: Deccan Herald, CPI(M). The list assigns no Chief Minister to 7-17 May 2026.
+  - from: 2021-05-20
+    to: 2026-05-06
+    head: Pinarayi Vijayan
+    party: CPI(M)
+    sources: [kl-la-cms, dh-pinarayi-2021]
+  # Party: Assembly party-affiliation list (16th KLA), INC; All India Radio, "senior Congress leader".
+  - from: 2026-05-18
+    head: V. D. Satheesan
+    party: INC
+    sources: [kl-la-cms, kl-la-16-party, air-satheesan-2026, keralakaumudi-satheesan-2026]
+sources:
+  - id: kl-la-cms
+    title: Chief Ministers
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_5.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-ministers-5
+    title: Council of Ministers since 1957 - Fifth Kerala Legislative Assembly
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_6_5.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-ministers-6
+    title: Council of Ministers since 1957 - Sixth Kerala Legislative Assembly
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_6_6.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-ministers-7
+    title: Council of Ministers since 1957 - Seventh Kerala Legislative Assembly
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_6_7.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-ministers-8
+    title: Council of Ministers since 1957 - Eighth Kerala Legislative Assembly
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_6_8.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-ministers-9
+    title: Council of Ministers since 1957 - Ninth Kerala Legislative Assembly
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_6_9.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-pr
+    title: President's Rule in Kerala
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/ginfo_10.htm
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-cm-book
+    title: Chief Ministers of Kerala
+    publisher: Kerala Legislative Assembly Secretariat
+    url: https://niyamasabha.org/codes/Chief%20Ministers%20Book%20Final.pdf
+    date: 2006-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: kl-la-16-party
+    title: Sixteenth Kerala Legislative Assembly, party affiliation
+    publisher: Kerala Legislative Assembly
+    url: https://niyamasabha.org/codes/16kla/16th%20KLA%20Party%20Affiliation%20.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: arabnews-vsa-2006
+    title: LDF Govt Sworn In in Kerala
+    publisher: Arab News
+    author: Mohammed Ashraf
+    url: https://www.arabnews.com/node/284930
+    date: 2006-05-19
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: indiatv-chandy-2011
+    title: Oommen sworn in Kerala CM
+    publisher: India TV
+    url: https://www.indiatvnews.com/news/india/oommen-sworn-in-kerala-cm-7972.html
+    date: 2011-05-18
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: madhyamam-pinarayi-2016
+    title: PM congratulates new CM
+    publisher: Madhyamam English
+    url: https://english.madhyamam.com/kerala/2016/may/26/pm-congratulates-new-cm
+    date: 2016-05-26
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: dh-pinarayi-2021
+    title: Pinarayi Vijayan sworn in as Chief Minister of Kerala for second time
+    publisher: Deccan Herald
+    author: Arjun Raghunath
+    url: https://www.deccanherald.com/india/pinarayi-vijayan-sworn-in-as-chief-minister-of-kerala-for-second-time-987932.html
+    date: 2021-05-20
+    type: news
+    tier: report
+    accessed: 2026-10-15
+  - id: keralakaumudi-satheesan-2026
+    title: V D Satheesan sworn in as Kerala's Chief Minister in front of massive public gathering
+    publisher: Kerala Kaumudi
+    url: https://www.keralakaumudi.com/en/kerala/general/v-d-satheesan-sworn-in-as-keralas-chief-minister-in-front-of-massive-public-gathering-1749148
+    date: 2026-05-18
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: air-satheesan-2026
+    title: Congress leader VD Satheesan sworn in as Chief Minister of Keralam
+    publisher: All India Radio News
+    url: https://www.newsonair.gov.in/congress-leader-vd-satheesan-sworn-in-as-chief-minister-of-keralam/
+    date: 2026-05-18
+    type: official
+    tier: secondary
+    accessed: 2026-10-15

@@ -36,6 +36,7 @@ actions:
     claim: happened
     description: "About 12 platoons of armed police were deployed at the site where contractors began building a boundary wall for Tata Steel. Police burst tear gas shells and, by the commission of inquiry's account, also fired stinger and stun shells, rubber bullets and shots in the air before live firing. Police said the crowd threw stones and bricks and shot arrows; some injured villagers said they retaliated only after police fired, and the PUDR said a four-member delegation of villagers had gone to meet the Collector and SP when the attack began."
     actor: police
+    state: Odisha
     sources: [s19, s23, s30, s1, s2, s7]
     figures:
       - { what: "armed police platoons at the site", value: "12 platoons (over 500 armed personnel)", claimed_by: "Mohanty commission report, as reported by NewsClick", source: s30 }
@@ -45,6 +46,7 @@ actions:
     claim: happened
     description: "Police opened fire on the crowd. A police havildar, Gopa Prasad Mohanty, was killed; police said he was hacked to death and that they fired in self-defence. The death toll is contested: the first police count was six tribals and one policeman, the state government's report to the Centre gave 12 agitators and one havildar killed (three of them in hospital), Amnesty International records 12 Adivasis including three women and a 12-year-old boy plus one policeman, PTI's report on the Mohanty commission gives 13 killed and 27 injured, and later reports by PTI and Down To Earth give 14 villagers."
     actor: police
+    state: Odisha
     sources: [s23, s24, s19, s20, s27, s4, s32, s12, s34, s35, s13]
     figures:
       - { what: killed (initial count), value: "six tribals and one policeman", claimed_by: police, source: s23 }
@@ -63,18 +65,21 @@ actions:
     date: 2006-01-02
     description: "A curfew was imposed at Kalinga Nagar on the afternoon of 2 January as more villagers reached the site, and additional forces were deployed. The curfew was lifted on the morning of 3 January."
     actor: state
+    state: Odisha
     sources: [s23, s24, s20, s13]
   - type: other
     date: 2006-01-05
     claim: ordered
     description: "The state government transferred the Jajpur Collector (Saswat Mishra) and Superintendent of Police (Vinaytosh Mishra), who were present during the clash, on 5 January 2006. Arabinda Padhi and Asit Panigrahi were posted to Jajpur in their place. Protesters and the PUDR had demanded their suspension or dismissal and prosecution."
     actor: state
+    state: Odisha
     sources: [s27, s21, s25, s1, s14]
   - type: other
     date: 2006-01-07
     claim: happened
     description: "For the dawn-to-dusk Orissa bandh called by the Kalinga Nagar Surakhya Parishad and backed by opposition parties, the state stationed additional armed police platoons across the state and declared a holiday in all educational institutions. The Hindu reported that police stood by during rallies and roadblocks, that hundreds of bandh supporters courted arrest and that the bandh passed off without any major untoward incident."
     actor: state
+    state: Odisha
     sources: [s26, s22, s5]
     figures:
       - { what: "police platoons deployed in sensitive areas and industrial pockets", value: "about 164", claimed_by: "Orissa DGP Suchit Das, via UNI", source: s5 }
@@ -83,6 +88,7 @@ actions:
     date: 2006-01-02
     description: "Chief Minister Naveen Patnaik announced ex gratia of Rs 1 lakh for each family of the dead on 2 January and raised it to Rs 5 lakh on 5 January. The state also offered Rs 50,000 and free treatment to each injured person and a job for one member of each affected family. The Centre announced a further Rs 5 lakh per family from the Prime Minister's National Relief Fund. The families did not take the money: the Union Home Minister told the Lok Sabha that payment could not be made because the next of kin had not given bank account numbers, while reports said the families refused it and demanded Rs 20 lakh per death, five acres of land per acre acquired and action against officials. An essay in Down To Earth reported in February 2007 that only one of 13 families had accepted the Rs 10 lakh offer."
     actor: state
+    state: Odisha
     sources: [s27, s19, s21, s25, s14, s9, s4]
     figures:
       - { what: "injured persons to receive Rs 50,000 each", value: "32", claimed_by: "The Telegraph (Debabrata Mohanty)", source: s21 }
@@ -92,29 +98,34 @@ actions:
     legal_basis: Commissions of Inquiry Act, 1952
     description: "On 3 January 2006 the state government announced a judicial inquiry by a sitting High Court judge. The Hindu reported on 8 January that the High Court had first said no judge could be spared. By March 2006 the state had set up a commission of a sitting Orissa High Court judge under the Commissions of Inquiry Act, 1952, to report within six months. According to Sabrang India, this Justice A.S. Naidu commission was dissolved in May 2007 after the Supreme Court ruled that sitting judges could not head such inquiries, and a Justice R.K. Patra commission formed in January 2008 was dissolved when he became Lokpal. PTI reported that Justice P.K. Mohanty was appointed on 4 September 2009; his commission submitted its report on 3 July 2015, and the state accepted it on 8 June 2016."
     actor: state
+    state: Odisha
     sources: [s27, s29, s24, s20, s26, s32, s3, s15, s4]
   - type: barricading
     date: 2006-01-03
     claim: happened
     description: "From 3 January 2006 villagers blocked the Daitari-Paradip Express Highway (National Highway 200) near Gobarghati and Ambagadia, first with four of the bodies, and dug up the road surface. The Bisthapan Virodhi Jan Manch kept the blockade for about 14 months and barricaded the plant site and nearby villages against entry by officials. The Orissa High Court later recorded that the blockade of NH-200 had continued for more than a year."
     actor: other
+    state: Odisha
     sources: [s24, s20, s28, s2, s8, s4, s14]
   - type: negotiation
     date: 2006-05
     description: "Talks between Adivasi representatives and the state government in May 2006 did not produce a settlement. At a meeting between a Kalinganagar organisation and a government delegation headed by the Chief Minister, the government agreed to return the severed palms of five victims to their families."
     actor: state
+    state: Odisha
     sources: [s4, s16]
   - type: other
     date: 2006-01-05
     claim: happened
     description: "Doctors at the Jajpur district hospital cut off the palms of five of the dead during post-mortems; police said this was to take fingerprints for identification. On the night of 5 January the Chief Minister ordered the suspension of three doctors. The doctors said they were following police orders, and the chief district medical officer said he ordered the cutting after a written requisition from the Jajpur town police station; police later blamed the doctors. The state also asked the Orissa Human Rights Commission to inquire into allegations that private parts of the dead were mutilated. The Orissa Post reported in 2017 that the commission found the doctors had violated their service conduct rules, that the High Court barred punitive action against them and that their suspension was revoked; PTI and the Hindustan Times reported in 2018 that the doctors had been dismissed. According to NewsClick, the Mohanty commission found that the doctors had severed the palms without authority and contrary to the police request, and, according to a citizens' statement, absolved them of any oblique intent. In May 2006 the state agreed to return the palms; families refused them and demanded DNA tests. In November 2018 the preserved palms were taken from a club and found scattered near the memorial pillar."
     actor: state
+    state: Odisha
     sources: [s22, s30, s27, s11, s16, s10, s35, s17, s15, s13]
   - type: section_144
     date: 2007-03
     legal_basis: Section 144 CrPC, as reported by UNI
     description: "On 5 January 2007 the Orissa High Court, hearing a petition by a resident whose son died after being stopped at the blockade, directed the state to take effective steps to remove the NH-200 blockade immediately. In early March 2007 the administration imposed prohibitory orders under Section 144 CrPC in the area and mobilised about 35 platoons of armed police. Collector Arabinda Padhi and SP Asit Kumar Panigrahi failed to persuade the protesters on 8 March. The Jan Manch then lifted the blockade from midnight on 8-9 March 2007, citing the High Court order, while saying its opposition to land acquisition would continue. On 9 March state counsel told the High Court that the blockade had been removed."
     actor: state
+    state: Odisha
     sources: [s6, s28]
     figures:
       - { what: "armed police platoons mobilised", value: "nearly 35", claimed_by: "UNI", source: s6 }
@@ -126,6 +137,7 @@ actions:
     claim: happened
     description: "The Mohanty commission report and the state's action-taken report were tabled in the Odisha Assembly on 14 December 2017, about two and a half years after submission. The state cabinet had approved tabling in May 2017, when Congress and BJP leaders criticised the report for holding no one responsible. The Orissa High Court had earlier pressed the state to file the report before it. The commission found that there was no option for the executive magistrate but to order live firing after tear gas, stinger and stun shells, rubber bullets and firing in the air failed. It said some local leaders, political parties and others had led villagers toward confrontation, and it recommended welfare schemes for land losers, a job for one member of each bereaved family and extra compensation for the injured. The state said the recommendations had been complied with, including Rs 16.5 lakh in additional ex gratia for the injured. Residents and activists quoted by The Quint and NewsClick rejected the report. In January 2019 the Orissa Post, citing unnamed sources, reported that 605 R&R issues from Tata Steel's package were unresolved."
     actor: state
+    state: Odisha
     sources: [s30, s31, s3, s32, s33, s11, s17, s18]
     figures:
       - { what: "additional ex gratia released for injured persons", value: "Rs 16,50,000", claimed_by: "Odisha government action-taken report, as reported by the Orissa Post", source: s3 }

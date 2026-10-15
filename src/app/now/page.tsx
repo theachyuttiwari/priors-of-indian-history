@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getCurrent, fmtPeriod, similar, reviewStatus } from "@/lib/content";
+import { getCurrent, fmtPeriod, similar, reviewStatus, whereLine } from "@/lib/content";
 import ActionChip from "@/components/ActionChip";
 
 export const metadata = { title: "Now" };
@@ -19,9 +19,7 @@ export default function NowPage() {
       <div className="rows mt-10 border-t border-line">
         {current.map((ev) => {
           const sims = similar(ev, 3);
-          const where = ev.government.state
-            ? `${ev.government.state.party} in ${ev.government.state.name}, ${ev.government.centre.party} at the Centre`
-            : `${ev.government.centre.party} at the Centre`;
+          const where = whereLine(ev);
           return (
             <article key={ev.id} className="py-8">
               <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">

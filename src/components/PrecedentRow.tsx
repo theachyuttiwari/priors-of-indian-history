@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ActionType, Precedent } from "@/lib/schema";
 import { fmtPeriod, years } from "@/lib/format";
+import { whereLine } from "@/lib/content";
 import ActionChip from "./ActionChip";
 import ActionWords from "./ActionWords";
 
@@ -17,9 +18,7 @@ export default function PrecedentRow({
   detail?: boolean;
 }) {
   const types = [...new Set(p.actions.map((a) => a.type))];
-  const where = p.government.state
-    ? `${p.government.state.party} in ${p.government.state.name}, ${p.government.centre.party} at the Centre`
-    : `${p.government.centre.party} at the Centre`;
+  const where = whereLine(p);
   return (
     <Link href={href ?? `/precedents/${p.id}/`} className="row quiet">
       <span className="num text-ink-3 text-[15px]" title={fmtPeriod(p.period)}>

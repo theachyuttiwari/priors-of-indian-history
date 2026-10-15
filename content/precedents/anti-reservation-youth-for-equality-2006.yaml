@@ -37,12 +37,14 @@ actions:
     claim: happened
     description: "Hundreds of medical students marched from Lady Hardinge Medical College towards the Prime Minister's Office and were stopped near Rajpath. The Tribune reported that riot police turned water cannon on them and then lobbed tear gas shells to push them back. The Hindu reported that tear gas shells were fired and water cannon used after some students broke the security cordon at Rajpath."
     actor: police
+    state: Delhi
     sources: [s2, s26]
   - type: lathi_charge
     date: 2006-05-12
     claim: happened
     description: "Accounts differ. Amitasha Sinha of Lady Hardinge Medical College told The Tribune that students were injured when police used lathis on them. The Hindu reported that some students alleged they had been roughed up and that police officials categorically denied a lathi charge. A police spokesman said policemen were injured and taken to hospital because of violence by students (see figures). On 16 May the NHRC called for a factual report from the Delhi Police Commissioner on the alleged lathi charge."
     actor: police
+    state: Delhi
     sources: [s2, s26, s1]
     figures:
       - { what: students injured, value: "20", claimed_by: "Amitasha Sinha, Lady Hardinge Medical College student (quoted in The Tribune)", source: s2 }
@@ -52,12 +54,14 @@ actions:
     claim: happened
     description: "Police put the protesting students into 13 police buses and took them to the Connaught Place, Chanakyapuri and Tughlaq Road police stations, according to The Tribune. The Hindu reported that the students courted mass arrest and were released later in the evening."
     actor: police
+    state: Delhi
     sources: [s2, s26]
   - type: lathi_charge
     date: 2006-05-13
     claim: happened
     description: "Mumbai Police caned medical students who had blocked Walkeshwar Road, which leads to the Governor's and Chief Minister's residences, according to PTI, which reported injuries and detentions (see figures). Police alleged that the doctors had tried to barge into Raj Bhavan; doctors who spoke to UNI said they had been protesting silently. Doctors then protested at Azad Maidan on 15 May against the police action and the quota. The NHRC called for a factual report from the Mumbai Police Commissioner."
     actor: police
+    state: Maharashtra
     sources: [s39, s3, s1]
     figures:
       - { what: students injured in the police action, value: "over a dozen", claimed_by: PTI, source: s39 }
@@ -86,6 +90,7 @@ actions:
     claim: happened
     description: "The Tribune reported that pro-quota medical students marching in Patna attacked photographers, journalists and policemen with hockey sticks and stones, and that police then lathi-charged them; the police suspected the involvement of anti-social elements. Injury counts are in figures. Chief Minister Nitish Kumar asked the Director General of Police, Ashish Ranjan Sinha, to inquire into the circumstances that led to the lathi charge."
     actor: state
+    state: Bihar
     sources: [s19]
     figures:
       - { what: people injured in the violence and the lathi charge, value: "over 35", claimed_by: The Tribune, source: s19 }
@@ -103,6 +108,7 @@ actions:
     legal_basis: "Essential Services Maintenance Act (ESMA), as reported by PTI; the sources do not name the state statute"
     description: "The Uttar Pradesh Government invoked the Essential Services Maintenance Act against doctors opposed to reservation and declared their strike illegal. Chief Secretary Navin Chandra Bajpai said doctors of the Sanjay Gandhi Post-Graduate Institute of Medical Sciences in Lucknow who did not return to duty within 24 hours would have their services terminated and face action under the Act. The institute's resident doctors called off their strike on 27 May; their association president said they did so in response to an appeal by President A.P.J. Abdul Kalam and that the Act did not cover them because they were not regular employees."
     actor: state
+    state: Uttar Pradesh
     sources: [s31, s44]
   - type: concession
     date: 2006-05-27

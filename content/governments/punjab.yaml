@@ -1,0 +1,121 @@
+# Punjab, from the term in office on 1974-01-01.
+# Dates and party: list "Chief Ministers of Punjab" in the Punjab Vidhan Sabha Who's Who (2022),
+# pages iii-iv. Where one term's end date equals the next term's start date, `to` here is the day
+# before. President's Rule: MHA statement of proclamations under Article 356.
+name: Punjab
+terms:
+  - from: 1972-03-17
+    to: 1977-04-29
+    head: Giani Zail Singh
+    party: INC
+    sources: [pb-whos-who-2022]
+  # MHA: proclaimed 30.4.1977, revoked 20.6.1977.
+  - from: 1977-04-30
+    to: 1977-06-19
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, pb-whos-who-2022]
+  - from: 1977-06-20
+    to: 1980-02-16
+    head: Prakash Singh Badal
+    party: SAD
+    sources: [pb-whos-who-2022]
+  # CONFLICT: MHA gives proclamation 17.2.1980 and revocation 7.6.1980; the Who's Who gives
+  # 18.02.1980 to 06.06.1980, and Darbara Singh from 06.06.1980. MHA proclamation date is used for
+  # the start; the end follows the Who's Who date on which Darbara Singh took office.
+  - from: 1980-02-17
+    to: 1980-06-05
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, pb-whos-who-2022]
+  - from: 1980-06-06
+    to: 1983-10-05
+    head: Darbara Singh
+    party: INC
+    sources: [pb-whos-who-2022]
+  # MHA: proclaimed 6.10.1983, revoked 29.9.1985.
+  - from: 1983-10-06
+    to: 1985-09-28
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, pb-whos-who-2022]
+  - from: 1985-09-29
+    to: 1987-05-10
+    head: Surjit Singh Barnala
+    party: SAD
+    sources: [pb-whos-who-2022]
+  # CONFLICT: MHA gives revocation 23.2.1992; the Who's Who ends President's Rule on 25.02.1992,
+  # the day Beant Singh took office. The Who's Who end is used so there is no gap.
+  - from: 1987-05-11
+    to: 1992-02-24
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mha-pr-statement, pb-whos-who-2022]
+  - from: 1992-02-25
+    to: 1995-08-30
+    head: Beant Singh
+    party: INC
+    sources: [pb-whos-who-2022]
+  - from: 1995-08-31
+    to: 1996-11-20
+    head: Harcharan Singh Brar
+    party: INC
+    sources: [pb-whos-who-2022]
+  - from: 1996-11-21
+    to: 1997-02-11
+    head: Rajinder Kaur Bhattal
+    party: INC
+    sources: [pb-whos-who-2022]
+  # The Who's Who ends this term on 24.02.2002 and starts the next on 26.02.2002. The outgoing
+  # Chief Minister is taken to have continued until his successor took office.
+  - from: 1997-02-12
+    to: 2002-02-25
+    head: Parkash Singh Badal
+    party: SAD
+    sources: [pb-whos-who-2022]
+  - from: 2002-02-26
+    to: 2007-02-28
+    head: Amarinder Singh
+    party: INC
+    sources: [pb-whos-who-2022]
+  - from: 2007-03-01
+    to: 2017-03-15
+    head: Parkash Singh Badal
+    party: SAD
+    sources: [pb-whos-who-2022]
+  - from: 2017-03-16
+    to: 2021-09-19
+    head: Amarinder Singh
+    party: INC
+    sources: [pb-whos-who-2022]
+  - from: 2021-09-20
+    to: 2022-03-15
+    head: Charanjit Singh Channi
+    party: INC
+    sources: [pb-whos-who-2022]
+  - from: 2022-03-16
+    head: Bhagwant Mann
+    party: AAP
+    sources: [pb-whos-who-2022, pb-govt-cm-page]
+sources:
+  - id: pb-whos-who-2022
+    title: Who's Who of Members, Sixteenth Punjab Vidhan Sabha 2022 (list "Chief Ministers of Punjab", pp. iii-iv)
+    publisher: Punjab Vidhan Sabha Secretariat
+    url: https://cms.neva.gov.in/NeVA/PB/FileStructures//Notices/abe54cbd-3d10-408a-bf29-121d8913c189.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: pb-govt-cm-page
+    title: Chief Minister (Who's Who)
+    publisher: Government of Punjab
+    url: https://punjab.gov.in/government/whos-who/chief-minister/
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15

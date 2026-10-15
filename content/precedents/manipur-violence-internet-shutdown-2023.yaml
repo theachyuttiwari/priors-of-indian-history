@@ -38,6 +38,7 @@ actions:
     claim: ordered
     description: "By an order of the Commissioner (Home) dated 3 May 2023, mobile data was suspended statewide for five days, and an order of 4 May extended the suspension to all internet services including broadband and VSAT, according to the Internet Freedom Foundation (IFF). The orders were renewed every five days and cited the spread of disinformation and false rumours through social media. In Churachandpur and Pherzawl districts internet had been suspended earlier: from 27 April according to IFF, which cites an order of that date, and from 28 April according to SFLC.in. On 7 July the Manipur High Court referred to \"the complete ban imposed by the State Government on providing internet service in the State\". Leased-line and fibre broadband were partly restored on 25 July, and the statewide suspension was lifted on 23 September, according to SFLC.in. On 26 September the Home Department again suspended mobile data and VPN services for five days; The Wire reported that the order cited disinformation, false rumours and the mobilisation of mobs of agitators and demonstrators. SFLC.in reported that the suspension was extended in five-day blocks and relaxed on 3 December 2023 except in areas the state described as still volatile. Counts of the length of the first shutdown differ (see figures)."
     actor: state
+    state: Manipur
     sources: [s20, s19, s1, s28]
     figures:
       - { what: days of internet suspension before broadband was partly restored on 25 July 2023, value: "83", claimed_by: SFLC.in, source: s1 }
@@ -49,6 +50,7 @@ actions:
     legal_basis: Section 144 CrPC, 1973 (as quoted from an Imphal East District Magistrate circular referring to an order of 3 May 2023)
     description: "Deccan Herald reported that curfew was imposed on 3 May in Imphal West, Kakching, Thoubal, Jiribam and Bishnupur districts and in Churachandpur, Kangpokpi and Tengnoupal districts. An Imphal East District Magistrate circular of June 2023, quoted by ANI, referred to a total public curfew under Section 144 CrPC imposed in that district by an order of 3 May 2023, and relaxed it for set hours. Al Jazeera reported in August 2023 that a curfew remained in force in most parts of the state. PTI reported that on 27 September 2023 curfew in Imphal East and Imphal West was relaxed for daytime hours, and quoted the notification as saying the relaxation did not include gatherings, sit-ins or rallies without approval."
     actor: state
+    state: Manipur
     sources: [s26, s27, s25, s5, s31]
   - type: other
     date: 2023-05-04
@@ -56,6 +58,7 @@ actions:
     legal_basis: Code of Criminal Procedure, 1973 (as named in Order No. H-3608/2/2023-HD-HD)
     description: "Shoot-at-sight authorisation. By Order No. H-3608/2/2023-HD-HD of 4 May 2023, issued by the Commissioner (Home) in the name of the Governor of Manipur and citing the situation after the Tribal Solidarity March of 3 May, the state authorised all District Magistrates, Sub-Divisional Magistrates and Executive Magistrates/Special Executive Magistrates to issue shoot-at-sight orders 'in extreme cases whereby all forms of persuasion, warning, reasonable force, etc. had been exhausted under the provisions of law under CrPC, 1973 and the situation could not be controlled'."
     actor: state
+    state: Manipur
     sources: [s23, s24, s2]
   - type: other
     date: 2023-05-04
@@ -95,6 +98,7 @@ actions:
     claim: happened
     description: "Students in Imphal protested on 26 September 2023 against the killing of two Meitei students, Hijam Linthoingambi and Phijam Hemjit, who had been missing since July. Police fired tear gas, according to The Wire and Anadolu. The Wire, citing sources and video, and PTI reported that protesters were also baton-charged, and PTI reported that Rapid Action Force personnel fired rubber bullets in Singjamei that night. Counts of the injured differ (see figures). In a press statement reported by The Wire, Manipur Police said some protesters used iron pieces and stones against security forces and that minimum force was used to disperse them. Protests and the use of force continued on 27 September. The state reimposed the mobile internet suspension on 26 September (see the internet shutdown action)."
     actor: police
+    state: Manipur
     sources: [s28, s30, s29, s31]
     figures:
       - { what: protesters injured on the night of 26 September, mostly students, value: "45", claimed_by: PTI, source: s31 }

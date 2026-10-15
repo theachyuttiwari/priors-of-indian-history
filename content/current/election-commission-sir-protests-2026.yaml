@@ -32,24 +32,28 @@ actions:
     claim: happened
     description: "Police detained AISA national president Neha Bora during a protest in New Delhi demanding Kumar's resignation (Reuters photo caption)."
     actor: police
+    state: Delhi
     sources: [o5]
   - type: detention
     date: 2026-10-04
     claim: happened
     description: "Police in Delhi and Mumbai detained some demonstrators for a third day as youth and opposition supporters rallied for the election chief's resignation. No count was given."
     actor: police
+    state: [Delhi, Maharashtra]
     sources: [o9]
   - type: detention
     date: 2026-10-07
     claim: happened
     description: "Police detained Rahul Gandhi, Priyanka Gandhi Vadra and other INDIA bloc MPs as they tried to march to Jantar Mantar to demand Kumar's resignation. AP and Reuters reported it was Gandhi's third detention in two days. He was taken to Barakhamba police station and released later that day."
     actor: police
+    state: Delhi
     sources: [o5, o4, o38, o39]
   - type: permission_denied
     date: 2026-10-09
     claim: ordered
     description: "Delhi Police denied permission for the CJP's 10 October rally at Jantar Mantar. Joint Commissioner Nupur Prasad said the application, from CJP co-convener Saurav Das, came too late under a guideline that requires 10 days' notice, that the CJP had not complied with its undertakings at an earlier protest, and that law and order, public safety and traffic were considered. She said prohibitory orders under Section 163 of the BNSS were in force in the New Delhi area."
     actor: police
+    state: Delhi
     legal_basis: "Section 163, Bharatiya Nagarik Suraksha Sanhita (prohibitory orders in the New Delhi area); Delhi Police guideline requiring 10 days' notice for protests at Jantar Mantar"
     sources: [o15, o12, o16, o8]
   - type: barricading
@@ -57,6 +61,7 @@ actions:
     claim: happened
     description: "Police sealed Jantar Mantar, set up checkpoints and concrete barriers on main roads and entry points, and deployed tens of thousands of police and paramilitary personnel. Entry and exit at dozens of metro stations were closed from the night of 9 October at Delhi Police's request, and trains into New Delhi were cancelled. Counts of personnel, closed stations and cancelled trains differ."
     actor: police
+    state: Delhi
     sources: [o4, o10, o17, o1, o8, o11]
     court_outcomes:
       - summary: "On 9 October the Supreme Court, in M.A. Baby v. Union of India, observed that Delhi Police communications closing 57 metro stations and cancelling trains appeared to be overreaching and said metro services could be regulated but not banned outright. On 11 October it directed that metro and rail services run normally subject to public order, that barricades be reviewed and that free movement be permitted, and issued notice on a contempt petition over the closures."
@@ -84,12 +89,14 @@ actions:
     claim: happened
     description: "Police boarded the Air India flight that brought CJP founder Abhijeet Dipke and leaders Saurav Das and Ashutosh Ranka from Mumbai and detained them on arrival in New Delhi, before the rally. The CJP said they were denied access to lawyers. YouTuber Dhruv Rathee was detained from his home in Gurugram and AISA president Neha Bora was also detained."
     actor: police
+    state: [Delhi, Haryana]
     sources: [o4, o10, o2, o1, o17]
   - type: detention
     date: 2026-10-10
     claim: happened
     description: "Mass detentions across New Delhi; detainees were held in stadiums, community centres and police stations. Those detained included former chief ministers Mamata Banerjee, Arvind Kejriwal, Pinarayi Vijayan and Manik Sarkar. Counts differ (see figures). ANI reported about 600 arrests in Mumbai. Police did not comment on the numbers."
     actor: police
+    state: [Delhi, Maharashtra]
     sources: [o4, o10, o8, o1, o40, o17, o11]
     court_outcomes:
       - summary: "In a special sitting on 11 October on a habeas corpus petition by Menaka Guruswamy and a contempt petition, the Supreme Court directed that no person be detained except in accordance with procedure established by law, particularly peaceful and unarmed assemblies outside the area under Section 163 BNSS orders, and that advocates not be hindered in their professional duties. The Solicitor General said the habeas petition may not survive because the detainees had been released."
@@ -108,6 +115,7 @@ actions:
     claim: happened
     description: "Police detained journalists covering the protests, including three Newslaundry reporters and an intern and Scroll's Ayush Tiwari and Shoaib Daniyal on 10 October; Newslaundry said some equipment was seized. More journalists were detained on 11 October. All were later released."
     actor: police
+    state: Delhi
     sources: [o18, o4, o3, o19, o1]
     figures:
       - { what: journalists detained on 11 October, value: "at least 11", claimed_by: Scroll, source: o19 }
@@ -123,6 +131,7 @@ actions:
     claim: happened
     description: "For a third day police deployed thousands of personnel in central Delhi, set up metal barricades and kept six major metro stations shut as Rahul Gandhi and INDIA bloc leaders led a march from Connaught Place toward the Supreme Court. Police stopped the march on Bhagwan Das Marg, about 600 m from the court, after protesters crossed the first barricade. The leaders filed a petition against the SIR that evening."
     actor: police
+    state: Delhi
     sources: [o20, o5, o3]
     figures:
       - { what: police officers deployed, value: "more than 30,000", claimed_by: Al Jazeera, source: o5 }
@@ -131,6 +140,7 @@ actions:
     claim: ordered
     description: "A standing order issued by Delhi Police Commissioner Anurag Kumar on 11 October, and made public on 12 October, denotified Jantar Mantar as the designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi as new venues. The order cites the recommendations of a committee set up by the Home Ministry and says revised procedures for the new venues will be issued separately."
     actor: police
+    state: Delhi
     legal_basis: "Delhi Police standing order of 11 October 2026, in partial modification of Standing Order No. L&O/48/22 dated 28.04.2022"
     sources: [o25, o26, o6, o27]
   - type: detention
@@ -138,6 +148,7 @@ actions:
     claim: happened
     description: "Police detained CJP leaders Ashutosh Ranka, Saurav Das and Ajinkya Shinde and other volunteers after they climbed the gates and barricades into Jantar Mantar with the national flag. Police registered an FIR alleging unlawful assembly and disobedience of an order promulgated by a public servant."
     actor: police
+    state: Delhi
     sources: [o21, o6, o24, o23, o41]
     figures:
       - { what: CJP volunteers who entered Jantar Mantar and were detained, value: "about 20", claimed_by: Reuters, source: o6 }
@@ -147,6 +158,7 @@ actions:
     claim: ordered
     description: "A Special Executive Magistrate remanded Ashutosh Ranka and Saurav Das to five days of judicial custody in Tihar Jail; Ajinkya Shinde was released on a personal bond. Police said the two had violated the peace bonds signed after their 10 October detention. Their lawyer Abhisht Hela said the Special Executive Magistrates were police officers of Superintendent rank, not judicial magistrates, and that the order was passed without application of judicial mind."
     actor: other
+    state: Delhi
     legal_basis: "Sections 126 and 170, Bharatiya Nagarik Suraksha Sanhita (as stated by Delhi Police)"
     sources: [o21, o22, o23, o7]
 outcome: >

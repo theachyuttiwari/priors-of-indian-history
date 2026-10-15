@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { canonicalParty } from "./parties";
 
 export const ACTION_TYPES = [
   "permission_denied",
@@ -124,7 +125,7 @@ const Source = z.object({
 });
 
 const Government = z.object({
-  party: z.string(),
+  party: z.string().transform(canonicalParty),
   alliance: OptStr,
   head: OptStr,
   role: OptStr,
@@ -152,6 +153,14 @@ const Action = z.object({
   date: DateStr.nullish().transform((v) => v ?? undefined),
   description: z.string(),
   actor: z.enum(["centre", "state", "police", "court", "other"]).optional().default("state"),
+  /**
+   * Where a state, police or other action took place: one state or Union Territory, or several when
+   * one action spans them. Names as in content/governments. Decides which government it counts for.
+   */
+  state: z
+    .union([z.string(), z.array(z.string())])
+    .optional()
+    .transform((v) => (v === undefined ? [] : Array.isArray(v) ? v : [v])),
   sources: z.array(z.string()).optional().default([]),
   /** Overrides the claim kind inferred from type and actor. */
   claim: z.enum(CLAIMS).optional(),
@@ -179,7 +188,7 @@ const Quote = z.object({
 });
 
 const Position = z.object({
-  party: z.string(),
+  party: z.string().transform(canonicalParty),
   person: OptStr,
   role_at_time: OptStr,
   in_power: z.boolean(),
@@ -251,6 +260,38 @@ export const Precedent = z.object({
 });
 
 export type Precedent = z.infer<typeof Precedent>;
+
+/**
+ * Who governed, by date (content/governments/*.yaml): one file for the Centre, one per state or
+ * Union Territory. A term is a head of government and their party, President's Rule, or
+ * administration by the Centre (a Union Territory without its own government).
+ */
+const Term = z.object({
+  from: DateStr,
+  /** Last day in office. Omit for the term in office now. */
+  to: DateStr.nullish().transform((v) => v ?? undefined),
+  head: z.string(),
+  /** Party of the head of government. Omit for President's Rule and Centre administration. */
+  party: OptStr.transform((v) => v && canonicalParty(v)),
+  alliance: OptStr,
+  /** "elected": a Chief Minister or Prime Minister. "presidents_rule" and "centre" count for the Centre. */
+  kind: z.enum(["elected", "presidents_rule", "centre"]).optional().default("elected"),
+  sources: z.array(z.string()).min(1),
+});
+
+export const GovernmentFile = z.object({
+  /** "Centre", or the state or Union Territory name used in an action's `state` field. */
+  name: z.string(),
+  /** Earlier names, such as Orissa for Odisha. Actions may use either. */
+  aliases: z.array(z.string()).optional().default([]),
+  /** Who controls the police, when not the state government (Delhi Police reports to the Union Home Ministry). */
+  police: z.enum(["state", "centre"]).optional().default("state"),
+  police_note: OptStr,
+  terms: z.array(Term),
+  sources: z.array(Source),
+});
+export type GovernmentFile = z.infer<typeof GovernmentFile>;
+export type Term = z.infer<typeof Term>;
 export type Action = z.infer<typeof Action>;
 export type Position = z.infer<typeof Position>;
 export type Source = z.infer<typeof Source>;

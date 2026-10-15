@@ -1,0 +1,251 @@
+# Jharkhand, from its creation on 15 November 2000 (Bihar Reorganisation Act, 2000). Before that
+# date the territory is covered by bihar.yaml.
+# Dates: Jharkhand Vidhan Sabha page "झारखण्ड के मुख्यमंत्री" (Chief Ministers of Jharkhand, Hindi).
+# President's Rule spells: Lok Sabha book "President's Rule in States and Union Territories"
+# (2016), which gives the dates of each proclamation and revocation from the Gazette of India.
+# Party: the Jharkhand Vidhan Sabha lists of elected members of each assembly (Hindi PDFs in a
+# legacy font, names decoded by hand; the fifth-assembly list is the Election Commission
+# notification, in English) give the party on which a Chief Minister sat as an MLA. Shibu Soren was not an MLA during his terms; his party
+# rests on the Lok Sabha book and a news report. Party for the term in office now: Chief
+# Minister's Office profile and news reports.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+# Where the Vidhan Sabha list leaves a gap of a few days between two Chief Ministers and no source
+# found here says the outgoing Chief Minister was asked to continue, the gap is kept and noted.
+name: Jharkhand
+terms:
+  # Vidhan Sabha list: 15 November 2000 to 17 March 2003. Party: first-assembly member list,
+  # Ramgarh by-election 2001, Bharatiya Janata Party.
+  - from: 2000-11-15
+    to: 2003-03-17
+    head: Babulal Marandi
+    party: BJP
+    sources: [jh-vs-cms, jh-vs-mla-1]
+  # Vidhan Sabha list: 18 March 2003 to 1 March 2005. Party: first-assembly member list,
+  # Kharsawan, Bharatiya Janata Party.
+  - from: 2003-03-18
+    to: 2005-03-01
+    head: Arjun Munda
+    party: BJP
+    sources: [jh-vs-cms, jh-vs-mla-1]
+  # Vidhan Sabha list: 2 March 2005 to 11 March 2005. The Vidhan Sabha confidence-motion list
+  # records that the pro-tem Speaker did not allow his motion of 11.03.2005 to be moved. Party:
+  # The Tribune (2 March 2005), "JMM chief Shibu Soren", heading a UPA ministry.
+  - from: 2005-03-02
+    to: 2005-03-11
+    head: Shibu Soren
+    party: JMM
+    sources: [jh-vs-cms, jh-vs-confidence, tribune-soren-2005]
+  # Vidhan Sabha list: 12 March 2005 to 14 September 2006. The confidence-motion list records
+  # that he announced his resignation in the House on 14.09.2006. The list assigns no Chief
+  # Minister to 15-17 September 2006. Party: second-assembly member list, Kharsawan, Bharatiya
+  # Janata Party.
+  - from: 2005-03-12
+    to: 2006-09-14
+    head: Arjun Munda
+    party: BJP
+    sources: [jh-vs-cms, jh-vs-confidence, jh-vs-mla-2]
+  # Vidhan Sabha list: 18 September 2006 to 24 August 2008. The list assigns no Chief Minister to
+  # 25-26 August 2008. Party: second-assembly member list, Jagannathpur, independent ("निर्दलीय").
+  # The sources here do not name the parties that supported his government, so no alliance is
+  # given.
+  - from: 2006-09-18
+    to: 2008-08-24
+    head: Madhu Koda
+    party: other (Independent)
+    sources: [jh-vs-cms, jh-vs-mla-2]
+  # Vidhan Sabha list: 27 August 2008 to 12 January 2009. The Lok Sabha book names "Shri Shibu
+  # Soren (JMM)" as the Chief Minister at the time of the proclamation of 19 January 2009, and says
+  # he resigned after losing an assembly by-election; it gives no date for the resignation. The
+  # term is therefore run to the day before President's Rule, against the list's end date.
+  # Party: Lok Sabha book, JMM.
+  - from: 2008-08-27
+    to: 2009-01-18
+    head: Shibu Soren
+    party: JMM
+    sources: [jh-vs-cms, ls-pr-book]
+  # Lok Sabha book: proclaimed 19-1-09, revoked 30-12-09.
+  - from: 2009-01-19
+    to: 2009-12-29
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Vidhan Sabha list: 30 December 2009 to 31 May 2010. Lok Sabha book: coalition government formed
+  # on 30 December 2009; President's Rule proclaimed on 01-06-10 after the BJP withdrew support
+  # from the JMM-BJP coalition. Party: Lok Sabha book, Jharkhand Mukti Morcha.
+  - from: 2009-12-30
+    to: 2010-05-31
+    head: Shibu Soren
+    party: JMM
+    sources: [jh-vs-cms, ls-pr-book]
+  # Lok Sabha book: proclaimed 01-06-10, revoked 11-09-10.
+  - from: 2010-06-01
+    to: 2010-09-10
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Vidhan Sabha list: 11 September 2010 to 18.01.2013. Lok Sabha book: BJP-JMM coalition
+  # government sworn in on 11-09-2010; President's Rule proclaimed on 18-01-13. Party: Lok Sabha
+  # book, Bharatiya Janata Party; third-assembly member list, Kharsawan by-election 2011, BJP.
+  - from: 2010-09-11
+    to: 2013-01-17
+    head: Arjun Munda
+    party: BJP
+    sources: [jh-vs-cms, ls-pr-book, jh-vs-mla-3]
+  # Lok Sabha book: proclaimed 18-01-13, revoked 13-07-13.
+  - from: 2013-01-18
+    to: 2013-07-12
+    head: President's Rule
+    kind: presidents_rule
+    sources: [ls-pr-book]
+  # Vidhan Sabha list: 13 July 2013 to 23.12.2014. Lok Sabha book: JMM-INC-RJD coalition headed by
+  # Hemant Soren sworn in on 13-07-2013. The list assigns no Chief Minister to 24-27 December 2014.
+  # Party: third-assembly member list, Dumka, Jharkhand Mukti Morcha.
+  - from: 2013-07-13
+    to: 2014-12-23
+    head: Hemant Soren
+    party: JMM
+    sources: [jh-vs-cms, ls-pr-book, jh-vs-mla-3]
+  # Vidhan Sabha list: 28 December 2014 to 23 December 2019. The list assigns no Chief Minister to
+  # 24-28 December 2019. Party: fourth-assembly member list, Jamshedpur East, Bharatiya Janata Party.
+  - from: 2014-12-28
+    to: 2019-12-23
+    head: Raghubar Das
+    party: BJP
+    sources: [jh-vs-cms, jh-vs-mla-4]
+  # Vidhan Sabha list: 29 December 2019 to 31 January 2024. The list assigns no Chief Minister to
+  # 1 February 2024. Party: fifth-assembly member list, Barhait and Dumka, Jharkhand Mukti Morcha.
+  - from: 2019-12-29
+    to: 2024-01-31
+    head: Hemant Soren
+    party: JMM
+    sources: [jh-vs-cms, jh-vs-mla-5]
+  # Vidhan Sabha list: 2 February 2024 to 3 July 2024. Party: fifth-assembly member list,
+  # Seraikella, Jharkhand Mukti Morcha. He left the JMM after this term; that change falls outside
+  # the term.
+  - from: 2024-02-02
+    to: 2024-07-03
+    head: Champai Soren
+    party: JMM
+    sources: [jh-vs-cms, jh-vs-mla-5]
+  # Vidhan Sabha list: 4 July 2024 to 24 November 2024. All India Radio: he resigned on 24 November
+  # 2024 and the Governor asked him to continue as caretaker Chief Minister until a new government
+  # was formed; the new government was sworn in on 28 November. The term is run to 27 November.
+  # Party: All India Radio (4 July 2024), "Executive President of Jharkhand Mukti Morcha (JMM)".
+  - from: 2024-07-04
+    to: 2024-11-27
+    head: Hemant Soren
+    party: JMM
+    sources: [jh-vs-cms, air-hemant-2024-07, air-hemant-caretaker-2024]
+  # CONFLICT: the Vidhan Sabha list starts this term on 27 November 2024; The Tribune reports the
+  # oath on Thursday, 28 November 2024, and All India Radio reported on 24-25 November that the oath
+  # would be on 28 November. The oath date is used. Party: Chief Minister's Office profile,
+  # "झारखण्ड मुक्ति मोर्चा"; The Tribune, "Jharkhand Mukti Morcha (JMM) supremo".
+  - from: 2024-11-28
+    head: Hemant Soren
+    party: JMM
+    sources: [jh-vs-cms, jh-cmo-profile, tribune-hemant-2024-11]
+sources:
+  - id: jh-vs-cms
+    title: झारखण्ड के मुख्यमंत्री (Chief Ministers of Jharkhand)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/%E0%A4%9D%E0%A4%BE%E0%A4%B0%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1-%E0%A4%95%E0%A5%87-%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%80
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-confidence
+    title: झारखण्ड विधानसभा में विश्वास का प्रस्ताव (Confidence motions in the Jharkhand Vidhan Sabha)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8-%E0%A4%95%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%B5
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-mla-1
+    title: प्रथम झारखण्ड विधान-सभा के निर्वाचित सदस्य (Members elected to the First Jharkhand Vidhan Sabha)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/sites/default/files/FirstMLAList.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-mla-2
+    title: द्वितीय झारखण्ड विधान-सभा के माननीय सदस्य (Members of the Second Jharkhand Vidhan Sabha)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/sites/default/files/2ndAssemblyMember.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-mla-3
+    title: तृतीय झारखण्ड विधान सभा के निर्वाचित सदस्य (Members elected to the Third Jharkhand Vidhan Sabha)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/sites/default/files/3rdAssemblyMember.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-mla-4
+    title: चतुर्थ झारखण्ड विधान सभा के माननीय सदस्यों की सूची (Members of the Fourth Jharkhand Vidhan Sabha)
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/sites/default/files/4thAsseblyMember.pdf
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: jh-vs-mla-5
+    title: "Members of the Fifth Jharkhand Vidhan Sabha: Election Commission of India notification No. 308/JKD-LA/2019 of 24 December 2019, Jharkhand Gazette (Extraordinary), 26 December 2019"
+    publisher: Jharkhand Vidhan Sabha
+    url: https://vidhansabha.jharkhand.gov.in/sites/default/files/list2019.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: jh-cmo-profile
+    title: Chief Minister Profile
+    publisher: Chief Minister's Office, Government of Jharkhand
+    url: https://cm.jharkhand.gov.in/cmprofile
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tribune-soren-2005
+    title: Soren is Jharkhand CM; Governor's action triggers protests
+    publisher: The Tribune
+    url: https://www.tribuneindia.com/2005/20050303/main1.htm
+    date: 2005-03-03
+    type: news
+    tier: secondary
+    accessed: 2026-10-15
+  - id: air-hemant-2024-07
+    title: Hemant Soren takes oath as Jharkhand CM for third term
+    publisher: All India Radio News
+    url: https://newsonair.gov.in/hemant-soren-takes-oath-as-jharkhand-cm-for-third-term
+    date: 2024-07-04
+    type: official
+    tier: secondary
+    accessed: 2026-10-15
+  - id: air-hemant-caretaker-2024
+    title: Hemant Soren stakes claim to form government in Jharkhand; To take oath as CM on Nov 28
+    publisher: All India Radio News
+    url: https://www.newsonair.gov.in/hemant-soren-stakes-claim-to-form-new-government-in-jharkhand
+    date: 2024-11-25
+    type: official
+    tier: secondary
+    accessed: 2026-10-15
+  - id: tribune-hemant-2024-11
+    title: Hemant Soren takes oath as 14th Jharkhand Chief Minister
+    publisher: The Tribune
+    author: Shubhadeep Chaudhary
+    url: https://www.tribuneindia.com/news/india/hemant-soren-takes-oath-as-14th-jharkhand-chief-minister
+    date: 2024-11-29
+    type: news
+    tier: report
+    accessed: 2026-10-15

@@ -36,6 +36,7 @@ actions:
     legal_basis: "Section 144 CrPC: a prohibitory order on assembly between Ferkuwa and the Madhya Pradesh border, as reported in Abhiyan"
     description: "Gujarat police stopped the march at Ferkuwa on the Gujarat-Madhya Pradesh border and did not let the marchers through to the dam site. Abhiyan reported a camp of Gujarat Police and State Reserve Police at Ferkuwa, a Section 144 order on the Gujarat side, and that on 2 January 1991 the district collector, with the police, stopped 25 protesters who then sat on the road all day. Asia Watch reported, citing the Times of India, that marchers who crossed the border on 4 January were pushed back and detained. Asia Watch also reported that on 25 January police from Maharashtra and Gujarat charged into the group, arrested scores and beat them with canes. The Caravan, from later interviews with marchers, reported that many were beaten, arrested and moved kilometres from the border. Gujarat Chief Minister Chimanbhai Patel said in an India Today debate in November 1992: \"There have been no human rights violations.\""
     actor: police
+    state: Gujarat
     sources: [s6, s7, s14, s9]
     figures:
       - { what: Gujarat Police and State Reserve Police personnel in the camp at Ferkuwa, value: "about 1,500", claimed_by: Abhiyan (Sheela Bhatt), source: s6 }
@@ -46,6 +47,7 @@ actions:
     claim: happened
     description: "Maharashtra police arrested Medha Patkar in Dhule district shortly before she was to leave for Stockholm to receive the Right Livelihood Award on behalf of the NBA. Asia Watch reported that she was arrested on 17 November 1991 on charges pending from NBA demonstrations since 1990, including unlawful assembly, and released on 19 November. India Today reported that her arrest drew international protest and that she was released the next day. Asia Watch also reported earlier detentions of Patkar at protests in Kevadia (January 1990) and Kasravad (September 1990), and the Goldman Prize citation says she was repeatedly beaten and arrested by police during her protests."
     actor: police
+    state: Maharashtra
     sources: [s8, s7, s3]
   - type: other
     date: 1993-03-29

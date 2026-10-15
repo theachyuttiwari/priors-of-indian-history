@@ -1,0 +1,67 @@
+# Telangana, from its creation on 2014-06-02. Before that date its territory was part of
+# undivided Andhra Pradesh (see andhra-pradesh.yaml), which was under President's Rule from
+# 2014-03-01. The Lok Sabha Secretariat book gives the end of President's Rule in Telangana as
+# 01-06-2014.
+# The Telangana Legislature website could not be reached, so dates come from the Lok Sabha book,
+# the Prime Minister's Office and news reports.
+name: Telangana
+terms:
+  # Lok Sabha book: K. Chandrasekhar Rao of the TRS sworn in on 02-06-2014. PTI (8 December 2022):
+  # the Election Commission accepted the change of the party's name from Telangana Rashtra Samithi
+  # to Bharat Rashtra Samithi (BRS). BRS is used for the whole term.
+  # IANS (3 December 2023): he resigned on 3 December 2023 and the Governor asked him to continue
+  # until a new government was formed; the term runs to the day before Revanth Reddy's oath.
+  - from: 2014-06-02
+    to: 2023-12-06
+    head: K. Chandrasekhar Rao
+    party: BRS
+    sources: [ls-pr-book, tnm-brs-rename-2022, tnm-kcr-caretaker-2023]
+  # PMO: oath on 7 December 2023. Party: ANI, "Congress leader Revanth Reddy".
+  - from: 2023-12-07
+    head: A. Revanth Reddy
+    party: INC
+    sources: [pmo-revanth-2023, bs-revanth-2023]
+sources:
+  - id: ls-pr-book
+    title: President's Rule in States and Union Territories (9th edition)
+    publisher: Lok Sabha Secretariat
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/241deaef-7f11-41f5-a5da-393f9f897f4c/content
+    date: 2016-01-01
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tnm-brs-rename-2022
+    title: EC accepts TRS's name change to Bharat Rashtra Samithi
+    publisher: The News Minute
+    url: https://www.thenewsminute.com/article/ec-accepts-trss-name-change-bharat-rashtra-samithi-170751
+    date: 2022-12-08
+    type: news
+    tier: secondary
+    wire: PTI
+    accessed: 2026-10-15
+  - id: tnm-kcr-caretaker-2023
+    title: Telangana Governor asks KCR to continue till formation of new govt
+    publisher: The News Minute
+    url: https://www.thenewsminute.com/telangana/telangana-governor-asks-kcr-to-continue-till-formation-of-new-govt
+    date: 2023-12-03
+    type: news
+    tier: secondary
+    wire: IANS
+    accessed: 2026-10-15
+  - id: pmo-revanth-2023
+    title: PM congratulates Shri Revanth Reddy Garu on taking oath as Telangana CM
+    publisher: Prime Minister's Office
+    url: https://pmindia.gov.in/?p=16332410
+    date: 2023-12-07
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: bs-revanth-2023
+    title: Telangana CM Revanth Reddy responds to PM Modi, seeks support of Centre
+    publisher: Business Standard
+    url: https://www.business-standard.com/politics/telangana-cm-revanth-reddy-responds-to-pm-modi-seeks-support-of-centre-123120800037_1.html
+    date: 2023-12-08
+    type: news
+    tier: secondary
+    wire: ANI
+    accessed: 2026-10-15

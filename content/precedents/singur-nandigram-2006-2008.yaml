@@ -36,6 +36,7 @@ actions:
     legal_basis: Section 144, Code of Criminal Procedure, 1973
     description: "Prohibitory orders under Section 144 CrPC were promulgated for the area under Singur police station in four successive orders that ran from 30 November 2006 to 28 January 2007. On 1 December the West Bengal Industrial Development Corporation began fencing the 997-acre plot for Tata Motors in the presence of a large police deployment. UNI reported that about 600 protesters gathered nearby and were stopped from advancing."
     actor: state
+    state: West Bengal
     sources: [s22, s24, s5]
   - type: negotiation
     date: 2006-12-28
@@ -46,6 +47,7 @@ actions:
     date: 2007-02-04
     description: "Members of the Trinamool Congress-led Krishi Jami Raksha Committee and other groups pulled up fencing posts at the Tata Motors site at Singur and clashed with police. Police used batons and tear gas; the Hooghly superintendent of police said police also fired rubber bullets after protesters threw stones and bombs. Activist Anuradha Talwar was detained, and The Hindu reported eight arrests."
     actor: police
+    state: West Bengal
     sources: [s29, s28, s6]
   - type: section_144
     date: 2007-02-04
@@ -53,6 +55,7 @@ actions:
     legal_basis: Section 144, Code of Criminal Procedure, 1973
     description: "The Sub-Divisional Magistrate, Chandernagore promulgated a fifth Section 144 order for the Singur police station area, effective until midnight of 14 February 2007. It prohibited meetings, rallies, processions, demonstrations and squatting, and cited a police report of damage to the fencing and attacks on police. UNI reported that on 5 February police blocked entry points to Hooghly district to stop Mamata Banerjee from holding a rally at Singur."
     actor: state
+    state: West Bengal
     sources: [s22, s6]
     court_outcomes:
       - summary: "On 14 February 2007 the Calcutta High Court (Dipankar Datta J) quashed the order, holding that it was passed before the police report reached the magistrate and was an act of executive highhandedness that unreasonably restricted Article 19 rights."
@@ -61,6 +64,7 @@ actions:
     date: 2007-03-14
     description: "Police entered Nandigram, which the Bhoomi Uchhed Pratirodh Committee had blockaded since January, and fired on crowds at two places. The state's account, given in the Assembly and in Parliament, was that police used tear gas and rubber bullets first and fired after stone-throwing, crude bombs and firing from the crowd. Petitioners in the High Court alleged that CPI(M) cadres accompanied the police and that no prohibitory order had been issued. The Telegraph reported that the CBI's preliminary inquiry recovered .315-bore bullets that police had not been issued, and was examining whether outsiders took part in the firing. Death and injury counts differ by source."
     actor: police
+    state: West Bengal
     sources: [s1, s13, s23, s40, s3, s31]
     figures:
       - { what: killed in police firing (13 identified), value: "14", claimed_by: Calcutta High Court, source: s1 }
@@ -84,11 +88,13 @@ actions:
     date: 2007-03-19
     description: "The District Magistrate of East Midnapore issued a notification that the state government would not acquire any land for industry in Nandigram. On 15 March the Chief Minister had told the Assembly that there would be no chemical hub at Nandigram against the will of the people. The Hindu reported that copies were sent to the gram panchayats and political parties, and that the government began shifting two police camps. The NHRC recorded that the blockade continued after the notification. The government later proposed Nayachar island as another site; India Today reported in November 2007 that ecological concerns had ruled it out."
     actor: state
+    state: West Bengal
     sources: [s13, s43, s1, s33]
   - type: other
     date: 2007-11-06
     description: "CPI(M) supporters, with outsiders, overran the Nandigram blockade. The NHRC found that the Tehkhali police outpost was withdrawn late on 6 November, which facilitated the attack, and its investigation team reported that the police approach was partisan; the Commission said that neither the CPI(M) nor the Bhoomi Uchhed Pratirodh Committee could escape a share of responsibility. On 9 November The Telegraph reported CPI(M) supporters taking more villages and police officers saying they could not enter. Casualty and displacement counts differ by source."
     actor: state
+    state: West Bengal
     sources: [s13, s34, s12, s4]
     figures:
       - { what: killed between 6 and 12 November, value: "7", claimed_by: National Human Rights Commission, source: s13 }
@@ -111,6 +117,7 @@ actions:
     date: 2008-10-03
     description: "After a Trinamool Congress dharna outside the Singur plant from late August 2008 demanding the return of 400 acres, Ratan Tata announced that Tata Motors would move the Nano project out of West Bengal, citing the well-being of employees and the safety of contractors and vendors. He said the land had been acquired legally and the dispute was between the state government and the Trinamool Congress, and, according to a 2024 Outlook account, that Ms Banerjee had pulled the trigger. Mamata Banerjee called the decision a joint game plan of the Tatas and the CPI(M). The Supreme Court later recorded that Tata Motors wrote to the state police on 10 November 2008 that it was suspending operations, and that the plant moved to Gujarat."
     actor: state
+    state: West Bengal
     sources: [s21, s41, s39, s18, s8]
   - type: other
     date: 2016-08-31

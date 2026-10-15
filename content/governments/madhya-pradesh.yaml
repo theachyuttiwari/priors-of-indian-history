@@ -1,0 +1,179 @@
+# Madhya Pradesh, from the term in office on 1974-01-01. Includes the territory of present-day
+# Chhattisgarh until Chhattisgarh was created in November 2000.
+# Dates: Madhya Pradesh Vidhan Sabha list of Chief Ministers / Leaders of the House, and its
+# President's Rule page. Party: TCPD-CMID (secondary) unless a comment says otherwise.
+# Where one term's end date equals the next term's start date, `to` here is the day before.
+# Where the assembly list leaves a gap of a few days between two Chief Ministers, the outgoing
+# Chief Minister is taken to have stayed in office until the successor was sworn in; each case
+# is marked "caretaker gap".
+name: Madhya Pradesh
+aliases: [MP]
+terms:
+  - from: 1972-03-23
+    to: 1975-12-22
+    head: Prakash Chandra Sethi
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1975-12-23
+    to: 1977-04-29
+    head: Shyama Charan Shukla
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Assembly and MHA: 30.04.1977 to 23.06.1977.
+  - from: 1977-04-30
+    to: 1977-06-23
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mp-vidhan-sabha-presidents-rule, mha-pr-statement]
+  - from: 1977-06-24
+    to: 1978-01-17
+    head: Kailash Chandra Joshi
+    party: Janata Party
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1978-01-18
+    to: 1980-01-19
+    head: Virendra Kumar Sakhlecha
+    party: Janata Party
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1980-01-20
+    to: 1980-02-16
+    head: Sunderlal Patwa
+    party: Janata Party
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Assembly: 17.02.1980 to 09.06.1980. MHA: proclaimed 17.2.1980, revoked 9.6.1980.
+  - from: 1980-02-17
+    to: 1980-06-08
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mp-vidhan-sabha-presidents-rule, mha-pr-statement]
+  - from: 1980-06-09
+    to: 1985-03-10
+    head: Arjun Singh
+    party: other (Indian National Congress (I))
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1985-03-11
+    to: 1985-03-12
+    head: Arjun Singh
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1985-03-13
+    to: 1988-02-13
+    head: Motilal Vora
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Caretaker gap: the assembly list ends this term on 23/01/1989 and starts Vora on 25/01/1989.
+  - from: 1988-02-14
+    to: 1989-01-24
+    head: Arjun Singh
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 1989-01-25
+    to: 1989-12-08
+    head: Motilal Vora
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Caretaker gap: the assembly list ends this term on 01/03/1990 and starts Patwa on 05/03/1990.
+  # Party not given by TCPD-CMID (marked caretaker there); Wikipedia (lead) gives INC.
+  - from: 1989-12-09
+    to: 1990-03-04
+    head: Shyama Charan Shukla
+    party: INC
+    sources: [mp-vidhan-sabha-cms, wp-mp-cms]
+  - from: 1990-03-05
+    to: 1992-12-14
+    head: Sunderlal Patwa
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Assembly: 15.12.1992 to 06.12.1993. MHA: revoked 7.12.1993, the day Digvijaya Singh took office.
+  - from: 1992-12-15
+    to: 1993-12-06
+    head: President's Rule
+    kind: presidents_rule
+    sources: [mp-vidhan-sabha-presidents-rule, mha-pr-statement]
+  - from: 1993-12-07
+    to: 2003-12-07
+    head: Digvijaya Singh
+    party: INC
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 2003-12-08
+    to: 2004-08-22
+    head: Uma Bharti
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  - from: 2004-08-23
+    to: 2005-11-28
+    head: Babulal Gaur
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Three terms in the assembly list (29/11/2005-11/12/2008, 12/12/2008-09/12/2013,
+  # 14/12/2013-12/12/2018). Caretaker gaps: 10-13 Dec 2013 and 13-16 Dec 2018.
+  - from: 2005-11-29
+    to: 2018-12-16
+    head: Shivraj Singh Chouhan
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # Caretaker gap: the assembly list ends this term on 20/03/2020 and starts Chouhan on 23/03/2020.
+  # Party not given by TCPD-CMID; Wikipedia (lead) gives INC.
+  - from: 2018-12-17
+    to: 2020-03-22
+    head: Kamal Nath
+    party: INC
+    sources: [mp-vidhan-sabha-cms, wp-mp-cms]
+  # Caretaker gap: the assembly list ends this term on 11/12/2023 and starts Yadav on 13/12/2023.
+  - from: 2020-03-23
+    to: 2023-12-12
+    head: Shivraj Singh Chouhan
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, tcpd-cmid]
+  # The assembly's present-CM page gives "13.12.2023 से निरंतर" (in office since 13.12.2023) but no
+  # party. Party from Wikipedia (lead) only. Note: on 2026-10-15 the Wikipedia infobox named a
+  # different "incumbent", which contradicts its own table and the assembly; it was ignored.
+  - from: 2023-12-13
+    head: Mohan Yadav
+    party: BJP
+    sources: [mp-vidhan-sabha-cms, mp-vidhan-sabha-present-cm, wp-mp-cms]
+sources:
+  - id: mp-vidhan-sabha-cms
+    title: मध्यप्रदेश के माननीय मुख्यमंत्रियों / सदन का नेता की सूची (List of Chief Ministers / Leaders of the House)
+    publisher: Madhya Pradesh Vidhan Sabha
+    url: https://mpvidhansabha.nic.in/loh_.htm
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: mp-vidhan-sabha-present-cm
+    title: माननीय मुख्यमंत्री, मध्यप्रदेश (present Chief Minister)
+    publisher: Madhya Pradesh Vidhan Sabha
+    url: https://mpvidhansabha.nic.in/presentcm.htm
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: mp-vidhan-sabha-presidents-rule
+    title: राष्ट्रपति शासन (periods of President's Rule in Madhya Pradesh)
+    publisher: Madhya Pradesh Vidhan Sabha
+    url: https://mpvidhansabha.nic.in/presirule.htm
+    type: official
+    tier: record
+    language: hi
+    accessed: 2026-10-15
+  - id: mha-pr-statement
+    title: Statement showing date of Proclamation and Revocation regarding President's Rule in States under Article 356 of the Constitution (enclosure to RTI reply V-12011(1)/2016-CSR.I)
+    publisher: Ministry of Home Affairs, CS Division (copy published by Factly)
+    url: https://factly.in/wp-content/uploads//2018/06/MHA-Presidents-Rule.pdf
+    type: official
+    tier: record
+    accessed: 2026-10-15
+  - id: tcpd-cmid
+    title: TCPD Chief Ministers of India Dataset (TCPD-CMID), 1962-current (TCPD-CMID_1962_2022.csv)
+    publisher: Trivedi Centre for Political Data, Ashoka University
+    url: https://github.com/tcpd/cm-data-release
+    type: academic
+    tier: secondary
+    accessed: 2026-10-15
+  - id: wp-mp-cms
+    title: List of chief ministers of Madhya Pradesh
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/List_of_chief_ministers_of_Madhya_Pradesh
+    tier: lead
+    accessed: 2026-10-15
