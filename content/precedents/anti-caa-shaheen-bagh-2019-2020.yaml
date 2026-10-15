@@ -12,8 +12,8 @@ period:
   start: 2019-12-15
   end: 2020-03-24
 location:
-  states: [Delhi, Uttar Pradesh]
-  places: [Shaheen Bagh, Jamia Millia Islamia, New Friends Colony, Lucknow, Sambhal, Aligarh, Mau, Ghaziabad, Azamgarh, Rampur, Meerut]
+  states: [Delhi, Uttar Pradesh, Karnataka]
+  places: [Shaheen Bagh, Jamia Millia Islamia, New Friends Colony, Lucknow, Sambhal, Aligarh, Mau, Ghaziabad, Azamgarh, Rampur, Meerut, Bijnor, Bengaluru]
 protest:
   cause: Repeal of the Citizenship (Amendment) Act, 2019 and opposition to the proposed NPR and NRC
   organisers: [Students of Jamia Millia Islamia; local residents and women of Shaheen Bagh; the Supreme Court noted an absence of leadership at Shaheen Bagh]
@@ -32,44 +32,134 @@ government:
 actions:
   - type: lathi_charge
     date: 2019-12-15
-    description: "Delhi Police, which reports to the Union Home Ministry, entered the Jamia Millia Islamia campus after clashes nearby and charged students with batons. The university said it gave no permission. Students said police broke a library gate lock and beat people inside. Police said about 4,000 people were protesting, crowds burned buses, they entered the campus to maintain order and six officers were wounded. Accounts are contested."
+    claim: happened
+    description: "Delhi Police, which reports to the Union Home Ministry, entered the Jamia Millia Islamia campus on the evening of 15 December after clashes nearby in which buses were set on fire, and used batons on people inside, including in the reading rooms of the two library buildings. The chief proctor and the Vice-Chancellor said police entered without permission. Students said police beat people who were studying in the library and not protesting; library staff described broken doors, smashed CCTV cameras and blood on the floor. A senior police officer, Chinmoy Biswal, said about 4,000 people were protesting, police acted to disperse them when the crowd burned buses, police entered the campus to maintain order, and six officers were wounded. In a June 2020 reply to petitions in the Delhi High Court, Delhi Police called the allegations of police brutality an 'utter falsehood' and said it had to enter the university because rioters were using it as a shield to throw stones. Accounts are contested."
     actor: police
-    sources: [s1]
+    sources: [s13, s14, s15, s47, s1, s16]
+    figures:
+      - { what: "people protesting near Jamia on 15 December", value: "about 4,000", claimed_by: "Chinmoy Biswal, senior Delhi Police officer (quoted by Al Jazeera)", source: s1 }
+      - { what: "police officers wounded", value: "6", claimed_by: "Chinmoy Biswal, senior Delhi Police officer (quoted by Al Jazeera)", source: s1 }
+      - { what: "people injured", value: "about 200, many of them students", claimed_by: "Najma Akhtar, Jamia Vice-Chancellor", source: s14 }
+      - { what: "people with injuries brought to al-Shifa and Holy Family hospitals", value: "more than 100", claimed_by: hospital officials (quoted by Al Jazeera), source: s1 }
   - type: tear_gas
     date: 2019-12-15
-    description: "Indian media reported that tear gas was fired into some classrooms at Jamia Millia Islamia. Hospital officials said more than 100 people were injured. A senior officer said: \"If it had been a peaceful mob, it would have been dispersed peacefully.\""
+    claim: happened
+    description: "Students and library staff said police fired tear gas inside the Jamia library reading rooms, and that students broke windows to escape the smoke; reporters found the remains of tear gas shells there the next day. Al Jazeera reported that tear gas was fired into some classrooms. A senior officer, Chinmoy Biswal, said: \"If it had been a peaceful mob, it would have been dispersed peacefully.\""
     actor: police
-    sources: [s1]
+    sources: [s13, s15, s1]
+    figures:
+      - { what: "people with injuries brought to al-Shifa and Holy Family hospitals", value: "more than 100", claimed_by: hospital officials (quoted by Al Jazeera), source: s1 }
   - type: detention
     date: 2019-12-15
-    description: "Nearly 100 students were detained after the Jamia action and released early on 16 December 2019."
+    claim: happened
+    description: "Police took students to the Kalkaji and New Friends Colony police stations after the Jamia action and released them early on 16 December, after protests outside Delhi Police headquarters. Students said some of them were injured and were not given medical aid at the police stations; a lawyer said lawyers were at first not allowed to meet them. Counts differ (see figures). In its June 2020 reply to the Delhi High Court, Delhi Police said that students among the persons temporarily apprehended for verification were handed over to the proctor, and that no student was arrested or detained."
     actor: police
-    sources: [s1]
+    sources: [s1, s17, s18, s16]
+    figures:
+      - { what: "students detained", value: "nearly 100", claimed_by: Al Jazeera (agency report), source: s1 }
+      - { what: "persons detained", value: "16 at New Friends Colony and 38 at Kalkaji police station", claimed_by: The Indian Express, source: s17 }
+      - { what: "students detained at Kalkaji police station and released around 4 am", value: "35", claimed_by: "DCP (South East) Chinmoy Biswal (quoted by The Hindu)", source: s18 }
   - type: firing
     date: 2019-12-15
-    description: "Delhi Police first said no bullets were fired near Jamia and that injuries could have come from tear gas shells. An internal inquiry reported in January 2020 found that two police personnel fired three bullets at New Friends Colony; the officers said they fired in self-defence."
+    claim: happened
+    description: "Three Jamia students were treated in hospital for what they said were bullet injuries. Delhi Police first said no bullets were fired and that any foreign body could have caused the injuries. The Indian Express reported in January 2020, citing sources, that a case diary of the Southeast district police records that two police personnel fired three bullets at New Friends Colony in front of an ACP-rank officer, and that the personnel said they fired in self-defence. The two FIRs on the violence do not mention police firing. Asked again, DCP Chinmoy Biswal declined to comment while the investigation was under way."
     actor: police
-    sources: [s2]
+    sources: [s19, s2]
+    figures:
+      - { what: "bullets fired by two police personnel at New Friends Colony", value: "3", claimed_by: "police case diary, as reported by The Indian Express from sources", source: s19 }
+  - type: firing
+    date: 2019-12-20
+    claim: happened
+    description: "Deaths in Uttar Pradesh during the protests of 19 to 21 December 2019 are contested. Police officials said police did not open fire on protesters: on 21 December IG (Law and Order) Praveen Kumar said none of the deaths was due to police firing, and DGP O.P. Singh said that not a single bullet was fired at protesters and that protesters died in firing among themselves. On 24 December the Bijnor Superintendent of Police said that a constable had shot Mohammad Suleman in self-defence after being shot himself, the first official admission of police firing in the state; Suleman's family said police took him into a lane and shot him. In Meerut, the families of five men killed on 20 December said police shot them; police said they used baton charges, tear gas and firing to control the crowd but killed no one, and that the men must have been killed by armed protesters. In February 2020 the state told the Allahabad High Court that no one lost his life due to police action."
+    actor: police
+    sources: [s24, s25, s26, s4, s5, s6]
+    figures:
+      - { what: "deaths in Uttar Pradesh from 20 to 21 December, plus one in Lucknow on 19 December", value: "15, plus 1", claimed_by: "IG (Law and Order) Praveen Kumar (quoted by Hindustan Times)", source: s26 }
+      - { what: "deaths in Uttar Pradesh", value: "19 of 27 nationwide", claimed_by: Al Jazeera (agency report), source: s6 }
+      - { what: "deaths in Uttar Pradesh covered by the state's reply to the Allahabad High Court", value: "22", claimed_by: "UP police submissions (as reported by The Caravan)", source: s25 }
+      - { what: "men killed in Meerut on 20 December", value: "5", claimed_by: "families and police records (as reported by The Caravan)", source: s25 }
+  - type: lathi_charge
+    date: 2019-12-15
+    claim: happened
+    description: "Police and paramilitary forces (PAC and RAF) entered the Aligarh Muslim University campus on the evening of 15 December 2019 after a clash at the Sir Syed Gate, used batons and tear gas, and entered hostels. Students said police beat them and used abusive language and religious slurs. The Superintendent of Police (City) said about 1,500 students broke the gate and threw stones and about 30 policemen were injured. The university said police entered at its call. On 7 January 2020 the Allahabad High Court asked the NHRC to inquire. LiveLaw reported that the NHRC report found the use of force by police justified and necessary, but criticised policemen seen caning apprehended students and damaging motorcycles; it recommended compensation for six grievously injured students and action against those policemen."
+    actor: police
+    sources: [s20, s1, s23, s21, s22]
+    figures:
+      - { what: "students injured", value: "at least 100, six of them seriously", claimed_by: The Hindu, source: s20 }
+      - { what: "students who broke the Sir Syed Gate", value: "about 1,500", claimed_by: "SP (City) Abhishek (quoted by The Hindu)", source: s20 }
+      - { what: "policemen injured", value: "about 30", claimed_by: "SP (City) Abhishek (quoted by The Hindu)", source: s20 }
+      - { what: "persons detained, of whom at least 15 are not AMU students", value: "26", claimed_by: "Aligarh Muslim University (as reported by The Leaflet)", source: s23 }
+    court_outcomes:
+      - summary: "On 8 September 2022 the Allahabad High Court dismissed the petitions after the state said it had complied with the NHRC recommendations meant for it."
+        source: s22
   - type: section_144
-    date: 2019-12
-    description: "Section 144 of the CrPC, which bans assembly of more than four people, was in force across the whole of Uttar Pradesh for several days by 20 December 2019. The order was also imposed elsewhere in India."
+    date: 2019-12-18
+    claim: ordered
+    description: "Section 144 of the CrPC, which bans unlawful assembly, was enforced in all of Uttar Pradesh on the night of 18 December 2019, ahead of protests planned for 19 December. DGP O.P. Singh said in a post on X (then Twitter) that no permission for any gathering had been given for 19 December. The order was also imposed elsewhere in India."
     actor: state
-    sources: [s3, s4]
+    sources: [s27, s28, s3, s4]
+    legal_basis: Section 144 CrPC
+  - type: section_144
+    date: 2019-12-18
+    claim: ordered
+    description: "Bengaluru Police Commissioner Bhaskar Rao prohibited assemblies of five or more people and any protest, procession or public meeting in the city from 6 am on 19 December to 12 am on 21 December 2019, citing calls for an all-India bandh against the CAA and NRC. On 13 February 2020 the Karnataka High Court held that the order did not stand the test of judicial scrutiny under the parameters laid down by the Supreme Court in Anuradha Bhasin and Ramlila Maidan, and did not formally set it aside only because the order had worked itself out."
+    actor: police
+    sources: [s37]
+    legal_basis: "Section 144 CrPC (Order No. SB/Gu.Va/Prohibition/50/2019 dated 18 December 2019, Commissioner of Police, Bengaluru City)"
+    court_outcomes:
+      - summary: "On 13 February 2020 the Karnataka High Court (Chief Justice Abhay S. Oka and Justice Hemant Chandangoudar) held the order illegal."
+        source: s37
   - type: internet_shutdown
     date: 2019-12-19
-    description: "The Uttar Pradesh government suspended mobile internet and SMS in Lucknow from 3 pm on 19 December to noon on 21 December 2019, citing violence during the protests. Internet was also suspended in Sambhal, Aligarh, Mau, Ghaziabad and Azamgarh districts. On 21 December suspension in the state was extended by 48 hours, and mobile internet was cut again in many parts of the state, including Lucknow, on 26 December."
+    claim: ordered
+    description: "An order of the Uttar Pradesh Additional Chief Secretary (Home), Awanish Kumar Awasthi, suspended mobile internet and SMS in Lucknow from 3 pm on 19 December to noon on 21 December 2019, citing possible misuse of SMS and social media to inflame the law and order situation. Internet was also suspended in other districts, including Sambhal, Aligarh, Mau, Ghaziabad and Azamgarh (see figures). On 21 December the suspension was extended, and mobile internet was cut again in many parts of the state, including Lucknow, on 26 December."
     actor: state
-    sources: [s3, s4, s5]
+    sources: [s29, s41, s3, s31, s26, s4, s5]
+    figures:
+      - { what: "districts with internet and SMS suspended on 20 December", value: "14", claimed_by: Hindustan Times, source: s31 }
+      - { what: "cities in Uttar Pradesh with mobile internet suspended on 20 December", value: "at least 21", claimed_by: MediaNama, source: s29 }
   - type: other
     date: 2019-12
-    description: "Recovery of property damage: the Uttar Pradesh government demanded millions of rupees from more than 200 people and threatened to confiscate their property to pay for protest damage. In March 2020 the Lucknow administration put up hoardings with the photos, names and addresses of 53 people accused of violence. On 9 March 2020 the Allahabad High Court ordered their removal as an unwarranted interference in privacy."
+    claim: ordered
+    description: "Recovery of property damage: the Uttar Pradesh government sent show-cause notices demanding payment for damage during the protests and threatened to confiscate property. In March 2020 the Lucknow administration put up roadside banners with the photos, names and addresses of people accused of violence. On 9 March 2020 the Allahabad High Court, acting on its own, held the banners an unwarranted interference in privacy and ordered their removal. On 12 March 2020 the Supreme Court referred the state's appeal to a larger bench without staying the High Court order. On 18 February 2022 the state told the Supreme Court it had withdrawn the show-cause notices issued since December 2019, and the court ordered a refund of amounts recovered, leaving the state free to proceed under its 2020 recovery law."
     actor: state
-    sources: [s6, s7]
+    sources: [s6, s7, s33, s34, s32]
+    legal_basis: "A government order on recovery of damages, which the state said follows the Supreme Court's guidelines in Re: Destruction of Public and Private Properties (2009); later the Uttar Pradesh Recovery of Damage to Public and Private Property Act, 2020"
+    figures:
+      - { what: "people from whom payment was demanded (late December 2019)", value: "more than 200", claimed_by: "Uttar Pradesh government (as reported by Al Jazeera)", source: s6 }
+      - { what: "people named on the Lucknow banners", value: "53", claimed_by: "Lucknow administration (as reported by Scroll.in)", source: s7 }
+      - { what: "show-cause notices withdrawn", value: "274", claimed_by: "State of Uttar Pradesh (recorded in the Supreme Court order)", source: s32 }
+    court_outcomes:
+      - summary: "On 9 March 2020 the Allahabad High Court ordered the Lucknow District Magistrate and Police Commissioner to remove the banners and told the state not to put up such banners without authority of law."
+        source: s33
+      - summary: "On 12 March 2020 the Supreme Court sent the state's appeal against that order to a bench of at least three judges."
+        source: s34
+      - summary: "On 18 February 2022 the Supreme Court recorded the withdrawal of the 274 show-cause notices and ordered refunds, without prejudice to proceedings before the Claims Tribunal under the 2020 Act."
+        source: s32
+  - type: uapa_charge
+    date: 2020-03-06
+    claim: ordered
+    description: "On 6 March 2020 the Delhi Police Crime Branch registered FIR 59/2020. It alleges that the communal riots in north-east Delhi on 23 to 25 February 2020 were the result of a pre-planned conspiracy by JNU student Umar Khalid and associates, including road blockades by women and children near anti-CAA protest sites. Offences under the UAPA were added later, and students and protest organisers were charged. The accused deny the allegations; Natasha Narwal's counsel, for example, said she took part in the sit-in protests but was not involved in any violent protest. On 15 June 2021 the Delhi High Court granted Narwal bail, holding that the charge-sheet did not prima facie show offences under sections 15, 17 or 18 of the UAPA, and said that 'in its anxiety to suppress dissent', the line between the right to protest and terrorist activity seemed to be getting blurred in the mind of the State. On 18 June 2021 the Supreme Court directed that the High Court's judgment not be treated as a precedent, without interfering with the bail. On 5 January 2026 the Supreme Court refused bail to Umar Khalid and Sharjeel Imam, finding that the prosecution material prima facie attributed to them a central role in the alleged conspiracy, and granted bail to five other accused."
+    actor: police
+    sources: [s40, s38, s39]
+    legal_basis: "FIR 59/2020, initially under sections 147, 148, 149 and 120B IPC; UAPA sections added later"
+    court_outcomes:
+      - summary: "On 15 June 2021 the Delhi High Court granted bail to Natasha Narwal and held that no UAPA offence was prima facie made out against her."
+        source: s38
+      - summary: "On 18 June 2021 the Supreme Court said the High Court judgment was not to be treated as a precedent, and did not interfere with the bail."
+        source: s39
+      - summary: "On 5 January 2026 the Supreme Court refused bail to Umar Khalid and Sharjeel Imam and granted bail to Gulfisha Fatima, Meeran Haider, Shifa-ur-Rehman, Mohd. Saleem Khan and Shadab Ahmed."
+        source: s40
   - type: other
     date: 2020-03-24
-    description: "Delhi Police cleared the Shaheen Bagh protest site on 24 March 2020, in view of the COVID-19 lockdown, and removed graffiti and art installations at Shaheen Bagh and Jamia. Three protesters charged with disobeying restrictions on gatherings got bail on 30 March 2020. The Supreme Court judgment says the site was cleared with some police action to remove structures."
+    claim: happened
+    description: "Delhi Police cleared the Shaheen Bagh protest site on the morning of 24 March 2020, citing the COVID-19 lockdown and prohibitory orders, after the remaining protesters refused a request to leave. Police removed the tents, stage and art installations; police also cleared the protest sites at Jamia and Hauz Rani. Protest graffiti at Jamia and Shaheen Bagh was painted over the same day: protesters blamed the police, while a senior police officer denied any police role and the South Delhi Municipal Corporation said it was not involved. Three protesters charged with disobeying restrictions on gatherings got bail on 30 March 2020. The Supreme Court judgment says the site was cleared with some police action to remove structures."
     actor: police
-    sources: [s8, s9, s10]
+    sources: [s35, s36, s8, s9, s10]
+    legal_basis: "Section 144 CrPC prohibitory orders in Delhi; the FIR against those removed cites the IPC and Section 3 of the Epidemic Diseases Act, 1897"
+    figures:
+      - { what: "people detained at Shaheen Bagh, including six women", value: "9", claimed_by: "Joint CP (Southern Range) Devesh Srivastava (quoted by The Indian Express)", source: s35 }
+      - { what: "people arrested at Shaheen Bagh (four men and six women)", value: "10", claimed_by: "DCP (South East) R.P. Meena (quoted by Hindustan Times)", source: s36 }
   - type: other
     date: 2020-10-07
     description: "Supreme Court judgment in Amit Sahni v Commissioner of Police (Civil Appeal No. 3282 of 2020; Kaul, Bose and Murari JJ). The court held that public ways and public spaces cannot be occupied indefinitely, that dissent must be expressed in designated places, and that the administration ought to keep such areas clear. It also noted that court-appointed interlocutors failed to find a solution and criticised the administration for neither negotiating nor acting."
@@ -84,110 +174,163 @@ positions:
     person: Yogi Adityanath
     role_at_time: Chief Minister of Uttar Pradesh
     in_power: true
-    date: 2019-12-28
-    statement: "Said he would take revenge against those behind the violence. His official account posted: \"Every rioter is shocked. Every troublemaker is astonished.\" and \"Do whatever you want to, but the damages will be paid by those who cause damages\"."
-    sources: [s5, s6]
+    date: 2019-12-19
+    kind: translated
+    statement: "Said that the property of those involved in the violence would be confiscated to recover the cost of damage to public property, that they had been identified on video and CCTV footage, and that the government would take revenge on them."
+    quote:
+      text: "The property of each element involved in this violence will be confiscated, and used to recover compensation for public property which was damaged. All their faces have been identified. They are visible in the videography and CCTV footage. We will take revenge by confiscating their properties, I have ordered strict action."
+      original: "Iss hinsa mein lipt pratyek tatwa ki property ko zapt karenge, aur uss zapt se sarvajanik sampatti ko hue nuksaan ya kahin par public property ko jo damage kiya gaya hai, iski bharapaee bhi hum un sabhi upadraviyon se karenge. Kyunki yeh sab chinhit chehre hain. Wo sab videography mein aa chuke hain, CCTV ke footage mein aa chuke hain. In sab ki property ko zapt kar ke, inse hum iska badla lenge aur sakhti se nipatne ke liye maine iske baare mein kaha hai,"
+      language: hi
+      translated_by: source
+      locator: "Second paragraph, beginning 'Taking a tough stand, Chief Minister Yogi Adityanath said', and the translation in brackets after it"
+      source: s41
+    sources: [s41, s42, s5]
+  - party: BJP
+    person: Yogi Adityanath
+    role_at_time: Chief Minister of Uttar Pradesh
+    in_power: true
+    date: 2019-12-27
+    kind: translated
+    statement: "His office's official account on X (then Twitter) said that the strictness of his government had silenced rioters and troublemakers, and that those who caused damage would pay for it."
+    quote:
+      text: "Every rioter is shocked. Every troublemaker is astonished. Looking at the strictness of the Yogi government, everyone is silent,"
+      original: "हर दंगाई हतप्रभ है। हर उपद्रवी हैरान है। देख कर योगी सरकार की सख्ती मंसूबे सभी के शांत हैं।"
+      language: hi
+      translated_by: source
+      locator: "Paragraph under the heading 'Every rioter is shocked'"
+      source: s6
+    sources: [s43, s6]
   - party: BJP
     person: Amit Shah
     role_at_time: Union Home Minister
     in_power: true
     date: 2020-03-12
-    statement: "Told the Rajya Sabha that no documents would be sought from people during NPR enumeration and that there was a need to remove apprehensions over the CAA and NPR."
-    sources: [s11]
+    kind: paraphrase
+    statement: "Told the Rajya Sabha that no documents would be sought from people during NPR enumeration, that no one would be marked as doubtful, and that there was a need to remove apprehensions over the CAA and NPR."
+    sources: [s11, s45]
   - party: INC
     person: Priyanka Gandhi Vadra
     role_at_time: Congress General Secretary, opposition
     in_power: false
     date: 2019-12-21
-    statement: "Accused the government of being \"bent upon using repression and violence to suppress the voice of people\" and said: \"The NRC and the Citizenship (Amendment) Act is against the fundamental spirit of the Constitution of India\"."
+    kind: paraphrase
+    statement: "Accused the government of using repression and violence to suppress the voice of people protesting against the amended citizenship law, and said the NRC and the CAA were against the fundamental spirit of the Constitution."
     sources: [s12]
   - party: BSP
     person: Mayawati
     role_at_time: BSP president, opposition
     in_power: false
     date: 2019-12-21
-    statement: "\"Now that voices opposed to the CAA and NRC have started coming from within the NDA, the central government should give up its stubborn stand and withdraw its decisions.\""
-    sources: [s12]
+    kind: translated
+    statement: "In a post on X (then Twitter), said that with opposition to the CAA and NRC now coming from within the NDA, the Centre should give up its stubborn stand and withdraw the decisions, and appealed to protesters to protest peacefully."
+    quote:
+      text: "Now that voices opposed to the CAA and NRC have started coming from within the NDA, the central government should give up its stubborn stand and withdraw its decisions,"
+      original: "अब तो नए सीएए व एनआरसी के विरोध में केन्द्र सरकार के एनडीए में भी विरोध के स्वर उठने लगे हैं। अतः बीएसपी की मांग है कि वे अपनी ज़िद को छोड़कर इन फैसलों को वापस ले।"
+      language: hi
+      translated_by: source
+      locator: "Live update timed 11.24 am"
+      source: s12
+    sources: [s44, s12]
   - party: AAP
     person: Arvind Kejriwal
     role_at_time: Chief Minister of Delhi (in power in Delhi, opposition to the BJP at the centre)
     in_power: true
     date: 2020-03-13
-    statement: "In the Delhi Assembly debate on a resolution against the NPR in its present form, said: \"Either Hindus will have to say that they are Pakistanis or they too will have to go to detention centres.\""
-    sources: [s11]
+    kind: paraphrase
+    statement: "In the Delhi Assembly debate on a resolution against the NPR in its present form, said that people without birth certificates, Hindus as well as Muslims, could be sent to detention centres under the NPR and NRC, and on X (then Twitter) appealed to the Centre to stop the NPR and NRC."
+    sources: [s11, s46]
 sources:
   - id: s1
     title: India police storm Jamia, AMU to break citizenship law protests
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2019/12/16/india-police-storm-jamia-amu-to-break-citizenship-law-protests
     archive_date: 2020-10-10
     archive_url: https://web.archive.org/web/20201010042011/https://www.aljazeera.com/news/2019/12/16/india-police-storm-jamia-amu-to-break-citizenship-law-protests
     date: 2019-12-16
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "Jamia violence: Two Delhi police officers fired guns during CAA protests, reveals internal inquiry"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry
     archive_date: 2020-01-05
     archive_url: https://web.archive.org/web/20200105112436/https://scroll.in/latest/948825/jamia-violence-two-delhi-police-officers-fired-guns-during-caa-protests-reveals-internal-inquiry
     date: 2020-01-05
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: "Internet Shutdown: Lucknow Till December 21, Dakshina Kannada for 48 Hours"
     publisher: The Wire
+    wire: PTI
+    tier: secondary
     url: https://thewire.in/rights/internet-shutdown-lucknow-karnataka-caa
     archive_date: 2019-12-20
     archive_url: https://web.archive.org/web/20191220103316/https://thewire.in/rights/internet-shutdown-lucknow-karnataka-caa
     date: 2019-12-20
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: BJP-ruled state tops death toll in India citizenship law protests
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2019/12/modi-summons-ministers-india-protests-death-toll-increases-191221063611978.html
     archive_date: 2019-12-21
     archive_url: https://web.archive.org/web/20191221101623/https://www.aljazeera.com/news/2019/12/modi-summons-ministers-india-protests-death-toll-increases-191221063611978.html
     date: 2019-12-21
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: Internet banned in India's Uttar Pradesh amid anger over killings
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2019/12/internet-banned-india-uttar-pradesh-anger-killings-191227060434667.html
     archive_date: 2019-12-27
     archive_url: https://web.archive.org/web/20191227111932/https://www.aljazeera.com/news/2019/12/internet-banned-india-uttar-pradesh-anger-killings-191227060434667.html
     date: 2019-12-27
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "'Go to Pakistan', says India officer as leader praises crackdown"
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown
     archive_date: 2020-10-31
     archive_url: https://web.archive.org/web/20201031114308/https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown
     date: 2019-12-28
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: "'Shameless': Allahabad HC orders removal of posters with CAA protestors' addresses in UP"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/955621/caa-allahabad-hc-orders-removal-of-all-posters-with-protestors-photos-and-addresses
     archive_date: 2020-03-10
     archive_url: https://web.archive.org/web/20200310202500/https://scroll.in/latest/955621/caa-allahabad-hc-orders-removal-of-all-posters-with-protestors-photos-and-addresses
     date: 2020-03-09
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: "Delhi Police Removes Jamia Graffiti, Twitter Reminds Them of Their 'Priorities'"
     publisher: The Quint
+    tier: secondary
     url: https://www.thequint.com/news/india/jamia-graffiti-art-shaheen-bagh-anti-caa-protest-removed-reactions
     archive_date: 2020-03-25
     archive_url: https://web.archive.org/web/20200325143056/https://www.thequint.com/news/india/jamia-graffiti-art-shaheen-bagh-anti-caa-protest-removed-reactions
     date: 2020-03-24
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: "Covid-19: Delhi court grants bail to three Shaheen Bagh protestors accused of defying lockdown"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/957675/covid-19-delhi-court-grants-bail-to-three-shaheen-bagh-protestors-accused-of-defying-lockdown
     archive_date: 2020-03-31
     archive_url: https://web.archive.org/web/20200331193106/https://scroll.in/latest/957675/covid-19-delhi-court-grants-bail-to-three-shaheen-bagh-protestors-accused-of-defying-lockdown
     date: 2020-03-30
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: Amit Sahni v Commissioner of Police and Ors, Civil Appeal No. 3282 of 2020
     publisher: Supreme Court of India
@@ -197,22 +340,382 @@ sources:
     archive_url: https://web.archive.org/web/20250614163353/https://api.sci.gov.in/supremecourt/2020/2418/2418_2020_36_1501_24294_Judgement_07-Oct-2020.pdf
     date: 2020-10-07
     type: court_judgment
+    accessed: 2026-10-15
   - id: s11
     title: Delhi Assembly Passes Resolution Against NPR in Present Form
     publisher: The Wire
+    author: Gaurav Vivek Bhatnagar
+    tier: report
     url: https://thewire.in/government/delhi-assembly-resolution-npr-kejriwal
     archive_date: 2020-03-14
     archive_url: https://web.archive.org/web/20200314150428/https://thewire.in/government/delhi-assembly-resolution-npr-kejriwal
     date: 2020-03-13
     type: news
+    accessed: 2026-10-15
   - id: s12
     title: "CAA protests: 16 killed so far in Uttar Pradesh; 15 arrested from Delhi's Daryaganj"
     publisher: Scroll.in
+    tier: secondary
     url: https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
     archive_date: 2019-12-21
-    archive_url: https://web.archive.org/web/20191221041838/https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
+    archive_url: https://web.archive.org/web/20191221091812/https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi
     date: 2019-12-21
     type: news
-tags: [delhi, uttar_pradesh, caa, students, internet_shutdown, section_144, lathi_charge, tear_gas, supreme_court, bjp, aap]
+    accessed: 2026-10-15
+  - id: s13
+    title: "'Undeclared emergency' in Jamia Millia: Students beaten up, teargassed by Delhi police"
+    publisher: Newslaundry
+    author: Ismat Ara
+    tier: report
+    url: https://www.newslaundry.com/2019/12/15/undeclared-emergency-in-jamia-millia-students-beaten-up-teargassed-by-delhi-police
+    archive_date: 2019-12-30
+    archive_url: https://web.archive.org/web/20191230114704/https://www.newslaundry.com/2019/12/15/undeclared-emergency-in-jamia-millia-students-beaten-up-teargassed-by-delhi-police
+    date: 2019-12-15
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: "Police entered campus without permission, we want high-level probe: Jamia VC"
+    publisher: The News Minute
+    author: Sanyukta Dharmadhikari
+    tier: report
+    url: https://www.thenewsminute.com/article/police-entered-campus-without-permission-we-want-high-level-probe-jamia-vc-114181
+    archive_date: 2019-12-16
+    archive_url: https://web.archive.org/web/20191216145223/https://www.thenewsminute.com/article/police-entered-campus-without-permission-we-want-high-level-probe-jamia-vc-114181
+    date: 2019-12-16
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Scenes from two Jamia libraries: '11 students hid in toilets, 4 girls'"
+    publisher: The Indian Express
+    author: Aranya Shankar
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/delhi-scenes-from-two-jamia-libraries-11-students-hid-in-toilets-4-girls-6170567/
+    archive_date: 2019-12-17
+    archive_url: https://web.archive.org/web/20191217035131/https://indianexpress.com/article/cities/delhi/delhi-scenes-from-two-jamia-libraries-11-students-hid-in-toilets-4-girls-6170567/
+    date: 2019-12-17
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: "Delhi Police Files Reply to HC on Jamia Violence, Says Police Brutality Claims False, Dismisses Need For Separate Police Probe"
+    publisher: The Quint
+    tier: secondary
+    url: https://www.thequint.com/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false
+    archive_date: 2020-06-06
+    archive_url: https://web.archive.org/web/20200606044249/https://www.thequint.com/news/india/delhi-police-jamia-violence-reply-to-high-court-police-brutality-claims-false
+    date: 2020-06-05
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "Delhi: Jamia students say kept at police stations despite injuries"
+    publisher: The Indian Express
+    author: Sukrita Baruah
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/jamia-students-say-kept-at-police-stations-despite-injuries-6170553/
+    archive_date: 2019-12-17
+    archive_url: https://web.archive.org/web/20191217035322/https://indianexpress.com/article/cities/delhi/jamia-students-say-kept-at-police-stations-despite-injuries-6170553/
+    date: 2019-12-17
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: 35 detained Jamia Millia Islamia University students released
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/cities/Delhi/35-detained-jamia-millia-islamia-university-students-released/article30317154.ece
+    archive_date: 2019-12-16
+    archive_url: https://web.archive.org/web/20191216040157/https://www.thehindu.com/news/cities/Delhi/35-detained-jamia-millia-islamia-university-students-released/article30317154.ece
+    date: 2019-12-16
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: "Delhi Police denied it, but internal probe finds 2 of their personnel fired during Jamia protests"
+    publisher: The Indian Express
+    author: Mahender Singh Manral
+    tier: report
+    url: https://indianexpress.com/article/india/citizenship-act-protest-jamia-university-delhi-police-firing-6200029/
+    archive_date: 2020-01-05
+    archive_url: https://web.archive.org/web/20200105044423/https://indianexpress.com/article/india/citizenship-act-protest-jamia-university-delhi-police-firing-6200029/
+    date: 2020-01-05
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: At least 100 students injured in clash with police at AMU
+    publisher: The Hindu
+    author: Anuj Kumar
+    tier: report
+    url: https://www.thehindu.com/news/national/other-states/at-least-100-students-injured-in-clash-with-police-at-amu/article30324462.ece
+    archive_date: 2019-12-17
+    archive_url: https://web.archive.org/web/20191217050622/https://www.thehindu.com/news/national/other-states/at-least-100-students-injured-in-clash-with-police-at-amu/article30324462.ece
+    date: 2019-12-17
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "Anti-CAA Protests At AMU | Students Shouldn't Indulge In Such Activities Which Bring Bad Name To Great Educational Institutions: Allahabad HC"
+    publisher: LiveLaw
+    author: Sparsh Upadhyay
+    tier: report
+    url: https://www.livelaw.in/news-updates/anti-caa-protests-amu-students-shouldnt-indulge-activities-bring-bad-name-great-educational-institutions-allahabad-hc-209285
+    archive_date: 2022-09-15
+    archive_url: https://web.archive.org/web/20220915003514/https://www.livelaw.in/news-updates/anti-caa-protests-amu-students-shouldnt-indulge-activities-bring-bad-name-great-educational-institutions-allahabad-hc-209285
+    date: 2022-09-14
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Mohd. Aman Khan v Union of India and others, Criminal Misc. Writ Petition No. 26085 of 2019, order of 8 September 2022
+    publisher: High Court of Judicature at Allahabad (copy published by LiveLaw)
+    tier: court
+    url: https://www.livelaw.in/pdf_upload/mohd-aman-khan-v-union-of-india-and-others-allahabad-high-court-434994.pdf
+    archive_date: 2023-11-29
+    archive_url: https://web.archive.org/web/20231129053139/https://www.livelaw.in/pdf_upload/mohd-aman-khan-v-union-of-india-and-others-allahabad-high-court-434994.pdf
+    date: 2022-09-08
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s23
+    title: Allahabad HC asks NHRC to probe into police action against AMU students amidst anti CAA agitation
+    publisher: The Leaflet
+    tier: secondary
+    url: https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation
+    archive_date: 2020-08-09
+    archive_url: https://web.archive.org/web/20200809222819/https://theleaflet.in/allahabad-hc-asks-nhrc-to-probe-into-police-action-against-amu-students-amidst-anti-caa-agitation
+    date: 2020-01-07
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: "First official admission in UP: Bijnor man killed when police fired in self-defence"
+    publisher: The Indian Express
+    author: Manish Sahu and Krishn Kaushik
+    tier: report
+    url: https://indianexpress.com/article/india/caa-protests-up-bijnor-protester-killed-police-firing-6181930/
+    archive_date: 2019-12-24
+    archive_url: https://web.archive.org/web/20191224034537/https://indianexpress.com/article/india/caa-protests-up-bijnor-protester-killed-police-firing-6181930/
+    date: 2019-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "A year on, no FIRs against Meerut police for men killed in CAA protests, PIL languishes in Allahabad HC"
+    publisher: The Caravan
+    author: Prabhjit Singh
+    tier: report
+    url: https://caravanmagazine.in/crime/meerut-five-muslim-caa-protests-shot-police-families-allege
+    archive_date: 2020-12-31
+    archive_url: https://web.archive.org/web/20201231114534/https://caravanmagazine.in/crime/meerut-five-muslim-caa-protests-shot-police-families-allege
+    date: 2020-12-31
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "Kanpur remains on edge, death toll in UP reaches 17, internet suspension extended"
+    publisher: Hindustan Times
+    tier: secondary
+    url: https://www.hindustantimes.com/india-news/up-simmersas-toll-reaches-17-internet-suspension-extended/story-T8uk0euuBAp5IZqOOnCR8O.html
+    archive_date: 2019-12-21
+    archive_url: https://web.archive.org/web/20191221230649/https://www.hindustantimes.com/india-news/up-simmersas-toll-reaches-17-internet-suspension-extended/story-T8uk0euuBAp5IZqOOnCR8O.html
+    date: 2019-12-21
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: Section 144 enforced in all of U.P. ahead of CAA protest
+    publisher: The Hindu
+    author: Omar Rashid
+    tier: report
+    url: https://www.thehindu.com/news/national/other-states/section-144-enforced-in-all-of-up-ahead-of-caa-protest/article30343108.ece
+    archive_date: 2019-12-19
+    archive_url: https://web.archive.org/web/20191219052803/https://www.thehindu.com/news/national/other-states/section-144-enforced-in-all-of-up-ahead-of-caa-protest/article30343108.ece
+    date: 2019-12-19
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "No permission given for protests as Section 144 in place: U.P. police"
+    publisher: The Hindu
+    wire: PTI
+    tier: secondary
+    url: https://www.thehindu.com/news/national/no-permission-given-for-protests-as-section-144-in-place-up-police/article30342572.ece
+    archive_date: 2019-12-19
+    archive_url: https://web.archive.org/web/20191219060955/https://www.thehindu.com/news/national/no-permission-given-for-protests-as-section-144-in-place-up-police/article30342572.ece
+    date: 2019-12-19
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: Internet shut down in several cities of UP, Karnataka
+    publisher: MediaNama
+    author: Soumyarendra Barik
+    tier: report
+    url: https://www.medianama.com/2019/12/223-internet-shutdown-up-karnataka/
+    archive_date: 2019-12-23
+    archive_url: https://web.archive.org/web/20191223044310/https://www.medianama.com/2019/12/223-internet-shutdown-up-karnataka/
+    date: 2019-12-20
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: "Mobile internet suspended in 14 UP districts, more than 3,500 detained after violent CAA protests"
+    publisher: Hindustan Times
+    tier: secondary
+    url: https://www.hindustantimes.com/india-news/no-internet-in-10-up-districts-including-lucknow-after-violent-caa-protests/story-KR2GoHodCTbgbqLAdLqaGJ.html
+    archive_date: 2019-12-20
+    archive_url: https://web.archive.org/web/20191220071839/https://www.hindustantimes.com/india-news/no-internet-in-10-up-districts-including-lucknow-after-violent-caa-protests/story-KR2GoHodCTbgbqLAdLqaGJ.html
+    date: 2019-12-20
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Parwaiz Arif Titu v State of Uttar Pradesh, Writ Petition (Civil) No. 55 of 2020, order of 18 February 2022
+    publisher: Supreme Court of India (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/61780558/
+    date: 2022-02-18
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s33
+    title: "In Re: Banners Placed On Road Side In The City Of Lucknow v State of U.P., PIL No. 532 of 2020"
+    publisher: High Court of Judicature at Allahabad (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/145043097/
+    archive_date: 2020-03-12
+    archive_url: https://web.archive.org/web/20200312174745/https://indiankanoon.org/doc/145043097/
+    date: 2020-03-09
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s34
+    title: State of Uttar Pradesh v High Court of Judicature at Allahabad (In Re Banners on Roadside in the City of Lucknow), SLP (C) No. 6286 of 2020, order of 12 March 2020
+    publisher: Supreme Court of India (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/98033018/
+    archive_date: 2020-03-16
+    archive_url: https://web.archive.org/web/20200316163329/https://indiankanoon.org/doc/98033018/
+    date: 2020-03-12
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s35
+    title: Shaheen Bagh sit-in protest cleared amid coronavirus lockdown
+    publisher: The Indian Express
+    author: Somya Lakhani
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/shaheen-bagh-protests-delhi-coronavirus-6328815/
+    archive_date: 2020-03-24
+    archive_url: https://web.archive.org/web/20200324045710/https://indianexpress.com/article/cities/delhi/shaheen-bagh-protests-delhi-coronavirus-6328815/
+    date: 2020-03-24
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: Police evict Shaheen Bagh protesters, clear protest sites
+    publisher: Hindustan Times
+    author: Kainat Sarfaraz
+    tier: report
+    url: https://www.hindustantimes.com/delhi-news/police-evict-shaheen-bagh-protesters-clear-protest-sites/story-KpPmFapoeJc5ozIDRmZZyJ.html
+    archive_date: 2020-03-25
+    archive_url: https://web.archive.org/web/20200325021835/https://www.hindustantimes.com/delhi-news/police-evict-shaheen-bagh-protesters-clear-protest-sites/story-KpPmFapoeJc5ozIDRmZZyJ.html
+    date: 2020-03-25
+    type: news
+    accessed: 2026-10-15
+  - id: s37
+    title: Sowmya R Reddy v State of Karnataka, W.P. No. 52731 of 2019 and connected petitions
+    publisher: High Court of Karnataka (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/132683124/
+    archive_date: 2022-09-10
+    archive_url: https://web.archive.org/web/20220910090841/https://indiankanoon.org/doc/132683124/
+    date: 2020-02-13
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s38
+    title: Natasha Narwal v State of NCT of Delhi, Crl.A. 82 of 2021
+    publisher: Delhi High Court (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/22442351/
+    date: 2021-06-15
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s39
+    title: State of NCT of Delhi v Devangana Kalita, SLP (Crl.) No. 4289 of 2021, order of 18 June 2021
+    publisher: Supreme Court of India (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/2754437/
+    date: 2021-06-18
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s40
+    title: Gulfisha Fatima v State (Govt. of NCT of Delhi), 2026 INSC 2
+    publisher: Supreme Court of India (copy on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/10134315/
+    archive_date: 2026-01-17
+    archive_url: https://web.archive.org/web/20260117081558/https://indiankanoon.org/doc/10134315/
+    date: 2026-01-05
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s41
+    title: "Violence in UP, Yogi Adityanath warns of revenge against arsonists"
+    publisher: The Indian Express
+    author: Asad Rehman, Manish Sahu and Avaneesh Mishra
+    tier: report
+    url: https://indianexpress.com/article/india/violence-in-up-yogi-adityanath-warns-of-revenge-against-arsonists-6175721/
+    archive_date: 2019-12-20
+    archive_url: https://web.archive.org/web/20191220010646/https://indianexpress.com/article/india/violence-in-up-yogi-adityanath-warns-of-revenge-against-arsonists-6175721/
+    date: 2019-12-20
+    type: news
+    accessed: 2026-10-15
+  - id: s42
+    title: "Priyanka slams Yogi for 'revenge' remark"
+    publisher: Hindustan Times
+    author: Umesh Raghuvanshi
+    tier: report
+    url: https://www.hindustantimes.com/india-news/priyanka-slams-yogi-for-revenge-remark/story-qsNGlnVU6jTGWNpYeh2dCJ.html
+    archive_date: 2019-12-31
+    archive_url: https://web.archive.org/web/20191231010358/https://www.hindustantimes.com/india-news/priyanka-slams-yogi-for-revenge-remark/story-qsNGlnVU6jTGWNpYeh2dCJ.html
+    date: 2019-12-31
+    type: news
+    accessed: 2026-10-15
+  - id: s43
+    title: Post by Yogi Adityanath Office (@myogioffice) on X, 27 December 2019
+    publisher: X (Twitter)
+    author: Yogi Adityanath Office
+    tier: record
+    language: hi
+    url: https://x.com/myogioffice/status/1210579722918232067
+    archive_date: 2024-06-23
+    archive_url: https://web.archive.org/web/20240623042344/https://x.com/myogioffice/status/1210579722918232067
+    date: 2019-12-27
+    type: official
+    accessed: 2026-10-15
+  - id: s44
+    title: Post by Mayawati (@Mayawati) on X, 21 December 2019
+    publisher: X (Twitter)
+    author: Mayawati
+    tier: record
+    language: hi
+    url: https://x.com/Mayawati/status/1208224732803301376
+    date: 2019-12-21
+    type: official
+    accessed: 2026-10-15
+  - id: s45
+    title: "Parliament proceedings | No doubtful category in National Population Register, says Amit Shah"
+    publisher: The Hindu
+    author: Sobhana K. Nair
+    tier: report
+    url: https://www.thehindu.com/news/national/parliament-proceedings-no-doubtful-category-in-national-population-register-says-amit-shah/article61963806.ece
+    archive_date: 2023-12-02
+    archive_url: https://web.archive.org/web/20231202080340/https://www.thehindu.com/news/national/parliament-proceedings-no-doubtful-category-in-national-population-register-says-amit-shah/article61963806.ece
+    date: 2020-03-12
+    type: news
+    accessed: 2026-10-15
+  - id: s46
+    title: Post by Arvind Kejriwal (@ArvindKejriwal) on X, 13 March 2020
+    publisher: X (Twitter)
+    author: Arvind Kejriwal
+    tier: record
+    language: hi
+    url: https://x.com/ArvindKejriwal/status/1238437584138727424
+    date: 2020-03-13
+    type: official
+    accessed: 2026-10-15
+  - id: s47
+    title: Delhi police stormed Jamia library
+    publisher: The Hindu
+    author: Hemani Bhandari
+    tier: report
+    url: https://www.thehindu.com/news/national/delhi-police-stormed-jamia-library/article30324164.ece
+    archive_date: 2019-12-17
+    archive_url: https://web.archive.org/web/20191217052900/https://www.thehindu.com/news/national/delhi-police-stormed-jamia-library/article30324164.ece
+    date: 2019-12-17
+    type: news
+    accessed: 2026-10-15
+tags: [delhi, uttar_pradesh, karnataka, caa, students, internet_shutdown, section_144, lathi_charge, tear_gas, firing, uapa_charge, supreme_court, bjp, aap]
 review:
   status: draft

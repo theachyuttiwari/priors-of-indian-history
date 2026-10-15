@@ -661,5 +661,31 @@
       "result": "error",
       "note": "Error: HTTP 403"
     }
+  },
+  "anti-caa-shaheen-bagh-2019-2020": {
+    "cc69d370cf4417aa": {
+      "position": 0,
+      "source": "s41",
+      "fetched": "https://web.archive.org/web/20191220010646id_/https://indianexpress.com/article/india/violence-in-up-yogi-adityanath-warns-of-revenge-against-arsonists-6175721/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "8489f77c5577323d8e07a7be8267239eea63e67ef0c34847688e592a541f85f7"
+    },
+    "1f35c5e17a736cab": {
+      "position": 1,
+      "source": "s6",
+      "fetched": "https://web.archive.org/web/20201031114308id_/https://www.aljazeera.com/news/2019/12/28/go-to-pakistan-says-india-officer-as-leader-praises-crackdown",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a3ac780d7856077280e8132b32812250a2f0a5b6410a6e3837e9379a713f9906"
+    },
+    "1c636fe6ad845251": {
+      "position": 4,
+      "source": "s12",
+      "fetched": "https://web.archive.org/web/20191221091812id_/https://scroll.in/latest/947486/caa-protests-seven-killed-in-uttar-pradesh-chandrashekhar-azad-surrenders-in-delhi",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "839d3018982fd17d014fcff8e7f5599a8a4ee9e37367d48ac1c1819ee8f278ca"
+    }
   }
 }
