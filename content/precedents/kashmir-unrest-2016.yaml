@@ -3,19 +3,20 @@ title: Kashmir unrest after the killing of Burhan Wani, 2016
 summary: >
   Security forces killed Hizbul Mujahideen commander Burhan Wani in Kokernag, Anantnag,
   on 8 July 2016. Mass protests followed across the Kashmir Valley. The PDP-BJP state
-  government imposed curfew, suspended mobile internet and phone networks, and briefly
-  halted newspaper printing, while security forces used pellet shotguns on crowds. The
-  Union Home Minister announced an expert committee on alternatives to pellet guns on 21 July.
+  government imposed curfew and other restrictions, mobile internet and phone networks were
+  suspended, and newspaper printing was halted for several days, while security forces used
+  pellet guns on crowds. The Union Home Minister announced an expert committee on
+  alternatives to pellet guns on 21 July.
 period:
   start: 2016-07-08
-  end: 2016-09-25
+  end: 2016-11-02
 location:
   states: [Jammu and Kashmir]
-  places: [Srinagar, Anantnag, Pulwama, Shopian, Kulgam, Tral, Sopore]
+  places: [Srinagar, Anantnag, Pulwama, Shopian, Kulgam, Tral, Sopore, Pampore]
 protest:
-  cause: Anger at the killing of Burhan Wani; wider demand for self-determination
-  organisers: [Separatist leaders including Syed Ali Geelani and Mirwaiz Umar Farooq called valley-wide shutdowns; much of the protest was spontaneous]
-  scale: Valley-wide; RSF cited at least 45 civilians killed and over 1,600 injured by 21 July; Newslaundry cited 96 deaths by January 2017
+  cause: Protest against the killing of Burhan Wani; separatist demand for self-determination
+  organisers: [Separatist leaders Syed Ali Geelani, Mirwaiz Umar Farooq and Asiya Andrabi called valley-wide shutdowns]
+  scale: "Valley-wide. Casualty counts differ by source and date: the Union Home Minister told the Lok Sabha on 21 July that 38 civilians had been killed and 2,180 injured; The Hindu reported a toll of 73 by 2 September; petitioners in the J&K High Court put the number injured at about 4,000"
 government:
   centre:
     party: BJP
@@ -30,152 +31,448 @@ government:
 actions:
   - type: curfew
     date: 2016-07-09
-    description: "Curfew was imposed in Pulwama district, the towns of Anantnag, Shopian and Sopore, and areas under seven Srinagar police stations. Wikipedia, citing Deccan Herald and The Hindu, states curfew was extended to all ten Valley districts on 15 July and lifted on 31 August after 53 days, then reimposed in places in September and lifted on 25 September."
+    claim: ordered
+    legal_basis: Section 144 CrPC (orders restricting movement of people and vehicles, as recorded by the J&K High Court on 21 September 2016)
+    description: "Authorities imposed curfew and other restrictions from 9 July. Madhyamam reported restrictions that day in Pulwama district, the towns of Anantnag, Shopian, Kulgam and Sopore, and areas under seven Srinagar police stations; a PTI report said curfew was imposed across Kashmir on 9 July. The J&K High Court recorded that the State Government had passed orders under Section 144 CrPC restricting the movement of people and vehicles. In the Lok Sabha on 21 July, Home Minister Rajnath Singh said the Chief Minister had ordered relaxation of the curfew in the evening and night hours. Curfew was lifted and reimposed in stages: PTI reported it lifted from all parts except Anantnag town on 26 July, reimposed across Kashmir on 29 July, and in force in Srinagar district and the towns of Anantnag and Pampore on 20 August. The Hindu reported curfew lifted from all ten Valley districts on 31 August and reimposed in Srinagar and other district headquarters and towns on 2 September."
     actor: state
-    sources: [s4, s9]
+    sources: [s11, s13, s4, s15, s17, s18, s19, s22, s23]
   - type: internet_shutdown
-    date: 2016-07-09
-    description: "Authorities suspended mobile internet across the Kashmir Valley on 9 July to curb rumours. Mobile phone networks were suspended in four south Kashmir districts from the evening of 8 July. RSF reported that private mobile networks were cut on 14 July and mobile internet again on 16 July, leaving only state-run BSNL working."
+    date: 2016-07-08
+    claim: ordered
+    description: "Mobile internet was suspended across the Valley after Wani's killing; Hindustan Times and CPJ date this to 8 July, Madhyamam to 9 July. Mobile internet was also suspended in the Jammu region on the evening of 9 July. Hindustan Times reported that non-BSNL mobile phone services were blocked from 14 to 26 July, that private networks were suspended again on the night of 11 August, and that mobile internet was still suspended on 12 August. PTI reported that mobile phone services were cut on 13 August and postpaid services restored on 20 August. In the Rajya Sabha on 18 July, Rajnath Singh said he agreed that the ban on the internet and newspapers should be lifted soon. In the Lok Sabha on 21 July he said the Chief Minister had told him the internet had been blocked for a short time and the restrictions had since been removed; Tathagata Satpathy said the internet was still not working, and Singh replied that the government had not shut it down."
     actor: state
-    sources: [s4, s8, s3]
+    sources: [s12, s11, s4, s16, s21, s19, s2, s3]
   - type: censorship
     date: 2016-07-16
-    description: "Police raided newspaper offices and printing presses in Srinagar on the night of 15-16 July, halted presses, seized copies and briefly detained staff. Greater Kashmir, Rising Kashmir, Kashmir Images, Kashmir Observer, Kashmir Reader and Kashmir Uzma were affected; publication was prevented for three days. Cable television was blocked on 16 July. State Education Minister Naeem Akhtar said the measures were aimed at saving lives."
+    claim: ordered
+    description: "Police raided newspaper offices and printing presses in and around Srinagar on the night of 15-16 July, seized printing plates and printed copies, and briefly detained staff, according to CPJ, RSF and AP. Greater Kashmir, Rising Kashmir, Kashmir Observer, Kashmir Times, Daily Kashmir Images, Kashmir Reader and Kashmir Uzma were among the papers affected. CPJ reported that newspapers were kept from publishing for three days and that cable television was blocked on 16 July. Accounts differ on who ordered the ban. Government spokesperson and Education Minister Naeem Akhtar said the measures were aimed at saving lives and strengthening peace efforts. On 18 July the Chief Minister's political adviser Amitabh Mattoo said the decision had been taken without the Chief Minister's knowledge, possibly at a local level. On 19 July Union Information and Broadcasting Minister Venkaiah Naidu said Mehbooba Mufti had told him there was no ban, and on 21 July Rajnath Singh told the Lok Sabha that the Chief Minister had said there was no restriction on the press. IANS reported that newspapers were to resume on 21 July after the Chief Minister met editors, who said she had regretted the ban."
     actor: state
-    sources: [s2, s3]
+    sources: [s2, s3, s25, s20, s12, s11, s26]
   - type: firing
     date: 2016-07
-    description: "Security forces used 12-gauge pellet shotguns on protesters. The Home Minister told the Lok Sabha on 21 July that one person had died of pellet injuries and 53 had eye injuries; Kashmir Life reported at least 35 youths had lost eyesight by 21 July. Global Voices reported 31 killed and about 444 injured by 11 July."
+    claim: happened
+    description: "Security forces used 12-bore pellet guns, tear gas and live ammunition against protesters. Counts of deaths and injuries differ by source and date (see figures). On 9 July the J&K Police (ADGP, CID, S. M. Sahai) said seven of that day's deaths were caused by retaliatory action by security forces after mobs attacked police posts, a police station and police and CRPF camps. In the Lok Sabha on 21 July, Rajnath Singh said security forces had shown maximum restraint, that someone might have made a mistake somewhere, and that pellet guns had caused one death and about 53 eye injuries. The J&K High Court Bar Association, in a petition filed in July 2016, alleged excessive force and said people watching clashes, including teenagers, had been hit in the eyes, skull and throat. In its order of 21 September 2016 the High Court said that security personnel, their camps and police stations were targeted by unruly crowds almost every day, and that many persons were injured by pellet guns. Before the Supreme Court on 10 April 2017, the Attorney General said the forces used staggered force, with pellet guns and then live ammunition used only when a mob came close."
     actor: centre
-    sources: [s6, s5, s8]
+    sources: [s13, s14, s11, s12, s15, s5, s3, s8, s17, s23]
+    figures:
+      - { what: civilians killed, by 18 July, value: "33", claimed_by: Union Home Minister (Rajya Sabha), source: s12 }
+      - { what: civilians injured, by 18 July, value: "1,948", claimed_by: Union Home Minister (Rajya Sabha), source: s12 }
+      - { what: security force personnel injured, by 18 July, value: "1,671", claimed_by: Union Home Minister (Rajya Sabha), source: s12 }
+      - { what: civilians killed, by 21 July, value: "38", claimed_by: Union Home Minister (Lok Sabha), source: s11 }
+      - { what: civilians injured, by 21 July, value: "2,180", claimed_by: Union Home Minister (Lok Sabha), source: s11 }
+      - { what: security force personnel injured, by 21 July, value: "1,739", claimed_by: Union Home Minister (Lok Sabha), source: s11 }
+      - { what: deaths caused by pellet guns, by 21 July, value: "1", claimed_by: Union Home Minister (Lok Sabha), source: s11 }
+      - { what: people with pellet injuries to the eyes, by 21 July, value: "about 53", claimed_by: Union Home Minister (Lok Sabha), source: s11 }
+      - { what: deaths caused by pellet guns, by 21 July, value: "2", claimed_by: Kashmir Life, source: s5 }
+      - { what: youths who lost eyesight to pellets, by 21 July, value: "at least 35", claimed_by: Kashmir Life, source: s5 }
+      - { what: killed on 9 July, value: "11", claimed_by: The Indian Express, source: s15 }
+      - { what: deaths on 9 July caused by retaliatory action of security forces, value: "7", claimed_by: J&K Police (ADGP S. M. Sahai), source: s15 }
+      - { what: killed by 11 July, value: "31", claimed_by: Global Voices, source: s8 }
+      - { what: injured by 11 July, value: "about 444", claimed_by: Global Voices, source: s8 }
+      - { what: civilians killed by 21 July, value: "at least 45", claimed_by: Reporters Without Borders, source: s3 }
+      - { what: injured by 21 July, value: "more than 1,600", claimed_by: Reporters Without Borders, source: s3 }
+      - { what: killed by 26 July, including two policemen, value: "47", claimed_by: PTI, source: s17 }
+      - { what: injured by 26 July, value: "5,500", claimed_by: PTI, source: s17 }
+      - { what: death toll by 2 September, value: "73", claimed_by: The Hindu, source: s23 }
+      - { what: injured, value: "about 4,000", claimed_by: J&K High Court Bar Association (petitioner), source: s13 }
+      - { what: blinded, value: "about 100", claimed_by: J&K High Court Bar Association (petitioner), source: s13 }
+      - { what: pellet-injured patients referred to hospitals outside the state, value: "510", claimed_by: Director, Health Services, Kashmir (affidavit), source: s13 }
+      - { what: persons paid ex gratia for permanent disablement (Rs 0.75 lakh each), value: "54", claimed_by: J&K Home Department (affidavit), source: s13 }
+      - { what: persons paid ex gratia for partial disablement (Rs 0.50 lakh each), value: "10", claimed_by: J&K Home Department (affidavit), source: s13 }
+    court_outcomes:
+      - summary: On 21 September 2016 the J&K High Court declined to prohibit pellet guns in rare and extreme situations until the expert committee reported and the government decided, and said whether force was excessive in a given incident needed a factual finding by a competent authority.
+        source: s13
+      - summary: On 11 March 2020 the High Court dismissed the petition, holding that the state had met its obligation by ex gratia payments to most of the injured, and that individuals could sue for further compensation.
+        source: s13
   - type: other
     date: 2016-07-09
-    description: "The Amarnath pilgrimage was suspended, school board exams postponed and Baramulla-Banihal train services halted."
+    description: "On 9 July the Amarnath pilgrimage convoy from Jammu was halted, vehicle movement on the Jammu-Srinagar highway between Batote and Banihal was suspended, school board exams were postponed, and train services between Baramulla and Banihal were suspended."
     actor: state
-    sources: [s4, s7]
+    sources: [s16, s4, s7]
   - type: commission_of_inquiry
     date: 2016-07-21
-    description: "Replying to a Lok Sabha debate, Home Minister Rajnath Singh announced an expert committee to recommend non-lethal alternatives to pellet guns, to report in two months. He said the Prime Minister had directed security forces to show maximum restraint."
+    claim: ordered
+    description: "Replying to the Lok Sabha debate on 21 July, Home Minister Rajnath Singh announced an expert committee to recommend non-lethal alternatives to pellet guns, to report within two months. On 26 July he approved a seven-member committee chaired by T. V. S. N. Prasad, Joint Secretary in the Ministry of Home Affairs, with officers of the CRPF, BSF, J&K Police and Ordnance Factory Board and experts from TBRL Chandigarh and IIT Delhi. In Srinagar on 25 August he said an alternative would be given within a few days. Tribune News Service reported that the committee favoured chilli-based PAVA shells, and a government official told PTI on 29 August that pellet guns would not be banned but would be used only in the rarest of rare cases."
     actor: centre
-    sources: [s1, s5, s6]
+    sources: [s11, s31, s13, s1, s5, s6, s32, s33]
 outcome: >
-  Curfew was lifted in stages by late September 2016. The expert committee on pellet
-  gun alternatives reported later in 2016; pellet guns remained in use subject to new guidelines.
+  Curfew and restrictions were lifted and reimposed in stages through August and September 2016.
+  A state government committee later identified persons disabled in the disturbances of 8 July to
+  2 November 2016 for ex gratia payments. The J&K High Court declined to ban pellet guns in
+  September 2016 and dismissed the petition in March 2020.
 positions:
   - party: BJP
     person: Rajnath Singh
     role_at_time: Union Home Minister
     in_power: true
     date: 2016-07-21
-    statement: "We all feel sad over the lives lost and those injured. The youth of Kashmir are also patriots. We will constitute an expert committee to review the use of pellet guns for controlling crowds."
-    sources: [s6, s5]
+    kind: paraphrase
+    statement: "Replying to the Lok Sabha debate, said everyone was deeply sorry for those killed and injured in Kashmir, that Kashmiri youth were also patriots but some had been misled, and that Pakistan had a key role in the unrest. He said he and the Prime Minister had told security forces to exercise maximum restraint, that someone might have made a mistake somewhere, and that an expert committee would report on alternatives to pellet guns within two months."
+    sources: [s11, s6]
+  - party: INC
+    person: Ghulam Nabi Azad
+    role_at_time: Leader of the Opposition, Rajya Sabha
+    in_power: false
+    date: 2016-07-18
+    kind: paraphrase
+    statement: "Opening the Rajya Sabha discussion, said his party stood with the government against militancy but that a distinction had to be made between militants and ordinary people. He said about 1,800 people had been injured, most by pellet guns and bullets, asked whether the bullet used against militants should be used against children, old men and women, and asked for the use of pellet guns to be stopped."
+    sources: [s12, s24]
   - party: PDP
     person: Mehbooba Mufti
     role_at_time: Chief Minister of Jammu and Kashmir
     in_power: true
     date: 2016-07-28
-    statement: "Said she had not known Burhan Wani was in the Kokernag house and that security forces knew only that three militants were hiding there: we imposed curfew so that youths don't come out."
-    sources: [s10]
+    kind: paraphrase
+    statement: "Told reporters that the police and army had said three militants were hiding in the Kokernag house but did not know who they were, and that Wani might have been given a chance had they known he was there. She said her government, unlike the previous one in 2013, had no time to prepare, and that curfew was imposed so that young people would not come out. Published versions of her words differ."
+    sources: [s10, s28]
   - party: PDP
     person: Naeem Akhtar
     role_at_time: State Education Minister and government spokesperson
     in_power: true
-    date: 2016-07-18
-    statement: "Said the restrictions on the press were aimed at saving lives and strengthening peace efforts."
-    sources: [s2]
+    date: 2016-07
+    kind: paraphrase
+    statement: "Said the restrictions on newspapers were aimed at saving lives and strengthening peace efforts."
+    sources: [s2, s25]
   - party: BJP
     person: Venkaiah Naidu
-    role_at_time: Union Minister
+    role_at_time: Union Minister of Information and Broadcasting
     in_power: true
     date: 2016-07-10
-    statement: "How can any Indian have sympathy for such people?"
-    sources: [s8]
+    kind: verbatim
+    statement: "Said Wani was a Hizbul Mujahideen commander, questioned sympathy for him and for protesters he described as sympathising with a terrorist, and accused Pakistan of influencing Wani's sympathisers."
+    quote:
+      text: "How can any Indian have sympathy for such people?"
+      locator: "paragraph beginning \"(Wani) was a Hizbul Mujahideen commander\""
+      source: s27
+    sources: [s27, s8]
   - party: NC
-    person: Farooq Abdullah
-    role_at_time: Former Chief Minister, opposition
+    person: Ali Mohammad Sagar
+    role_at_time: NC general secretary, opposition
     in_power: false
-    date: 2016-08-19
-    statement: "Said Indian forces were unleashing a reign of terror. The National Conference boycotted the 21 July all-party meeting, blaming the government for the situation. (Sourced via Wikipedia summary; primary report not opened.)"
-    sources: [s9]
+    date: 2016-07-20
+    kind: paraphrase
+    statement: "In a letter declining the Chief Minister's invitation to an all-party meeting on 21 July, said the National Conference would not attend, that the meeting came almost two weeks after the unrest began, that there was no effective leadership in the state government, and that the government had mishandled the press ban by first enforcing it and then contradicting it."
+    sources: [s29, s30]
 sources:
   - id: s1
     title: "PRS Parliament Diary: Monsoon Session Day 4, 21 July 2016"
     publisher: PRS Legislative Research
+    tier: secondary
     url: https://prsindia.org/media/media-updates/prs-parliament-diary-monsoon-session-day-4-jul-21-2016
     archive_date: 2019-01-15
     archive_url: https://web.archive.org/web/20190115163324/https://prsindia.org/media/media-updates/prs-parliament-diary-monsoon-session-day-4-jul-21-2016
     date: 2016-07-21
-    type: official
+    type: academic
+    accessed: 2026-10-15
   - id: s2
     title: Indian authorities shut down media outlets in Jammu and Kashmir
     publisher: Committee to Protect Journalists
+    tier: secondary
     url: https://cpj.org/2016/07/indian-authorities-shut-down-media-outlets-in-jamm/
     archive_date: 2020-08-07
     archive_url: https://web.archive.org/web/20200807013424/https://cpj.org/2016/07/indian-authorities-shut-down-media-outlets-in-jamm/
     date: 2016-07-18
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: RSF condemns Kashmir media blackout by Indian authorities
     publisher: Reporters Without Borders
+    tier: secondary
     url: https://rsf.org/en/rsf-condemns-kashmir-media-blackout-indian-authorities
     archive_date: 2022-05-24
     archive_url: https://web.archive.org/web/20220524205209/https://rsf.org/en/rsf-condemns-kashmir-media-blackout-indian-authorities
     date: 2016-07-21
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: Mobile internet services suspended in Kashmir
     publisher: Madhyamam
+    tier: secondary
     url: https://madhyamamonline.com/national/2016/jul/9/mobile-internet-services-suspended-kashmir
     date: 2016-07-09
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "#KashmirNow: GoI to review use of pellet guns"
     publisher: Kashmir Life
+    tier: secondary
     url: https://kashmirlife.net/kashmirnow-goi-to-review-use-of-pellet-guns-111870/
     archive_date: 2016-07-22
     archive_url: https://web.archive.org/web/20160722060716/https://kashmirlife.net/kashmirnow-goi-to-review-use-of-pellet-guns-111870/
     date: 2016-07-21
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "Govt will look at non-lethal alternatives to pellet guns: Rajnath Singh"
     publisher: rajnathsingh.in (Home Minister's website)
+    wire: PTI
+    tier: secondary
     url: https://www.rajnathsingh.in/news-eng/govt-will-look-at-non-lethal-alternatives-to-pellet-guns-rajnath-singh/
     archive_date: 2021-11-29
     archive_url: https://web.archive.org/web/20211129113906/https://www.rajnathsingh.in/news-eng/govt-will-look-at-non-lethal-alternatives-to-pellet-guns-rajnath-singh/
     date: 2016-07-22
-    type: official
+    type: news
+    accessed: 2026-10-15
   - id: s7
     title: India kills top rebel leader in Kashmir, braces for protests
-    publisher: ecoi.net
-    wire: AFP
-    url: https://www.ecoi.net/en/document/326568
+    publisher: RFE/RL (copy on ecoi.net)
+    tier: secondary
+    url: https://www.ecoi.net/en/document/1064372.html
+    archive_date: 2024-10-09
+    archive_url: https://web.archive.org/web/20241009104517/https://www.ecoi.net/en/document/1064372.html
     date: 2016-07-09
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: Dozens killed after Indian forces crackdown on protests in Kashmir
     publisher: Global Voices
+    tier: secondary
     url: https://globalvoices.org/2016/07/11/dozens-killed-after-indian-forces-crackdown-on-protests-in-kashmir/
     archive_date: 2016-07-12
     archive_url: https://web.archive.org/web/20160712133300/https://globalvoices.org/2016/07/11/dozens-killed-after-indian-forces-crackdown-on-protests-in-kashmir/
     date: 2016-07-11
     type: news
-  - id: s9
-    title: "2016-2017 Kashmir unrest (tertiary summary; used only for curfew dates and NC statements)"
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
-    archive_date: 2020-09-08
-    archive_url: https://web.archive.org/web/20200908013134/https://en.wikipedia.org/wiki/2016%E2%80%932017_Kashmir_unrest
-    date: 2016
-    type: archive
+    accessed: 2026-10-15
   - id: s10
     title: "Day 20: Didn't know Burhan was in Bemdoora, says CM"
     publisher: Kashmir Life
+    tier: secondary
     url: https://kashmirlife.net/day20-didnt-know-burhan-was-in-bemdoora-says-cm-112662/
     archive_date: 2016-07-29
     archive_url: https://web.archive.org/web/20160729164607/https://kashmirlife.net/day20-didnt-know-burhan-was-in-bemdoora-says-cm-112662/
     date: 2016-07-28
     type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: "Lok Sabha Debates, 21 July 2016 (English version, translated by the Lok Sabha Secretariat with AI tools): discussion under Rule 193 on the situation in the Kashmir Valley, reply of the Home Minister, pp. 87-105"
+    publisher: Lok Sabha Secretariat
+    tier: record
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/fc605312-3ade-415e-95eb-a7c29222c728/content
+    date: 2016-07-21
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: "Rajya Sabha official debates, 18 July 2016: short duration discussion on the situation in the Kashmir Valley (Azad opening, pp. 348-349; Home Minister's reply, pp. 409-414)"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    language: hi
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/240/F18.07.2016.pdf
+    archive_date: 2024-04-14
+    archive_url: https://web.archive.org/web/20240414234151/https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/240/F18.07.2016.pdf
+    date: 2016-07-18
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: J&K High Court Bar Association vs Union of India and others, WP(C) (PIL) No. 14/2016 (judgment quoting the order of 21 September 2016)
+    publisher: High Court of Jammu and Kashmir (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/63200140/
+    archive_date: 2020-03-14
+    archive_url: https://web.archive.org/web/20200314151046/https://indiankanoon.org/doc/63200140/
+    date: 2020-03-11
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s14
+    title: Jammu and Kashmir High Court Bar Association, Srinagar vs Union of India, SLP (C) No. 33734/2016, record of proceedings
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/89655434/
+    date: 2017-04-10
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s15
+    title: "J&K: 11 killed, over 200 hurt as Burhan Wani's death sparks violence, protests"
+    publisher: The Indian Express
+    author: Muzamil Jaleel, Mir Ehsan
+    tier: report
+    url: https://indianexpress.com/article/india/india-news-india/11-killed-over-200-hurt-as-burhans-death-sparks-violence-protests-2904360/
+    archive_date: 2016-07-10
+    archive_url: https://web.archive.org/web/20160710002856/https://indianexpress.com/article/india/india-news-india/11-killed-over-200-hurt-as-burhans-death-sparks-violence-protests-2904360/
+    date: 2016-07-10
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: Amarnath pilgrims stranded after vehicular traffic suspended along Jammu-Srinagar highway
+    publisher: The Indian Express
+    author: Arun Sharma
+    tier: report
+    url: https://indianexpress.com/article/india/india-news-india/burhan-wani-kashmir-protests-amarnath-pilgrims-stranded-after-vehicular-traffic-suspended-along-the-jammu-srinagar-highway-2903700/
+    archive_date: 2016-07-10
+    archive_url: https://web.archive.org/web/20160710141959/https://indianexpress.com/article/india/india-news-india/burhan-wani-kashmir-protests-amarnath-pilgrims-stranded-after-vehicular-traffic-suspended-along-the-jammu-srinagar-highway-2903700/
+    date: 2016-07-09
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "Kashmir unrest: Barring Anantnag, curfew lifted from all parts; schools remain shut"
+    publisher: The Indian Express
+    wire: PTI
+    tier: secondary
+    url: https://indianexpress.com/article/india/india-news-india/kashmir-curfew-lifted-2936131/
+    archive_date: 2016-07-27
+    archive_url: https://web.archive.org/web/20160727155014/https://indianexpress.com/article/india/india-news-india/kashmir-curfew-lifted-2936131/
+    date: 2016-07-26
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: Curfew remains in force in some parts of Kashmir Valley
+    publisher: The Indian Express
+    wire: PTI
+    tier: secondary
+    url: https://indianexpress.com/article/india/india-news-india/curfew-continues-in-kashmir-valley-for-22nd-consecutive-day-2943832/
+    archive_date: 2016-07-30
+    archive_url: https://web.archive.org/web/20160730062501/https://indianexpress.com/article/india/india-news-india/curfew-continues-in-kashmir-valley-for-22nd-consecutive-day-2943832/
+    date: 2016-07-30
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: Mobile telephone services restored in Kashmir Valley
+    publisher: The Indian Express
+    wire: PTI
+    tier: secondary
+    url: https://indianexpress.com/article/india/india-news-india/kashmir-unrest-burhan-wani-aftermath-mobile-telephone-services-restored-in-kashmir-valley-2986995/
+    archive_date: 2016-08-21
+    archive_url: https://web.archive.org/web/20160821185110/https://indianexpress.com/article/india/india-news-india/kashmir-unrest-burhan-wani-aftermath-mobile-telephone-services-restored-in-kashmir-valley-2986995/
+    date: 2016-08-20
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: "No ban on newspapers in J&K: Mehbooba to Naidu"
+    publisher: The Indian Express
+    wire: PTI
+    tier: secondary
+    url: https://indianexpress.com/article/india/india-news-india/no-ban-on-newspapers-in-jk-mehbooba-to-naidu-2923857/
+    date: 2016-07-19
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "Kashmir: Mobile network blocked again amid fears of Friday clashes"
+    publisher: Hindustan Times
+    author: Abhishek Saha
+    tier: report
+    url: https://www.hindustantimes.com/india-news/mobile-network-snapped-again-in-kashmir-valley-amid-fears-of-friday/story-m4GoFJAdXttsDIXqk5w66K.html
+    date: 2016-08-12
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: One killed, 100 injured in Valley
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/national/other-states/Authorities-lift-curfew-in-Kashmir-Valley-as-clashes-erupt-in-some-places/article60566533.ece
+    archive_date: 2023-04-16
+    archive_url: https://web.archive.org/web/20230416185904/https://www.thehindu.com/news/national/other-states/Authorities-lift-curfew-in-Kashmir-Valley-as-clashes-erupt-in-some-places/article60566533.ece
+    date: 2016-08-31
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: Authorities impose curfew in Kashmir
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/national/other-states/Authorities-impose-curfew-in-Kashmir/article60526053.ece
+    archive_date: 2023-04-15
+    archive_url: https://web.archive.org/web/20230415041509/https://www.thehindu.com/news/national/other-states/Authorities-impose-curfew-in-Kashmir/article60526053.ece
+    date: 2016-09-02
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Rajnath blames Pakistan for bloodshed in Kashmir
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/national/Rajnath-blames-Pakistan-for-bloodshed-in-Kashmir/article60528575.ece
+    date: 2016-07-19
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: It was mistake to ban media, says Mehbooba govt
+    publisher: Arab News
+    wire: AP
+    tier: secondary
+    url: https://www.arabnews.com/node/957046
+    date: 2016-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: Kashmir newspapers to resume from Thursday
+    publisher: The Morung Express
+    wire: IANS
+    tier: secondary
+    url: https://morungexpress.com/kashmir-newspapers-resume-thursday
+    archive_date: 2018-07-16
+    archive_url: https://web.archive.org/web/20180716041805/https://morungexpress.com/kashmir-newspapers-resume-thursday
+    date: 2016-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Pakistan influencing Wani's sympathisers, says Naidu"
+    publisher: The News Minute
+    wire: IANS
+    tier: secondary
+    url: https://www.thenewsminute.com/news/pakistan-influencing-wanis-sympathisers-says-naidu-46254
+    archive_date: 2024-08-05
+    archive_url: https://web.archive.org/web/20240805085517/https://www.thenewsminute.com/news/pakistan-influencing-wanis-sympathisers-says-naidu-46254
+    date: 2016-07-10
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Nobody knew Burhan was holed up: Mehbooba Mufti"
+    publisher: The News Minute
+    wire: IANS
+    tier: secondary
+    url: https://www.thenewsminute.com/news/nobody-knew-burhan-was-holed-mehbooba-mufti-47250
+    archive_date: 2024-04-13
+    archive_url: https://web.archive.org/web/20240413195257/https://www.thenewsminute.com/news/nobody-knew-burhan-was-holed-mehbooba-mufti-47250
+    date: 2016-07-28
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: Mehbooba Mufti to hold all party meet on Kashmir today; NC to stay away
+    publisher: The Asian Age
+    tier: secondary
+    url: https://www.asianage.com/india/mehbooba-mufti-hold-all-party-meet-kashmir-today-nc-stay-away-040
+    archive_date: 2016-07-22
+    archive_url: https://web.archive.org/web/20160722133733/https://www.asianage.com/india/mehbooba-mufti-hold-all-party-meet-kashmir-today-nc-stay-away-040
+    date: 2016-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: National Conference not to attend Kashmir all-party meet
+    publisher: Oneindia
+    wire: IANS
+    tier: secondary
+    url: https://www.oneindia.com/india/national-conference-not-attend-kashmir-all-party-meet-2158924.html
+    archive_date: 2016-07-22
+    archive_url: https://web.archive.org/web/20160722122856/https://www.oneindia.com/india/national-conference-not-attend-kashmir-all-party-meet-2158924.html
+    date: 2016-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: Expert Committee for exploring other possible alternatives to Pellet Guns as Non-lethal Weapons constituted (PIB release, copy on the Home Minister's website)
+    publisher: rajnathsingh.in (Home Minister's website)
+    tier: record
+    url: https://www.rajnathsingh.in/featured-news/expert-committee-for-exploring-other-possible-alternatives-to-pellet-guns-as-non-lethal-weapons-constituted/
+    archive_date: 2021-11-29
+    archive_url: https://web.archive.org/web/20211129112714/https://www.rajnathsingh.in/featured-news/expert-committee-for-exploring-other-possible-alternatives-to-pellet-guns-as-non-lethal-weapons-constituted/
+    date: 2016-07-26
+    type: official
+    accessed: 2026-10-15
+  - id: s32
+    title: "In place of pellet guns, chilli-based 'PAVA shells' likely"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/archive/community/in-place-of-pellet-guns-chilli-based-pava-shells-likely-285703
+    date: 2016-08-26
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: No blanket ban on pellet guns, but to be used in rare cases
+    publisher: Business Standard
+    wire: PTI
+    tier: secondary
+    url: https://www.business-standard.com/article/current-affairs/no-blanket-ban-on-pellet-guns-but-to-be-used-in-rare-cases-116082901055_1.html
+    archive_date: 2016-09-02
+    archive_url: https://web.archive.org/web/20160902115151/https://www.business-standard.com/article/current-affairs/no-blanket-ban-on-pellet-guns-but-to-be-used-in-rare-cases-116082901055_1.html
+    date: 2016-08-29
+    type: news
+    accessed: 2026-10-15
 tags: [kashmir, curfew, internet_shutdown, pellet_guns, censorship, pdp, bjp, nda]
 review:
   status: draft

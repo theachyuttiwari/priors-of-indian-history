@@ -9,5 +9,91 @@
       "text_sha256": "9bad8a2d18476a2f22ba3e1502b8a9ae2cd56ea284721f6f6ccd305856480317",
       "note": "checked against the live page; archive the source and re-check"
     }
+  },
+  "kashmir-unrest-2016": {
+    "fc5b16272b462f15": {
+      "position": 4,
+      "source": "s27",
+      "fetched": "https://web.archive.org/web/20240805085517id_/https://www.thenewsminute.com/news/pakistan-influencing-wanis-sympathisers-says-naidu-46254",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "0d372b003fabdda3d94fd2161f4716c54dc9547bb6a96c2679ece9153e047903"
+    }
+  },
+  "jp-movement-emergency-1975-1977": {
+    "b7211902bba5d129": {
+      "position": 1,
+      "source": "s1",
+      "fetched": "https://archive.org/download/137896426ShahCommissionOfInquiryInterimReportI/137896426-Shah-Commission-of-Inquiry-Interim-Report-I_djvu.txt",
+      "checked": "2026-10-15",
+      "result": "close",
+      "score": 1,
+      "passage": "information has reached us which indicates that there is an imminent danger to the security of india being threatened by internal disturbance",
+      "text_sha256": "b35c158efec242c47b94dd0f73a6464451ff0dd1907d54b464792600037e16b2",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "204f333521907a2f": {
+      "position": 2,
+      "source": "s7",
+      "fetched": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/93/F21.07.1975.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "02aca4c7a62568fc2e040ddd1378d7c273da063d19a3156e7ae759c38141e352",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "6eac4ee4ed371feb": {
+      "position": 3,
+      "source": "s8",
+      "fetched": "https://web.archive.org/web/20210602212946id_/https://www.casemine.com/judgement/in/56e0f71b607dba3896603c28",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "df3999e9235d352e1081ad7224e6863bb13b03c922a8bf07e89ca0c56a441259"
+    }
+  },
+  "cjp-exam-leak-protests-2026": {
+    "7f32180ca88a91b6": {
+      "position": 0,
+      "source": "s38",
+      "fetched": "https://x.com/dpradhanbjp/status/2079617783613313136",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "3b4d4e5ac05a6b3a82c2ab2fbeebb5b5e801525a3fc8c0b39174f536df8d04e7",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "e2e6b47a841d8def": {
+      "position": 3,
+      "source": "s39",
+      "fetched": "https://www.thehindu.com/news/national/rahul-gandhi-calls-narendra-modi-most-anti-youth-pm-in-indias-history/article71245456.ece",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "33e6b4a0c5b31a257ae7aa2e92c6926fa5edc93bf0722db716dcf350b3bddf53",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "7e1f2eb3d5d4c3cb": {
+      "position": 5,
+      "source": "s2",
+      "fetched": "https://web.archive.org/web/20260723210812id_/https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "288c2b0fd3fae69869dac7d090e1ff0533e41cf91c91fdd40472572d53d5fa60"
+    }
+  },
+  "narmada-bachao-andolan-1989-1993": {
+    "5f4e8262405490cc": {
+      "position": 0,
+      "source": "s9",
+      "fetched": "https://web.archive.org/web/20211207070422id_/https://www.indiatoday.in/magazine/indiascope/story/19921115-sardar-sarovar-project-becomes-a-contentious-environmental-issue-767115-2012-12-24",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "abb5fe8a4630780dee48629f828369e37d9dda71067b405d1f0c8537cb7fac6a"
+    },
+    "aa0f92ac3e67e71f": {
+      "position": 2,
+      "source": "s15",
+      "fetched": "https://web.archive.org/web/20070606221048id_/https://ielrc.org/content/c9201.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "1d8401422e250d60b8819a144a71a06b48e3326eed61524021a484edec66b383"
+    }
   }
 }

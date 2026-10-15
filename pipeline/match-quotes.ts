@@ -37,6 +37,20 @@ function rawArchiveUrl(archiveUrl: string): string {
 }
 
 /**
+ * A scanned book or report on archive.org: its details page holds no text, but the item has an OCR
+ * file (`*_djvu.txt`). archive.org is itself the archive, so its own copy is used, not a snapshot.
+ */
+async function archiveOrgText(url: string): Promise<string | undefined> {
+  const id = url.match(/^https:\/\/archive\.org\/details\/([^/?#]+)/)?.[1];
+  if (!id) return undefined;
+  const res = await fetch(`https://archive.org/metadata/${id}`, { headers: { "User-Agent": UA } });
+  if (!res.ok) return undefined;
+  const meta = (await res.json()) as { files?: { name: string }[] };
+  const txt = meta.files?.find((f) => f.name.endsWith("_djvu.txt"))?.name;
+  return txt ? `https://archive.org/download/${id}/${encodeURIComponent(txt)}` : undefined;
+}
+
+/**
  * Text of a PDF (court judgments, parliamentary debates) via poppler's pdftotext. Reading order, not
  * -layout: debates are printed in two columns, and -layout would interleave them.
  */
@@ -91,7 +105,7 @@ async function main() {
       const src = p.sources.find((s) => s.id === q.source);
       const where = `${p.id} positions[${i}]`;
       if (!src) continue; // the validator reports unknown sources
-      const fetchUrl = src.archive_url ? rawArchiveUrl(src.archive_url) : src.url;
+      const fetchUrl = (await archiveOrgText(src.url)) ?? (src.archive_url ? rawArchiveUrl(src.archive_url) : src.url);
       const needle = pos.kind === "translated" && q.translated_by === "priors" ? (q.original ?? q.text) : q.text;
 
       let record: QuoteCheck;

@@ -3,21 +3,23 @@ title: JP movement and the Emergency, 1975-1977
 summary: >
   In 1974 Jayaprakash Narayan called for a "total revolution" against the Indira Gandhi
   government. On 12 June 1975 the Allahabad High Court voided Indira Gandhi's election, and on
-  25 June 1975 JP told a large Delhi rally that police should reject immoral orders. That night
-  the President proclaimed an Emergency under Article 352 on the ground of internal disturbance.
-  Over 100,000 people were detained under MISA and the Defence of India rules, the press was
-  censored, and the Emergency ended on 21 March 1977 after the Congress lost the general election.
-  The Janata government then set up the Shah Commission to inquire into Emergency excesses.
+  25 June 1975 JP addressed a rally at the Ramlila Grounds in Delhi, where, by the government's
+  account, he appealed to the army and police not to obey orders they considered illegal. That night
+  the President proclaimed an Emergency on the ground of internal disturbance. The Shah Commission
+  later counted 34,988 detentions under MISA and 75,818 arrests under the Defence and Internal
+  Security of India Rules. The press was censored, and the Emergency was revoked on 21 March 1977
+  after the Congress lost the general election. The Janata government then set up the Shah
+  Commission to inquire into Emergency excesses.
 period:
   start: 1974-04
   end: 1977-03-21
 location:
-  states: [Delhi, Bihar, Uttar Pradesh, Chandigarh]
-  places: [Ramlila grounds Delhi, Chandigarh, Muzaffarnagar]
+  states: [Delhi, Bihar, Uttar Pradesh, Chandigarh, Karnataka]
+  places: [Ramlila Grounds Delhi, Turkman Gate Delhi, Chandigarh, Bangalore, Muzaffarnagar]
 protest:
   cause: "Removal of the Indira Gandhi government; the JP movement's call for total revolution"
   organisers: [Jayaprakash Narayan, Opposition parties later merged into the Janata Party]
-  scale: "A crowd of about 100,000 at the Ramlila grounds; more than 100,000 people detained during the Emergency"
+  scale: "A movement across several states led by Jayaprakash Narayan. The Shah Commission counted 34,988 detentions under MISA and 75,818 arrests under the Defence and Internal Security of India Rules during the Emergency"
 government:
   centre:
     party: INC
@@ -26,104 +28,232 @@ government:
 actions:
   - type: other
     date: 1975-06-25
-    description: "Shortly before midnight, President Fakhruddin Ali Ahmed proclaimed an Emergency under Article 352 on the advice of Indira Gandhi, citing internal disturbance. The Union Cabinet learned of it afterwards and ratified it the next morning."
+    claim: ordered
+    legal_basis: Article 352(1) of the Constitution
+    description: "Late on 25 June 1975, President Fakhruddin Ali Ahmed signed a proclamation declaring that a grave emergency existed whereby the security of India was threatened by internal disturbance. Indira Gandhi recommended it in a letter to the President that night, in which she wrote that she had not consulted the Cabinet because of the urgency. The Shah Commission recorded that the Cabinet Secretary, the Home Secretary and the Law Minister learned of the proclamation only on the morning of 26 June, when a Cabinet meeting was held at 6 a.m. On 27 June a Presidential order under Article 359(1) suspended the right to move any court to enforce Articles 14, 21 and 22."
     actor: centre
-    sources: [s1]
+    sources: [s1, s3]
   - type: preventive_arrest
     date: 1975-06-25
-    description: Morarji Desai, other opposition leaders and dissenting members of the ruling party were arrested on the day of the proclamation. Jayaprakash Narayan was detained in Chandigarh and released on 12 November 1975 after his kidneys failed.
+    claim: happened
+    legal_basis: Maintenance of Internal Security Act, 1971 (MISA)
+    description: "Opposition leaders were arrested from the night of 25-26 June 1975. In Bangalore, A. B. Vajpayee, L. K. Advani, S. N. Mishra and Madhu Dandavate were detained under MISA on 26 June after the Delhi Chief Secretary asked for their arrest with, he said, the Prime Minister's concurrence. Morarji Desai was also held. Jayaprakash Narayan was arrested under MISA in Delhi, taken to Chandigarh on 1 July and held at the PGI campus, which was notified as a sub-jail. He was released on 12 November 1975 after his health deteriorated, and was then treated for kidney damage at Jaslok Hospital in Bombay. The Shah Commission found that the arrests of political leaders ordered that night did not comply with the law and amounted to wrongful arrest and detention."
     actor: centre
-    sources: [s4]
+    sources: [s1, s5, s4]
   - type: detention
     date: 1975-06
-    description: "Wikipedia's article on the Emergency gives 110,806 arrests in total, 34,988 under MISA and 75,818 under the Defence and Internal Security of India Rules. It notes that the figures include ordinary criminals as well as political prisoners."
+    claim: happened
+    legal_basis: "Maintenance of Internal Security Act, 1971; Defence and Internal Security of India Rules, 1971"
+    description: "The Shah Commission tabulated, by state and union territory, 34,988 detentions under MISA and 75,818 arrests under the Defence and Internal Security of India Rules during the Emergency. Its state-level breakdowns include political party members and members of banned organisations as well as people held for other reasons, such as alleged smuggling. A Home Ministry message of 26 June 1975 advised states to detain the influential and active elements of the BJS and RSS under MISA. The Commission said that the misuse of detention powers under the amended MISA was the single item that had affected people most across the country."
     actor: centre
-    sources: [s1]
+    sources: [s5]
+    figures:
+      - { what: detentions under MISA during the Emergency, value: "34,988", claimed_by: Shah Commission, source: s5 }
+      - { what: arrests under the Defence and Internal Security of India Rules during the Emergency, value: "75,818", claimed_by: Shah Commission, source: s5 }
   - type: censorship
     date: 1975-06-25
-    description: "Within hours of the proclamation, electricity to major newspapers was cut. Press censorship was imposed a few days later. On 28 June 1975 the Delhi edition of the Indian Express ran a blank editorial."
+    claim: ordered
+    legal_basis: "Censorship Order of 26 June 1975 under the Defence of India Rules, 1971; Rule 48, Defence and Internal Security of India Rules"
+    description: "On the night of 25-26 June 1975 the electricity connections of newspaper presses in Delhi were cut from about 2 a.m.; the head of the Delhi electricity undertaking told the Shah Commission that the Lieutenant Governor said these were orders from the Prime Minister's house. The Commission held that the disconnection had no legal authority. A Censorship Order was issued on 26 June 1975. Censorship guidelines later barred editors from leaving editorial columns blank, which the Information and Broadcasting Minister told the Commission was treated as a sign of protest. The Express group's newspapers ran a blank editorial space on 28 June 1975."
     actor: centre
-    sources: [s1]
+    sources: [s1, s9]
   - type: other
     date: 1976-04-28
-    description: "In ADM Jabalpur v. Shivkant Shukla the Supreme Court held 4-1 that the right to seek habeas corpus against unlawful detention could be suspended during the Emergency. Justice H. R. Khanna dissented. A nine-judge bench overruled the decision in Puttaswamy (2017)."
+    claim: held
+    description: "In ADM Jabalpur v. Shivkant Shukla the Supreme Court held 4-1 that, in view of the Presidential order of 27 June 1975, no person had locus standi to move a High Court for habeas corpus to challenge a detention order as illegal or mala fide. Justice H. R. Khanna dissented."
     actor: court
-    sources: [s3]
+    sources: [s3, s6]
+    court_outcomes:
+      - summary: "On 24 August 2017 a nine-judge bench in Puttaswamy expressly overruled the majority judgments in ADM Jabalpur."
+        source: s6
   - type: property_demolition
     date: 1976
-    description: "About 700,000 people in Delhi were displaced by slum clearance. The Shah Commission said Jagmohan became a law unto himself while carrying out Sanjay Gandhi's orders, and its second interim report examined police firing on protesters against demolitions at Turkman Gate."
-    actor: centre
-    sources: [s1, s2]
-  - type: firing
-    date: 1976-10-18
-    description: Police firing killed 30 people in Muzaffarnagar during a protest against the compulsory sterilisation drive.
-    actor: police
-    sources: [s1]
-  - type: commission_of_inquiry
-    date: 1977-05-28
-    description: "The Janata Party government appointed the Shah Commission, chaired by former Chief Justice J. C. Shah, under the Commissions of Inquiry Act 1952. It issued interim reports on 11 March 1978 and a final report on 6 August 1978. It found no economic or law-and-order crisis that justified the Emergency and said preventive detention laws were abused against political opponents."
+    claim: happened
+    description: "Houses, shops and other structures in Delhi were demolished in slum clearance drives by the Delhi Development Authority and the Municipal Corporation. In a Delhi television interview on 31 December 1976, quoted by the Shah Commission, Jagmohan said seven lakh (700,000) people had been resettled in eight months. The Commission found that Jagmohan became a law unto himself and did the biddings of Sanjay Gandhi, and that Sanjay Gandhi was the prime mover in most of the illegal demolitions in Delhi."
     actor: centre
     sources: [s2]
+    figures:
+      - { what: people resettled in Delhi in eight months, value: "seven lakh (700,000)", claimed_by: "Jagmohan, DDA (TV interview, 31 December 1976)", source: s2 }
+  - type: firing
+    date: 1976-04-19
+    claim: happened
+    description: "On 19 April 1976 police fired on residents of the Turkman Gate area of Delhi who were protesting against demolitions. Delhi Police and the Delhi Administration reported six deaths. A police assistant sub-inspector told the Shah Commission that eight had died, then said this was a slip. The Commission found that the firing resulted in at least six deaths and that the authorities had made no elementary inquiry into it."
+    actor: police
+    sources: [s2]
+    figures:
+      - { what: killed in the Turkman Gate firing, value: "6", claimed_by: Delhi Police and Delhi Administration, source: s2 }
+      - { what: killed in the Turkman Gate firing, value: "8 (later withdrawn as a slip)", claimed_by: "ASI Govind Ram Bhatia, Turkman Gate police post", source: s2 }
+      - { what: killed in the Turkman Gate firing, value: "at least 6", claimed_by: Shah Commission, source: s2 }
+  - type: firing
+    date: 1976-10-18
+    claim: happened
+    description: "On 18 and 19 October 1976 police fired in Muzaffarnagar, Uttar Pradesh, to deal with resistance to the sterilisation drive. The Shah Commission listed it among at least eight police firings in the state between August and December 1976 linked to the family planning programme, and reported that the firings at Gorakhpur, Muzaffarnagar and Pratapgarh together resulted in 12 deaths. The state government ordered inquiries into all the firings."
+    actor: police
+    sources: [s5]
+    figures:
+      - { what: killed in police firings at Gorakhpur, Muzaffarnagar and Pratapgarh combined, value: "12", claimed_by: Shah Commission (as reported to it), source: s5 }
+  - type: commission_of_inquiry
+    date: 1977-05-28
+    claim: ordered
+    legal_basis: "Section 3, Commissions of Inquiry Act, 1952 (notification S.O. 374(E))"
+    description: "The Janata Party government appointed the Shah Commission, chaired by J. C. Shah, retired Chief Justice of India, to inquire into excesses during the Emergency, including misuse of arrest and detention powers, force in the family planning programme and demolitions. It issued interim reports on 11 March and 26 April 1978 and a final report on 6 August 1978. It reported that official records showed nothing alarming on the economic front and that the law and order situation was under control before the proclamation. Indira Gandhi declined to give evidence on oath, and the Commission ordered her prosecution for refusing to take the oath and answer questions."
+    actor: centre
+    sources: [s1, s2, s5, s8]
+    court_outcomes:
+      - summary: "On 20 December 1979 the Delhi High Court quashed the prosecutions of Indira Gandhi and Pranab Mukherjee for refusing to take the oath and answer questions before the Commission."
+        source: s8
 outcome: >
-  Indira Gandhi called elections on 18 January 1977. The Janata Party and allies won 298 seats and
-  the Congress 154, and the Emergency ended on 21 March 1977. Special courts set up in 1979 to try
-  Emergency cases never held trials after the Supreme Court ruled in 1980 that they were not
-  legally constituted.
+  Elections were announced on 18 January 1977. The Janata Party won the general election, Indira
+  Gandhi lost her Rae Bareli seat to Raj Narain, and the Proclamation of Emergency was revoked on
+  21 March 1977. After Indira Gandhi returned to power in January 1980, a special court set up in
+  1979 to try her dropped proceedings in two of the three cases against her.
 positions:
   - party: other (Jayaprakash Narayan, no party)
     person: Jayaprakash Narayan
     role_at_time: Leader of the JP movement
     in_power: false
     date: 1975-06-25
-    statement: "Told a Delhi rally that a police officer must reject government orders that are immoral and unethical; the government treated this as incitement."
-    sources: [s1]
+    kind: paraphrase
+    statement: "At a meeting at the Ramlila Grounds in Delhi, appealed to the army, police and government employees not to obey orders they considered illegal and against their conscience, according to the Home Minister's account to the Rajya Sabha. The Shah Commission recorded that Indira Gandhi read out an advance report of the speech that day."
+    sources: [s7, s1]
   - party: INC
     person: Indira Gandhi
     role_at_time: Prime Minister
     in_power: true
     date: 1975-06-25
-    statement: "The proclamation, drafted for the President by Siddhartha Shankar Ray on her advice, cited \"imminent danger to the security of India being threatened by internal disturbances\"."
+    kind: verbatim
+    statement: "In her letter to the President recommending the proclamation, wrote that there was an imminent danger to the security of India from internal disturbance, that the matter was extremely urgent, and that she would mention it to the Cabinet the next morning."
+    quote:
+      text: "information has reached us which indicates that there is an imminent danger to the security of India being threatened by internal disturbance."
+      locator: "Shah Commission Interim Report I, para 5.52, p. 25"
+      source: s1
     sources: [s1]
+  - party: INC
+    person: K. Brahmananda Reddy
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 1975-07-21
+    kind: verbatim
+    statement: "Moving the resolution in the Rajya Sabha to approve the proclamation, said that Jayaprakash Narayan had incited the police and armed forces to disobey orders, and that no government could be a silent spectator to such incitement."
+    quote:
+      text: "He repeatedly made insinuations and provided incitement to the police and armed forces to disobey the orders of the constituted authority in statements made in various places at various meetings all over the country."
+      locator: "Rajya Sabha debates, 21 July 1975, col. 54"
+      source: s7
+    sources: [s7]
   - party: INC
     person: Indira Gandhi
     role_at_time: Former Prime Minister, opposition
     in_power: false
-    date: 1978
-    statement: "Disputed the legality of the Shah Commission, refused to testify under oath, and in a 1978 TV interview called it biased and its findings untrue."
-    sources: [s2]
+    date: 1978-01-11
+    kind: verbatim
+    statement: "In a letter of 21 November 1977 she called the Shah Commission's terms of reference one-sided and politically motivated. Before the Commission on 11 January 1978 she declined to give evidence on oath, saying that no charge had been framed against her and that former Ministers could not be made to break their oath of secrecy."
+    quote:
+      text: "The proceedings before this Hon. Commission are proof enough that the present Government has gone out on a hunting spree, combing official records, trying to spin out some case or the other against me or my former colleagues and yet neither you, Sir, nor I know what is the charge I am expected to answer."
+      locator: "Delhi High Court judgment of 20 December 1979, quoting her statement of 11 January 1978"
+      source: s8
+    sources: [s8, s1]
 sources:
   - id: s1
-    title: The Emergency (India)
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/The_Emergency_(India)
-    archive_date: 2026-10-08
-    archive_url: https://web.archive.org/web/20261008203747/https://en.wikipedia.org/wiki/The_Emergency_(India)
-    type: archive
+    title: Shah Commission of Inquiry, Interim Report I
+    publisher: Shah Commission of Inquiry, Government of India (copy on Internet Archive)
+    tier: court
+    url: https://archive.org/details/137896426ShahCommissionOfInquiryInterimReportI
+    date: 1978-03-11
+    type: official
+    accessed: 2026-10-15
   - id: s2
-    title: Shah Commission
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Shah_Commission
-    archive_date: 2026-07-17
-    archive_url: https://web.archive.org/web/20260717163050/https://en.wikipedia.org/wiki/Shah_Commission
-    type: archive
+    title: Shah Commission of Inquiry, Interim Report II
+    publisher: Shah Commission of Inquiry, Government of India (copy on Internet Archive)
+    tier: court
+    url: https://archive.org/details/ShahCommissionOfInquiryInterimReportII
+    date: 1978-04-26
+    type: official
+    accessed: 2026-10-15
   - id: s3
-    title: ADM Jabalpur v. Shivkant Shukla
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/ADM_Jabalpur_v._Shivkant_Shukla
-    archive_date: 2026-05-15
-    archive_url: https://web.archive.org/web/20260515151424/https://en.wikipedia.org/wiki/ADM_Jabalpur_v._Shivkant_Shukla
-    type: archive
+    title: Additional District Magistrate, Jabalpur vs S. S. Shukla Etc. Etc
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/1735815/
+    archive_date: 2009-01-30
+    archive_url: https://web.archive.org/web/20090130001335/https://indiankanoon.org/doc/1735815/
+    date: 1976-04-28
+    type: court_judgment
+    accessed: 2026-10-15
   - id: s4
-    title: Jayaprakash Narayan
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Jayaprakash_Narayan
-    archive_date: 2026-09-25
-    archive_url: https://web.archive.org/web/20260925173541/https://en.wikipedia.org/wiki/Jayaprakash_Narayan
-    type: archive
-tags: [emergency, misa, censorship, preventive_detention, commission_of_inquiry, delhi, bihar]
+    title: "'Prisoner JP' in Chandigarh, 40 years ago"
+    publisher: The Tribune
+    author: M. G. Devasahayam
+    tier: secondary
+    url: https://www.tribuneindia.com/news/archive/features/prisoner-jp-in-chandigarh-40-years-ago-144389
+    date: 2015-10-11
+    type: news
+    accessed: 2026-10-15
+  - id: s5
+    title: Shah Commission of Inquiry, Third and Final Report
+    publisher: Shah Commission of Inquiry, Government of India (copy on Internet Archive)
+    tier: court
+    url: https://archive.org/details/ShahCommissionOfInquiry3rdFinalReport
+    date: 1978-08-06
+    type: official
+    accessed: 2026-10-15
+  - id: s6
+    title: Justice K.S.Puttaswamy (Retd) And Anr. vs Union Of India And Ors.
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/91938676/
+    archive_date: 2018-06-14
+    archive_url: https://web.archive.org/web/20180614000737/https://indiankanoon.org/doc/91938676/
+    date: 2017-08-24
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s7
+    title: "Rajya Sabha official debates, 21 July 1975: statutory resolution seeking approval of the Proclamation of Emergency"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/93/F21.07.1975.pdf
+    date: 1975-07-21
+    type: official
+    accessed: 2026-10-15
+  - id: s8
+    title: Smt. Indira Gandhi and others v. Shri J.C. Shah, Commission of Inquiry
+    publisher: Delhi High Court (text on CaseMine)
+    tier: court
+    url: https://www.casemine.com/judgement/in/56e0f71b607dba3896603c28
+    archive_date: 2021-06-02
+    archive_url: https://web.archive.org/web/20210602212946/https://www.casemine.com/judgement/in/56e0f71b607dba3896603c28
+    date: 1979-12-20
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s9
+    title: "This is how Express stood up to 'The Emergency' declared by Indira Gandhi in 1975"
+    publisher: The New Indian Express
+    tier: secondary
+    url: https://www.newindianexpress.com/galleries/nation/2018/jun/25/this-is-how-express-stood-up-to-the-emergency-declared-by-indira-gandhi-in-1975-101601.html
+    archive_date: 2019-06-26
+    archive_url: https://web.archive.org/web/20190626183458/https://www.newindianexpress.com/galleries/nation/2018/jun/25/this-is-how-express-stood-up-to-the-emergency-declared-by-indira-gandhi-in-1975-101601.html
+    date: 2018-06-25
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: "March 21, 1977, Forty Years Ago: Mrs Gandhi Loses"
+    publisher: The Indian Express
+    tier: secondary
+    url: https://indianexpress.com/article/opinion/editorials/march-21-1977-forty-years-ago-mrs-gandhi-loses-4578041/
+    archive_date: 2017-03-30
+    archive_url: https://web.archive.org/web/20170330014116/https://indianexpress.com/article/opinion/editorials/march-21-1977-forty-years-ago-mrs-gandhi-loses-4578041/
+    date: 2017-03-21
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: Two cases dropped against Mrs. Gandhi
+    publisher: The Christian Science Monitor
+    tier: secondary
+    url: https://www.csmonitor.com/1980/0116/011624.html
+    archive_date: 2019-09-21
+    archive_url: https://web.archive.org/web/20190921043555/https://www.csmonitor.com/1980/0116/011624.html
+    date: 1980-01-16
+    type: news
+    accessed: 2026-10-15
+tags: [emergency, misa, censorship, preventive_detention, commission_of_inquiry, firing, delhi, bihar]
 review:
   status: draft

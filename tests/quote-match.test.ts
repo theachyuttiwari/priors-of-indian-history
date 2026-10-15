@@ -14,6 +14,18 @@ describe("htmlToText", () => {
     expect(text).toContain("“We will not allow the march to enter Delhi”");
   });
 
+  it("does not treat <!-- inside a style block as the start of a comment", () => {
+    const html = `<style><!--<!-- p{} </style><p>The article text.</p><!-- real comment -->`;
+    expect(htmlToText(html)).toContain("The article text.");
+    expect(htmlToText(html)).not.toContain("real comment");
+  });
+
+  it("reads article text shipped only in JSON-LD", () => {
+    const body = "The commissioner said the order would stay in force until the situation returned to normal.";
+    const html = `<script type="application/ld+json">{"@type":"NewsArticle","articleBody":"${body}"}</script>`;
+    expect(findQuote("the order would stay in force", htmlToText(html)).status).toBe("exact");
+  });
+
   it("decodes numeric entities", () => {
     expect(decodeEntities("&#8377;100 &#x2014; done")).toBe("₹100 — done");
   });

@@ -2,21 +2,23 @@ id: narmada-bachao-andolan-1989-1993
 title: Narmada Bachao Andolan and Sardar Sarovar, 1989-1993
 summary: >
   The Narmada Bachao Andolan (NBA), led by Medha Patkar with Baba Amte, opposed the Sardar
-  Sarovar dam over displacement and environmental damage. Patkar led a long march from Madhya
-  Pradesh towards the dam site, which police resisted, and undertook a 22-day hunger strike in
-  1991. The World Bank set up an independent review (the Morse review), which called the project
-  ill-conceived. In 1993 the Government of India stopped drawing on the World Bank loan and chose
-  to finish the project with national resources.
+  Sarovar dam over displacement and environmental damage. From 25 December 1990 Patkar led a march
+  from Madhya Pradesh towards the dam site; Gujarat police stopped it at Ferkuwa on the state border,
+  and Patkar and others began a hunger strike there on 7 January 1991. In June 1991 the World Bank
+  commissioned an independent review headed by Bradford Morse, whose June 1992 report found
+  deficiencies in the Bank's appraisal and in the project's implementation; the Government of India
+  and the Government of Gujarat did not accept it. On 29 March 1993 the Government of India asked the
+  World Bank to cancel the rest of its loan and chose to complete the project on its own.
 period:
   start: 1989
-  end: 1993-03-31
+  end: 1993-03-30
 location:
   states: [Gujarat, Madhya Pradesh, Maharashtra]
-  places: [Narmada valley, Sardar Sarovar dam site]
+  places: [Narmada valley, Sardar Sarovar dam site, Ferkuwa, Barwani, Dhule]
 protest:
   cause: Displacement and environmental damage from the Sardar Sarovar dam
   organisers: [Narmada Bachao Andolan, Medha Patkar, Baba Amte]
-  scale: "A five-week Sangharsh Yatra in 1991; a 36-day march; a 22-day hunger strike"
+  scale: "A march from Barwani to the Gujarat border from 25 December 1990 to 31 January 1991 (Asia Watch), with about 2,000 Adivasis camped on the Madhya Pradesh side at Ferkuwa (Abhiyan); a hunger strike from 7 January 1991, 22 days long according to the Goldman Prize citation"
 government:
   centre:
     party: INC
@@ -28,79 +30,171 @@ government:
     role: Chief Minister
     name: Gujarat
 actions:
-  - type: other
-    date: 1991
-    description: "Medha Patkar led a 36-day march from Madhya Pradesh to the dam site, which police resisted. A five-week Sangharsh Yatra took place in 1991. The sources do not describe the police action in detail."
+  - type: barricading
+    date: 1991-01
+    claim: happened
+    legal_basis: "Section 144 CrPC: a prohibitory order on assembly between Ferkuwa and the Madhya Pradesh border, as reported in Abhiyan"
+    description: "Gujarat police stopped the march at Ferkuwa on the Gujarat-Madhya Pradesh border and did not let the marchers through to the dam site. Abhiyan reported a camp of Gujarat Police and State Reserve Police at Ferkuwa, a Section 144 order on the Gujarat side, and that on 2 January 1991 the district collector, with the police, stopped 25 protesters who then sat on the road all day. Asia Watch reported, citing the Times of India, that marchers who crossed the border on 4 January were pushed back and detained. Asia Watch also reported that on 25 January police from Maharashtra and Gujarat charged into the group, arrested scores and beat them with canes. The Caravan, from later interviews with marchers, reported that many were beaten, arrested and moved kilometres from the border. Gujarat Chief Minister Chimanbhai Patel said in an India Today debate in November 1992: \"There have been no human rights violations.\""
     actor: police
-    sources: [s1]
+    sources: [s6, s7, s14, s9]
+    figures:
+      - { what: Gujarat Police and State Reserve Police personnel in the camp at Ferkuwa, value: "about 1,500", claimed_by: Abhiyan (Sheela Bhatt), source: s6 }
+      - { what: Adivasi marchers camped on the Madhya Pradesh side of the border, value: "about 2,000", claimed_by: Abhiyan (Sheela Bhatt), source: s6 }
+      - { what: marchers detained after crossing the border on 4 January 1991, value: "140", claimed_by: Times of India (cited by Asia Watch), source: s7 }
   - type: detention
-    date: 1991
-    description: "Patkar was repeatedly beaten and arrested by police during her protests, according to the Goldman Prize citation. The source does not date the individual arrests."
+    date: 1991-11-17
+    claim: happened
+    description: "Maharashtra police arrested Medha Patkar in Dhule district shortly before she was to leave for Stockholm to receive the Right Livelihood Award on behalf of the NBA. Asia Watch reported that she was arrested on 17 November 1991 on charges pending from NBA demonstrations since 1990, including unlawful assembly, and released on 19 November. India Today reported that her arrest drew international protest and that she was released the next day. Asia Watch also reported earlier detentions of Patkar at protests in Kevadia (January 1990) and Kasravad (September 1990), and the Goldman Prize citation says she was repeatedly beaten and arrested by police during her protests."
     actor: police
-    sources: [s3]
+    sources: [s8, s7, s3]
   - type: other
-    date: 1993-03-31
-    description: "After the independent review, the Government of India decided to terminate further drawing from the World Bank loan and to complete the project with national resources. Wikipedia's Sardar Sarovar Dam article dates the World Bank withdrawal to 1994; the NBA article gives 31 March 1993."
+    date: 1993-03-29
+    claim: ordered
+    description: "By a letter of 29 March 1993 the Government of India asked the World Bank to cancel the remaining undisbursed portion of its loan for the Sardar Sarovar dam and power project, and decided to complete construction on its own. The World Bank announced the decision on 30 March and put the cancelled amount at about $170 million of a $450 million package approved in 1985. In October 1992 the Bank's Executive Directors had made continued support depend on benchmarks for resettlement and environment, to be met by 31 March 1993. The Bank had commissioned the independent review in June 1991; its President said in June 1992 that the review had identified deficiencies in the Bank's appraisal, in the borrower's implementation and in the Bank's supervision."
     actor: centre
-    sources: [s1, s2, s4]
+    sources: [s10, s11, s12, s14]
 outcome: >
-  The World Bank left the project and the government continued it with its own funds. The Supreme
-  Court stalled the project in 1995 and in 2000 upheld the Tribunal Award, allowing construction
-  to proceed with conditions.
+  The World Bank formally cancelled the loan and the government continued the project with its own
+  funds. The Supreme Court suspended further construction in 1995. On 18 October 2000 it declined to
+  rely on the Morse report, which neither the World Bank nor the Government of India had accepted,
+  and directed that construction continue as per the Tribunal Award, with the dam raised beyond 90
+  metres only in step with resettlement.
 positions:
   - party: other (Narmada Bachao Andolan)
     person: Medha Patkar
     role_at_time: Leader of the Narmada Bachao Andolan
     in_power: false
-    date: 1991
-    statement: "Described the march as \"a path symbolizing the long path of struggle (both immediate and long-term)\"."
-    sources: [s1]
+    date: 1992-11-15
+    kind: verbatim
+    statement: "In an India Today debate with supporters of the project, said that the government had backed the World Bank's independent review expecting a favourable report, and asked why it now denounced the report."
+    quote:
+      text: "When the World Bank appointed the Morse Commission to assess the project, the Government backed it because they thought a favourable report would put a stamp of credibility. Why denounce the report when their weapon has boomeranged on them?"
+      locator: "India Today, 15 November 1992, debate transcript, Patkar's reply on finance and the World Bank"
+      source: s9
+    sources: [s9]
   - party: INC
     role_at_time: Government of India
     in_power: true
-    date: 1993
-    statement: "Did not accept the independent review's report and decided to \"terminate further drawing from the World Bank loan\" and complete the project with national resources."
-    sources: [s2]
+    date: 1993-03-29
+    kind: paraphrase
+    statement: "Did not accept the independent review's report, in a letter of 7 August 1992 from the Secretary, Ministry of Environment and Forests, according to the Supreme Court. In March 1993 asked the World Bank to cancel the rest of the loan and said it would complete the project on its own; it said significant progress had been made on the resettlement and environment benchmarks and that it remained committed to the action plan."
+    sources: [s10, s11, s13]
+  - party: other (Government of Gujarat)
+    role_at_time: Government of Gujarat, under Chief Minister Chimanbhai Patel
+    in_power: true
+    date: 1992-08
+    kind: verbatim
+    statement: "In its formal comments on the independent review, rejected the report, saying it ignored the project's planning studies and data and that its analysis of the valley's tribal people rested on poor evidence."
+    quote:
+      text: "The Independent Review report presented in June 1992 was highly disappointing."
+      locator: "Section 1, Introduction, p. 1"
+      source: s15
+    sources: [s15]
 sources:
-  - id: s1
-    title: Narmada Bachao Andolan
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
-    archive_date: 2026-08-13
-    archive_url: https://web.archive.org/web/20260813124925/https://en.wikipedia.org/wiki/Narmada_Bachao_Andolan
-    type: archive
-  - id: s2
-    title: Narmada River
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Narmada_River
-    archive_date: 2026-09-23
-    archive_url: https://web.archive.org/web/20260923012652/https://en.wikipedia.org/wiki/Narmada_River
-    type: archive
   - id: s3
     title: Medha Patkar, 1992 Goldman Environmental Prize recipient
     publisher: Goldman Environmental Prize
+    tier: secondary
     url: https://www.goldmanprize.org/recipient/medha-patkar/
     archive_date: 2026-05-10
     archive_url: https://web.archive.org/web/20260510023325/https://www.goldmanprize.org/recipient/medha-patkar/
     type: archive
-  - id: s4
-    title: Sardar Sarovar Dam
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
-    archive_date: 2026-06-18
-    archive_url: https://web.archive.org/web/20260618064837/https://en.wikipedia.org/wiki/Sardar_Sarovar_Dam
-    type: archive
-  - id: s5
-    title: Chimanbhai Patel
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Chimanbhai_Patel
-    archive_date: 2026-07-17
-    archive_url: https://web.archive.org/web/20260717172806/https://en.wikipedia.org/wiki/Chimanbhai_Patel
-    type: archive
+    accessed: 2026-10-15
+  - id: s6
+    title: "The Dramatic Battle over Narmada: an eyewitness report (Abhiyan cover story, 14 January 1991, in English translation)"
+    publisher: Abhiyan (translation published by Oral History Narmada)
+    author: Sheela Bhatt
+    tier: report
+    url: https://oralhistorynarmada.in/article-by-ms-sheela-bhatt/
+    date: 1991-01-14
+    type: news
+    accessed: 2026-10-15
+  - id: s7
+    title: "Before the Deluge: Human Rights Abuses at India's Narmada Dam (News from Asia Watch, vol. 4, no. 15)"
+    publisher: Asia Watch (Human Rights Watch)
+    tier: secondary
+    url: https://www.hrw.org/reports/pdfs/i/india/india926.pdf
+    archive_date: 2003-08-31
+    archive_url: https://web.archive.org/web/20030831210128/https://www.hrw.org/reports/pdfs/i/india/india926.pdf
+    date: 1992-06-17
+    type: academic
+    accessed: 2026-10-15
+  - id: s8
+    title: Narmada Bachao Andolan crusader Medha Patkar gains recognition at last
+    publisher: India Today
+    author: Uday Mahurkar
+    tier: report
+    url: https://www.indiatoday.in/magazine/states/story/19911215-narmada-bachao-andolan-crusader-medha-patkar-gains-recognition-at-last-815239-1991-12-15
+    archive_date: 2020-01-16
+    archive_url: https://web.archive.org/web/20200116003015/https://www.indiatoday.in/magazine/states/story/19911215-narmada-bachao-andolan-crusader-medha-patkar-gains-recognition-at-last-815239-1991-12-15
+    date: 1991-12-15
+    type: news
+    accessed: 2026-10-15
+  - id: s9
+    title: "Sardar Sarovar Project becomes a contentious environmental issue (India Today debate)"
+    publisher: India Today
+    tier: secondary
+    url: https://www.indiatoday.in/magazine/indiascope/story/19921115-sardar-sarovar-project-becomes-a-contentious-environmental-issue-767115-2012-12-24
+    archive_date: 2021-12-07
+    archive_url: https://web.archive.org/web/20211207070422/https://www.indiatoday.in/magazine/indiascope/story/19921115-sardar-sarovar-project-becomes-a-contentious-environmental-issue-767115-2012-12-24
+    date: 1992-11-15
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: "Indian Government Cancels World Bank Loan for Sardar Sarovar (Narmada) Project (Bank Press Release No. 93/S51)"
+    publisher: World Bank
+    tier: record
+    url: https://documents.worldbank.org/curated/en/804881629297573622/pdf/Announcement-of-Indian-Government-Cancels-World-Bank-Loan-for-Sardar-Sarovar-Narmada-Project-on-March-30-1993.pdf
+    date: 1993-03-30
+    type: official
+    accessed: 2026-10-15
+  - id: s11
+    title: "Project Completion Report: India, Narmada River Development, Gujarat: Sardar Sarovar Dam and Power Project (Report No. 14159), Annexes to Part I and Part III"
+    publisher: World Bank
+    tier: record
+    url: https://documents.worldbank.org/curated/en/249841468285346734/pdf/multi-page.pdf
+    date: 1995-03-29
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: "World Bank President Acknowledges Problems in India Narmada Projects (Bank News Release No. 92/S66)"
+    publisher: World Bank
+    tier: record
+    url: https://documents.worldbank.org/curated/en/635521628594629513/pdf/Announcement-of-World-Bank-President-Acknowledges-Problems-in-India-Narmada-Projects-on-June-18-1992.pdf
+    date: 1992-06-18
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: Narmada Bachao Andolan vs Union Of India And Others
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/1938608/
+    archive_date: 2010-07-05
+    archive_url: https://web.archive.org/web/20100705133445/https://indiankanoon.org/doc/1938608/
+    date: 2000-10-18
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s14
+    title: "\"Movements are not like governments that come and go\": 34 years of the Narmada protests"
+    publisher: The Caravan
+    author: Nikhil Eapen
+    tier: secondary
+    url: https://caravanmagazine.in/communities/narmada-bacaho-andolan-sardar-sarovar-dam
+    archive_date: 2019-10-14
+    archive_url: https://web.archive.org/web/20191014070915/https://caravanmagazine.in/communities/narmada-bacaho-andolan-sardar-sarovar-dam
+    date: 2019-10-14
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: Comments on the Report of the Independent Review on Sardar Sarovar Project
+    publisher: Government of Gujarat (copy published by the International Environmental Law Research Centre)
+    tier: record
+    url: https://ielrc.org/content/c9201.pdf
+    archive_date: 2007-06-06
+    archive_url: https://web.archive.org/web/20070606221048/https://ielrc.org/content/c9201.pdf
+    date: 1992-08
+    type: official
+    accessed: 2026-10-15
 tags: [dams, displacement, environment, world_bank, gujarat, madhya_pradesh, maharashtra]
 review:
   status: draft

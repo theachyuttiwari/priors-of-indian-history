@@ -16,7 +16,7 @@ location:
 protest:
   cause: NEET-UG 2026 paper leak and other exam irregularities; demand for the Education Minister's resignation
   organisers: [Cockroach Janta Party, AISA, AISF, SFI, KYS, Sonam Wangchuk]
-  scale: "Tens of thousands marched in New Delhi on 20 July (Al Jazeera); solidarity protests in Mumbai, Bengaluru, Kolkata, Goa, Ahmedabad and abroad"
+  scale: "Tens of thousands marched in New Delhi on 20 July (The Guardian, Al Jazeera); solidarity protests in Mumbai, Bengaluru, Kolkata, Goa, Ahmedabad and abroad"
 government:
   centre:
     party: BJP
@@ -25,161 +25,583 @@ government:
     role: Prime Minister
 actions:
   - type: censorship
-    date: 2026-05
-    description: "After the May NEET-UG exam was annulled over leaked questions, the government temporarily banned Telegram to curb further leaks. About 2.2 million candidates had to retake the exam."
+    date: 2026-06-16
+    claim: ordered
+    description: "After the 3 May NEET-UG exam was cancelled over a paper leak, the Ministry of Electronics and Information Technology, on the National Testing Agency's recommendation, directed under Section 69A of the IT Act that access to Telegram in India be restricted until 22 June, covering the 21 June re-examination. Telegram was also directed to disable message editing in India until 30 June. The Pioneer reported that the order required Google and Apple to delist the app and that existing accounts kept working. About 2.2 million candidates had to retake the exam."
     actor: centre
-    sources: [s1]
+    legal_basis: Section 69A, Information Technology Act, 2000
+    sources: [s7, s8, s9, s1]
+    figures:
+      - { what: candidates who had to retake the exam, value: "about 2.2 million", claimed_by: Al Jazeera, source: s1 }
+      - { what: candidates who appeared in the 21 June re-examination, value: "close to 20 lakh", claimed_by: National Testing Agency, source: s6 }
   - type: permission_granted
     date: 2026-06-06
-    description: "Delhi Police granted permission for the first Jantar Mantar protest until 5 pm and deployed about 5,000 personnel in New Delhi district."
+    claim: ordered
+    description: "Delhi Police granted permission for the first Jantar Mantar protest until 5 pm, which police called a one-time exception, and relaxed the advance-notice requirement. Police sources told PTI that more than 1,000 personnel were deployed across New Delhi district and other locations."
     actor: police
-    sources: [s5]
+    sources: [s11, s10]
+    figures:
+      - { what: police personnel deployed across New Delhi district and other locations, value: "more than 1,000", claimed_by: police sources (PTI), source: s11 }
   - type: other
     date: 2026-07-18
-    description: "Delhi Police removed Sonam Wangchuk, on hunger strike since 28 June, from Jantar Mantar to hospital. Police cited medical advice and Delhi High Court directions; Al Jazeera and the organisers described the move as forcible."
+    claim: happened
+    description: "Police and paramilitary personnel removed Sonam Wangchuk, on hunger strike since 28 June, from the stage at Jantar Mantar and took him to Safdarjung Hospital. DCP Sachin Sharma said he was moved in compliance with a court order and on medical advice. The BBC and The Guardian reported that he was removed by force; his wife Gitanjali Angmo called his confinement in hospital illegal detention."
     actor: police
-    sources: [s1, s5]
+    sources: [s12, s13]
   - type: section_144
-    date: 2026-07-20
-    description: "Prohibitory orders under Section 163 of the BNSS were in force for the 'Chalo Sansad' march, and a DCP advisory said permission for the march had not been granted."
+    date: 2026-07-19
+    claim: ordered
+    description: "Prohibitory orders under Section 163 of the BNSS were in force across New Delhi district before the 20 July 'Chalo Sansad' march. A public advisory from the DCP, New Delhi said that protest marches, processions, demonstrations and assemblies of five or more persons were prohibited except at the designated site at Jantar Mantar, with prior permission."
     actor: police
-    sources: [s5]
+    legal_basis: Section 163 BNSS
+    sources: [s15, s14, s13, s16]
   - type: permission_denied
-    date: 2026-07-20
-    description: "Police said permission for the march from Jantar Mantar to Parliament had not been granted."
+    date: 2026-07-19
+    claim: ordered
+    description: "In a public advisory posted on X on 19 July, the DCP, New Delhi said that no permission had been sought or granted for the CJP's proposed march to Parliament on 20 July."
     actor: police
-    sources: [s5]
+    sources: [s15, s14, s13, s16]
   - type: tear_gas
     date: 2026-07-20
-    description: "Police fired tear gas at marchers heading toward Parliament. Police said stones were thrown at security forces and reported 118 personnel and 60 civilians injured; organisers said at least 150 protesters were wounded."
+    claim: happened
+    description: "Police fired tear gas at marchers heading toward Parliament. Police said protesters tried to breach barricades and threw stones at security forces, and that 118 personnel and 60 civilians were injured and about 70 people detained. Organisers said at least 150 protesters were wounded."
     actor: police
-    sources: [s1, s3]
+    sources: [s13, s18, s19, s1, s3]
+    figures:
+      - { what: police personnel injured, value: "118", claimed_by: Delhi Police, source: s3 }
+      - { what: civilians injured, value: "60", claimed_by: Delhi Police, source: s3 }
+      - { what: protesters wounded, value: "at least 150", claimed_by: organisers, source: s1 }
+      - { what: people detained, value: "over 70", claimed_by: Delhi Police, source: s19 }
   - type: lathi_charge
     date: 2026-07-20
-    description: "Police used batons and canes on the march. Police denied the use of pellet guns; Wikipedia records a hospital report of a pellet wound, so the use of pellets is contested."
+    claim: happened
+    description: "Police used batons and canes on the march. The use of pellets is contested: Delhi Police denied using pellet guns, while The Hindu reported a hospital source who said one protester had pellet injuries, and the Hindustan Times reported a police general diary entry that recorded plastic pellets fired by the Rapid Action Force on a DCP's orders."
     actor: police
-    sources: [s1, s3, s5]
+    sources: [s13, s17, s18, s20, s21, s1]
+    court_outcomes:
+      - summary: On 22 July the Delhi High Court asked the Union government and Delhi Police to respond to petitions alleging excessive force and directed that CCTV and video records of the march be preserved; the Additional Solicitor General said protesters had thrown stones.
+        source: s22
   - type: internet_shutdown
-    date: 2026-07-20
-    description: "Mobile internet was suspended at and near Jantar Mantar and Parliament. Human Rights Watch and Amnesty International condemned the suspension."
-    actor: police
-    sources: [s2, s5]
+    date: 2026-07-17
+    claim: ordered
+    description: "The Ministry of Home Affairs ordered mobile internet services suspended within about 1.5 km of Jantar Mantar, in orders dated 17, 20, 22 and 23 July, citing public safety and averting a public emergency. Mobile internet was cut or disrupted around the protest site in central Delhi on 20 July. A public interest petition by SFLC.in that challenged the orders in the Delhi High Court was withdrawn after the protests were called off. Human Rights Watch and Amnesty International condemned the suspension."
+    actor: centre
+    legal_basis: Section 20(2)(b), Telecommunications Act, 2023; Telecommunications (Temporary Suspension of Services) Rules, 2024
+    sources: [s23, s24, s13, s17, s25, s42, s2]
   - type: detention
     date: 2026-07-21
-    description: "Police detained Rahul Gandhi, Priyanka Gandhi and other opposition figures at a sit-in outside the Prime Minister's residence; Gandhi was released by 22 July."
+    claim: happened
+    description: "Police detained Rahul Gandhi, Priyanka Gandhi Vadra and other opposition leaders at a sit-in outside the Prime Minister's residence and released them later the same day."
     actor: police
-    sources: [s1, s3]
+    sources: [s26, s27, s1, s3]
   - type: other
     date: 2026-07-21
-    description: "On a petition from his wife alleging illegal detention, a court ordered Wangchuk moved to a private hospital (Medanta, Gurugram, per Wikipedia)."
+    claim: held
+    description: "On an appeal by Wangchuk's wife Gitanjali J. Angmo, whose petition called his confinement at Safdarjung Hospital illegal, a Division Bench of the Delhi High Court directed that he be shifted immediately to Medanta Hospital, Gurugram, the hospital of his choice. The Solicitor General said the government had no objection."
     actor: court
-    sources: [s1, s5]
+    sources: [s28, s1]
   - type: fir
     date: 2026-07-23
-    description: "Mumbai police booked about 400 people in 13 FIRs over five days for protesting without permission. Delhi Police also registered FIRs over violence during the 20 July march."
+    claim: ordered
+    description: "Mumbai Police registered 13 FIRs naming about 400 people over protests held without permission since 18 July. Delhi Police registered FIRs over violence during the 20 July march, and police cases were filed against students in Delhi, Assam, West Bengal and Bihar."
     actor: police
-    sources: [s5]
+    sources: [s29, s30, s31]
+    figures:
+      - { what: FIRs registered in Mumbai, value: "13", claimed_by: Mumbai Police, source: s29 }
+      - { what: people named as accused in Mumbai, value: "around 400", claimed_by: Mumbai Police, source: s29 }
+      - { what: FIRs registered in Delhi over the 20 July march, by 21 July, value: "4", claimed_by: police sources, source: s30 }
   - type: negotiation
     date: 2026-07-20
-    description: "The government held rounds of talks with CJP leaders on about 20 and 24 July; Union ministers J. P. Nadda and Jitendra Singh were the government negotiators."
+    claim: happened
+    description: "Union minister J. P. Nadda met CJP spokespersons on 20 July; Nadda and the CJP gave different accounts of who proposed the talks. CJP representatives held further talks with the government on 24 July, and a third round with Nadda and Jitendra Singh took place on 25 July."
     actor: centre
-    sources: [s4, s5]
+    sources: [s32, s13, s25, s33]
   - type: concession
     date: 2026-07-23
-    description: "Prime Minister Modi announced in a video on X a tougher law against paper leaks and fast-tracked court proceedings against those involved. Wangchuk ended his 26-day fast the same night after what he called a long negotiation on conditions."
+    claim: ordered
+    description: "Prime Minister Modi announced in a video on X that a draft law with fast-track courts and stricter punishment for paper leaks would go to the Cabinet the next day. Wangchuk ended his 26-day fast the same night, saying the government had assured him that no legal action would be taken against protesters."
     actor: centre
-    sources: [s2]
+    sources: [s34, s25, s2]
   - type: concession
     date: 2026-07-25
-    description: "Dharmendra Pradhan resigned as Education Minister before a third round of talks. The CJP said its demands had been met and called off the protests; its other demands included compensation and the withdrawal of cases against protesters."
+    claim: ordered
+    description: "Dharmendra Pradhan resigned as Education Minister before a third round of talks. The President accepted the resignation on the Prime Minister's advice, and Pralhad Joshi was given charge of the Ministry of Education. The CJP said its demands had been met and called off the protests; its other demands included compensation and the withdrawal of cases against protesters."
     actor: centre
-    sources: [s4, s5]
+    legal_basis: Article 75(2), Constitution of India
+    sources: [s35, s36, s33, s4]
 outcome: >
   Pradhan resigned on 25 July 2026 and the CJP called off the Jantar Mantar protests the same
-  day. On 27-28 July the CJP said the government had not kept its pledge against action on
-  protesters and threatened to resume protests. An anti-paper-leak Bill was later cleared.
+  day. On 27 July the CJP said the government had not kept its pledge against action on
+  protesters and threatened to resume protests. Parliament passed the Public Examinations
+  (Prevention of Unfair Means) Amendment Bill, 2026 on 29 July, and the President gave assent
+  on 31 July.
 positions:
   - party: BJP
     person: Dharmendra Pradhan
     role_at_time: Union Education Minister
     in_power: true
     date: 2026-07-21
-    statement: "Accused Rahul Gandhi of trying to 'shamelessly exploit students as political tools to manufacture disruption'; also said 'We owe them (students) answers, reforms and accountability.'"
-    sources: [s1, s3]
+    kind: verbatim
+    statement: "In a post on X, accused Rahul Gandhi and the Congress of exploiting students as political tools to cause disruption during the Monsoon Session, and said the government owed students answers, reforms and accountability."
+    quote:
+      text: "continue to shamelessly exploit students as political tools to manufacture disruption during the Monsoon Session of Parliament."
+      locator: "X post, first sentence"
+      source: s38
+    sources: [s38, s27, s1]
   - party: BJP
     person: Narendra Modi
     role_at_time: Prime Minister
     in_power: true
     date: 2026-07-23
-    statement: "Called the paper leaks a 'matter of great pain' for students and promised a tougher law and fast-tracked trials."
-    sources: [s2]
+    kind: paraphrase
+    statement: "In a video message, said paper leaks caused great distress to students and their parents, and promised a tougher law with fast-track courts and stricter punishment."
+    sources: [s34, s25, s2]
   - party: BJP
     person: Dharmendra Pradhan
     role_at_time: Union Education Minister (resigning)
     in_power: true
     date: 2026-07-25
-    statement: "I am pained to see the events of the past 10 days."
-    sources: [s4]
+    kind: paraphrase
+    statement: "In a letter to students posted on X, said he was saddened by the events of the previous ten days and had sent his resignation to the Prime Minister so that those he called anti-national forces could not exploit the situation at Jantar Mantar and students would not be caught in legal complications. He defended the government's handling of the NEET-UG cancellation."
+    sources: [s36, s37]
   - party: INC
     person: Rahul Gandhi
     role_at_time: Leader of Opposition, Lok Sabha
     in_power: false
     date: 2026-07-20
-    statement: "Said the tear-gassing and lathi-charging of students was not democratic and called Modi India's most 'anti-youth' Prime Minister."
-    sources: [s5]
+    kind: verbatim
+    statement: "Said tear-gassing and lathi-charging students was not democratic, called their demands legitimate, and described Modi as the most anti-youth Prime Minister India has had."
+    quote:
+      text: "the most anti-youth Prime Minister India has ever had"
+      locator: "para 1"
+      source: s39
+    sources: [s39, s40]
   - party: INC
     person: Rahul Gandhi
     role_at_time: Leader of Opposition, Lok Sabha
     in_power: false
     date: 2026-07-25
-    statement: "Called the resignation a 'huge step', urged Modi to apologise and said action should be taken against those guilty of violence against students."
-    sources: [s4]
+    kind: paraphrase
+    statement: "In a video message, called the resignation a huge step towards reshaping the education system, and said two demands remained: an apology from the Prime Minister and action against those responsible for violence against students."
+    sources: [s37, s41, s4]
   - party: other (Cockroach Janta Party)
     person: Abhijeet Dipke
     role_at_time: CJP founder
     in_power: false
     date: 2026-07-23
-    statement: "Said the protest at Jantar Mantar would continue 'until Dharmendra Pradhan resigns.'"
+    kind: verbatim
+    statement: "Said he was relieved that Wangchuk had ended his hunger strike, and that the CJP's protest at Jantar Mantar would continue until Pradhan resigned."
+    quote:
+      text: "The Cockroach Janta Party’s peaceful protest at Jantar Mantar will continue until Dharmendra Pradhan resigns."
+      locator: "final paragraph"
+      source: s2
     sources: [s2]
 sources:
   - id: s1
     title: Opposition MPs disrupt Indian parliament in support of Cockroach protesters
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest
     archive_date: 2026-07-22
     archive_url: https://web.archive.org/web/20260722073229/https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest
     date: 2026-07-22
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
     archive_date: 2026-07-23
-    archive_url: https://web.archive.org/web/20260723201136/https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
+    archive_url: https://web.archive.org/web/20260723210812/https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks
     date: 2026-07-23
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: India opposition leader released after protest detention
     publisher: France 24
     wire: AFP
+    tier: secondary
     url: https://www.france24.com/en/live-news/20260722-india-opposition-leader-released-after-protest-detention
     date: 2026-07-22
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: Indian education minister resigns after mass protests over exam paper leaks
     publisher: France 24
+    wire: AFP
+    tier: secondary
     url: https://www.france24.com/en/asia-pacific/20260725-indian-education-minister-resigns-after-mass-protests-over-exam-paper-leaks
     archive_date: 2026-07-25
     archive_url: https://web.archive.org/web/20260725095809/https://www.france24.com/en/asia-pacific/20260725-indian-education-minister-resigns-after-mass-protests-over-exam-paper-leaks
     date: 2026-07-25
     type: news
-  - id: s5
-    title: 2026 Jantar Mantar protests
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/2026_Jantar_Mantar_protests
-    date: 2026-10-15
-    type: archive
+    accessed: 2026-10-15
+  - id: s6
+    title: "NTA Declares Result of NEET (UG) 2026 (press release)"
+    publisher: National Testing Agency
+    tier: record
+    url: https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/07/20260716477215762.pdf
+    archive_date: 2026-07-16
+    archive_url: https://web.archive.org/web/20260716180723/https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/07/20260716477215762.pdf
+    date: 2026-07-16
+    type: official
+    accessed: 2026-10-15
+  - id: s7
+    title: "NEET-UG re-exam: Centre temporarily suspends Telegram"
+    publisher: Deccan Herald
+    author: Amrita Madhukalya
+    tier: report
+    url: https://www.deccanherald.com/india/neet-ug-re-exam-centre-temporarily-suspends-telegram-4041576
+    date: 2026-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s8
+    title: "NEET Re-Exam: Centre Restricts Access To Telegram Till June 22 To Prevent Paper Leak"
+    publisher: LiveLaw
+    tier: secondary
+    url: https://www.livelaw.in/news-updates/neet-re-exam-telegram-access-blocked-june-22-nta-537921
+    archive_date: 2026-06-16
+    archive_url: https://web.archive.org/web/20260616090341/https://www.livelaw.in/news-updates/neet-re-exam-telegram-access-blocked-june-22-nta-537921
+    date: 2026-06-16
+    type: news
+    accessed: 2026-10-15
+  - id: s9
+    title: Govt blocks Telegram app before NEET
+    publisher: The Pioneer
+    tier: secondary
+    url: https://www.dailypioneer.com/news/govt-blocks-telegram-app-before-neet
+    archive_date: 2026-07-27
+    archive_url: https://web.archive.org/web/20260727225218/https://www.dailypioneer.com/news/govt-blocks-telegram-app-before-neet
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: Viral party for India's 'cockroaches' hold first protest in Delhi
+    publisher: The Independent
+    author: Sheikh Saaliq
+    wire: AP
+    tier: secondary
+    url: https://www.independent.co.uk/asia/india/cockroach-janta-party-protest-today-delhi-abhijeet-dipke-b2990913.html
+    archive_date: 2026-06-07
+    archive_url: https://web.archive.org/web/20260607032320/https://www.independent.co.uk/asia/india/cockroach-janta-party-protest-today-delhi-abhijeet-dipke-b2990913.html
+    date: 2026-06-06
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: "Cockroach Janata Party protest LIVE UPDATES: Modi govt has 7 days to dismiss Pradhan—CJP spokesperson"
+    publisher: ThePrint
+    tier: secondary
+    url: https://theprint.in/india/live-updates-delhi-cockroach-janta-party-cjp-jantar-mantar-protest-abhijeet-dipke-sonam-wangchuk/2952271/
+    archive_date: 2026-06-06
+    archive_url: https://web.archive.org/web/20260606092047/https://theprint.in/india/live-updates-delhi-cockroach-janta-party-cjp-jantar-mantar-protest-abhijeet-dipke-sonam-wangchuk/2952271/
+    date: 2026-06-06
+    type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: "Sonam Wangchuk: Indian activist on hunger strike for 20 days forcibly taken to hospital"
+    publisher: BBC News
+    author: Geeta Pandey
+    tier: report
+    url: https://www.bbc.com/news/articles/cjej3dxxg2do
+    archive_date: 2026-07-18
+    archive_url: https://web.archive.org/web/20260718074332/https://www.bbc.com/news/articles/cjej3dxxg2do
+    date: 2026-07-18
+    type: news
+    accessed: 2026-10-15
+  - id: s13
+    title: Tens of thousands of Cockroach movement protesters defy police with Delhi march
+    publisher: The Guardian
+    author: Hannah Ellis-Petersen
+    tier: report
+    url: https://www.theguardian.com/world/2026/jul/20/cockroach-janta-party-protest-march-sonam-wangchuk-india-parliament
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: Delhi Police puts barricades at Jantar Mantar ahead of CJP's protest march to Parliament
+    publisher: ThePrint
+    author: Alisha Dutta
+    tier: report
+    url: https://theprint.in/india/delhi-police-puts-blockades-jantar-mantar-ahead-of-cjps-protest-march-to-parliament/2990640/
+    archive_date: 2026-07-20
+    archive_url: https://web.archive.org/web/20260720074855/https://theprint.in/india/delhi-police-puts-blockades-jantar-mantar-ahead-of-cjps-protest-march-to-parliament/2990640/
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Public advisory: no permission sought or granted for proposed CJP march to Parliament; prohibitory order under Section 163 BNSS (post on X)"
+    publisher: Delhi Police, DCP New Delhi
+    tier: record
+    url: https://x.com/DCPNewDelhi/status/2078840773056065804
+    date: 2026-07-19
+    type: official
+    accessed: 2026-10-15
+  - id: s16
+    title: Delhi Police clarifies no permission sought or given for parliament march to CJP
+    publisher: The Times of India
+    tier: secondary
+    url: https://timesofindia.indiatimes.com/city/delhi/delhi-police-clarifies-no-permission-sought-or-given-for-parliament-march-to-cjp/articleshow/132497794.cms
+    date: 2026-07-19
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "Lathi charge, internet cut: How CJP's 'Chalo Sansad' March brought Delhi to a standstill"
+    publisher: Hindustan Times
+    author: Hemani Bhandari and Priyanshu Priya
+    tier: report
+    url: https://www.hindustantimes.com/india-news/how-cjp-chalo-sansad-march-brought-delhi-to-a-standstill-lathi-charge-detentions-internet-snags-sonam-wangchuk-101784533037018.html
+    archive_date: 2026-07-20
+    archive_url: https://web.archive.org/web/20260720085303/https://www.hindustantimes.com/india-news/how-cjp-chalo-sansad-march-brought-delhi-to-a-standstill-lathi-charge-detentions-internet-snags-sonam-wangchuk-101784533037018.html
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: Protesters march ahead, only to be met with lathis, tear gas
+    publisher: The Hindu
+    author: Shrimansi Kaushik
+    tier: report
+    url: https://www.thehindu.com/incoming/protesters-march-ahead-only-to-be-met-with-lathis-tear-gas/article71247923.ece
+    archive_date: 2026-07-21
+    archive_url: https://web.archive.org/web/20260721105308/https://www.thehindu.com/incoming/protesters-march-ahead-only-to-be-met-with-lathis-tear-gas/article71247923.ece
+    date: 2026-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: Over 70 detained; police claim 118 personnel hurt
+    publisher: The Times of India
+    tier: secondary
+    url: https://timesofindia.indiatimes.com/city/delhi/over-70-detained-police-claim-118-personnel-hurt/articleshow/132522189.cms
+    archive_date: 2026-07-20
+    archive_url: https://web.archive.org/web/20260720204028/https://timesofindia.indiatimes.com/city/delhi/over-70-detained-police-claim-118-personnel-hurt/articleshow/132522189.cms
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Pellet guns, shock batons used against protesters in Delhi; police deny
+    publisher: The Hindu
+    author: Ashna Butani and Vijaita Singh
+    tier: report
+    url: https://www.thehindu.com/news/cities/Delhi/pellet-guns-shock-batons-used-against-protesters-in-delhi-police-deny/article71250708.ece
+    date: 2026-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: Two rounds of pellets used during July 20 CJP protest march on orders of DCP, show police records
+    publisher: Hindustan Times
+    author: Prawesh Lama
+    tier: report
+    url: https://www.hindustantimes.com/india-news/two-rounds-of-pellet-guns-used-during-july-20-cjp-protest-march-on-orders-of-dcp-show-police-records-101785289392163.html
+    archive_date: 2026-07-29
+    archive_url: https://web.archive.org/web/20260729021437/https://www.hindustantimes.com/india-news/two-rounds-of-pellet-guns-used-during-july-20-cjp-protest-march-on-orders-of-dcp-show-police-records-101785289392163.html
+    date: 2026-07-29
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Delhi HC seeks Centre's reply to claims of police brutality, excess force during Parliament march
+    publisher: The Hindu
+    author: Soibam Rocky Singh
+    tier: report
+    url: https://www.thehindu.com/news/cities/Delhi/delhi-hc-seeks-centre-police-response-on-pleas-alleging-excessive-force-during-july-20-cjp-protest-march/article71253106.ece
+    date: 2026-07-22
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: PIL In Delhi High Court Challenges Internet Shutdown Around Jantar Mantar, Seeks Publication Of Suspension Orders
+    publisher: LiveLaw
+    author: Nupur Thapliyal
+    tier: report
+    url: https://www.livelaw.in/high-court/delhi-high-court/internet-shutdown-pil-jantar-mantar-neet-protest-delhi-free-speech-542748
+    archive_date: 2026-07-24
+    archive_url: https://web.archive.org/web/20260724172657/https://www.livelaw.in/high-court/delhi-high-court/internet-shutdown-pil-jantar-mantar-neet-protest-delhi-free-speech-542748
+    date: 2026-07-24
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: "Internet Suspended Till Midnight At Jantar Mantar: MHA"
+    publisher: ETV Bharat
+    wire: PTI
+    tier: secondary
+    url: https://www.etvbharat.com/en/bharat/internet-suspended-till-midnight-at-jantar-mantar-says-mha-enn26072306992
+    archive_date: 2026-07-23
+    archive_url: https://web.archive.org/web/20260723151959/https://www.etvbharat.com/en/bharat/internet-suspended-till-midnight-at-jantar-mantar-says-mha-enn26072306992
+    date: 2026-07-23
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "Jantar Mantar protest: CJP representatives hold talks with government but stalemate continues"
+    publisher: BBC News
+    author: Abhishek Dey, Geeta Pandey and Jaroslav Lukiv
+    tier: report
+    url: https://www.bbc.com/news/articles/cjwx4x04yqzo
+    archive_date: 2026-07-23
+    archive_url: https://web.archive.org/web/20260723225753/https://www.bbc.com/news/articles/cjwx4x04yqzo
+    date: 2026-07-23
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "India's CJP protests: Why Gen-Z's political fury is boiling over in Delhi"
+    publisher: CNN
+    author: Rhea Mogul
+    tier: report
+    url: https://edition.cnn.com/2026/07/22/india/india-cockroach-party-protest-anger-intl-hnk
+    date: 2026-07-22
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "CJP, Jantar Mantar: Pressure grows on Indian PM Modi's government as 'cockroach' protests intensify"
+    publisher: BBC News
+    author: Geeta Pandey
+    tier: report
+    url: https://www.bbc.com/news/articles/c9d8p88lyjdo
+    archive_date: 2026-07-22
+    archive_url: https://web.archive.org/web/20260722082121/https://www.bbc.com/news/articles/c9d8p88lyjdo
+    date: 2026-07-22
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Gitanjali J. Angmo v. Union of India & Ors., LPA 539/2026 (order)"
+    publisher: Delhi High Court
+    tier: court
+    url: https://delhihighcourt.nic.in/app/showFileJudgment/68721072026LPA5392026_185339.pdf
+    archive_date: 2026-07-21
+    archive_url: https://web.archive.org/web/20260721180448/https://delhihighcourt.nic.in/app/showFileJudgment/68721072026LPA5392026_185339.pdf
+    date: 2026-07-21
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s29
+    title: "Mumbai CJP protests: 400 booked, 13 FIRs in five days for protesting without permission"
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/national/maharashtra/400-booked-13-firs-registered-in-five-days-for-staging-protests-in-mumbai-without-permission/article71256674.ece
+    date: 2026-07-23
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: Delhi Police files four FIRs over 'violence' during CJP protest; more cases likely
+    publisher: The New Indian Express
+    tier: secondary
+    url: https://www.newindianexpress.com/states/delhi/2026/Jul/21/delhi-police-files-four-firs-over-violence-during-cjp-protest-more-cases-likely
+    archive_date: 2026-07-22
+    archive_url: https://web.archive.org/web/20260722023124/https://www.newindianexpress.com/states/delhi/2026/Jul/21/delhi-police-files-four-firs-over-violence-during-cjp-protest-more-cases-likely
+    date: 2026-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: India's Cockroach movement threatens to restart protests after mass student arrests
+    publisher: The Guardian
+    author: Hannah Ellis-Petersen
+    tier: report
+    url: https://www.theguardian.com/world/2026/jul/28/india-cockroach-janta-party-cjp-demands-protesters-release
+    date: 2026-07-28
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Who called whom? JP Nadda, CJP leaders differ on how the talks happened
+    publisher: Hindustan Times
+    author: Anagha Deshpande
+    tier: report
+    url: https://www.hindustantimes.com/india-news/who-called-whom-jp-nadda-cjp-leaders-differ-on-how-the-talks-happened-101784553085407.html
+    archive_date: 2026-07-20
+    archive_url: https://web.archive.org/web/20260720142850/https://www.hindustantimes.com/india-news/who-called-whom-jp-nadda-cjp-leaders-differ-on-how-the-talks-happened-101784553085407.html
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: CJP to follow up on five-point education reform charter after four weeks
+    publisher: The Hindu
+    author: Devesh K. Pandey
+    tier: report
+    url: https://www.thehindu.com/news/national/cockroach-janta-party-withdraws-protest-after-centre-accepts-demands/article71266081.ece
+    archive_date: 2026-07-25
+    archive_url: https://web.archive.org/web/20260725133521/https://www.thehindu.com/news/national/cockroach-janta-party-withdraws-protest-after-centre-accepts-demands/article71266081.ece
+    date: 2026-07-25
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: "PM Announces More Strict Actions Against Paper Leaks to Come in Today's Cabinet"
+    publisher: Prime Minister's Office (pmindia.gov.in)
+    tier: record
+    url: https://www.pmindia.gov.in/en/news_updates/pm-announces-more-strict-actions-against-paper-leaks-to-come-in-todays-cabinet/
+    type: official
+    accessed: 2026-10-15
+  - id: s35
+    title: Press communique on the resignation of Dharmendra Pradhan
+    publisher: President's Secretariat, Rashtrapati Bhavan
+    tier: record
+    url: https://presidentofindia.nic.in/press_releases/press-communique-35
+    date: 2026-07-25
+    type: official
+    accessed: 2026-10-15
+  - id: s36
+    title: Dharmendra Pradhan resigns as education minister amid massive paper leak protests
+    publisher: Hindustan Times
+    author: Smriti Kak Ramachandran
+    tier: report
+    url: https://www.hindustantimes.com/india-news/dharmendra-pradhan-resigns-as-union-education-minister-amid-massive-uproar-cjp-protest-jantar-mantar-delhi-101784969476130.html
+    archive_date: 2026-07-25
+    archive_url: https://web.archive.org/web/20260725093258/https://www.hindustantimes.com/india-news/dharmendra-pradhan-resigns-as-union-education-minister-amid-massive-uproar-cjp-protest-jantar-mantar-delhi-101784969476130.html
+    date: 2026-07-25
+    type: news
+    accessed: 2026-10-15
+  - id: s37
+    title: "Jantar Mantar Protest Highlights: CJP calls off protests 'in good faith' after talks with Centre"
+    publisher: The Indian Express
+    author: Abhimanyu Hazarika and others
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/jantar-mantar-protest-live-updates-abhijeet-dipke-sonam-wangchuk-dharmendra-pradhan-10802585/lite/
+    archive_date: 2026-07-25
+    archive_url: https://web.archive.org/web/20260725072120/https://indianexpress.com/article/cities/delhi/jantar-mantar-protest-live-updates-abhijeet-dipke-sonam-wangchuk-dharmendra-pradhan-10802585/lite/
+    date: 2026-07-25
+    type: news
+    accessed: 2026-10-15
+  - id: s38
+    title: Post on X by Dharmendra Pradhan on the Congress sit-in outside the Prime Minister's residence
+    publisher: Dharmendra Pradhan (@dpradhanbjp), on X
+    tier: record
+    url: https://x.com/dpradhanbjp/status/2079617783613313136
+    date: 2026-07-21
+    type: official
+    accessed: 2026-10-15
+  - id: s39
+    title: "Modi is India's most 'anti-youth PM', says Rahul Gandhi"
+    publisher: The Hindu
+    author: Sandeep Phukan
+    tier: report
+    url: https://www.thehindu.com/news/national/rahul-gandhi-calls-narendra-modi-most-anti-youth-pm-in-indias-history/article71245456.ece
+    date: 2026-07-20
+    type: news
+    accessed: 2026-10-15
+  - id: s40
+    title: "CJP's parliament march from Jantar Mantar: India's 'cockroach' protest continues a day after police crackdown"
+    publisher: BBC News
+    author: Geeta Pandey
+    tier: report
+    url: https://www.bbc.com/news/articles/c98v349r9lro
+    archive_date: 2026-07-21
+    archive_url: https://web.archive.org/web/20260721094345/https://www.bbc.com/news/articles/c98v349r9lro
+    date: 2026-07-21
+    type: news
+    accessed: 2026-10-15
+  - id: s41
+    title: "India news: 'Cockroaches' end protest after minister resigns"
+    publisher: Deutsche Welle
+    author: Mark Hallam and Mahima Kapoor
+    tier: secondary
+    url: https://www.dw.com/en/india-news-cockroaches-end-protest-after-education-minister-dharmendra-pradhan-resigns/live-78108089
+    archive_date: 2026-07-25
+    archive_url: https://web.archive.org/web/20260725211055/https://www.dw.com/en/india-news-cockroaches-end-protest-after-education-minister-dharmendra-pradhan-resigns/live-78108089
+    date: 2026-07-25
+    type: news
+    accessed: 2026-10-15
+  - id: s42
+    title: PIL challenging internet shutdown around Jantar Mantar withdrawn from Delhi High Court
+    publisher: Bar and Bench
+    author: Prashant Jha
+    tier: report
+    url: https://www.barandbench.com/news/litigation/pil-challenging-internet-shutdown-around-jantar-mantar-withdrawn-from-delhi-high-court
+    date: 2026-07-27
+    type: news
+    accessed: 2026-10-15
 tags: [students, exams, delhi, internet_shutdown, section_163, detention, resignation, youth]
 related_precedents: [agnipath-protests-2022, anti-reservation-youth-for-equality-2006, delhi-gang-rape-protests-2012, india-against-corruption-2011]
 reviewed: false

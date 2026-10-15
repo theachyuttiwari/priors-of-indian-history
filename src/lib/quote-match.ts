@@ -33,13 +33,41 @@ export function decodeEntities(s: string): string {
 
 /** Visible text of an HTML page. Good enough for matching, not for display. */
 export function htmlToText(html: string): string {
-  return decodeEntities(
-    html
-      .replace(/<!--[\s\S]*?-->/g, " ")
-      .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
-      .replace(/<(br|\/p|\/div|\/li|\/h\d)\b[^>]*>/gi, "\n")
-      .replace(/<[^>]+>/g, " "),
-  );
+  return [
+    decodeEntities(
+      html
+        // Raw-text blocks first: a "<!--" inside a style or script block is not a comment.
+        .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
+        .replace(/<!--[\s\S]*?-->/g, " ")
+        .replace(/<(br|\/p|\/div|\/li|\/h\d)\b[^>]*>/gi, "\n")
+        .replace(/<[^>]+>/g, " "),
+    ),
+    ...jsonText(html),
+  ].join("\n");
+}
+
+/**
+ * Some sites (Next.js pages, JSON-LD articleBody) ship the article text only inside JSON data
+ * scripts. Collect the longer strings from those scripts, as text.
+ */
+function jsonText(html: string): string[] {
+  const out: string[] = [];
+  const walk = (v: unknown): void => {
+    if (typeof v === "string") {
+      if (v.length > 80) out.push(htmlToText(v));
+    } else if (Array.isArray(v)) v.forEach(walk);
+    else if (v && typeof v === "object") Object.values(v).forEach(walk);
+  };
+  for (const m of html.matchAll(
+    /<script\b[^>]*type=["']?application\/(?:ld\+)?json["']?[^>]*>([\s\S]*?)<\/script>/gi,
+  )) {
+    try {
+      walk(JSON.parse(m[1]));
+    } catch {
+      // not valid JSON: skip it
+    }
+  }
+  return out;
 }
 
 /**
