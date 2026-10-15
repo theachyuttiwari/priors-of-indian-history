@@ -1,8 +1,8 @@
 <img src="assets/icon.svg" width="64" height="64" alt="">
 
-# Priors — what they did before
+# Priors: how India’s governments have handled protests
 
-[![CI](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/ci.yml/badge.svg)](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/ci.yml)
+[![CI](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/checks.yml/badge.svg)](https://github.com/theachyuttiwari/priors-of-indian-history/actions/workflows/checks.yml)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-lightgrey.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](content/LICENSE)
 

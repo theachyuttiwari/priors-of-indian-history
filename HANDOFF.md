@@ -10,7 +10,8 @@ cases, across every party at the Centre and in the states. Every claim links to 
 
 Decisions made by the owner (do not re-open):
 
-- Name: **Priors**. Tagline: "What they did before."
+- Name: **Priors**. Headline (owner, 2026-10-15): "How India’s governments have handled protests".
+  It replaced "What they did before", which read as vague and as a gotcha.
 - Phase 1: protest handling only, made rock solid (citations, quotes, mobile-first UI). Phase 2 (other
   topics, pre-1947) waits for public response and the owner's word.
 - Static site, refreshed by hand. Most readers are on phones: design and check at 390 px first.

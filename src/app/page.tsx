@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="space-y-16 sm:space-y-24">
       <section>
-        <h1 className="t-hero">How India&apos;s governments have handled protests</h1>
+        <h1 className="t-hero">How India’s governments have handled protests</h1>
         <p className="lede mt-5 measure">
           Since {s.from}, under every party, at the Centre and in the states. Every claim links to a dated source.
         </p>

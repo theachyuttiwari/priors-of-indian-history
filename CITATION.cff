@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use this record, please cite it as below, and cite the primary sources it links to.
 type: dataset
-title: "Priors: an open, sourced record of how Indian governments have handled protests"
+title: "Priors: how India’s governments have handled protests"
 authors:
   - name: Priors contributors
 repository-code: https://github.com/theachyuttiwari/priors-of-indian-history

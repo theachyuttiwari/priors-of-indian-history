@@ -5,12 +5,12 @@ import { fmtDate, siteUpdated } from "@/lib/content";
 import "./globals.css";
 
 const DESCRIPTION =
-  "How Indian governments, across parties, have handled protests. Today's event, compared with the record. Every claim sourced.";
+  "How India’s governments have handled protests since 1974, under every party, at the Centre and in the states. Every claim links to a dated source.";
 
 export const metadata: Metadata = {
   // Origin only: Next adds the base path to image and canonical URLs itself.
   metadataBase: new URL(new URL(SITE_URL).origin),
-  title: { default: "Priors: what they did before", template: "%s · Priors" },
+  title: { default: "Priors: how India’s governments have handled protests", template: "%s · Priors" },
   description: DESCRIPTION,
   openGraph: { siteName: "Priors", type: "website", locale: "en_IN", description: DESCRIPTION },
   twitter: { card: "summary_large_image" },
