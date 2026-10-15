@@ -473,5 +473,31 @@
       "text_sha256": "ab7abf51de33ad3dd8fedc1d8fc04baafa98c4220c985b37479a0e8a4666c5c1",
       "note": "checked against the live page; archive the source and re-check"
     }
+  },
+  "wrestlers-protest-jantar-mantar-2023": {
+    "daca9056d68e1070": {
+      "position": 1,
+      "source": "s8",
+      "fetched": "https://web.archive.org/web/20230618085848id_/https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "60da777e0633050e071e8e1dbbc5998bee792fe86b25b5ab78491dda58b17e88"
+    },
+    "c8399f804a2e1b20": {
+      "position": 2,
+      "source": "s22",
+      "fetched": "https://web.archive.org/web/20230529054142id_/https://indianexpress.com/article/sports/sport-others/delhi-police-detain-wrestlers-clear-jantar-mantar-8633887/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "b32689f77f441b0b6f298014e2c20c41efdaa89fb922084ef846c55671cb162c"
+    },
+    "6115c783fb78e2d5": {
+      "position": 3,
+      "source": "s9",
+      "fetched": "https://web.archive.org/web/20230502113735id_/https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "d9ed58318e1dd65b6af5d0d123ad685ef40006cf2948d3287fa66bd86b65a695"
+    }
   }
 }

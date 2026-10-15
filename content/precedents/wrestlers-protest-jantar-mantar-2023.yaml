@@ -32,50 +32,76 @@ government:
     name: Delhi
 actions:
   - type: commission_of_inquiry
-    date: 2023-01
-    description: "After the first sit-in (18-20 January 2023), the Sports Ministry stripped the WFI's top leadership of administrative powers and asked an oversight committee to examine the allegations. The committee's report was completed in April but not made public; the wrestlers said they believed the accused had been cleared."
+    date: 2023-01-23
+    claim: ordered
+    description: "After the first sit-in at Jantar Mantar (18-20 January 2023), the Sports Ministry formed an Oversight Committee headed by M.C. Mary Kom to enquire into the allegations of sexual misconduct, harassment, financial irregularities and administrative lapses, and to run the WFI's day-to-day administration during the enquiry. It gave the committee four weeks and told the WFI executive committee to stop managing day-to-day activities; Sports Minister Anurag Thakur said Singh would step aside meanwhile. The committee submitted its report in April 2023. The report was not made public; the Ministry's 24 April letter to the IOA listed general findings, such as the absence of an Internal Complaints Committee, and did not mention specific charges against Singh. Sakshi Malik said the wrestlers had reasons to believe the accused had been given a clean chit."
     actor: centre
-    sources: [s1, s3]
+    sources: [s12, s13, s2, s16, s1]
   - type: other
     date: 2023-04-24
-    description: The Sports Ministry asked the Indian Olympic Association to form an ad hoc committee to run the WFI and hold fresh elections within 45 days.
+    claim: ordered
+    description: "As the wrestlers resumed their sit-in, the Sports Ministry wrote to the Indian Olympic Association declaring the WFI election process for 7 May null and void and asking it to form an ad hoc committee to run the WFI and hold elections within 45 days of its formation."
     actor: centre
-    sources: [s1]
+    sources: [s15, s16, s1]
   - type: fir
     date: 2023-04-28
-    description: "During a Supreme Court hearing on the wrestlers' petition, Solicitor General Tushar Mehta said Delhi Police had decided to register an FIR against Brij Bhushan Sharan Singh that day. The bench of CJI D.Y. Chandrachud and Justice P.S. Narasimha directed the Delhi Police Commissioner to assess threats to the minor complainant and the other complainants and provide security. Delhi Police report to the Union Home Ministry."
+    claim: held
+    description: "During the Supreme Court hearing on the wrestlers' petition, Solicitor General Tushar Mehta, appearing for Delhi Police, stated that since the allegations implicated a cognizable offence, the police had decided to register an FIR that day; the bench of CJI D.Y. Chandrachud and Justice P.S. Narasimha recorded the statement. The court directed the Delhi Police Commissioner to assess the threat to the minor complainant and provide adequate security, and said this did not stop the Commissioner from assessing the threat to the other complainants and providing security to them if needed. Delhi Police registered two FIRs against Singh that day at Connaught Place police station, one of them under the POCSO Act on the minor's complaint. Delhi Police report to the Union Home Ministry."
     actor: court
-    sources: [s2]
+    sources: [s17, s2, s18, s19]
+    court_outcomes:
+      - summary: "On 4 May 2023 a bench of CJI D.Y. Chandrachud and Justices P.S. Narasimha and J.B. Pardiwala closed the proceedings, saying the petition's purpose had been served with the registration of FIRs and the provision of security, and gave the petitioners liberty to approach the magistrate or the Delhi High Court. It did not accept a request for a retired judge to monitor the investigation."
+        source: s19
   - type: other
     date: 2023-05-03
-    description: "Late on 3 May wrestlers alleged that police officers manhandled and abused them at Jantar Mantar while they were carrying folding cots into the site. Police denied the allegations. The site was barricaded."
+    claim: happened
+    description: "Late on 3 May a scuffle broke out at Jantar Mantar after police stopped protesters from bringing folding beds into the site after rain. Wrestlers alleged that policemen pushed, hit and abused them and that one officer was drunk; The Times of India reported that Bajrang Punia and Vinesh Phogat were injured and that wrestler Dushyant Phogat was taken to hospital with a cut on his forehead. DCP Pranav Tayal said AAP MLA Somnath Bharti had brought the beds and was not allowed in, that some police personnel and wrestlers were injured, and that action would be taken against the policeman alleged to be drunk. Delhi Police denied that its officers assaulted the protesters. Police detained Bharti and two others and barricaded the site."
     actor: police
-    sources: [s3]
+    sources: [s20, s21, s3]
   - type: detention
     date: 2023-05-28
-    description: "As the new Parliament building was inaugurated, Delhi Police detained Vinesh Phogat, Sakshi Malik, Bajrang Punia and others who were marching towards it for a women's 'mahapanchayat' and took them away in buses. Police said they broke the barricades and did not follow directions; Punia denied that protesters broke barricades. Farmer leaders heading to Delhi were detained in Haryana."
+    claim: happened
+    description: "As the new Parliament building was inaugurated, Delhi Police detained Vinesh Phogat, Sakshi Malik, Bajrang Punia and their supporters, who had crossed barricades while marching towards it for a women's 'mahapanchayat', and took them away in buses to police stations across Delhi; the women wrestlers were released that evening. Special Commissioner of Police Dependra Pathak said they broke the barricades, did not follow police directions and created a 'riot-like situation'; Punia denied that the protesters broke barricades and violated law and order. Farmer leaders travelling to support the wrestlers were detained at Delhi's borders and, according to BKU (Charuni), in Haryana. The numbers detained differ (see figures)."
     actor: police
-    sources: [s4, s5, s10]
+    sources: [s22, s23, s24, s4, s5, s10, s25]
+    figures:
+      - { what: "persons detained at Jantar Mantar", value: "109", claimed_by: "Special CP Dependra Pathak, Delhi Police", source: s23 }
+      - { what: "people detained across Delhi, including 109 at Jantar Mantar", value: "700", claimed_by: "Delhi Police (PTI)", source: s25 }
+      - { what: "protesters detained at Jantar Mantar", value: "more than 500", claimed_by: "Gopal Tiwari, protest organiser", source: s23 }
+      - { what: "supporters detained", value: "over 2,000", claimed_by: "Bajrang Punia", source: s4 }
   - type: other
     date: 2023-05-28
-    description: Immediately after the detentions, police cleared the wrestlers' protest site at Jantar Mantar, removing cots, mattresses, coolers, fans and the tarpaulin cover.
+    claim: happened
+    description: Soon after the detentions, police cleared the wrestlers' protest site at Jantar Mantar, taking down the tent and removing cots, mattresses, cooler fans, the tarpaulin cover and other belongings.
     actor: police
-    sources: [s4, s5]
+    sources: [s22, s23, s24, s4]
   - type: fir
     date: 2023-05-28
-    description: "Delhi Police registered FIRs against Bajrang Punia, Sakshi Malik, Vinesh Phogat and others under Indian Penal Code provisions ranging from rioting to obstructing a public servant with assault or criminal force. The detained wrestlers were later released."
+    claim: ordered
+    description: "Delhi Police registered an FIR at Barakhamba police station against the organisers of the protest, including Bajrang Punia, Sakshi Malik and Vinesh Phogat, and their supporters, on charges including rioting, unlawful assembly and obstructing and assaulting public servants. Reports list the sections differently (see legal basis). On 7 June the wrestlers said the government had agreed to withdraw these FIRs."
     actor: police
-    sources: [s5, s10]
+    sources: [s24, s22, s25, s10, s5, s26]
+    legal_basis: "IPC sections 147, 149, 186, 188, 332 and 353 and Section 3 of the Prevention of Damage to Public Property Act, as reported by The Tribune; PTI also lists IPC section 352. The Indian Express, citing police sources before the FIR was lodged, listed IPC sections 147, 148, 149, 352, 353 and 186."
   - type: negotiation
     date: 2023-06-07
-    description: "Bajrang Punia and other wrestlers met Sports Minister Anurag Thakur and suspended the protest, saying they would resume it if no action was taken by 15 June."
+    claim: happened
+    description: "After Sports Minister Anurag Thakur publicly invited the wrestlers for talks, Bajrang Punia and Sakshi Malik met him at his residence for about six hours; they had met Home Minister Amit Shah a few days earlier. Thakur said the police probe would be completed and a chargesheet filed by 15 June and that WFI elections would be held by 30 June. The wrestlers said the government had also agreed to withdraw the 28 May FIRs against them. They suspended the protest until 15 June, and Punia said they would resume it if no action was taken by then."
     actor: centre
-    sources: [s6]
+    sources: [s26, s27, s6]
   - type: other
     date: 2023-06-15
-    description: "Delhi Police filed a chargesheet against Brij Bhushan Sharan Singh under IPC sections 354, 354A and 354D on the complaints of six adult wrestlers, and against his aide Vinod Tomar. In the minor complainant's case police filed a cancellation report under the POCSO Act after the complainant and her father gave a fresh statement withdrawing the allegations."
+    claim: ordered
+    description: "Delhi Police filed a chargesheet in the Rouse Avenue court against Brij Bhushan Sharan Singh under IPC sections 354, 354A and 354D on the complaints of six adult wrestlers, and against former WFI assistant secretary Vinod Tomar under sections including 354A, 109 (abetment) and 506 (criminal intimidation). In the POCSO Act case, police filed a cancellation report in the Patiala House court after the minor complainant and her father withdrew the allegations in fresh statements before a magistrate. The father said he had filed a false complaint out of anger; a protesting wrestler told ThePrint that the father had said his second statement was made under pressure. Singh denied the allegations when questioned by police."
     actor: police
-    sources: [s7]
+    sources: [s28, s29, s7]
+    legal_basis: "IPC sections 354, 354A and 354D (Singh); IPC sections including 109, 354A and 506 (Tomar); cancellation report under Section 173 CrPC (POCSO case)"
+    court_outcomes:
+      - summary: "On 10 May 2024 Additional Chief Metropolitan Magistrate Priyanka Rajpoot ordered charges to be framed against Singh under IPC sections 354 and 354A for five of the six complainants and under section 506(1) for two of them, and discharged him of the sixth complainant's allegations. She ordered a charge of criminal intimidation against Tomar for one complainant and discharged him of abetment."
+        source: s30
+      - summary: "On 26 May 2025 a Delhi court accepted the police cancellation report in the POCSO case."
+        source: s31
+      - summary: "On 3 August 2026 Additional Chief Judicial Magistrate Ashwani Panwar acquitted Singh and Tomar, holding that the prosecution had failed to prove the allegations beyond reasonable doubt. On 28 September 2026 Special Judge Dig Vinay Singh of the Rouse Avenue court issued notice to them on an appeal by four of the wrestlers."
+        source: s11
 outcome: >
   The wrestlers ended the street protest in June 2023 and continued through the courts. On 3 August 2026
   an Additional Chief Judicial Magistrate acquitted Brij Bhushan Sharan Singh and Vinod Tomar in the
@@ -87,119 +113,406 @@ positions:
     person: Brij Bhushan Sharan Singh
     role_at_time: BJP MP and WFI president, accused
     in_power: true
-    date: 2023-05
-    statement: Denied the allegations, called them a political ploy, and said he was ready to be hanged if any wrestler proved the charge.
-    sources: [s3]
+    date: 2023-01-18
+    kind: paraphrase
+    statement: Denied the allegations and told reporters that he could be hanged if even one wrestler came forward to say she had been sexually harassed. He later called the allegations politically motivated.
+    sources: [s14, s8, s3]
   - party: BJP
     person: Babita Phogat
     role_at_time: BJP leader and former wrestler
     in_power: true
     date: 2023-06-18
-    statement: "You have become puppets in Congress's hands. I was not in favor of this from the beginning of the protest."
-    sources: [s8]
+    kind: translated
+    statement: Denied that she had sought police permission for the wrestlers' Jantar Mantar protest, said she had opposed the sit-in from the start and had urged the wrestlers to meet the Prime Minister or Home Minister, and said Sakshi Malik had become a puppet of the Congress.
+    quote:
+      text: "Being a female player, I was, am and will always be with all the players of the country, but I was not in favor of this from the beginning of the protest"
+      original: "एक महिला खिलाड़ी होने के नाते मैं सदैव देश के सभी खिलाड़ियों के साथ थी, साथ हूँ और सदैव साथ रहूंगी परंतु मैं धरने -प्रदर्शन के शुरुआत से इस चीज़ के पक्ष मैं नहीं थीं"
+      language: hi
+      translated_by: source
+      locator: "Paragraph beginning 'In her tweet Sunday, Phogat wrote'"
+      source: s8
+    sources: [s8, s32]
   - party: INC
     person: Priyanka Gandhi Vadra
     role_at_time: Congress general secretary, opposition
     in_power: false
-    date: 2023-05
-    statement: '"Our players are the pride of the country. They bring laurels to the country by their performance at the world level." She demanded an investigation.'
-    sources: [s3]
+    date: 2023-05-28
+    kind: translated
+    statement: After the 28 May detentions, said the BJP government's arrogance had grown so much that it was trampling the voices of women wrestlers, and called this wrong.
+    quote:
+      text: "The arrogance of the BJP government has increased so much that the government is mercilessly trampling the voices of our women players under their boots."
+      original: "भाजपा सरकार का अहंकार इतना बढ़ गया है कि सरकार हमारी महिला खिलाड़ियों की आवाजों को निर्ममता के साथ बूटों तले रौंद रही है।"
+      language: hi
+      translated_by: source
+      locator: "Paragraph beginning 'The arrogance of the BJP government'"
+      source: s22
+    sources: [s22, s33]
   - party: INC
     person: Navjot Singh Sidhu
     role_at_time: Congress leader and former cricketer, opposition
     in_power: false
     date: 2023-05-01
-    statement: "Intent is questionable and motive is to protect the accused. Cases registered under POCSO Act are non-bailable... why no arrest so far?"
+    kind: verbatim
+    statement: Questioned the delay in registering the FIR against Singh, said the motive was to protect the accused, and asked why he had not been arrested when cases under the POCSO Act are non-bailable.
+    quote:
+      text: "Intent is questionable and motive is to protect the accused."
+      locator: "Paragraph beginning 'Intent is questionable'"
+      source: s9
     sources: [s9]
 sources:
   - id: s1
-    title: Indian wrestlers resume protest against federation chief
+    title: Indian wrestlers demand arrest of federation chief at sit-in
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/sports/2023/4/24/indian-wrestlers-resume-protest-against-federation-chief
     archive_date: 2023-04-24
     archive_url: https://web.archive.org/web/20230424121709/https://www.aljazeera.com/sports/2023/4/24/indian-wrestlers-resume-protest-against-federation-chief
     date: 2023-04-24
     type: news
+    accessed: 2026-10-15
   - id: s2
-    title: FIR against Brij Bhushan today, SC told; court directs Delhi Police to assess threat to complainants
+    title: "FIR against Brij Bhushan 'today', SC told. Court directs Delhi Police to assess threat to complainants"
     publisher: ThePrint
+    author: Bhadra Sinha
+    tier: report
     url: https://theprint.in/judiciary/fir-against-brij-bhushan-today-sc-told-court-directs-delhi-police-to-assess-threat-to-complainants/1544250/
     archive_date: 2023-04-30
     archive_url: https://web.archive.org/web/20230430054726/https://theprint.in/judiciary/fir-against-brij-bhushan-today-sc-told-court-directs-delhi-police-to-assess-threat-to-complainants/1544250/
     date: 2023-04-28
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Why are top Indian wrestlers protesting on the streets?
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2023/5/4/why-are-top-indian-wrestlers-protesting-on-the-streets
     archive_date: 2023-05-04
     archive_url: https://web.archive.org/web/20230504043502/https://www.aljazeera.com/news/2023/5/4/why-are-top-indian-wrestlers-protesting-on-the-streets
     date: 2023-05-04
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Mahila Maha Panchayat: Farmers detained in Haryana, police clears protest site at Jantar Mantar"
     publisher: Onmanorama
+    tier: secondary
     url: https://www.onmanorama.com/news/india/2023/05/28/mahila-maha-panchayat-farmers-detained-sakshi-malik-vinesh-phogat-bajrang-punia-jantar-mantar-protest.html
     archive_date: 2023-05-29
     archive_url: https://web.archive.org/web/20230529024214/https://www.onmanorama.com/news/india/2023/05/28/mahila-maha-panchayat-farmers-detained-sakshi-malik-vinesh-phogat-bajrang-punia-jantar-mantar-protest.html
     date: 2023-05-28
     type: news
+    accessed: 2026-10-15
   - id: s5
-    title: Protesting wrestlers say they will immerse medals into Ganga, begin hunger strike
+    title: Farmer leader Naresh Tikait stops wrestlers from immersing their medals in Ganga
     publisher: Scroll
+    tier: secondary
     url: https://scroll.in/field/1050052/protesting-wrestlers-say-they-will-immerse-medals-into-ganga-today-begin-hunger-strike
     archive_date: 2023-05-30
     archive_url: https://web.archive.org/web/20230530081920/https://scroll.in/field/1050052/protesting-wrestlers-say-they-will-immerse-medals-into-ganga-today-begin-hunger-strike
     date: 2023-05-30
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "'If No Action Taken by June 15, We'll Resume Protest': Bajrang Punia After Meeting Anurag Thakur"
     publisher: The Wire
+    tier: secondary
     url: https://thewire.in/government/wrestlers-protest-anurag-thakur-discussion
     archive_date: 2023-06-07
     archive_url: https://web.archive.org/web/20230607032723/https://thewire.in/government/wrestlers-protest-anurag-thakur-discussion
     date: 2023-06-07
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Chargesheet weak, shows cops protecting Brij Bhushan Singh, says protesting wrestler
     publisher: ThePrint
+    author: Shubhangi Misra
+    tier: report
     url: https://theprint.in/india/chargesheet-weak-shows-cops-protecting-brij-bhushan-singh-says-protesting-wrestler/1627288/
     archive_date: 2023-06-15
     archive_url: https://web.archive.org/web/20230615085339/https://theprint.in/india/chargesheet-weak-shows-cops-protecting-brij-bhushan-singh-says-protesting-wrestler/1627288/
     date: 2023-06-15
     type: news
+    accessed: 2026-10-15
   - id: s8
-    title: "'Congress puppets' - BJP's Babita Phogat denies she got wrestlers police nod for Jantar Mantar protest"
+    title: "'Congress puppets' — BJP's Babita Phogat denies she got wrestlers police nod for Jantar Mantar protest"
     publisher: ThePrint
+    author: Unnati Sharma
+    tier: report
     url: https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/
     archive_date: 2023-06-18
     archive_url: https://web.archive.org/web/20230618085848/https://theprint.in/india/congress-puppets-bjps-babita-phogat-denies-she-got-wrestlers-police-nod-for-jantar-mantar-protest/1631278/
     date: 2023-06-18
     type: news
+    accessed: 2026-10-15
   - id: s9
-    title: "'Motive is to protect the accused': Sidhu lends support to protesting wrestlers"
+    title: "Motive is to protect the accused: Sidhu lends support to protesting wrestlers"
     publisher: ThePrint
+    wire: PTI
+    tier: secondary
     url: https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/
     archive_date: 2023-05-02
     archive_url: https://web.archive.org/web/20230502113735/https://theprint.in/sport/motive-is-to-protect-the-accused-sidhu-lends-support-to-protesting-wrestlers/1548946/
     date: 2023-05-01
     type: news
+    accessed: 2026-10-15
   - id: s10
-    title: "'World is watching': Indian police drag away protesting wrestlers"
+    title: "'Dictatorship': Protesting Indian wrestlers charged with rioting"
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2023/5/28/world-is-watching-indian-police-drag-away-protesting-wrestlers
     archive_date: 2023-05-28
     archive_url: https://web.archive.org/web/20230528125249/https://www.aljazeera.com/news/2023/5/28/world-is-watching-indian-police-drag-away-protesting-wrestlers
     date: 2023-05-28
     type: news
+    accessed: 2026-10-15
   - id: s11
     title: Brij Bhushan issued notice, wrestlers' plea challenging acquittal flags 'assumptions on victim behaviour'
     publisher: ThePrint
+    author: Ruchi Bhattar
+    tier: report
     url: https://theprint.in/judiciary/brij-bhushan-issued-notice-wrestlers-plea-challenging-acquittal-flags-assumptions-on-victim-behaviour/3055490/
     archive_date: 2026-09-29
     archive_url: https://web.archive.org/web/20260929122115/https://theprint.in/judiciary/brij-bhushan-issued-notice-wrestlers-plea-challenging-acquittal-flags-assumptions-on-victim-behaviour/3055490/
     date: 2026-09-28
     type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: Union Sports Ministry forms Oversight Committee headed by Khel Ratna MC Mary Kom to enquire into allegations against WFI
+    publisher: Press Information Bureau (Ministry of Youth Affairs and Sports)
+    tier: record
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1893108
+    archive_date: 2023-01-23
+    archive_url: https://web.archive.org/web/20230123161217/https://www.pib.gov.in/PressReleasePage.aspx?PRID=1893108
+    date: 2023-01-23
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: "Govt blinks: Wrestling chief Brij Bhushan Sharan Singh steps aside over sexual harassment probe"
+    publisher: The Indian Express
+    author: Nihal Koshie
+    tier: report
+    url: https://indianexpress.com/article/sports/sport-others/govt-blinks-wrestling-chief-brij-bhushan-sharan-singh-steps-aside-over-sexual-harassment-probe-8395301/
+    archive_date: 2023-01-21
+    archive_url: https://web.archive.org/web/20230121044013/https://indianexpress.com/article/sports/sport-others/govt-blinks-wrestling-chief-brij-bhushan-sharan-singh-steps-aside-over-sexual-harassment-probe-8395301/
+    date: 2023-01-21
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: "Brijbhushan said even if one girl came forward saying she was sexually harassed 'I will hang myself'….now there are five to six ready who have proof: Bajrang Punia"
+    publisher: The Indian Express
+    author: Nihal Koshie
+    tier: report
+    url: https://indianexpress.com/article/sports/vinesh-phogat-wfi-president-bajrang-punia-sakshi-malik-protest-jantar-mantar-8392153/
+    archive_date: 2023-01-19
+    archive_url: https://web.archive.org/web/20230119114005/https://indianexpress.com/article/sports/vinesh-phogat-wfi-president-bajrang-punia-sakshi-malik-protest-jantar-mantar-8392153/
+    date: 2023-01-19
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Sexual harassment allegations against Brij Bhushan: Govt note silent on allegations, wrestlers to move SC for FIR"
+    publisher: The Indian Express
+    author: Mihir Vasavda
+    tier: report
+    url: https://indianexpress.com/article/sports/sport-others/indian-wrestlers-protest-against-wfi-president-brij-bhushan-sharan-singh-jantar-mantar-oversight-committee-report-8573141/
+    archive_date: 2023-04-24
+    archive_url: https://web.archive.org/web/20230424092940/https://indianexpress.com/article/sports/sport-others/indian-wrestlers-protest-against-wfi-president-brij-bhushan-sharan-singh-jantar-mantar-oversight-committee-report-8573141/
+    date: 2023-04-24
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: Wrestlers continue their protest, plan to move SC seeking action against former WFI chief Brij Bhushan Sharan
+    publisher: The Hindu
+    author: Uthra Ganesan
+    tier: report
+    url: https://www.thehindu.com/sport/other-sports/wrestlers-continue-their-protest-plan-to-move-sc-seeking-action-against-former-wfi-chief-brij-bhushan-sharan/article66774222.ece
+    archive_date: 2023-04-25
+    archive_url: https://web.archive.org/web/20230425030901/https://www.thehindu.com/sport/other-sports/wrestlers-continue-their-protest-plan-to-move-sc-seeking-action-against-former-wfi-chief-brij-bhushan-sharan/article66774222.ece
+    date: 2023-04-24
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "XYZ & Ors. v. State NCT of Delhi & Ors., W.P.(Crl.) No. 189/2023, record of proceedings and order of 28 April 2023"
+    publisher: Supreme Court of India (copy published by LiveLaw)
+    tier: court
+    url: https://www.livelaw.in/pdf_upload/17227202315144145order28-apr-2023-470423.pdf
+    archive_date: 2023-05-02
+    archive_url: https://web.archive.org/web/20230502122458/https://www.livelaw.in/pdf_upload/17227202315144145order28-apr-2023-470423.pdf
+    date: 2023-04-28
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s18
+    title: "Decided To Register FIR Against Brij Bhushan Sharan Singh On Women Wrestlers' Sexual Harassment Complaint : Delhi Police Tells Supreme Court"
+    publisher: LiveLaw
+    author: Padmakshi Sharma
+    tier: report
+    url: https://www.livelaw.in/top-stories/will-register-fir-against-brij-bhushan-sharan-singh-on-women-wrestlers-sexual-harassment-complaint-delhi-police-supreme-court-227434
+    archive_date: 2023-04-29
+    archive_url: https://web.archive.org/web/20230429211526/https://www.livelaw.in/top-stories/will-register-fir-against-brij-bhushan-sharan-singh-on-women-wrestlers-sexual-harassment-complaint-delhi-police-supreme-court-227434
+    date: 2023-04-28
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: "Supreme Court closes wrestlers' petition, says 'purpose fulfilled' with FIR registration against WFI chief"
+    publisher: The Leaflet
+    author: Tushar Kohli
+    tier: report
+    url: https://theleaflet.in/supreme-court-closes-wrestlers-petition-says-purpose-fulfilled-with-fir-registration-against-wfi-chief/
+    archive_date: 2023-05-19
+    archive_url: https://web.archive.org/web/20230519202649/https://theleaflet.in/supreme-court-closes-wrestlers-petition-says-purpose-fulfilled-with-fir-registration-against-wfi-chief/
+    date: 2023-05-04
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: "Delhi Police caught in midnight scuffle with wrestlers at Jantar Mantar; Vinesh, Bajrang suffer injuries, Dushyant Phogat gets cut on forehead"
+    publisher: The Times of India
+    author: Sabi Hussain, Sakshi Chand
+    tier: report
+    url: https://timesofindia.indiatimes.com/sports/more-sports/wrestling/delhi-police-caught-in-midnight-scuffle-with-wrestlers-at-jantar-mantar-vinesh-bajrang-suffer-injuries-dushyant-phogat-gets-cut-on-forehead/articleshow/99969699.cms
+    archive_date: 2023-05-04
+    archive_url: https://web.archive.org/web/20230504005225/https://timesofindia.indiatimes.com/sports/more-sports/wrestling/delhi-police-caught-in-midnight-scuffle-with-wrestlers-at-jantar-mantar-vinesh-bajrang-suffer-injuries-dushyant-phogat-gets-cut-on-forehead/articleshow/99969699.cms
+    date: 2023-05-04
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "'Cops more dangerous than Brij Bhushan Singh…time to return medals': Behind the chaos at Jantar Mantar"
+    publisher: Newslaundry
+    author: Avdhesh Kumar, Anmol Pritam
+    tier: report
+    url: https://www.newslaundry.com/2023/05/05/cops-more-dangerous-than-brij-bhushan-singhtime-to-return-medals-behind-the-chaos-at-jantar-mantar
+    archive_date: 2023-05-05
+    archive_url: https://web.archive.org/web/20230505131632/https://www.newslaundry.com/2023/05/05/cops-more-dangerous-than-brij-bhushan-singhtime-to-return-medals-behind-the-chaos-at-jantar-mantar
+    date: 2023-05-05
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Delhi Police detain wrestlers, clear Jantar Mantar
+    publisher: The Indian Express
+    author: Jignasa Sinha, Nihal Koshie
+    tier: report
+    url: https://indianexpress.com/article/sports/sport-others/delhi-police-detain-wrestlers-clear-jantar-mantar-8633887/
+    archive_date: 2023-05-29
+    archive_url: https://web.archive.org/web/20230529054142/https://indianexpress.com/article/sports/sport-others/delhi-police-detain-wrestlers-clear-jantar-mantar-8633887/
+    date: 2023-05-28
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: Wrestlers detained while trying to march towards new Parliament building, Delhi police clears Jantar Mantar protest site
+    publisher: The Hindu
+    author: Mehul Malpani
+    tier: report
+    url: https://www.thehindu.com/sport/other-sports/protesting-wrestlers-detained-police-clears-protest-site-at-jantar-mantar/article66903767.ece
+    archive_date: 2023-05-28
+    archive_url: https://web.archive.org/web/20230528094443/https://www.thehindu.com/sport/other-sports/protesting-wrestlers-detained-police-clears-protest-site-at-jantar-mantar/article66903767.ece
+    date: 2023-05-28
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Protesting wrestlers detained, Jantar Mantar stir site cleared
+    publisher: The Tribune
+    author: Vinayak Padmadeo
+    tier: report
+    url: https://www.tribuneindia.com/news/nation/protesting-wrestlers-detained-jantar-mantar-stir-site-cleared-512155
+    archive_date: 2023-05-29
+    archive_url: https://web.archive.org/web/20230529020053/https://www.tribuneindia.com/news/nation/protesting-wrestlers-detained-jantar-mantar-stir-site-cleared-512155
+    date: 2023-05-29
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "Wrestlers' protest | FIR against organisers, others on charges of rioting, obstructing public servant"
+    publisher: The Hindu
+    wire: PTI
+    tier: secondary
+    url: https://www.thehindu.com/news/national/wrestlers-protest-fir-against-organisers-others-on-charges-of-rioting-obstructing-public-servant/article66905878.ece
+    archive_date: 2023-05-28
+    archive_url: https://web.archive.org/web/20230528212238/https://www.thehindu.com/news/national/wrestlers-protest-fir-against-organisers-others-on-charges-of-rioting-obstructing-public-servant/article66905878.ece
+    date: 2023-05-28
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "Wrestlers-Govt logjam breaks: protest on pause, police chargesheet by June 15"
+    publisher: The Indian Express
+    author: Mihir Vasavda, Andrew Amsan
+    tier: report
+    url: https://indianexpress.com/article/sports/sport-others/wrestlers-agree-to-halt-protests-until-june-15-government-police-investigation-bajrang-punia-8650903/
+    archive_date: 2023-06-07
+    archive_url: https://web.archive.org/web/20230607130221/https://indianexpress.com/article/sports/sport-others/wrestlers-agree-to-halt-protests-until-june-15-government-police-investigation-bajrang-punia-8650903/
+    date: 2023-06-07
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Wrestlers suspend protest on Minister's assurance"
+    publisher: The Hindu
+    author: Samridhi Tewari, Mehul Malpani
+    tier: report
+    url: https://www.thehindu.com/news/national/protesting-wrestlers-meet-sports-minister-anurag-thakur-for-talks/article66940975.ece
+    archive_date: 2023-06-07
+    archive_url: https://web.archive.org/web/20230607065944/https://www.thehindu.com/news/national/protesting-wrestlers-meet-sports-minister-anurag-thakur-for-talks/article66940975.ece
+    date: 2023-06-07
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Brij Bhushan booked for sexual harassment, gets closure in POCSO case"
+    publisher: The Indian Express
+    author: Jignasa Sinha, Mahender Singh Manral, Nirbhay Thakur
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/delhi-police-chargesheet-brij-bhushan-wfi-protest-8664047/
+    archive_date: 2023-06-15
+    archive_url: https://web.archive.org/web/20230615101727/https://indianexpress.com/article/cities/delhi/delhi-police-chargesheet-brij-bhushan-wfi-protest-8664047/
+    date: 2023-06-15
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: "Wrestlers protest | Delhi Police charge Brij Bhushan for outraging modesty, seek cancellation of POCSO case"
+    publisher: The Hindu
+    author: Ishita Mishra, Samridhi Tewari
+    tier: report
+    url: https://www.thehindu.com/news/national/wrestlers-protest-delhi-police-seeks-cancellation-of-case-filed-by-minor-against-wfi-chief/article66971376.ece
+    archive_date: 2023-06-15
+    archive_url: https://web.archive.org/web/20230615070957/https://www.thehindu.com/news/national/wrestlers-protest-delhi-police-seeks-cancellation-of-case-filed-by-minor-against-wfi-chief/article66971376.ece
+    date: 2023-06-15
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: "Sufficient material on sexual harassment by Brij Bhushan: Court orders framing of charges"
+    publisher: The Indian Express
+    author: Nirbhay Thakur
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/delhi-court-frames-charges-against-brij-bhushan-in-sexual-harassment-case-9320277/
+    archive_date: 2024-05-10
+    archive_url: https://web.archive.org/web/20240510121858/https://indianexpress.com/article/cities/delhi/delhi-court-frames-charges-against-brij-bhushan-in-sexual-harassment-case-9320277/
+    date: 2024-05-10
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: Delhi court accepts cancellation report against ex-BJP MP Brij Bhushan in POCSO case
+    publisher: The Indian Express
+    author: Nirbhay Thakur
+    tier: report
+    url: https://indianexpress.com/article/cities/delhi/delhi-court-accepts-cancellation-report-against-ex-bjp-mp-brij-bhushan-in-pocso-case-10030413/
+    archive_date: 2025-05-26
+    archive_url: https://web.archive.org/web/20250526191454/https://indianexpress.com/article/cities/delhi/delhi-court-accepts-cancellation-report-against-ex-bjp-mp-brij-bhushan-in-pocso-case-10030413/
+    date: 2025-05-26
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Post on X by Babita Phogat replying to Sakshi Malik's video on the Jantar Mantar permission letter
+    publisher: Babita Phogat (@BabitaPhogat), on X
+    author: Babita Phogat
+    tier: record
+    url: https://x.com/BabitaPhogat/status/1670277781459185665
+    date: 2023-06-18
+    type: official
+    language: hi
+    accessed: 2026-10-15
+  - id: s33
+    title: Post on X by Priyanka Gandhi Vadra on the police action against the wrestlers
+    publisher: Priyanka Gandhi Vadra (@priyankagandhi), on X
+    author: Priyanka Gandhi Vadra
+    tier: record
+    url: https://x.com/priyankagandhi/status/1662749143243296768
+    date: 2023-05-28
+    type: official
+    language: hi
+    accessed: 2026-10-15
 tags: [wrestlers, sexual_harassment, delhi, jantar_mantar, detention, fir]
 review:
   status: draft
