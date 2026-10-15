@@ -282,5 +282,31 @@
       "text_sha256": "0422c8ca5f96cc9b4e89a09f2c91897eeeb70df50deeb208c8689f64acf8b81a",
       "note": "checked against the live page; archive the source and re-check"
     }
+  },
+  "ladakh-wangchuk-statehood-protests-2024-2025": {
+    "310b580102c0298c": {
+      "position": 0,
+      "source": "s11",
+      "fetched": "https://web.archive.org/web/20250924193957id_/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2170941",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "TypeError: fetch failed"
+    },
+    "beef279935260ed0": {
+      "position": 2,
+      "source": "s6",
+      "fetched": "https://web.archive.org/web/20251001112154id_/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "TypeError: fetch failed"
+    },
+    "defb44239b961023": {
+      "position": 3,
+      "source": "s6",
+      "fetched": "https://web.archive.org/web/20251001112154id_/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "TypeError: fetch failed"
+    }
   }
 }

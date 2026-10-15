@@ -4,8 +4,9 @@ summary: >
   In April 2006 Union HRD Minister Arjun Singh announced a plan to reserve 27 per cent of seats
   for Other Backward Classes in centrally funded institutions such as the IITs, IIMs and AIIMS.
   Medical students in Delhi, organised as Youth for Equality, marched, boycotted classes and began
-  a hunger strike at AIIMS; resident doctors struck from 14 May and the agitation spread to Mumbai
-  and other cities. Police used water cannon, tear gas and lathis in Delhi and Mumbai; the Centre
+  a hunger strike at AIIMS; resident doctors struck from 12 May and the agitation spread to Mumbai
+  and other cities. Police used water cannon and tear gas in Delhi, where students said they were
+  also beaten with lathis and police denied a lathi charge, and caned protesters in Mumbai; the Centre
   formed a Group of Ministers and an oversight committee, and the Supreme Court took suo motu
   notice and the strike ended on 31 May 2006. Parliament passed the Central Educational
   Institutions (Reservation in Admission) Act in December 2006 and the Supreme Court upheld it in 2008.
@@ -13,12 +14,12 @@ period:
   start: 2006-04-05
   end: 2006-06-03
 location:
-  states: [Delhi, Maharashtra, Bihar, Tamil Nadu, West Bengal]
-  places: [AIIMS Delhi, Rajpath and India Gate, Lady Hardinge Medical College, Azad Maidan Mumbai, Patna]
+  states: [Delhi, Maharashtra, Bihar, Uttar Pradesh, Tamil Nadu, West Bengal]
+  places: [AIIMS Delhi, Rajpath and India Gate, Lady Hardinge Medical College, Azad Maidan Mumbai, Patna, SGPGIMS Lucknow]
 protest:
   cause: Rollback of the proposed 27 per cent OBC reservation in central higher education institutions
   organisers: [Youth for Equality, Resident doctors' associations of Delhi hospitals, Indian Medical Association, United Students]
-  scale: Hundreds of medical students on the streets in Delhi; resident doctors at AIIMS and other Delhi government hospitals on strike for 18 days; over 1,000 doctors at Azad Maidan in Mumbai; sympathy protests in IITs, JNU, Delhi University and other cities
+  scale: Hundreds of medical students on the streets in Delhi; resident doctors at AIIMS and other Delhi government hospitals on strike from 12-13 May to 31 May; over 1,000 doctors at Azad Maidan in Mumbai; sympathy protests in IITs, JNU, Delhi University and other cities
 government:
   centre:
     party: INC
@@ -33,77 +34,111 @@ government:
 actions:
   - type: tear_gas
     date: 2006-05-12
-    description: "Riot police stopped hundreds of medical students marching from Lady Hardinge Medical College towards the Prime Minister's Office on Rajpath, used water cannon and fired tear gas shells. Delhi Police report to the Union Home Ministry, not the Delhi state government."
+    claim: happened
+    description: "Hundreds of medical students marched from Lady Hardinge Medical College towards the Prime Minister's Office and were stopped near Rajpath. The Tribune reported that riot police turned water cannon on them and then lobbed tear gas shells to push them back. The Hindu reported that tear gas shells were fired and water cannon used after some students broke the security cordon at Rajpath."
     actor: police
-    sources: [s2]
+    sources: [s2, s26]
   - type: lathi_charge
     date: 2006-05-12
-    description: "Students said police used lathis near India Gate and that 20 students were injured; a police spokesman said nearly a dozen policemen were injured and hospitalised due to violence by students. The injury accounts are contested. The NHRC later called for a factual report from the Delhi Police Commissioner."
+    claim: happened
+    description: "Accounts differ. Amitasha Sinha of Lady Hardinge Medical College told The Tribune that students were injured when police used lathis on them. The Hindu reported that some students alleged they had been roughed up and that police officials categorically denied a lathi charge. A police spokesman said policemen were injured and taken to hospital because of violence by students (see figures). On 16 May the NHRC called for a factual report from the Delhi Police Commissioner on the alleged lathi charge."
     actor: police
-    sources: [s2, s1]
+    sources: [s2, s26, s1]
+    figures:
+      - { what: students injured, value: "20", claimed_by: "Amitasha Sinha, Lady Hardinge Medical College student (quoted in The Tribune)", source: s2 }
+      - { what: policemen injured and taken to hospital, value: "nearly a dozen", claimed_by: "Delhi Police spokesman (quoted in The Tribune)", source: s2 }
   - type: detention
     date: 2006-05-12
-    description: Protesting students were put into 13 police buses and taken to the Connaught Place, Chanakyapuri and Tughlaq Road police stations.
+    claim: happened
+    description: "Police put the protesting students into 13 police buses and took them to the Connaught Place, Chanakyapuri and Tughlaq Road police stations, according to The Tribune. The Hindu reported that the students courted mass arrest and were released later in the evening."
     actor: police
-    sources: [s2]
+    sources: [s2, s26]
   - type: lathi_charge
     date: 2006-05-13
-    description: "Mumbai Police lathi-charged protesting medicos. Police said the doctors tried to barge into Raj Bhavan; the doctors said they were protesting silently. Over 1,000 doctors then protested at Azad Maidan on 15 May. The NHRC called for a factual report from the Mumbai Police Commissioner. Maharashtra was governed by an INC-NCP coalition under CM Vilasrao Deshmukh."
+    claim: happened
+    description: "Mumbai Police caned medical students who had blocked Walkeshwar Road, which leads to the Governor's and Chief Minister's residences, according to PTI, which reported injuries and detentions (see figures). Police alleged that the doctors had tried to barge into Raj Bhavan; doctors who spoke to UNI said they had been protesting silently. Doctors then protested at Azad Maidan on 15 May against the police action and the quota. The NHRC called for a factual report from the Mumbai Police Commissioner."
     actor: police
-    sources: [s3, s1]
+    sources: [s39, s3, s1]
+    figures:
+      - { what: students injured in the police action, value: "over a dozen", claimed_by: PTI, source: s39 }
+      - { what: students detained, value: "two dozen", claimed_by: PTI, source: s39 }
+      - { what: doctors at the Azad Maidan protest on 15 May, value: "over 1,000", claimed_by: UNI, source: s3 }
   - type: other
     date: 2006-05-16
+    claim: ordered
     description: "The National Human Rights Commission took note of reports of an unprovoked lathi charge on students in Delhi and Mumbai, said the allegations if true raised a serious issue of violation of human rights, and directed the Police Commissioners of Delhi and Mumbai to send factual reports within two weeks. On 26 May it recommended that the government examine the reservation issue thoroughly and asked the strikers to resume work."
-    actor: centre
-    sources: [s1, s10]
-  - type: negotiation
-    date: 2006-05-19
-    description: "The Prime Minister set up a Group of Ministers headed by Defence Minister Pranab Mukherjee, with Arjun Singh and P. Chidambaram, to work out a formula. The GoM proposed increasing total seats so that general-category seats would not fall. The strikers rejected the proposal on 20 May."
-    actor: centre
-    sources: [s5, s7]
+    actor: other
+    sources: [s1, s10, s27]
   - type: other
-    date: 2006-05-19
-    description: "Hospital administrations, acting on government instructions, sent termination letters to striking senior residents and threatened termination of doctors who did not return to work. AIIMS authorities told striking doctors to return to work or vacate their hostel rooms."
+    date: 2006-05-16
+    claim: ordered
+    description: "The Union Health Ministry requisitioned 50 doctors from the Railways and Defence for the Delhi hospitals worst hit by the strike and served a general notice on senior doctors; an official said junior doctors, as contract employees, would be dealt with separately. By 19 May hospital administrations, acting on government instructions according to The Tribune, were threatening striking doctors with termination, and strikers reported termination letters sent to senior residents. By 21 May termination notices had been served on resident doctors of Ram Manohar Lohia, Safdarjang and AIIMS hospitals, and AIIMS told striking resident doctors to rejoin duty or vacate their hostels within a day."
     actor: centre
-    sources: [s5, s7]
+    sources: [s28, s5, s7, s30]
+  - type: negotiation
+    date: 2006-05-18
+    claim: happened
+    description: "The Prime Minister set up a Group of Ministers headed by Defence Minister Pranab Mukherjee; IANS reported that it also included Arjun Singh and P. Chidambaram. On 18 May striker representatives met Mukherjee, and a striking doctor told Rediff that the government said general-category seats would not be touched; the strikers rejected a proposal to increase the number of seats. The GoM held a meeting on 19 May and on 20 May submitted its report, which recommended increasing seats so that the general category would not be affected."
+    actor: centre
+    sources: [s40, s41, s5, s29, s7]
   - type: lathi_charge
     date: 2006-05-19
-    description: "In Patna, pro-quota medical students who attacked journalists and police with hockey sticks were lathi-charged by Bihar Police; over 35 people were injured including about 20 students, journalists and at least five policemen. Bihar CM Nitish Kumar (JD(U)) directed the DGP to inquire into the circumstances of the lathi charge."
+    claim: happened
+    description: "The Tribune reported that pro-quota medical students marching in Patna attacked photographers, journalists and policemen with hockey sticks and stones, and that police then lathi-charged them; the police suspected the involvement of anti-social elements. Injury counts are in figures. Chief Minister Nitish Kumar asked the Director General of Police, Ashish Ranjan Sinha, to inquire into the circumstances that led to the lathi charge."
     actor: state
     sources: [s19]
+    figures:
+      - { what: people injured in the violence and the lathi charge, value: "over 35", claimed_by: The Tribune, source: s19 }
+      - { what: students injured in the lathi charge, value: "over 20", claimed_by: The Tribune, source: s19 }
+      - { what: policemen injured by students, value: "at least five", claimed_by: "Patna Senior Superintendent of Police Kundan Krishnan (quoted in The Tribune)", source: s19 }
   - type: negotiation
+    date: 2006-05-20
+    claim: happened
+    description: "Prime Minister Manmohan Singh appealed to the students on 20 May to call off the strike and said the interests of all sections would be taken into account; on 21 May Youth for Equality rejected the appeal because it did not mention their demands. On 25 May in Srinagar he again urged the agitators to end the stir and said he was not averse to meeting anyone. On 26 May he met a delegation of 15 medical students and doctors; his media adviser Sanjaya Baru said he told them that a big expansion of higher education meant they need not worry about shrinking opportunities, and the medicos decided to continue the strike. On 28 May, after a second round of talks, Minister of State Oscar Fernandes said the government would examine the students' demand for an experts committee and that general-category students would not be affected; the students rejected the government's draft proposal."
+    actor: centre
+    sources: [s29, s7, s9, s32, s33, s11]
+  - type: other
     date: 2006-05-21
-    description: "Prime Minister Manmohan Singh appealed to the students to call off the strike; Youth for Equality rejected the appeal because it did not mention their demands. On 25 May in Srinagar he again urged the agitators to end the stir and said he was not averse to meeting anyone. The government met the striking medicos on 28 May and issued a draft proposal that existing general seats would not be reduced; the medicos rejected it as not concrete."
-    actor: centre
-    sources: [s7, s9, s11]
+    claim: ordered
+    legal_basis: "Essential Services Maintenance Act (ESMA), as reported by PTI; the sources do not name the state statute"
+    description: "The Uttar Pradesh Government invoked the Essential Services Maintenance Act against doctors opposed to reservation and declared their strike illegal. Chief Secretary Navin Chandra Bajpai said doctors of the Sanjay Gandhi Post-Graduate Institute of Medical Sciences in Lucknow who did not return to duty within 24 hours would have their services terminated and face action under the Act. The institute's resident doctors called off their strike on 27 May; their association president said they did so in response to an appeal by President A.P.J. Abdul Kalam and that the Act did not cover them because they were not regular employees."
+    actor: state
+    sources: [s31, s44]
   - type: concession
-    date: 2006-05-29
-    description: "The Centre set up an Oversight Committee chaired by Veerappa Moily, Chairman of the Administrative Reforms Commission, to prepare a time-bound road map for implementing the 27 per cent OBC quota without reducing general seats or compromising merit. It held its first meeting on 30 May."
+    date: 2006-05-27
+    claim: ordered
+    description: "An Oversight Committee was constituted under the orders of the Prime Minister on 27 May 2006, according to the committee's final report; the government announced it on 28-29 May. Chaired by M. Veerappa Moily, Chairman of the Administrative Reforms Commission, the 13-member committee was to report by 31 August 2006 (later extended to 30 September) on implementing 27 per cent OBC reservation and on the additional infrastructure needed so that seats available to general-category students would not fall. It held its first meeting on 30 May."
     actor: centre
-    sources: [s11, s12]
+    sources: [s46, s35, s48, s11, s12]
+  - type: other
+    date: 2006-05-29
+    description: "A Supreme Court vacation bench of Justices Arijit Pasayat and Lokeshwar Singh Panta issued notice on writ petitions filed by Ashoka Kumar Thakur and by Shiv Khera challenging the OBC quota. It asked the Centre to state in a counter-affidavit, within eight weeks, the basis for identifying Other Backward Classes and the modalities for implementing the policy. The Hindu reported that the court refused to stay the 93rd Amendment and that the bench said the protesters should end their agitation because the matter was before the court."
+    actor: court
+    sources: [s21, s34, s42, s47]
   - type: other
     date: 2006-05-30
-    description: "A Supreme Court vacation bench of Justices Arijit Pasayat and Lokeshwar Singh Panta took suo motu notice of the strike, warned the strikers to end the 19-day stir or face contempt action, and asked the Additional Solicitor-General to file a memorandum on the steps taken by the government. The Youth for Equality members said on legal advice they would continue the strike."
+    description: "The same bench took up the petitions suo motu. Its order recorded that, although the court had indicated that agitations, protests and strikes on the issue should be called off, the contrary seemed to be happening, and asked the Additional Solicitor General to file a memorandum on whether they were continuing. The Hindu and The Tribune reported that the bench said protests on a matter before the court could amount to contempt. Youth for Equality said, after legal advice, that it would continue the strike because the court's remarks were not an order addressed to the students."
     actor: court
-    sources: [s12]
+    sources: [s22, s36, s12, s43]
   - type: other
     date: 2006-05-31
-    description: "The Supreme Court directed the striking doctors to return to work, invited the protesters to argue their case in court, directed the government to drop punitive action taken against the strikers and said any sacking orders would stand revoked if doctors resumed duty. Union Health Minister Anbumani Ramadoss the same day warned that doctors who did not resume duty would be terminated and replaced. Resident doctors from AIIMS, Safdarjung, Lady Hardinge and Maulana Azad Medical College called off the 18-day strike that night; IIT, JNU and Delhi University students said they would continue."
+    description: "The bench directed that all protests, strikes and demonstrations relating to the issues before it be called off forthwith and that medical services be restored, citing a patient's right to treatment under Article 21. It said it was sure the government would take no punitive action once the strikes were called off, and directed that doctors whose services had been terminated be allowed to rejoin within three days; the Additional Solicitor General stated that the termination orders would then be recalled. It added that anyone could make representations to the Centre or apply to join the case. The same day Union Health Minister Anbumani Ramadoss warned that doctors who did not resume duty would be served termination notices. Resident doctors of AIIMS, Safdarjung, Lady Hardinge and Maulana Azad Medical College called off the strike that night; IIT, JNU and Delhi University students said they would continue. On 1 June the court recorded that normal medical services had been restored."
     actor: court
-    sources: [s15, s14]
+    sources: [s23, s24, s15, s14, s37]
   - type: other
     date: 2006-12-18
+    claim: ordered
     description: "Parliament passed the Central Educational Institutions (Reservation in Admission) Bill, 2006 (introduced 25 August 2006; passed by the Lok Sabha on 14 December and by the Rajya Sabha on 18 December 2006). It received assent on 3 January 2007 as Act No. 5 of 2007 and provides for 15 per cent SC, 7.5 per cent ST and 27 per cent OBC reservation in central educational institutions, excluding minority institutions."
     actor: centre
     sources: [s16, s17]
   - type: other
     date: 2008-04-10
-    description: "In Ashoka Kumar Thakur v Union of India (Writ Petition (Civil) No. 265 of 2006) a Constitution Bench of the Supreme Court upheld the 93rd Constitutional Amendment and the 2006 Act, subject to the exclusion of the creamy layer from OBC beneficiaries and periodic review of the backward class lists."
+    description: "In Ashoka Kumar Thakur v Union of India (Writ Petition (Civil) No. 265 of 2006) a five-judge Constitution Bench of the Supreme Court held that the 93rd Constitutional Amendment did not violate the basic structure of the Constitution as regards state-maintained and aided institutions, leaving open its validity for private unaided institutions, and that Act 5 of 2007 was not invalid. It held that the creamy layer must be excluded from the OBCs. The lead opinion of Chief Justice K.G. Balakrishnan said Parliament could review the reservation after ten years; the opinion of Justice Arijit Pasayat (with Justice C.K. Thakker) called for a review every five years."
     actor: court
-    sources: [s18]
+    sources: [s20, s18]
 outcome: >
-  The strike ended on 31 May 2006 after the Supreme Court's directions, with the government dropping
-  punitive action against doctors and setting up the Moily Oversight Committee; the quota itself was
+  The strike ended on 31 May 2006 after the Supreme Court directed it called off and told the government
+  to let terminated doctors rejoin; the Centre had set up the Moily Oversight Committee, and the quota itself was
   not rolled back. Parliament enacted the 27 per cent OBC reservation in December 2006 and the
   Supreme Court upheld it on 10 April 2008 with a creamy-layer exclusion.
 positions:
@@ -111,176 +146,231 @@ positions:
     person: Arjun Singh
     role_at_time: Union Minister of Human Resource Development
     in_power: true
-    date: 2006-05-14
-    statement: "Called the protests \"propaganda\", said there was \"no Mandal II, III or IV\" and refused to reconsider the proposal; said beating students is not a solution and that he would always talk to protesting students."
-    sources: [s4]
+    date: 2006-05-16
+    kind: verbatim
+    statement: "Answering a question in the Lok Sabha, said the commitment to OBC reservation under the 93rd Amendment was irrevocable, that the government would return to the House with a comprehensive roadmap, and that he did not support the recent use of police force against students, who should be allowed to present their views peacefully. Rejected the charge that the policy was his personal agenda. Two days earlier he had told reporters that there was no Mandal II, III or IV, called the campaign propaganda and refused to reconsider the proposal."
+    quote:
+      text: "At the same time, I would like to take this opportunity to dispel with all the emphasis at my command the canard being spread by certain sections of people that this entire commitment of this House and this Government has been hijacked by me personally as my own agenda."
+      locator: "Lok Sabha Debates, 16 May 2006, Oral Answers, Starred Question No. 443, col. 3"
+      source: s25
+    sources: [s25, s4, s38]
   - party: INC
     person: Manmohan Singh
     role_at_time: Prime Minister
     in_power: true
     date: 2006-05-20
-    statement: "Told the Congress Working Committee that extending OBC quotas in centrally funded institutions would need extra infrastructure costing at least Rs 8,000 crore and \"cannot happen overnight and will need time\"; on 25 May said the government would find \"viable and credible ways\" to protect all sections and that the UPA-Left resolution on reservation \"is a public document\"."
-    sources: [s6, s9]
+    kind: paraphrase
+    statement: "Appealed to the students on 20 May to call off the strike and said the interests of all sections would be addressed. The Tribune reported that he told the Congress Working Committee the same day that extending OBC quotas in centrally funded institutions would need extra infrastructure costing at least Rs 8,000 crore and could not happen overnight; The Hindu attributed the Rs 8,000 crore estimate to the Group of Ministers' report. On 25 May said the government would find viable and credible ways to protect all sections and that the UPA-Left resolution on reservation was a public document."
+    sources: [s6, s29, s9]
   - party: INC
     person: Pranab Mukherjee
     role_at_time: Union Defence Minister and head of the Group of Ministers
     in_power: true
     date: 2006-05-19
-    statement: "Said the GoM was working out figures for additional seats in existing and new institutions and that the OBC quota was a \"commitment made in Parliament\"."
-    sources: [s5, s6]
+    kind: paraphrase
+    statement: "Said on 19 May that the GoM was working out figures for additional seats in existing institutions and for new institutions. On 20 May said its report took into account the interests of all sections of the student community, and argued at the Congress Working Committee that the OBC quota was a commitment made in Parliament."
+    sources: [s5, s6, s29]
   - party: Pattali Makkal Katchi (PMK)
     person: Anbumani Ramadoss
     role_at_time: Union Health Minister
     in_power: true
-    date: 2006-05-31
-    statement: "\"We are going to maintain services in the hospitals from tomorrow, come what may\"; warned that doctors who did not resume duties would be terminated and replaced with permanent doctors."
-    sources: [s12, s14]
+    date: 2006-05-30
+    kind: verbatim
+    statement: "After meeting the Prime Minister on 30 May, said the government would call in doctors from the Army and Railways and recruit new ones to keep hospital services running, and ruled out invoking the Essential Services Maintenance Act. On 31 May warned that doctors who did not resume duty would be served termination notices and replaced."
+    quote:
+      text: "We are going to maintain services in the hospitals from tomorrow, come what may"
+      locator: "Second report on the page, 'Medicos adamant on continuing strike', paragraph 1"
+      source: s12
+    sources: [s12, s45, s14, s37]
   - party: BJP
     person: L.K. Advani
     role_at_time: Leader of the Opposition, Lok Sabha
     in_power: false
     date: 2006-05-30
-    statement: "At the BJP National Executive said the HRD Minister's \"ill-considered moves to gamble with the institutions of excellence\" had \"precipitated yet another crisis\" and urged the party to \"respond to this crisis by giving the people a correct lead\"."
+    kind: verbatim
+    statement: "At the BJP National Executive blamed the HRD Minister and the UPA government for a crisis over reservation, urged the party to give the people a correct lead, and said its policy should keep young people in mind."
+    quote:
+      text: "Today HRD Minister's ill-considered moves to gamble with the institutions of excellence which has earned for India respect the world over as a knowledge society has precipitated yet another crisis"
+      locator: "paragraph 2"
+      source: s13
     sources: [s13]
   - party: CPI(M)
     person: Rup Chand Pal
     role_at_time: Lok Sabha MP and party Chief Whip; Left supported the UPA from outside
     in_power: false
     date: 2006-05-22
-    statement: "Said the Left stood for quotas for the OBCs but the benefits should not go to the creamy layer, that reservation \"must not affect the prospects of other sections of society\", and that the UPA was bound to implement the constitutional amendment passed unanimously by Parliament."
+    kind: paraphrase
+    statement: "Said the Left stood for quotas for the OBCs but the benefits should not go to the creamy layer, that reservation must not affect the prospects of other sections of society, and that the UPA was bound to implement the constitutional amendment passed unanimously by Parliament."
     sources: [s8]
 sources:
   - id: s1
     title: NHRC seeks report on police action against protesters over proposed reservation in higher education; appeals to the medical fraternity to resume duties
     publisher: National Human Rights Commission
+    tier: record
     url: https://nhrc.nic.in/media/press-release/nhrc-seeks-report-on-police-action-against-protesters-proposed-reservation-in-higher-education-appeals-to-the-medical-fraternity-to-resume-duties-in-the-interest-ailing-people-br
     date: 2006-05-16
     type: official
+    accessed: 2026-10-15
   - id: s2
-    title: Medical students march towards PMO; police use water cannon, teargas (Delhi page)
+    title: "Medical students up in arms against quota: Police use water cannons, teargas shells (Delhi page)"
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060513/delhi.htm
     archive_date: 2006-08-22
     archive_url: https://web.archive.org/web/20060822025728/https://www.tribuneindia.com/2006/20060513/delhi.htm
     date: 2006-05-13
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Mumbai docs protest against lathicharge, reservations
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
     archive_date: 2019-10-19
     archive_url: https://web.archive.org/web/20191019183211/https://www.oneindia.com/2006/05/15/mumbai-docs-protest-against-lathicharge-reservations-1147761524.html
     date: 2006-05-16
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "No relook at quota proposals: Arjun Singh"
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060515/main1.htm
     archive_date: 2006-05-21
     archive_url: https://web.archive.org/web/20060521134837/https://www.tribuneindia.com/2006/20060515/main1.htm
     date: 2006-05-15
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: Panel working out formula, but strikers adamant
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060520/main2.htm
     archive_date: 2022-01-21
     archive_url: https://web.archive.org/web/20220121061148/https://www.tribuneindia.com/2006/20060520/main2.htm
     date: 2006-05-20
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: PM cautious on quota
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060521/main1.htm
     archive_date: 2006-12-12
     archive_url: https://web.archive.org/web/20061212210126/https://www.tribuneindia.com/2006/20060521/main1.htm
     date: 2006-05-21
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Medicos reject PM's plea, stir will continue
     publisher: Arab News
+    wire: IANS
+    author: Nilofar Suhrawardy
+    tier: secondary
     url: https://www.arabnews.com/node/285058
     archive_date: 2012-11-14
     archive_url: https://web.archive.org/web/20121114224652/https://www.arabnews.com/node/285058
     date: 2006-05-22
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: CPM says OBC quota necessary but not for creamy layer
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/05/22/cpm-says-obc-quota-necessary-but-not-for-creamy-layer-1148299653.html
     date: 2006-05-22
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: PM asks anti-quota protestors to call off strike
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/05/25/pm-asks-anti-quota-protestors-to-call-off-strike-1148568228.html
-    date: 2006-05-26
+    date: 2006-05-25
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: NHRC recommends that the reservation issue should be examined thoroughly; appeals to striking students and doctors to call off their strike
     publisher: National Human Rights Commission
+    tier: record
     url: https://nhrc.nic.in/media/press-release/nhrc-recommends-that-the-reservation-issue-should-be-examined-thoroughly-appeals-to-striking-students-and-br-doctors-to-call-off-their-strike-br
     date: 2006-05-26
     type: official
+    accessed: 2026-10-15
   - id: s11
     title: Anti-reservationists continue stir, more support pours in
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/05/29/anti-reservations-contiue-stir-more-support-pours-in-1148886621.html
     date: 2006-05-29
     type: news
+    accessed: 2026-10-15
   - id: s12
     title: Supreme Court warns striking doctors
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060531/main2.htm
     archive_date: 2021-12-08
     archive_url: https://web.archive.org/web/20211208193644/https://www.tribuneindia.com/2006/20060531/main2.htm
     date: 2006-05-31
     type: news
+    accessed: 2026-10-15
   - id: s13
     title: "UPA created crisis on quota, BJP must frame policy for youth: Advani"
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/05/30/upa-created-crisis-on-quota-bjp-must-frame-policy-for-youthadvan-1148991113.html
     date: 2006-05-30
     type: news
+    accessed: 2026-10-15
   - id: s14
     title: Medicos end stir; IITs to continue anti-quota agitation
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060601/main1.htm
     archive_date: 2006-12-12
     archive_url: https://web.archive.org/web/20061212184603/https://www.tribuneindia.com/2006/20060601/main1.htm
     date: 2006-06-01
     type: news
+    accessed: 2026-10-15
   - id: s15
     title: Indian doctors call off strike
     publisher: Al Jazeera
+    wire: Reuters
+    tier: secondary
     url: https://www.aljazeera.com/news/2006/5/31/indian-doctors-call-off-strike
     archive_date: 2025-06-13
     archive_url: https://web.archive.org/web/20250613080816/https://www.aljazeera.com/news/2006/5/31/indian-doctors-call-off-strike
     date: 2006-05-31
     type: news
+    accessed: 2026-10-15
   - id: s16
     title: The Central Educational Institutions (Reservation in Admission) Bill, 2006 (bill track)
     publisher: PRS Legislative Research
+    tier: secondary
     url: https://prsindia.org/billtrack/the-central-educational-institutions-reservation-in-admission-bill-2006
     archive_date: 2021-05-12
     archive_url: https://web.archive.org/web/20210512172951/https://prsindia.org/billtrack/the-central-educational-institutions-reservation-in-admission-bill-2006
     date: 2006-12-18
     type: official
+    accessed: 2026-10-15
   - id: s17
     title: The Central Educational Institutions (Reservation in Admission) Act, 2006 (No. 5 of 2007)
     publisher: PRS Legislative Research (Act text)
+    tier: record
     url: https://prsindia.org/files/bills_acts/acts_parliament/2006/the-central-educational-institutions-(reservation-in-admission)-act-2006.pdf
     archive_date: 2021-09-17
     archive_url: https://web.archive.org/web/20210917024203/https://prsindia.org/files/bills_acts/acts_parliament/2006/the-central-educational-institutions-(reservation-in-admission)-act-2006.pdf
     date: 2007-01-03
     type: official
+    accessed: 2026-10-15
   - id: s18
-    title: Ashoka Kumar Thakur vs Union of India and Ors.
+    title: Ashoka Kumar Thakur vs Union of India and Ors. (opinion of Arijit Pasayat J, for himself and C.K. Thakker J)
     publisher: Supreme Court of India (Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/1219385/
@@ -288,14 +378,262 @@ sources:
     archive_url: https://web.archive.org/web/20120623045914/https://indiankanoon.org/doc/1219385/
     date: 2008-04-10
     type: court_judgment
+    accessed: 2026-10-15
   - id: s19
     title: Violent pro-quota medicos lathi-charged, 35 injured; Bihar CM seeks report
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060520/main1.htm
     archive_date: 2006-12-12
     archive_url: https://web.archive.org/web/20061212210115/https://www.tribuneindia.com/2006/20060520/main1.htm
     date: 2006-05-20
     type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Ashoka Kumar Thakur vs Union of India & Ors (judgment of K.G. Balakrishnan CJ, with the questions and answers of the Constitution Bench)
+    publisher: Supreme Court of India (Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/63489929/
+    date: 2008-04-10
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s21
+    title: "Ashoka Kumar Thakur v. Union of India & Ors, W.P. (C) No. 265 of 2006: record of proceedings, 29 May 2006"
+    publisher: Supreme Court of India
+    tier: court
+    url: https://api.sci.gov.in/jonew/bosir/orderpdfold/314142.pdf
+    date: 2006-05-29
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s22
+    title: "Ashoka Kumar Thakur v. Union of India & Ors, W.P. (C) No. 265 of 2006 with W.P. (C) No. 269 of 2006: record of proceedings, 30 May 2006"
+    publisher: Supreme Court of India
+    tier: court
+    url: https://api.sci.gov.in/jonew/bosir/orderpdfold/314265.pdf
+    date: 2006-05-30
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s23
+    title: "Ashoka Kumar Thakur v. Union of India & Ors, W.P. (C) No. 265 of 2006 with W.P. (C) No. 269 of 2006: record of proceedings, 31 May 2006"
+    publisher: Supreme Court of India
+    tier: court
+    url: https://api.sci.gov.in/jonew/bosir/orderpdfold/314266.pdf
+    date: 2006-05-31
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s24
+    title: "Ashoka Kumar Thakur v. Union of India & Ors, W.P. (C) No. 265 of 2006 with W.P. (C) No. 269 of 2006: record of proceedings, 1 June 2006"
+    publisher: Supreme Court of India
+    tier: court
+    url: https://api.sci.gov.in/jonew/bosir/orderpdfold/314228.pdf
+    date: 2006-06-01
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s25
+    title: "Lok Sabha Debates, 16 May 2006: oral answers, Starred Question No. 443, Reservation in Educational Institutions"
+    publisher: Lok Sabha Secretariat (Parliament Digital Library)
+    tier: record
+    url: https://elibrary.sansad.in/server/api/core/bitstreams/66935f85-65fa-41e9-82f4-d0ba80ecaf73/content
+    date: 2006-05-16
+    type: official
+    accessed: 2026-10-15
+  - id: s26
+    title: Medicos hit streets with anti-reservation rally
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/05/13/stories/2006051329920300.htm
+    date: 2006-05-13
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: NHRC seeks report on police action
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/05/17/stories/2006051725311600.htm
+    date: 2006-05-17
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: Doctors from Railways, Defence requisitioned
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/05/17/stories/2006051709611300.htm
+    date: 2006-05-17
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: "Call off strike: Manmohan"
+    publisher: The Hindu
+    author: K.V. Prasad
+    tier: report
+    url: http://www.hindu.com/2006/05/21/stories/2006052107690100.htm
+    date: 2006-05-21
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: Termination, eviction notices served on striking AIIMS doctors
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/05/22/stories/2006052217471400.htm
+    date: 2006-05-22
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: U.P. invokes ESMA against doctors
+    publisher: The Hindu
+    wire: PTI
+    tier: secondary
+    url: http://www.hindu.com/2006/05/22/stories/2006052214400100.htm
+    date: 2006-05-22
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Don't worry, Manmohan tells students
+    publisher: The Hindu
+    author: Aarti Dhar
+    tier: report
+    url: http://www.hindu.com/2006/05/27/stories/2006052714220100.htm
+    date: 2006-05-27
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: Talks with medicos fail
+    publisher: The Hindu
+    author: Aarti Dhar
+    tier: report
+    url: http://www.hindu.com/2006/05/29/stories/2006052918050100.htm
+    date: 2006-05-29
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: End stir, Court tells students
+    publisher: The Hindu
+    author: Siddharth Narrain
+    tier: report
+    url: http://www.hindu.com/2006/05/30/stories/2006053018920100.htm
+    date: 2006-05-30
+    type: news
+    accessed: 2026-10-15
+  - id: s35
+    title: 13-member quota Oversight Committee set up
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/05/30/stories/2006053015270100.htm
+    date: 2006-05-30
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: Apex court warns striking medicos
+    publisher: The Hindu
+    author: Siddharth Narrain
+    tier: report
+    url: http://www.hindu.com/2006/05/31/stories/2006053123180100.htm
+    date: 2006-05-31
+    type: news
+    accessed: 2026-10-15
+  - id: s37
+    title: Resident doctors end agitation
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/06/01/stories/2006060112450100.htm
+    date: 2006-06-01
+    type: news
+    accessed: 2026-10-15
+  - id: s38
+    title: Arjun rejects relook at quota issue
+    publisher: The Hindu
+    wire: PTI
+    tier: secondary
+    url: http://www.hindu.com/2006/05/15/stories/2006051512700100.htm
+    date: 2006-05-15
+    type: news
+    accessed: 2026-10-15
+  - id: s39
+    title: Medicos' stir intensifies, patients face hardship
+    publisher: Rediff.com
+    wire: PTI
+    tier: secondary
+    url: https://www.rediff.com/news/2006/may/13quota1.htm
+    date: 2006-05-13
+    type: news
+    accessed: 2026-10-15
+  - id: s40
+    title: 97 doctors on hunger strike collapse
+    publisher: Rediff.com
+    author: Onkar Singh
+    tier: report
+    url: https://www.rediff.com/news/2006/may/19quota.htm
+    date: 2006-05-19
+    type: news
+    accessed: 2026-10-15
+  - id: s41
+    title: "Quota: Doctors may intensify strike"
+    publisher: Rediff.com
+    author: Onkar Singh
+    tier: report
+    url: https://www.rediff.com/news/2006/may/19quota3.htm
+    date: 2006-05-19
+    type: news
+    accessed: 2026-10-15
+  - id: s42
+    title: "Quota: SC issues notice to Centre"
+    publisher: Rediff.com
+    author: Onkar Singh
+    tier: report
+    url: https://www.rediff.com/news/2006/may/29quota.htm
+    date: 2006-05-29
+    type: news
+    accessed: 2026-10-15
+  - id: s43
+    title: "Quota: Doctors will continue strike"
+    publisher: Rediff.com
+    author: Onkar Singh
+    tier: report
+    url: https://www.rediff.com/news/2006/may/30quota2.htm
+    date: 2006-05-30
+    type: news
+    accessed: 2026-10-15
+  - id: s44
+    title: "Lucknow: Striking doctors resume work"
+    publisher: Rediff.com
+    author: Sharat Pradhan
+    tier: report
+    url: https://www.rediff.com/news/2006/may/27quota3.htm
+    date: 2006-05-27
+    type: news
+    accessed: 2026-10-15
+  - id: s45
+    title: Centre calls in Army doctors
+    publisher: Rediff.com
+    tier: secondary
+    url: https://www.rediff.com/news/2006/may/30quota6.htm
+    date: 2006-05-30
+    type: news
+    accessed: 2026-10-15
+  - id: s46
+    title: Final Report of the Oversight Committee on the Implementation of the New Reservation Policy in Higher Educational Institutions
+    publisher: Oversight Committee (copy hosted by academics-india.com)
+    tier: record
+    url: http://www.academics-india.com/moily%20report.pdf
+    date: 2006-09-30
+    type: official
+    accessed: 2026-10-15
+  - id: s47
+    title: Court questions India quota offer
+    publisher: BBC News
+    tier: secondary
+    url: http://news.bbc.co.uk/2/hi/south_asia/5026852.stm
+    date: 2006-05-29
+    type: news
+    accessed: 2026-10-15
+  - id: s48
+    title: Moily to head quota panel
+    publisher: Business Standard
+    tier: secondary
+    url: https://www.business-standard.com/article/economy-policy/moily-to-head-quota-panel-106052901062_1.html
+    date: 2006-05-29
+    type: news
+    accessed: 2026-10-15
 tags: [reservation, obc, students, doctors, delhi, mumbai, aiims, lathi_charge, supreme_court, upa]
 review:
   status: draft
