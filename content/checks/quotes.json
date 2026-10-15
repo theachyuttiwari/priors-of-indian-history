@@ -687,5 +687,48 @@
       "result": "exact",
       "text_sha256": "839d3018982fd17d014fcff8e7f5599a8a4ee9e37367d48ac1c1819ee8f278ca"
     }
+  },
+  "ramlila-maidan-ramdev-2011": {
+    "d663534e52ee77c6": {
+      "position": 0,
+      "source": "s3",
+      "fetched": "https://web.archive.org/web/20110611090006id_/https://www.governancenow.com/news/regular-story/pm-defends-crackdown-sleeping-protesters",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "7077980fb6e6f833bc05eebcae6bdc0d80c6217e9f6755bb91b50c8f059c4818"
+    },
+    "717233794bdcf5f1": {
+      "position": 1,
+      "source": "s5",
+      "fetched": "https://www.outlookindia.com/national/a-small-spark-can-trigger-a-conflagration-news-272175",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a61aae3de7d0d02424163b50eac5eab4e6d07bc4b7c0e32f7f9e4c12b38bf631",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "5dfe0c9dce2ba55d": {
+      "position": 2,
+      "source": "s2",
+      "fetched": "https://web.archive.org/web/20110609011212id_/https://www.tribuneindia.com/2011/20110606/nation.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ba250db03de5ec89dc0eb3021c262c7f531ac247c7fb430317a3a41dce19cb91"
+    },
+    "d7bf1d8bca844c34": {
+      "position": 3,
+      "source": "s2",
+      "fetched": "https://web.archive.org/web/20110609011212id_/https://www.tribuneindia.com/2011/20110606/nation.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ba250db03de5ec89dc0eb3021c262c7f531ac247c7fb430317a3a41dce19cb91"
+    },
+    "99c5b92bc5f01358": {
+      "position": 4,
+      "source": "s2",
+      "fetched": "https://web.archive.org/web/20110609011212id_/https://www.tribuneindia.com/2011/20110606/nation.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ba250db03de5ec89dc0eb3021c262c7f531ac247c7fb430317a3a41dce19cb91"
+    }
   }
 }
