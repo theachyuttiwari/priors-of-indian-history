@@ -18,4 +18,4 @@ export const PARTY_COUNTS_PAUSED =
  * Public address of the site, for the sitemap and share cards. Set PRIORS_SITE_URL when building
  * for deployment (the deploy workflow reads it from the SITE_URL repository variable).
  */
-export const SITE_URL = (process.env.PRIORS_SITE_URL ?? "http://localhost:4321").replace(/\/$/, "");
+export const SITE_URL = (process.env.PRIORS_SITE_URL || "http://localhost:4321").replace(/\/$/, "");
