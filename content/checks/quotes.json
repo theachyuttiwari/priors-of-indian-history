@@ -785,5 +785,39 @@
       "text_sha256": "d3e368879d31fcab9306578e1eecba3674a77ce3b92463e456867338037b03ea",
       "note": "checked against the live page; archive the source and re-check"
     }
+  },
+  "india-against-corruption-2011": {
+    "4523526f9d8fcaac": {
+      "position": 0,
+      "source": "s5",
+      "fetched": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=74619",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "d92a023d1b5529f4": {
+      "position": 2,
+      "source": "s8",
+      "fetched": "https://web.archive.org/web/20121014210730id_/https://www.tribuneindia.com/2011/20110817/nation.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "e68ec69242c0251cc45843cdc8ebe16a1d78c3c5d88e4f262f90a4ad493a9c8f"
+    },
+    "e8525efa696ac56d": {
+      "position": 3,
+      "source": "s6",
+      "fetched": "https://web.archive.org/web/20240422201725id_/https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/223/F17.08.2011.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "0f36939c134cedf6f9745a0e7fb906ebad880bcb1143536dfe3b1e573b156bc5"
+    },
+    "aef079c09b24d1db": {
+      "position": 4,
+      "source": "s12",
+      "fetched": "https://web.archive.org/web/20240519211347id_/https://cpim.org/protest-attack-democratic-rights/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ca17e2e7ae00ce3dd0c95d07c5abdc339db65f0faa84c35e242cb546a0cd95a5"
+    }
   }
 }

@@ -78,6 +78,19 @@ function pdfToText(bytes: Buffer): string {
   }
 }
 
+/**
+ * Older Indian news pages (The Tribune before about 2014) are Windows-1252, not UTF-8. Read as UTF-8,
+ * their curly apostrophes turn into U+FFFD and quotes stop matching. Bytes that are not valid UTF-8
+ * are read as Windows-1252 instead.
+ */
+function decodeBody(bytes: Buffer): string {
+  try {
+    return new TextDecoder("utf-8", { fatal: true }).decode(bytes);
+  } catch {
+    return new TextDecoder("windows-1252").decode(bytes);
+  }
+}
+
 async function sourceText(url: string): Promise<{ text: string; sha256: string }> {
   fs.mkdirSync(cacheDir, { recursive: true });
   const file = path.join(cacheDir, `${createHash("sha256").update(url).digest("hex").slice(0, 24)}.txt`);
@@ -93,7 +106,7 @@ async function sourceText(url: string): Promise<{ text: string; sha256: string }
         .tweet;
       text = [post?.text, post?.quote?.text].filter(Boolean).join("\n");
     } else {
-      const body = bytes.toString("utf8");
+      const body = decodeBody(bytes);
       text = /<html|<body|<p\b/i.test(body) ? htmlToText(body) : body;
     }
     fs.writeFileSync(file, text);

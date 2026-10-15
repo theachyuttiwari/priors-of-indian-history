@@ -1,12 +1,13 @@
 id: india-against-corruption-2011
 title: India Against Corruption fast and Anna Hazare arrest
 summary: >
-  On 16 August 2011 Delhi Police arrested Anna Hazare hours before he was to begin an
-  indefinite fast for a Jan Lokpal Bill at JP Park. He refused bail conditions and stayed
+  On 15 August 2011 Delhi Police refused permission for Anna Hazare's indefinite fast for a
+  Jan Lokpal Bill at JP Park and imposed prohibitory orders there. On 16 August police arrested
+  Hazare hours before the fast was to begin. He refused to give a personal bond and stayed
   in Tihar Jail for three nights while police and his team negotiated the terms of a fast.
   He left Tihar on 19 August under an agreement that allowed a fast at Ramlila Maidan.
 period:
-  start: 2011-08-16
+  start: 2011-08-15
   end: 2011-08
 location:
   states: [Delhi]
@@ -28,30 +29,78 @@ government:
     name: Delhi
 actions:
   - type: permission_denied
-    date: 2011-08-16
-    description: "Delhi Police refused unconditional permission for an indefinite fast at JP Park and offered permission with conditions; Hazare's team rejected them."
+    date: 2011-08-15
+    claim: ordered
+    description: "India Against Corruption applied to Delhi Police on 2 August for a month-long fast from 16 August. On 13 August police said permission would be granted at JP Park subject to conditions and an undertaking to abide by them. On 15 August the organisers refused six of the conditions, including a three-day limit, and police refused permission, according to the Prime Minister's statement to Parliament. Home Minister P. Chidambaram said the organisers would not guarantee to limit the protest to 5,000 people and three days. Arun Jaitley told the Rajya Sabha that 22 conditions had been imposed"
     actor: police
-    sources: [s1, s3]
+    sources: [s5, s6, s3]
+    figures:
+      - what: conditions the organisers refused to accept
+        value: "6"
+        claimed_by: Prime Minister Manmohan Singh (statement to Parliament)
+        source: s5
+      - what: conditions imposed on the protest
+        value: "22"
+        claimed_by: Arun Jaitley, Leader of the Opposition (Rajya Sabha)
+        source: s6
+  - type: section_144
+    date: 2011-08-15
+    claim: ordered
+    description: "Prohibitory orders under Section 144 CrPC were imposed on 15 August in and around JP Park and some other areas, according to the Prime Minister's statement. Governance Now reported on 16 August that police had sealed the park under Section 144 and taken supporters who tried to enter it to Chhatrasal Stadium"
+    actor: police
+    legal_basis: Section 144 CrPC
+    sources: [s5, s6, s10]
   - type: preventive_arrest
     date: 2011-08-16
-    description: "Police arrested Hazare at about 7 am as he left a flat in Mayur Vihar for JP Park. He refused to sign a bond and was sent to seven days' judicial custody in Tihar Jail. The government ordered his release the same evening; he refused to leave without permission for the fast."
+    claim: happened
+    description: "Police arrested Hazare in the morning outside a flat in Mayur Vihar, East Delhi, before he could go to JP Park. The Prime Minister said Hazare and six others were arrested as a preventive measure under Sections 151 and 107 CrPC because police concluded they would defy the prohibitory orders. A magistrate offered release on personal bonds with an undertaking not to violate the orders; Hazare refused and was remanded to seven days' judicial custody in Tihar Jail. That evening Delhi Police asked the magistrate to review the order, and he ordered the release at about 7 pm, according to the Prime Minister. Hazare refused to leave the jail without permission to fast at JP Park without conditions"
     actor: police
-    sources: [s1, s3]
+    legal_basis: Sections 107 and 151 CrPC
+    sources: [s5, s6, s7, s10]
   - type: detention
     date: 2011-08-16
-    description: "About 1,500 supporters who defied the police order against protesting were detained and later released. Chhatrasal Stadium was used as a makeshift holding site."
+    claim: happened
+    description: "Supporters who went to JP Park and other places under prohibitory orders were detained through the day, many of them taken by bus to Chhatrasal Stadium, which was used as a holding site. The Prime Minister said all of them were released that evening. Counts of those detained differ"
     actor: police
-    sources: [s1, s3]
+    legal_basis: Section 144 CrPC (detained in areas under prohibitory orders, as stated by the Prime Minister); Section 65 of the Delhi Police Act for Kiran Bedi and Shanti Bhushan, per The Tribune
+    sources: [s5, s7, s10, s11, s1, s3]
+    figures:
+      - what: persons detained in Delhi when going to or in areas under prohibitory orders, all released that evening
+        value: "about 2,603"
+        claimed_by: Prime Minister Manmohan Singh (statement to Parliament)
+        source: s5
+      - what: persons detained
+        value: "around 1,500"
+        claimed_by: Delhi Police (as reported by The Tribune)
+        source: s7
+      - what: persons who courted arrest during the day
+        value: "more than 3,000"
+        claimed_by: The Tribune (estimate)
+        source: s7
+      - what: supporters brought to Chhatrasal Stadium by 10 am
+        value: "more than 2,000"
+        claimed_by: Governance Now (reporter at the scene)
+        source: s10
+      - what: supporters held at Chhatrasal Stadium on the evening of 16 August
+        value: "about 1,700"
+        claimed_by: Outlook (reporters held at the stadium)
+        source: s11
+      - what: followers detained for defying the police order and later released
+        value: "about 1,500"
+        claimed_by: Al Jazeera
+        source: s3
   - type: negotiation
     date: 2011-08-17
-    description: "Special Commissioner (Law and Order) Dharmender Kumar led talks with Hazare inside Tihar. Police offered a seven-day, then a 14-day, then a 21-day permission; Hazare asked for 30 days."
+    claim: happened
+    description: "Special Commissioner (Law and Order) Dharmender Kumar led talks with Hazare at the office of the Director General (Prisons) in Tihar. Police offered a seven-day, then a 14-day, then a 21-day permission; Hazare asked for 30 days"
     actor: police
-    sources: [s1]
+    sources: [s1, s9]
   - type: permission_granted
     date: 2011-08-18
-    description: "Police and Hazare's team agreed on a fast at Ramlila Maidan. Sources differ on the length: The Tribune reported a 21-day offer; Al Jazeera reported a two-week permission that police agreed to consider extending. Hazare left Tihar on 19 August and began the fast at Ramlila Maidan."
+    claim: ordered
+    description: "After a meeting in the early hours of 18 August between Police Commissioner B.K. Gupta and four members of Hazare's team, Delhi Police allowed a 15-day fast at Ramlila Maidan, according to The Tribune; Al Jazeera reported two weeks, with police willing to consider an extension. A senior police official told The Tribune that the organisers signed an undertaking on all 22 conditions, revised so that the limit rose from three to 15 days and from 5,000 to 50,000 people. Arvind Kejriwal said the earlier conditions had been withdrawn. Hazare left Tihar on 19 August and began the fast at Ramlila Maidan"
     actor: police
-    sources: [s1, s2]
+    sources: [s9, s2, s1]
 outcome: >
   Hazare left Tihar on 19 August 2011 and began a public fast at Ramlila Maidan with
   police permission.
@@ -61,68 +110,179 @@ positions:
     role_at_time: Prime Minister
     in_power: true
     date: 2011-08-17
-    statement: "The path he has chosen is totally misconceived and fraught with grave consequences for our parliamentary democracy."
-    sources: [s3]
+    kind: verbatim
+    statement: "In a statement to both Houses, said Delhi Police refused permission because the organisers would not accept all its conditions, that the government acknowledged the right to peaceful protest under conditions, and that Hazare's path of imposing his own draft Bill on Parliament was misconceived."
+    quote:
+      text: "However, the path that he has chosen to impose his draft of a Bill upon Parliament is totally misconceived and fraught with grave consequences for our Parliamentary democracy."
+      locator: "Paragraph 13"
+      source: s5
+    sources: [s5, s6, s3]
   - party: BJP
     person: Sushma Swaraj
     role_at_time: Leader of Opposition, Lok Sabha
     in_power: false
     date: 2011-08-16
-    statement: "Demanded that the Prime Minister make a statement in both Houses; called the arrest a sign of the government's nervousness and said the opposition was united on a violation of democratic rights, not on the Jan Lokpal Bill."
-    sources: [s4]
+    kind: paraphrase
+    statement: "With Arun Jaitley, after a meeting of opposition parties, demanded that the Prime Minister make a statement in both Houses followed by a debate. PTI reported that she called the action against Hazare a sign of the government's nervousness and said the opposition was united on a violation of democratic rights, not on the Jan Lokpal Bill."
+    sources: [s4, s8]
   - party: BJP
     person: Arun Jaitley
     role_at_time: Leader of Opposition, Rajya Sabha
     in_power: false
     date: 2011-08-16
-    statement: "The government is trying to snatch people's right to protest; the political leadership is trying to hide behind uniform (police)."
-    sources: [s4]
+    kind: verbatim
+    statement: "Told reporters that the right to frame laws lay with Parliament but every person and organisation had a right to protest peacefully. PTI reported that he accused the government of trying to take away people's right to protest and the political leadership of hiding behind the police."
+    quote:
+      text: "Dissent is the essence of democracy. Many questions can be raised on Anna Hazare’s version of the Lokpal Bill. It is also true that the right to frame laws lies solely with Parliament but every organisation and every individual has a right to protest peacefully."
+      locator: "Story 'Release Anna' chorus unites Opposition, paragraph beginning 'He said'"
+      source: s8
+    sources: [s8, s4]
   - party: BJP
     person: Arun Jaitley
     role_at_time: Leader of Opposition, Rajya Sabha
     in_power: false
     date: 2011-08-17
-    statement: "It is a wake-up call for all of us unless we put our house in order. The people of this country are becoming restless."
-    sources: [s3]
+    kind: verbatim
+    statement: "Replying to the Prime Minister in the Rajya Sabha, said the government was hiding behind the police, that the conditions on the protest took away the right of an effective protest, that the government was trying to scuttle the right to protest and dissent, and that the protests were a wake-up call."
+    quote:
+      text: "It is this right to protest and this right to dissent which your Government is trying to scuttle and we are all here to oppose that."
+      locator: "Reply of the Leader of the Opposition to the Prime Minister's statement, paragraph beginning 'SHRI ARUN JAITLEY: ...and all that we are'"
+      source: s6
+    sources: [s6, s3]
   - party: CPI(M)
     person: null
-    role_at_time: Party statement, opposition
+    role_at_time: Polit Bureau statement, opposition
     in_power: false
     date: 2011-08-16
-    statement: "The government has attacked the democratic right to conduct peaceful protest; party units asked to hold peaceful agitations the next day."
-    sources: [s4]
+    kind: verbatim
+    statement: "Said the government had attacked the democratic right to peaceful protest by banning the hunger strike and arresting Hazare and his supporters, and called on party units to protest across the country on 17 August."
+    quote:
+      text: "The Manmohan Singh government has attacked the democratic right to conduct peaceful protest with the ban on the hunger strike and the arrest of Anna Hazare and his supporters in Delhi."
+      locator: "First paragraph of the statement"
+      source: s12
+    sources: [s12, s4]
 sources:
   - id: s1
-    title: "Anna refuses to leave Tihar; police offer 21-day fast at Ramlila"
+    title: "Deadlock as Anna stays put in Tihar"
     publisher: The Tribune
+    author: Sandeep Yadav
+    tier: report
     url: https://www.tribuneindia.com/2011/20110818/main1.htm
     archive_date: 2018-07-01
     archive_url: https://web.archive.org/web/20180701220540/https://www.tribuneindia.com/2011/20110818/main1.htm
     date: 2011-08-18
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: Indian activist set for public hunger strike
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2011/8/19/indian-activist-set-for-public-hunger-strike
     archive_date: 2025-05-14
     archive_url: https://web.archive.org/web/20250514063139/https://www.aljazeera.com/news/2011/8/19/indian-activist-set-for-public-hunger-strike
     date: 2011-08-19
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Rallies grow across India for jailed activist
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2011/8/17/rallies-grow-across-india-for-jailed-activist
     archive_date: 2025-05-17
     archive_url: https://web.archive.org/web/20250517100646/https://www.aljazeera.com/news/2011/8/17/rallies-grow-across-india-for-jailed-activist
     date: 2011-08-17
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Hazare effect: Non-UPA parties join ranks"
     publisher: Oneindia
     wire: PTI
+    tier: secondary
     url: https://www.oneindia.com/2011/08/16/hazareeffect-non-upa-parties-join-ranks.html
     date: 2011-08-16
     type: news
-tags: [anti_corruption, delhi, preventive_arrest, permission, lokpal, upa]
+    accessed: 2026-10-15
+  - id: s5
+    title: Statement by Prime Minister in the Lok Sabha
+    publisher: Press Information Bureau (Prime Minister's Office)
+    tier: record
+    url: https://pib.gov.in/newsite/PrintRelease.aspx?relid=74619
+    date: 2011-08-17
+    type: official
+    accessed: 2026-10-15
+  - id: s6
+    title: "Rajya Sabha Official Report, Vol. 223 No. 12: Statement by Prime Minister on the situation arising out of the agitation launched by Shri Anna Hazare, and discussion"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/223/F17.08.2011.pdf
+    archive_date: 2024-04-22
+    archive_url: https://web.archive.org/web/20240422201725/https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/223/F17.08.2011.pdf
+    date: 2011-08-17
+    type: official
+    accessed: 2026-10-15
+  - id: s7
+    title: "Government flip-flops, Anna stands firm"
+    publisher: The Tribune
+    author: Sandeep Yadav
+    tier: report
+    url: https://www.tribuneindia.com/2011/20110817/main2.htm
+    archive_date: 2018-07-03
+    archive_url: https://web.archive.org/web/20180703150540/https://www.tribuneindia.com/2011/20110817/main2.htm
+    date: 2011-08-17
+    type: news
+    accessed: 2026-10-15
+  - id: s8
+    title: "'Release Anna' chorus unites Opposition"
+    publisher: The Tribune
+    author: Faraz Ahmad and Aditi Tandon
+    tier: report
+    url: https://www.tribuneindia.com/2011/20110817/nation.htm
+    archive_date: 2012-10-14
+    archive_url: https://web.archive.org/web/20121014210730/https://www.tribuneindia.com/2011/20110817/nation.htm
+    date: 2011-08-17
+    type: news
+    accessed: 2026-10-15
+  - id: s9
+    title: "Govt climbs down, lets Hazare have his way"
+    publisher: The Tribune
+    author: Sandeep Yadav
+    tier: report
+    url: https://www.tribuneindia.com/2011/20110819/main1.htm
+    archive_date: 2019-11-19
+    archive_url: https://web.archive.org/web/20191119055246/https://www.tribuneindia.com/2011/20110819/main1.htm
+    date: 2011-08-19
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: Witnessing the August 16 uprising
+    publisher: Governance Now
+    author: Danish Raza
+    tier: report
+    url: https://www.governancenow.com/news/regular-story/witnessing-august-16-uprising
+    archive_date: 2016-08-01
+    archive_url: https://web.archive.org/web/20160801144547/https://www.governancenow.com/news/regular-story/witnessing-august-16-uprising
+    date: 2011-08-17
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: My Illegal Detention
+    publisher: Outlook
+    author: Sunit Arora
+    tier: report
+    url: https://www.outlookindia.com/national/my-illegal-detention-news-278049
+    date: 2011-08-18
+    type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: Protest Attack on Democratic Rights
+    publisher: Communist Party of India (Marxist)
+    tier: record
+    url: https://cpim.org/protest-attack-democratic-rights/
+    archive_date: 2024-05-19
+    archive_url: https://web.archive.org/web/20240519211347/https://cpim.org/protest-attack-democratic-rights/
+    date: 2011-08-16
+    type: official
+    accessed: 2026-10-15
+tags: [anti_corruption, delhi, preventive_arrest, section_144, permission, lokpal, upa]
 review:
   status: draft
