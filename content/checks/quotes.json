@@ -643,5 +643,23 @@
       "result": "exact",
       "text_sha256": "09f6bab5049e2bbb0defb4f6e91a72b78c2d7c0b43a75ee09433ea2c04d77ba2"
     }
+  },
+  "manipur-violence-internet-shutdown-2023": {
+    "790f5fc2133ea0fd": {
+      "position": 0,
+      "source": "s14",
+      "fetched": "https://www.pmindia.gov.in/en/news_updates/pms-statement-ahead-of-monsoon-session-of-parliament-2023/",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "d78161070ee324b7": {
+      "position": 1,
+      "source": "s16",
+      "fetched": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-laying-of-foundation-stone-of-various-development-works-at-churachandpur-manipur/",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    }
   }
 }
