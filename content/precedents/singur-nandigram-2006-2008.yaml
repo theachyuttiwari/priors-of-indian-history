@@ -31,60 +31,87 @@ government:
     name: West Bengal
 actions:
   - type: section_144
-    date: 2006-12-01
-    description: "Section 144 CrPC imposed at Singur as WBIDC began demarcating and fencing 997 acres for Tata Motors under heavy police protection; about 600 protesters were stopped from advancing. Prohibitory orders ran for 55 days, from 5 December 2006 to 28 January 2007."
+    date: 2006-11-30
+    claim: ordered
+    legal_basis: Section 144, Code of Criminal Procedure, 1973
+    description: "Prohibitory orders under Section 144 CrPC were promulgated for the area under Singur police station in four successive orders that ran from 30 November 2006 to 28 January 2007. On 1 December the West Bengal Industrial Development Corporation began fencing the 997-acre plot for Tata Motors in the presence of a large police deployment. UNI reported that about 600 protesters gathered nearby and were stopped from advancing."
     actor: state
-    sources: [s5, s6]
+    sources: [s22, s24, s5]
   - type: negotiation
     date: 2006-12-28
-    description: "Mamata Banerjee ended a 25-day hunger strike in Kolkata after letters from President A.P.J. Abdul Kalam and Prime Minister Manmohan Singh; she scaled down her demand from scrapping the project to return of 406 of 960 acres."
+    description: "Mamata Banerjee ended a 25-day hunger strike in Kolkata around midnight of 28 December. UNI reported that she did so after a fax from President A.P.J. Abdul Kalam and a letter from Prime Minister Manmohan Singh, and that she had scaled down her demand from scrapping the project to the return of 406 of 960 acres. The Tribune reported that the Chief Minister had written to her that day offering to review the land transfer and withdraw Section 144 from Singur."
     actor: centre
-    sources: [s16]
+    sources: [s16, s25, s26, s27]
   - type: tear_gas
     date: 2007-02-04
-    description: "After Krishi Jami Raksha Committee members pulled up and burned fencing poles and clashed with police at Singur, police used rubber bullets and tear gas; several movement leaders, including NAPM activist Anuradha Talwar, were arrested."
+    description: "Members of the Trinamool Congress-led Krishi Jami Raksha Committee and other groups pulled up fencing posts at the Tata Motors site at Singur and clashed with police. Police used batons and tear gas; the Hooghly superintendent of police said police also fired rubber bullets after protesters threw stones and bombs. Activist Anuradha Talwar was detained, and The Hindu reported eight arrests."
     actor: police
-    sources: [s6]
+    sources: [s29, s28, s6]
   - type: section_144
-    date: 2007-02-05
-    description: "Section 144 reimposed at Singur after a seven-day break; police blocked entry points to Hooghly district to stop Mamata Banerjee from holding a rally."
+    date: 2007-02-04
+    claim: ordered
+    legal_basis: Section 144, Code of Criminal Procedure, 1973
+    description: "The Sub-Divisional Magistrate, Chandernagore promulgated a fifth Section 144 order for the Singur police station area, effective until midnight of 14 February 2007. It prohibited meetings, rallies, processions, demonstrations and squatting, and cited a police report of damage to the fencing and attacks on police. UNI reported that on 5 February police blocked entry points to Hooghly district to stop Mamata Banerjee from holding a rally at Singur."
     actor: state
-    sources: [s6]
+    sources: [s22, s6]
+    court_outcomes:
+      - summary: "On 14 February 2007 the Calcutta High Court (Dipankar Datta J) quashed the order, holding that it was passed before the police report reached the magistrate and was an act of executive highhandedness that unreasonably restricted Article 19 rights."
+        source: s22
   - type: firing
     date: 2007-03-14
-    description: "Police fired on villagers resisting re-entry into Nandigram, which the Bhoomi Uchhed Pratirodh Committee had blockaded since January. The state and NHRC put deaths at 14, with about 300 injured including 52 policemen; the Calcutta High Court identified 13 killed and 162 injured; villagers and rights groups say the toll was higher."
+    description: "Police entered Nandigram, which the Bhoomi Uchhed Pratirodh Committee had blockaded since January, and fired on crowds at two places. The state's account, given in the Assembly and in Parliament, was that police used tear gas and rubber bullets first and fired after stone-throwing, crude bombs and firing from the crowd. Petitioners in the High Court alleged that CPI(M) cadres accompanied the police and that no prohibitory order had been issued. The Telegraph reported that the CBI's preliminary inquiry recovered .315-bore bullets that police had not been issued, and was examining whether outsiders took part in the firing. Death and injury counts differ by source."
     actor: police
-    sources: [s3, s13, s2]
+    sources: [s1, s13, s23, s40, s3, s31]
+    figures:
+      - { what: killed in police firing (13 identified), value: "14", claimed_by: Calcutta High Court, source: s1 }
+      - { what: injured, value: "162", claimed_by: Calcutta High Court, source: s1 }
+      - { what: killed, value: "14", claimed_by: Chief Minister Buddhadeb Bhattacharjee in the Assembly on 15 March (as reproduced in the High Court judgment), source: s1 }
+      - { what: injured, value: "70-71, and 42 police personnel", claimed_by: Chief Minister Buddhadeb Bhattacharjee in the Assembly on 15 March (as reproduced in the High Court judgment), source: s1 }
+      - { what: killed in police firing, value: "13, and one villager killed by a bomb he was about to throw", claimed_by: official sources (UNI), source: s3 }
+      - { what: killed, value: "6", claimed_by: Union Home Minister Shivraj Patil in the Rajya Sabha on 14 March (initial telephone information), source: s23 }
+      - { what: injured, value: "about 20, including 8 policemen", claimed_by: Union Home Minister Shivraj Patil in the Rajya Sabha on 14 March (initial telephone information), source: s23 }
+      - { what: killed in firing, value: "14", claimed_by: National Human Rights Commission, source: s13 }
+      - { what: injured, value: "300, including 52 policemen", claimed_by: National Human Rights Commission, source: s13 }
+      - { what: killed, value: "10", claimed_by: counsel for the petitioners (as recorded in the High Court judgment), source: s1 }
+      - { what: killed, value: "11, and 34 injured including 14 policemen", claimed_by: The Hindu (first-day report), source: s40 }
+      - { what: killed, value: "more than 20, and 200 injured", claimed_by: Trinamool Congress leader Mamata Banerjee, source: s40 }
   - type: commission_of_inquiry
     date: 2007-03-15
-    description: "Calcutta High Court, acting suo motu, directed a CBI inquiry into the firing, with a report in seven days; it found the police action prima facie unconstitutional. The Chief Minister said he welcomed the inquiry."
+    description: "The Calcutta High Court (Nijjar CJ and P.C. Ghose J), acting suo motu, directed a special team of the CBI to go to Nandigram and collect material for a report to the court, and said that the police action was prima facie wholly unconstitutional. UNI reported a seven-day deadline; the CBI filed a preliminary report on 22 March 2007. The Chief Minister told the Assembly the same day that the CBI could hold the inquiry."
     actor: court
-    sources: [s20, s1, s14]
+    sources: [s1, s20]
   - type: concession
     date: 2007-03-19
-    description: "The District Magistrate of East Midnapore notified that no land would be acquired for industry at Nandigram; the Chief Minister had said the chemical hub SEZ would not be imposed against residents' wishes. The government later proposed moving the hub to Nayachar island."
+    description: "The District Magistrate of East Midnapore issued a notification that the state government would not acquire any land for industry in Nandigram. On 15 March the Chief Minister had told the Assembly that there would be no chemical hub at Nandigram against the will of the people. The Hindu reported that copies were sent to the gram panchayats and political parties, and that the government began shifting two police camps. The NHRC recorded that the blockade continued after the notification. The government later proposed Nayachar island as another site; India Today reported in November 2007 that ecological concerns had ruled it out."
     actor: state
-    sources: [s13, s14]
+    sources: [s13, s43, s1, s33]
   - type: other
     date: 2007-11-06
-    description: "CPI(M) supporters with outsiders overran the Nandigram blockade. The NHRC found that the Tehkhali police outpost was withdrawn late that night, which facilitated the attack; 7 people were killed and 32 injured between 6 and 12 November, and about 2,500 villagers were driven out. Human Rights Watch reported higher figures for the year."
+    description: "CPI(M) supporters, with outsiders, overran the Nandigram blockade. The NHRC found that the Tehkhali police outpost was withdrawn late on 6 November, which facilitated the attack, and its investigation team reported that the police approach was partisan; the Commission said that neither the CPI(M) nor the Bhoomi Uchhed Pratirodh Committee could escape a share of responsibility. On 9 November The Telegraph reported CPI(M) supporters taking more villages and police officers saying they could not enter. Casualty and displacement counts differ by source."
     actor: state
-    sources: [s13, s12]
+    sources: [s13, s34, s12, s4]
+    figures:
+      - { what: killed between 6 and 12 November, value: "7", claimed_by: National Human Rights Commission, source: s13 }
+      - { what: injured between 6 and 12 November, value: "32, including 16 police personnel", claimed_by: National Human Rights Commission, source: s13 }
+      - { what: villagers driven out, value: "nearly 2,500", claimed_by: National Human Rights Commission, source: s13 }
+      - { what: houses damaged between 6 and 12 November, value: "560 completely and 399 partially", claimed_by: Chief Secretary of West Bengal (report cited by the NHRC), source: s13 }
+      - { what: houses burnt, value: "about 900", claimed_by: Chief Minister Buddhadeb Bhattacharjee (UNI), source: s4 }
+      - { what: killed in Nandigram during 2007, value: "at least 30", claimed_by: Human Rights Watch and Amnesty International India, source: s12 }
   - type: other
     date: 2007-11-11
-    description: "The Centre, which had declined a 27 October state request for CRPF citing assembly polls elsewhere, ordered six CRPF companies to Nandigram; the CRPF held a flag march on 12 November."
+    description: "The NHRC recorded that the state asked the Centre on 27 October for CRPF for three months, that the Centre replied on 5 November that it could not spare the force because of Assembly elections in other states, and that it ordered six CRPF companies on 11 November. The companies entered Nandigram and began flag marches on 12 November. The Telegraph, citing Union home ministry sources, reported that the CRPF director-general told the Centre the force was let in only after CPI(M) cadres had taken the area."
     actor: centre
-    sources: [s13]
+    sources: [s13, s35]
   - type: other
     date: 2007-11-16
-    description: "Calcutta High Court (Nijjar CJ and P.C. Ghose J) held the 14 March firing wholly unconstitutional, directed the CBI to complete its investigation, and ordered compensation of Rs 5 lakh per family of the dead, Rs 1 lakh per injured person and Rs 2 lakh per rape victim. The state appealed to the Supreme Court."
+    description: "The Calcutta High Court (Nijjar CJ and P.C. Ghose J) held that the police firing of 14 March was wholly unconstitutional and could not be justified under any provision of law, held Regulation 155(b) of the Police Regulations, Bengal ultra vires, directed the CBI to complete a detailed investigation within a month, and ordered compensation of Rs 5 lakh for each family of the dead, at least Rs 1 lakh for each injured person and Rs 2 lakh for each rape victim. The state appealed to the Supreme Court."
     actor: court
-    sources: [s1, s2]
+    sources: [s1, s2, s38]
   - type: other
     date: 2008-10-03
-    description: "After an indefinite Trinamool dharna outside the Singur plant from late August 2008 demanding return of 400 acres, Tata Motors announced its withdrawal from Singur citing the safety of employees and contractors; Ratan Tata said Ms Banerjee had pulled the trigger. The Nano plant moved to Sanand, Gujarat."
+    description: "After a Trinamool Congress dharna outside the Singur plant from late August 2008 demanding the return of 400 acres, Ratan Tata announced that Tata Motors would move the Nano project out of West Bengal, citing the well-being of employees and the safety of contractors and vendors. He said the land had been acquired legally and the dispute was between the state government and the Trinamool Congress, and, according to a 2024 Outlook account, that Ms Banerjee had pulled the trigger. Mamata Banerjee called the decision a joint game plan of the Tatas and the CPI(M). The Supreme Court later recorded that Tata Motors wrote to the state police on 10 November 2008 that it was suspending operations, and that the plant moved to Gujarat."
     actor: state
-    sources: [s18, s8]
+    sources: [s21, s41, s39, s18, s8]
   - type: other
     date: 2016-08-31
     description: "Supreme Court (Gopala Gowda and Arun Mishra JJ) quashed the 2006 Singur acquisition in Kedar Nath Yadav v State of West Bengal, directed return of possession to landowners within 12 weeks, and held that compensation already paid would not be recovered. Recorded here as the legal outcome; it falls after the protest period."
@@ -101,78 +128,121 @@ positions:
     role_at_time: Union Minister for Information and Broadcasting
     in_power: true
     date: 2006-12-03
-    statement: "Land cannot be acquired through confrontation. West Bengal needs industrialisation and we are not blocking it; industry must be set up elsewhere, leaving the multicrop land."
+    kind: verbatim
+    statement: "Held the Chief Minister responsible for the Singur standoff, said land could not be acquired through confrontation, asked for prohibitory orders at Singur to be lifted, and said the plant should be built elsewhere, sparing multi-crop land."
+    quote:
+      text: "West Bengal needs industrialisation and we are not blocking it. But industry must be set up elsewhere leaving the multicrop land"
+      locator: "Sentence beginning 'Mr Dasmunsi clarified'"
+      source: s7
     sources: [s7]
   - party: TMC
     person: Mamata Banerjee
     role_at_time: Trinamool Congress chief, opposition
     in_power: false
     date: 2006-12-29
-    statement: "I am withdrawing the hunger strike at the request of the President and Prime Minister. They will do justice to our cause."
+    kind: verbatim
+    statement: "Ended her hunger strike after midnight, saying she did so at the request of the President and the Prime Minister, and said the Singur movement would continue in another form."
+    quote:
+      text: "I am withdrawing the hunger strike at the request of the President and Prime Minister. They will do justice to our cause"
+      locator: "Sentence beginning 'The PM's letter provided them the opportunity'"
+      source: s16
     sources: [s16]
   - party: CPI(M)
     person: Buddhadeb Bhattacharjee
     role_at_time: Chief Minister of West Bengal
     in_power: true
     date: 2007-03-15
-    statement: "We want CBI to go for an inquiry into the incident. Let it find out what happened there and why did the clash take place. The chemical hub will not be set up against the people's wishes."
-    sources: [s14, s20]
+    kind: paraphrase
+    statement: "Told the Assembly that police had gone to Nandigram to restore the administration, not to acquire land, and had fired after tear gas and rubber bullets failed; that 14 people had died; that the government would accept the High Court's CBI inquiry instead of a judicial inquiry; and that there would be no chemical hub at Nandigram against the will of the people."
+    sources: [s1, s30, s14]
   - party: CPI(M)
     person: Brinda Karat
     role_at_time: Rajya Sabha MP and Polit Bureau member
     in_power: true
     date: 2007-03-15
-    statement: "We have no problem with CBI or judicial inquiry."
+    kind: verbatim
+    statement: "Welcomed the High Court's direction for a CBI inquiry."
+    quote:
+      text: "We have no problem with CBI or judicial inquiry."
+      locator: "Sentence beginning 'CPI (M) leader Brinda Karat'"
+      source: s20
     sources: [s20]
   - party: TMC
     person: Mamata Banerjee
     role_at_time: Trinamool Congress chief, opposition
     in_power: false
     date: 2007-03-15
-    statement: "Demanded the Chief Minister's resignation and said CPI(M) supporters had blocked her journey to Nandigram."
-    sources: [s20]
+    kind: verbatim
+    statement: "Visited the injured at Nandigram after being stopped on the way by CPI(M) supporters, and accused the administration of trying to cover up the killings by blocking her. UNI reported that she demanded the Chief Minister's resignation."
+    quote:
+      text: "What kind of democracy is this? They’ve killed innocent women and children. On top of that, the administration attempted a cover-up by trying to stop me from coming here."
+      locator: "Paragraph beginning 'Before her departure'"
+      source: s32
+    sources: [s32, s20]
   - party: BJP
     person: L.K. Advani
     role_at_time: Leader of the Opposition, Lok Sabha
     in_power: false
     date: 2007-03-15
-    statement: "Called the firing barbaric and asked the Centre to make the state withdraw the SEZ proposal; the NDA compared the killings to Jallianwala Bagh."
+    kind: paraphrase
+    statement: "Called the firing barbaric and asked the Centre to make the state withdraw the SEZ proposal unconditionally. UNI reported the same day that the NDA compared the killings to the Jallianwala Bagh massacre."
     sources: [s20]
   - party: other (none / constitutional office)
     person: Gopalkrishna Gandhi
     role_at_time: Governor of West Bengal
     in_power: false
     date: 2007-03-14
-    statement: "The news of the deaths in police firing filled him with a sense of cold horror; he asked whether the bloodshed was avoidable and what public purpose the use of force served."
-    sources: [s3]
+    kind: verbatim
+    statement: "Said the deaths in police firing filled him with horror, asked whether the bloodshed was avoidable and what public purpose the use of force served, and asked the government to mitigate the effects visibly and fast."
+    quote:
+      text: "The news of deaths by police firing in Nandigram this morning has filled me with a sense of cold horror."
+      locator: "Opening paragraph, first quoted sentence"
+      source: s3
+    sources: [s3, s1]
   - party: other (none / constitutional office)
     person: Gopalkrishna Gandhi
     role_at_time: Governor of West Bengal
     in_power: false
     date: 2007-11-09
-    statement: "The manner of the recapture of Nandigram is totally unlawful and unacceptable. Enough is enough. Peace and security should be restored, without any delay."
-    sources: [s11]
+    kind: verbatim
+    statement: "Said the manner in which the recapture of Nandigram villages was being attempted was totally unlawful and unacceptable, called the area a war zone, and asked the state government for the return of the armed outsiders, relief for the displaced and their return home."
+    quote:
+      text: "Enough is enough. Peace and security should be restored, without any delay, from where they have been evicted from Nandigram."
+      locator: "Last paragraph"
+      source: s36
+    sources: [s36, s11, s37]
   - party: BJP
     person: Rajnath Singh
     role_at_time: BJP national president
     in_power: false
     date: 2007-11-12
-    statement: "Demanded dismissal of the West Bengal government for failure on all fronts, calling its actions in Nandigram dictatorship and tyranny, and said CPI(M) cadres killed people while the police stood by."
+    kind: paraphrase
+    statement: "Demanded dismissal of the West Bengal government for failure on all fronts, said its actions in Nandigram symbolised dictatorship and tyranny, and said CPI(M) cadres killed people while the police stood by."
     sources: [s15]
   - party: CPI(M)
     person: Buddhadeb Bhattacharjee
     role_at_time: Chief Minister of West Bengal
     in_power: true
     date: 2007-11-14
-    statement: "They instigated the incident and they were paid back in their own coin in the last two-three days. I stick to that position. I am not above the party, nor can I deny my political identity."
-    sources: [s4]
+    kind: verbatim
+    statement: "Said the Bhoomi Uchhed Pratirodh Committee had started the Nandigram violence and stood by his earlier defence of the CPI(M)'s retaliation, while saying he would function as Chief Minister."
+    quote:
+      text: "They instigated the incident and they were paid back in their own coin in the last two-three days"
+      locator: "Sentence beginning 'He said while attempts were being made'"
+      source: s4
+    sources: [s4, s12]
   - party: CPI(M)
     person: Buddhadeb Bhattacharjee
     role_at_time: Chief Minister of West Bengal
     in_power: true
     date: 2007-12-26
-    statement: "No civil government ever asks police to open fire on its people. Had I known the deployment would lead to firing I would not have sent police. My heart goes out to the people who have lost their lives in Nandigram."
-    sources: [s17, s12]
+    kind: verbatim
+    statement: "On his first visit to Nandigram in ten months, said he would not have sent police on 14 March had he known it would lead to firing, and expressed grief for those who died."
+    quote:
+      text: "No civil government ever asks police to open fire on its people."
+      locator: "Sentence beginning 'The loss of life is sad'"
+      source: s17
+    sources: [s17, s42]
 sources:
   - id: s1
     title: "Association for Protection of Democratic Rights v State of West Bengal and Ors, 2007 (4) CHN 842"
@@ -183,130 +253,167 @@ sources:
     archive_url: https://web.archive.org/web/20081209044249/https://indiankanoon.org/doc/1186017/
     date: 2007-11-16
     type: court_judgment
+    accessed: 2026-10-15
   - id: s2
     title: "'Wholly Unconstitutional...'"
     publisher: Outlook
+    tier: court
     url: https://www.outlookindia.com/national/wholly-unconstitutional-news-236066
     archive_date: 2026-01-12
     archive_url: https://web.archive.org/web/20260112204432/https://www.outlookindia.com/national/wholly-unconstitutional-news-236066
     date: 2007-11-20
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: WB Governor calls Nandigram excesses an outrage
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/03/14/wb-governor-calls-nandigram-excesses-and-outrage-1174138571.html
     date: 2007-03-14
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "I was right in defending CPI(M)'s retaliation: Buddhadeb"
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/11/14/i-was-right-in-defending-cpims-retaliation-buddhadeb-1195065411.html
     date: 2007-11-14
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: Singur demarcation continues amid heavy security
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/12/01/singur-demarcation-continues-amid-heavy-security-1164960360.html
     date: 2006-12-01
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: 144 CrPC reimposed in Singur after yesterday's violence
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/02/05/144-crpc-reimposed-in-singur-after-ysterdays-violence-1170657648.html
     date: 2007-02-05
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Dasmunsi asks Bhattacharjee to come clean on Singur
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/12/03/dasmunsi-asks-bhattacharjee-to-come-clean-on-singur-1165158277.html
     date: 2006-12-03
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: When Ratan Tata's big Nano dream drowned in Bengal
     publisher: Outlook
+    author: Snigdhendu Bhattacharya
+    tier: secondary
     url: https://outlookindia.com/national/when-ratan-tatas-big-nano-dream-drowned-in-bengal
     archive_date: 2024-10-10
     archive_url: https://web.archive.org/web/20241010003150/https://outlookindia.com/national/when-ratan-tatas-big-nano-dream-drowned-in-bengal
     date: 2024-10-10
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: Land acquired by Tata Motors in Singur, West Bengal, to be restored to the landowners
     publisher: SCC Online Blog
+    tier: secondary
     url: https://www.scconline.com/blog/post/2016/09/01/land-acquired-by-tata-motors-in-singur-west-bengal-to-be-restored-to-the-landowners/
     archive_date: 2020-09-24
     archive_url: https://web.archive.org/web/20200924122801/https://www.scconline.com/blog/post/2016/09/01/land-acquired-by-tata-motors-in-singur-west-bengal-to-be-restored-to-the-landowners/
     date: 2016-09-01
     type: academic
+    accessed: 2026-10-15
   - id: s11
     title: Statement of the Governor of West Bengal on Nandigram, 9 November 2007
     publisher: Mainstream Weekly
+    author: Gopalkrishna Gandhi
+    tier: record
     url: https://www.mainstreamweekly.net/article476.html
     archive_date: 2007-12-15
     archive_url: https://web.archive.org/web/20071215184804/https://www.mainstreamweekly.net/article476.html
     date: 2007-12-08
     type: news
+    accessed: 2026-10-15
   - id: s12
     title: "India: Urgent inquiry needed into Nandigram violence"
     publisher: Human Rights Watch
+    tier: secondary
     url: https://www.hrw.org/news/2008/01/15/india-urgent-inquiry-needed-nandigram-violence
     archive_date: 2015-10-26
     archive_url: https://web.archive.org/web/20151026231436/https://www.hrw.org/news/2008/01/15/india-urgent-inquiry-needed-nandigram-violence
     date: 2008-01-15
     type: official
+    accessed: 2026-10-15
   - id: s13
     title: Commission's order on Nandigram issue
     publisher: National Human Rights Commission
+    tier: court
     url: https://nhrc.nic.in/media/press-release/commission-s-order-on-nandigram-issue-new-delhi-feb-08-2008
     date: 2008-02-08
     type: official
+    accessed: 2026-10-15
   - id: s14
     title: Buddha says no SEZ against people's wishes, welcomes HC order
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/03/15/buddha-says-no-sez-against-peoples-wishes-welcomes-hc-order-1174296006.html
     date: 2007-03-15
     type: news
+    accessed: 2026-10-15
   - id: s15
     title: BJP demands dismissal of WB government on Nandigram issue
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/11/12/bjp-demands-dismissal-of-wb-government-on-nandigram-issue-1194863754.html
     date: 2007-11-12
     type: news
+    accessed: 2026-10-15
   - id: s16
     title: Mamata's condition stable after respectable retreat
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2006/12/29/mamatas-condition-stable-after-respectable-retreat-1167385318.html
     date: 2006-12-29
     type: news
+    accessed: 2026-10-15
   - id: s17
     title: "No police to Nandigram if firing had been predicted: Bhattacharjee"
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/12/26/no-police-to-nandigram-if-firing-had-been-predicted-bhattacharjee-1198660111.html
     date: 2007-12-26
     type: news
+    accessed: 2026-10-15
   - id: s18
     title: India's cheap car plant abandoned
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2008/10/3/indias-cheap-car-plant-abandoned
     archive_date: 2025-05-24
     archive_url: https://web.archive.org/web/20250524103031/https://www.aljazeera.com/news/2008/10/3/indias-cheap-car-plant-abandoned
     date: 2008-10-03
     type: news
+    accessed: 2026-10-15
   - id: s20
     title: HC orders CBI probe, Parliament adjourned for day over Nandigram
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/03/15/hc-orders-cbi-probe-parliament-adjourned-for-day-over-nandigram-1174296105.html
     date: 2007-03-15
     type: news
+    accessed: 2026-10-15
   - id: s21
     title: Kedar Nath Yadav v State of West Bengal and Ors, Civil Appeal No. 8438 of 2016
     publisher: Supreme Court of India via Indian Kanoon
@@ -316,6 +423,200 @@ sources:
     archive_url: https://web.archive.org/web/20180717131645/https://indiankanoon.org/doc/168057026/
     date: 2016-08-31
     type: court_judgment
+    accessed: 2026-10-15
+  - id: s22
+    title: Ganesh Chakraborty and Ors v State of West Bengal and Ors
+    publisher: Calcutta High Court via Indian Kanoon
+    tier: court
+    url: https://indiankanoon.org/doc/1093153/
+    date: 2007-02-14
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s23
+    title: "Rajya Sabha official debates, 14 March 2007: Information to the House, incident of firing in Nandigram, West Bengal (pp. 312-314)"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/210/F14.03.2007.pdf
+    date: 2007-03-14
+    type: official
+    accessed: 2026-10-15
+  - id: s24
+    title: Singur fencing begins
+    publisher: The Telegraph (Kolkata)
+    author: Samarpan Dutta and Uttam Dutta
+    tier: report
+    url: http://www.telegraphindia.com/1061202/asp/bengal/story_7080963.asp
+    date: 2006-12-02
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "End of story? Mamata set to end fast after VVIP intervention"
+    publisher: The Tribune
+    author: Subhrangshu Gupta
+    tier: report
+    url: https://www.tribuneindia.com/2006/20061229/main1.htm
+    date: 2006-12-29
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: Left Front to form panel on land use
+    publisher: The Tribune
+    author: Subhrangshu Gupta
+    tier: report
+    url: https://www.tribuneindia.com/2006/20061230/nation.htm
+    date: 2006-12-30
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Mamata is extremely weak: doctors"
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/12/30/stories/2006123003951200.htm
+    date: 2006-12-30
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: Police clash with agitators at Singur
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2007/02/05/stories/2007020503711300.htm
+    date: 2007-02-05
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: Multi-pronged attack on Tata site
+    publisher: The Telegraph (Kolkata)
+    tier: secondary
+    url: http://www.telegraphindia.com/1070205/asp/bengal/story_7351469.asp
+    date: 2007-02-05
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: Bhattacharjee demands CBI inquiry into yesterday's incident
+    publisher: Oneindia
+    wire: UNI
+    tier: secondary
+    url: https://www.oneindia.com/2007/03/15/bhattacharjee-demands-cbi-inqiry-into-yesterdays-incident-1174145991.html
+    date: 2007-03-15
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: CBI bullet hole in police story
+    publisher: The Telegraph (Kolkata)
+    author: Imran Ahmed Siddiqui
+    tier: report
+    url: http://www.telegraphindia.com/1070320/asp/frontpage/story_7541173.asp
+    date: 2007-03-20
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Mamata yields to pain, not to CPM
+    publisher: The Telegraph (Kolkata)
+    author: Simi Kamboj
+    tier: report
+    url: http://www.telegraphindia.com/1070316/asp/nation/story_7523913.asp
+    date: 2007-03-16
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: "West Bengal: Why Buddha is not smiling"
+    publisher: India Today
+    author: Swagata Sen
+    tier: report
+    url: https://www.indiatoday.in/magazine/states/story/20071119-west-bengal-why-buddha-is-not-smiling-734517-2007-11-07
+    date: 2007-11-19
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: CPM tears truce to shreds
+    publisher: The Telegraph (Kolkata)
+    author: Imran Ahmed Siddiqui and Anshuman Phadikar
+    tier: report
+    url: http://www.telegraphindia.com/1071110/asp/bengal/story_8532607.asp
+    date: 2007-11-10
+    type: news
+    accessed: 2026-10-15
+  - id: s35
+    title: "Not much to do now: CRPF boss"
+    publisher: The Telegraph (Kolkata)
+    author: Bhavna Vij-Aurora and Imran Ahmed Siddiqui
+    tier: report
+    url: http://www.telegraphindia.com/1071113/asp/bengal/story_8542655.asp
+    date: 2007-11-13
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: "'Enough Is Enough' (full text of the Governor's statement)"
+    publisher: Outlook
+    author: Gopalkrishna Gandhi
+    tier: record
+    url: https://www.outlookindia.com/national/enough-is-enough-news-235965
+    date: 2007-11-09
+    type: news
+    accessed: 2026-10-15
+  - id: s37
+    title: "Gandhi acted within his rights: Experts"
+    publisher: The Telegraph (Kolkata)
+    author: Samanwaya Rautray
+    tier: report
+    url: http://www.telegraphindia.com/1071110/asp/nation/story_8532005.asp
+    date: 2007-11-10
+    type: news
+    accessed: 2026-10-15
+  - id: s38
+    title: W Bengal govt denies before SC excesses at Nandigram
+    publisher: Oneindia
+    wire: UNI
+    tier: secondary
+    url: https://www.oneindia.com/2008/02/25/w-bengal-govt-denies-before-sc-excesses-at-nandigram-1203934161.html
+    date: 2008-02-25
+    type: news
+    accessed: 2026-10-15
+  - id: s39
+    title: "Finally, Tatas pack up from Singur"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/2008/20081004/main2.htm
+    date: 2008-10-04
+    type: news
+    accessed: 2026-10-15
+  - id: s40
+    title: 11 killed in Nandigram police firing
+    publisher: The Hindu
+    author: Marcus Dam
+    tier: report
+    url: http://www.hindu.com/2007/03/15/stories/2007031506450100.htm
+    date: 2007-03-15
+    type: news
+    accessed: 2026-10-15
+  - id: s41
+    title: Tatas pull out of Singur
+    publisher: The Hindu
+    author: Marcus Dam
+    tier: report
+    url: http://www.hindu.com/2008/10/04/stories/2008100457660100.htm
+    date: 2008-10-04
+    type: news
+    accessed: 2026-10-15
+  - id: s42
+    title: Buddhadeb visits Nandigram
+    publisher: The Hindu
+    author: Marcus Dam
+    tier: report
+    url: http://www.hindu.com/2007/12/27/stories/2007122760900100.htm
+    date: 2007-12-27
+    type: news
+    accessed: 2026-10-15
+  - id: s43
+    title: "Nandigram: no land acquisition"
+    publisher: The Hindu
+    author: Marcus Dam
+    tier: report
+    url: http://www.hindu.com/2007/03/20/stories/2007032010100100.htm
+    date: 2007-03-20
+    type: news
+    accessed: 2026-10-15
 tags: [land_acquisition, west_bengal, sez, firing, section_144, hunger_strike, left_front, singur, nandigram]
 review:
   status: draft
