@@ -4,11 +4,13 @@ summary: >
   In May 1974 railway workers under the National Coordination Committee for
   Railwaymen's Struggle (NCCRS), convened by George Fernandes, struck for about
   20 days over bonus, hours of work and casual labour. The Indira Gandhi
-  government declared the strike illegal, arrested Fernandes and thousands of
+  government said the strike was illegal, arrested Fernandes and thousands of
   workers under MISA and the Defence of India Rules, deployed paramilitary
-  forces to railway colonies and dismissed or laid off staff. The strike was
-  withdrawn on 27-28 May 1974 without a settlement; the Janata government
-  reversed the punitive orders in March 1977.
+  forces on the railways and dismissed or removed staff. The government later
+  told the Rajya Sabha that 19,883 railwaymen had been arrested and 16,749
+  dismissed, removed or terminated. The strike was withdrawn on 27-28 May 1974
+  without a settlement; the Janata government announced the reinstatement of
+  dismissed and suspended employees in March 1977.
 period:
   start: 1974-05-02
   end: 1974-05-28
@@ -18,7 +20,7 @@ location:
 protest:
   cause: "Bonus, eight-hour day, dearness allowance and regularisation of casual railway labour"
   organisers: [National Coordination Committee for Railwaymen's Struggle, All India Railwaymen's Federation]
-  scale: "Reported participation of 1 million to 1.7 million railway workers; about 400 passenger trains cancelled (figures vary by source)"
+  scale: "Union and later accounts give participation of 1 million to 1.7 million railway workers; the Railway Minister told the Rajya Sabha in August 1974 that 5.5 lakh (550,000) went on strike, of whom about 2.5 lakh were still out when it was called off (figures vary by source)"
 government:
   centre:
     party: INC
@@ -27,35 +29,59 @@ government:
     role: Prime Minister
 actions:
   - type: preventive_arrest
-    date: 1974-05-01
-    description: "George Fernandes, AIRF president and NCCRS convener, arrested at Lucknow after a May Day address and flown to Tihar Jail; warrants issued against other leaders on 2 May"
+    date: 1974-05-02
+    claim: ordered
+    legal_basis: "Maintenance of Internal Security Act, 1971 (as reported by TIME; on 2 May the Deputy Railway Minister told the Rajya Sabha he could not say under what Act Fernandes was held)"
+    description: "George Fernandes, AIRF president and NCCRS convener, was arrested at Lucknow, where he had gone for a May Day meeting, while talks with the Railway Ministry were due to resume on 2 May. In the Rajya Sabha on 2 May, N. G. Goray said Fernandes had been arrested that morning, and Deputy Railway Minister Mohd. Shafi Qureshi confirmed the arrest. Accounts of the time and place differ: AIRF says Delhi Police arrested him around midnight on 1 May and flew him to Tihar Jail on 2 May; The Caravan describes a pre-dawn arrest at Charbagh station; his brother Michael Fernandes recalled that he was picked up on 1 May as he climbed to the dais. AIRF says warrants were issued against other leaders on 2 May, and an MP told the Rajya Sabha that P. K. Barooah of the All India Loco Running Staff Association was also arrested. TIME reported that Railway Minister L. N. Mishra claimed authority for the arrests under MISA."
     actor: centre
-    sources: [s1, s3, s4]
+    sources: [s7, s3, s1, s4, s6]
   - type: other
     date: 1974-05
-    description: "Government declared the strike illegal and refused to negotiate until it was called off"
+    claim: ordered
+    legal_basis: "Defence of India Rules, 1971 (as stated by the Deputy Railway Minister in the Rajya Sabha, 5 August 1974)"
+    description: "The government treated the strike as illegal. TIME reported government warnings that the strike was illegal. On 5 August 1974 Deputy Railway Minister Qureshi told the Rajya Sabha that strikes had been declared illegal under the Defence of India Rules, which he said ran up to 25 November 1974, and that the strike was therefore illegal. On 14 May Railway Minister L. N. Mishra told the Rajya Sabha that no negotiation was possible unless normalcy was restored. Mishra said a three-point formula of release, negotiation and withdrawal, which came out of a meeting between the government and opposition leaders, had been disowned; opposition MPs said it made withdrawal of the strike a precondition."
     actor: centre
-    sources: [s1, s2]
+    sources: [s10, s9, s6]
   - type: detention
     date: 1974-05
-    description: "Thousands of workers detained under MISA and the Defence of India Rules; totals reported range from 20,000 to 50,000 arrests (sources differ)"
+    claim: ordered
+    legal_basis: "Maintenance of Internal Security Act, 1971; Defence of India Rules, 1971 (named by AIRF and opposition MPs; the government gave a total of arrests without a breakdown by law)"
+    description: "Railway workers and union leaders were arrested across the country during the strike. On 5 and 6 August 1974 the government told the Rajya Sabha that 19,883 railwaymen had been arrested, that 19,236 had been released by 5 August and that about 600 faced criminal cases. Other figures are higher: TIME reported on 20 May that 1,500 union leaders had been jailed; CPI MP Bhupesh Gupta said on 14 May that more than 20,000 had been arrested; AIRF says 50,000 were arrested under MISA, the Defence of India Rules and the Indian Penal Code."
     actor: centre
-    sources: [s1, s2, s3, s5]
+    sources: [s10, s11, s6, s9, s3, s5]
+    figures:
+      - { what: union leaders jailed (reported 20 May 1974), value: "1,500", claimed_by: TIME, source: s6 }
+      - { what: arrested by 14 May, value: "more than 20,000", claimed_by: "Bhupesh Gupta, CPI MP (Rajya Sabha, 14 May 1974)", source: s9 }
+      - { what: railwaymen arrested during the strike, value: "19,883", claimed_by: "Government of India (Deputy Railway Minister, Rajya Sabha, 5 August 1974)", source: s10 }
+      - { what: released by 5 August 1974, value: "19,236", claimed_by: "Government of India (Deputy Railway Minister, Rajya Sabha, 5 August 1974)", source: s10 }
+      - { what: arrested under MISA, DIR and other laws, value: "50,000", claimed_by: AIRF, source: s3 }
   - type: other
     date: 1974-05
-    description: "Border Security Force, CRPF and Provincial Armed Constabulary deployed to railway colonies; electricity and water cut to colonies in Bombay, Delhi, Kishanganj, Shakurbasti and Malda"
+    claim: ordered
+    description: "The Border Security Force, the Central Reserve Police and state police were deployed at points on the railways. Railway Minister L. N. Mishra told the Rajya Sabha on 14 May that the deployment was to safeguard against sabotage and destruction of railway property and to protect workers at their posts, and the Home Ministry said in July that the BSF and CRPF had not used firing, lathi charges or tear gas. Opposition MP Niren Ghosh said in the Rajya Sabha on 7 May that the Army had been alerted and the Territorial Army called out, and TIME reported that militiamen were mobilised to run emergency rail services. A Frontier account says the Provincial Armed Constabulary was also deployed. The Caravan says electricity and water were cut to railway colonies in Bombay, Delhi, Kishanganj, Shakurbasti and Malda; Bhupesh Gupta raised the cuts in the Rajya Sabha on 14 May, and Mishra replied that he had no information."
     actor: centre
-    sources: [s1, s2]
+    sources: [s9, s12, s8, s6, s1, s2]
   - type: other
     date: 1974-05
-    description: "Employees removed, laid off or suspended under Rule 14(ii) of the Railway Employees (Discipline and Appeal) Rules, 1968; AIRF gives 10,329 permanent staff laid off and 5,630 temporary workers dismissed, with families reportedly evicted from railway quarters (union figures; other sources give higher totals)"
+    claim: ordered
+    legal_basis: "Rule 14(ii), Railway Employees (Discipline and Appeal) Rules, 1968 (as named by AIRF; the Deputy Railway Minister cited Rule 14 of the Discipline and Appeal Rules)"
+    description: "Employees were dismissed, removed or discharged, and those who struck had a break in service recorded. Defending the dismissals in the Rajya Sabha, the Deputy Railway Minister cited the rule that lets the disciplinary authority dispense with an inquiry when it records that one is not reasonably practicable. The government told the Rajya Sabha in August 1974 that 16,749 employees had been dismissed, removed or terminated, of whom 6,644 had been taken back by 5 August; that about 18,500 casual labourers had been discharged; and that about 5.5 lakh employees had a break in service, of which 1.4 lakh cases had been condoned. AIRF gives 10,329 permanent staff laid off, 5,630 temporary workers dismissed and 5.30 lakh breaks in service, and says families were forcibly removed from railway quarters. Other accounts give higher totals."
     actor: centre
-    sources: [s3, s2, s5]
+    sources: [s10, s11, s3, s2, s5]
+    figures:
+      - { what: dismissed or removed under Rule 14, value: "10,310 (3,203 reinstated on appeal)", claimed_by: "Government of India (Deputy Railway Minister, Rajya Sabha, 5 August 1974)", source: s10 }
+      - { what: dismissed, removed or terminated, value: "16,749 (6,644 taken back by 5 August 1974)", claimed_by: "Government of India (Railway Minister, Rajya Sabha, 6 August 1974)", source: s11 }
+      - { what: casual labourers discharged, value: "about 18,500 (9,458 taken back by 5 August 1974)", claimed_by: "Government of India (Railway Minister, Rajya Sabha, 6 August 1974)", source: s11 }
+      - { what: employees with a break in service, value: "about 5.5 lakh (550,000)", claimed_by: "Government of India (Railway Minister, Rajya Sabha, 5-6 August 1974)", source: s11 }
+      - { what: permanent employees laid off, value: "10,329", claimed_by: AIRF, source: s3 }
+      - { what: temporary workers dismissed, value: "5,630", claimed_by: AIRF, source: s3 }
+      - { what: permanent staff dismissed, value: "30,000", claimed_by: "Frontier (Harsh Thakor, 2024)", source: s2 }
   - type: concession
     date: 1977-03-28
-    description: "Janata government railway minister Madhu Dandavate announced in the Railway Budget speech that dismissed, removed and suspended employees would be reinstated and court cases withdrawn"
+    claim: ordered
+    description: "Janata government Railway Minister Madhu Dandavate laid the Railway Budget for 1977-78 on 28 March 1977 and, in his budget speech, announced that employees suspended or dismissed for taking part in the 1974 strike would be reinstated unconditionally within six weeks, with seniority restored and breaks in service condoned. He repeated the assurance in the Rajya Sabha on 30 March. AIRF says victimisation orders and court cases were also withdrawn."
     actor: centre
-    sources: [s3, s5]
+    sources: [s13, s14, s3]
 outcome: >
   The NCCRS called the strike off unconditionally on 27-28 May 1974 with no
   settlement of demands. Punitive orders against strikers were reversed after
@@ -65,67 +91,178 @@ positions:
     person: Indira Gandhi
     role_at_time: Prime Minister
     in_power: true
-    date: 1974-05
-    statement: "Declared the strike illegal and did not concede the demands while the strike continued"
-    sources: [s2, s5]
+    date: 1974-05-10
+    kind: verbatim
+    statement: "Speaking in the Lok Sabha on 10 May 1974, said the strike hurt the poor and unorganised most, according to the words Railway Minister L. N. Mishra quoted to the Rajya Sabha on 14 May"
+    quote:
+      text: "This strike has affected most the poor and the weaker sections of our society."
+      locator: "Rajya Sabha debates, 14 May 1974, cols. 118-119 (L. N. Mishra quoting the Prime Minister)"
+      source: s9
+    sources: [s9]
+  - party: INC
+    person: L. N. Mishra
+    role_at_time: Minister of Railways
+    in_power: true
+    date: 1974-05-14
+    kind: verbatim
+    statement: "Told the Rajya Sabha that the government was for a negotiated settlement but that there could be no negotiation until normalcy was restored on the railways"
+    quote:
+      text: "A situation has been created in which no negotiation is possible unless normalcy is restored."
+      locator: "Rajya Sabha debates, 14 May 1974, col. 147"
+      source: s9
+    sources: [s9]
   - party: other (Socialist Party)
     person: George Fernandes
     role_at_time: President, AIRF; convener, NCCRS
     in_power: false
     date: 1974-02-28
-    statement: "As NCCRS convener set a charter of demands including bonus, abolition of the casual labour system and dearness allowance revisions, and gave notice of an indefinite strike from 8 May 1974 after the government did not respond"
-    sources: [s3]
+    kind: paraphrase
+    statement: "As NCCRS convener led a charter of demands including bonus, abolition of the casual labour system and dearness allowance revisions, and the call for an indefinite strike from 8 May 1974. The Deputy Railway Minister described the AIRF unions' strike notices and demands to the Rajya Sabha on 2 May 1974"
+    sources: [s3, s5, s7]
   - party: CPI
     person: S.A. Dange
     role_at_time: AITUC leader
     in_power: false
     date: 1974-05
+    kind: paraphrase
     statement: "Urged striking workers to surrender, according to a Frontier reconstruction of the strike; the same account says the CPI(M) gave unconditional support"
     sources: [s5]
   - party: Janata Party
     person: Madhu Dandavate
     role_at_time: Minister of Railways
     in_power: true
-    date: 1977-03-28
-    statement: "Announced reinstatement of dismissed and suspended employees, withdrawal of victimisation orders and of court cases arising from the 1974 strike"
-    sources: [s3]
+    date: 1977-03-30
+    kind: verbatim
+    statement: "Told the Rajya Sabha that employees victimised for the 1974 strike would be taken back within six weeks, with seniority restored and breaks in service condoned, repeating what he had announced with the Railway Budget"
+    quote:
+      text: "Seniority will be retained. Break in service will be condoned. Everything will be completed in a time-bound phase, six weeks."
+      locator: "Rajya Sabha debates, 30 March 1977, cols. 121-122"
+      source: s14
+    sources: [s14]
 sources:
   - id: s1
     title: "The 1974 railway strike and George Fernandes"
     publisher: The Caravan
+    tier: secondary
     url: https://caravanmagazine.in/labour/1974-railway-strike-george-fernandes
     archive_date: 2026-04-30
     archive_url: https://web.archive.org/web/20260430140916/https://caravanmagazine.in/labour/1974-railway-strike-george-fernandes
-    date: 2019-01
+    date: 2026-04-30
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "A Forgotten Anniversary: The 1974 Railway Strike"
-    publisher: Frontier (Harsh Thakor), Vol 56 No 49
+    publisher: Frontier, Vol 56 No 49
+    author: Harsh Thakor
+    tier: secondary
     url: "https://frontierweekly.com/articles/vol-56/56-49/56-49-The 1974 Railway Strike.html"
     archive_date: 2024-06-14
     archive_url: https://web.archive.org/web/20240614183100/https://frontierweekly.com/articles/vol-56/56-49/56-49-The 1974 Railway Strike.html
     date: 2024-06-02
     type: news
+    accessed: 2026-10-15
   - id: s3
-    title: "1974 Railway Strike"
+    title: "Nation Remembers 1974 Strike on 8th May - AIRF to hold meetings to commemorate the Occasion"
     publisher: All India Railwaymen's Federation (union account)
+    tier: secondary
     url: https://www.airfindia.org/?p=13676
     date: 2023-05-08
     type: archive
+    accessed: 2026-10-15
   - id: s4
     title: "How the Fernandes brothers fought through Emergency - an interview with Michael Fernandes"
     publisher: The News Minute
+    author: Siddhartha Mishra
+    tier: secondary
     url: https://www.thenewsminute.com/amp/story/news/how-fernandes-brothers-fought-through-emergency-interview-michael-fernandes-31528
     date: 2015-06-25
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "Railway Strike: Present and Past"
-    publisher: Frontier (Asis Ranjan Sengupta), Vol 49 No 2
+    publisher: Frontier, Vol 49 No 2
+    author: Asis Ranjan Sengupta
+    tier: secondary
     url: "https://frontierweekly.com/archive/vol-number/vol/vol-49-2016-17/49-2/49-2-Railway Strike.html"
     archive_date: 2019-02-08
     archive_url: https://web.archive.org/web/20190208224513/https://frontierweekly.com/archive/vol-number/vol/vol-49-2016-17/49-2/49-2-Railway Strike.html
     date: 2016-07-17
     type: news
+    accessed: 2026-10-15
+  - id: s6
+    title: "INDIA: Strangulating Strike"
+    publisher: TIME
+    tier: secondary
+    url: https://content.time.com/time/subscriber/article/0,33009,944832,00.html
+    archive_date: 2017-04-30
+    archive_url: https://web.archive.org/web/20170430220634/https://content.time.com/time/subscriber/article/0,33009,944832,00.html
+    date: 1974-05-20
+    type: news
+    accessed: 2026-10-15
+  - id: s7
+    title: "Rajya Sabha official debates, 2 May 1974: reference to arrest of Shri George Fernandes; statement by Minister re threatened railway strike"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/88/F02.05.1974.pdf
+    date: 1974-05-02
+    type: official
+    accessed: 2026-10-15
+  - id: s8
+    title: "Rajya Sabha official debates, 7 May 1974: reference to strike by railway employees"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/88/F07.05.1974.pdf
+    date: 1974-05-07
+    type: official
+    accessed: 2026-10-15
+  - id: s9
+    title: "Rajya Sabha official debates, 14 May 1974: statement by Minister re strike situation on railways"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/88/F14.05.1974.pdf
+    date: 1974-05-14
+    type: official
+    accessed: 2026-10-15
+  - id: s10
+    title: "Rajya Sabha official debates, 5 August 1974: oral answers on dismissal of railway employees; written answers on arrests and break in service"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/89/F05.08.1974.pdf
+    date: 1974-08-05
+    type: official
+    accessed: 2026-10-15
+  - id: s11
+    title: "Rajya Sabha official debates, 6 August 1974: discussion on reported harassment, victimisation and break in service of railway employees"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/89/F06.08.1974.pdf
+    date: 1974-08-06
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: "Rajya Sabha official debates, 25 July 1974: written answer on deployment of CRP and BSF battalions during the railway strike"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/89/F25.07.1974.pdf
+    date: 1974-07-25
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: "Rajya Sabha official debates, 28 March 1977: Budget (Railways) 1977-78 laid on the Table"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/100/F28.03.1977.pdf
+    date: 1977-03-28
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: "Rajya Sabha official debates, 30 March 1977: general discussion on the Budget (Railways) 1977-78"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/100/F30.03.1977.pdf
+    date: 1977-03-30
+    type: official
+    accessed: 2026-10-15
 tags: [labour, railways, misa, strike, indira_gandhi]
 review:
   status: draft
