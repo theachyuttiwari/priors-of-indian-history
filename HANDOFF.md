@@ -49,9 +49,9 @@ PRIORS_SHOW_ALL=1 npm run build    # reviewer build: shows held-back claims with
 
 ## Content pass (step 6)
 
-Re-sourced against the evidence ladder, with every URL opened: 25 of 28 files. Still running or not
-started: `delhi-gang-rape-protests-2012`, `railway-strike-1974`, `jallikattu-protests-2017`. Until they
-are done, most of their claims are held back.
+Done: all 28 files re-sourced against the evidence ladder, with every URL opened. Every entry
+publishes. `lead-only`, `tier-missing`, `kind-missing` and `figures-missing` are now errors.
+Still todo: 168 below-minimum claims (held back), 224 archive-missing, 14 quote-unchecked.
 
 After each file: `npm run archive FILE`, `npm run match-quotes FILE`, check notable claims by hand,
 `npm run validate -- --strict`, commit.

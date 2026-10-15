@@ -185,10 +185,19 @@ describe("sourcing rules", () => {
     );
   });
 
-  it("reports a Wikipedia-only claim as a todo, not an error, while the rule is phased in", () => {
+  it("rejects a claim whose only source is Wikipedia", () => {
     const e = entry({ sources: [{ id: "s1", title: "t", url: "https://en.wikipedia.org/wiki/x" }] });
     const r = checkEntry(FILE, e);
-    expect(r.errors).toEqual([]);
-    expect(r.todos.filter((t) => t.rule === "lead-only")).toHaveLength(2);
+    expect(r.errors.filter((m) => m.includes("rests only on lead sources"))).toHaveLength(2);
+  });
+
+  it("rejects a source with no tier and a statement with no kind", () => {
+    const e = entry({
+      sources: [{ id: "s1", title: "t", url: "https://example.org/a" }],
+      positions: [{ party: "P", in_power: true, statement: "x", sources: ["s1"] }],
+    });
+    const r = checkEntry(FILE, e);
+    expect(r.errors).toContain("sources s1: no evidence tier");
+    expect(r.errors.some((m) => m.startsWith("positions[0]: mark kind"))).toBe(true);
   });
 });

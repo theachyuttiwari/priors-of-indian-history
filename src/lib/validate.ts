@@ -49,12 +49,12 @@ type RuleName =
  * failing. When the content passes a rule, change it to "error" here so it can never regress.
  */
 export const RULES: Record<RuleName, "todo" | "error"> = {
-  "lead-only": "todo", // a claim whose only sources are Wikipedia or fact-checkers
+  "lead-only": "error", // a claim whose only sources are Wikipedia or fact-checkers
   "below-minimum": "todo", // a claim below the minimum evidence for its kind
-  "tier-missing": "todo", // a source with no evidence tier
+  "tier-missing": "error", // a source with no evidence tier
   "archive-missing": "todo", // a source with no archive_url or accessed date
-  "kind-missing": "todo", // a statement not marked verbatim, translated or paraphrase
-  "figures-missing": "todo", // a count in a description with no attributed figures
+  "kind-missing": "error", // a statement not marked verbatim, translated or paraphrase
+  "figures-missing": "error", // a count in a description with no attributed figures
   "quote-unchecked": "todo", // a quote with no exact match on record in content/checks/quotes.json
 };
 export type Rule = RuleName;

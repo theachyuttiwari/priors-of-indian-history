@@ -12,8 +12,10 @@ export function entry(overrides: Record<string, unknown> = {}): Record<string, u
     actions: [
       { type: "section_144", date: "2020-01-02", description: "Order issued.", actor: "state", sources: ["s1"] },
     ],
-    positions: [{ party: "Centre Party", in_power: true, statement: "A statement.", sources: ["s1"] }],
-    sources: [{ id: "s1", title: "A report", publisher: "A paper", url: "https://example.org/a" }],
+    positions: [
+      { party: "Centre Party", in_power: true, statement: "A statement.", sources: ["s1"], kind: "paraphrase" },
+    ],
+    sources: [{ id: "s1", title: "A report", publisher: "A paper", url: "https://example.org/a", tier: "record" }],
     ...overrides,
   };
 }
