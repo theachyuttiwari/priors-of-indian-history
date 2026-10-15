@@ -153,5 +153,134 @@
       "result": "exact",
       "text_sha256": "1c9ce0407c5f4c3da3b58b32b37ed0071068bc85df5901be4097767f88a39054"
     }
+  },
+  "gujjar-agitation-rajasthan-2007-2008": {
+    "3cc6d12236001b2d": {
+      "position": 0,
+      "source": "s3",
+      "fetched": "https://www.arabnews.com/node/299068",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "76a66b92b15ea3cd": {
+      "position": 2,
+      "source": "s9",
+      "fetched": "https://www.outlookindia.com/national/scorched-pasture-news-234910",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "4f94e115d2d6bed919742598fc578bbf49c7faecdd72ab6e4bb4f582d944dde6",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "7cfcc59710eb8d8f": {
+      "position": 5,
+      "source": "s27",
+      "fetched": "https://web.archive.org/web/20070601231022id_/http://www.hindu.com/2007/05/30/stories/2007053010600100.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "b107ee3823c3f3a5bb8308175ec63e40e4cad102bca204c970e7d0df8858ff14"
+    },
+    "94f989e99826ad58": {
+      "position": 6,
+      "source": "s10",
+      "fetched": "https://www.outlookindia.com/national/resign-or-be-dismissed-news-234761",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "0977b951f942affcb9ebe06d3dac38cad889b49f4e429878edd177bdc35e3ab0",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "5c2786ba7aac4a98": {
+      "position": 8,
+      "source": "s35",
+      "fetched": "https://web.archive.org/web/20260505182602id_/https://cpim.org/bjp-governments-brutal-record-repression/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a3107113484a7abd39e35e40ba92f4120d51d32d81f0eb82193674c1a5dc3398"
+    },
+    "9dac7f1ec08329d0": {
+      "position": 9,
+      "source": "s2",
+      "fetched": "https://www.outlookindia.com/national/quota-kills-news-234757",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a256654adfa8da65efc7d90d96f8942d4f4c080a186b97d4d8118656a709a1a9",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "43b40620587998d2": {
+      "position": 10,
+      "source": "s42",
+      "fetched": "https://web.archive.org/web/20080601172037id_/http://www.hindu.com/2008/05/30/stories/2008053060951200.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "7c026d7eee7f47fcb427b2cb395870f90251ec73b47ceca975218d05d899aef9"
+    },
+    "92c664d478ffa1c5": {
+      "position": 11,
+      "source": "s44",
+      "fetched": "https://web.archive.org/web/20080619143327id_/http://www.hindu.com/2008/06/18/stories/2008061858640100.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "237c2f0effceac4b5d71cfebd05c4434f53d80b1257facd4c38f6e4cf6885bcc"
+    }
+  },
+  "telangana-agitation-2009-2011": {
+    "f397dd6b2b293ab1": {
+      "position": 0,
+      "source": "s18",
+      "fetched": "https://web.archive.org/web/20160331060522id_/https://indianexpress.com/article/india/latest-news/centre-says-a-guarded-yes-to-telangana/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "f8aa8cbfadc05b6f4fddd0d8be418e332f455244993463573892d1a2253b7311"
+    },
+    "0266c46df15cd02b": {
+      "position": 2,
+      "source": "s26",
+      "fetched": "https://web.archive.org/web/20100122140224id_/https://www.tribuneindia.com/2010/20100101/nation.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "2901f9204255ddb238e953351e81e8ddc0863683d87974aff8fccfb558d6d668"
+    },
+    "01b66ee832df8503": {
+      "position": 4,
+      "source": "s29",
+      "fetched": "https://elibrary.sansad.in/server/api/core/bitstreams/d9582c8d-8320-4005-913a-b964341398c0/content",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "eebf8ea1f3efbe836c54d73be9c89bb960e131631fc8ad0fd4985b3620852a06",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "08079376f342e472": {
+      "position": 7,
+      "source": "s13",
+      "fetched": "https://web.archive.org/web/20111010010628id_/https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "1013faf76ba36115c46ffd3ee070bc7b7614d36272eebb3e7027ec59c866b317"
+    },
+    "ecadc4268ea4fb26": {
+      "position": 9,
+      "source": "s30",
+      "fetched": "https://web.archive.org/web/20240611070221id_/https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/218/F10.12.2009.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a170daa50f908679cf230e10b1dbf4f6205f4de67e570169eabb65abd9e59c74"
+    },
+    "6af4f6c393380080": {
+      "position": 10,
+      "source": "s13",
+      "fetched": "https://web.archive.org/web/20111010010628id_/https://ummid.com/news/2011/September/13.09.2011/telangana_strike.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "1013faf76ba36115c46ffd3ee070bc7b7614d36272eebb3e7027ec59c866b317"
+    },
+    "466b9983f02d63bc": {
+      "position": 11,
+      "source": "s11",
+      "fetched": "https://www.governancenow.com/news/regular-story/million-march-telangana-leaders-taken-custody",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "0422c8ca5f96cc9b4e89a09f2c91897eeeb70df50deeb208c8689f64acf8b81a",
+      "note": "checked against the live page; archive the source and re-check"
+    }
   }
 }
