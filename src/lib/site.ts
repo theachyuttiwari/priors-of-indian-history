@@ -4,11 +4,10 @@ export const REPO = "https://github.com/theachyuttiwari/priors-of-indian-history
 export const CORRECTION_FORM = `${REPO}/issues/new?template=correction.yml`;
 
 /**
- * Counts of actions by party. Off until actions are attributed by place and date: an entry records
- * one state government, so an action in another state, or after a change of government, would be
- * counted for the wrong party. Statements are not affected; each records its own party.
+ * Counts of actions by party. Each action is attributed by place and date (content/governments).
+ * Set to false to hide every count, for example if the attribution tables are found to be wrong.
  */
-export const PARTY_COUNTS = false;
+export const PARTY_COUNTS = true;
 
 /** Shown wherever party counts would appear while PARTY_COUNTS is off. */
 export const PARTY_COUNTS_PAUSED =

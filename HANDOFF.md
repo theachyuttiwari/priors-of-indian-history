@@ -45,7 +45,7 @@ PRIORS_SHOW_ALL=1 npm run build    # reviewer build: shows held-back claims with
 - **Held back (decision C).** A claim below its evidence minimum is not published or counted
   (`holdBack()` in `src/lib/evidence.ts`, applied in `src/lib/content.ts`). Each entry says how many
   claims it holds back. An entry with no publishable action is not published.
-- **Party counts paused.** `PARTY_COUNTS = false` in `src/lib/site.ts`. See "Attribution" below.
+- **Party counts on**, attributed by place and date. See "Attribution" below.
 - Quotes are matched word for word against archived sources; results are in `content/checks/quotes.json`.
 
 ## Content pass (step 6)
@@ -65,7 +65,7 @@ Known gaps across files:
 - Many party statements have one bylined report only and are held back.
 - Commission reports not found online: Aruna Jagadeesan (Thoothukudi). Findings rest on reports.
 
-## Attribution (built; party counts still off)
+## Attribution (built; party counts on since 2026-10-15)
 
 Each action counts for the party in power where it happened, on its date. Rules: `content/SCHEMA.md`,
 "Which party an action counts for". Code: `src/lib/governments.ts` and `attribute()` in
@@ -80,7 +80,7 @@ Each action counts for the party in power where it happened, on its date. Rules:
 - Party spellings map to one label in `src/lib/parties.ts`.
 - The "where" line under each entry now names who acted (`whereLine()`).
 
-Before `PARTY_COUNTS = true` in `src/lib/site.ts`: the owner reviews the per-party counts. Weak
+The owner approved the counts on 2026-10-15 and `PARTY_COUNTS` is true in `src/lib/site.ts`. Weak
 points: many party labels in the Maharashtra, Karnataka, Andhra Pradesh and Manipur tables rest on
 one official list plus Wikipedia; the official Assam list stops in 2022.
 

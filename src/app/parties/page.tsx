@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { count } from "@/lib/format";
 import { allParties, partyRecord } from "@/lib/content";
 import { partySlug } from "@/components/PartyMark";
 import PartyFlag from "@/components/PartyFlag";
@@ -34,7 +35,7 @@ export default function PartiesPage() {
                 </span>
                 <span className="block small num mt-0.5">
                   {PARTY_COUNTS
-                    ? `${r.inPower.length} cases in power, ${r.statementsInOpposition.length} statements in opposition`
+                    ? `${count(r.inPower.length, "case")} in power, ${count(r.statementsInOpposition.length, "statement")} in opposition`
                     : `${r.statementsInPower.length} statements in power, ${r.statementsInOpposition.length} in opposition`}
                 </span>
               </span>

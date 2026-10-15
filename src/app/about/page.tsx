@@ -120,7 +120,7 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <section>
+      <section id="counts">
         <h2 className="t-2">How counts work</h2>
         <p className="text-ink-2 mt-3">
           Each action counts for the party in power where it happened, on the day it happened. An action by the Centre

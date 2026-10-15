@@ -95,9 +95,12 @@ function Grid({ m }: { m: ReturnType<typeof matrix> }) {
         Count of recorded actions while in charge. A count, not a measure of severity.
       </p>
       <p className="text-[15px] text-ink-2 mt-4 measure">
-        Actions by the Centre count for the party ruling the Centre. Actions by a state government or its police count
-        for the party ruling that state. Courts count for no one. Parties with more years in power and more documented
-        cases have higher numbers. Read a row, then open the party page.
+        Each action counts for the party in power where it happened, on that date. Delhi Police, President’s Rule and
+        territories run by the Centre count for the party ruling the Centre. Courts and commissions count for no one.
+        Parties with more years in power and more documented cases have higher numbers.{" "}
+        <Link href="/about/#counts" className="link">
+          How counts work
+        </Link>
       </p>
 
       <div className="mt-8 sm:hidden">

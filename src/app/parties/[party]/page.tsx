@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { count } from "@/lib/format";
 import StatementText from "@/components/StatementText";
 import { allParties, partyRecord, fmtDate, type PartyRecord, isCurrent, entryHref } from "@/lib/content";
 import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
@@ -61,7 +62,7 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
           {party}
         </h1>
         <p className="small num mt-3">
-          {PARTY_COUNTS && `${r.inPower.length} cases while in power, `}
+          {PARTY_COUNTS && `${count(r.inPower.length, "case")} while in power, `}
           {r.statementsInPower.length} statements in power, {r.statementsInOpposition.length} in opposition
         </p>
         {!PARTY_COUNTS && <p className="text-[15px] text-ink-2 mt-4 measure">{PARTY_COUNTS_PAUSED}</p>}
