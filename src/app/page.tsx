@@ -22,10 +22,9 @@ export default function Home() {
   return (
     <div className="space-y-16 sm:space-y-24">
       <section>
-        <h1 className="t-hero">What did they do before?</h1>
+        <h1 className="t-hero">How India&apos;s governments have handled protests</h1>
         <p className="lede mt-5 measure">
-          Protests in India since {s.from}, and how the Centre and the states answered them under every party. Every
-          claim links to a dated source.
+          Since {s.from}, under every party, at the Centre and in the states. Every claim links to a dated source.
         </p>
         <div className="mt-8 sm:mt-14">
           <YearStrip precedents={precedents} current={current[0]} />
@@ -70,7 +69,7 @@ export default function Home() {
                   {sims.length > 0 && (
                     <div className="mt-8">
                       <p className="small">
-                        Closest priors, by shared actions. Faded glyphs are actions the current event does not share.
+                        Closest precedents, by shared actions. Faded names are actions the current event does not share.
                       </p>
                       <div className="rows mt-2 border-t border-line">
                         {sims.map(({ p, shared }) => (
