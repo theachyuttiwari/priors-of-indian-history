@@ -4,7 +4,6 @@ import { PARTY_COUNTS, PARTY_COUNTS_PAUSED } from "@/lib/site";
 import StatementText from "@/components/StatementText";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
-import Glyph, { GlyphLegend } from "@/components/Glyph";
 import ByAction from "./ByAction";
 
 export const metadata = { title: "Compare" };
@@ -100,7 +99,6 @@ function Grid({ m }: { m: ReturnType<typeof matrix> }) {
         for the party ruling that state. Courts count for no one. Parties with more years in power and more documented
         cases have higher numbers. Read a row, then open the party page.
       </p>
-      <GlyphLegend className="mt-6" />
 
       <div className="mt-8 sm:hidden">
         <ByAction
@@ -125,7 +123,6 @@ function Grid({ m }: { m: ReturnType<typeof matrix> }) {
               {m.types.map((t) => (
                 <th key={t} className="align-bottom px-1 pb-1 w-[68px]">
                   <span className="flex flex-col items-center gap-1 text-[12px] leading-tight text-ink-2">
-                    <Glyph group={ACTION_META[t].group} />
                     {SHORT[t] ?? ACTION_META[t].label}
                   </span>
                 </th>

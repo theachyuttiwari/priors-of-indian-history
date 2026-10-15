@@ -3,7 +3,6 @@ import { ACTION_META } from "@/lib/schema";
 import { fmtDate } from "@/lib/content";
 import { claimOf } from "@/lib/evidence";
 import { EvidenceMark } from "./Evidence";
-import Glyph from "./Glyph";
 import SourceRefs from "./SourceRefs";
 
 const ACTOR: Record<string, string> = {
@@ -22,7 +21,7 @@ export default function Timeline({ p }: { p: Precedent }) {
         <li key={i} className="tl-item">
           <span className="tl-date num">{fmtDate(a.date) || "Date not recorded"}</span>
           <span className="tl-glyph">
-            <Glyph group={ACTION_META[a.type].group} />
+            <span className="tl-dot" />
           </span>
           <div className="tl-body">
             <p className="flex flex-wrap items-baseline gap-x-3">

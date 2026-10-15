@@ -6,7 +6,6 @@ import { ACTION_TYPES, ACTION_META } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
 import PartyFlag from "@/components/PartyFlag";
 import PrecedentRow from "@/components/PrecedentRow";
-import Glyph from "@/components/Glyph";
 import { PARTY_COUNTS, PARTY_COUNTS_PAUSED } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -74,10 +73,7 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
           <ul className="space-y-2.5 max-w-2xl">
             {rows.map((t) => (
               <li key={t} className="grid grid-cols-[12rem_1fr_2rem] items-center gap-3 text-[15px]">
-                <span className="chip text-[15px]">
-                  <Glyph group={ACTION_META[t].group} />
-                  {ACTION_META[t].label}
-                </span>
+                <span className="chip text-[15px]">{ACTION_META[t].label}</span>
                 <span
                   className="h-2 rounded-full bg-ink-3"
                   style={{ width: `${(r.actions[t] / max) * 100}%`, minWidth: 4 }}

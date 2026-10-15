@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ACTION_META, type ActionType } from "@/lib/schema";
-import Glyph from "@/components/Glyph";
 import PartyFlag from "@/components/PartyFlag";
 
 type Row = { party: string; slug: string; cases: number; counts: Partial<Record<ActionType, number>> };
@@ -17,9 +16,6 @@ export default function ByAction({ rows, types, initial }: { rows: Row[]; types:
   return (
     <div>
       <label className="flex items-center gap-3">
-        <span className="text-ink-2 flex">
-          <Glyph group={ACTION_META[type].group} />
-        </span>
         <select
           className="field flex-1"
           aria-label="Action"

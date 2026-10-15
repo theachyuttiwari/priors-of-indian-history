@@ -13,7 +13,6 @@ import PrecedentRow from "@/components/PrecedentRow";
 import { PARTY_COUNTS } from "@/lib/site";
 import ActionChip from "@/components/ActionChip";
 import YearStrip from "@/components/YearStrip";
-import { GlyphLegend } from "@/components/Glyph";
 
 export default function Home() {
   const current = getCurrent();
@@ -95,7 +94,6 @@ export default function Home() {
             {fmtDate(siteUpdated())}.
           </p>
         </div>
-        <GlyphLegend className="mt-4" />
         <div className="rows mt-4 border-t border-line">
           {recent.map((p) => (
             <PrecedentRow key={p.id} p={p} />

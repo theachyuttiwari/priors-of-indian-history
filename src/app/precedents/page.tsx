@@ -1,5 +1,4 @@
 import { getPrecedents } from "@/lib/content";
-import { GlyphLegend } from "@/components/Glyph";
 import PrecedentList from "./PrecedentList";
 
 export const metadata = { title: "Precedents" };
@@ -25,7 +24,6 @@ export default function PrecedentsPage() {
         Each entry is one protest and one government&apos;s answer to it. Filter by the party in charge or by the kind
         of action taken.
       </p>
-      <GlyphLegend className="mt-6" />
       <PrecedentList items={ps} />
     </div>
   );

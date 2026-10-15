@@ -3,7 +3,6 @@ import { fmtDate, years } from "@/lib/format";
 import { ACTION_META, ACTION_TYPES, type ActionType, type Precedent } from "@/lib/schema";
 import { claimOf } from "@/lib/evidence";
 import { EvidenceMark } from "./Evidence";
-import Glyph from "./Glyph";
 
 type Col = { p: Precedent; href?: string; now?: boolean };
 
@@ -52,7 +51,6 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
     <details className="sbs-row">
       <summary className="sbs-grid">
         <span className="sbs-label">
-          <Glyph group={ACTION_META[t].group} />
           <span>{ACTION_META[t].label}</span>
         </span>
         {cols.map((c) => (

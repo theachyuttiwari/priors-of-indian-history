@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { years } from "@/lib/format";
 import { ACTION_META, type ActionType } from "@/lib/schema";
-import { GroupGlyphs } from "@/components/Glyph";
+import ActionWords from "@/components/ActionWords";
 
 type Item = {
   id: string;
@@ -70,9 +70,9 @@ export default function PrecedentList({ items }: { items: Item[] }) {
             <span>
               <span className="row-title">{i.title}</span>
               <span className="block small mt-0.5">{i.where}</span>
+              <ActionWords types={i.types} highlight={type ? [type] : undefined} />
               <span className="clamp clamp-2 text-[15px] text-ink-2 mt-2 measure">{i.summary}</span>
             </span>
-            <GroupGlyphs types={i.types} highlight={type ? [type] : undefined} />
           </Link>
         ))}
       </div>

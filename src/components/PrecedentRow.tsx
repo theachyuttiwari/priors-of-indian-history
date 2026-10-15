@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ActionType, Precedent } from "@/lib/schema";
 import { fmtPeriod, years } from "@/lib/format";
 import ActionChip from "./ActionChip";
-import { GroupGlyphs } from "./Glyph";
+import ActionWords from "./ActionWords";
 
 /** One precedent as a row with one hairline. `detail` adds the summary and labelled chips. */
 export default function PrecedentRow({
@@ -28,6 +28,7 @@ export default function PrecedentRow({
       <span>
         <span className="row-title">{p.title}</span>
         <span className="block small mt-0.5">{where}</span>
+        {!detail && <ActionWords types={types} highlight={highlight} />}
         {detail && (
           <>
             <span className="clamp clamp-2 text-[15px] text-ink-2 mt-2 measure">{p.summary}</span>
@@ -39,7 +40,6 @@ export default function PrecedentRow({
           </>
         )}
       </span>
-      {!detail && <GroupGlyphs types={types} highlight={highlight} />}
     </Link>
   );
 }
