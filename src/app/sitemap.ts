@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allParties, entryHref, entryUpdated, getCurrent, getPrecedents, siteUpdated } from "@/lib/content";
 import { partySlug } from "@/components/PartyMark";
 import { SITE_URL } from "@/lib/site";
+import { allActions } from "@/lib/actions";
 
 export const dynamic = "force-static";
 
@@ -19,5 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE_URL}/parties/${partySlug(party)}/`,
     lastModified: updated,
   }));
-  return [...pages, ...entries, ...parties];
+  const actions = allActions().map((x) => ({
+    url: `${SITE_URL}${x.href}`,
+    lastModified: entryUpdated(x.p) ?? updated,
+  }));
+  return [...pages, ...entries, ...actions, ...parties];
 }

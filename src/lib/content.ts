@@ -151,7 +151,7 @@ export function actionParties(p: Precedent, a: ActionRef): string[] {
 type ActionRef = Pick<Action, "actor" | "state"> & { date?: string };
 
 /** Each party an action counts for, with the place it acted through: "Centre", a state, or "Delhi Police". */
-function attribute(p: Precedent, a: ActionRef): { party: string; place: string }[] {
+export function attribute(p: Precedent, a: ActionRef): { party: string; place: string }[] {
   if (a.actor === "court" || a.actor === "other") return [];
   const date = a.date ?? p.period.start;
   const govs = governments();

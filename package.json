@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "build": "npm run cards && next build --webpack",
+    "cards": "tsx pipeline/cards.tsx",
     "start": "npx serve out",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

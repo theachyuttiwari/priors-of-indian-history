@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Precedent } from "@/lib/schema";
+import { entryActions } from "@/lib/actions";
 import { ACTION_META } from "@/lib/schema";
 import { fmtDate } from "@/lib/content";
 import { claimOf } from "@/lib/evidence";
@@ -14,6 +16,7 @@ const ACTOR: Record<string, string> = {
 };
 
 export default function Timeline({ p }: { p: Precedent }) {
+  const pages = entryActions(p);
   const actions = [...p.actions].sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
   return (
     <ol className="timeline">
@@ -29,6 +32,9 @@ export default function Timeline({ p }: { p: Precedent }) {
               <span className="small">{ACTOR[a.actor] ?? a.actor}</span>
               <SourceRefs p={p} ids={a.sources} className="small" />
               <EvidenceMark claim={claimOf(a)} sources={p.sources.filter((s) => a.sources.includes(s.id))} />
+              <Link href={pages.find((x) => x.a === a)!.href} className="small link">
+                Share
+              </Link>
             </p>
             <p className="text-[15px] text-ink-2 mt-1 measure">{a.description}</p>
             {a.legal_basis && <p className="small mt-1">Under {a.legal_basis}</p>}

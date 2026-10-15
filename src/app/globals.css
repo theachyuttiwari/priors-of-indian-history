@@ -619,3 +619,20 @@ a.row:hover .row-title {
   stroke: var(--line);
   stroke-width: 1;
 }
+
+/* The one filled button: share an action on X. */
+.share-x {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+.share-x:hover {
+  opacity: 0.85;
+}

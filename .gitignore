@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# share cards, drawn by npm run cards before each build
+/public/cards/
