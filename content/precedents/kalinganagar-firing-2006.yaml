@@ -3,11 +3,11 @@ title: Kalinganagar police firing
 summary: >
   On 2 January 2006, police at Kalinganagar in Jajpur district, Orissa (now Odisha), fired on Adivasi
   villagers who were opposing construction of a boundary wall for a proposed Tata Steel plant on land
-  acquired by the state's industrial development corporation. Twelve villagers died on the spot and one
-  policeman was killed; later counts put the villager toll at 13 or 14 as injured people died. The
-  BJD-BJP state government ordered a judicial inquiry, announced ex gratia payments and transferred the
+  acquired by the state's industrial development corporation. The state government's count was 12
+  villagers and one police havildar killed; later reports give 13 or 14 villagers as injured people died.
+  The BJD-BJP state government ordered a judicial inquiry, raised ex gratia payments and transferred the
   district collector and superintendent of police, while the Bisthapan Virodhi Jan Manch blockaded the
-  Daitari-Paradip highway for about 14 months.
+  Daitari-Paradip highway (NH-200) for about 14 months.
 period:
   start: 2006-01-02
   end: 2007-03-09
@@ -33,261 +33,556 @@ government:
 actions:
   - type: tear_gas
     date: 2006-01-02
-    description: "Police escorting Tata Steel officials and a bulldozer, with about 12 platoons of armed personnel, used tear gas and rubber bullets after a confrontation began near the boundary wall site. Villagers said police fired without provocation; police said they acted after brickbats and arrows were thrown."
+    claim: happened
+    description: "About 12 platoons of armed police were deployed at the site where contractors began building a boundary wall for Tata Steel. Police burst tear gas shells and, by the commission of inquiry's account, also fired stinger and stun shells, rubber bullets and shots in the air before live firing. Police said the crowd threw stones and bricks and shot arrows; some injured villagers said they retaliated only after police fired, and the PUDR said a four-member delegation of villagers had gone to meet the Collector and SP when the attack began."
     actor: police
-    sources: [s1, s2, s7]
+    sources: [s19, s23, s30, s1, s2, s7]
+    figures:
+      - { what: "armed police platoons at the site", value: "12 platoons (over 500 armed personnel)", claimed_by: "Mohanty commission report, as reported by NewsClick", source: s30 }
+      - { what: "armed police at the site", value: "around 700 policemen", claimed_by: "villagers and citizen groups, as reported by Down To Earth", source: s2 }
   - type: firing
     date: 2006-01-02
-    description: "Police opened fire on the crowd. The toll is contested: Amnesty International and PUDR record 12 Adivasis killed, including three women and a 12-year-old boy, plus one policeman; later reports give 13 villagers, and PTI in 2025 reported 14 (12 on the spot and two who died later) with about 60 injured by bullets."
+    claim: happened
+    description: "Police opened fire on the crowd. A police havildar, Gopa Prasad Mohanty, was killed; police said he was hacked to death and that they fired in self-defence. The death toll is contested: the first police count was six tribals and one policeman, the state government's report to the Centre gave 12 agitators and one havildar killed (three of them in hospital), Amnesty International records 12 Adivasis including three women and a 12-year-old boy plus one policeman, PTI's report on the Mohanty commission gives 13 killed and 27 injured, and later reports by PTI and Down To Earth give 14 villagers."
     actor: police
-    sources: [s2, s4, s7, s12, s13]
+    sources: [s23, s24, s19, s20, s27, s4, s32, s12, s34, s35, s13]
+    figures:
+      - { what: killed (initial count), value: "six tribals and one policeman", claimed_by: police, source: s23 }
+      - { what: killed (initial count), value: "toll did not exceed nine", claimed_by: "Jajpur SP Binaytosh Mishra", source: s13 }
+      - { what: killed, value: "13 (12 agitators and one police havildar), three of them while undergoing treatment", claimed_by: "Union Home Minister, citing the Orissa government's report", source: s27 }
+      - { what: killed, value: "12 tribals and one policeman", claimed_by: "The Hindu (Prafulla Das)", source: s24 }
+      - { what: killed, value: "12 Adivasis, including three women and a 12-year-old boy, and one policeman", claimed_by: Amnesty International, source: s4 }
+      - { what: killed, value: "13 persons, and one police constable", claimed_by: "PTI, reporting the Mohanty commission report", source: s32 }
+      - { what: villagers killed, value: "14 (12 on the spot, two of the injured later)", claimed_by: "PTI, 2025 anniversary report", source: s12 }
+      - { what: villagers killed, value: "14, including three women", claimed_by: "Down To Earth (Ashis Senapati)", source: s34 }
+      - { what: injured, value: "around 40 tribals and police personnel seriously injured", claimed_by: "The Hindu (Prafulla Das), 2 January", source: s23 }
+      - { what: injured, value: "27", claimed_by: "PTI, reporting the Mohanty commission report", source: s32 }
+      - { what: injured, value: "37 villagers and four policemen", claimed_by: Hindustan Times, source: s35 }
+      - { what: injured by bullets, value: "60", claimed_by: "PTI, 2025 anniversary report", source: s12 }
   - type: curfew
     date: 2006-01-02
-    description: "A curfew was imposed in the Kalinganagar area on the evening of 2 January and lifted at about 6 a.m. on 3 January."
+    description: "A curfew was imposed at Kalinga Nagar on the afternoon of 2 January as more villagers reached the site, and additional forces were deployed. The curfew was lifted on the morning of 3 January."
     actor: state
-    sources: [s13]
+    sources: [s23, s24, s20, s13]
   - type: other
-    date: 2006-01
-    description: "The Jajpur district collector (Saswat Mishra) and superintendent of police (Binaytosh Mishra), who were present at the firing, were transferred. By February 2006 Arabinda Padhee was collector. Protesters had demanded their suspension and prosecution."
+    date: 2006-01-05
+    claim: ordered
+    description: "The state government transferred the Jajpur Collector (Saswat Mishra) and Superintendent of Police (Vinaytosh Mishra), who were present during the clash, on 5 January 2006. Arabinda Padhi and Asit Panigrahi were posted to Jajpur in their place. Protesters and the PUDR had demanded their suspension or dismissal and prosecution."
     actor: state
-    sources: [s1, s13, s14]
+    sources: [s27, s21, s25, s1, s14]
   - type: other
     date: 2006-01-07
-    description: "During the dawn-to-dusk Orissa bandh called by the Kalinga Nagar Surakhya Parishad and backed by opposition parties, the state deployed about 164 platoons of police in sensitive and industrial areas and declared a holiday for educational institutions."
+    claim: happened
+    description: "For the dawn-to-dusk Orissa bandh called by the Kalinga Nagar Surakhya Parishad and backed by opposition parties, the state stationed additional armed police platoons across the state and declared a holiday in all educational institutions. The Hindu reported that police stood by during rallies and roadblocks, that hundreds of bandh supporters courted arrest and that the bandh passed off without any major untoward incident."
     actor: state
-    sources: [s5]
+    sources: [s26, s22, s5]
+    figures:
+      - { what: "police platoons deployed in sensitive areas and industrial pockets", value: "about 164", claimed_by: "Orissa DGP Suchit Das, via UNI", source: s5 }
+      - { what: "additional armed police platoons stationed across the state", value: "154", claimed_by: "The Telegraph (Debabrata Mohanty)", source: s22 }
   - type: concession
-    date: 2006-01
-    description: "Chief Minister Naveen Patnaik first announced ex gratia of Rs 1 lakh for each family of the dead and reimbursement of medical costs for the injured. By 2 February 2006 the state had raised this to Rs 5 lakh per family and the Centre agreed to a further Rs 5 lakh per family. The families refused the money and demanded Rs 20 lakh per death, five acres of land per acre acquired and action against officials. By early 2007 only one of 13 families had accepted the Rs 10 lakh offer."
+    date: 2006-01-02
+    description: "Chief Minister Naveen Patnaik announced ex gratia of Rs 1 lakh for each family of the dead on 2 January and raised it to Rs 5 lakh on 5 January. The state also offered Rs 50,000 and free treatment to each injured person and a job for one member of each affected family. The Centre announced a further Rs 5 lakh per family from the Prime Minister's National Relief Fund. The families did not take the money: the Union Home Minister told the Lok Sabha that payment could not be made because the next of kin had not given bank account numbers, while reports said the families refused it and demanded Rs 20 lakh per death, five acres of land per acre acquired and action against officials. An essay in Down To Earth reported in February 2007 that only one of 13 families had accepted the Rs 10 lakh offer."
     actor: state
-    sources: [s13, s14, s9, s4]
+    sources: [s27, s19, s21, s25, s14, s9, s4]
+    figures:
+      - { what: "injured persons to receive Rs 50,000 each", value: "32", claimed_by: "The Telegraph (Debabrata Mohanty)", source: s21 }
+      - { what: "families who had accepted the Rs 10 lakh offer by early 2007", value: "one of 13", claimed_by: "Joan Martinez-Alier and Leah Temper, Down To Earth", source: s9 }
   - type: commission_of_inquiry
-    date: 2006-01
-    description: "The state ordered a judicial inquiry headed by a sitting High Court judge, Justice A.S. Naidu. The commission was dissolved in May 2007 after the Supreme Court ruled that sitting judges could not head such inquiries. A Justice R.K. Patra commission formed in January 2008 was dissolved when he became Lokpal. The Justice P.K. Mohanty commission then took over and submitted its report on 3 July 2015."
+    date: 2006-01-03
+    legal_basis: Commissions of Inquiry Act, 1952
+    description: "On 3 January 2006 the state government announced a judicial inquiry by a sitting High Court judge. The Hindu reported on 8 January that the High Court had first said no judge could be spared. By March 2006 the state had set up a commission of a sitting Orissa High Court judge under the Commissions of Inquiry Act, 1952, to report within six months. According to Sabrang India, this Justice A.S. Naidu commission was dissolved in May 2007 after the Supreme Court ruled that sitting judges could not head such inquiries, and a Justice R.K. Patra commission formed in January 2008 was dissolved when he became Lokpal. PTI reported that Justice P.K. Mohanty was appointed on 4 September 2009; his commission submitted its report on 3 July 2015, and the state accepted it on 8 June 2016."
     actor: state
-    sources: [s3, s4, s15]
+    sources: [s27, s29, s24, s20, s26, s32, s3, s15, s4]
   - type: barricading
-    date: 2006-01
-    description: "The Bisthapan Virodhi Jan Manch blocked the Daitari-Paradip Express Highway (reported as NH-200) from the days after the firing, dug up the road surface, and barricaded the plant site and nearby villages against entry by officials. The blockade lasted about 14 months."
+    date: 2006-01-03
+    claim: happened
+    description: "From 3 January 2006 villagers blocked the Daitari-Paradip Express Highway (National Highway 200) near Gobarghati and Ambagadia, first with four of the bodies, and dug up the road surface. The Bisthapan Virodhi Jan Manch kept the blockade for about 14 months and barricaded the plant site and nearby villages against entry by officials. The Orissa High Court later recorded that the blockade of NH-200 had continued for more than a year."
     actor: other
-    sources: [s2, s8, s9, s14]
+    sources: [s24, s20, s28, s2, s8, s4, s14]
   - type: negotiation
     date: 2006-05
     description: "Talks between Adivasi representatives and the state government in May 2006 did not produce a settlement. At a meeting between a Kalinganagar organisation and a government delegation headed by the Chief Minister, the government agreed to return the severed palms of five victims to their families."
     actor: state
     sources: [s4, s16]
   - type: other
-    date: 2006-05
-    description: "Doctors who severed the palms of five unidentified bodies during post-mortems, reportedly for fingerprint identification, were suspended; the Orissa Human Rights Commission criticised the act. The Mohanty commission later held three doctors responsible but found no oblique intent. In November 2018 the preserved palms, which families had refused pending DNA tests, were found dumped near the memorial."
+    date: 2006-01-05
+    claim: happened
+    description: "Doctors at the Jajpur district hospital cut off the palms of five of the dead during post-mortems; police said this was to take fingerprints for identification. On the night of 5 January the Chief Minister ordered the suspension of three doctors. The doctors said they were following police orders, and the chief district medical officer said he ordered the cutting after a written requisition from the Jajpur town police station; police later blamed the doctors. The state also asked the Orissa Human Rights Commission to inquire into allegations that private parts of the dead were mutilated. The Orissa Post reported in 2017 that the commission found the doctors had violated their service conduct rules, that the High Court barred punitive action against them and that their suspension was revoked; PTI and the Hindustan Times reported in 2018 that the doctors had been dismissed. According to NewsClick, the Mohanty commission found that the doctors had severed the palms without authority and contrary to the police request, and, according to a citizens' statement, absolved them of any oblique intent. In May 2006 the state agreed to return the palms; families refused them and demanded DNA tests. In November 2018 the preserved palms were taken from a club and found scattered near the memorial pillar."
     actor: state
-    sources: [s16, s10, s15, s17]
+    sources: [s22, s30, s27, s11, s16, s10, s35, s17, s15, s13]
   - type: section_144
     date: 2007-03
-    description: "After the Orissa High Court set a 9 March 2007 deadline for the government to clear the highway, the administration imposed prohibitory orders under Section 144 CrPC and mobilised about 35 platoons of armed police. The Jan Manch lifted the blockade from midnight on 8-9 March 2007 after talks with Collector Arabinda Padhee and SP Asit Kumar Panigrahi, while saying its opposition to land acquisition would continue."
+    legal_basis: Section 144 CrPC, as reported by UNI
+    description: "On 5 January 2007 the Orissa High Court, hearing a petition by a resident whose son died after being stopped at the blockade, directed the state to take effective steps to remove the NH-200 blockade immediately. In early March 2007 the administration imposed prohibitory orders under Section 144 CrPC in the area and mobilised about 35 platoons of armed police. Collector Arabinda Padhi and SP Asit Kumar Panigrahi failed to persuade the protesters on 8 March. The Jan Manch then lifted the blockade from midnight on 8-9 March 2007, citing the High Court order, while saying its opposition to land acquisition would continue. On 9 March state counsel told the High Court that the blockade had been removed."
     actor: state
-    sources: [s6]
+    sources: [s6, s28]
+    figures:
+      - { what: "armed police platoons mobilised", value: "nearly 35", claimed_by: "UNI", source: s6 }
+    court_outcomes:
+      - summary: "On 5 January 2007 the Orissa High Court directed the state to remove the NH-200 blockade at Kalinga Nagar; in its October 2007 judgment it held the blockade to be a breach of public order and directed action on the petitioner's FIR."
+        source: s28
   - type: other
-    date: 2017-12
-    description: "The Mohanty commission report was tabled in the Odisha Assembly in December 2017, about two years after submission and after the High Court pressed the state to file it. It found the executive magistrate ordered firing only after other measures failed, blamed local leaders and political parties for leading villagers toward confrontation, and recommended welfare schemes for land losers, a job for one member of each bereaved family and extra compensation for the injured. The state's action-taken report said Rs 16.5 lakh in additional ex gratia had been paid to the injured and the Orissa R&R policy had been amended. In 2019 the district still listed 605 pending R&R claims from Tata Steel's package."
+    date: 2017-12-14
+    claim: happened
+    description: "The Mohanty commission report and the state's action-taken report were tabled in the Odisha Assembly on 14 December 2017, about two and a half years after submission. The state cabinet had approved tabling in May 2017, when Congress and BJP leaders criticised the report for holding no one responsible. The Orissa High Court had earlier pressed the state to file the report before it. The commission found that there was no option for the executive magistrate but to order live firing after tear gas, stinger and stun shells, rubber bullets and firing in the air failed. It said some local leaders, political parties and others had led villagers toward confrontation, and it recommended welfare schemes for land losers, a job for one member of each bereaved family and extra compensation for the injured. The state said the recommendations had been complied with, including Rs 16.5 lakh in additional ex gratia for the injured. Residents and activists quoted by The Quint and NewsClick rejected the report. In January 2019 the Orissa Post, citing unnamed sources, reported that 605 R&R issues from Tata Steel's package were unresolved."
     actor: state
-    sources: [s3, s11, s17, s18]
+    sources: [s30, s31, s3, s32, s33, s11, s17, s18]
+    figures:
+      - { what: "additional ex gratia released for injured persons", value: "Rs 16,50,000", claimed_by: "Odisha government action-taken report, as reported by the Orissa Post", source: s3 }
+      - { what: "unresolved R&R issues from Tata Steel's package", value: "605", claimed_by: "unnamed sources, as reported by the Orissa Post", source: s18 }
 outcome: >
-  The highway blockade ended on 9 March 2007 under a High Court deadline, and Tata Steel's Kalinganagar plant was later built. Three successive inquiry commissions were set up; the final Mohanty report, submitted in 2015 and tabled in 2017, held the firing to be justified and no official was prosecuted. Families contested the ex gratia and rehabilitation terms for years, and the death toll remains reported as 12, 13 or 14 villagers plus one policeman.
+  The highway blockade ended on 9 March 2007 after the Orissa High Court directed the state to clear it, and Tata Steel's Kalinganagar plant was later built. Three successive inquiry commissions were set up; the final Mohanty report, submitted in 2015 and tabled in 2017, held that the executive magistrate had no option but to order firing, and no official was held responsible. Families contested the ex gratia and rehabilitation terms for years, and the death toll remains reported as 12, 13 or 14 villagers plus one policeman.
 positions:
   - party: BJD
     person: Naveen Patnaik
     role_at_time: Chief Minister of Orissa and Home Minister
     in_power: true
-    date: 2006-01-03
-    statement: "Called the incident \"very unfortunate\", announced Rs 1 lakh ex gratia per family and a judicial inquiry headed by a sitting High Court judge."
-    sources: [s13]
+    date: 2006-01-02
+    kind: paraphrase
+    statement: "Described the police firing as unfortunate, announced ex gratia of Rs 1 lakh for each family of the dead and promised to reimburse medical expenses of the injured, and sought a report on the incident."
+    sources: [s19, s13, s27]
   - party: BJD
     person: Damodar Rout
-    role_at_time: BJD secretary-general
+    role_at_time: BJD secretary-general and Panchayati Raj Minister
     in_power: true
-    date: 2006-01-08
-    statement: "Called the BJP state president's threat to pull out of the coalition \"both unfortunate and deplorable\"."
+    date: 2006-01
+    kind: verbatim
+    statement: "Criticised BJP state president Jual Oram's threat to pull out of the coalition, and said the industries and revenue departments involved were headed by BJP ministers."
+    quote:
+      text: "both unfortunate and deplorable"
+      locator: "Item on the BJP central leadership and Jual Oram, paragraph beginning 'The ally BJD'"
+      source: s14
     sources: [s14]
   - party: BJP
     person: Jual Oram
-    role_at_time: BJP Orissa state president, coalition partner
+    role_at_time: BJP Orissa state president and Lok Sabha MP, coalition partner
     in_power: true
-    date: 2006-01-08
-    statement: "Threatened to withdraw BJP support from the Naveen Patnaik government over the killings, then toned down after talks with the party leadership."
-    sources: [s14]
+    date: 2006-01-06
+    kind: paraphrase
+    statement: "Said the BJP should withdraw support from the Naveen Patnaik government over the killings and held the government responsible, then toned down his criticism after meeting the party leadership."
+    sources: [s14, s36]
   - party: BJP
     person: Rajnath Singh
     role_at_time: BJP national president; BJP was coalition partner in Orissa
     in_power: true
-    date: 2006-01-08
-    statement: "Expressed \"grave concern\" over the firing, said the onus was on Naveen Patnaik to prevent a repeat, and said the BJP would not withdraw support."
+    date: 2006-01-07
+    kind: paraphrase
+    statement: "Expressed grave concern over the firing and said the onus was on Naveen Patnaik to ensure it was not repeated; party sources said he told the state delegation that support would not be withdrawn."
     sources: [s14]
   - party: INC
     person: J.B. Patnaik
     role_at_time: Leader of Opposition, Orissa Assembly
     in_power: false
-    date: 2006-01-03
-    statement: "Called the firing \"unfortunate and shocking\"; the Congress demanded the Chief Minister's resignation and a judicial probe."
-    sources: [s13, s2]
+    date: 2006-01-02
+    kind: verbatim
+    statement: "Described the firing as unfortunate and shocking. Opposition parties, including the Congress, demanded the Chief Minister's resignation."
+    quote:
+      text: "unfortunate and shocking"
+      locator: "First news item (Bhubaneswar, Monday), last paragraph"
+      source: s13
+    sources: [s13, s19, s2]
   - party: INC
     person: Jaydev Jena
     role_at_time: President, Orissa Pradesh Congress Committee
     in_power: false
-    date: 2006-02-02
-    statement: "Said Naveen Patnaik was trying to give the issue a political colour, and that a planned February rally would show the government's days were numbered."
+    date: 2006-01
+    kind: paraphrase
+    statement: "Said the Congress was not playing politics and that Naveen Patnaik was trying to give the issue a political colour; later said a planned February rally in Bhubaneswar would show the government that its days were numbered."
     sources: [s13, s14]
   - party: INC
     person: Rama Chandra Khuntia
-    role_at_time: Congress leader, Orissa
+    role_at_time: AICC secretary and former Rajya Sabha member
     in_power: false
-    date: 2006-01-03
-    statement: "Sought Rs 10 lakh compensation for each victim's family."
+    date: 2006-01-02
+    kind: paraphrase
+    statement: "Demanded a judicial inquiry into the police firing and compensation of Rs 10 lakh to the family of each victim."
     sources: [s13]
   - party: CPI(M)
     person: Janardan Pati
-    role_at_time: CPI(M) state leader, Orissa
+    role_at_time: CPI(M) state secretary, Orissa
     in_power: false
-    date: 2006-01-03
-    statement: "Called the state government a \"killer of tribals\" and sought stern action against the police and district officials responsible."
+    date: 2006-01-02
+    kind: verbatim
+    statement: "Described the BJD-BJP state government as a killer of tribals and an agent of big industrial houses; the party demanded stern action against the police and district officials responsible."
+    quote:
+      text: "killer of tribals"
+      locator: "Item datelined Bhubaneswar, Jan 2, paragraph on the CPI-M state secretary"
+      source: s13
     sources: [s13]
   - party: JMM
     person: Shibu Soren
     role_at_time: JMM president
     in_power: false
-    date: 2006-01-03
-    statement: "\"This incident is similar to the Jalianwala Bagh massacre.\""
-    sources: [s13]
+    date: 2006-01-04
+    kind: verbatim
+    statement: "Compared the firing to the Jallianwala Bagh massacre and announced a nationwide campaign; on visiting Kalinga Nagar the next day he said police had chased the tribals and killed them."
+    quote:
+      text: "This incident is similar to the Jalianwala Bagh massacre. We will launch a nationwide campaign against it."
+      locator: "Item on the tribal belt sitting on a tinderbox, paragraph beginning 'A number of organisations'"
+      source: s13
+    sources: [s13, s21]
+  - party: INC
+    person: Shivraj V. Patil
+    role_at_time: Union Minister of Home Affairs
+    in_power: true
+    date: 2006-03-14
+    kind: verbatim
+    statement: "Replying to a calling attention motion in the Lok Sabha, gave the state government's account of the firing, the compensation offered, the inquiry commission and the transfer of the Collector and SP, and said Orissa and Jharkhand had been advised to prevent similar incidents."
+    quote:
+      text: "According to the report of the State Government, 13 persons (one police Havildar and 12 agitators) were killed in police firing, three of them while undergoing treatment at the hospital."
+      locator: "Lok Sabha, 14 March 2006, statement of the Minister of Home Affairs, paragraph 3"
+      source: s27
+    sources: [s27]
+  - party: BJD
+    person: Prasanna Acharya
+    role_at_time: Lok Sabha MP (Sambalpur); BJD led the Orissa government
+    in_power: true
+    date: 2006-03-14
+    kind: verbatim
+    statement: "Objected to the Lok Sabha discussing the firing because it was before a commission of inquiry, and said the state had taken adequate steps and offered compensation."
+    quote:
+      text: "The matter is before the Commission headed by a sitting Judge of the Orissa High Court. The matter is already sub judice. How can it be discussed here?"
+      locator: "Lok Sabha, 14 March 2006, calling attention, before the Home Minister's statement"
+      source: s27
+    sources: [s27]
+  - party: CPI(M)
+    person: Basu Deb Acharia
+    role_at_time: Lok Sabha MP (Bankura), mover of the calling attention motion
+    in_power: false
+    date: 2006-03-14
+    kind: verbatim
+    statement: "Raised the killings in the Lok Sabha, said the tribals had received far less per acre than the price charged to industry, and asked whether the Centre would frame a national resettlement and rehabilitation policy."
+    quote:
+      text: "Never in the history of Orissa, in the post-Independent period, such a number of tribal people were killed in police atrocities."
+      locator: "Lok Sabha, 14 March 2006, calling attention, Acharia's clarification after the Home Minister's statement"
+      source: s27
+    sources: [s27]
 sources:
   - id: s1
     title: "Letter to the Chief Minister of Orissa on the Kalinga Nagar firing"
     publisher: People's Union for Democratic Rights
+    tier: secondary
     url: https://www.pudr.org/?p=1279
     date: 2006-01-16
     type: archive
+    accessed: 2026-10-15
   - id: s2
     title: Not bowed down
     publisher: Down To Earth
+    tier: secondary
     url: https://www.downtoearth.org.in/environment/not-bowed-down-7200
     date: 2006-01-31
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: "Kalinganagar police firing: Panel puts blame on local politicos"
     publisher: Orissa Post
+    tier: secondary
     url: https://www.orissapost.com/kalinganagar-police-firing-panel-puts-blame-on-local-politicos/amp/
-    date: 2017-12
+    date: 2017-12-14
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "India: Kalinga Nagar police firing one year on (ASA 20/001/2007)"
     publisher: Amnesty International
+    tier: secondary
     url: https://www.amnesty.org/en/wp-content/uploads/2021/07/asa200012007en.pdf
     archive_date: 2024-07-06
     archive_url: https://web.archive.org/web/20240706125254/https://www.amnesty.org/en/wp-content/uploads/2021/07/asa200012007en.pdf
     date: 2007-01-02
     type: archive
+    accessed: 2026-10-15
   - id: s5
     title: "Bandh in Orissa, Jharkhand over Kalinga Nagar firing"
     publisher: The Tribune
+    wire: UNI
+    tier: secondary
     url: https://www.tribuneindia.com/2006/20060108/nation.htm
     archive_date: 2006-02-23
     archive_url: https://web.archive.org/web/20060223215046/https://www.tribuneindia.com/2006/20060108/nation.htm
-    date: 2006-01-07
+    date: 2006-01-08
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: Kalinga Nagar tribals agree to lift 14-month road blockade
     publisher: Oneindia
     wire: UNI
+    tier: secondary
     url: https://www.oneindia.com/2007/03/09/kalinga-nagar-tribals-agree-to-lift-14-months-road-blockade-1174142365.html
     date: 2007-03-09
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Kalinganagar firing report
     publisher: Countercurrents
+    tier: secondary
     url: https://countercurrents.org/hr-im060106.htm
     archive_date: 2006-03-21
     archive_url: https://web.archive.org/web/20060321024825/https://countercurrents.org/hr-im060106.htm
     date: 2006-01-06
     type: archive
+    accessed: 2026-10-15
   - id: s8
     title: Tribe blockades road in protest over killings
     publisher: Survival International
+    tier: secondary
     url: https://survivalinternational.org/news/1306
     archive_date: 2009-10-29
     archive_url: https://web.archive.org/web/20091029185455/https://survivalinternational.org/news/1306
     date: 2006-01-11
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: A year after Kalinganagar firing, tribal India refuses to shine
     publisher: Down To Earth
+    author: Joan Martinez-Alier and Leah Temper
+    tier: secondary
     url: https://www.downtoearth.org.in/environment/a-year-after-kalinganagar-firing-tribal-india-refuses-to-shine-5607
     date: 2007-02-28
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: 10 chopped palms recovered in Odisha
     publisher: The Quint
+    wire: PTI
+    tier: secondary
     url: https://www.thequint.com/news/india/10-chopped-palms-recovered-in-odisha-2
     archive_date: 2018-11-20
     archive_url: https://web.archive.org/web/20181120132210/https://www.thequint.com/news/india/10-chopped-palms-recovered-in-odisha-2
     date: 2018-11-19
     type: news
+    accessed: 2026-10-15
   - id: s11
     title: HC gives final chance to state for filing report
     publisher: Orissa Post
+    tier: secondary
     url: https://www.orissapost.com/hc-gives-final-chance-to-state-for-filing-report/amp/
-    date: 2017
+    date: 2017-11-27
     type: news
+    accessed: 2026-10-15
   - id: s12
-    title: Odisha tribals remember 14 people allegedly killed in police firing in Kalinga Nagar
-    publisher: The Week
+    title: "Odisha: Tribals remember 14 people allegedly killed in police firing in Kalinga Nagar"
+    publisher: TaxTMI
     wire: PTI
-    url: https://www.theweek.in/wire-updates/business/2025/01/02/ces23-od-tribals-firing.html
+    tier: secondary
+    url: https://www.taxtmi.com/news?id=29387
     date: 2025-01-02
     type: news
+    accessed: 2026-10-15
   - id: s13
     title: "Tribal Tribune news digest, Vol 2 Issue 5 (Kalinga Nagar firing coverage)"
     publisher: Tribal Tribune
+    tier: secondary
     url: https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5
     archive_date: 2019-04-25
     archive_url: https://web.archive.org/web/20190425122027/https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5
     date: 2006-01
     type: archive
+    accessed: 2026-10-15
   - id: s14
     title: "Tribal Tribune news digest, Vol 2 Issue 6 (Kalinga Nagar aftermath)"
     publisher: Tribal Tribune
+    tier: secondary
     url: https://etribaltribune.com/index.php/volume-2/mv2i6/news-v2i6
     archive_date: 2019-04-25
     archive_url: https://web.archive.org/web/20190425121809/https://etribaltribune.com/index.php/volume-2/mv2i6/news-v2i6
     date: 2006-02
     type: archive
+    accessed: 2026-10-15
   - id: s15
     title: Remembering the Kalinga Nagar massacre
     publisher: Sabrang India
+    tier: secondary
     url: https://sabrangindia.in/remembering-the-kalinga-nagar-massacre-a-tragic-reminder-of-a-19-year-struggle-for-justice-after-the-brutal-police-firing-on-tribal-protestors/
     archive_date: 2025-01-09
     archive_url: https://web.archive.org/web/20250109100522/https://sabrangindia.in/remembering-the-kalinga-nagar-massacre-a-tragic-reminder-of-a-19-year-struggle-for-justice-after-the-brutal-police-firing-on-tribal-protestors/
     date: 2025-01-03
     type: news
+    accessed: 2026-10-15
   - id: s16
     title: Tribals to receive relatives' chopped palms this week
     publisher: Gulf News (The Asian Age)
+    tier: secondary
     url: https://gulfnews.com/world/asia/india/tribals-to-receive-relatives-chopped-palms-this-week-1.237714
     date: 2006-05-21
     type: news
+    accessed: 2026-10-15
   - id: s17
     title: The Commission of Inquiry report on the Kalinganagar firing justifies state violence on citizens
     publisher: Countercurrents
+    tier: secondary
     url: https://countercurrents.org/2017/12/the-commission-of-inquiry-report-on-the-kalinganagar-firing-justifies-state-violence-on-citizens/
     archive_date: 2019-11-13
     archive_url: https://web.archive.org/web/20191113201031/https://countercurrents.org/2017/12/the-commission-of-inquiry-report-on-the-kalinganagar-firing-justifies-state-violence-on-citizens/
     date: 2017-12-18
     type: archive
+    accessed: 2026-10-15
   - id: s18
     title: "13 years on, R&R of Kalinganagar tribals remains unresolved"
     publisher: Orissa Post
+    tier: secondary
     url: https://www.orissapost.com/13-years-on-rr-of-kalinganagar-tribals-remains-unresolved/amp/
     archive_date: 2020-05-20
     archive_url: https://web.archive.org/web/20200520070450/https://www.orissapost.com/13-years-on-rr-of-kalinganagar-tribals-remains-unresolved/amp/
-    date: 2019
+    date: 2019-01-01
     type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: Blood on east development model
+    publisher: The Telegraph (Calcutta)
+    author: Debabrata Mohanty
+    tier: report
+    url: http://www.telegraphindia.com/1060103/asp/frontpage/story_5674777.asp
+    date: 2006-01-03
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Displaced on road with dead
+    publisher: The Telegraph (Calcutta)
+    author: Debabrata Mohanty
+    tier: report
+    url: http://www.telegraphindia.com/1060104/asp/frontpage/story_5678941.asp
+    date: 2006-01-04
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: Orissa CM dons cash shield
+    publisher: The Telegraph (Calcutta)
+    author: Debabrata Mohanty
+    tier: report
+    url: http://www.telegraphindia.com/1060106/asp/nation/story_5686616.asp
+    date: 2006-01-06
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Axe on hand-chop doctors
+    publisher: The Telegraph (Calcutta)
+    author: Debabrata Mohanty
+    tier: report
+    url: http://www.telegraphindia.com/1060107/asp/nation/story_5690584.asp
+    date: 2006-01-07
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: Six tribals, policeman killed
+    publisher: The Hindu
+    author: Prafulla Das
+    tier: report
+    url: http://www.hindu.com/2006/01/03/stories/2006010308160100.htm
+    date: 2006-01-03
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Situation still tense in Kalinga Nagar
+    publisher: The Hindu
+    author: Prafulla Das
+    tier: report
+    url: http://www.hindu.com/2006/01/04/stories/2006010406581200.htm
+    date: 2006-01-04
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Jajpur Collector, SP transferred
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/01/06/stories/2006010606871200.htm
+    date: 2006-01-06
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: Orissa bandh passes peacefully
+    publisher: The Hindu
+    author: Prafulla Das
+    tier: report
+    url: http://www.hindu.com/2006/01/08/stories/2006010803450800.htm
+    date: 2006-01-08
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Lok Sabha debates, 14 March 2006: calling attention to the alleged brutal attack and killing of Adivasis by police in Kalinganagar, Orissa"
+    publisher: Lok Sabha (Indian Kanoon)
+    tier: record
+    url: https://indiankanoon.org/doc/890598/
+    date: 2006-03-14
+    type: official
+    accessed: 2026-10-15
+  - id: s28
+    title: Chambara Soy vs State of Orissa and Ors.
+    publisher: Orissa High Court (Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/1266352/
+    date: 2007-10-03
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s29
+    title: Dr. Anup Kumar Nath Sharma & Others vs State of Orissa and Another
+    publisher: Orissa High Court (Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/56392426/
+    date: 2013-07-09
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s30
+    title: Kalinganagar Police Firing in 2006 That Killed 13 Tribals was Justified, Says Enquiry Commission
+    publisher: NewsClick
+    author: Shilpa Shaji
+    tier: report
+    url: https://www.newsclick.in/kalinganagar-police-firing-2006-killed-13-tribals-was-justified-says-enquiry-commission
+    date: 2017-12-20
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: "11 Yrs Later, Govt Washes Hands Off Kalinga Nagar Tribals' Deaths"
+    publisher: The Quint
+    author: Basudev Mahapatra
+    tier: report
+    url: https://www.thequint.com/news/india/kalinga-nagar-tribals-deaths-police-firing-government-report
+    date: 2017-05-30
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: Commission raises question on role of local leaders, political parties
+    publisher: Business Standard
+    wire: PTI
+    tier: secondary
+    url: https://www.business-standard.com/article/pti-stories/commission-raises-question-on-role-of-local-leaders-political-117121401481_1.html
+    date: 2017-12-14
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: Opposition slams Odisha government on Kalinga Nagar firing
+    publisher: Business Standard
+    wire: PTI
+    tier: secondary
+    url: https://www.business-standard.com/article/pti-stories/opposition-slams-odisha-government-on-kalinga-nagar-firing-117051300056_1.html
+    date: 2017-05-13
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: Tribals observe 13th anniversary of Kalinga Nagar firing
+    publisher: Down To Earth
+    author: Ashis Senapati
+    tier: report
+    url: https://www.downtoearth.org.in/urbanisation/tribals-observe-13th-anniversary-of-kalinga-nagar-firing-62658
+    date: 2019-01-02
+    type: news
+    accessed: 2026-10-15
+  - id: s35
+    title: Chopped palms of five tribals killed found scattered in Odisha club
+    publisher: Hindustan Times
+    tier: secondary
+    url: https://www.hindustantimes.com/india-news/chopped-palms-of-five-tribals-killed-found-scattered-in-odisha-club/story-BIm7V4GXABCZpOAWaPzvgO.html
+    date: 2018-11-19
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: BJP will not withdraw support to Naveen
+    publisher: The Hindu
+    tier: secondary
+    url: http://www.hindu.com/2006/01/07/stories/2006010706361200.htm
+    date: 2006-01-07
+    type: news
+    accessed: 2026-10-15
 tags: [adivasi, odisha, land_acquisition, tata_steel, firing, commission_of_inquiry, displacement, bjd]
 review:
   status: draft
