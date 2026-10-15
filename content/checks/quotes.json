@@ -730,5 +730,15 @@
       "result": "exact",
       "text_sha256": "ba250db03de5ec89dc0eb3021c262c7f531ac247c7fb430317a3a41dce19cb91"
     }
+  },
+  "thoothukudi-sterlite-firing-2018": {
+    "2e8ff8c919bc93d9": {
+      "position": 2,
+      "source": "s19",
+      "fetched": "https://api.fxtwitter.com/status/998906197876137985",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "17115271e53924e409576a143dc40bd480a092edcb9b3cb6c89bd25c4fc5b73f"
+    }
   }
 }
