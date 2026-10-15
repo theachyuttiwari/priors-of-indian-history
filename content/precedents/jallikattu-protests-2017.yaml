@@ -5,7 +5,8 @@ summary: >
   Beach, Chennai, to demand that jallikattu be allowed despite a Supreme Court ban. The
   AIADMK government obtained Union clearance for an ordinance, promulgated on 21 January,
   and the Assembly passed a replacement Act on 23 January. On the morning of 23 January
-  police evicted the Marina crowd and used lathis and tear gas during clashes.
+  police evicted the Marina crowd and used lathis and tear gas during clashes. Police later
+  imposed Section 144 on the Marina, and the state set up a commission of inquiry into the violence.
 period:
   start: 2017-01-16
   end: 2017-01-23
@@ -30,112 +31,384 @@ government:
 actions:
   - type: negotiation
     date: 2017-01-19
-    description: "Chief Minister Panneerselvam met Prime Minister Modi in New Delhi and an AIADMK MPs' delegation met Home Minister Rajnath Singh. The Home Ministry vetted a draft state ordinance and the Law and Environment ministries approved it for the President's assent on the night of 20 January. The Attorney General told the Supreme Court the Centre was in talks with the state and the Court agreed not to deliver its judgment for a week."
+    claim: happened
+    description: "Chief Minister Panneerselvam met Prime Minister Modi in New Delhi on 19 January. The Prime Minister's Office said Modi observed that the matter was sub judice and that the Centre would be supportive of steps taken by the state government. On 20 January the Home, Law and Environment ministries vetted the state's draft ordinance and the Centre cleared it. Reports differ on whether it went to the President: PTI quoted a Home Ministry spokesman as saying it was sent without the need of referring it to the President, Millennium Post reported it was approved for the President's assent, and the state later said it had obtained the President's prior instructions under Article 213. The Attorney General told the Supreme Court the Centre was in talks with the state, and the Court agreed not to deliver its judgment for a week."
     actor: centre
-    sources: [s2]
+    sources: [s7, s2, s21, s17, s15]
   - type: concession
     date: 2017-01-21
-    description: "The Governor promulgated an ordinance amending the Prevention of Cruelty to Animals Act to permit jallikattu. Protesters at Marina rejected it as a temporary fix and continued the sit-in."
+    claim: ordered
+    description: "The Governor, C. Vidyasagar Rao, promulgated the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Ordinance, 2017 (Tamil Nadu Ordinance 1 of 2017), published in a Gazette Extraordinary on 21 January, amending the 1960 Act to permit jallikattu. Protesters at Marina rejected it as a temporary fix and continued the sit-in."
     actor: state
-    sources: [s3, s5, s6]
+    legal_basis: Article 213 of the Constitution (as cited in the state government's statement, reported by Deccan Herald); Tamil Nadu Ordinance 1 of 2017
+    sources: [s10, s17, s15, s3, s6, s13]
   - type: other
     date: 2017-01-23
-    description: "Police eviction: early on 23 January police physically removed protesters from Marina Beach, citing the need to secure the beachfront before Republic Day. WION reported about 5,000 evicted; routes to the beach were cordoned off."
+    claim: happened
+    description: "Police eviction: early on 23 January police gave protesters on Marina Beach a copy of the ordinance and asked them to leave, then physically removed those who stayed. Protesters told Scroll that they asked for time to consult lawyers and were refused. Roads to the beach were barricaded, and Hindustan Times reported that most protesters had been cleared by noon. Officials told Hindustan Times that some people seemed to have infiltrated the protests and urged others to stay, forcing the police to use force; WION reported that police said they needed to secure the beachfront before Republic Day."
     actor: police
-    sources: [s4, s5]
+    sources: [s13, s14, s5, s4]
+    figures:
+      - what: protesters on Marina Beach when police handed over the ordinance
+        value: "at least 7,000"
+        claimed_by: Hindustan Times
+        source: s14
+      - what: protesters evicted from Marina Beach
+        value: "as many as 5,000"
+        claimed_by: unattributed reports cited by WION
+        source: s5
   - type: lathi_charge
     date: 2017-01-23
-    description: "After stone-throwing in Triplicane near Marina, police used lathi charges. Clashes spread to Teynampet, Madurai and Coimbatore; vehicles and a police station near Marina were set on fire. Videos alleging that police set fire to vehicles went viral; Global Voices reported these as allegations, and the matter was contested."
+    claim: happened
+    description: "Police used lathis during the eviction and in clashes that followed in Triplicane, Teynampet, Madurai and Coimbatore. Accounts of the sequence differ: protesters told Scroll that police began hitting the crowd with lathis while they were still protesting at Marina, while IANS reported that protesters threw stones at police in Triplicane and police then retaliated with a baton charge. Vehicles outside the Ice House police station in Triplicane were set on fire. Who set the fires is contested. Protesters and residents of the Nadukuppam fishing colony alleged that police set fire to vehicles and the fish market; Assistant Commissioner S. Pandian denied this and showed a video of youths damaging property outside the station. Videos that purported to show police setting fire to autorickshaws circulated on social media."
     actor: police
-    sources: [s1, s4, s5, s6]
+    sources: [s13, s14, s22, s1, s4, s6]
+    figures:
+      - what: policemen injured in the violence
+        value: "at least 20"
+        claimed_by: police (as reported by Hindustan Times)
+        source: s14
   - type: tear_gas
     date: 2017-01-23
-    description: "Police fired tear gas shells to disperse crowds on roads leading to Marina."
+    claim: happened
+    description: "Police fired tear gas shells to disperse crowds on roads leading to Marina and elsewhere in Chennai and the state."
     actor: police
-    sources: [s1, s4]
+    sources: [s14, s22, s1, s4, s5]
   - type: concession
     date: 2017-01-23
-    description: "The Tamil Nadu Assembly unanimously passed the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Bill, 2017, piloted by the Chief Minister, replacing the ordinance. The President gave assent on 30 January 2017."
+    claim: ordered
+    description: "The Tamil Nadu Assembly unanimously passed the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Bill, 2017, introduced by the Chief Minister, by a voice vote. It replaced the ordinance and was deemed in force from 21 January 2017. The Tamil Nadu Government Gazette records the President's assent to the Act, Act No. 1 of 2017, on 31 January 2017; Deccan Chronicle had reported the assent on 30 January."
     actor: state
-    sources: [s1, s3]
+    legal_basis: Prevention of Cruelty to Animals (Tamil Nadu Amendment) Act, 2017 (Tamil Nadu Act No. 1 of 2017)
+    sources: [s11, s12, s15, s1, s3]
+    court_outcomes:
+      - summary: A Constitution Bench of the Supreme Court held on 18 May 2023 that the Tamil Nadu Amendment Act was a valid law and not directly contrary to the 2014 Nagaraja judgment.
+        source: s12
   - type: other
     date: 2017-01-23
+    claim: held
     description: "The Madras High Court declined to hear a petition on the police action, saying it would not interfere in administrative matters."
     actor: court
     sources: [s5]
+  - type: section_144
+    date: 2017-01-28
+    claim: ordered
+    description: "The Commissioner of Police, Greater Chennai, S. George, issued a prohibitory order covering the Marina, Ice House, Foreshore Estate, Triplicane and Anna Square police station areas until 12 February. It prohibited assemblies, processions, fasts, demonstrations, human chains and meetings; family visits to the beach were exempt. The Commissioner said anti-social elements and anti-nationals had infiltrated the agitation and that some were using social media to gather people at Marina again. The order was rescinded on 4 February 2017, and a regulatory order under Section 41 of the Chennai City Police Act then barred assemblies and demonstrations on the Marina stretch from Napier Bridge to the Lighthouse."
+    actor: police
+    legal_basis: Section 144 CrPC
+    sources: [s23, s24, s25]
+  - type: commission_of_inquiry
+    date: 2017-01-31
+    claim: ordered
+    description: "Chief Minister Panneerselvam announced in the Assembly a commission of inquiry under a retired High Court judge into the law and order problems after the protests, including whether the force used by police was appropriate. It was asked to report in three months. Retired judge S. Rajeswaran headed the one-member commission. After repeated extensions it submitted its report to Chief Minister Edappadi K. Palaniswami in January 2020. The Federal reported in January 2021 that the report had not been published."
+    actor: state
+    sources: [s23, s18, s19, s20]
+    figures:
+      - what: persons the commission inquired
+        value: "1,901"
+        claimed_by: Secretariat sources (as reported by DT Next)
+        source: s20
 outcome: >
-  The Marina protest was called off on the evening of 23 January 2017 after the Bill
-  passed. The Act received the President's assent on 30 January 2017.
+  PTI reported that the Marina protest was called off on the evening of 23 January 2017 after
+  the Bill passed; Global Voices reported that most protesters in Chennai decided to end it the
+  next day. The Tamil Nadu Government Gazette records the President's assent to the Act on
+  31 January 2017, and the Supreme Court upheld the Act in May 2023.
 positions:
   - party: AIADMK
     person: O. Panneerselvam
     role_at_time: Chief Minister of Tamil Nadu
     in_power: true
-    date: 2017-01-20
-    statement: "After getting the assent of President Pranab Mukherjee tomorrow, an ordinance will be promulgated by our Governor. On 21 January he thanked the Prime Minister for your support and assistance in enabling Jallikattu to be held in Tamil Nadu."
-    sources: [s2, s6]
+    date: 2017-01-21
+    kind: verbatim
+    statement: "On Twitter, on the day the ordinance was promulgated, thanked Prime Minister Modi for his support and assistance in enabling jallikattu to be held in Tamil Nadu."
+    quote:
+      text: "Thanks to @narendramodi ji for your support and assistance in enabling #Jallikattu to be held in TamilNadu."
+      locator: "Tweet text"
+      source: s8
+    sources: [s8, s6]
   - party: DMK
     person: M.K. Stalin
-    role_at_time: Leader of Opposition, Tamil Nadu Assembly
+    role_at_time: Working President of DMK and Leader of Opposition, Tamil Nadu Assembly
     in_power: false
     date: 2017-01-23
-    statement: "Condemned the police action at Marina as authoritarian."
-    sources: [s4]
+    kind: paraphrase
+    statement: "In a statement, condemned the attempt to end the Marina protest through the police instead of holding talks with the protesters, and called the police action authoritarian and anti-democratic."
+    sources: [s4, s16]
   - party: other (Pattali Makkal Katchi)
     person: Anbumani Ramadoss
     role_at_time: PMK leader and Lok Sabha MP, opposition in the state
     in_power: false
     date: 2017-01-23
-    statement: "I salute the democratic revolution by Tamil Nadu youth power and promise to unite against evils of TN."
-    sources: [s6]
+    kind: verbatim
+    statement: "On Twitter, saluted what he called the democratic revolution by Tamil Nadu's youth and promised to unite against the evils of Tamil Nadu."
+    quote:
+      text: "I salute d democratic revol'tn by #TNyouthpower & promise 2 unite agnst evils of TN. Victory 4r world #tamils #Jallikattu #Begining #CHANGE"
+      locator: "Tweet text"
+      source: s9
+    sources: [s9, s6]
+  - party: BJP
+    person: Narendra Modi
+    role_at_time: Prime Minister (statement by the Prime Minister's Office)
+    in_power: true
+    date: 2017-01-19
+    kind: verbatim
+    statement: "After meeting Chief Minister Panneerselvam, the Prime Minister's Office said Modi appreciated the cultural significance of jallikattu but observed that the matter was sub judice, and that the Centre would support steps taken by the state government."
+    quote:
+      text: "The Centre would be supportive of steps taken by the State Government."
+      locator: "Tweet text (fourth post in the PMO thread of 19 January 2017)"
+      source: s7
+    sources: [s7]
 sources:
   - id: s1
     title: "Jallikattu stir turns violent; Bill passed"
     publisher: The Tribune
     wire: PTI
+    tier: secondary
     url: https://www.tribuneindia.com/news/archive/nation/jallikattu-stir-turns-violent-bill-passed-354570
-    date: 2017-01-23
+    date: 2017-01-24
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "Jallikattu: Centre agrees to ordinance"
     publisher: Millennium Post
+    tier: secondary
     url: https://www.millenniumpost.in/nation/news-179974
     archive_date: 2021-01-20
     archive_url: https://web.archive.org/web/20210120224033/https://www.millenniumpost.in/nation/news-179974
     date: 2017-01-20
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Tamil Nadu jallikattu law gets President's nod
     publisher: Deccan Chronicle
+    tier: secondary
     url: https://deccanchronicle.com/nation/current-affairs/310117/tamil-nadu-jallikattu-law-gets-president-nod.html
     archive_date: 2017-01-31
     archive_url: https://web.archive.org/web/20170131015608/https://deccanchronicle.com/nation/current-affairs/310117/tamil-nadu-jallikattu-law-gets-president-nod.html
     date: 2017-01-31
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: Jallikattu protest turns violent after police eviction
     publisher: Millennium Post
+    wire: IANS
+    tier: secondary
     url: https://www.millenniumpost.in/big-stories/news-180287
     archive_date: 2022-01-28
     archive_url: https://web.archive.org/web/20220128002656/https://www.millenniumpost.in/big-stories/news-180287
     date: 2017-01-23
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "India: Tamil Nadu assembly passes Jallikattu Bill"
     publisher: WION
+    tier: secondary
     url: https://www.wionews.com/south-asia/india-tamil-nadu-assembly-passes-jallikattu-bill-11596
     archive_date: 2017-01-28
     archive_url: https://web.archive.org/web/20170128082659/https://www.wionews.com/south-asia/india-tamil-nadu-assembly-passes-jallikattu-bill-11596
     date: 2017-01-23
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: The Jallikattu protests in the Indian state of Tamil Nadu are not merely about a bullfight
     publisher: Global Voices
+    author: Rezwan
+    tier: secondary
     url: https://globalvoices.org/2017/01/28/the-jallikattu-protests-in-the-indian-state-of-tamil-nadu-are-not-merely-about-a-bullfight/
     archive_date: 2017-01-28
     archive_url: https://web.archive.org/web/20170128061935/https://globalvoices.org/2017/01/28/the-jallikattu-protests-in-the-indian-state-of-tamil-nadu-are-not-merely-about-a-bullfight/
     date: 2017-01-28
     type: news
-tags: [tamil_nadu, jallikattu, ordinance, concession, lathi_charge, tear_gas, aiadmk]
+    accessed: 2026-10-15
+  - id: s7
+    title: "PMO India on X: the Centre would be supportive of steps taken by the State Government (thread on the Chief Minister's call on the Prime Minister)"
+    publisher: X (Twitter)
+    author: Prime Minister's Office (@PMOIndia)
+    tier: record
+    url: https://x.com/PMOIndia/status/821962250911031296
+    date: 2017-01-19
+    type: official
+    accessed: 2026-10-15
+  - id: s8
+    title: "O. Panneerselvam on X: thanks to Narendra Modi for support in enabling jallikattu"
+    publisher: X (Twitter)
+    author: O. Panneerselvam (@CMOTamilNadu at the time, now @OfficeOfOPS)
+    tier: record
+    url: https://x.com/OfficeOfOPS/status/822777389004558337
+    date: 2017-01-21
+    type: official
+    accessed: 2026-10-15
+  - id: s9
+    title: "Anbumani Ramadoss on X: salute to the democratic revolution by Tamil Nadu youth"
+    publisher: X (Twitter)
+    author: Anbumani Ramadoss (@draramadoss)
+    tier: record
+    url: https://x.com/draramadoss/status/823572729051881476
+    archive_date: 2025-12-12
+    archive_url: https://web.archive.org/web/20251212033122/https://x.com/draramadoss/status/823572729051881476
+    date: 2017-01-23
+    type: official
+    accessed: 2026-10-15
+  - id: s10
+    title: "Tamil Nadu Government Gazette, Part I, No. 5 (1 February 2017): notice of Extraordinary issues for the week ending 21 January 2017, listing the Prevention of Cruelty to Animals (Tamil Nadu Amendment) Ordinance, 2017 (Ordinance No. 1 of 2017) issued on 21 January 2017"
+    publisher: Government of Tamil Nadu (copy hosted by tniuscbe.org)
+    tier: record
+    url: http://www.tniuscbe.org/download/gg17/gg1/17gg31.pdf
+    date: 2017-02-01
+    type: official
+    accessed: 2026-10-15
+  - id: s11
+    title: "Tamil Nadu Government Gazette Extraordinary No. 20 (31 January 2017): Prevention of Cruelty to Animals (Tamil Nadu Amendment) Act, 2017 (Act No. 1 of 2017)"
+    publisher: Government of Tamil Nadu (copy hosted by Supreme Court Observer)
+    tier: record
+    url: https://www.scobserver.in/wp-content/uploads/2022/11/PCA-Tamil-Nadu-Amendment-2017.pdf
+    archive_date: 2022-12-05
+    archive_url: https://web.archive.org/web/20221205002044/https://www.scobserver.in/wp-content/uploads/2022/11/PCA-Tamil-Nadu-Amendment-2017.pdf
+    date: 2017-01-31
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: "The Animal Welfare Board of India v. Union of India, W.P. (C) No. 23 of 2016 and batch, judgment of 18 May 2023"
+    publisher: Supreme Court of India (via Indian Kanoon)
+    author: Justice Aniruddha Bose (for the Constitution Bench)
+    tier: court
+    url: https://indiankanoon.org/doc/124059674/
+    archive_date: 2024-03-03
+    archive_url: https://web.archive.org/web/20240303163408/https://indiankanoon.org/doc/124059674/
+    date: 2023-05-18
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s13
+    title: "As Chennai police try to evict jallikattu backers, fishermen accuse them of setting fire to property"
+    publisher: Scroll.in
+    author: Vinita Govindarajan
+    tier: report
+    url: https://scroll.in/article/827485/as-chennai-police-try-to-evict-jallikattu-backers-fishermen-accuse-them-of-setting-fire-to-property
+    archive_date: 2017-01-26
+    archive_url: https://web.archive.org/web/20170126124103/https://scroll.in/article/827485/as-chennai-police-try-to-evict-jallikattu-backers-fishermen-accuse-them-of-setting-fire-to-property
+    date: 2017-01-24
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: "Protest turns violent on Chennai’s Marina Beach; vehicles torched, petrol bombs lobbed"
+    publisher: Hindustan Times
+    author: KV Lakshmana
+    tier: report
+    url: https://www.hindustantimes.com/india-news/jallikattu-protesters-evicted-by-tamil-nadu-police-from-marina-beach-other-places/story-x4wfgwEj6qxybPHwfnYGbK.html
+    archive_date: 2017-01-24
+    archive_url: https://web.archive.org/web/20170124003806/https://www.hindustantimes.com/india-news/jallikattu-protesters-evicted-by-tamil-nadu-police-from-marina-beach-other-places/story-x4wfgwEj6qxybPHwfnYGbK.html
+    date: 2017-01-23
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Jallikattu: Tamil Nadu assembly passes bill to amend PCA Act"
+    publisher: The Times of India
+    author: B Sivakumar
+    tier: report
+    url: https://timesofindia.indiatimes.com/city/chennai/jallikattu-tamil-nadu-assembly-passes-bill-to-amend-pca-act/articleshow/56738068.cms
+    archive_date: 2017-01-24
+    archive_url: https://web.archive.org/web/20170124033735/https://timesofindia.indiatimes.com/city/chennai/jallikattu-tamil-nadu-assembly-passes-bill-to-amend-pca-act/articleshow/56738068.cms
+    date: 2017-01-23
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: DMK slams police action on protesters
+    publisher: Deccan Herald
+    wire: PTI
+    tier: secondary
+    url: https://www.deccanherald.com/india/dmk-slams-police-action-protesters-1987530
+    date: 2017-01-23
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "Ordinance okayed, TN to play Jallikattu today"
+    publisher: Deccan Herald
+    tier: secondary
+    url: https://www.deccanherald.com/india/ordinance-okayed-tn-play-jallikattu-1987685
+    date: 2017-01-22
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: Commission to look into Marina violence
+    publisher: Deccan Chronicle
+    tier: secondary
+    url: https://deccanchronicle.com/nation/current-affairs/010217/commission-to-look-into-marina-violence.html
+    archive_date: 2017-02-01
+    archive_url: https://web.archive.org/web/20170201121355/https://deccanchronicle.com/nation/current-affairs/010217/commission-to-look-into-marina-violence.html
+    date: 2017-02-01
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: "Jallikattu rages on but for booked protestors, life looks trampled down"
+    publisher: The Federal
+    author: N Vinoth Kumar
+    tier: report
+    url: https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters
+    archive_date: 2021-01-14
+    archive_url: https://web.archive.org/web/20210114012135/https://thefederal.com/states/south/tamil-nadu/jallikattu-goes-on-as-usual-but-life-stalled-for-booked-protesters
+    date: 2021-01-14
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Panel submits report on jallikattu violence
+    publisher: DT Next
+    tier: secondary
+    url: https://www.dtnext.in/amp/story/news/tamilnadu/panel-submits-report-on-jallikattu-violence
+    date: 2020-01-21
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "Jallikattu: Centre clears ordinance"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/archive/nation/jallikattu-centre-clears-ordinance-353358
+    archive_date: 2024-07-13
+    archive_url: https://web.archive.org/web/20240713033935/https://www.tribuneindia.com/news/archive/nation/jallikattu-centre-clears-ordinance-353358
+    date: 2017-01-21
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: "Was Chennai police hasty in dispersing protesters? Voices are divided"
+    publisher: The News Minute
+    author: Anna Isaac
+    tier: report
+    url: https://www.thenewsminute.com/article/was-chennai-police-hasty-dispersing-protesters-voices-are-divided-56237
+    archive_date: 2017-01-26
+    archive_url: https://web.archive.org/web/20170126174535/https://www.thenewsminute.com/article/was-chennai-police-hasty-dispersing-protesters-voices-are-divided-56237
+    date: 2017-01-24
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: "P. Ayyakannu v. Government of Tamil Nadu, W.P. No. 8652 of 2018, order of 28 April 2018"
+    publisher: Madras High Court (via Indian Kanoon)
+    author: Justice T. Raja
+    tier: court
+    url: https://indiankanoon.org/doc/80182795/
+    archive_date: 2018-11-22
+    archive_url: https://web.archive.org/web/20181122164936/https://indiankanoon.org/doc/80182795/
+    date: 2018-04-28
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s24
+    title: Chennai police revokes Section 144 in Marina beach
+    publisher: The News Minute
+    author: Pheba Mathew
+    tier: report
+    url: https://www.thenewsminute.com/article/chennai-police-revokes-section-144-marina-beach-56795
+    archive_date: 2017-02-04
+    archive_url: https://web.archive.org/web/20170204212845/https://www.thenewsminute.com/article/chennai-police-revokes-section-144-marina-beach-56795
+    date: 2017-02-04
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Section 144 clamped on Marina
+    publisher: DT Next
+    tier: secondary
+    url: https://www.dtnext.in/city/2017/01/29/section-144-clamped-on-marina
+    date: 2017-01-29
+    type: news
+    accessed: 2026-10-15
+tags: [tamil_nadu, jallikattu, ordinance, concession, lathi_charge, tear_gas, section_144, commission_of_inquiry, aiadmk]
 review:
   status: draft
