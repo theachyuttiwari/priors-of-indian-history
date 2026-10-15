@@ -6,7 +6,7 @@ summary: >
   Sonam Wangchuk led a march from Ladakh to Delhi; Delhi Police detained him and about 120 others at
   the Singhu border and later refused permission for a protest at Jantar Mantar. On 24 September 2025
   a protest in Leh turned violent: the BJP office was set on fire and four people died in firing by
-  security forces. A curfew and mobile internet shutdown followed, and on 26 September 2025 Wangchuk
+  security forces (early counts ranged from three to five). A curfew and mobile internet shutdown followed, and on 26 September 2025 Wangchuk
   was detained under the National Security Act and moved to Jodhpur jail. The Centre revoked the
   detention on 14 March 2026.
 period:
@@ -33,177 +33,489 @@ government:
 actions:
   - type: section_144
     date: 2024-09-30
-    description: The Delhi Police Commissioner issued an order barring assemblies of five or more people and dharnas in public areas in Delhi from 30 September to 5 October 2024. It was withdrawn by an order dated 2 October.
+    claim: ordered
+    description: "The Delhi Police Commissioner, Sanjay Arora, issued an order under Section 163 of the BNSS barring assemblies of five or more people and sit-ins or dharnas in public areas in the New Delhi, North and Central districts and at police stations along Delhi's borders, from 30 September to 5 October 2024. It was withdrawn by an order dated 2 October."
     actor: police
-    sources: [s1]
+    legal_basis: Section 163, Bharatiya Nagarik Suraksha Sanhita, 2023
+    sources: [s1, s24, s25]
   - type: detention
     date: 2024-09-30
-    description: "Delhi Police detained Sonam Wangchuk and about 120 others from Ladakh at the Singhu border on the night of 30 September 2024, during their 'Delhi Chalo Padyatra'. On 3 October Solicitor General Tushar Mehta told the Delhi High Court they had been set free; the petitioners' counsel Prashant Bhushan disputed that they were fully free."
+    claim: happened
+    description: "Delhi Police detained Sonam Wangchuk and about 120 others from Ladakh at the Singhu border on the night of 30 September 2024, during their 'Delhi Chalo Padyatra', citing the prohibitory order, and took them to police stations including Bawana, Narela Industrial Area and Alipur. PTI reported, citing police, that they were released late on 1 October and detained again when they insisted on marching into central Delhi. On 3 October Solicitor General Tushar Mehta told the Delhi High Court they had been set free; the petitioners' counsel Prashant Bhushan disputed that they were fully free."
     actor: police
-    sources: [s1]
+    sources: [s1, s24, s26]
+    figures:
+      - { what: people from Ladakh detained with Wangchuk on 30 September, value: "120", claimed_by: LiveLaw, source: s1 }
+      - { what: people from Ladakh detained before entering Delhi, value: "120", claimed_by: Deccan Herald, source: s24 }
+      - { what: Ladakhis detained again with Wangchuk after release, value: "150", claimed_by: officials (PTI), source: s26 }
   - type: permission_denied
     date: 2024-10-05
-    description: "The Delhi Police Commissioner, by a letter of 5 October 2024, rejected the request to hold a peaceful demonstration at Jantar Mantar. A petition challenging the refusal was filed in the Delhi High Court; on 22 October the Solicitor General said Wangchuk had withdrawn his fast after discussions, and the petition was dismissed as withdrawn."
+    claim: ordered
+    description: "The Delhi Police Commissioner, by a letter of 5 October 2024, rejected the request to hold a peaceful demonstration at Jantar Mantar. According to The Tribune, the letter said the request came too late and lacked details of timing and numbers, and that applications must be made at least 10 days in advance. A petition by the Apex Body Leh challenging the refusal was filed in the Delhi High Court; on 22 October the Solicitor General said Wangchuk had withdrawn his fast after discussions, and the petition was dismissed as withdrawn."
     actor: police
-    sources: [s2, s3]
+    sources: [s2, s3, s27, s28, s29]
   - type: section_144
     date: 2025-09-24
-    description: The Leh district administration banned gatherings of more than five people, demonstrations and inflammatory speech in Leh district.
+    claim: ordered
+    description: "After the violence, Leh Deputy Commissioner Romil Singh Donk issued an order under Section 163 of the BNSS restricting processions, rallies and marches in Leh district, and announced a ban on demonstrations, public gatherings and inflammatory speech."
     actor: state
-    sources: [s4]
+    legal_basis: Section 163, Bharatiya Nagarik Suraksha Sanhita, 2023
+    sources: [s18, s19, s4]
   - type: firing
     date: 2025-09-24
-    description: "A protest in Leh for statehood and the Sixth Schedule turned violent; protesters set fire to the BJP office and a paramilitary vehicle. Police used tear gas and batons, and four men, including Kargil war veteran Tsewang Tharchin, died in firing by security personnel. Lieutenant Governor Kavinder Gupta defended the police action; the Kargil Democratic Alliance and Ladakh MP Haji Hanifa Jan demanded an independent judicial probe."
+    claim: happened
+    description: "A protest in Leh for statehood and the Sixth Schedule turned violent; protesters set fire to the BJP office and vehicles, including a police vehicle. Police used tear gas and batons, and four men, including Kargil war veteran Tsewang Tharchin, died in firing by security personnel; counts in the first days ranged from three to five. The Home Ministry said a mob incited by Wangchuk's speeches attacked offices and security personnel and that police fired in self-defence. Lieutenant Governor Kavinder Gupta defended the police action; the Kargil Democratic Alliance and Ladakh MP Haji Hanifa Jan demanded an independent judicial probe."
     actor: police
-    sources: [s4, s5, s6]
+    sources: [s4, s5, s6, s18, s19, s11]
+    figures:
+      - { what: people killed, value: "at least four", claimed_by: The Tribune, source: s18 }
+      - { what: men killed in firing by security personnel, value: "four", claimed_by: ThePrint, source: s5 }
+      - { what: people killed, value: "at least four", claimed_by: protest coordinators, source: s7 }
+      - { what: people killed, value: "three", claimed_by: Ladakh MP Mohammed Hanifa (on 24 September), source: s19 }
+      - { what: people believed killed in police gunfire, value: "three to five", claimed_by: Sonam Wangchuk (quoted by Indian Express, via Al Jazeera), source: s4 }
+      - { what: people killed, value: "five", claimed_by: unnamed sources (ETV Bharat, 25 September), source: s30 }
+      - { what: casualties in police firing, value: "some casualties", claimed_by: Ministry of Home Affairs, source: s11 }
+      - { what: people injured, value: "over 65", claimed_by: The Tribune, source: s18 }
+      - { what: people injured, value: "over 45, including 22 police personnel", claimed_by: PTI (24 September), source: s31 }
+      - { what: people injured, value: "over 80", claimed_by: PTI (25 September), source: s33 }
+      - { what: police and CRPF personnel injured, value: "more than 30", claimed_by: Ministry of Home Affairs, source: s11 }
   - type: curfew
     date: 2025-09-24
-    description: A curfew was imposed after the violence and was still in force in Leh on 29 September 2025. Many people, including ex-servicemen, were taken into custody.
+    claim: ordered
+    description: A curfew was imposed across Leh after the violence; Lieutenant Governor Kavinder Gupta called it a precautionary measure. It was still in force in Leh on 29 September 2025. Many people, including ex-servicemen, were taken into custody.
     actor: state
-    sources: [s5, s7]
+    sources: [s18, s5, s20, s7, s31, s33]
+    figures:
+      - { what: people detained in connection with the violence, value: "nearly 50", claimed_by: officials in Leh, source: s20 }
+      - { what: people detained, value: "at least 50", claimed_by: police (PTI), source: s33 }
   - type: internet_shutdown
-    date: 2025-09
-    description: Mobile internet was shut down in Leh after the violence.
-    actor: state
-    sources: [s7]
+    date: 2025-09-26
+    claim: ordered
+    description: "By an order dated 26 September 2025, the Union Home Ministry suspended mobile data (2G to 5G) and public Wi-Fi in the entire Leh district from 18:00 that day to 18:00 on 29 September, citing public safety and public order. Further orders dated 29 September, 3 October and 7 October extended the suspension to 18:00 on 9 October 2025."
+    actor: centre
+    legal_basis: Section 20(2)(b), Telecommunications Act, 2023; Telecommunications (Temporary Suspension of Services) Rules, 2024
+    sources: [s14, s15, s16, s17, s7]
   - type: nsa_detention
     date: 2025-09-26
-    description: "The District Magistrate, Leh, detained Sonam Wangchuk under the National Security Act shortly before a scheduled news briefing, and he was moved to Jodhpur Central Jail. The Home Ministry accused him of provoking crowds with his speeches; he had called off his hunger strike on 24 September, saying violence 'only damages our cause'."
+    claim: ordered
+    description: "Wangchuk was detained under the National Security Act on an order of the District Magistrate, Leh, which the Home Ministry later said was issued with a view to maintaining public order. Officials said he was detained before a news briefing he was due to hold, and he was moved to Jodhpur Central Jail. On 24 September the Home Ministry had said the mob was incited by his provocative statements; Wangchuk denied the accusations. He had called off his hunger strike that day, saying violence 'only damages our cause'."
     actor: state
-    sources: [s4, s7, s8]
+    legal_basis: National Security Act, 1980
+    sources: [s13, s8, s7, s6, s11, s4]
   - type: other
-    date: 2025-09
-    description: The Home Ministry revoked the licence of Wangchuk's organisation, the Students' Educational and Cultural Movement of Ladakh (SECMOL), citing alleged violations.
+    date: 2025-09-25
+    claim: ordered
+    description: "The Home Ministry's Foreigners Division cancelled, with immediate effect, the FCRA registration of the Students' Educational and Cultural Movement of Ladakh (SECMOL), the organisation Wangchuk founded. The order cited violations including a Rs 3.5 lakh deposit into the FCRA account and the receipt of foreign funds for a study it described as on the 'sovereignty of the nation'. SECMOL said the deposit was the sale proceeds of an old bus, and Gitanjali Angmo said the funds were for food sovereignty and that the ministry had misread its reply."
     actor: centre
-    sources: [s7]
+    legal_basis: Foreign Contribution (Regulation) Act, 2010
+    sources: [s20, s21, s22, s7]
   - type: other
     date: 2026-02-11
-    description: "Hearing the habeas corpus petition of Wangchuk's wife Gitanjali Angmo, a Supreme Court bench of Justices Aravind Kumar and P.B. Varale told the Centre it was 'reading too much into' Wangchuk's speeches and asked it to show a proximate link to the 24 September violence. The Additional Solicitor General argued his speeches could disturb public order."
+    claim: happened
+    description: "Hearing the habeas corpus petition of Wangchuk's wife Gitanjali Angmo (Gitanjali J. Angmo v. Union of India, W.P.(Crl.) No. 399/2025), a Supreme Court bench of Justices Aravind Kumar and P.B. Varale told the Centre it was 'reading too much into' a speech in which Wangchuk worried that young people were moving away from non-violent methods, and asked it to show a proximate link to the 24 September violence. Additional Solicitor General K.M. Nataraj argued that the test was the potential of his words to disturb public order; Solicitor General Tushar Mehta said Wangchuk should not be compared with Mahatma Gandhi."
     actor: court
-    sources: [s9]
+    sources: [s9, s23]
   - type: concession
     date: 2026-03-14
-    description: "The Centre revoked Wangchuk's NSA detention, stating the aim was to restore peace and create an atmosphere conducive to dialogue in Ladakh. He had served nearly half of the maximum detention period."
+    claim: ordered
+    description: "The Centre revoked Wangchuk's NSA detention with immediate effect, stating the aim was to foster peace and an atmosphere for dialogue in Ladakh. It said he had already served nearly half of the detention period under the Act."
     actor: centre
-    sources: [s8]
+    legal_basis: National Security Act, 1980
+    sources: [s13, s8]
   - type: negotiation
-    date: 2025-09-30
-    description: The Centre, through a PIB release, said it remained open to dialogue with the Leh Apex Body and the Kargil Democratic Alliance through the High Powered Committee on Ladakh. The Kargil Democratic Alliance said it would not talk until its demands were met.
+    date: 2025-09-29
+    claim: ordered
+    description: The Home Ministry, in a PIB release, said the government had always been open to dialogue with the Apex Body Leh and the Kargil Democratic Alliance and would continue to welcome discussion through the High Powered Committee on Ladakh or any such platform. The Leh Apex Body had said it would stay away from talks until normalcy returned; the Kargil Democratic Alliance said on 30 September it would not talk until its demands were met.
     actor: centre
-    sources: [s6]
+    sources: [s12, s6, s32]
 outcome: >
   Wangchuk was released in March 2026 after the Home Ministry revoked his NSA detention. Leh Apex Body
-  and Kargil Democratic Alliance leaders met Home Ministry officials in August 2026 and demanded an
-  elected assembly. The Home Ministry ordered 12 CRPF companies to Ladakh for September 2026, a year
-  after the violence; compensation for the four deaths had not been paid by then.
+  and Kargil Democratic Alliance leaders met Home Ministry officials in Leh in August 2026 and demanded an
+  elected assembly. The Home Ministry ordered 12 CRPF companies to Ladakh for 31 August to 30 September
+  2026, a year after the violence; a Ladakh administration source told ThePrint that compensation promised
+  to the families of the four dead had not yet been granted.
 positions:
   - party: BJP
     person: Union Ministry of Home Affairs
     role_at_time: Union government (BJP-led NDA)
     in_power: true
-    date: 2025-09
-    statement: "Accused Wangchuk of 'provoking crowds with his speeches' (as reported by Al Jazeera)."
-    sources: [s7]
+    date: 2025-09-24
+    kind: verbatim
+    statement: "In a press release, said Wangchuk had misled people with references to Arab Spring-style protests and Gen Z protests in Nepal, that a mob instigated by his speeches attacked a party office and a government office and injured more than 30 police and CRPF personnel, and that police fired in self-defence."
+    quote:
+      text: "It is clear that the mob was incited by Shri Sonam Wangchuk through his provocative statements."
+      locator: "para 8"
+      source: s11
+    sources: [s11, s7]
   - party: other (Lieutenant Governor, central appointee)
     person: Kavinder Gupta
     role_at_time: Lieutenant Governor of Ladakh
     in_power: true
-    date: 2025-09
-    statement: Defended the police action, saying the Union Territory would otherwise have been "burnt down" (as reported by ThePrint).
+    date: 2025-09-29
+    kind: paraphrase
+    statement: Defended the police action, saying the Union Territory would otherwise have been burnt down (as reported by ThePrint).
     sources: [s6]
   - party: other (Independent)
     person: Haji Hanifa Jan
     role_at_time: Lok Sabha MP from Ladakh
     in_power: false
     date: 2025-09-30
-    statement: "The police 'could have fired in the air to disperse the crowd.'"
+    kind: verbatim
+    statement: Said the injuries of those who died were to the head, chest and upper body, and that police could have fired in the air or at the legs instead.
+    quote:
+      text: "The police could have fired in the air to disperse the crowd—or at worst, shot in the leg."
+      locator: "para 9"
+      source: s6
     sources: [s6]
   - party: other (Kargil Democratic Alliance)
     person: Sajjad Kargili
     role_at_time: Kargil Democratic Alliance leader
     in_power: false
     date: 2025-09-30
-    statement: "We will not talk to the Centre till our demands are fulfilled. If need be, we will start another agitation."
+    kind: verbatim
+    statement: Said the Kargil Democratic Alliance would not talk to the Centre until its demands were met, and might start another agitation.
+    quote:
+      text: "We will not talk to the Centre till our demands are fulfilled. If need be, we will start another agitation."
+      locator: "para 2"
+      source: s6
     sources: [s6]
 sources:
   - id: s1
     title: "Climate Activist Sonam Wangchuk, His Associates From Ladakh Released And Set Free: SGI Tushar Mehta Tells Delhi High Court"
     publisher: LiveLaw
+    author: Nupur Thapliyal
+    tier: report
     url: https://www.livelaw.in/high-court/delhi-high-court/climate-activist-sonam-wangchuk-his-associates-from-ladakh-released-and-set-free-sgi-tushar-mehta-tells-delhi-high-court-271457
     archive_date: 2024-10-03
     archive_url: https://web.archive.org/web/20241003082345/https://www.livelaw.in/high-court/delhi-high-court/climate-activist-sonam-wangchuk-his-associates-from-ladakh-released-and-set-free-sgi-tushar-mehta-tells-delhi-high-court-271457
     date: 2024-10-03
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: Delhi High Court Issues Notice On Plea To Allow Sonam Wangchuk, Others From Ladakh To Hold Peaceful Protest At Jantar Mantar
     publisher: LiveLaw
+    author: Nupur Thapliyal
+    tier: report
     url: https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-protest-jantar-mantar-272042
     archive_date: 2024-10-09
     archive_url: https://web.archive.org/web/20241009105439/https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-protest-jantar-mantar-272042
     date: 2024-10-09
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: "Climate Activist Sonam Wangchuk's Fast Withdrawn After Discussions: Delhi Police To High Court"
     publisher: LiveLaw
+    author: Nupur Thapliyal
+    tier: report
     url: https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-ladakh-sonam-wangchuk-fast-273181
     date: 2024-10-22
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: Protests seeking statehood in India's Ladakh turn deadly
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2025/9/24/protests-seeking-statehood-in-indias-ladakh-turn-deadly
     archive_date: 2025-09-24
     archive_url: https://web.archive.org/web/20250924151719/https://www.aljazeera.com/news/2025/9/24/protests-seeking-statehood-in-indias-ladakh-turn-deadly
     date: 2025-09-24
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: Leh turns into a fortress for funeral of ex-serviceman who fought in Kargil but fell to police bullets
     publisher: ThePrint
+    author: Bismee Taskin
+    tier: report
     url: https://theprint.in/india/leh-turns-into-a-fortress-for-funeral-of-ex-serviceman-who-fought-in-kargil-but-fell-to-police-bullets/2753789/
     archive_date: 2025-09-29
     archive_url: https://web.archive.org/web/20250929163152/https://theprint.in/india/leh-turns-into-a-fortress-for-funeral-of-ex-serviceman-who-fought-in-kargil-but-fell-to-police-bullets/2753789/
     date: 2025-09-29
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: "Release Wangchuk, probe 24 September police firing: Kargil-based group"
     publisher: ThePrint
+    author: Sagrika Kissu
+    tier: report
     url: https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
     archive_date: 2025-10-01
     archive_url: https://web.archive.org/web/20251001112154/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
     date: 2025-10-01
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Indian police arrest Ladakh activist after deadly protests
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2025/9/26/indian-police-arrest-ladakh-activist-after-deadly-protests
     archive_date: 2025-09-26
     archive_url: https://web.archive.org/web/20250926173248/https://www.aljazeera.com/news/2025/9/26/indian-police-arrest-ladakh-activist-after-deadly-protests
     date: 2025-09-26
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: Centre Revokes Detention Of Sonam Wangchuk Under National Security Act
     publisher: LiveLaw
+    tier: secondary
     url: https://www.livelaw.in/top-stories/centre-revokes-detention-of-sonam-wangchuk-under-national-security-act-526404
     archive_date: 2026-03-14
     archive_url: https://web.archive.org/web/20260314064159/https://www.livelaw.in/top-stories/centre-revokes-detention-of-sonam-wangchuk-under-national-security-act-526404
     date: 2026-03-14
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: "'You Are Reading Too Much Into Sonam Wangchuk's Speeches' : Supreme Court To Centre, Questions Nexus With Ladakh Violence"
     publisher: LiveLaw
+    author: Gursimran Kaur Bakshi
+    tier: report
     url: https://www.livelaw.in/top-stories/you-are-reading-too-much-into-sonam-wangchuks-speeches-supreme-court-to-centre-questions-nexus-with-ladakh-violence-522772
     archive_date: 2026-02-11
     archive_url: https://web.archive.org/web/20260211132743/https://www.livelaw.in/top-stories/you-are-reading-too-much-into-sonam-wangchuks-speeches-supreme-court-to-centre-questions-nexus-with-ladakh-violence-522772
     date: 2026-02-11
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: MHA orders deployment of 12 CRPF companies in Ladakh a year after violence during statehood protest
     publisher: ThePrint
+    author: Mayank Kumar
+    tier: report
     url: https://theprint.in/india/mha-orders-deployment-of-12-crpf-companies-in-ladakh-a-year-after-violence-during-statehood-protest/3023662/
     archive_date: 2026-08-25
     archive_url: https://web.archive.org/web/20260825065252/https://theprint.in/india/mha-orders-deployment-of-12-crpf-companies-in-ladakh-a-year-after-violence-during-statehood-protest/3023662/
     date: 2026-08-24
     type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: Press Release on Ladakh
+    publisher: Ministry of Home Affairs (PIB)
+    tier: record
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2170941
+    archive_date: 2025-09-24
+    archive_url: https://web.archive.org/web/20250924193957/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2170941
+    date: 2025-09-24
+    type: official
+    accessed: 2026-10-15
+  - id: s12
+    title: Government has always been open for dialogues on Ladakh matters with Apex Body Leh (ABL) and Kargil Democratic Alliance (KDA) at any time
+    publisher: Ministry of Home Affairs (PIB)
+    tier: record
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2172865
+    archive_date: 2025-09-29
+    archive_url: https://web.archive.org/web/20250929152728/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2172865
+    date: 2025-09-29
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: Government remains committed to fostering an environment of peace, stability, and mutual trust in Ladakh to facilitate constructive and meaningful dialogue with all stakeholders
+    publisher: Ministry of Home Affairs (PIB)
+    tier: record
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240077
+    date: 2026-03-14
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: "Order: Suspension of the mobile data services of 2G, 3G, 4G, 5G and public Wi-Fi facilities in District Leh of UT of Ladakh (MHA No.22016/12/2019-CIS-IV, dated 26 September 2025)"
+    publisher: Ministry of Home Affairs (via Home Department, UT of Ladakh)
+    tier: record
+    url: https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/09/202509272018515825.pdf
+    archive_date: 2025-09-28
+    archive_url: https://web.archive.org/web/20250928054608/https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/09/202509272018515825.pdf
+    date: 2025-09-26
+    type: official
+    accessed: 2026-10-15
+  - id: s15
+    title: "Order: Suspension of the mobile data services of 2G, 3G, 4G, 5G and public Wi-Fi facilities in the entire jurisdiction of District Leh (MHA, dated 29 September 2025)"
+    publisher: Ministry of Home Affairs (via Home Department, UT of Ladakh)
+    tier: record
+    url: https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/09/20250930170106335.pdf
+    archive_date: 2025-09-30
+    archive_url: https://web.archive.org/web/20250930072015/https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/09/20250930170106335.pdf
+    date: 2025-09-29
+    type: official
+    accessed: 2026-10-15
+  - id: s16
+    title: "Order: Suspension of the mobile data services of 2G, 3G, 4G, 5G and public Wi-Fi facilities in the entire jurisdiction of District Leh (MHA, dated 3 October 2025)"
+    publisher: Ministry of Home Affairs (via Home Department, UT of Ladakh)
+    tier: record
+    url: https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/10/202510062071230512.pdf
+    archive_date: 2025-10-06
+    archive_url: https://web.archive.org/web/20251006191933/https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/10/202510062071230512.pdf
+    date: 2025-10-03
+    type: official
+    accessed: 2026-10-15
+  - id: s17
+    title: "Order: Suspension of the mobile data services of 2G, 3G, 4G, 5G and public Wi-Fi facilities in the entire jurisdiction of District Leh (MHA, dated 7 October 2025)"
+    publisher: Ministry of Home Affairs (via Home Department, UT of Ladakh)
+    tier: record
+    url: https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/10/202510081774401160.pdf
+    archive_date: 2025-10-08
+    archive_url: https://web.archive.org/web/20251008061646/https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2025/10/202510081774401160.pdf
+    date: 2025-10-07
+    type: official
+    accessed: 2026-10-15
+  - id: s18
+    title: 4 killed, 65 injured as Ladakh statehood protests turn violent
+    publisher: The Tribune
+    author: Arjun Sharma
+    tier: report
+    url: https://www.tribuneindia.com/news/j-k/4-killed-65-injured-as-ladakh-statehood-protests-turn-violent
+    date: 2025-09-25
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: "'Police fired in self defence'—Leh violence leaves 4 dead, MHA says Wangchuk 'instigated' unrest"
+    publisher: ThePrint
+    author: Neelam Pandey, Mayank Kumar, Manisha Mondal
+    tier: report
+    url: https://theprint.in/india/governance/hunger-anger-in-leh-prohibitory-orders-clamped-after-ladakh-statehood-stir-spirals-at-least-3-dead/2750356/
+    archive_date: 2025-09-24
+    archive_url: https://web.archive.org/web/20250924163651/https://theprint.in/india/governance/hunger-anger-in-leh-prohibitory-orders-clamped-after-ladakh-statehood-stir-spirals-at-least-3-dead/2750356/
+    date: 2025-09-24
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Day after Leh violence, Wangchuk-led NGO loses FCRA licence over violations
+    publisher: The Tribune
+    author: Ujwal Jalali
+    tier: report
+    url: https://www.tribuneindia.com/news/india/day-after-leh-violence-wangchuk-led-ngo-loses-fcra-licence-over-violations
+    archive_date: 2025-09-26
+    archive_url: https://web.archive.org/web/20250926053835/https://www.tribuneindia.com/news/india/day-after-leh-violence-wangchuk-led-ngo-loses-fcra-licence-over-violations
+    date: 2025-09-26
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "‘Punishment,’ says Wangchuk as MHA scraps FCRA license of NGO linked to him day after Leh violence"
+    publisher: ThePrint
+    author: Mayank Kumar
+    tier: report
+    url: https://theprint.in/india/ladakh-sonam-wangchuk-fcra-licence-secmol/2751231/
+    archive_date: 2025-09-25
+    archive_url: https://web.archive.org/web/20250925222151/https://theprint.in/india/ladakh-sonam-wangchuk-fcra-licence-secmol/2751231/
+    date: 2025-09-25
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: "Govt ‘idiotically misinterpreted’ organisation’s reply: Sonam Wangchuk’s wife on FCRA license cancellation"
+    publisher: Newslaundry
+    author: Shivnarayan Rajpurohit
+    tier: report
+    url: https://www.newslaundry.com/2025/09/27/govt-idiotically-misinterpreted-organisations-reply-sonam-wangchuks-wife-on-fcra-license-cancellation
+    date: 2025-09-27
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: "Ladakh violence: ‘You are reading too much into Wangchuk’s speeches’, SC tells Centre"
+    publisher: The Tribune
+    author: Satya Prakash
+    tier: report
+    url: https://www.tribuneindia.com/news/j-k/ladakh-violence-you-are-reading-too-much-into-wangchuks-speeches-sc-tells-centre/
+    archive_date: 2026-02-11
+    archive_url: https://web.archive.org/web/20260211160231/https://www.tribuneindia.com/news/j-k/ladakh-violence-you-are-reading-too-much-into-wangchuks-speeches-sc-tells-centre/
+    date: 2026-02-11
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Climate activist Sonam Wangchuk among 120 people from Ladakh detained before entering Delhi
+    publisher: Deccan Herald
+    author: Shemin Joy
+    tier: report
+    url: https://www.deccanherald.com/india/delhi/climate-activist-sonam-wangchuk-among-120-people-from-ladakh-detained-before-entering-delhi-3213927
+    archive_date: 2024-10-01
+    archive_url: https://web.archive.org/web/20241001043448/https://www.deccanherald.com/india/delhi/climate-activist-sonam-wangchuk-among-120-people-from-ladakh-detained-before-entering-delhi-3213927
+    date: 2024-10-01
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Amid call for multiple protests, Section 163 invoked till Oct 5
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/delhi/amid-call-for-multiple-protests-section-163-invoked-till-oct-5
+    archive_date: 2024-10-09
+    archive_url: https://web.archive.org/web/20241009223622/https://www.tribuneindia.com/news/delhi/amid-call-for-multiple-protests-section-163-invoked-till-oct-5
+    date: 2024-10-01
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: Sonam Wangchuk detained again after release, indefinite fast over statehood for Ladakh continues
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/delhi/sonam-wangchuk-detained-again-after-release-indefinite-fast-over-statehood-for-ladakh-continues
+    archive_date: 2024-10-02
+    archive_url: https://web.archive.org/web/20241002060813/https://www.tribuneindia.com/news/delhi/sonam-wangchuk-detained-again-after-release-indefinite-fast-over-statehood-for-ladakh-continues
+    date: 2024-10-02
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: Delhi High Court seeks Delhi Police reply on plea to allow Sonam Wangchuk dharna at Jantar Mantar
+    publisher: Bar & Bench
+    author: Bhavini Srivastava
+    tier: report
+    url: https://www.barandbench.com/news/delhi-high-court-seeks-delhi-police-reply-plea-permission-sonam-wangchuk-dharna
+    date: 2024-10-09
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: Sonam Wangchuk ends protest, plea in Delhi High Court withdrawn
+    publisher: Bar & Bench
+    author: Bhavini Srivastava
+    tier: report
+    url: https://www.barandbench.com/news/sonam-wangchuk-ends-protest-plea-delhi-high-court-withdrawn
+    date: 2024-10-22
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: Refused Jantar Mantar nod, Wangchuk begins fast at Ladakh Bhawan
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/india/refused-jantar-mantar-nod-wangchuk-begins-fast-at-ladakh-bhawan/
+    date: 2024-10-07
+    type: news
+    accessed: 2026-10-15
+  - id: s30
+    title: "Ladakh Clashes: Death Toll Rises To 5 As Authorities Impose Curfew In Leh, Detain 50 Overnight"
+    publisher: ETV Bharat
+    tier: secondary
+    url: https://www.etvbharat.com/en/!state/leh-apex-body-condem-violence-demand-clarity-on-police-firing-section-163-enforced-after-unrest-enn25092501129
+    archive_date: 2025-09-25
+    archive_url: https://web.archive.org/web/20250925183702/https://www.etvbharat.com/en/!state/leh-apex-body-condem-violence-demand-clarity-on-police-firing-section-163-enforced-after-unrest-enn25092501129
+    date: 2025-09-25
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: Curfew imposed in violence-hit Leh; LG claims conspiracy
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/j-k/curfew-imposed-in-violence-hit-leh-lg-claims-conspiracy
+    archive_date: 2025-09-24
+    archive_url: https://web.archive.org/web/20250924163741/https://www.tribuneindia.com/news/j-k/curfew-imposed-in-violence-hit-leh-lg-claims-conspiracy
+    date: 2025-09-24
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: "Govt always open to dialogue on Ladakh with Leh Apex Body, Kargil Democratic Alliance: MHA"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/j-k/govt-always-open-to-dialogue-on-ladakh-with-leh-apex-body-kargil-democratic-alliance-mha
+    archive_date: 2025-09-29
+    archive_url: https://web.archive.org/web/20250929180816/https://www.tribuneindia.com/news/j-k/govt-always-open-to-dialogue-on-ladakh-with-leh-apex-body-kargil-democratic-alliance-mha
+    date: 2025-09-29
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: "Ladakh unrest: Curfew in Leh after violent clashes; heavy security in towns, 50 detained"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/j-k/ladakh-unrest-curfew-in-leh-after-violent-clashes-heavy-security-in-towns-50-detained
+    archive_date: 2025-09-25
+    archive_url: https://web.archive.org/web/20250925060918/https://www.tribuneindia.com/news/j-k/ladakh-unrest-curfew-in-leh-after-violent-clashes-heavy-security-in-towns-50-detained
+    date: 2025-09-25
+    type: news
+    accessed: 2026-10-15
 tags: [ladakh, statehood, sixth_schedule, nsa, detention, internet_shutdown, curfew, firing]
 review:
   status: draft
