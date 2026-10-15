@@ -95,5 +95,63 @@
       "result": "exact",
       "text_sha256": "1d8401422e250d60b8819a144a71a06b48e3326eed61524021a484edec66b383"
     }
+  },
+  "election-commission-sir-protests-2026": {
+    "897be74dbe498797": {
+      "position": 0,
+      "source": "o4",
+      "fetched": "https://web.archive.org/web/20261011133803id_/https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "cf341fcee919c31363c3c946852cd4f894666fb9312aca88d3f49233fa4d61f4"
+    },
+    "dc04591a939a84ae": {
+      "position": 1,
+      "source": "o29",
+      "fetched": "https://web.archive.org/web/20261010181730id_/https://x.com/IndiaUNGeneva/status/2108976043075797300",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "1d5b023b3b3a8ffcf6a6b0ea5a83bacdd52731914111a9ef46418d62ea0cd2c8"
+    },
+    "31a833d0055b1007": {
+      "position": 2,
+      "source": "o31",
+      "fetched": "https://web.archive.org/web/20261010114148id_/https://x.com/RahulGandhi/status/2108879919535341863",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "727af0c87eca0b71c6579d5b491e56d0365b2b4e5caf8d32ab98d09bbc5cbc6f"
+    },
+    "9952b841a39ab728": {
+      "position": 4,
+      "source": "o30",
+      "fetched": "https://web.archive.org/web/20261011133731id_/https://x.com/RahulGandhi/status/2109271519373545893",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "e2bb724f05b6bbcf380c5790d1f8a2237909099d9c5dce336101acb58838889a"
+    },
+    "0c943f664f0ca994": {
+      "position": 5,
+      "source": "o28",
+      "fetched": "https://web.archive.org/web/20261010093021id_/https://x.com/kharge/status/2108835263422279689",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "b5a637a536822a2eb8674a59fad42f35372665c6e0c2cc0448610635a106bdc2"
+    },
+    "112928c6a2a588a7": {
+      "position": 6,
+      "source": "o32",
+      "fetched": "https://web.archive.org/web/20261011163547id_/https://x.com/JohnBrittas/status/2109298130277847214",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "c3d8870cc2223f9daa8d6c0eb3563effbd275544bc8d38243951d94146e71b78"
+    },
+    "ae3cdfba77ef5742": {
+      "position": 7,
+      "source": "o6",
+      "fetched": "https://web.archive.org/web/20261013140038id_/https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "1c9ce0407c5f4c3da3b58b32b37ed0071068bc85df5901be4097767f88a39054"
+    }
   }
 }
