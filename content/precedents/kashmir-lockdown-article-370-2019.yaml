@@ -17,7 +17,7 @@ location:
 protest:
   cause: Abrogation of Article 370 and bifurcation of Jammu and Kashmir into two union territories
   organisers: [No single organiser; the restrictions were pre-emptive and targeted mainstream parties, separatists and activists]
-  scale: "Valley-wide communications blackout and movement restrictions; an unnamed official told Al Jazeera in August 2019 that over 1,000 people had been detained"
+  scale: "Valley-wide communications blackout and movement restrictions. Detention counts differ by source and date: an unnamed official told Al Jazeera in August 2019 that over 1,000 people had been detained; an unnamed magistrate told AFP that at least 4,000 were held under the Public Safety Act; the Union Home Ministry told the Lok Sabha in December 2019 that 5,161 people had been taken into preventive custody in the Kashmir Valley since 4 August 2019"
 government:
   centre:
     party: BJP
@@ -32,44 +32,77 @@ government:
 actions:
   - type: internet_shutdown
     date: 2019-08-04
-    description: "Mobile phone networks, internet services and landline connectivity were discontinued in the Kashmir Valley on 4 August 2019, as recorded in the Supreme Court judgment. Cable TV was also cut. Landlines were restored between mid-August and September 2019, postpaid mobile voice on 14 October 2019, and SMS on 1 January 2020."
+    claim: ordered
+    legal_basis: "Section 5(2), Indian Telegraph Act, 1885, and the Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (as stated by the Union Home Ministry in the Lok Sabha on 20 September 2020; the Supreme Court reviewed the orders under the 2017 Suspension Rules)"
+    description: "Mobile phone networks, internet services and landline connectivity were discontinued in the Kashmir Valley on 4 August 2019, as recorded in the Supreme Court judgment. Cable TV was also cut, The Indian Express reported. Hindustan Times reported that landlines were restored between mid-August and September 2019, postpaid mobile services on 14 October 2019, and SMS on 1 January 2020. Before the Supreme Court, the Solicitor General said internet was never restricted in the Jammu and Ladakh regions, and that the limited use of the internet was meant to stop messages from outside the country that could incite violence. The court recorded that the State placed only sample orders on record, citing difficulty in producing orders that were withdrawn and modified day to day."
     actor: state
-    sources: [s7, s10, s9]
+    sources: [s7, s10, s9, s20]
   - type: section_144
     date: 2019-08-05
-    description: "Prohibitory orders under Section 144 CrPC were imposed in Srinagar, banning assembly of more than four people and closing educational institutions; similar orders were imposed in Jammu district, with night curfew in Kishtwar, Rajouri and Banihal. The Srinagar district administration said no curfew orders were issued, while reporters described the restrictions as an effective curfew."
+    claim: ordered
+    legal_basis: Section 144 CrPC (orders by District Magistrates restricting movement and public gatherings, as recorded by the Supreme Court)
+    description: "District Magistrates imposed restrictions on movement and public gatherings under Section 144 CrPC, as recorded by the Supreme Court. A J&K government statement on the night of 4 August said there would be no movement of public in Srinagar district and all educational institutions would stay closed. PTI, as carried by The Wire, reported that the Srinagar orders banned assembly of more than four people, that similar orders were imposed in Jammu district, and that night curfew was imposed in Kishtwar and Rajouri districts and the Banihal area. The Srinagar district administration posted that restrictions under Section 144 had been imposed and that there were no curfew orders anywhere; The Indian Express reported that residents were not allowed outside their neighbourhoods and that curfew passes were not being issued. Before the Supreme Court, the Solicitor General said individual movement had never been restricted, that restrictions were never imposed in Ladakh, and that they were being relaxed gradually. On 16 August 2019 Chief Secretary BVR Subrahmanyam said no lives had been lost since the restrictions began; AFP reported a family's account that a 62-year-old man died from tear gas fired by security forces (see figures)."
     actor: state
-    sources: [s2, s1, s10]
+    sources: [s7, s1, s2, s17, s10, s25, s26, s24]
+    figures:
+      - { what: "deaths or serious injuries since the restrictions began, as of 16 August 2019", value: "none", claimed_by: "Chief Secretary BVR Subrahmanyam (press conference, as reported by AP)", source: s25 }
+      - { what: "loss of life or major injury since 5 August 2019, as of 16 August 2019", value: "none", claimed_by: "Chief Secretary BVR Subrahmanyam (press conference, as reported by The Quint)", source: s26 }
+      - { what: "death alleged to have been caused by tear gas fired by security forces, by 18 August 2019", value: "1 (Sidiq Khan, 62)", claimed_by: "his nephew Muddasir Ahmed, to AFP", source: s24 }
   - type: house_arrest
     date: 2019-08-04
-    description: "Omar Abdullah, Mehbooba Mufti and other mainstream leaders were placed under house arrest on the night of 4 August 2019. On 5 August Mehbooba Mufti was taken into custody and both she and Omar Abdullah were moved to government guest houses (Hari Niwas and Chashm-e-Shahi). Farooq Abdullah, a sitting Lok Sabha MP, was held at his home on Gupkar Road. The administration did not publish detention figures."
+    claim: happened
+    legal_basis: Section 107 CrPC (for Omar Abdullah, according to his sister's petition in the Supreme Court, as reported by The Wire)
+    description: "Omar Abdullah, Mehbooba Mufti and other mainstream leaders were placed under house arrest on the night of 4 August 2019. Al Jazeera reported that both were arrested on 5 August, with Omar Abdullah held at Hari Niwas and Mehbooba Mufti at Chashm-e-Shahi, both government guest houses; The Wire reported on 5 August that Mehbooba Mufti had been shifted to Hari Niwas. Farooq Abdullah, a sitting Lok Sabha MP, was held at his home on Gupkar Road, Al Jazeera reported; The Quint reported the government's claim that he had not been put under house arrest. The administration did not publish detention figures at the time, and AFP reported that the J&K government spokesman said there was no centralised figure. Counts given later by the Union Home Ministry in Parliament, and earlier by unnamed officials to the press, differ (see figures). On 15 September 2020 the Home Ministry told the Lok Sabha that no political leader was under house arrest in the union territory; former Union Minister Saifuddin Soz said in a statement that he had been under house arrest since 5 August 2019."
     actor: state
-    sources: [s2, s3, s1]
+    sources: [s3, s10, s2, s1, s6, s26, s24, s18, s19, s20, s21, s28]
+    figures:
+      - { what: "people detained by mid-August 2019, including politicians, separatists and activists", value: "over 1,000", claimed_by: "unnamed official in Jammu and Kashmir, to Al Jazeera", source: s3 }
+      - { what: "people arrested and held under the Public Safety Act, by 18 August 2019", value: "at least 4,000", claimed_by: "unnamed magistrate, to AFP", source: s24 }
+      - { what: "people medically examined at places in Srinagar after being detained, by 18 August 2019", value: "around 6,000", claimed_by: "unnamed police official, to AFP", source: s24 }
+      - { what: "people taken into preventive custody in the Kashmir Valley since 4 August 2019, as of 3 December 2019", value: "5,161", claimed_by: "Union Ministry of Home Affairs (written Lok Sabha reply by G. Kishan Reddy)", source: s18 }
+      - { what: "people still under preventive detention, as of 3 December 2019", value: "609", claimed_by: "Union Ministry of Home Affairs (written Lok Sabha reply by G. Kishan Reddy)", source: s18 }
+      - { what: "people taken into preventive custody since August 2019, as of 5 February 2020", value: "6,605", claimed_by: "Government of Jammu and Kashmir, as reported by the Union Ministry of Home Affairs (written Rajya Sabha reply)", source: s19 }
+      - { what: "people still under preventive detention, none of them minors, as of 5 February 2020", value: "437", claimed_by: "Government of Jammu and Kashmir, as reported by the Union Ministry of Home Affairs (written Rajya Sabha reply)", source: s19 }
+      - { what: "people under detention, as of 11 September 2020", value: "223", claimed_by: "Government of Jammu and Kashmir, as reported by the Union Ministry of Home Affairs (written Lok Sabha reply)", source: s20 }
+      - { what: "political leaders under house arrest, as of 15 September 2020", value: "none", claimed_by: "Union Ministry of Home Affairs (written Lok Sabha reply)", source: s21 }
   - type: detention
-    date: 2019-09-16
-    description: "It emerged on Monday 16 September 2019 that Farooq Abdullah had been detained under the Jammu and Kashmir Public Safety Act, 1978, which allows detention without trial for up to two years."
+    date: 2019-09-14
+    claim: ordered
+    legal_basis: Jammu and Kashmir Public Safety Act, 1978
+    description: "The District Magistrate of Srinagar, Shahid Iqbal Choudhary, ordered the detention of Farooq Abdullah under the Jammu and Kashmir Public Safety Act, 1978 on 14 September 2019, according to documents reported by The Tribune. The order became public on Monday 16 September 2019. The Tribune reported that the dossier cited 34 media reports and documents, and that the order called the detention necessary to maintain public order."
     actor: state
-    sources: [s4, s5]
+    sources: [s27, s5, s4]
   - type: detention
     date: 2020-02-06
-    description: "Omar Abdullah and Mehbooba Mufti were booked under the PSA on the night of 6 February 2020, when their six-month preventive custody was ending. The police dossiers accused Omar Abdullah of instigating the masses against central policies and called Mehbooba Mufti a promoter of separatism. Omar Abdullah's sister challenged the order in the Supreme Court, calling the dossier 'patently false and ridiculous'. Mehbooba Mufti was released on 13 October 2020."
+    claim: ordered
+    legal_basis: Jammu and Kashmir Public Safety Act, 1978
+    description: "Omar Abdullah and Mehbooba Mufti were booked under the PSA on the night of 6 February 2020, when their six-month preventive custody was ending (The Indian Express of 14 October 2020 gives the date as 5 February). The police dossiers accused Omar Abdullah of instigating the masses against central policies and said Mehbooba Mufti had been promoting separatism. Omar Abdullah's sister challenged the order in the Supreme Court; according to The Wire, her petition called the dossier's material 'patently false and ridiculous'. The J&K government revoked Mehbooba Mufti's detention under Section 19(1) of the PSA on 13 October 2020."
     actor: state
     sources: [s5, s6, s12]
   - type: other
     date: 2020-01-10
+    claim: held
     description: "Supreme Court judgment in Anuradha Bhasin v. Union of India: free speech and trade over the internet are protected under Article 19; indefinite suspension of internet is not permitted; all suspension and Section 144 orders must be published and reviewed; a review committee must re-examine suspensions every seven working days; and restoration of e-banking, hospital and government website access must be considered."
     actor: court
     sources: [s7]
   - type: concession
     date: 2020-01-25
-    description: "Mobile data was restored across the union territory at 2G speed from 25 January 2020, limited to a government whitelist of websites with social media and VPNs blocked. A first whitelist and partial 2G restoration in Jammu division and two Valley districts had been announced on 18 January."
+    claim: ordered
+    description: "The J&K administration said on 24 January 2020 that mobile data would be restored across the union territory at 2G speed from 25 January 2020, limited to a government whitelist of websites with social media and VPNs blocked. The Union Home Ministry later told the Lok Sabha that mobile data at 2G speed had been available since 24 January 2020, and that restrictions on social media sites were lifted on 4 March 2020. A first whitelist and partial 2G restoration in the Jammu division and two Valley districts had been announced on 18 January."
     actor: state
-    sources: [s8, s9]
+    sources: [s8, s9, s20]
+  - type: other
+    date: 2020-05-11
+    claim: held
+    description: "In Foundation for Media Professionals v. Union Territory of Jammu and Kashmir, the Supreme Court did not order 4G restored. It set up a Special Committee headed by the Union Home Secretary, with the Union Communications Secretary and the J&K Chief Secretary, to determine whether the restrictions needed to continue, and to examine limiting them to areas where necessary and allowing faster internet on a trial basis in some areas."
+    actor: court
+    sources: [s23]
   - type: concession
     date: 2021-02-05
-    description: "The J&K administration ordered restoration of 4G mobile internet across the union territory on 5 February 2021, more than 17 months after it was suspended. The order cited an assessment by a special committee set up on the Supreme Court's 11 May 2020 directions. 4G had been restored on trial in Ganderbal and Udhampur in August 2020."
+    claim: ordered
+    description: "The J&K administration ordered restoration of 4G mobile internet across the union territory on 5 February 2021, more than 17 months after it was suspended. The order cited an assessment by a special committee set up on the Supreme Court's 11 May 2020 directions. 4G had been restored on trial in Ganderbal and Udhampur districts from 16 August 2020."
     actor: state
-    sources: [s9]
+    sources: [s22, s9, s23]
 outcome: >
   Mobile internet was restored in stages, with 4G across Jammu and Kashmir from February 2021.
   The J&K government revoked Mehbooba Mufti's PSA detention on 13 October 2020, fourteen months
@@ -80,85 +113,126 @@ positions:
     role_at_time: Union Home Minister
     in_power: true
     date: 2019-08-05
-    statement: "In the Rajya Sabha, said Jammu and Kashmir could be made a state again as soon as normalcy returns, and tweeted that the 'historic decision will usher in a new dawn of peace and development in J&K and Ladakh region'."
-    sources: [s2]
+    kind: verbatim
+    statement: "On X (then Twitter), said the Modi government had corrected a long overdue historic wrong, and that the decision would bring peace and development to J&K and Ladakh."
+    quote:
+      text: "This historic decision will usher in a new dawn of peace & development in J&K and Ladakh region."
+      locator: "Post of 5 August 2019, third paragraph"
+      source: s13
+    sources: [s13, s2]
   - party: other (J&K administration)
     person: BVR Subrahmanyam
     role_at_time: Chief Secretary, Jammu and Kashmir
     in_power: true
-    date: 2019-08-17
-    statement: "Preventive detentions are being reviewed and appropriate decisions will be taken based on law and order assessments."
-    sources: [s3]
+    date: 2019-08-16
+    kind: verbatim
+    statement: "At a press conference in Srinagar, said preventive detentions were being reviewed, that some preventive arrests had been made to maintain law and order, and that no lives had been lost since the restrictions began. He did not give the number of people in custody."
+    quote:
+      text: "Preventive detentions are being reviewed and appropriate decisions will be taken based on law and order assessments"
+      locator: "Paragraph beginning 'In a news conference this week'"
+      source: s3
+    sources: [s3, s26, s25]
   - party: PDP
     person: Mehbooba Mufti
     role_at_time: Former Chief Minister, PDP president
     in_power: false
     date: 2019-08-05
-    statement: "Called it the darkest day in Indian democracy, and said the unilateral decision to scrap Article 370 is illegal and unconstitutional and will make India an occupational force in J&K."
-    sources: [s11]
+    kind: verbatim
+    statement: "On X (then Twitter), called it the darkest day in Indian democracy, and said the unilateral decision to scrap Article 370 is illegal and unconstitutional and will make India an occupational force in J&K."
+    quote:
+      text: "Unilateral decision of GOI to scrap Article 370 is illegal & unconstitutional which will make India an occupational force in J&K."
+      locator: "Post of 5 August 2019, third sentence"
+      source: s14
+    sources: [s14, s2, s11]
   - party: NC
     person: Omar Abdullah
     role_at_time: Former Chief Minister, NC vice-president
     in_power: false
     date: 2019-08-04
-    statement: "If officers in the state government are to be believed mobile internet is going down now, an unofficial curfew is going to start & mainstream leaders are going to be detained."
-    sources: [s2]
+    kind: verbatim
+    statement: "On X (then Twitter), said that according to officers in the state government, mobile internet was going down, an unofficial curfew was about to start and mainstream leaders were going to be detained."
+    quote:
+      text: "If officers in the state government are to be believed mobile internet is going down now, an unofficial curfew is going to start & mainstream leaders are going to be detained."
+      locator: "Post of 4 August 2019, first sentence"
+      source: s15
+    sources: [s15, s2]
   - party: NC
     person: Omar Abdullah
     role_at_time: Former Chief Minister, NC vice-president
     in_power: false
     date: 2021-02-05
-    statement: "4G Mubarak! For the first time since Aug 2019 all of J&K will have 4G mobile data. Better late than never."
-    sources: [s9]
+    kind: verbatim
+    statement: "On X (then Twitter), welcomed the restoration of 4G mobile data across J&K for the first time since August 2019."
+    quote:
+      text: "4G Mubarak! For the first time since Aug 2019 all of J&K will have 4G mobile data. Better late than never."
+      locator: "Post of 5 February 2021, full text"
+      source: s16
+    sources: [s16, s9]
 sources:
   - id: s1
     title: "India imposes Kashmir lockdown, puts leaders 'under house arrest'"
     publisher: Al Jazeera
+    author: Rifat Fareed
+    tier: report
     url: https://www.aljazeera.com/news/2019/08/india-imposes-lockdown-kashmir-puts-leaders-house-arrest-190804174841241.html
     archive_date: 2019-08-04
     archive_url: https://web.archive.org/web/20190804204130/https://www.aljazeera.com/news/2019/08/india-imposes-lockdown-kashmir-puts-leaders-house-arrest-190804174841241.html
     date: 2019-08-04
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "Article 370 Revoked: J&K Leaders Detained, PM Modi Praises Amit Shah"
     publisher: The Wire
+    tier: secondary
     url: https://thewire.in/security/kashmir-curfew-internet-house-arrest
     archive_date: 2019-08-05
     archive_url: https://web.archive.org/web/20190805161054/https://thewire.in/security/kashmir-curfew-internet-house-arrest
     date: 2019-08-05
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Key Kashmir political leaders arrested by India since August 5
     publisher: Al Jazeera
+    author: Rifat Fareed
+    tier: report
     url: https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5
     archive_date: 2020-12-31
     archive_url: https://web.archive.org/web/20201231033541/https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5
     date: 2019-08-17
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Explained: What is Jammu and Kashmir's Public Safety Act?"
     publisher: The Indian Express
+    author: Kaunain Sheriff M, Bashaarat Masood
+    tier: secondary
     url: https://indianexpress.com/article/explained/farooq-abdullah-psa-jammu-and-kashmir-explained-6001031/
     archive_date: 2019-09-18
     archive_url: https://web.archive.org/web/20190918043317/https://indianexpress.com/article/explained/farooq-abdullah-psa-jammu-and-kashmir-explained-6001031/
     date: 2019-09-17
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "PSA file indicts Omar Abdullah for getting people to vote, refers to Mehbooba Mufti as 'Daddy's girl'"
     publisher: The Indian Express
+    author: Bashaarat Masood
+    tier: report
     url: https://indianexpress.com/article/india/omar-abdullah-mehbooba-mufti-public-safety-act-psa-jammu-and-kashmir-6259588/
     archive_date: 2020-02-10
     archive_url: https://web.archive.org/web/20200210154224/https://indianexpress.com/article/india/omar-abdullah-mehbooba-mufti-public-safety-act-psa-jammu-and-kashmir-6259588/
     date: 2020-02-10
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: Omar Abdullah's Sister Files Petition in Supreme Court Against His Detention Under PSA
     publisher: The Wire
+    tier: secondary
     url: https://thewire.in/rights/omar-abdullah-psa-detention-supreme-court
     archive_date: 2020-02-11
     archive_url: https://web.archive.org/web/20200211174110/https://thewire.in/rights/omar-abdullah-psa-detention-supreme-court
     date: 2020-02-10
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: Anuradha Bhasin v. Union of India (W.P. (C) No. 1031 of 2019)
     publisher: Supreme Court of India (via Indian Kanoon)
@@ -168,46 +242,220 @@ sources:
     archive_url: https://web.archive.org/web/20200111004351/https://indiankanoon.org/doc/82461587/
     date: 2020-01-10
     type: court_judgment
+    accessed: 2026-10-15
   - id: s8
     title: "Data Services on Low Speed 2G Restored Across J&K, Some News Sites Now 'Whitelisted'"
     publisher: The Wire
+    tier: secondary
     url: https://thewire.in/government/2g-data-services-to-be-restored-throughout-jammu-kashmir-union-territory
     archive_date: 2020-01-25
     archive_url: https://web.archive.org/web/20200125103750/https://thewire.in/government/2g-data-services-to-be-restored-throughout-jammu-kashmir-union-territory
     date: 2020-01-24
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: 17 months on, 4G internet services restored in Jammu and Kashmir
     publisher: Hindustan Times
+    author: Mir Ehsan
+    tier: report
     url: https://www.hindustantimes.com/india-news/17-months-on-4g-internet-services-restored-in-jammu-and-kashmir-101612564917419.html
     archive_date: 2021-02-06
     archive_url: https://web.archive.org/web/20210206195033/https://www.hindustantimes.com/india-news/17-months-on-4g-internet-services-restored-in-jammu-and-kashmir-101612564917419.html
     date: 2021-02-06
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: Kashmir Valley has seen many a lockdown but why this time it is so different
     publisher: The Indian Express
+    author: Muzamil Jaleel, Bashaarat Masood, Adil Akhzer
+    tier: report
     url: https://indianexpress.com/article/india/valley-has-seen-many-a-lockdown-but-why-this-time-it-is-so-different-article-370-kashmir-amit-shah-5884129/
     archive_date: 2019-08-07
     archive_url: https://web.archive.org/web/20190807022631/https://indianexpress.com/article/india/valley-has-seen-many-a-lockdown-but-why-this-time-it-is-so-different-article-370-kashmir-amit-shah-5884129/
     date: 2019-08-07
     type: news
+    accessed: 2026-10-15
   - id: s11
     title: "'Dark day for democracy': Mehbooba Mufti on scrapping of Article 370 for India's Jammu and Kashmir"
     publisher: Gulf News
+    tier: secondary
     url: https://gulfnews.com/world/asia/dark-day-for-democracy-mehbooba-mufti-on-scrapping-of-article-370--for-indias-jammu-and-kashmir-1.1564989656723
     archive_date: 2019-08-05
     archive_url: https://web.archive.org/web/20190805124331/https://gulfnews.com/world/asia/dark-day-for-democracy-mehbooba-mufti-on-scrapping-of-article-370--for-indias-jammu-and-kashmir-1.1564989656723
     date: 2019-08-05
     type: news
+    accessed: 2026-10-15
   - id: s12
     title: "Mehbooba released, says 'will take back what Delhi snatched'"
     publisher: The Indian Express
+    author: Bashaarat Masood
+    tier: report
     url: https://indianexpress.com/article/india/mehbooba-mufti-released-from-detention-6723785/
     archive_date: 2020-10-16
     archive_url: https://web.archive.org/web/20201016052616/https://indianexpress.com/article/india/mehbooba-mufti-released-from-detention-6723785/
     date: 2020-10-14
     type: news
+    accessed: 2026-10-15
+  - id: s13
+    title: "Today, Modi govt has corrected a long overdue historic wrong. (post)"
+    publisher: Amit Shah (@AmitShah), X
+    tier: record
+    url: https://x.com/AmitShah/status/1158386052597370880
+    archive_date: 2024-07-12
+    archive_url: https://web.archive.org/web/20240712054955/https://x.com/AmitShah/status/1158386052597370880
+    date: 2019-08-05
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: "Today marks the darkest day in Indian democracy. (post)"
+    publisher: Mehbooba Mufti (@MehboobaMufti), X
+    tier: record
+    url: https://x.com/MehboobaMufti/status/1158257894149615616
+    archive_date: 2024-07-03
+    archive_url: https://web.archive.org/web/20240703073614/https://x.com/MehboobaMufti/status/1158257894149615616
+    date: 2019-08-05
+    type: official
+    accessed: 2026-10-15
+  - id: s15
+    title: "If officers in the state government are to be believed mobile internet is going down now (post)"
+    publisher: Omar Abdullah (@OmarAbdullah), X
+    tier: record
+    url: https://x.com/OmarAbdullah/status/1158069206539128832
+    date: 2019-08-04
+    type: official
+    accessed: 2026-10-15
+  - id: s16
+    title: "4G Mubarak! (post)"
+    publisher: Omar Abdullah (@OmarAbdullah), X
+    tier: record
+    url: https://x.com/OmarAbdullah/status/1357695596254040064
+    archive_date: 2025-01-23
+    archive_url: https://web.archive.org/web/20250123022552/https://x.com/OmarAbdullah/status/1357695596254040064
+    date: 2021-02-05
+    type: official
+    accessed: 2026-10-15
+  - id: s17
+    title: "Restrictions u/s 144 CrPC have been imposed in districts in view of prevailing law & order situation. (post)"
+    publisher: Srinagar district administration (@srinagaradmin), X
+    tier: record
+    url: https://x.com/srinagaradmin/status/1158087763318546432
+    date: 2019-08-05
+    type: official
+    accessed: 2026-10-15
+  - id: s18
+    title: "Lok Sabha Unstarred Question No. 2417, 3 December 2019: Detention in J&K (reply of G. Kishan Reddy, MoS Home Affairs)"
+    publisher: Ministry of Home Affairs (Lok Sabha)
+    tier: record
+    url: https://sansad.in/getFile/loksabhaquestions/annex/172/AU2417.pdf?source=pqals
+    archive_date: 2024-05-07
+    archive_url: https://web.archive.org/web/20240507085015/https://sansad.in/getFile/loksabhaquestions/annex/172/AU2417.pdf?source=pqals
+    date: 2019-12-03
+    type: official
+    accessed: 2026-10-15
+  - id: s19
+    title: "Rajya Sabha Unstarred Question No. 360, 5 February 2020: Detentions in Jammu, Kashmir and Ladakh (reply of G. Kishan Reddy, MoS Home Affairs)"
+    publisher: Ministry of Home Affairs (Rajya Sabha)
+    tier: record
+    url: https://www.mha.gov.in/MHA1/Par2017/pdfs/par2020-pdfs/rs-05022020/360.pdf
+    archive_date: 2021-06-08
+    archive_url: https://web.archive.org/web/20210608125106/https://www.mha.gov.in/MHA1/Par2017/pdfs/par2020-pdfs/rs-05022020/360.pdf
+    date: 2020-02-05
+    type: official
+    accessed: 2026-10-15
+  - id: s20
+    title: "Lok Sabha Unstarred Question No. 1405, 20 September 2020: Detention under Public Safety Act (reply of G. Kishan Reddy, MoS Home Affairs)"
+    publisher: Ministry of Home Affairs (Lok Sabha)
+    tier: record
+    url: https://sansad.in/getFile/loksabhaquestions/annex/174/AU1405.pdf?source=pqals
+    archive_date: 2024-08-12
+    archive_url: https://web.archive.org/web/20240812151708/https://sansad.in/getFile/loksabhaquestions/annex/174/AU1405.pdf?source=pqals
+    date: 2020-09-20
+    type: official
+    accessed: 2026-10-15
+  - id: s21
+    title: "Lok Sabha Unstarred Question No. 403, 15 September 2020: Impact of removal of Article 370 (reply of G. Kishan Reddy, MoS Home Affairs)"
+    publisher: Ministry of Home Affairs (Lok Sabha)
+    tier: record
+    url: https://sansad.in/getFile/loksabhaquestions/annex/174/AU403.pdf?source=pqals
+    archive_date: 2024-05-07
+    archive_url: https://web.archive.org/web/20240507200056/https://sansad.in/getFile/loksabhaquestions/annex/174/AU403.pdf?source=pqals
+    date: 2020-09-15
+    type: official
+    accessed: 2026-10-15
+  - id: s22
+    title: "Rajya Sabha Unstarred Question No. 987, 10 February 2021: Resumption of 4G internet services in J&K (reply of G. Kishan Reddy, MoS Home Affairs)"
+    publisher: Ministry of Home Affairs (Rajya Sabha)
+    tier: record
+    url: https://www.mha.gov.in/MHA1/Par2017/pdfs/par2021-pdfs/rs-10022021/987.pdf
+    archive_date: 2021-06-12
+    archive_url: https://web.archive.org/web/20210612055144/https://www.mha.gov.in/MHA1/Par2017/pdfs/par2021-pdfs/rs-10022021/987.pdf
+    date: 2021-02-10
+    type: official
+    accessed: 2026-10-15
+  - id: s23
+    title: Foundation for Media Professionals v. Union Territory of Jammu and Kashmir (judgment of 11 May 2020)
+    publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/123992151/
+    archive_date: 2020-05-19
+    archive_url: https://web.archive.org/web/20200519231226/https://indiankanoon.org/doc/123992151/
+    date: 2020-05-11
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s24
+    title: "'4,000 detained' in Kashmir since autonomy stripped"
+    publisher: Asia Times (AFP copy)
+    author: Parvaiz Bukhari
+    wire: AFP
+    tier: secondary
+    url: https://asiatimes.com/2019/08/4000-detained-in-kashmir-since-autonomy-stripped/
+    archive_date: 2020-10-22
+    archive_url: https://web.archive.org/web/20201022180354/https://asiatimes.com/2019/08/4000-detained-in-kashmir-since-autonomy-stripped/
+    date: 2019-08-18
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Hundreds join street protest in Kashmir, defying restrictions
+    publisher: PBS NewsHour (AP copy)
+    author: Ashok Sharma
+    wire: AP
+    tier: secondary
+    url: https://www.pbs.org/newshour/world/hundreds-join-street-protest-in-kashmir-defying-restrictions
+    archive_date: 2019-08-16
+    archive_url: https://web.archive.org/web/20190816171703/https://www.pbs.org/newshour/world/hundreds-join-street-protest-in-kashmir-defying-restrictions
+    date: 2019-08-16
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "Ground Report: Phone Lines in Kashmir to Be Restored Over Weekend"
+    publisher: The Quint
+    author: Shadab Moizee
+    tier: report
+    url: https://www.thequint.com/news/india/ground-report-phone-lines-in-kashmir-to-be-restored-over-weekend
+    archive_date: 2019-09-13
+    archive_url: https://web.archive.org/web/20190913185125/https://www.thequint.com/news/india/ground-report-phone-lines-in-kashmir-to-be-restored-over-weekend
+    date: 2019-08-16
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "PSA order: Farooq's acts prior to abrogation led to detention"
+    publisher: The Tribune
+    author: Ishfaq Tantry
+    tier: report
+    url: https://www.tribuneindia.com/news/archive/psa-order-farooqs-acts-prior-to-abrogation-led-to-detention-834573
+    date: 2019-09-19
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Home Minister's statement in Parliament that nobody was under house arrest in J&K not true: Saifuddin Soz"
+    publisher: National Herald
+    tier: secondary
+    url: https://www.nationalheraldindia.com/india/home-ministers-statement-in-parliament-that-nobody-was-under-house-arrest-in-jandk-not-true-saifuddin-soz
+    archive_date: 2021-10-17
+    archive_url: https://web.archive.org/web/20211017040030/https://www.nationalheraldindia.com/india/home-ministers-statement-in-parliament-that-nobody-was-under-house-arrest-in-jandk-not-true-saifuddin-soz
+    date: 2020-09-18
+    type: news
+    accessed: 2026-10-15
 tags: [jammu-and-kashmir, article-370, internet_shutdown, section_144, house_arrest, public_safety_act, supreme_court, bjp]
 review:
   status: draft

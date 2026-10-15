@@ -563,5 +563,85 @@
       "text_sha256": "19f08824e33b8a1ad18a38117bc4b5345386d34bacebd754537697101aa1b239",
       "note": "checked against the live page; archive the source and re-check"
     }
+  },
+  "jat-reservation-agitation-2016": {
+    "d4c8395b197cfb55": {
+      "position": 0,
+      "source": "s11",
+      "fetched": "https://web.archive.org/web/20160221093939id_/https://indianexpress.com/article/india/india-news-india/jat-quota-stir-toll-now-6-curfew-in-4-towns-army-out-across-haryana/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a1bf4871517b37dcca04c3ef8c8418e6d074d58f7bc125732ae0ba17dee6e0ed"
+    },
+    "d92751e1be16ff6f": {
+      "position": 2,
+      "source": "s5",
+      "fetched": "https://www.tribuneindia.com/news/archive/features/bjp-cong-spar-over-jat-stir-violence-288415",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "475660d4d7526ffc4619df146141bd93d96324f2d46af3ff4e98d7b503fb4d0e",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "f53cb0e8db2819fa": {
+      "position": 4,
+      "source": "s5",
+      "fetched": "https://www.tribuneindia.com/news/archive/features/bjp-cong-spar-over-jat-stir-violence-288415",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "475660d4d7526ffc4619df146141bd93d96324f2d46af3ff4e98d7b503fb4d0e",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "d4bc60ebfe6f2609": {
+      "position": 5,
+      "source": "s5",
+      "fetched": "https://www.tribuneindia.com/news/archive/features/bjp-cong-spar-over-jat-stir-violence-288415",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "475660d4d7526ffc4619df146141bd93d96324f2d46af3ff4e98d7b503fb4d0e",
+      "note": "checked against the live page; archive the source and re-check"
+    }
+  },
+  "kashmir-lockdown-article-370-2019": {
+    "98f22ca4e36d08ad": {
+      "position": 0,
+      "source": "s13",
+      "fetched": "https://api.fxtwitter.com/status/1158386052597370880",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "2302ec89ffe13fdf27782a0a0c33e48d494d900d6b98c6297d39d63b94605158"
+    },
+    "b7b62d056aec54c4": {
+      "position": 1,
+      "source": "s3",
+      "fetched": "https://web.archive.org/web/20201231033541id_/https://www.aljazeera.com/news/2019/8/17/key-kashmir-political-leaders-arrested-by-india-since-august-5",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "9ec67a7be7064774d581764eb03373cab72a6da03ceddfecc473586822ea66a6"
+    },
+    "a7e085c2843f7efd": {
+      "position": 2,
+      "source": "s14",
+      "fetched": "https://api.fxtwitter.com/status/1158257894149615616",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "8d5e6718583706c11e58ff6b4cc98081b256df9ce2e16910d6e78262c87e62f5"
+    },
+    "efab9b58ad08aa53": {
+      "position": 3,
+      "source": "s15",
+      "fetched": "https://api.fxtwitter.com/status/1158069206539128832",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "084315a5aaba5e0a35ff0631d511ffd79f47d3f4af1317bd185992ed37f64a1c",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "666ca5cda474a177": {
+      "position": 4,
+      "source": "s16",
+      "fetched": "https://api.fxtwitter.com/status/1357695596254040064",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "09f6bab5049e2bbb0defb4f6e91a72b78c2d7c0b43a75ee09433ea2c04d77ba2"
+    }
   }
 }
