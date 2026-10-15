@@ -740,5 +740,50 @@
       "result": "exact",
       "text_sha256": "17115271e53924e409576a143dc40bd480a092edcb9b3cb6c89bd25c4fc5b73f"
     }
+  },
+  "jnu-sedition-case-2016": {
+    "a24c2074cb1e6afa": {
+      "position": 0,
+      "source": "s13",
+      "fetched": "https://api.fxtwitter.com/status/698018266581610496",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "eab60a4d00142d6f5e73615d146274acaf3bfd76a0576da7906fd4bf6b2adc7a",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "1ee202127436174a": {
+      "position": 2,
+      "source": "s15",
+      "fetched": "https://api.fxtwitter.com/status/698167132253650944",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "3ce5dceb003ac199877c072e3453446df8463b13b2f475b68a6516821a11d39a"
+    },
+    "e7e2397e24138596": {
+      "position": 4,
+      "source": "s16",
+      "fetched": "https://api.fxtwitter.com/status/698180126379417600",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a8fd796966ef58ebd20197019799052c6f5a11ddb7c1bab126762bfdd0ec3d66"
+    },
+    "fa2f07972ae86a78": {
+      "position": 5,
+      "source": "s19",
+      "fetched": "https://dev1.cpim.org/pipermail/marxistindia_cpim.org/20160212/002160.html",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "eea4ec88d937b4bd94ed68c224d96e23a66af5224fc5dc819c53e7623ffa368c",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "002ce802ba8a2301": {
+      "position": 6,
+      "source": "s20",
+      "fetched": "https://dev1.cpim.org/pipermail/marxistindia_cpim.org/20160215/002163.html",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "d3e368879d31fcab9306578e1eecba3674a77ce3b92463e456867338037b03ea",
+      "note": "checked against the live page; archive the source and re-check"
+    }
   }
 }

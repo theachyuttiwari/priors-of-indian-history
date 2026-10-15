@@ -3,12 +3,14 @@ title: JNU sedition case, February 2016
 summary: >
   On 9 February 2016 students at Jawaharlal Nehru University held an event on the hanging
   of Afzal Guru at which slogans were allegedly raised. Delhi Police registered a sedition
-  FIR on 11 February and arrested JNU Students' Union president Kanhaiya Kumar. He was
-  assaulted by lawyers at Patiala House court, the Supreme Court ordered the police
-  commissioner to secure him, and the Delhi High Court granted him interim bail on 2 March.
+  FIR on 11 February and arrested JNU Students' Union president Kanhaiya Kumar on 12 February.
+  After lawyers sent by the Supreme Court reported that he was manhandled at Patiala House court,
+  the Court made the Delhi Police Commissioner responsible for his safety, and the Delhi High Court granted him interim bail on 2 March.
+  Delhi Police filed a chargesheet in January 2019, the Delhi government granted prosecution
+  sanction in February 2020, and a magistrate took cognizance in February 2021.
 period:
   start: 2016-02-09
-  end: 2016-03-02
+  end: 2021-02-15
 location:
   states: [Delhi]
   places: [Jawaharlal Nehru University, Patiala House Courts, Tihar Jail]
@@ -30,82 +32,449 @@ government:
 actions:
   - type: fir
     date: 2016-02-11
-    description: "Delhi Police registered FIR No. 110/2016 under sections 124A (sedition) and 120B (criminal conspiracy) IPC against Kanhaiya Kumar and unknown persons over slogans at the 9 February event. Delhi Police report to the Union Home Ministry, not the Delhi government."
+    claim: ordered
+    description: "Delhi Police registered FIR No. 110/2016 at PS Vasant Kunj North on 11 February. The Delhi High Court's bail order records that the FIR was registered under Section 124-A/34 IPC, and that by the time of the status report the case was under investigation under Sections 124-A/120-B/34/147/149 IPC. The Additional Solicitor General told the court the FIR was registered after raw video footage was obtained from Zee News following its telecast of 10 February. The Wire reported that the case was registered against unknown persons after a complaint by BJP MP Maheish Girri. LiveLaw, summarising the bail petition, gave the sections as 124A/120B IPC and said the FIR was against Kumar and unknown persons. Delhi Police report to the Union Home Ministry, not the Delhi government."
     actor: police
-    sources: [s1]
+    legal_basis: Section 124A read with Section 34 IPC (as registered); Sections 120B, 147 and 149 IPC added during investigation
+    sources: [s5, s8, s1]
   - type: sedition_charge
     date: 2016-02-12
-    description: "Kanhaiya Kumar was arrested on the sedition FIR and remanded to three days' police custody by a Metropolitan Magistrate at Patiala House Courts on 12 February. The LiveLaw summary of the bail order gives the arrest date as 11 February; most reports give 12 February. He denied raising anti-national slogans. He was later held in Tihar Jail."
+    claim: ordered
+    description: "Kanhaiya Kumar was arrested on the JNU campus on 12 February, according to The Wire and Al Jazeera, and a Metropolitan Magistrate at Patiala House Courts remanded him to three days' police custody the same day. The LiveLaw summary of his bail petition gives the arrest date as 11 February. The High Court's bail order records that he was remanded to police custody three times, and that he denied making seditious utterances or raising anti-national slogans. On 17 February his judicial custody was extended until 2 March, and he was released from Tihar Jail on 3 March after furnishing the bail bond."
     actor: police
-    sources: [s1, s3]
+    legal_basis: Section 124A IPC
+    sources: [s5, s8, s9, s10, s11, s1, s24]
+  - type: commission_of_inquiry
+    date: 2016-02-13
+    claim: ordered
+    description: "On 13 February Chief Minister Arvind Kejriwal said the Delhi government was directing the District Magistrate to conduct an enquiry, citing competing claims about who shouted the slogans. The inquiry by New Delhi District Magistrate Sanjay Kumar reported on 2 March; PTI reported that it found nothing adverse against Kumar and said Umar Khalid's role needed further investigation. Videos of the event are contested. PTI reported that the inquiry found three of seven videos sent to Truth Labs, Hyderabad, doctored; The Hindu, citing unnamed sources, reported two. The Delhi government later filed a complaint against three news channels over the videos. Delhi Police said the FIR rested on the channel's unedited footage, not the aired clips, and a police source said in June 2016 that the Central Forensic Science Laboratory had found that footage authentic. In the High Court, Kumar's counsel said the footage did not show him raising anti-national slogans, and the order records that the State did not dispute this at that stage."
+    actor: state
+    sources: [s17, s18, s21, s22, s25, s23, s5]
+    figures:
+      - what: videos of the event found doctored, of seven sent to Truth Labs, Hyderabad
+        value: "3"
+        claimed_by: Magisterial inquiry report (as reported by PTI)
+        source: s22
+      - what: videos of the event found manipulated, of seven sent to Truth Labs, Hyderabad
+        value: "2"
+        claimed_by: Unnamed sources (as reported by The Hindu)
+        source: s21
   - type: other
     date: 2016-02-17
-    description: "After reports that Kumar was manhandled by lawyers when produced at Patiala House, the Supreme Court directed the Delhi Police Commissioner to take necessary steps to ensure his safety until his next production, and said responsibility for his safety rested with the Commissioner."
+    claim: held
+    description: "Lawyers, students, journalists and others gathered at Patiala House Courts when Kumar was produced there on 15 February. The Supreme Court's order of 17 February records that certain unpleasant and unacceptable incidents were said to have taken place that day. That morning the Court limited entry to the courtroom to named lawyers, family members and five journalists, and directed the Delhi Police Commissioner to maintain law and order. In the afternoon it sent six lawyers, five of them senior advocates, to the court complex after counsel reported violence there. On their report that Kumar was manhandled when produced, the Court directed the Commissioner to take necessary steps for his safety until his next production and said responsibility for his safety was exclusively the Commissioner's. Police Commissioner B.S. Bassi said there was a lot of jostling and no option but to take Kumar through the crowd."
     actor: court
-    sources: [s2]
+    sources: [s6, s2, s9, s12]
+    court_outcomes:
+      - summary: "On 14 November 2017 the Supreme Court dismissed the writ petition (W.P.(Crl.) 25/2016) and a connected contempt petition in terms of a signed order."
+        source: s7
   - type: other
     date: 2016-03-02
-    description: "Justice Pratibha Rani of the Delhi High Court granted Kumar interim bail for six months on a personal bond of Rs 10,000 and one surety, preferably a JNU faculty member. He was barred from leaving the country without permission and directed to cooperate with the investigation. The order said the slogans could not be claimed as protected speech and that the investigation was at a nascent stage."
+    claim: held
+    description: "Justice Pratibha Rani of the Delhi High Court granted Kumar interim bail for six months on a personal bond of Rs 10,000, an undertaking not to take part actively or passively in any activity which may be termed anti-national, and one surety, preferably a JNU faculty member. He was barred from leaving the country without the court's permission. The Additional Solicitor General, for the State, opposed bail; the Standing Counsel for the Government of NCT of Delhi submitted that he may be released on bail. The order said the investigation was at a nascent stage and that the thoughts reflected in the slogans could not be claimed to be protected as a fundamental right to free speech."
     actor: court
-    sources: [s1]
+    sources: [s5, s1]
+  - type: sedition_charge
+    date: 2019-01-14
+    claim: ordered
+    description: "Delhi Police filed a chargesheet against Kumar, Umar Khalid, Anirban Bhattacharya and seven Kashmiri students, and mentioned 36 others without naming them as accused for lack of evidence. Police said it rested on documentary evidence, CCTV footage and about 90 eyewitness accounts. On 19 January 2019 the Patiala House court refused to take cognizance because the chargesheet was filed without sanction from the Delhi government; police told the court sanction would be obtained within ten days."
+    actor: police
+    legal_basis: Sections 124A, 143, 147, 149, 120B and 323 IPC (Sections 465 and 471 IPC also appear in the cognizance order)
+    sources: [s26, s27, s29]
+    figures:
+      - what: persons named as accused in the chargesheet
+        value: "10"
+        claimed_by: Delhi Police chargesheet (as listed in the cognizance order)
+        source: s29
+      - what: others mentioned in the chargesheet but not named as accused
+        value: "36"
+        claimed_by: Delhi Police (as reported by Bar & Bench)
+        source: s26
+      - what: eyewitness accounts relied on
+        value: "about 90"
+        claimed_by: Delhi Police (as reported by Bar & Bench)
+        source: s26
+  - type: other
+    date: 2020-02-27
+    claim: ordered
+    description: "The Home Department of the Delhi government granted sanction to prosecute the accused. The magistrate's cognizance order cites a sanction order dated 27 February 2020. AAP spokesperson Raghav Chadha said the sanction was given on 20 February after the Law Department gave its opinion, and denied a BJP charge that the government had stalled the case."
+    actor: state
+    sources: [s29, s30]
+  - type: other
+    date: 2021-02-15
+    claim: held
+    description: "The Chief Metropolitan Magistrate at Patiala House Courts took cognizance of the chargesheet in CC No. 302/2019, noted the Home Department's sanction, and summoned all ten accused to face trial on 15 March 2021."
+    actor: court
+    legal_basis: Sections 124A, 323, 465, 471, 143, 147, 149 and 120B IPC
+    sources: [s29, s28]
 outcome: >
-  Kanhaiya Kumar was released on interim bail on 2 March 2016. The sedition case remained
-  under investigation at the end of this period.
+  Kanhaiya Kumar was released on interim bail on 3 March 2016. Delhi Police filed a chargesheet
+  against ten accused in January 2019, the Delhi government granted prosecution sanction in
+  February 2020, and a magistrate took cognizance and summoned the accused in February 2021.
 positions:
+  - party: BJP
+    person: Rajnath Singh
+    role_at_time: Union Home Minister
+    in_power: true
+    date: 2016-02-12
+    kind: verbatim
+    statement: "Said on Twitter that what happened at JNU was extremely unfortunate and that he had instructed the Delhi Police Commissioner to take strong action against anti-India elements."
+    quote:
+      text: "Whatever has happened in JNU is extremely unfortunate. I have instructed Delhi CP to take strong action against the anti-India elements"
+      locator: "Tweet of 12 February 2016"
+      source: s13
+    sources: [s13, s8]
   - party: BJP
     person: Kiren Rijiju
     role_at_time: Union Minister of State for Home Affairs
     in_power: true
     date: 2016-02-12
-    statement: "Be it JNU or any other university anywhere in this country, slogans against nation is not acceptable. We consider it as a serious offence. Stern action would be taken against all those who are involved in it."
+    kind: paraphrase
+    statement: "Said slogans against the nation were not acceptable at JNU or any other university, that the government considered it a serious offence, and that stern action would be taken against all those involved."
     sources: [s4]
   - party: INC
     person: Rahul Gandhi
     role_at_time: Congress vice-president, opposition
     in_power: false
-    date: 2016-02-13
-    statement: "Modi Govt and ABVP bullying an institution like JNU simply because it won't toe their line is completely condemnable. While anti-India sentiment is unquestionably unacceptable, the right to dissent and debate is an essential ingredient of democracy."
-    sources: [s3]
+    date: 2016-02-12
+    kind: verbatim
+    statement: "Said on Twitter that anti-India sentiment was unacceptable but that dissent and debate were essential to democracy, and condemned the Modi government and the ABVP for bullying JNU."
+    quote:
+      text: "Modi Govt & ABVP bullying an institution like JNU simply because it won't toe their line is completely condemnable"
+      locator: "Second of two tweets of 12 February 2016 (2/2)"
+      source: s15
+    sources: [s14, s15, s3, s8]
   - party: INC
     person: Abhishek Manu Singhvi
     role_at_time: Congress spokesperson, opposition
     in_power: false
     date: 2016-02-12
-    statement: "You cannot display your intolerance, your complete lack of tolerating dissent of any kind."
+    kind: paraphrase
+    statement: "Accused the government of intolerance of dissent in Hyderabad, Delhi and JNU, and said each time it happened at the instance of the ABVP or what he called parivar elements."
     sources: [s3]
+  - party: AAP
+    person: Arvind Kejriwal
+    role_at_time: Chief Minister of Delhi (in power in Delhi, opposition to the BJP at the centre)
+    in_power: true
+    date: 2016-02-12
+    kind: verbatim
+    statement: "Said on Twitter that no one supports anti-national forces, but that targeting innocent students on that excuse would prove very costly to the Modi government."
+    quote:
+      text: "No one supports anti-national forces. But targetting innocent students using that as an excuse will prove v costly to Modi govt"
+      locator: "Tweet of 12 February 2016"
+      source: s16
+    sources: [s16, s8]
+  - party: CPI(M)
+    person: CPI(M) Polit Bureau
+    role_at_time: Party statement, opposition
+    in_power: false
+    date: 2016-02-12
+    kind: verbatim
+    statement: "Condemned the arrests of student leaders from the JNU campus and police raids on hostels, compared them to the Emergency, and demanded the release of those arrested and an independent enquiry."
+    quote:
+      text: "The presence of police in the campus and such indiscriminate arrests from hostels had last happened during the Emergency."
+      locator: "Second paragraph of the statement"
+      source: s19
+    sources: [s19, s8]
+  - party: CPI(M)
+    person: CPI(M) Polit Bureau
+    role_at_time: Party statement, opposition
+    in_power: false
+    date: 2016-02-15
+    kind: verbatim
+    statement: "Condemned the violence at Patiala House Courts, blamed lawyers and others it said owed allegiance to the BJP, criticised the inaction of the Delhi Police, and demanded the arrest of those responsible and Kumar's release."
+    quote:
+      text: "The CPI(M) condemns the inaction of the Delhi Police which was stationed there in sizeable strength."
+      locator: "Second paragraph of the statement"
+      source: s20
+    sources: [s20]
 sources:
   - id: s1
     title: "Delhi High Court grants interim bail to Kanhaiya Kumar [Read Order]"
     publisher: LiveLaw
+    tier: secondary
     url: https://livelaw.in/delhi-high-court-grants-interim-bail-kanhaiya-kumar
     archive_date: 2016-03-05
     archive_url: https://web.archive.org/web/20160305172346/https://livelaw.in/delhi-high-court-grants-interim-bail-kanhaiya-kumar
     date: 2016-03-02
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "SC asks Delhi Police Commissioner to ensure security of Kanhaiya Kumar [Read the Full Order]"
     publisher: LiveLaw
+    author: Ashok KM
+    tier: report
     url: https://livelaw.in/sc-asks-delhi-police-commissioner-to-ensure-security-of-kanhaiya-kumar
     archive_date: 2016-02-18
     archive_url: https://web.archive.org/web/20160218171457/https://livelaw.in/sc-asks-delhi-police-commissioner-to-ensure-security-of-kanhaiya-kumar
     date: 2016-02-17
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Narendra Modi government bullying JNU, says Rahul Gandhi
     publisher: India.com
+    tier: secondary
     url: https://www.india.com/news/india/narendra-modi-government-bullying-jnu-says-rahul-gandhi-944484/
     archive_date: 2016-02-14
     archive_url: https://web.archive.org/web/20160214084129/https://www.india.com/news/india/narendra-modi-government-bullying-jnu-says-rahul-gandhi-944484/
     date: 2016-02-13
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Slogans against nation not acceptable: Rijiju"
     publisher: The Free Press Journal
+    tier: secondary
     url: https://www.freepressjournal.in/headlines/slogans-against-nation-not-acceptable-rijiju
     archive_date: 2019-12-14
     archive_url: https://web.archive.org/web/20191214203511/https://www.freepressjournal.in/headlines/slogans-against-nation-not-acceptable-rijiju
     date: 2016-02-12
     type: news
-tags: [delhi, sedition, university, students, nda, court]
+    accessed: 2026-10-15
+  - id: s5
+    title: "Kanhaiya Kumar v. State of NCT of Delhi, W.P.(Crl.) 558/2016, order of 2 March 2016"
+    publisher: Delhi High Court (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/77368780/
+    archive_date: 2016-03-03
+    archive_url: https://web.archive.org/web/20160303102838/https://indiankanoon.org/doc/77368780/
+    date: 2016-03-02
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s6
+    title: "N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016, record of proceedings of 17 February 2016"
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/37231111/
+    archive_date: 2026-10-11
+    archive_url: https://web.archive.org/web/20261011090725/https://indiankanoon.org/doc/37231111/
+    date: 2016-02-17
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s7
+    title: "N.D. Jayaprakash v. Union of India, W.P.(Crl.) 25/2016, record of proceedings of 14 November 2017"
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/82485087/
+    date: 2017-11-14
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s8
+    title: "Arrest 'Anti India Elements' Says Rajnath, So Police Pin 'Sedition' on JNUSU Head"
+    publisher: The Wire
+    author: Jahnavi Sen
+    tier: report
+    url: https://cms.thewire.in/21455/arrest-anti-india-elements-says-rajnath-so-police-pin-sedition-on-jnusu-head
+    date: 2016-02-13
+    type: news
+    accessed: 2026-10-15
+  - id: s9
+    title: "JNU Developments: Kanhaiya Attacked at Court, SC Team Says Police Not Doing Its Duty"
+    publisher: The Wire
+    author: Jahnavi Sen
+    tier: report
+    url: https://cms.thewire.in/law/jnu-developments-kanhaiya-attacked-at-court-sc-team-says-police-not-doing-its-duty
+    date: 2016-02-17
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: Indian police arrest student leader on sedition charges
+    publisher: Al Jazeera
+    author: Ted Regencia
+    tier: report
+    url: https://www.aljazeera.com/news/2016/2/12/indian-police-arrest-student-leader-on-sedition-charges
+    archive_date: 2021-12-08
+    archive_url: https://web.archive.org/web/20211208165154/https://www.aljazeera.com/news/2016/2/12/indian-police-arrest-student-leader-on-sedition-charges
+    date: 2016-02-12
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: "JNU students' union President remanded to 3-day police custody"
+    publisher: The News Minute
+    wire: PTI
+    tier: secondary
+    url: https://www.thenewsminute.com/article/jnu-students-union-president-remanded-3-day-police-custody-38905
+    archive_date: 2016-02-13
+    archive_url: https://web.archive.org/web/20160213094016/https://www.thenewsminute.com/article/jnu-students-union-president-remanded-3-day-police-custody-38905
+    date: 2016-02-12
+    type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: Chronology of events of sedition case against Kanhaiya
+    publisher: Deccan Herald
+    wire: PTI
+    tier: secondary
+    url: https://www.deccanherald.com/amp/story/india%2Fchronology-events-sedition-712995.html
+    date: 2019-01-14
+    type: news
+    accessed: 2026-10-15
+  - id: s13
+    title: "Whatever has happened in JNU is extremely unfortunate"
+    publisher: Rajnath Singh (@rajnathsingh), X
+    tier: record
+    url: https://x.com/rajnathsingh/status/698018266581610496
+    date: 2016-02-12
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: "While Anti-India sentiment is unquestionably unacceptable, the right to dissent & debate is an essential ingredient of democracy (1/2)"
+    publisher: Rahul Gandhi (@RahulGandhi, then @OfficeOfRG), X
+    tier: record
+    url: https://x.com/RahulGandhi/status/698167019791712257
+    archive_date: 2025-07-19
+    archive_url: https://web.archive.org/web/20250719075649/https://x.com/RahulGandhi/status/698167019791712257
+    date: 2016-02-12
+    type: official
+    accessed: 2026-10-15
+  - id: s15
+    title: "Modi Govt & ABVP bullying an institution like JNU simply because it won't toe their line is completely condemnable (2/2)"
+    publisher: Rahul Gandhi (@RahulGandhi, then @OfficeOfRG), X
+    tier: record
+    url: https://x.com/RahulGandhi/status/698167132253650944
+    archive_date: 2025-07-19
+    archive_url: https://web.archive.org/web/20250719075803/https://x.com/RahulGandhi/status/698167132253650944
+    date: 2016-02-12
+    type: official
+    accessed: 2026-10-15
+  - id: s16
+    title: "No one supports anti-national forces"
+    publisher: Arvind Kejriwal (@ArvindKejriwal), X
+    tier: record
+    url: https://x.com/ArvindKejriwal/status/698180126379417600
+    archive_date: 2025-07-19
+    archive_url: https://web.archive.org/web/20250719075735/https://x.com/ArvindKejriwal/status/698180126379417600
+    date: 2016-02-12
+    type: official
+    accessed: 2026-10-15
+  - id: s17
+    title: "To find truth, Del govt is directing DM to conduct an enquiry(2/2)"
+    publisher: Arvind Kejriwal (@ArvindKejriwal), X
+    tier: record
+    url: https://x.com/ArvindKejriwal/status/698497279393595392
+    date: 2016-02-13
+    type: official
+    accessed: 2026-10-15
+  - id: s18
+    title: "There are claims that JNU student leaders shouted anti-India slogans and counter claims that ABVP activists did it(1/2)"
+    publisher: Arvind Kejriwal (@ArvindKejriwal), X
+    tier: record
+    url: https://x.com/ArvindKejriwal/status/698497206844653568
+    date: 2016-02-13
+    type: official
+    accessed: 2026-10-15
+  - id: s19
+    title: "Indiscriminate Arrests of JNU Students Condemned (Polit Bureau press statement)"
+    publisher: Communist Party of India (Marxist)
+    tier: record
+    url: https://dev1.cpim.org/pipermail/marxistindia_cpim.org/20160212/002160.html
+    date: 2016-02-12
+    type: official
+    accessed: 2026-10-15
+  - id: s20
+    title: "Hooliganism in Court (Polit Bureau press statement)"
+    publisher: Communist Party of India (Marxist)
+    tier: record
+    url: https://dev1.cpim.org/pipermail/marxistindia_cpim.org/20160215/002163.html
+    date: 2016-02-15
+    type: official
+    accessed: 2026-10-15
+  - id: s21
+    title: Two of seven JNU videos manipulated, finds forensic probe
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/cities/Delhi/JNU-row-Two-of-seven-videos-manipulated-says-forensic-probe-report/article60515298.ece
+    archive_date: 2022-06-28
+    archive_url: https://web.archive.org/web/20220628091226/https://www.thehindu.com/news/cities/Delhi/JNU-row-Two-of-seven-videos-manipulated-says-forensic-probe-report/article60515298.ece
+    date: 2016-03-02
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Delhi govt probe gives clean chit to Kanhaiya
+    publisher: The Hindu
+    wire: PTI
+    tier: secondary
+    url: https://www.thehindu.com/news/cities/Delhi/Delhi-govt-probe-gives-clean-chit-to-Kanhaiya/article60515334.ece
+    archive_date: 2022-04-18
+    archive_url: https://web.archive.org/web/20220418005252/https://www.thehindu.com/news/cities/Delhi/Delhi-govt-probe-gives-clean-chit-to-Kanhaiya/article60515334.ece
+    date: 2016-03-03
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: JNU event footage authentic, says report
+    publisher: The Hindu
+    author: Shubhomoy Sikdar
+    tier: report
+    url: https://www.thehindu.com/news/cities/Delhi/JNU-event-footage-authentic-says-report/article14414770.ece
+    archive_date: 2019-04-05
+    archive_url: https://web.archive.org/web/20190405135050/https://www.thehindu.com/news/cities/Delhi/JNU-event-footage-authentic-says-report/article14414770.ece
+    date: 2016-06-11
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Kanhaiya Kumar is out of Tihar, probe gives a clean chit
+    publisher: The Asian Age
+    author: Neerja Chowdhury
+    tier: secondary
+    url: https://www.asianage.com/delhi/kanhaiya-kumar-out-tihar-probe-gives-clean-chit-350
+    archive_date: 2018-07-14
+    archive_url: https://web.archive.org/web/20180714155508/https://www.asianage.com/delhi/kanhaiya-kumar-out-tihar-probe-gives-clean-chit-350
+    date: 2016-03-04
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: "Doctored videos controversy: Delhi Police file status report"
+    publisher: Gulf News
+    wire: IANS
+    tier: secondary
+    url: https://gulfnews.com/world/asia/india/doctored-videos-controversy-delhi-police-file-status-report-1.1861266
+    date: 2016-07-12
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: "Delhi Police files chargesheet against Kanhaiya Kumar, Umar Khalid, Anirban Bhattacharya in JNU sedition case"
+    publisher: Bar & Bench
+    author: Aditi
+    tier: report
+    url: https://www.barandbench.com/news/delhi-police-chargesheet-jnu-sedition-case
+    date: 2019-01-14
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "JNU Sedition Case: Court refuses to take cognisance of Chargesheet filed by Delhi Police"
+    publisher: Bar & Bench
+    author: Shruti Mahajan
+    tier: report
+    url: https://www.barandbench.com/news/jnu-sedition-case-court-refuses-cognisance-chargesheet
+    date: 2019-01-19
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Delhi Court takes cognizance of chargesheet in JNU sedition case; Kanhaiya Kumar, Umar Khalid summoned on March 15 [READ ORDER]"
+    publisher: Bar & Bench
+    author: Aditi
+    tier: report
+    url: https://www.barandbench.com/news/kanhaiya-kumar-umar-khalid-summoned-jnu-sedition-case
+    date: 2021-02-16
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: "State v. Kanhaiya Kumar, CC No. 302/2019, FIR No. 110/2016, PS Vasant Kunj North: cognizance order (February 2021)"
+    publisher: Chief Metropolitan Magistrate, Patiala House Courts (copy published by Bar & Bench)
+    tier: court
+    url: https://images.assettype.com/barandbench/2021-02/3a50508b-8fc6-4152-b777-e56f473b81db/JNU_sedition_cognizance_order.pdf
+    archive_date: 2022-12-05
+    archive_url: https://web.archive.org/web/20221205033455/https://images.assettype.com/barandbench/2021-02/3a50508b-8fc6-4152-b777-e56f473b81db/JNU_sedition_cognizance_order.pdf
+    date: 2021-02-15
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s30
+    title: Delhi Arvind Kejriwal govt gives sanction to prosecute Kanhaiya Kumar in sedition case
+    publisher: Deccan Herald
+    author: Shemin Joy
+    tier: report
+    url: https://www.deccanherald.com/amp/story/india%2Fdelhi-arvind-kejriwal-govt-gives-sanction-to-prosecute-kanhaiya-kumar-in-sedition-case-809046.html
+    date: 2020-02-28
+    type: news
+    accessed: 2026-10-15
+tags: [delhi, sedition, university, students, nda, court, commission_of_inquiry, aap]
 review:
   status: draft
