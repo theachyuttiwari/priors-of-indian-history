@@ -10,6 +10,7 @@
  * A translated quote is checked on the words the source itself published: the English text
  * when the source translated it, the original when Priors translated it.
  */
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import os from "node:os";
@@ -35,6 +36,23 @@ function rawArchiveUrl(archiveUrl: string): string {
   return archiveUrl.replace(/\/web\/(\d+)\//, "/web/$1id_/");
 }
 
+/**
+ * Text of a PDF (court judgments, parliamentary debates) via poppler's pdftotext. Reading order, not
+ * -layout: debates are printed in two columns, and -layout would interleave them.
+ */
+function pdfToText(bytes: Buffer): string {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "priors-pdf-"));
+  try {
+    fs.writeFileSync(path.join(tmp, "in.pdf"), bytes);
+    execFileSync("pdftotext", ["-enc", "UTF-8", path.join(tmp, "in.pdf"), path.join(tmp, "out.txt")]);
+    return fs.readFileSync(path.join(tmp, "out.txt"), "utf8");
+  } catch (e) {
+    throw new Error(`PDF source: needs pdftotext (poppler-utils) on PATH. ${e}`);
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
 async function sourceText(url: string): Promise<{ text: string; sha256: string }> {
   fs.mkdirSync(cacheDir, { recursive: true });
   const file = path.join(cacheDir, `${createHash("sha256").update(url).digest("hex").slice(0, 24)}.txt`);
@@ -43,8 +61,12 @@ async function sourceText(url: string): Promise<{ text: string; sha256: string }
   else {
     const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const body = await res.text();
-    text = /<html|<body|<p\b/i.test(body) ? htmlToText(body) : body;
+    const bytes = Buffer.from(await res.arrayBuffer());
+    if (bytes.subarray(0, 5).toString("latin1") === "%PDF-") text = pdfToText(bytes);
+    else {
+      const body = bytes.toString("utf8");
+      text = /<html|<body|<p\b/i.test(body) ? htmlToText(body) : body;
+    }
     fs.writeFileSync(file, text);
   }
   return { text, sha256: createHash("sha256").update(text).digest("hex") };

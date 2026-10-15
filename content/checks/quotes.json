@@ -1,0 +1,13 @@
+{
+  "anti-mandal-agitation-1990": {
+    "c0ff9c6ac2310d8f": {
+      "position": 0,
+      "source": "s2",
+      "fetched": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/155/F09.08.1990.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "9bad8a2d18476a2f22ba3e1502b8a9ae2cd56ea284721f6f6ccd305856480317",
+      "note": "checked against the live page; archive the source and re-check"
+    }
+  }
+}

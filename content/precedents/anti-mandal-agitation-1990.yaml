@@ -1,22 +1,23 @@
 id: anti-mandal-agitation-1990
 title: Anti-Mandal agitation, 1990
 summary: >
-  On 7 August 1990 the National Front government of V. P. Singh announced 27 per cent reservation
-  for socially and educationally backward classes in central government jobs and public sector
-  undertakings, following the Mandal Commission report. Upper-caste students across north India
-  closed colleges, held rallies and clashed with police. On 19 September 1990 Delhi student Rajeev
-  Goswami attempted self-immolation, and about 200 attempts followed with more than 60 deaths.
-  Police firing was reported in six states, and the Supreme Court stayed the government order.
+  On 7 August 1990 Prime Minister V. P. Singh of the National Front government announced that it
+  would implement the Mandal Commission report. An Office Memorandum of 13 August reserved 27 per cent
+  of vacancies in civil posts and services under the Government of India for socially and
+  educationally backward classes. Students across north India closed colleges, held bandhs and rallies
+  and clashed with police. After Delhi student Rajeev Goswami set himself on fire on 19 September 1990,
+  a wave of self-immolation and suicide attempts followed, and police fired on protesters in several
+  states. On 1 October 1990 the Supreme Court stayed the memorandum.
 period:
   start: 1990-08-07
   end: 1990-11
 location:
-  states: [Delhi, Uttar Pradesh, Bihar, Andhra Pradesh]
-  places: [Deshbandhu College, AIIMS intersection Delhi, Hyderabad]
+  states: [Delhi, Uttar Pradesh, Bihar, Orissa, Andhra Pradesh]
+  places: [Deshbandhu College, AIIMS crossing Delhi, Laxmibai Nagar Delhi, Hyderabad]
 protest:
   cause: Withdrawal of the 27 per cent OBC reservation in central government jobs
   organisers: [College and university students in north India, Delhi University students]
-  scale: "Bandhs and campus shutdowns across north India; nearly 200 self-immolation attempts with 62 deaths reported"
+  scale: "Bandhs and campus shutdowns across north India. Counts of suicide attempts range from more than 80 with 30 deaths by 10 October (Christian Science Monitor) to 202 with 112 deaths by the end of 1990 (a PUDR count cited in Manushi). The historian Ramachandra Guha puts attempts at about 200, with more than 60 deaths (cited in Frontline)"
 government:
   centre:
     party: Janata Dal
@@ -26,24 +27,35 @@ government:
 actions:
   - type: other
     date: 1990-08-13
-    description: The Government Order reserving 27 per cent of central government and public sector posts for socially and educationally backward classes was issued. V. P. Singh announced its implementation in his Independence Day speech on 15 August.
+    claim: ordered
+    description: "V. P. Singh announced on 7 August 1990 that the government would implement the Mandal Commission recommendations. Office Memorandum No. 36012/31/90-Estt (SCT) of 13 August 1990 reserved 27 per cent of vacancies in civil posts and services under the Government of India, filled by direct recruitment, for socially and educationally backward classes, with effect from 7 August. It said that similar instructions for public sector undertakings and financial institutions would be issued separately. Singh restated the commitment in his Independence Day speech at the Red Fort."
     actor: centre
-    sources: [s1]
+    sources: [s1, s3, s7]
+    court_outcomes:
+      - summary: On 16 November 1992 the Supreme Court held the memorandum valid and enforceable, subject to excluding socially advanced persons (the creamy layer) from the backward classes.
+        source: s1
   - type: firing
     date: 1990-09
-    description: "Police firing was reported in six states and claimed more than 50 lives, according to Wikipedia's Mandal Commission article. The source does not give dates or places for each firing."
+    description: "Police fired on protesters in several states. By 10 October the Christian Science Monitor reported 40 deaths in police shootings connected with the demonstrations. India Today reported that six people were killed in police firing in Orissa, and Manushi reported three deaths in police firing in Bihar. Accounts of police conduct in Delhi differ: the video magazine Newstrack presented the police firing at Laxmibai Nagar as brutality, while Madhu Kishwar, reviewing that coverage in Manushi, wrote that the police had been mostly on the defensive and fired after days of stone-throwing."
     actor: police
-    sources: [s1]
-  - type: other
-    date: 1990
-    description: "Police prevented the extension of student strikes and stopped some strike activity, according to Wikipedia's article on the 1990 protests. The source gives no details."
+    sources: [s3, s4, s8, s9]
+    figures:
+      - { what: killed in police shootings connected with the demonstrations, by 10 October, value: "40", claimed_by: The Christian Science Monitor, source: s3 }
+      - { what: killed in police firing in Orissa, value: "6", claimed_by: India Today, source: s4 }
+      - { what: killed in police firing in Bihar, value: "3", claimed_by: Manushi (Harsh Sethi), source: s8 }
+  - type: detention
+    date: 1990-09
+    description: "Police detained protesting students. India Today reported that more than 3,500 students were rounded up in Uttar Pradesh in connection with the violence. In Delhi, police cleared a student blockade at the AIIMS crossing by loading students into vans, according to Newstrack commentary quoted in Manushi; Madhu Kishwar wrote that the students were let off a short distance away."
     actor: police
-    sources: [s2]
+    sources: [s4, s9]
+    figures:
+      - { what: students rounded up in Uttar Pradesh, value: "more than 3,500", claimed_by: India Today, source: s4 }
+      - { what: students at the AIIMS crossing blockade, value: "1,000 or so", claimed_by: Newstrack (quoted in Manushi), source: s9 }
   - type: other
-    date: 1990
-    description: A five-judge bench of the Supreme Court, hearing a petition by Indra Sawhney filed in September 1990, stayed the 13 August government order until the case was finally decided.
+    date: 1990-10-01
+    description: "On 1 October 1990 a Constitution Bench of the Supreme Court stayed the 13 August memorandum on writ petitions that challenged it, until the case was decided. Counsel K. K. Venugopal moved for the stay. On 21 September a three-judge bench had appealed to the public, and particularly to students, to stay calm while the court decided the question. The memorandum was not acted on while the stay lasted."
     actor: court
-    sources: [s1, s3]
+    sources: [s1, s3, s5]
 outcome: >
   V. P. Singh lost a confidence vote and resigned on 7 November 1990, after the BJP withdrew
   support over L. K. Advani's arrest during the Rath Yatra. On 16 November 1992 the Supreme Court
@@ -54,57 +66,123 @@ positions:
     person: V. P. Singh
     role_at_time: Prime Minister
     in_power: true
-    date: 1990
-    statement: "Asked his opponents in Parliament: \"What kind of India do you want?\""
-    sources: [s4]
+    date: 1990-08-09
+    kind: verbatim
+    statement: "Replying to members in the Rajya Sabha, said that reservation for backward classes aimed to give them a share in decision-making and the power structure, not only jobs. He questioned the merit of a system in which, he said, groups forming 52 per cent of the population held 12.55 per cent of government employment."
+    quote:
+      text: "What I want to convey is that treating unequals as equals is the greatest injustice."
+      locator: "Rajya Sabha debates, 9 August 1990, col. 234"
+      source: s2
+    sources: [s2, s1]
   - party: other (no party; petitioner)
     person: Indra Sawhney
-    role_at_time: Petitioner in the Supreme Court
+    role_at_time: Lead petitioner in the Supreme Court
     in_power: false
-    date: 1990-09
-    statement: "Argued that the order violated equality of opportunity, that caste was not a reliable indicator of backwardness, and that the efficiency of public institutions was at risk."
-    sources: [s1, s3]
+    date: 1990-10
+    kind: paraphrase
+    statement: "The petitioners who challenged the order, in the case led by Indra Sawhney, argued through counsel that caste could not be equated with class or used as the basis for identifying backward classes, and that reservation would lower the efficiency of administration."
+    sources: [s1, s5]
 sources:
   - id: s1
-    title: Mandal Commission
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Mandal_Commission
-    archive_date: 2026-09-10
-    archive_url: https://web.archive.org/web/20260910051440/https://en.wikipedia.org/wiki/Mandal_Commission
-    type: archive
+    title: Indra Sawhney Etc. Etc vs Union Of India And Others, Etc. Etc.
+    publisher: Supreme Court of India (text on Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/1363234/
+    archive_date: 2009-03-25
+    archive_url: https://web.archive.org/web/20090325151539/https://indiankanoon.org/doc/1363234/
+    date: 1992-11-16
+    type: court_judgment
+    accessed: 2026-10-15
   - id: s2
-    title: Mandal Commission protests of 1990
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
-    archive_date: 2026-08-06
-    archive_url: https://web.archive.org/web/20260806103249/https://en.wikipedia.org/wiki/Mandal_Commission_protests_of_1990
-    type: archive
+    title: "Rajya Sabha official debates, 9 August 1990: clarifications on statement re. Mandal Commission's report"
+    publisher: Rajya Sabha Secretariat
+    tier: record
+    url: https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/155/F09.08.1990.pdf
+    date: 1990-08-09
+    type: official
+    accessed: 2026-10-15
   - id: s3
-    title: Indra Sawhney & Others v. Union of India
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
-    archive_date: 2025-12-22
-    archive_url: https://web.archive.org/web/20251222075249/https://en.wikipedia.org/wiki/Indra_Sawhney_%26_Others_v._Union_of_India
-    type: archive
+    title: India Struggles to Revise Jobs Policy for Low Castes
+    publisher: The Christian Science Monitor
+    author: S. Venkat Narayan
+    tier: report
+    url: https://www.csmonitor.com/1990/1010/ocaste.html
+    archive_date: 2015-09-26
+    archive_url: https://web.archive.org/web/20150926132555/https://www.csmonitor.com/1990/1010/ocaste.html
+    date: 1990-10-10
+    type: news
+    accessed: 2026-10-15
   - id: s4
-    title: V. P. Singh
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/V._P._Singh
-    archive_date: 2026-10-02
-    archive_url: https://web.archive.org/web/20261002180351/https://en.wikipedia.org/wiki/V._P._Singh
-    type: archive
+    title: Decision to implement Mandal Commission report stirs up protests across India
+    publisher: India Today
+    author: Saba Naqvi
+    tier: report
+    url: https://www.indiatoday.in/magazine/special-report/story/19900930-decision-to-implement-mandal-commission-report-stirs-up-protests-across-india-813545-1990-09-29
+    archive_date: 2024-07-22
+    archive_url: https://web.archive.org/web/20240722171906/https://www.indiatoday.in/magazine/special-report/story/19900930-decision-to-implement-mandal-commission-report-stirs-up-protests-across-india-813545-1990-09-29
+    date: 1990-09-30
+    type: news
+    accessed: 2026-10-15
   - id: s5
-    title: Rajiv Goswami
-    publisher: Wikipedia
-    tier: lead
-    url: https://en.wikipedia.org/wiki/Rajiv_Goswami
-    archive_date: 2026-10-04
-    archive_url: https://web.archive.org/web/20261004020752/https://en.wikipedia.org/wiki/Rajiv_Goswami
-    type: archive
+    title: Petitions against Mandal recommendations throughout India transferred to Supreme Court
+    publisher: India Today
+    author: Nilova Roy Chaudhary
+    tier: report
+    url: https://www.indiatoday.in/magazine/special-report/story/19901031-petitions-against-mandal-recommendations-throughout-india-transferred-to-supreme-court-813162-1990-10-30
+    archive_date: 2023-10-05
+    archive_url: https://web.archive.org/web/20231005011044/https://www.indiatoday.in/magazine/special-report/story/19901031-petitions-against-mandal-recommendations-throughout-india-transferred-to-supreme-court-813162-1990-10-30
+    date: 1990-10-31
+    type: news
+    accessed: 2026-10-15
+  - id: s6
+    title: Rajeev Goswami's tragedy provides agitation a rallying point
+    publisher: India Today
+    author: Nonita Kalra
+    tier: report
+    url: https://www.indiatoday.in/magazine/cover-story/story/19901015-rajeev-goswami-tragedy-provides-agitation-rallying-point-813101-1990-10-14
+    archive_date: 2026-01-05
+    archive_url: https://web.archive.org/web/20260105101751/https://www.indiatoday.in/magazine/cover-story/story/19901015-rajeev-goswami-tragedy-provides-agitation-rallying-point-813101-1990-10-14
+    date: 1990-10-15
+    type: news
+    accessed: 2026-10-15
+  - id: s7
+    title: "Mandal Commission: Dividing to rule (from the India Today archives, edition of 15 September 1990)"
+    publisher: India Today
+    author: Inderjit Badhwar
+    tier: secondary
+    url: https://www.indiatoday.in/india-today-insight/story/from-the-india-today-archives-1990-mandal-commission-dividing-to-rule-2576686-2024-08-04
+    archive_date: 2024-08-04
+    archive_url: https://web.archive.org/web/20240804153919/https://www.indiatoday.in/india-today-insight/story/from-the-india-today-archives-1990-mandal-commission-dividing-to-rule-2576686-2024-08-04
+    date: 1990-09-15
+    type: news
+    accessed: 2026-10-15
+  - id: s8
+    title: "Many Unexplained Issues: The anti-Mandal 'Suicides' Spate"
+    publisher: Manushi
+    author: Harsh Sethi
+    tier: secondary
+    url: https://manushi.safyrus.com/wp-content/uploads/2022/11/pdfs_issues/PDF%20files%2063-64/many_unexplained_issues.pdf
+    type: academic
+    accessed: 2026-10-15
+  - id: s9
+    title: "Instigators of Hysteria: Role of Media During Anti-Reservation Agitation"
+    publisher: Manushi
+    author: Madhu Kishwar
+    tier: secondary
+    url: https://manushi.safyrus.com/wp-content/uploads/2022/11/pdfs_issues/PDF%20files%2063-64/instigators_of_hysteria.pdf
+    type: academic
+    accessed: 2026-10-15
+  - id: s10
+    title: "1990: Anti-Mandal agitation and identity politics"
+    publisher: Frontline
+    author: Team Frontline
+    tier: secondary
+    url: https://frontline.thehindu.com/politics/india-at-75-epochal-moments-1990-anti-mandal-agitation-and-identity-politics/article65730863.ece
+    archive_date: 2022-08-15
+    archive_url: https://web.archive.org/web/20220815150126/https://frontline.thehindu.com/politics/india-at-75-epochal-moments-1990-anti-mandal-agitation-and-identity-politics/article65730863.ece
+    date: 2022-08-15
+    type: news
+    accessed: 2026-10-15
 tags: [reservation, students, self_immolation, firing, delhi, supreme_court]
 review:
   status: draft

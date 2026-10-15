@@ -39,6 +39,7 @@ Content is YAML in `content/precedents/` and `content/current/`. The full shape 
    To capture pages that have none, add `--save`. This needs your own
    [archive.org S3 keys](https://archive.org/account/s3.php) in `IA_ACCESS_KEY` and `IA_SECRET_KEY`.
 7. Run `npm run match-quotes -- <short-name>` to check that each quote appears in its source.
+   PDF sources need `pdftotext` (poppler) on your PATH.
 8. Run `npm run validate -- --todos <short-name>` and fix what it lists.
 9. Leave `review: status: draft`. A reviewer changes it.
 10. Open a pull request and fill in the checklist.
