@@ -12,7 +12,7 @@ summary: >
   cleared them in March 2025.
 period:
   start: 2024-02-13
-  end: 2025-03
+  end: 2025-03-19
 location:
   states: [Punjab, Haryana, Delhi]
   places: [Shambhu border, Khanauri border, Ambala]
@@ -34,169 +34,453 @@ government:
 actions:
   - type: barricading
     date: 2024-02-13
-    description: "Haryana sealed its border with Punjab using six-layered concrete barricades and iron nails on the routes to Delhi. Entry points into Delhi were sealed with barbed wire, spikes and cement blocks."
+    claim: happened
+    description: "By 13 February Haryana had sealed its border with Punjab at Shambhu and other points with layered concrete barricades, iron nails and barbed wire to stop the march to Delhi. Reports differ on the number of layers at Shambhu (see figures). Police sealed entry points into Delhi with barbed wire, spikes, cement blocks and iron nails. On 24 July 2024 the Supreme Court directed Haryana and Punjab to submit proposals to remove the barricades at Shambhu in a phased manner. The highway at Shambhu stayed closed until March 2025; Haryana began removing the cement barricades on 20 March 2025, after Punjab Police cleared the protest sites."
     actor: state
-    sources: [s1, s2]
+    sources: [s2, s1, s10, s33, s23, s32]
+    figures:
+      - { what: "layers of concrete barricades at Shambhu", value: "six", claimed_by: "Al Jazeera (photo caption, Rohit Lohia)", source: s2 }
+      - { what: "layers of the barricade at the Shambhu barrier", value: "12", claimed_by: Business Today, source: s10 }
   - type: section_144
-    date: 2024-02-13
-    description: "Authorities banned large gatherings in Delhi for a month and restricted tractors and trolleys. Rajasthan imposed Section 144 CrPC orders in Sri Ganganagar and Hanumangarh districts."
+    date: 2024-02-12
+    claim: ordered
+    description: "Delhi Police Commissioner Sanjay Arora issued an order under Section 144 CrPC on 12 February for a month. It prohibited rallies, processions and the blocking of roads, and banned tractor rallies from crossing into Delhi; Business Today reported that it also restricted the entry of tractors and trolleys. Business Today reported that Rajasthan sealed its borders with Punjab and Haryana on 11 February and imposed prohibitory orders under Section 144 CrPC in Sri Ganganagar and Hanumangarh districts. The Supreme Court recorded in September 2024 that prohibition orders had been imposed to stop the movement of tractors and trolleys on the national highways."
     actor: police
-    sources: [s1, s10]
+    legal_basis: Section 144 CrPC
+    sources: [s33, s10, s1, s24]
   - type: internet_shutdown
-    date: 2024-02-13
-    description: Internet services were suspended in several districts of Haryana ahead of the march, and mobile services were suspended in the Punjab-Haryana border areas where farmers camped.
+    date: 2024-02-10
+    claim: ordered
+    description: "The Haryana Home Department ordered the suspension of mobile internet, bulk SMS and dongle services, except voice calls, in Ambala, Kurukshetra, Kaithal, Jind, Hisar, Fatehabad and Sirsa districts from 06:00 on 11 February to 23:59 on 13 February 2024. The order cited a request from the Additional Director General of Police, CID, and the risk that inflammatory material and rumours would spread on mobile internet. Extension orders followed; the order of 23 February extended the suspension in the seven districts to 24 February. PTI reported that the Union government ordered internet services suspended in areas of Patiala, Sangrur and Fatehgarh Sahib districts of Punjab from 12 to 16 February, and from 17 to 24 February in areas of six Punjab districts near the border points."
     actor: state
-    sources: [s1, s9, s4]
+    legal_basis: "Section 5, Indian Telegraph Act, 1885, read with Rule 2, Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (Haryana orders); the Union order for the Punjab areas cites Section 7 of the Telegraph Act read with Rule 2(1) of the same Rules, as quoted by PTI"
+    sources: [s12, s13, s14, s1, s9]
   - type: tear_gas
     date: 2024-02-13
-    description: "Police fired tear gas and rubber bullets to stop farmers at the Shambhu border near Ambala. Farmer leaders said police dropped tear gas shells from drones; Al Jazeera reported that drone-dropped tear gas was used."
+    claim: happened
+    description: "From 13 February Haryana Police fired tear gas and rubber bullets, and used water cannon, to stop farmers at the Shambhu border near Ambala, including when farmers tried to remove the barricades. Al Jazeera and The Tribune reported that drones were used to drop tear gas shells. The Ambala Deputy Commissioner said only tear gas and rubber bullets were used. Farmers alleged that police also fired pellets; Haryana DGP Shatrujeet Kapur told The Hindu that police did not use pellet guns and that their procedure was tear gas, water cannon, cane charge and then rubber bullets fired at the ground. The Punjab government said three farmers had lost their eyesight to pellet injuries. A Supreme Court order of September 2024 records allegations that the agitators had gathered with weapons and modified tractors, and that the agitation was marred by violence on 13, 14 and 21 February. Injury counts differ (see figures)."
     actor: police
-    sources: [s1, s2, s3]
+    sources: [s2, s15, s3, s16, s9, s1, s24]
+    figures:
+      - { what: "people seriously injured, including by pellet guns", value: "around 200", claimed_by: "Amrik Singh, farm union member (to The Hindu)", source: s16 }
+      - { what: "people in hospital with rubber bullet and smoke shell injuries", value: "over 50", claimed_by: "Sukvindra Kaur, protester (to Al Jazeera)", source: s2 }
+      - { what: "farmers who lost their eyesight to pellet injuries", value: "3", claimed_by: "Punjab government (as reported by Al Jazeera)", source: s3 }
+      - { what: "agitators gathered near the Shambhu border at the start", value: "15,000-20,000", claimed_by: "allegation recorded in the Supreme Court order of 2 September 2024", source: s24 }
   - type: negotiation
     date: 2024-02-18
-    description: "Three Union ministers held rounds of talks with farm leaders. Talks failed on 12 February. In the fourth round the government offered a five-year agreement for government agencies to buy pulses, cotton and maize at MSP; the farmers rejected it because it was not a legal guarantee."
+    claim: happened
+    description: "Union ministers Arjun Munda, Piyush Goyal and Nityanand Rai held rounds of talks with farm leaders in Chandigarh. Talks on 12 February ended without agreement, and the march began the next day. In the fourth round, on 18 February, the ministers proposed that government agencies buy pulses, maize and cotton at MSP for five years under agreements with farmers. On 19 February the farm leaders rejected the proposal; they said it was not in farmers' interest and kept their demand for a legal guarantee of MSP for all 23 crops."
     actor: centre
-    sources: [s1, s3]
+    sources: [s3, s17, s1, s16]
   - type: firing
-    date: 2024-02
-    description: "Shubhkaran Singh, 21, of Bathinda, died at the Khanauri border. Farmers alleged he died in police firing; hospital documents said he was 'brought dead' and the cause was not yet established when reported on 23 February. 46 farmers were admitted to Rajindra Hospital, Patiala, 18 of them reportedly with gunshot injuries. The cause of death is contested."
+    date: 2024-02-21
+    claim: happened
+    description: "Shubhkaran Singh, 21, of Bathinda district, died at the Khanauri border on 21 February 2024 (The Tribune later gave his age as 22). Farmers alleged he died in police firing. In the FIR registered by Punjab Police on 28 February, his father said a bullet fired from the Haryana side hit him in the head; the investigating officer wrote that the source of the bullet was a matter of investigation. Hospital documents seen by Newslaundry said he was 'brought dead'. On the afternoon of 21 February Haryana Police said on X that, according to information received so far, no farmer had died and that this was a rumour, and that two police personnel and one protester had been injured at the Data Singh-Khanauri border. The Tribune reported that the autopsy found a fatal blow to the back of the head and that a 'pellet' sample was sent for ballistic examination. 46 farmers had been admitted to Rajindra Hospital, Patiala, by 23 February, 18 of them reportedly with gunshot injuries. The Supreme Court recorded in September 2024 that he lost his life and that related issues were before a committee appointed by the High Court. The cause of death is contested."
     actor: police
-    sources: [s4]
+    sources: [s19, s4, s18, s20, s21, s24]
+    legal_basis: "Zero FIR No. 0041 at Patran police station, Patiala, under Sections 302 and 114 IPC, against unidentified persons (as reported by The Tribune)"
+    figures:
+      - { what: "farmers admitted to Rajindra Hospital, Patiala, with severe injuries by 23 February", value: "46", claimed_by: "Rajindra Hospital documents (as reported by Newslaundry)", source: s4 }
+      - { what: "of those, hit by 'gunshots'", value: "18", claimed_by: "Rajindra Hospital documents (as reported by Newslaundry)", source: s4 }
+      - { what: "protesters who died at Shambhu and Khanauri by 23 February", value: "at least 4, including 3 of cardiac arrest", claimed_by: "Rajindra Hospital documents (as reported by Newslaundry)", source: s4 }
+      - { what: "people injured at the Data Singh-Khanauri border on 21 February (afternoon)", value: "two police personnel and one protester", claimed_by: Haryana Police, source: s18 }
+      - { what: "police and paramilitary personnel injured in the agitation", value: "67", claimed_by: "submission to the High Court bench (as reported by The Tribune)", source: s21 }
   - type: commission_of_inquiry
-    date: 2024
-    description: The Punjab and Haryana High Court ordered a judicial inquiry into the death of Shubhkaran Singh. Haryana challenged the order in the Supreme Court through a Special Leave Petition.
+    date: 2024-03-07
+    claim: held
+    description: "A Punjab and Haryana High Court bench of Acting Chief Justice G.S. Sandhawalia and Justice Lapita Banerji constituted a committee headed by retired High Court judge Jaishree Thakur, assisted by ADGPs Parmod Ban (Punjab) and Amitabh Singh Dhillon (Haryana), to inquire into the death of Shubhkaran Singh. The Tribune reported that the bench said the investigation could not be entrusted solely to either state, and asked the committee to report on which police had jurisdiction, the cause of death, the weapon used and whether the force used was commensurate. Haryana challenged the judgment in the Supreme Court through a Special Leave Petition (SLP(C) Nos. 6950-6953/2024)."
     actor: court
-    sources: [s6, s7]
+    sources: [s24, s22, s21, s6]
   - type: other
     date: 2024-07-10
-    description: "A Punjab and Haryana High Court bench of Justices G.S. Sandhawalia and Vikas Bahl directed Haryana to unblock the Shambhu border, calling the highway a 'lifeline'. Haryana appealed to the Supreme Court, which on 24 July ordered status quo, told Haryana there was a 'trust deficit', and asked the states to propose how to remove the barricades."
+    claim: held
+    description: "A Punjab and Haryana High Court bench of Justices G.S. Sandhawalia and Vikas Bahl directed Punjab and Haryana to open the barricades at Shambhu within a week, to maintain law and order, and directed Punjab to remove obstructions on the highway. LiveLaw reported that the order called the border a 'lifeline'. Haryana appealed to the Supreme Court. On 24 July the Supreme Court directed that status quo be maintained at the Shambhu border until the next hearing, and asked both states to submit proposals to remove the barricades in a phased manner. In oral remarks reported by LiveLaw, Justice Surya Kant told Haryana there was a 'trust deficit' with the farmers."
     actor: court
-    sources: [s6, s7]
+    sources: [s24, s23, s6, s7]
   - type: negotiation
     date: 2024-09-02
-    description: "The Supreme Court formed a committee headed by retired High Court judge Nawab Singh to negotiate with the protesting farmers, and said the issue should not be politicised."
+    claim: held
+    description: "The Supreme Court (Justices Surya Kant and Ujjal Bhuyan) constituted a High-Powered Committee chaired by retired High Court judge Nawab Singh to reach out to the protesting farmers, and asked it to persuade them to move their tractors, trolleys and tents off the national highway. The order cautioned the farmers to keep a safe distance from political parties and political issues. It recorded that both states had earmarked alternative sites for the protest."
     actor: court
-    sources: [s8]
+    sources: [s24, s8]
   - type: other
-    date: 2025-03
-    description: "The Punjab government cleared the protesting farmers from the Shambhu and Khanauri borders and reopened the national highway, and told the Supreme Court on 28 March 2025. Farmer leader Jagjit Singh Dallewal, on hunger strike since November 2024, ended his fast the same day. A contempt petition alleging violation of the status quo order was withdrawn."
+    date: 2025-03-19
+    claim: happened
+    description: "Punjab Police detained farmer leaders including Jagjit Singh Dallewal and Sarwan Singh Pandher in Mohali as they returned from the seventh round of talks with a Union delegation in Chandigarh, and cleared the Shambhu and Khanauri protest sites in a late-evening operation, removing tents, stages and trolleys. The Indian Express reported that the Patiala Range DIG told protesters that police did not want to use force and asked them to board buses voluntarily. Punjab Finance Minister Harpal Singh Cheema said the closure of the highways had hit trade and industry. On 28 March the Punjab government told the Supreme Court that it had cleared the protesters and reopened the national highway, and that Dallewal, on hunger strike since November 2024, had ended his fast. LiveLaw reported that a contempt petition alleging violation of the status quo order was withdrawn after the bench called it misconceived; the Court's signed order says the contempt proceedings against Punjab's Chief Secretary and DGP were dropped at this stage in light of subsequent events. Counts of detained farmers and police differ (see figures)."
     actor: state
-    sources: [s5]
+    sources: [s26, s5, s25, s27, s32]
+    figures:
+      - { what: "farmers detained", value: "more than 300", claimed_by: "The Tribune, citing sources", source: s27 }
+      - { what: "farmers present when the operation began", value: "nearly 500", claimed_by: The Indian Express, source: s26 }
+      - { what: "police personnel at the two sites", value: "over 3,000", claimed_by: "DIG Mandeep Singh Sidhu (quoted by The Indian Express)", source: s26 }
+      - { what: "police personnel stationed at the Shambhu and Khanauri border points", value: "over 5,000", claimed_by: "The Tribune (live blog)", source: s27 }
 outcome: >
-  No law guaranteeing MSP was enacted. Talks with the Union government resumed in January 2025. The
-  Punjab government (AAP) cleared the Shambhu and Khanauri sites in March 2025 and the highway
-  reopened. A Supreme Court-appointed committee continued to engage with the farmers.
+  No law guaranteeing MSP was enacted. In January 2025 the Union government agreed to resume talks
+  with the farm leaders, which began in Chandigarh in February 2025. The Punjab government (AAP)
+  cleared the Shambhu and Khanauri sites in March 2025 and the highway reopened. A Supreme
+  Court-appointed committee continued to engage with the farmers.
 positions:
   - party: BJP
     person: Manohar Lal Khattar
     role_at_time: Chief Minister of Haryana
     in_power: true
     date: 2024-02-15
-    statement: "Called farmer leader Jagjit Singh Dallewal's remark about bringing down Modi's popularity 'a political statement' and said 'This is not the right way to protest.'"
-    sources: [s11]
+    kind: paraphrase
+    statement: "Asked about farmer leader Jagjit Singh Dallewal's remark about bringing down Prime Minister Modi's popularity, called it a political statement and said a message was circulating among the public that this was not the right way to protest. He also said the Punjab government could have stopped the farmers but did not. Alt News, a fact-checker, reported that the widely shared clip of Dallewal's remark had been edited to remove context."
+    sources: [s28, s11, s31]
   - party: INC
-    person:
-    role_at_time: Main opposition party
+    person: Rahul Gandhi
+    role_at_time: Lok Sabha MP (INC); INC was the main opposition party
     in_power: false
-    date: 2024-02
-    statement: Promised to legalise MSP on crops if elected (paraphrase as reported by Al Jazeera).
-    sources: [s3]
+    date: 2024-02-13
+    kind: paraphrase
+    statement: Said on X that the Congress had decided to give every farmer a legal guarantee of MSP on crops as recommended by the Swaminathan Commission, and called it the party's first guarantee. Al Jazeera reported this as a promise to legalise MSP if the Congress was elected.
+    sources: [s29, s3]
   - party: AAP
     person:
     role_at_time: Governing party in Punjab (opposition at the Centre), speaking as the Punjab government
     in_power: true
     date: 2024-02
-    statement: The Punjab government said three farmers had lost their eyesight after pellet injuries (paraphrase as reported by Al Jazeera).
-    sources: [s3]
+    kind: paraphrase
+    statement: The Punjab government said three farmers had lost their eyesight after being hit by Haryana Police pellets and that about a dozen others had pellet injuries (as reported by Al Jazeera). The Mooknayak attributed the claim about three farmers to Punjab Health Minister Balbir Singh.
+    sources: [s3, s30]
 sources:
   - id: s1
-    title: Indian police fire tear gas as protesting farmers march to capital
+    title: Indian police fire tear gas as protesting farmers march on Delhi
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/2024/2/13/indian-police-fire-tear-gas-as-protesting-farmers-march-to-capital
     archive_date: 2024-02-13
     archive_url: https://web.archive.org/web/20240213103626/https://www.aljazeera.com/news/2024/2/13/indian-police-fire-tear-gas-as-protesting-farmers-march-to-capital
     date: 2024-02-13
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: Tear gas and rubber bullets as Indian farmers march on Delhi
     publisher: Al Jazeera
+    author: Rohit Lohia
+    tier: report
     url: https://www.aljazeera.com/gallery/2024/2/14/tear-gas-and-rubber-bullets-as-indian-farmers-march-on-delhi
     archive_date: 2024-02-14
     archive_url: https://web.archive.org/web/20240214132346/https://www.aljazeera.com/gallery/2024/2/14/tear-gas-and-rubber-bullets-as-indian-farmers-march-on-delhi
     date: 2024-02-14
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: "'We want dignity': Indian farmers defy pellets, drones to demand new deal"
     publisher: Al Jazeera
+    author: Rifat Fareed
+    tier: report
     url: https://www.aljazeera.com/features/2024/2/21/we-want-dignity-indian-farmers-defy-pellets-drones-to-demand-new-deal
     archive_date: 2024-02-21
     archive_url: https://web.archive.org/web/20240221070740/https://www.aljazeera.com/features/2024/2/21/we-want-dignity-indian-farmers-defy-pellets-drones-to-demand-new-deal
     date: 2024-02-21
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: "Farmers' protest: 4 farmers dead, 46 admitted to hospital, 18 with 'gunshot' injuries"
     publisher: Newslaundry
+    tier: secondary
     url: https://www.newslaundry.com/2024/02/23/farmers-protest-4-farmers-dead-46-admitted-to-hospital-18-with-gunshot-injuries
     archive_date: 2024-04-21
     archive_url: https://web.archive.org/web/20240421015958/https://www.newslaundry.com/2024/02/23/farmers-protest-4-farmers-dead-46-admitted-to-hospital-18-with-gunshot-injuries
     date: 2024-02-23
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: "Farmers Protest | Dallewal Ended Fast, NH Opened After Clearing Protesters : Punjab Govt Informs Supreme Court"
     publisher: LiveLaw
+    author: Gursimran Kaur Bakshi
+    tier: report
     url: https://www.livelaw.in/top-stories/farmers-protest-dallewal-ended-fast-nh-opened-after-clearing-protesters-punjab-govt-informs-supreme-court-287806
     archive_date: 2025-03-28
     archive_url: https://web.archive.org/web/20250328082102/https://www.livelaw.in/top-stories/farmers-protest-dallewal-ended-fast-nh-opened-after-clearing-protesters-punjab-govt-informs-supreme-court-287806
     date: 2025-03-28
     type: news
+    accessed: 2026-10-15
   - id: s6
     title: Haryana Govt Approaches Supreme Court Against High Court's Order To Unblock Shambhu Border
     publisher: LiveLaw
+    author: Gyanvi Khanna
+    tier: report
     url: https://www.livelaw.in/top-stories/haryana-govt-approaches-supreme-court-against-high-courts-order-to-unblock-shambhu-border-263432
     archive_date: 2024-07-15
     archive_url: https://web.archive.org/web/20240715152231/https://www.livelaw.in/top-stories/haryana-govt-approaches-supreme-court-against-high-courts-order-to-unblock-shambhu-border-263432
     date: 2024-07-15
     type: news
+    accessed: 2026-10-15
   - id: s7
     title: "'Reach Out To Farmers, Trust Deficit Is There': Supreme Court To Haryana Govt; Proposes Forming Committee To Resolve Farmers Protest"
     publisher: LiveLaw
+    author: Gyanvi Khanna
+    tier: report
     url: https://www.livelaw.in/top-stories/farmers-protests-reach-out-to-farmers-trust-deficit-is-there-supreme-court-to-haryana-govt-264379
     archive_date: 2024-07-24
     archive_url: https://web.archive.org/web/20240724090926/https://www.livelaw.in/top-stories/farmers-protests-reach-out-to-farmers-trust-deficit-is-there-supreme-court-to-haryana-govt-264379
     date: 2024-07-24
     type: news
+    accessed: 2026-10-15
   - id: s8
     title: "Shambhu Border Blockade | Supreme Court Forms Committee To Negotiate With Protesting Farmers, Says Issue Shouldn't Be Politicised"
     publisher: LiveLaw
+    author: Anmol Kaur Bawa, Debby Jain
+    tier: report
     url: https://www.livelaw.in/top-stories/shambhu-border-blockade-supreme-court-forms-committee-to-negotiate-with-protesting-farmers-says-issue-shouldnt-be-politicised-268319
     archive_date: 2024-09-02
     archive_url: https://web.archive.org/web/20240902085302/https://www.livelaw.in/top-stories/shambhu-border-blockade-supreme-court-forms-committee-to-negotiate-with-protesting-farmers-says-issue-shouldnt-be-politicised-268319
     date: 2024-09-02
     type: news
+    accessed: 2026-10-15
   - id: s9
     title: Why are Indian farmers marching on New Delhi?
     publisher: Al Jazeera
+    author: Sarah Shamim
+    tier: secondary
     url: https://www.aljazeera.com/news/2024/2/13/india-farmers-march-what-are-their-demands-why-is-govt-blocking-roads
     archive_date: 2024-02-13
     archive_url: https://web.archive.org/web/20240213145322/https://www.aljazeera.com/news/2024/2/13/india-farmers-march-what-are-their-demands-why-is-govt-blocking-roads
     date: 2024-02-13
     type: news
+    accessed: 2026-10-15
   - id: s10
     title: "Farmers protest in Delhi: Key players, why is it happening, demands, all the details"
     publisher: Business Today
+    tier: secondary
     url: https://www.businesstoday.in/india/story/farmers-protest-in-delhi-key-players-why-is-it-happening-demands-all-the-details-417231-2024-02-13
     archive_date: 2024-02-13
     archive_url: https://web.archive.org/web/20240213023324/https://www.businesstoday.in/india/story/farmers-protest-in-delhi-key-players-why-is-it-happening-demands-all-the-details-417231-2024-02-13
     date: 2024-02-13
     type: news
+    accessed: 2026-10-15
   - id: s11
     title: "'Need To Bring Modi's Graph Down...': Big 'Political' Comment By Farmer Leader Jagjit Singh Dallewal Triggers Row"
     publisher: Free Press Journal
+    author: Ruddhi Phadke
+    tier: secondary
     url: https://www.freepressjournal.in/india/will-bring-modis-graph-down-says-farmer-leader-jagjit-singh-dallewal-amid-delhi-chalo-protest
     archive_date: 2024-02-15
     archive_url: https://web.archive.org/web/20240215093625/https://www.freepressjournal.in/india/will-bring-modis-graph-down-says-farmer-leader-jagjit-singh-dallewal-amid-delhi-chalo-protest
     date: 2024-02-15
     type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: "Order under Section 5 of Indian Telegraph Act, 1885 and Rule 2 of Temporary Suspension of Telecom Services (Public Emergency or Public Safety) Rules, 2017 (No. 2/1/2024-IH (C)): suspension of mobile internet in Ambala, Kurukshetra, Kaithal, Jind, Hisar, Fatehabad and Sirsa"
+    publisher: Government of Haryana, Department of Home Affairs
+    tier: record
+    url: https://homeharyana.gov.in/pdfs/Orders/Order%20Internet%20suspension%20.pdf
+    archive_date: 2025-03-19
+    archive_url: https://web.archive.org/web/20250319122346/https://homeharyana.gov.in/pdfs/Orders/Order%20Internet%20suspension%20.pdf
+    date: 2024-02-10
+    type: official
+    accessed: 2026-10-15
+  - id: s13
+    title: "Order extending the suspension of telecom services in Ambala, Kurukshetra, Kaithal, Jind, Hisar, Fatehabad and Sirsa up to 24.02.2024 (No. 2/1/2024-IH (C))"
+    publisher: Government of Haryana, Department of Home Affairs
+    tier: record
+    url: https://homeharyana.gov.in/pdfs/Orders/Internet%20Suspension%2023.02.pdf
+    archive_date: 2024-07-23
+    archive_url: https://web.archive.org/web/20240723043138/https://homeharyana.gov.in/pdfs/Orders/Internet%20Suspension%2023.02.pdf
+    date: 2024-02-23
+    type: official
+    accessed: 2026-10-15
+  - id: s14
+    title: Centre suspends mobile Internet services in 6 Punjab districts till February 24
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/punjab/ahead-of-government-farmer-talks-centre-suspends-mobile-internet-services-in-6-punjab-districts-till-february-24-592095/
+    archive_date: 2024-02-18
+    archive_url: https://web.archive.org/web/20240218083552/https://www.tribuneindia.com/news/punjab/ahead-of-government-farmer-talks-centre-suspends-mobile-internet-services-in-6-punjab-districts-till-february-24-592095/
+    date: 2024-02-18
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: "Battleground Shambhu: Tear gas, rubber bullets push back farmers"
+    publisher: The Tribune
+    author: Nitish Sharma
+    tier: report
+    url: https://www.tribuneindia.com/news/haryana/battleground-shambhu-tear-gas-rubber-bullets-push-back-farmers-590828/
+    archive_date: 2024-02-15
+    archive_url: https://web.archive.org/web/20240215054015/https://www.tribuneindia.com/news/haryana/battleground-shambhu-tear-gas-rubber-bullets-push-back-farmers-590828/
+    date: 2024-02-15
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: Haryana DGP denies using pellet guns against protesting farmers
+    publisher: The Hindu
+    author: Vijaita Singh
+    tier: report
+    url: https://www.thehindu.com/news/national/haryana-dgp-denies-using-pellet-guns-against-protesting-farmers/article67860605.ece
+    archive_date: 2024-02-18
+    archive_url: https://web.archive.org/web/20240218145207/https://www.thehindu.com/news/national/haryana-dgp-denies-using-pellet-guns-against-protesting-farmers/article67860605.ece
+    date: 2024-02-18
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: "'Centre's Proposal an Eyewash,' Farmers Reject Plan, to Resume 'Delhi Chalo' March"
+    publisher: The Wire
+    author: Vivek Gupta
+    tier: report
+    url: https://m.thewire.in/article/agriculture/farmers-reject-centres-proposal/amp
+    archive_date: 2024-02-20
+    archive_url: https://web.archive.org/web/20240220052125/https://m.thewire.in/article/agriculture/farmers-reject-centres-proposal/amp
+    date: 2024-02-20
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: Post on X by Haryana Police on reports of a farmer's death at the Khanauri border
+    publisher: Haryana Police (@police_haryana), on X
+    tier: record
+    language: hi
+    url: https://x.com/police_haryana/status/1760244490735067202
+    date: 2024-02-21
+    type: official
+    accessed: 2026-10-15
+  - id: s19
+    title: "Murder FIR lodged over Punjab farmer Shubhkaran Singh's death; autopsy done"
+    publisher: The Tribune
+    author: Mohit Khanna
+    tier: report
+    url: https://www.tribuneindia.com/news/bathinda/murder-fir-lodged-over-shubhkarans-death-autopsy-done-595497/
+    archive_date: 2025-06-17
+    archive_url: https://web.archive.org/web/20250617222323/https://www.tribuneindia.com/news/bathinda/murder-fir-lodged-over-shubhkarans-death-autopsy-done-595497/
+    date: 2024-02-29
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: "Fatal blow on head led to farmer Shubhkaran Singh's death: Autopsy report"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/punjab/fatal-blow-on-head-led-to-farmers-death-autopsy-report-595890/
+    archive_date: 2024-03-04
+    archive_url: https://web.archive.org/web/20240304001256/https://www.tribuneindia.com/news/punjab/fatal-blow-on-head-led-to-farmers-death-autopsy-report-595890/
+    date: 2024-03-01
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: "Panel led by retd judge to probe farmer Shubhkaran Singh's death at Punjab-Haryana border: High Court"
+    publisher: The Tribune
+    author: Saurabh Malik
+    tier: report
+    url: https://www.tribuneindia.com/news/haryana/panel-led-by-retd-judge-to-probe-farmers-death-high-court-598254/
+    date: 2024-03-08
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: "State of Haryana v. Uday Pratap Singh, SLP(C) Nos. 6950-6953/2024, record of proceedings, 1 April 2024"
+    publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/101902279/
+    date: 2024-04-01
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s23
+    title: "State of Haryana v. Uday Pratap Singh, SLP(C) Nos. 6950-6953/2024 with SLP(C) Nos. 15407-15410/2024, order of 24 July 2024"
+    publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/173614639/
+    date: 2024-07-24
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s24
+    title: "State of Haryana v. Uday Pratap Singh, SLP(C) Nos. 6950-6953/2024 with SLP(C) Nos. 15407-15410/2024, order of 2 September 2024 constituting the High-Powered Committee"
+    publisher: Supreme Court of India (via Indian Kanoon)
+    tier: court
+    url: https://indiankanoon.org/doc/14001572/
+    date: 2024-09-02
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s25
+    title: "Labh Singh v. K.A.P. Sinha, Contempt Petition (C) Nos. 930-933/2024 in SLP(C) Nos. 6950-6953/2024, and connected matters, order of 28 March 2025"
+    publisher: Supreme Court of India
+    tier: court
+    url: https://api.sci.gov.in/supremecourt/2024/11369/11369_2024_3_15_60507_Order_28-Mar-2025.pdf
+    date: 2025-03-28
+    type: court_judgment
+    accessed: 2026-10-15
+  - id: s26
+    title: Khanauri, Shambhu protest sites cleared as Punjab police launch Op Clean-up
+    publisher: The Indian Express
+    author: Raakhi Jagga
+    tier: report
+    url: https://indianexpress.com/article/cities/chandigarh/punjab-police-khanauri-shambhu-protest-clean-up-9895333/
+    archive_date: 2025-03-20
+    archive_url: https://web.archive.org/web/20250320053523/https://indianexpress.com/article/cities/chandigarh/punjab-police-khanauri-shambhu-protest-clean-up-9895333/
+    date: 2025-03-19
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: "Over 300 farmers, including Dallewal and Pandher, detained; police use bulldozer to clear Shambhu, Khanauri protest sites (live blog)"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/live-blog/punjab/farmer-leaders-dallewal-and-pandher-detained-amid-heavy-police-deployment-at-shambhu/
+    date: 2025-03-19
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "ANI video post on X: Haryana CM Manohar Lal Khattar on farmer leader Jagjit Singh Dallewal's remark"
+    publisher: ANI (@ANI), on X
+    wire: ANI
+    tier: secondary
+    url: https://x.com/ANI/status/1758038450031276289
+    archive_date: 2025-04-17
+    archive_url: https://web.archive.org/web/20250417000922/https://x.com/ANI/status/1758038450031276289
+    date: 2024-02-15
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: Post on X by Rahul Gandhi on a legal guarantee of MSP (#KisaanNYAYGuarantee)
+    publisher: Rahul Gandhi (@RahulGandhi), on X
+    tier: record
+    language: hi
+    url: https://x.com/RahulGandhi/status/1757352569310163423
+    archive_date: 2024-06-18
+    archive_url: https://web.archive.org/web/20240618000704/https://x.com/RahulGandhi/status/1757352569310163423
+    date: 2024-02-13
+    type: official
+    accessed: 2026-10-15
+  - id: s30
+    title: "'No Pellet Gun': Haryana Police Chief Claims He hasn't Come Across Visuals of Farmers with Metal Shrapnel Injuries"
+    publisher: The Mooknayak
+    author: Tarique Anwar
+    tier: secondary
+    url: https://en.themooknayak.com/farmer/no-pellet-gun-haryana-police-chief-claims-he-hasnt-come-across-visuals-of-farmers-with-metal-shrapnel-injuries
+    archive_date: 2024-04-17
+    archive_url: https://web.archive.org/web/20240417062547/https://en.themooknayak.com/farmer/no-pellet-gun-haryana-police-chief-claims-he-hasnt-come-across-visuals-of-farmers-with-metal-shrapnel-injuries
+    date: 2024-02-19
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: "News channels run doctored video of farmer leader Dallewal's statement on Modi, question movement's agenda"
+    publisher: Alt News
+    tier: lead
+    url: https://www.altnews.in/edited-video-of-dallewal-shared-as-farmers-protest-is-an-attempt-to-bring-graph-of-modi-down/
+    archive_date: 2024-02-20
+    archive_url: https://web.archive.org/web/20240220101530/https://www.altnews.in/edited-video-of-dallewal-shared-as-farmers-protest-is-an-attempt-to-bring-graph-of-modi-down/
+    date: 2024-02-20
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: With Punjab farmers evicted, Haryana starts removing barricades after year-long protest at Shambhu Border
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/news/punjab/with-punjab-farmers-evicted-haryana-starts-removing-barricades-after-year-long-protest-at-shambhu-border/
+    archive_date: 2025-03-20
+    archive_url: https://web.archive.org/web/20250320102000/https://www.tribuneindia.com/news/punjab/with-punjab-farmers-evicted-haryana-starts-removing-barricades-after-year-long-protest-at-shambhu-border/
+    date: 2025-03-20
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: "Farmers' march: Section 144 imposed in Delhi; traffic restrictions in place at borders, security beefed up"
+    publisher: The Tribune
+    wire: PTI
+    tier: secondary
+    url: https://www.tribuneindia.com/news/delhi/farmers-march-traffic-restrictions-in-place-at-delhi-borders-security-beefed-up-590029/
+    archive_date: 2024-02-12
+    archive_url: https://web.archive.org/web/20240212093621/https://www.tribuneindia.com/news/delhi/farmers-march-traffic-restrictions-in-place-at-delhi-borders-security-beefed-up-590029/
+    date: 2024-02-12
+    type: news
+    accessed: 2026-10-15
 tags: [farmers, msp, punjab, haryana, internet_shutdown, tear_gas, drones, barricading]
 review:
   status: draft
