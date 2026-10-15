@@ -394,6 +394,8 @@ sources:
     publisher: Supreme Court of India (Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/63489929/
+    archive_date: 2015-03-03
+    archive_url: https://web.archive.org/web/20150303151640/https://indiankanoon.org/doc/63489929/
     date: 2008-04-10
     type: court_judgment
     accessed: 2026-10-15
@@ -442,6 +444,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/05/13/stories/2006051329920300.htm
+    archive_date: 2008-03-04
+    archive_url: https://web.archive.org/web/20080304150219/http://www.hindu.com/2006/05/13/stories/2006051329920300.htm
     date: 2006-05-13
     type: news
     accessed: 2026-10-15
@@ -450,6 +454,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/05/17/stories/2006051725311600.htm
+    archive_date: 2013-10-21
+    archive_url: https://web.archive.org/web/20131021085950/http://www.hindu.com/2006/05/17/stories/2006051725311600.htm
     date: 2006-05-17
     type: news
     accessed: 2026-10-15
@@ -458,6 +464,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/05/17/stories/2006051709611300.htm
+    archive_date: 2013-10-21
+    archive_url: https://web.archive.org/web/20131021085940/http://www.hindu.com/2006/05/17/stories/2006051709611300.htm
     date: 2006-05-17
     type: news
     accessed: 2026-10-15
@@ -467,6 +475,8 @@ sources:
     author: K.V. Prasad
     tier: report
     url: http://www.hindu.com/2006/05/21/stories/2006052107690100.htm
+    archive_date: 2012-10-16
+    archive_url: https://web.archive.org/web/20121016092723/http://www.hindu.com/2006/05/21/stories/2006052107690100.htm
     date: 2006-05-21
     type: news
     accessed: 2026-10-15
@@ -475,6 +485,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/05/22/stories/2006052217471400.htm
+    archive_date: 2008-01-29
+    archive_url: https://web.archive.org/web/20080129200350/http://www.hindu.com/2006/05/22/stories/2006052217471400.htm
     date: 2006-05-22
     type: news
     accessed: 2026-10-15
@@ -484,6 +496,8 @@ sources:
     wire: PTI
     tier: secondary
     url: http://www.hindu.com/2006/05/22/stories/2006052214400100.htm
+    archive_date: 2006-08-27
+    archive_url: https://web.archive.org/web/20060827051708/http://www.hindu.com/2006/05/22/stories/2006052214400100.htm
     date: 2006-05-22
     type: news
     accessed: 2026-10-15
@@ -493,6 +507,8 @@ sources:
     author: Aarti Dhar
     tier: report
     url: http://www.hindu.com/2006/05/27/stories/2006052714220100.htm
+    archive_date: 2013-06-15
+    archive_url: https://web.archive.org/web/20130615141314/http://www.hindu.com/2006/05/27/stories/2006052714220100.htm
     date: 2006-05-27
     type: news
     accessed: 2026-10-15
@@ -502,6 +518,8 @@ sources:
     author: Aarti Dhar
     tier: report
     url: http://www.hindu.com/2006/05/29/stories/2006052918050100.htm
+    archive_date: 2006-05-31
+    archive_url: https://web.archive.org/web/20060531055231/http://www.hindu.com/2006/05/29/stories/2006052918050100.htm
     date: 2006-05-29
     type: news
     accessed: 2026-10-15
@@ -511,6 +529,8 @@ sources:
     author: Siddharth Narrain
     tier: report
     url: http://www.hindu.com/2006/05/30/stories/2006053018920100.htm
+    archive_date: 2011-08-13
+    archive_url: https://web.archive.org/web/20110813081216/http://www.hindu.com/2006/05/30/stories/2006053018920100.htm
     date: 2006-05-30
     type: news
     accessed: 2026-10-15
@@ -519,6 +539,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/05/30/stories/2006053015270100.htm
+    archive_date: 2008-01-29
+    archive_url: https://web.archive.org/web/20080129021030/http://www.hindu.com/2006/05/30/stories/2006053015270100.htm
     date: 2006-05-30
     type: news
     accessed: 2026-10-15
@@ -528,6 +550,8 @@ sources:
     author: Siddharth Narrain
     tier: report
     url: http://www.hindu.com/2006/05/31/stories/2006053123180100.htm
+    archive_date: 2007-12-05
+    archive_url: https://web.archive.org/web/20071205044117/http://www.hindu.com/2006/05/31/stories/2006053123180100.htm
     date: 2006-05-31
     type: news
     accessed: 2026-10-15
@@ -536,6 +560,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/06/01/stories/2006060112450100.htm
+    archive_date: 2006-06-21
+    archive_url: https://web.archive.org/web/20060621185609/http://www.hindu.com/2006/06/01/stories/2006060112450100.htm
     date: 2006-06-01
     type: news
     accessed: 2026-10-15
@@ -545,6 +571,8 @@ sources:
     wire: PTI
     tier: secondary
     url: http://www.hindu.com/2006/05/15/stories/2006051512700100.htm
+    archive_date: 2008-01-24
+    archive_url: https://web.archive.org/web/20080124144644/http://www.hindu.com/2006/05/15/stories/2006051512700100.htm
     date: 2006-05-15
     type: news
     accessed: 2026-10-15
@@ -554,6 +582,8 @@ sources:
     wire: PTI
     tier: secondary
     url: https://www.rediff.com/news/2006/may/13quota1.htm
+    archive_date: 2009-11-02
+    archive_url: https://web.archive.org/web/20091102141800/https://www.rediff.com/news/2006/may/13quota1.htm
     date: 2006-05-13
     type: news
     accessed: 2026-10-15
@@ -563,6 +593,8 @@ sources:
     author: Onkar Singh
     tier: report
     url: https://www.rediff.com/news/2006/may/19quota.htm
+    archive_date: 2021-05-06
+    archive_url: https://web.archive.org/web/20210506192100/https://www.rediff.com/news/2006/may/19quota.htm
     date: 2006-05-19
     type: news
     accessed: 2026-10-15
@@ -572,6 +604,8 @@ sources:
     author: Onkar Singh
     tier: report
     url: https://www.rediff.com/news/2006/may/19quota3.htm
+    archive_date: 2007-01-01
+    archive_url: https://web.archive.org/web/20070101215112/https://www.rediff.com/news/2006/may/19quota3.htm
     date: 2006-05-19
     type: news
     accessed: 2026-10-15
@@ -581,6 +615,8 @@ sources:
     author: Onkar Singh
     tier: report
     url: https://www.rediff.com/news/2006/may/29quota.htm
+    archive_date: 2013-10-19
+    archive_url: https://web.archive.org/web/20131019024902/https://www.rediff.com/news/2006/may/29quota.htm
     date: 2006-05-29
     type: news
     accessed: 2026-10-15
@@ -590,6 +626,8 @@ sources:
     author: Onkar Singh
     tier: report
     url: https://www.rediff.com/news/2006/may/30quota2.htm
+    archive_date: 2013-01-13
+    archive_url: https://web.archive.org/web/20130113165239/https://www.rediff.com/news/2006/may/30quota2.htm
     date: 2006-05-30
     type: news
     accessed: 2026-10-15
@@ -599,6 +637,8 @@ sources:
     author: Sharat Pradhan
     tier: report
     url: https://www.rediff.com/news/2006/may/27quota3.htm
+    archive_date: 2007-12-09
+    archive_url: https://web.archive.org/web/20071209100546/https://www.rediff.com/news/2006/may/27quota3.htm
     date: 2006-05-27
     type: news
     accessed: 2026-10-15
@@ -607,6 +647,8 @@ sources:
     publisher: Rediff.com
     tier: secondary
     url: https://www.rediff.com/news/2006/may/30quota6.htm
+    archive_date: 2024-07-19
+    archive_url: https://web.archive.org/web/20240719114003/https://www.rediff.com/news/2006/may/30quota6.htm
     date: 2006-05-30
     type: news
     accessed: 2026-10-15
@@ -615,6 +657,8 @@ sources:
     publisher: Oversight Committee (copy hosted by academics-india.com)
     tier: record
     url: http://www.academics-india.com/moily%20report.pdf
+    archive_date: 2006-10-21
+    archive_url: https://web.archive.org/web/20061021191906/http://www.academics-india.com/moily%20report.pdf
     date: 2006-09-30
     type: official
     accessed: 2026-10-15
@@ -623,6 +667,8 @@ sources:
     publisher: BBC News
     tier: secondary
     url: http://news.bbc.co.uk/2/hi/south_asia/5026852.stm
+    archive_date: 2006-06-30
+    archive_url: https://web.archive.org/web/20060630201303/http://news.bbc.co.uk/2/hi/south_asia/5026852.stm
     date: 2006-05-29
     type: news
     accessed: 2026-10-15

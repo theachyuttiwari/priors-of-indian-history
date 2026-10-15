@@ -366,6 +366,8 @@ sources:
     wire: PTI
     tier: secondary
     url: https://www.taxtmi.com/news?id=29387
+    archive_date: 2025-10-29
+    archive_url: https://web.archive.org/web/20251029061304/https://www.taxtmi.com/news?id=29387
     date: 2025-01-02
     type: news
     accessed: 2026-10-15
@@ -433,6 +435,8 @@ sources:
     author: Debabrata Mohanty
     tier: report
     url: http://www.telegraphindia.com/1060103/asp/frontpage/story_5674777.asp
+    archive_date: 2006-01-05
+    archive_url: https://web.archive.org/web/20060105035048/http://www.telegraphindia.com/1060103/asp/frontpage/story_5674777.asp
     date: 2006-01-03
     type: news
     accessed: 2026-10-15
@@ -442,6 +446,8 @@ sources:
     author: Debabrata Mohanty
     tier: report
     url: http://www.telegraphindia.com/1060104/asp/frontpage/story_5678941.asp
+    archive_date: 2006-01-06
+    archive_url: https://web.archive.org/web/20060106053245/http://www.telegraphindia.com/1060104/asp/frontpage/story_5678941.asp
     date: 2006-01-04
     type: news
     accessed: 2026-10-15
@@ -451,6 +457,8 @@ sources:
     author: Debabrata Mohanty
     tier: report
     url: http://www.telegraphindia.com/1060106/asp/nation/story_5686616.asp
+    archive_date: 2006-09-09
+    archive_url: https://web.archive.org/web/20060909151508/http://www.telegraphindia.com/1060106/asp/nation/story_5686616.asp
     date: 2006-01-06
     type: news
     accessed: 2026-10-15
@@ -460,6 +468,8 @@ sources:
     author: Debabrata Mohanty
     tier: report
     url: http://www.telegraphindia.com/1060107/asp/nation/story_5690584.asp
+    archive_date: 2006-03-07
+    archive_url: https://web.archive.org/web/20060307040806/http://www.telegraphindia.com/1060107/asp/nation/story_5690584.asp
     date: 2006-01-07
     type: news
     accessed: 2026-10-15
@@ -469,6 +479,8 @@ sources:
     author: Prafulla Das
     tier: report
     url: http://www.hindu.com/2006/01/03/stories/2006010308160100.htm
+    archive_date: 2006-01-05
+    archive_url: https://web.archive.org/web/20060105064746/http://www.hindu.com/2006/01/03/stories/2006010308160100.htm
     date: 2006-01-03
     type: news
     accessed: 2026-10-15
@@ -478,6 +490,8 @@ sources:
     author: Prafulla Das
     tier: report
     url: http://www.hindu.com/2006/01/04/stories/2006010406581200.htm
+    archive_date: 2006-01-06
+    archive_url: https://web.archive.org/web/20060106032439/http://www.hindu.com/2006/01/04/stories/2006010406581200.htm
     date: 2006-01-04
     type: news
     accessed: 2026-10-15
@@ -486,6 +500,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/01/06/stories/2006010606871200.htm
+    archive_date: 2006-09-06
+    archive_url: https://web.archive.org/web/20060906031926/http://www.hindu.com/2006/01/06/stories/2006010606871200.htm
     date: 2006-01-06
     type: news
     accessed: 2026-10-15
@@ -495,6 +511,8 @@ sources:
     author: Prafulla Das
     tier: report
     url: http://www.hindu.com/2006/01/08/stories/2006010803450800.htm
+    archive_date: 2006-01-10
+    archive_url: https://web.archive.org/web/20060110194847/http://www.hindu.com/2006/01/08/stories/2006010803450800.htm
     date: 2006-01-08
     type: news
     accessed: 2026-10-15
@@ -503,6 +521,8 @@ sources:
     publisher: Lok Sabha (Indian Kanoon)
     tier: record
     url: https://indiankanoon.org/doc/890598/
+    archive_date: 2025-09-06
+    archive_url: https://web.archive.org/web/20250906095142/https://indiankanoon.org/doc/890598/
     date: 2006-03-14
     type: official
     accessed: 2026-10-15
@@ -511,6 +531,8 @@ sources:
     publisher: Orissa High Court (Indian Kanoon)
     tier: court
     url: https://indiankanoon.org/doc/1266352/
+    archive_date: 2022-03-05
+    archive_url: https://web.archive.org/web/20220305141737/https://indiankanoon.org/doc/1266352/
     date: 2007-10-03
     type: court_judgment
     accessed: 2026-10-15
@@ -528,6 +550,8 @@ sources:
     author: Shilpa Shaji
     tier: report
     url: https://www.newsclick.in/kalinganagar-police-firing-2006-killed-13-tribals-was-justified-says-enquiry-commission
+    archive_date: 2018-05-28
+    archive_url: https://web.archive.org/web/20180528051658/https://www.newsclick.in/kalinganagar-police-firing-2006-killed-13-tribals-was-justified-says-enquiry-commission
     date: 2017-12-20
     type: news
     accessed: 2026-10-15
@@ -537,6 +561,8 @@ sources:
     author: Basudev Mahapatra
     tier: report
     url: https://www.thequint.com/news/india/kalinga-nagar-tribals-deaths-police-firing-government-report
+    archive_date: 2020-01-11
+    archive_url: https://web.archive.org/web/20200111153554/https://www.thequint.com/news/india/kalinga-nagar-tribals-deaths-police-firing-government-report
     date: 2017-05-30
     type: news
     accessed: 2026-10-15
@@ -555,6 +581,8 @@ sources:
     wire: PTI
     tier: secondary
     url: https://www.business-standard.com/article/pti-stories/opposition-slams-odisha-government-on-kalinga-nagar-firing-117051300056_1.html
+    archive_date: 2017-05-15
+    archive_url: https://web.archive.org/web/20170515073934/https://www.business-standard.com/article/pti-stories/opposition-slams-odisha-government-on-kalinga-nagar-firing-117051300056_1.html
     date: 2017-05-13
     type: news
     accessed: 2026-10-15
@@ -564,6 +592,8 @@ sources:
     author: Ashis Senapati
     tier: report
     url: https://www.downtoearth.org.in/urbanisation/tribals-observe-13th-anniversary-of-kalinga-nagar-firing-62658
+    archive_date: 2024-10-09
+    archive_url: https://web.archive.org/web/20241009191857/https://www.downtoearth.org.in/urbanisation/tribals-observe-13th-anniversary-of-kalinga-nagar-firing-62658
     date: 2019-01-02
     type: news
     accessed: 2026-10-15
@@ -572,6 +602,8 @@ sources:
     publisher: Hindustan Times
     tier: secondary
     url: https://www.hindustantimes.com/india-news/chopped-palms-of-five-tribals-killed-found-scattered-in-odisha-club/story-BIm7V4GXABCZpOAWaPzvgO.html
+    archive_date: 2018-11-19
+    archive_url: https://web.archive.org/web/20181119073013/https://www.hindustantimes.com/india-news/chopped-palms-of-five-tribals-killed-found-scattered-in-odisha-club/story-BIm7V4GXABCZpOAWaPzvgO.html
     date: 2018-11-19
     type: news
     accessed: 2026-10-15
@@ -580,6 +612,8 @@ sources:
     publisher: The Hindu
     tier: secondary
     url: http://www.hindu.com/2006/01/07/stories/2006010706361200.htm
+    archive_date: 2007-08-07
+    archive_url: https://web.archive.org/web/20070807162139/http://www.hindu.com/2006/01/07/stories/2006010706361200.htm
     date: 2006-01-07
     type: news
     accessed: 2026-10-15

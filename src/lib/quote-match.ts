@@ -40,6 +40,8 @@ export function htmlToText(html: string): string {
         .replace(/<(script|style|noscript|svg|template)\b[\s\S]*?<\/\1>/gi, " ")
         .replace(/<!--[\s\S]*?-->/g, " ")
         .replace(/<(br|\/p|\/div|\/li|\/h\d)\b[^>]*>/gi, "\n")
+        // Inline tags can sit inside a word ("C<a>entre</a>"): join, do not split.
+        .replace(/<\/?(a|span|b|i|em|strong|u|font|abbr|mark|small|sup|sub)\b[^>]*>/gi, "")
         .replace(/<[^>]+>/g, " "),
     ),
     ...jsonText(html),

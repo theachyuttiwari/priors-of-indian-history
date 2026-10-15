@@ -31,20 +31,28 @@ function snapshotFrom(timestamp: string, original: string): Snapshot {
  * A good (HTTP 200) snapshot via the CDX API. Dated sources get the first snapshot on or after
  * publication; never an earlier one, which would be a different page at the same address.
  * Undated sources (living pages such as Wikipedia) get the latest snapshot, nearest to when
- * the page was read.
+ * the page was read. The index can list a capture that no longer replays, so each candidate is
+ * checked; the first that loads is used.
  */
 async function existing(url: string, date?: string): Promise<Snapshot | undefined> {
   const from = date ? `&from=${date.replace(/-/g, "").padEnd(8, "0").slice(0, 8)}` : "";
   const api =
     `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}${from}` +
-    `&filter=statuscode:200&limit=${date ? 1 : -1}&output=json&fl=timestamp,original`;
+    `&filter=statuscode:200&limit=${date ? 5 : -5}&output=json&fl=timestamp,original`;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const res = await fetch(api, { headers: { "User-Agent": UA } });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const rows = (await res.json().catch(() => [])) as string[][];
-      const hit = rows[1]; // rows[0] is the header
-      return hit ? snapshotFrom(hit[0], url) : undefined;
+      const rows = ((await res.json().catch(() => [])) as string[][]).slice(1); // rows[0] is the header
+      // Dated: earliest first. Undated: the API returns the last rows oldest first, so try newest first.
+      for (const [timestamp] of date ? rows : rows.reverse()) {
+        const replay = await fetch(`https://web.archive.org/web/${timestamp}id_/${url}`, {
+          method: "HEAD",
+          headers: { "User-Agent": UA },
+        });
+        if (replay.ok) return snapshotFrom(timestamp, url);
+      }
+      return undefined;
     } catch {
       await sleep(3000 * (attempt + 1));
     }

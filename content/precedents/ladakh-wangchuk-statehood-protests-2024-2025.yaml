@@ -175,7 +175,7 @@ positions:
     kind: verbatim
     statement: Said the Kargil Democratic Alliance would not talk to the Centre until its demands were met, and might start another agitation.
     quote:
-      text: "We will not talk to the Centre till our demands are fulfilled. If need be, we will start another agitation."
+      text: "We will not talk to the Centre till our demands are fulfilled. If need be, we will start another agitation"
       locator: "para 2"
       source: s6
     sources: [s6]
@@ -238,8 +238,6 @@ sources:
     author: Sagrika Kissu
     tier: report
     url: https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
-    archive_date: 2025-10-01
-    archive_url: https://web.archive.org/web/20251001112154/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/
     date: 2025-10-01
     type: news
     accessed: 2026-10-15
@@ -401,6 +399,8 @@ sources:
     author: Shivnarayan Rajpurohit
     tier: report
     url: https://www.newslaundry.com/2025/09/27/govt-idiotically-misinterpreted-organisations-reply-sonam-wangchuks-wife-on-fcra-license-cancellation
+    archive_date: 2025-09-27
+    archive_url: https://web.archive.org/web/20250927123801/https://www.newslaundry.com/2025/09/27/govt-idiotically-misinterpreted-organisations-reply-sonam-wangchuks-wife-on-fcra-license-cancellation
     date: 2025-09-27
     type: news
     accessed: 2026-10-15

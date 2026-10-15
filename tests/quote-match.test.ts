@@ -20,6 +20,12 @@ describe("htmlToText", () => {
     expect(htmlToText(html)).not.toContain("real comment");
   });
 
+  it("joins an inline tag inside a word, but keeps block tags apart", () => {
+    const t = htmlToText(`<p>talk to the C<a href="/x">entre</a> now</p><p>Next</p>`);
+    expect(findQuote("talk to the Centre now", t).status).toBe("exact");
+    expect(t).toMatch(/now\s+Next/);
+  });
+
   it("reads article text shipped only in JSON-LD", () => {
     const body = "The commissioner said the order would stay in force until the situation returned to normal.";
     const html = `<script type="application/ld+json">{"@type":"NewsArticle","articleBody":"${body}"}</script>`;

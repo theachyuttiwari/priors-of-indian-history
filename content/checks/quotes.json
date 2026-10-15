@@ -290,15 +290,16 @@
       "fetched": "https://web.archive.org/web/20250924193957id_/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2170941",
       "checked": "2026-10-15",
       "result": "error",
-      "note": "TypeError: fetch failed"
+      "note": "Error: HTTP 403"
     },
     "beef279935260ed0": {
       "position": 2,
       "source": "s6",
-      "fetched": "https://web.archive.org/web/20251001112154id_/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
+      "fetched": "https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
       "checked": "2026-10-15",
-      "result": "error",
-      "note": "TypeError: fetch failed"
+      "result": "exact",
+      "text_sha256": "9feaad0cd21f1a402cb2d37d82855c1c8d278689f9f76235894e88d49f496ecb",
+      "note": "checked against the live page; archive the source and re-check"
     },
     "defb44239b961023": {
       "position": 3,
@@ -306,7 +307,171 @@
       "fetched": "https://web.archive.org/web/20251001112154id_/https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
       "checked": "2026-10-15",
       "result": "error",
-      "note": "TypeError: fetch failed"
+      "note": "Error: HTTP 404"
+    },
+    "73a8b4860df75b37": {
+      "position": 3,
+      "source": "s6",
+      "fetched": "https://theprint.in/feature/around-town/wangchuk-september-police-firing-kargil/2755097/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "9feaad0cd21f1a402cb2d37d82855c1c8d278689f9f76235894e88d49f496ecb",
+      "note": "checked against the live page; archive the source and re-check"
+    }
+  },
+  "kalinganagar-firing-2006": {
+    "01907bb57b1e50fd": {
+      "position": 1,
+      "source": "s14",
+      "fetched": "https://web.archive.org/web/20190425121809id_/https://etribaltribune.com/index.php/volume-2/mv2i6/news-v2i6",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ffff3af39788a9dbd44498fd8f563d7a2ffe899852a56bfdadad680b4a6c264c"
+    },
+    "65250fdcf0610297": {
+      "position": 4,
+      "source": "s13",
+      "fetched": "https://web.archive.org/web/20190425122027id_/https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "4f5755c91aed61b02befb87d0f68ee6ad20d48fa7c6b3cc79f50f088ccf53ff3"
+    },
+    "9fc2d9638c3c79de": {
+      "position": 7,
+      "source": "s13",
+      "fetched": "https://web.archive.org/web/20190425122027id_/https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "4f5755c91aed61b02befb87d0f68ee6ad20d48fa7c6b3cc79f50f088ccf53ff3"
+    },
+    "e64ddf41f5fb3dfd": {
+      "position": 8,
+      "source": "s13",
+      "fetched": "https://web.archive.org/web/20190425122027id_/https://www.etribaltribune.com/index.php/volume-2/mv2i5/news-v2i5",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "4f5755c91aed61b02befb87d0f68ee6ad20d48fa7c6b3cc79f50f088ccf53ff3"
+    },
+    "c96ea4ea225e2f38": {
+      "position": 9,
+      "source": "s27",
+      "fetched": "https://web.archive.org/web/20250906095142id_/https://indiankanoon.org/doc/890598/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "29f475d4a1a5952187bdd3599200798226222fdee665768f425396d8ad81ee14"
+    },
+    "0d67deca795694de": {
+      "position": 10,
+      "source": "s27",
+      "fetched": "https://web.archive.org/web/20250906095142id_/https://indiankanoon.org/doc/890598/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "29f475d4a1a5952187bdd3599200798226222fdee665768f425396d8ad81ee14"
+    },
+    "8554b22dbd29f24c": {
+      "position": 11,
+      "source": "s27",
+      "fetched": "https://web.archive.org/web/20250906095142id_/https://indiankanoon.org/doc/890598/",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "29f475d4a1a5952187bdd3599200798226222fdee665768f425396d8ad81ee14"
+    }
+  },
+  "anti-reservation-youth-for-equality-2006": {
+    "d3879e4791d13b55": {
+      "position": 0,
+      "source": "s25",
+      "fetched": "https://elibrary.sansad.in/server/api/core/bitstreams/66935f85-65fa-41e9-82f4-d0ba80ecaf73/content",
+      "checked": "2026-10-15",
+      "result": "close",
+      "score": 0.94,
+      "passage": "at the same time i would hke to take this opportunity to dispel with an the emphasis at my command the canard being spread by certain sections of people that this entire commitment of this house and this govemment has been hijacked by me personally as my own agenda",
+      "text_sha256": "2c52a9fa3d6f8a029cf40b13fdb310cc2c7a4f673c6a7cb1569b8305e257325a",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "f1221ed5f4212fb5": {
+      "position": 3,
+      "source": "s12",
+      "fetched": "https://web.archive.org/web/20211208193644id_/https://www.tribuneindia.com/2006/20060531/main2.htm",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "a6944ef1fdaf3af232befb1a928f526ac31817c2ccfcfd7f420e27d79d2bd860"
+    },
+    "a4eba4137eaf9ffb": {
+      "position": 4,
+      "source": "s13",
+      "fetched": "https://www.oneindia.com/2006/05/30/upa-created-crisis-on-quota-bjp-must-frame-policy-for-youthadvan-1148991113.html",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    }
+  },
+  "singur-nandigram-2006-2008": {
+    "09244b23cda8bc36": {
+      "position": 0,
+      "source": "s7",
+      "fetched": "https://www.oneindia.com/2006/12/03/dasmunsi-asks-bhattacharjee-to-come-clean-on-singur-1165158277.html",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "a7a8299935c52c52": {
+      "position": 1,
+      "source": "s16",
+      "fetched": "https://www.oneindia.com/2006/12/29/mamatas-condition-stable-after-respectable-retreat-1167385318.html",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ff4a1176cac837b97d59be255704a8bde728fbb05dfafdfa93fea2127a0aecba",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "33e1b74eff2883e9": {
+      "position": 3,
+      "source": "s20",
+      "fetched": "https://www.oneindia.com/2007/03/15/hc-orders-cbi-probe-parliament-adjourned-for-day-over-nandigram-1174296105.html",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "2d6e3020e3d3f0f5": {
+      "position": 4,
+      "source": "s32",
+      "fetched": "https://web.archive.org/web/20090107230759id_/http://www.telegraphindia.com/1070316/asp/nation/story_7523913.asp",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "TypeError: terminated"
+    },
+    "5610900095a3e8ff": {
+      "position": 6,
+      "source": "s3",
+      "fetched": "https://www.oneindia.com/2007/03/14/wb-governor-calls-nandigram-excesses-and-outrage-1174138571.html",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "978a4ac2a6e7acb5": {
+      "position": 7,
+      "source": "s36",
+      "fetched": "https://web.archive.org/web/20250504020304id_/https://www.outlookindia.com/national/enough-is-enough-news-235965",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "418ef979dfda9828df5261d6891f37a9b492e66d837c3e3ed14a9cec9f5f4849"
+    },
+    "49a41669ca23fdfe": {
+      "position": 9,
+      "source": "s4",
+      "fetched": "https://www.oneindia.com/2007/11/14/i-was-right-in-defending-cpims-retaliation-buddhadeb-1195065411.html",
+      "checked": "2026-10-15",
+      "result": "error",
+      "note": "Error: HTTP 403"
+    },
+    "585a686c102942b4": {
+      "position": 10,
+      "source": "s17",
+      "fetched": "https://www.oneindia.com/2007/12/26/no-police-to-nandigram-if-firing-had-been-predicted-bhattacharjee-1198660111.html",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "ab7abf51de33ad3dd8fedc1d8fc04baafa98c4220c985b37479a0e8a4666c5c1",
+      "note": "checked against the live page; archive the source and re-check"
     }
   }
 }
