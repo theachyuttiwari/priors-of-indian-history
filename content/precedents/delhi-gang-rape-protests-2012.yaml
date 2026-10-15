@@ -1,17 +1,18 @@
 id: delhi-gang-rape-protests-2012
 title: December 2012 Delhi gang-rape protests
 summary: >
-  After the gang rape of a medical student on a Delhi bus on 16 December 2012, crowds
+  After the gang rape of a physiotherapy student on a Delhi bus on 16 December 2012, crowds
   gathered at India Gate and Raisina Hill. On 22 and 23 December police used water
   cannon, tear gas and lathis, imposed Section 144 and closed central metro stations and
-  roads. The Union government set up the Justice Verma Committee on 23 December to
-  recommend changes to criminal law on sexual assault.
+  roads. A police constable deployed at India Gate died on 25 December; the cause of his
+  death was disputed. The Union government set up the Justice Verma Committee on 23 December
+  to recommend changes to criminal law on sexual assault.
 period:
   start: 2012-12-22
   end: 2012-12
 location:
   states: [Delhi]
-  places: [India Gate, Raisina Hill, Vijay Chowk, Rajpath]
+  places: [India Gate, Raisina Hill, Vijay Chowk, Rajpath, Jantar Mantar]
 protest:
   cause: Justice for the victim and tougher laws and policing on sexual violence
   organisers: [Largely unorganised; students and citizens' groups]
@@ -30,34 +31,117 @@ government:
 actions:
   - type: tear_gas
     date: 2012-12-22
-    description: "Police used water cannon and tear gas on protesters near Rashtrapati Bhavan and Parliament House. Some women protesters were injured when police charged them near a central government building."
+    claim: happened
+    description: "On 22 December Delhi Police and Rapid Action Force personnel used water cannon, tear gas and baton charges to push back protesters who gathered at Raisina Hill, near Rashtrapati Bhavan and Parliament House, and tried to march towards Rashtrapati Bhavan. Some protesters tried to break through barricades, and buses and police vehicles were damaged. Al Jazeera reported that some women protesters were injured when police charged them near a central government building. Delhi Police registered a case of rioting and damage to public property at Parliament Street police station."
     actor: police
-    sources: [s1, s4]
+    sources: [s11, s19, s9, s4, s1]
+    figures:
+      - what: civilians injured on 22 December
+        value: "35"
+        claimed_by: Delhi Police (spokesperson Rajan Bhagat)
+        source: s11
+      - what: police personnel injured on 22 December
+        value: "37"
+        claimed_by: Delhi Police (spokesperson Rajan Bhagat)
+        source: s11
   - type: section_144
     date: 2012-12-23
-    description: "Section 144 CrPC, prohibiting assembly of more than five people, was imposed in central New Delhi. Areas near the President's residence and Parliament were declared off-limits to protesters."
+    claim: ordered
+    description: "Delhi Police prohibitory orders barred assemblies in central New Delhi, including India Gate, Rajpath and the area near Rashtrapati Bhavan, and police asked protesters to demonstrate at Jantar Mantar or Ramlila Maidan instead. Reports differ on the threshold: PTI reported a ban on four or more people, Al Jazeera on more than five. A public interest petition in the Delhi High Court (WP 8127 of 2012, Anand K. Mishra v. Delhi Police) described the order as dated 22 December and challenged it as a breach of the rights to assemble and move freely; the Additional Solicitor General argued for Delhi Police that protesters were obstructing traffic and that the order was within Section 144, and on 2 January 2013 the Chief Justice's bench reserved orders. The Associated Press reported that on 23 December authorities withdrew the ban on assembly in the high-security zone as crowds converged, while keeping barricades. On 25 December police told protesters at Jantar Mantar that prohibitory orders were in place and no protests were allowed in and around India Gate."
     actor: police
-    sources: [s1]
+    legal_basis: Section 144 CrPC, 1973 (as reported; the order itself was not found)
+    sources: [s13, s17, s22, s1, s26, s36, s27]
   - type: lathi_charge
     date: 2012-12-23
-    description: "Police used batons, tear gas and water cannon at India Gate and Vijay Chowk. At least 30 people, including policemen, were treated at a nearby hospital; The Tribune reported about 40 journalists injured and camera equipment destroyed."
+    claim: happened
+    description: "On 23 December police used batons, tear gas and water cannon to clear crowds at India Gate and near Vijay Chowk. Reports describe some protesters throwing stones, burning barricades and overturning vehicles; police said the protest had been joined by hooligans. Journalists' bodies protested at the Press Club of India against police action on reporters. Late on 24 December Delhi Police tweeted an apology to any innocent protester who had been hurt or lathi-charged. In its report the Justice Verma Committee wrote: \"The lathi charge on peaceful demonstrators after the December 16 gang rape has scarred the Indian democracy.\""
     actor: police
-    sources: [s1, s6]
+    sources: [s7, s10, s17, s29, s23, s1, s6, s32]
+    figures:
+      - what: tear gas shells fired at India Gate on 23 December
+        value: "around 150"
+        claimed_by: PTI report
+        source: s23
+      - what: tear gas shells fired at India Gate on 23 December
+        value: "about 250"
+        claimed_by: The Tribune
+        source: s29
+      - what: people treated for injuries at a nearby hospital, including several policemen
+        value: "at least 30"
+        claimed_by: Officials (as reported by Al Jazeera)
+        source: s1
+      - what: protesters injured, besides some media personnel
+        value: "around 100"
+        claimed_by: Delhi Police (as reported by PTI)
+        source: s23
+      - what: civilians hospitalised
+        value: "over 50"
+        claimed_by: The Tribune
+        source: s29
+      - what: police personnel hurt
+        value: "78"
+        claimed_by: Reports cited by The Tribune
+        source: s29
+      - what: journalists injured
+        value: "as many as 40"
+        claimed_by: Journalists' protest (as reported by The Tribune)
+        source: s6
   - type: barricading
     date: 2012-12-23
-    description: "Police cordoned off routes to government buildings and closed metro stations. Sources differ on the count: The Tribune listed eight stations on 23 December (Patel Chowk, Central Secretariat, Udyog Bhawan, Race Course Road, Barakhamba Road, Mandi House, Khan Market, Pragati Maidan) and nine on 24 December, adding Rajiv Chowk. Roads to India Gate and Rajpath were closed."
+    claim: happened
+    description: "On Delhi Police directions, the Delhi Metro Rail Corporation announced late on 22 December that four stations near India Gate would close until further orders, and shut four more on the morning of 23 December. The eight stations shut on 23 December were Race Course, Udyog Bhawan, Central Secretariat, Patel Chowk, Barakhamba Road, Mandi House, Khan Market and Pragati Maidan. On 24 December nine were shut, adding Rajiv Chowk. Police barricaded Rajpath and the road from India Gate to Rashtrapati Bhavan, and traffic police closed the arterial roads leading to India Gate. All nine stations reopened on 25 December."
     actor: police
-    sources: [s1, s2, s6]
+    sources: [s12, s14, s9, s10, s2, s6, s33]
+    figures:
+      - what: metro stations closed on 23 December
+        value: "8"
+        claimed_by: Delhi Metro Rail Corporation (as reported by The Hindu)
+        source: s12
+      - what: metro stations closed on 24 December
+        value: "9"
+        claimed_by: Millennium Post
+        source: s14
+  - type: detention
+    date: 2012-12-23
+    claim: happened
+    description: "Early on 23 December police removed protesters who had spent the night at Raisina Hill, taking them away in a bus, and took into custody protesters outside Congress president Sonia Gandhi's residence. Later that morning police forcibly removed protesters from India Gate for defying the prohibitory orders; women protesters alleged that male police personnel manhandled them. The Guardian reported that scores of protesters had been detained or forcibly removed from sit-ins over 24 hours."
+    actor: police
+    sources: [s9, s22, s27]
+  - type: detention
+    date: 2012-12-25
+    claim: happened
+    description: "On 25 December police detained a group of young women protesters from Jantar Mantar and outside Parliament Street police station for violating prohibitory orders, and released them after about four hours. The women alleged that police manhandled them; police sources denied this and said the group had tried to incite others and break through barricades."
+    actor: police
+    sources: [s13, s16]
+    figures:
+      - what: women detained
+        value: "16"
+        claimed_by: NDTV report
+        source: s16
+  - type: fir
+    date: 2012-12-25
+    claim: ordered
+    description: "Constable Subhash Chand Tomar, deployed at India Gate on 23 December, collapsed during the clashes and died at Ram Manohar Lohia Hospital on 25 December. Delhi Police said protesters attacked him. Police registered a case at Tilak Marg police station against eight people arrested after the protest, first for attempt to murder and rioting, and after his death invoked a murder charge. The eight were granted bail and said they had been wrongly implicated. The cause of death was disputed. The post-mortem report, as released by police, recorded myocardial infarction that could be precipitated by blunt-force injuries to the neck and chest. The hospital's medical superintendent said he had no major external injury marks except some cuts and bruises. Two protesters who helped him said he collapsed while running and was not beaten; a third witness later told the Crime Branch that he saw a stone hit Tomar and men kick him. The investigation was transferred to the Crime Branch."
+    actor: police
+    legal_basis: Section 302 IPC (murder), as stated by the Police Commissioner
+    sources: [s18, s17, s25, s24, s28, s34]
+    figures:
+      - what: people arrested and charged over the attack on the constable
+        value: "8"
+        claimed_by: Delhi Police (Commissioner Neeraj Kumar)
+        source: s34
   - type: commission_of_inquiry
     date: 2012-12-23
-    description: "The Union government constituted a three-member committee headed by former Chief Justice J.S. Verma, with Justice Leila Seth and Gopal Subramanium, to recommend amendments to criminal law on sexual assault. It reported on 23 January 2013."
+    claim: ordered
+    description: "The Union government constituted a three-member Committee on Amendments to Criminal Law, chaired by former Chief Justice of India J. S. Verma, with Justice Leila Seth and Gopal Subramanium, to recommend amendments to criminal law for quicker trial and enhanced punishment in cases of aggravated sexual assault. Its report, dated 23 January 2013, says the committee was constituted in response to the country-wide public outcry."
     actor: centre
-    sources: [s5]
+    legal_basis: Gazette Notification No. SO 3003(E) dated 23 December 2012
+    sources: [s7, s5]
   - type: other
     date: 2012-12-24
-    description: "The Home Minister said a probe had been ordered to identify and arrest those who started violence at India Gate and Rashtrapati Bhavan. The Delhi Chief Minister held an emergency Cabinet meeting and met the Home Minister to review law and order."
+    description: "The Home Minister said an inquiry had been ordered into the violence at India Gate and Rashtrapati Bhavan to identify those who started it, and that the government had information that some political elements were behind the violence."
     actor: centre
-    sources: [s2, s3]
+    sources: [s3, s21, s31]
 outcome: >
   The Justice Verma Committee reported on 23 January 2013. Its recommendations fed into
   the Criminal Law (Amendment) Ordinance and Act, 2013.
@@ -66,80 +150,416 @@ positions:
     person: Sushilkumar Shinde
     role_at_time: Union Home Minister
     in_power: true
+    date: 2012-12-22
+    kind: verbatim
+    statement: "In a statement at a press conference, announced measures on women's safety in Delhi, appealed for calm, and said the government would set up a Commission of Inquiry under the Commissions of Inquiry Act, 1952."
+    quote:
+      text: "The Government also respects the right of legitimate protest."
+      locator: "Paragraph beginning 'The government shares the widespread concern'"
+      source: s20
+    sources: [s20, s19]
+  - party: INC
+    person: Sushilkumar Shinde
+    role_at_time: Union Home Minister
+    in_power: true
     date: 2012-12-24
-    statement: "When it went out of hands, hooligans joined the protesters, we had to act and use force. Tomorrow if BJP workers demonstrate or if Maoists demonstrate with weapons, will I go and meet them too?"
-    sources: [s3]
+    kind: paraphrase
+    statement: "In interviews, defended the use of force at India Gate, saying hooligans and political elements had joined the protesters. Asked why he had not gone to India Gate, said he had already met protest representatives and that if he went there he would also have to meet other demonstrators, such as party workers or armed Maoists."
+    sources: [s3, s21, s31]
+  - party: INC
+    person: Manmohan Singh
+    role_at_time: Prime Minister
+    in_power: true
+    date: 2012-12-24
+    kind: verbatim
+    statement: "In a televised address, said public anger at the crime was justified but violence would serve no purpose, expressed sadness at the clashes between protesters and police, and appealed for peace and calm."
+    quote:
+      text: "I also feel deeply sad at the turn of events leading to clashes between protesters and police forces."
+      locator: "Second paragraph"
+      source: s8
+    sources: [s8, s10]
   - party: INC
     person: Sheila Dikshit
     role_at_time: Chief Minister of Delhi
     in_power: true
     date: 2012-12-23
-    statement: "Criticised the Delhi Police crackdown, which she said left several people injured, and said that since confidence in the law and order machinery is shaken, steps must be taken to restore it."
-    sources: [s2, s3]
+    kind: paraphrase
+    statement: "After an emergency meeting of the Delhi Cabinet, criticised the police handling of the India Gate protest, said senior police officers must be held responsible, and met the Home Minister to ask for steps to restore confidence in policing."
+    sources: [s2, s15]
   - party: BJP
     person: Vijender Gupta
     role_at_time: Delhi BJP president, opposition
     in_power: false
     date: 2012-12-24
-    statement: "There should be a judicial enquiry into the incident of lathicharge. Said police brutally assaulted the girls sitting on a peaceful dharna, and that the Chief Minister and Home Minister should take responsibility."
+    kind: paraphrase
+    statement: "Called for a judicial inquiry into the lathi charge, said media footage showed police assaulting women at a sit-in, and said the Chief Minister and Home Minister should take responsibility."
     sources: [s6]
   - party: BJP
     person: Sushma Swaraj
     role_at_time: Leader of Opposition, Lok Sabha
     in_power: false
     date: 2012-12-22
-    statement: "BJP and Left parties condemned the police action and attacked the Prime Minister and Sonia Gandhi for silence. Swaraj asked the Prime Minister to convene a special session of Parliament to frame a law with exemplary punishment for crimes against women."
+    kind: paraphrase
+    statement: "Said on Twitter that she had asked the Prime Minister to convene a special session of Parliament to frame a law providing exemplary punishment for crimes against women, and that he would consider it."
     sources: [s4]
+  - party: BJP
+    person: Ravi Shankar Prasad
+    role_at_time: BJP chief spokesperson, opposition
+    in_power: false
+    date: 2012-12-22
+    kind: verbatim
+    statement: "Said the police should have been sensitive, called the lathi charge, water cannon and handling of the protest regrettable and condemnable, and asked the Prime Minister to speak."
+    quote:
+      text: "BJP condemns the police action outright,"
+      locator: "Paragraph beginning 'The Prime Minister ought to have spoken to them'"
+      source: s35
+    sources: [s35]
 sources:
   - id: s1
     title: India widens crackdown on gang-rape protests
     publisher: Al Jazeera
+    tier: secondary
     url: https://www.aljazeera.com/news/asia/2012/12/20121223630169625.html
     archive_date: 2012-12-24
     archive_url: https://web.archive.org/web/20121224221529/https://www.aljazeera.com/news/asia/2012/12/20121223630169625.html
     date: 2012-12-24
     type: news
+    accessed: 2026-10-15
   - id: s2
     title: "Delhi page: Dikshit flays police crackdown; eight metro stations closed"
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2012/20121224/delhi.htm
     archive_date: 2012-12-31
     archive_url: https://web.archive.org/web/20121231071447/https://www.tribuneindia.com/2012/20121224/delhi.htm
     date: 2012-12-24
     type: news
+    accessed: 2026-10-15
   - id: s3
     title: Shinde justifies police crackdown at India Gate
     publisher: International Business Times India
+    author: Nimisha Nair
+    tier: secondary
     url: https://www.ibtimes.co.in/shinde-justifies-police-crackdown-at-india-gate-418040
     archive_date: 2019-10-21
     archive_url: https://web.archive.org/web/20191021060117/https://www.ibtimes.co.in/shinde-justifies-police-crackdown-at-india-gate-418040
     date: 2012-12-24
     type: news
+    accessed: 2026-10-15
   - id: s4
     title: Parties condemn police action
     publisher: The Assam Tribune
     wire: PTI
+    tier: secondary
     url: https://assamtribune.com/parties-condemn-police-action
     archive_date: 2022-07-06
     archive_url: https://web.archive.org/web/20220706163549/https://assamtribune.com/parties-condemn-police-action
     date: 2012-12-22
     type: news
+    accessed: 2026-10-15
   - id: s5
     title: Justice Verma Committee report summary
     publisher: PRS Legislative Research
+    tier: secondary
     url: https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary
     archive_date: 2021-04-01
     archive_url: https://web.archive.org/web/20210401141921/https://prsindia.org/policy/report-summaries/justice-verma-committee-report-summary
     date: 2013-01-23
-    type: official
+    type: academic
+    accessed: 2026-10-15
   - id: s6
     title: "Delhi page: Nine metro stations shut; BJP seeks judicial inquiry into lathicharge"
     publisher: The Tribune
+    tier: secondary
     url: https://www.tribuneindia.com/2012/20121225/delhi.htm
     archive_date: 2012-12-31
     archive_url: https://web.archive.org/web/20121231000624/https://www.tribuneindia.com/2012/20121225/delhi.htm
     date: 2012-12-25
     type: news
-tags: [delhi, section_144, lathi_charge, tear_gas, barricading, womens_safety, commission_of_inquiry, upa]
+    accessed: 2026-10-15
+  - id: s7
+    title: Report of the Committee on Amendments to Criminal Law
+    publisher: Committee on Amendments to Criminal Law, Government of India (copy held by NYU Faculty Digital Archive)
+    author: J. S. Verma, Leila Seth, Gopal Subramanium
+    tier: court
+    url: https://archive.nyu.edu/bitstream/2451/33614/2/J_S_VermaCommitteReport.pdf
+    archive_date: 2020-07-09
+    archive_url: https://web.archive.org/web/20200709085424/https://archive.nyu.edu/bitstream/2451/33614/2/J_S_VermaCommitteReport.pdf
+    date: 2013-01-23
+    type: official
+    accessed: 2026-10-15
+  - id: s8
+    title: PM's message for peace, and assurance of all possible efforts to ensure security and safety of women
+    publisher: Prime Minister's Office (archive of Dr. Manmohan Singh's term)
+    tier: record
+    url: https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1262
+    archive_date: 2024-12-11
+    archive_url: https://web.archive.org/web/20241211214018/https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1262
+    date: 2012-12-24
+    type: official
+    accessed: 2026-10-15
+  - id: s9
+    title: India gang-rape protests dispersed by police using teargas and water cannon
+    publisher: The Guardian
+    author: Jason Burke
+    tier: report
+    url: https://www.theguardian.com/world/2012/dec/23/india-gang-rape-protests
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s10
+    title: "India gang rape protests: Manmohan Singh appeals for calm"
+    publisher: The Guardian
+    author: Jason Burke
+    tier: report
+    url: https://www.theguardian.com/world/2012/dec/24/inadian-gang-rape-protests-manmohan-singh
+    date: 2012-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s11
+    title: Riot-like situation sweeps 'helpless' city
+    publisher: Deccan Herald
+    author: Vishnu Sukumaran
+    tier: report
+    url: https://www.deccanherald.com/archives/riot-like-situation-sweeps-helpless-2381217
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s12
+    title: 8 metro stations shut on Sunday
+    publisher: The Hindu
+    author: Sowmiya Ashok
+    tier: report
+    url: https://www.thehindu.com/news/cities/Delhi/8-metro-stations-shut-on-sunday/article4231532.ece
+    archive_date: 2012-12-27
+    archive_url: https://web.archive.org/web/20121227135327/https://www.thehindu.com/news/cities/Delhi/8-metro-stations-shut-on-sunday/article4231532.ece
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s13
+    title: "Delhi protests: detained girl alleges police harassment"
+    publisher: The Hindu
+    author: Shubhomoy Sikdar
+    tier: report
+    url: https://www.thehindu.com/news/cities/Delhi/delhi-protests-detained-girl-alleges-police-harassment/article4238795.ece
+    archive_date: 2012-12-27
+    archive_url: https://web.archive.org/web/20121227162754/https://www.thehindu.com/news/cities/Delhi/delhi-protests-detained-girl-alleges-police-harassment/article4238795.ece
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s14
+    title: Govt shuts Delhi down
+    publisher: Millennium Post
+    author: Puja Banerjee
+    tier: report
+    url: https://www.millenniumpost.in/govt-shuts-delhi-down-16261
+    date: 2012-12-25
+    type: news
+    accessed: 2026-10-15
+  - id: s15
+    title: Police brass faces CM's ire
+    publisher: Millennium Post
+    author: Dipanshu Roy
+    tier: report
+    url: https://www.millenniumpost.in/police-brass-faces-cms-ire-16210
+    archive_date: 2020-10-29
+    archive_url: https://web.archive.org/web/20201029000540/https://www.millenniumpost.in/police-brass-faces-cms-ire-16210
+    date: 2012-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s16
+    title: "Delhi protests: 16 girls detained for four hours, allege manhandling by cops"
+    publisher: NDTV
+    author: Alok Pandey
+    tier: report
+    url: https://www.ndtv.com/article/india/sixteen-girls-detained-released-by-delhi-police-over-anti-rape-protests-309721
+    archive_date: 2012-12-25
+    archive_url: https://web.archive.org/web/20121225161007/https://www.ndtv.com/article/india/sixteen-girls-detained-released-by-delhi-police-over-anti-rape-protests-309721
+    date: 2012-12-25
+    type: news
+    accessed: 2026-10-15
+  - id: s17
+    title: Weren't even near India Gate, say those accused of rioting
+    publisher: NDTV
+    author: Tanima Biswas
+    tier: report
+    url: https://www.ndtv.com/article/india/weren-t-even-near-india-gate-say-those-accused-of-rioting-309996
+    archive_date: 2012-12-26
+    archive_url: https://web.archive.org/web/20121226162756/https://www.ndtv.com/article/india/weren-t-even-near-india-gate-say-those-accused-of-rioting-309996
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s18
+    title: What killed Constable Tomar? As family grieves, Crime Branch to investigate
+    publisher: NDTV
+    author: Nitin A Gokhale
+    tier: report
+    url: https://www.ndtv.com/article/india/what-killed-constable-tomar-as-family-grieves-crime-branch-to-investigate-309853
+    archive_date: 2012-12-26
+    archive_url: https://web.archive.org/web/20121226161834/https://www.ndtv.com/article/india/what-killed-constable-tomar-as-family-grieves-crime-branch-to-investigate-309853
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s19
+    title: In India, demonstrators and police clash at rape protest
+    publisher: The New York Times (republished by NDTV)
+    author: Gardiner Harris, Hari Kumar
+    tier: report
+    url: https://www.ndtv.com/article/india/in-india-demonstrators-and-police-clash-at-rape-protest-308775
+    archive_date: 2012-12-23
+    archive_url: https://web.archive.org/web/20121223153828/https://www.ndtv.com/article/india/in-india-demonstrators-and-police-clash-at-rape-protest-308775
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s20
+    title: Home Minister Sushil Kumar Shinde's statement on Delhi gang-rape
+    publisher: NDTV
+    tier: recording
+    url: https://www.ndtv.com/article/india/home-minister-sushil-kumar-shinde-s-statement-on-delhi-gang-rape-308734
+    archive_date: 2012-12-23
+    archive_url: https://web.archive.org/web/20121223025252/https://www.ndtv.com/article/india/home-minister-sushil-kumar-shinde-s-statement-on-delhi-gang-rape-308734
+    date: 2012-12-22
+    type: news
+    accessed: 2026-10-15
+  - id: s21
+    title: Shinde appears to equate protesters with Maoists
+    publisher: Free Press Journal
+    wire: PTI
+    tier: secondary
+    url: https://www.freepressjournal.in/india/shinde-appears-to-equate-protesters-with-maoists
+    date: 2012-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s22
+    title: Anti-rape protesters defy police, prohibitory orders in Delhi
+    publisher: Business Standard
+    wire: PTI
+    tier: secondary
+    url: https://www.business-standard.com/article/pti-stories/anti-rape-protesters-defy-police-prohibitory-orders-in-delhi-112122300003_1.html
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s23
+    title: Violence at India Gate, hooligans hijack protests
+    publisher: Deccan Herald
+    wire: PTI
+    tier: secondary
+    url: https://www.deccanherald.com/india/violence-at-india-gate-hooligans-hijack-protests-291867.html
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s24
+    title: Row over dead constable, witnesses say he wasn't hit
+    publisher: Deccan Herald
+    wire: IANS
+    tier: secondary
+    url: https://www.deccanherald.com/india/row-over-dead-constable-witnesses-2381753
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s25
+    title: Cop died of heart attack, says autopsy
+    publisher: Deccan Herald
+    tier: secondary
+    url: https://www.deccanherald.com/india/cop-died-heart-attack-says-2381639
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s26
+    title: PIL filed in Delhi High Court against imposition of S144 in Delhi; matter to be heard by Chief Justice on January 2, 2013
+    publisher: Bar & Bench
+    tier: secondary
+    url: https://www.barandbench.com/pil-filed-delhi-high-court-against-imposition-s144-delhi-matter-be-heard-chief-justice
+    date: 2012-12-28
+    type: news
+    accessed: 2026-10-15
+  - id: s27
+    title: Thousands protesting gang rape clash with Indian police
+    publisher: The Christian Science Monitor
+    wire: AP
+    author: Ashok Sharma
+    tier: secondary
+    url: https://www.csmonitor.com/World/Latest-News-Wires/2012/1223/Thousands-protesting-gang-rape-clash-with-Indian-police
+    archive_date: 2012-12-23
+    archive_url: https://web.archive.org/web/20121223162558/https://www.csmonitor.com/World/Latest-News-Wires/2012/1223/Thousands-protesting-gang-rape-clash-with-Indian-police
+    date: 2012-12-23
+    type: news
+    accessed: 2026-10-15
+  - id: s28
+    title: "Cop beaten up: new witness"
+    publisher: Millennium Post
+    tier: secondary
+    url: https://www.millenniumpost.in/cop-beaten-up-new-witness-16547
+    archive_date: 2020-10-26
+    archive_url: https://web.archive.org/web/20201026180833/https://www.millenniumpost.in/cop-beaten-up-new-witness-16547
+    date: 2012-12-29
+    type: news
+    accessed: 2026-10-15
+  - id: s29
+    title: "Main news: PM says anger genuine, promises women's safety; India Gate turns into virtual battlefield"
+    publisher: The Tribune
+    tier: secondary
+    url: https://www.tribuneindia.com/2012/20121224/main1.htm
+    archive_date: 2012-12-31
+    archive_url: https://web.archive.org/web/20121231000613/https://www.tribuneindia.com/2012/20121224/main1.htm
+    date: 2012-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s31
+    title: "Protesters' bid to march to Rashtrapati Bhavan wasn't right: Home Minister Shinde on Delhi gang-rape protests"
+    publisher: NDTV
+    tier: secondary
+    url: https://www.ndtv.com/article/india/protesters-bid-to-march-to-rashtrapati-bhavan-wasn-t-right-home-minister-shinde-on-delhi-gang-rape-p-309013
+    archive_date: 2012-12-24
+    archive_url: https://web.archive.org/web/20121224152735/https://www.ndtv.com/article/india/protesters-bid-to-march-to-rashtrapati-bhavan-wasn-t-right-home-minister-shinde-on-delhi-gang-rape-p-309013
+    date: 2012-12-24
+    type: news
+    accessed: 2026-10-15
+  - id: s32
+    title: In late night tweet, Delhi Police expresses 'regret' for violence during protests
+    publisher: NDTV
+    tier: secondary
+    url: https://www.ndtv.com/article/india/in-late-night-tweet-delhi-police-expresses-regret-for-violence-during-protests-309473
+    archive_date: 2012-12-25
+    archive_url: https://web.archive.org/web/20121225151600/https://www.ndtv.com/article/india/in-late-night-tweet-delhi-police-expresses-regret-for-violence-during-protests-309473
+    date: 2012-12-25
+    type: news
+    accessed: 2026-10-15
+  - id: s33
+    title: Delhi Metro stations opened
+    publisher: The Hindu
+    tier: secondary
+    url: https://www.thehindu.com/news/cities/Delhi/delhi-metro-stations-opened/article4240532.ece
+    archive_date: 2012-12-27
+    archive_url: https://web.archive.org/web/20121227162745/https://www.thehindu.com/news/cities/Delhi/delhi-metro-stations-opened/article4240532.ece
+    date: 2012-12-26
+    type: news
+    accessed: 2026-10-15
+  - id: s34
+    title: Cop hurt in rape protest succumbs
+    publisher: Deccan Herald
+    tier: secondary
+    url: https://www.deccanherald.com/india/cop-hurt-rape-protest-succumbs-2380666
+    date: 2012-12-25
+    type: news
+    accessed: 2026-10-15
+  - id: s35
+    title: Political parties condemn police action; Swaraj wants spl Parl session
+    publisher: Deccan Herald
+    wire: PTI
+    tier: secondary
+    url: https://www.deccanherald.com/india/political-parties-condemn-police-action-2380161
+    date: 2012-12-22
+    type: news
+    accessed: 2026-10-15
+  - id: s36
+    title: Delhi High Court hears PIL against imposition of Section 144 in Delhi; orders reserved
+    publisher: Bar & Bench
+    tier: secondary
+    url: https://www.barandbench.com/delhi-high-court-hears-pil-against-imposition-section-144-delhi-orders-reserved
+    date: 2013-01-03
+    type: news
+    accessed: 2026-10-15
+tags: [delhi, section_144, lathi_charge, tear_gas, barricading, detention, fir, womens_safety, commission_of_inquiry, upa]
 review:
   status: draft

@@ -819,5 +819,89 @@
       "result": "exact",
       "text_sha256": "ca17e2e7ae00ce3dd0c95d07c5abdc339db65f0faa84c35e242cb546a0cd95a5"
     }
+  },
+  "jallikattu-protests-2017": {
+    "4bcaaf9d904e5e19": {
+      "position": 0,
+      "source": "s8",
+      "fetched": "https://api.fxtwitter.com/status/822777389004558337",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "3211869a0b732aa92d3440761d26a402d47d8ed1f80ce8ac1896ba1ed1b35ef4",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "cf6e3120398c9fa9": {
+      "position": 2,
+      "source": "s9",
+      "fetched": "https://api.fxtwitter.com/status/823572729051881476",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "bbf38dc9a99b14ad9e8e32bc70e1e5ba0f92b3960296b894e6855335e8340911"
+    },
+    "d909d8f05ddf4ec5": {
+      "position": 3,
+      "source": "s7",
+      "fetched": "https://api.fxtwitter.com/status/821962250911031296",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "7779ae422f04877b5a5848168a2ca194035af81fc3c74636b093ac499cdd66ee",
+      "note": "checked against the live page; archive the source and re-check"
+    }
+  },
+  "delhi-gang-rape-protests-2012": {
+    "1f57f93fb50cff33": {
+      "position": 0,
+      "source": "s20",
+      "fetched": "https://web.archive.org/web/20121223025252id_/https://www.ndtv.com/article/india/home-minister-sushil-kumar-shinde-s-statement-on-delhi-gang-rape-308734",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "38aae71bd13395cd03c2842d705d7b34896c2029b606654a1145d1476d0a8c92"
+    },
+    "ce34da341caa8fe5": {
+      "position": 2,
+      "source": "s8",
+      "fetched": "https://web.archive.org/web/20241211214018id_/https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1262",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "6783c18c6907d251386a8a569fee9a730164106ed801d01b429566253e7f3bd3"
+    },
+    "1d6281e43feb8abc": {
+      "position": 6,
+      "source": "s35",
+      "fetched": "https://www.deccanherald.com/india/political-parties-condemn-police-action-2380161",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "c1410144bbb3dcf42b740a168e090d9e5caffc788608e08dfcb47f500f565cd9",
+      "note": "checked against the live page; archive the source and re-check"
+    }
+  },
+  "railway-strike-1974": {
+    "f1ebaf6433c34f19": {
+      "position": 0,
+      "source": "s9",
+      "fetched": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/88/F14.05.1974.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "42b35728ff115348831a8a29bf13f7a541715f842dd8892a764d1847b8d92b06",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "8b1438c3f6d3ae03": {
+      "position": 1,
+      "source": "s9",
+      "fetched": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/88/F14.05.1974.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "42b35728ff115348831a8a29bf13f7a541715f842dd8892a764d1847b8d92b06",
+      "note": "checked against the live page; archive the source and re-check"
+    },
+    "0dd0d61da4e808a4": {
+      "position": 4,
+      "source": "s14",
+      "fetched": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/100/F30.03.1977.pdf",
+      "checked": "2026-10-15",
+      "result": "exact",
+      "text_sha256": "914cd03673c06271c8d73544be909ff72fbbc30227a4a73d2e7f14736ed0cd03",
+      "note": "checked against the live page; archive the source and re-check"
+    }
   }
 }
