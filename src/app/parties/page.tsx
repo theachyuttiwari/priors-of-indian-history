@@ -4,6 +4,7 @@ import { partySlug } from "@/components/PartyMark";
 import PartyFlag from "@/components/PartyFlag";
 import ActionChip from "@/components/ActionChip";
 import { ACTION_TYPES } from "@/lib/schema";
+import { PARTY_COUNTS, PARTY_COUNTS_PAUSED } from "@/lib/site";
 
 export const metadata = { title: "Parties" };
 
@@ -13,6 +14,7 @@ export default function PartiesPage() {
     <div>
       <h1 className="t-1">Parties</h1>
       <p className="lede mt-4 measure">Each party, what it did when it governed, and what it said when it did not.</p>
+      {!PARTY_COUNTS && <p className="text-[15px] text-ink-2 mt-4 measure">{PARTY_COUNTS_PAUSED}</p>}
       <div className="rows mt-10 border-t border-line">
         {parties.map((party) => {
           const r = partyRecord(party);
@@ -31,11 +33,13 @@ export default function PartiesPage() {
                   <span className="row-title group-hover:underline underline-offset-4 decoration-1">{party}</span>
                 </span>
                 <span className="block small num mt-0.5">
-                  {r.inPower.length} cases in power, {r.statementsInOpposition.length} statements in opposition
+                  {PARTY_COUNTS
+                    ? `${r.inPower.length} cases in power, ${r.statementsInOpposition.length} statements in opposition`
+                    : `${r.statementsInPower.length} statements in power, ${r.statementsInOpposition.length} in opposition`}
                 </span>
               </span>
               <span className="chips">
-                {top.map((t) => (
+                {(PARTY_COUNTS ? top : []).map((t) => (
                   <ActionChip key={t} type={t} count={r.actions[t]} />
                 ))}
               </span>

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { matrix, partyRecord, entryHref } from "@/lib/content";
+import { allParties, matrix, partyRecord, entryHref } from "@/lib/content";
+import { PARTY_COUNTS, PARTY_COUNTS_PAUSED } from "@/lib/site";
 import StatementText from "@/components/StatementText";
 import { ACTION_META, type ActionType } from "@/lib/schema";
 import { partySlug } from "@/components/PartyMark";
@@ -54,9 +55,43 @@ function Statement({ label, s }: { label: string; s: Said }) {
 
 export default function ComparePage() {
   const m = matrix();
+  // While counts are paused, list every party that has a statement; m.parties depends on the counts.
+  const said = PARTY_COUNTS ? m.parties : allParties();
   return (
     <div>
       <h1 className="t-1">Compare parties</h1>
+      {PARTY_COUNTS ? <Grid m={m} /> : <p className="lede mt-4 measure">{PARTY_COUNTS_PAUSED}</p>}
+
+      <section className="mt-16 sm:mt-24">
+        <h2 className="t-2">Said in opposition, did in power</h2>
+        <div className="rows mt-6 border-t border-line">
+          {said.map((party) => {
+            const rec = partyRecord(party);
+            const opp = rec.statementsInOpposition[0];
+            const pow = rec.statementsInPower[0];
+            if (!opp && !pow) return null;
+            return (
+              <div key={party} className="py-6 grid gap-6 md:grid-cols-[10rem_1fr_1fr]">
+                <h3 className="t-3">
+                  <Link href={`/parties/${partySlug(party)}/`} className="quiet">
+                    {party}
+                  </Link>
+                </h3>
+                <Statement label="In opposition" s={opp} />
+                <Statement label="In power" s={pow} />
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    </div>
+  );
+}
+
+/** Counts of actions by party: the full grid on wide screens, one action at a time on phones. */
+function Grid({ m }: { m: ReturnType<typeof matrix> }) {
+  return (
+    <>
       <p className="lede mt-4 measure">
         Count of recorded actions while in charge. A count, not a measure of severity.
       </p>
@@ -131,29 +166,6 @@ export default function ComparePage() {
       <p className="hidden sm:block small mt-3">
         Darker cells hold more recorded actions. A zero means none recorded in this archive.
       </p>
-
-      <section className="mt-16 sm:mt-24">
-        <h2 className="t-2">Said in opposition, did in power</h2>
-        <div className="rows mt-6 border-t border-line">
-          {m.parties.map((party) => {
-            const rec = partyRecord(party);
-            const opp = rec.statementsInOpposition[0];
-            const pow = rec.statementsInPower[0];
-            if (!opp && !pow) return null;
-            return (
-              <div key={party} className="py-6 grid gap-6 md:grid-cols-[10rem_1fr_1fr]">
-                <h3 className="t-3">
-                  <Link href={`/parties/${partySlug(party)}/`} className="quiet">
-                    {party}
-                  </Link>
-                </h3>
-                <Statement label="In opposition" s={opp} />
-                <Statement label="In power" s={pow} />
-              </div>
-            );
-          })}
-        </div>
-      </section>
-    </div>
+    </>
   );
 }

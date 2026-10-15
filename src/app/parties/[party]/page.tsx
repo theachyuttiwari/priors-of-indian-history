@@ -7,6 +7,7 @@ import { partySlug } from "@/components/PartyMark";
 import PartyFlag from "@/components/PartyFlag";
 import PrecedentRow from "@/components/PrecedentRow";
 import Glyph from "@/components/Glyph";
+import { PARTY_COUNTS, PARTY_COUNTS_PAUSED } from "@/lib/site";
 
 export function generateStaticParams() {
   return allParties().map((p) => ({ party: partySlug(p) }));
@@ -61,12 +62,13 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
           {party}
         </h1>
         <p className="small num mt-3">
-          {r.inPower.length} cases while in power, {r.statementsInPower.length} statements in power,{" "}
-          {r.statementsInOpposition.length} in opposition
+          {PARTY_COUNTS && `${r.inPower.length} cases while in power, `}
+          {r.statementsInPower.length} statements in power, {r.statementsInOpposition.length} in opposition
         </p>
+        {!PARTY_COUNTS && <p className="text-[15px] text-ink-2 mt-4 measure">{PARTY_COUNTS_PAUSED}</p>}
       </header>
 
-      {rows.length > 0 && (
+      {PARTY_COUNTS && rows.length > 0 && (
         <section>
           <h2 className="t-2 mb-6">Actions taken while governing</h2>
           <ul className="space-y-2.5 max-w-2xl">
@@ -100,7 +102,7 @@ export default async function PartyPage({ params }: { params: Promise<{ party: s
         </div>
       </section>
 
-      {r.inPower.length > 0 && (
+      {PARTY_COUNTS && r.inPower.length > 0 && (
         <section>
           <h2 className="t-2 mb-4">Cases handled</h2>
           <div className="rows border-t border-line">

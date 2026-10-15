@@ -10,6 +10,7 @@ import {
   reviewStatus,
 } from "@/lib/content";
 import PrecedentRow from "@/components/PrecedentRow";
+import { PARTY_COUNTS } from "@/lib/site";
 import ActionChip from "@/components/ActionChip";
 import YearStrip from "@/components/YearStrip";
 import { GlyphLegend } from "@/components/Glyph";
@@ -107,7 +108,13 @@ export default function Home() {
 
       <section className="grid gap-x-10 gap-y-8 md:grid-cols-3 border-t border-line pt-10">
         {[
-          ["/compare/", "Compare parties", "One grid. Every party and every kind of action, counted the same way."],
+          [
+            "/compare/",
+            "Compare parties",
+            PARTY_COUNTS
+              ? "One grid. Every party and every kind of action, counted the same way."
+              : "What each party said in opposition, next to what it said in power.",
+          ],
           [
             "/parties/",
             "In power and in opposition",
