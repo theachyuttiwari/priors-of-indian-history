@@ -40,7 +40,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-6 sm:mt-8 space-y-14 sm:space-y-16">
-            {current.slice(0, 2).map((ev) => {
+            {current.slice(0, 1).map((ev) => {
               const sims = similar(ev, 3);
               return (
                 <article key={ev.id}>

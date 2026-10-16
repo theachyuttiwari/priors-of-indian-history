@@ -202,9 +202,12 @@ export function whereLine(p: Precedent): string {
     .join("; ");
 }
 
-/** Parties an entry's actions count for; who governed when no action counts for a party. */
+/** Parties an entry's actions count for, most actions first; who governed when none counts for a party. */
 export function entryParties(p: Precedent): string[] {
-  const parties = [...new Set(p.actions.flatMap((a) => actionParties(p, a)))];
+  const n = new Map<string, number>();
+  for (const a of p.actions) for (const party of actionParties(p, a)) n.set(party, (n.get(party) ?? 0) + 1);
+  // Most actions first.
+  const parties = [...n.entries()].sort((x, y) => y[1] - x[1]).map(([k]) => k);
   return parties.length ? parties : handlingParties(p);
 }
 

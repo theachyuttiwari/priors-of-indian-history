@@ -69,7 +69,7 @@ export default function PrecedentList({ items }: { items: Item[] }) {
             <span className="num text-ink-3 text-[15px]">{years(i.start, i.end)}</span>
             <span>
               <span className="row-title">{i.title}</span>
-              <span className="block small mt-0.5">{i.where}</span>
+              <span className="small mt-0.5 clamp clamp-2">{i.where}</span>
               <ActionWords types={i.types} highlight={type ? [type] : undefined} />
               <span className="clamp clamp-2 text-[15px] text-ink-2 mt-2 measure">{i.summary}</span>
             </span>

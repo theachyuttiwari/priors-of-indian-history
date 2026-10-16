@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPrecedent, getPrecedents, fmtPeriod, similar, entryUpdated, fmtDate } from "@/lib/content";
+import { getPrecedent, getPrecedents, fmtPeriod, similar, entryUpdated, fmtDate, whereLine } from "@/lib/content";
 import { REPO } from "@/lib/site";
 import Timeline from "@/components/Timeline";
 import Positions from "@/components/Positions";
@@ -46,12 +46,35 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
         <h1 className="t-1 mt-4 max-w-3xl">{p.title}</h1>
         <p className="small num mt-3">
           {fmtPeriod(p.period)}
-          {p.location.states.length > 0 && <>, {[...p.location.places, ...p.location.states].join(", ")}</>}
+          {p.location.states.length > 0 && <>, {p.location.states.join(", ")}</>}
         </p>
-        <p className="lede mt-6 measure">{p.summary}</p>
+        <p className="summary mt-6 measure">{p.summary}</p>
         <ReviewNote p={p} className="mt-6" />
-        <dl className="mt-10 max-w-3xl border-b border-line">
-          <Fact term="Centre">
+        <dl className="mt-8 max-w-3xl border-b border-line">
+          <Fact term="In power">{whereLine(p)}</Fact>
+        </dl>
+      </header>
+
+      <section>
+        <h2 className="t-2 mb-6">What the government did</h2>
+        <Timeline p={p} />
+      </section>
+
+      {p.outcome && (
+        <section>
+          <h2 className="t-2 mb-3">Outcome</h2>
+          <p className="text-ink-2 measure">{p.outcome}</p>
+        </section>
+      )}
+
+      <section>
+        <h2 className="t-2 mb-2">Background</h2>
+        <p className="small mb-4 measure">
+          Who governed at the start of the protest. Each action above counts for the party in power where and when it
+          happened.
+        </p>
+        <dl className="max-w-3xl border-b border-line">
+          <Fact term="Centre government">
             <PartyMark party={centre.party} role={centre.alliance} />
             {centre.head && (
               <span className="text-ink-2">
@@ -61,13 +84,18 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
             )}
           </Fact>
           {state && (
-            <Fact term={`State`}>
+            <Fact term="State government">
               <PartyMark party={state.party} />
               <span className="text-ink-2">
                 {state.name ? ` in ${state.name}` : ""}
                 {state.head ? `, ${state.head}` : ""}
                 {state.role ? `, ${state.role}` : ""}
               </span>
+            </Fact>
+          )}
+          {p.location.places.length > 0 && (
+            <Fact term="Places">
+              <span className="text-ink-2">{p.location.places.join(", ")}</span>
             </Fact>
           )}
           {p.protest.cause && (
@@ -86,19 +114,7 @@ export default async function PrecedentPage({ params }: { params: Promise<{ id: 
             </Fact>
           )}
         </dl>
-      </header>
-
-      <section>
-        <h2 className="t-2 mb-6">What the government did</h2>
-        <Timeline p={p} />
       </section>
-
-      {p.outcome && (
-        <section>
-          <h2 className="t-2 mb-3">Outcome</h2>
-          <p className="text-ink-2 measure">{p.outcome}</p>
-        </section>
-      )}
 
       {p.positions.length > 0 && (
         <section>

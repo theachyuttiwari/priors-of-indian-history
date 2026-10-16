@@ -85,6 +85,18 @@ body {
   }
 }
 
+/* An entry's summary: smaller than the home lede, so a phone shows the actions sooner. */
+.summary {
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+@media (min-width: 640px) {
+  .summary {
+    font-size: 19px;
+  }
+}
+
 /* Line clamp. Sets its own display, so do not combine with block/flex utilities. */
 .clamp {
   display: -webkit-box;
@@ -288,9 +300,9 @@ a.row:hover .row-title {
   color: var(--bg);
   font-size: 13px;
   line-height: 1.3;
-  opacity: 0;
+  /* display, not opacity: a hidden tip must take no width, or the page scrolls sideways on phones. */
+  display: none;
   pointer-events: none;
-  transition: opacity 120ms;
   z-index: 2;
 }
 .tick.l .tip {
@@ -304,7 +316,7 @@ a.row:hover .row-title {
 }
 .tick:hover .tip,
 .tick:focus-visible .tip {
-  opacity: 1;
+  display: block;
 }
 .strip-now {
   position: absolute;
@@ -326,11 +338,6 @@ a.row:hover .row-title {
 @media (max-width: 639px) {
   .strip-year.mid {
     display: none;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .tick .tip {
-    transition: none;
   }
 }
 
@@ -494,8 +501,8 @@ a.row:hover .row-title {
 }
 .sbs-label {
   display: grid;
-  grid-template-columns: 14px 1fr 12px;
-  gap: 10px;
+  grid-template-columns: minmax(0, 1fr) 12px;
+  gap: 8px;
   align-items: center;
   font-size: 15px;
   line-height: 1.25;
@@ -635,4 +642,29 @@ a.row:hover .row-title {
 }
 .share-x:hover {
   opacity: 0.85;
+}
+
+/* Timeline: the rest of an action folds under "More". */
+.tl-more > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+}
+.tl-more > summary::-webkit-details-marker {
+  display: none;
+}
+.tl-more-label {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--ink-3);
+}
+.tl-opened,
+.tl-more[open] .tl-closed {
+  display: none;
+}
+.tl-more[open] .tl-opened {
+  display: inline;
 }

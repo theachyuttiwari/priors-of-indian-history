@@ -39,7 +39,7 @@ export default async function NowEventPage({ params }: { params: Promise<{ id: s
           {fmtPeriod(ev.period)}
           {entryUpdated(ev) && <>. Last updated {fmtDate(entryUpdated(ev))}</>}
         </p>
-        <p className="lede mt-6 measure">{ev.summary}</p>
+        <p className="summary mt-6 measure">{ev.summary}</p>
         <ReviewNote p={ev} className="mt-6" />
       </header>
 

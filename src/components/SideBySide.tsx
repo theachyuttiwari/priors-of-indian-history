@@ -17,6 +17,12 @@ function label(c: Col) {
 }
 
 /** Phones: the column heads only fit a start year. */
+/** Phones: the party with the most actions, and how many others. */
+function shortParties(p: Precedent) {
+  const ps = entryParties(p);
+  return ps.length > 1 ? `${ps[0]} +${ps.length - 1}` : (ps[0] ?? "");
+}
+
 function shortLabel(c: Col) {
   return c.now ? "Now" : c.p.period.start.slice(0, 4);
 }
@@ -100,9 +106,7 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
               ) : (
                 c.p.title
               )}
-              <span className="block small num">
-                {years(c.p.period.start, c.p.period.end)}. {govtLine(c.p)}
-              </span>
+              <span className="block small clamp clamp-2">{govtLine(c.p)}</span>
             </span>
           </li>
         ))}
@@ -131,7 +135,7 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
             </span>
             <span className="block small mt-0.5 max-sm:text-[11px]">
               <span className="max-sm:hidden">{govtLine(c.p)}</span>
-              <span className="sm:hidden">{entryParties(c.p).join(", ")}</span>
+              <span className="sm:hidden">{shortParties(c.p)}</span>
             </span>
           </span>
         ))}
@@ -156,7 +160,6 @@ export default function SideBySide({ cols }: { cols: Col[] }) {
       <details className="sbs-row border-t border-line">
         <summary className="sbs-grid">
           <span className="sbs-label">
-            <span className="w-[14px]" />
             <span className="font-semibold">Outcome</span>
           </span>
           {cols.map((c) => (

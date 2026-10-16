@@ -26,7 +26,7 @@ export default function PrecedentRow({
       </span>
       <span>
         <span className="row-title">{p.title}</span>
-        <span className="block small mt-0.5">{where}</span>
+        <span className="small mt-0.5 clamp clamp-2">{where}</span>
         {!detail && <ActionWords types={types} highlight={highlight} />}
         {detail && (
           <>
