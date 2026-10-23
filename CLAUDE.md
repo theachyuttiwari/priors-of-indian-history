@@ -1,6 +1,6 @@
 # Priors — project notes for Claude
 
-Read HANDOFF.md first. It has the current state and the backlog.
+Read HANDOFF.md in the private repo theachyuttiwari/priors-owner-notes first. It has the current state and the backlog.
 
 - Content lives in `content/precedents/*.yaml` and `content/current/*.yaml`. Schema: `content/SCHEMA.md`.
 - Always run `npm run validate` after touching content, and `npm run build` after touching `src/`.
