@@ -1,7 +1,9 @@
 version: 2
 updates:
+  # A version published minutes ago has had no time to be found malicious or yanked.
   - package-ecosystem: npm
     directory: /
+    cooldown: { default-days: 7 }
     schedule: { interval: weekly }
     open-pull-requests-limit: 5
     groups:
@@ -13,6 +15,7 @@ updates:
         update-types: [minor, patch]
   - package-ecosystem: github-actions
     directory: /
+    cooldown: { default-days: 7 }
     schedule: { interval: weekly }
     groups:
       actions:
