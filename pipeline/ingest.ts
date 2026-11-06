@@ -4,7 +4,9 @@
  * 1. Research: Claude + web search/fetch finds protests in India in the last N days and how
  *    governments responded, with URLs.
  * 2. Structure: a second call turns the dossier into schema-conforming entries.
- * 3. Write: each entry lands in content/current/<id>.yaml, marked reviewed: false.
+ * 3. Write: each entry lands in content/current/<id>.yaml, marked reviewed: false. An entry a
+ *    person has already checked or verified is left alone; the new draft goes to
+ *    content/proposed/<id>.yaml instead (pipeline/ingest-target.ts).
  *
  * Run: npx tsx pipeline/ingest.ts [--days 14] [--dry]
  * Auth: ANTHROPIC_API_KEY, or `ant auth login`.
@@ -16,6 +18,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
 import { ACTION_TYPES, Precedent } from "../src/lib/schema";
+import { writeIngested } from "./ingest-write";
 
 const MODEL = "claude-opus-5-5";
 const args = process.argv.slice(2);
@@ -37,17 +40,6 @@ function loadIndex(): string {
       return `- ${p.id} (${p.period.start.slice(0, 4)}; ${p.government.state?.party ?? p.government.centre.party}): ${p.title}. Actions: ${types}. Tags: ${p.tags.join(", ")}`;
     })
     .join("\n");
-}
-
-function existingCurrent(): Set<string> {
-  const dir = path.join(ROOT, "current");
-  if (!fs.existsSync(dir)) return new Set();
-  return new Set(
-    fs
-      .readdirSync(dir)
-      .filter((f) => f.endsWith(".yaml"))
-      .map((f) => f.replace(/\.yaml$/, "")),
-  );
 }
 
 const SCHEMA_DOC = fs.readFileSync(path.join(ROOT, "SCHEMA.md"), "utf8");
@@ -154,7 +146,6 @@ async function main() {
   const dossier = await research();
   console.log(`Dossier: ${dossier.length} chars`);
   const entries = await structure(dossier);
-  const have = existingCurrent();
   fs.mkdirSync(path.join(ROOT, "current"), { recursive: true });
   for (const e of entries) {
     const check = Precedent.safeParse({
@@ -179,9 +170,11 @@ async function main() {
     if (DRY) {
       console.log(`--- ${file}\n${text}`);
     } else {
-      if (have.has(e.id)) console.log(`update ${e.id}`);
-      else console.log(`new    ${e.id}`);
-      fs.writeFileSync(file, text);
+      // A checked or verified entry is never overwritten; see ingest-target.ts.
+      const t = writeIngested(ROOT, e.id, text);
+      if (t.kind === "proposal")
+        console.log(`propose ${e.id} (current is ${t.existing}; wrote ${path.relative(process.cwd(), t.file)})`);
+      else console.log(`${t.kind === "new" ? "new    " : "update "} ${e.id}`);
     }
   }
 }
