@@ -16,6 +16,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { findQuote, htmlToText } from "../src/lib/quote-match";
+import { archiveOrgItem, exactStillHolds, FX_API, rawArchiveUrl, xPostText } from "./lib/quote-source";
 import {
   loadQuoteChecks,
   quoteKeySync,
@@ -31,28 +32,12 @@ const root = path.join(process.cwd(), "content");
 const cacheDir = path.join(os.homedir(), ".cache", "priors", "sources");
 const UA = "Priors quote checker (+https://github.com/theachyuttiwari/priors-of-indian-history)";
 
-/** Raw capture of the original page: the Wayback `id_` form skips the archive toolbar. */
-function rawArchiveUrl(archiveUrl: string): string {
-  return archiveUrl.replace(/\/web\/(\d+)\//, "/web/$1id_/");
-}
-
-const FX_API = "https://api.fxtwitter.com/status/";
-
-/**
- * A post on X: x.com serves no text without JavaScript, and archived copies rarely hold it. The
- * fxtwitter API returns the post text as JSON. The fetched address is recorded with the result.
- */
-function xPostText(url: string): string | undefined {
-  const id = url.match(/^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/(\d+)/)?.[1];
-  return id ? `${FX_API}${id}` : undefined;
-}
-
 /**
  * A scanned book or report on archive.org: its details page holds no text, but the item has an OCR
  * file (`*_djvu.txt`). archive.org is itself the archive, so its own copy is used, not a snapshot.
  */
 async function archiveOrgText(url: string): Promise<string | undefined> {
-  const id = url.match(/^https:\/\/archive\.org\/details\/([^/?#]+)/)?.[1];
+  const id = archiveOrgItem(url);
   if (!id) return undefined;
   const res = await fetch(`https://archive.org/metadata/${id}`, { headers: { "User-Agent": UA } });
   if (!res.ok) return undefined;
@@ -128,11 +113,11 @@ async function main() {
       if (!q) continue;
       const key = quoteKeySync(q.text);
       const prior = checks[p.id]?.[key];
-      if (!all && prior?.result === "exact") continue;
 
       const src = p.sources.find((s) => s.id === q.source);
       const where = `${p.id} positions[${i}]`;
       if (!src) continue; // the validator reports unknown sources
+      if (!all && exactStillHolds(prior, src)) continue;
       const fetchUrl =
         xPostText(src.url) ??
         (await archiveOrgText(src.url)) ??
