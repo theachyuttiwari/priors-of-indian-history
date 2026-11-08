@@ -18,6 +18,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
 import { ACTION_TYPES, Precedent } from "../src/lib/schema";
+import { entryFile, isSafeEntryId } from "./ingest-target";
 import { writeIngested } from "./ingest-write";
 
 const MODEL = "claude-opus-5-5";
@@ -148,6 +149,11 @@ async function main() {
   const entries = await structure(dossier);
   fs.mkdirSync(path.join(ROOT, "current"), { recursive: true });
   for (const e of entries) {
+    // The id comes from model output that read web pages; it becomes a file name, so check it first.
+    if (!isSafeEntryId(e.id)) {
+      console.warn(`skip ${JSON.stringify(e.id)}: id must be a lowercase kebab-case slug`);
+      continue;
+    }
     const check = Precedent.safeParse({
       ...e,
       government: { ...e.government, state: e.government.state ?? undefined },
@@ -156,7 +162,7 @@ async function main() {
       console.warn(`skip ${e.id}: ${check.error.issues.map((i) => i.path.join(".") + " " + i.message).join("; ")}`);
       continue;
     }
-    const file = path.join(ROOT, "current", `${e.id}.yaml`);
+    const file = entryFile(ROOT, "current", e.id);
     const out = {
       ...e,
       government: { ...e.government, state: e.government.state ?? undefined },

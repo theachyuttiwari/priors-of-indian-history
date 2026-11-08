@@ -7,6 +7,8 @@
  *   npx tsx pipeline/match-quotes.ts farm       only entries whose id contains "farm"
  *
  * Source text is cached in ~/.cache/priors/sources (decision D: no source text in the repo).
+ * Sources are fetched only over https from the hosts in lib/source-hosts.ts, never from a private
+ * address, and never through a redirect to another host (lib/safe-fetch.ts).
  * A translated quote is checked on the words the source itself published: the English text
  * when the source translated it, the original when Priors translated it.
  */
@@ -17,6 +19,7 @@ import os from "node:os";
 import path from "node:path";
 import { findQuote, htmlToText } from "../src/lib/quote-match";
 import { archiveOrgItem, exactStillHolds, FX_API, rawArchiveUrl, xPostText } from "./lib/quote-source";
+import { checkSourceUrl, HttpStatusError, safeFetch } from "./lib/safe-fetch";
 import {
   loadQuoteChecks,
   quoteKeySync,
@@ -39,9 +42,16 @@ const UA = "Priors quote checker (+https://github.com/theachyuttiwari/priors-of-
 async function archiveOrgText(url: string): Promise<string | undefined> {
   const id = archiveOrgItem(url);
   if (!id) return undefined;
-  const res = await fetch(`https://archive.org/metadata/${id}`, { headers: { "User-Agent": UA } });
-  if (!res.ok) return undefined;
-  const meta = (await res.json()) as { files?: { name: string }[] };
+  let bytes: Buffer;
+  try {
+    ({ bytes } = await safeFetch(`https://archive.org/metadata/${id}`, {
+      headers: { "User-Agent": UA },
+    }));
+  } catch (e) {
+    if (e instanceof HttpStatusError) return undefined;
+    throw e;
+  }
+  const meta = JSON.parse(bytes.toString("utf8")) as { files?: { name: string }[] };
   const txt = meta.files?.find((f) => f.name.endsWith("_djvu.txt"))?.name;
   return txt ? `https://archive.org/download/${id}/${encodeURIComponent(txt)}` : undefined;
 }
@@ -77,14 +87,13 @@ function decodeBody(bytes: Buffer): string {
 }
 
 async function sourceText(url: string): Promise<{ text: string; sha256: string }> {
+  checkSourceUrl(url); // also before the cache, so a blocked URL never yields cached text
   fs.mkdirSync(cacheDir, { recursive: true });
   const file = path.join(cacheDir, `${createHash("sha256").update(url).digest("hex").slice(0, 24)}.txt`);
   let text: string;
   if (fs.existsSync(file)) text = fs.readFileSync(file, "utf8");
   else {
-    const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const bytes = Buffer.from(await res.arrayBuffer());
+    const { bytes } = await safeFetch(url, { headers: { "User-Agent": UA } });
     if (bytes.subarray(0, 5).toString("latin1") === "%PDF-") text = pdfToText(bytes);
     else if (url.startsWith(FX_API)) {
       const post = (JSON.parse(bytes.toString("utf8")) as { tweet?: { text?: string; quote?: { text?: string } } })
