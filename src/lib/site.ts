@@ -1,5 +1,9 @@
 export const REPO = "https://github.com/theachyuttiwari/priors-of-indian-history";
 
+/** The site's one-line description: meta description, share card, manifest and llms.txt. */
+export const DESCRIPTION =
+  "How India’s governments have handled protests since 1974, under every party, at the Centre and in the states. Every claim links to a dated source.";
+
 /** Decision F: until the project domain and its corrections address exist, errors are reported here. */
 export const CORRECTION_FORM = `${REPO}/issues/new?template=correction.yml`;
 

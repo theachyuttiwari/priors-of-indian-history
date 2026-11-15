@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CORRECTION_FORM, REPO, SITE_URL } from "@/lib/site";
+import { CORRECTION_FORM, DESCRIPTION, REPO, SITE_URL } from "@/lib/site";
 import { fmtDate, siteUpdated } from "@/lib/content";
 import "./globals.css";
-
-const DESCRIPTION =
-  "How India’s governments have handled protests since 1974, under every party, at the Centre and in the states. Every claim links to a dated source.";
 
 export const metadata: Metadata = {
   // Origin only: Next adds the base path to image and canonical URLs itself.

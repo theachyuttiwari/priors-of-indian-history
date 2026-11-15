@@ -58,10 +58,10 @@ export default function YearStrip({ precedents, current }: { precedents: Precede
               key={p.id}
               href={`/precedents/${p.id}/`}
               className={`tick ${k < 1 / 3 ? "faded" : ""} ${side}`}
-              style={{ left: `${pos}%`, top: `${74 - h}px`, height: `${h}px` }}
+              style={{ left: `${pos}%` }}
               aria-label={`${p.title}, ${fmtPeriod(p.period)}${current ? `, shares ${kinds(shared(p))} with the current event` : ""}`}
             >
-              <i />
+              <i style={{ height: `${h}px` }} />
               <span className="tip">
                 <span className="num">{p.period.start.slice(0, 4)}</span> {p.title}
                 {current && <span className="block opacity-70 num">Shares {kinds(shared(p))}</span>}

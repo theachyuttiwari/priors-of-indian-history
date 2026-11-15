@@ -14,7 +14,8 @@ export default function ByAction({ rows, types, initial }: { rows: Row[]; types:
   );
   const max = Math.max(1, ...rows.map((r) => r.counts[type] ?? 0));
   return (
-    <div>
+    // The Markdown twin leaves this phone view out: the full grid on the same page carries every count.
+    <div data-twin="skip">
       <label className="flex items-center gap-3">
         <select
           className="field flex-1"

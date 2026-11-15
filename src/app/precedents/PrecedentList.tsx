@@ -31,7 +31,7 @@ export default function PrecedentList({ items }: { items: Item[] }) {
   );
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-3 mt-10">
+      <div className="js-only flex flex-wrap items-center gap-3 mt-10">
         <input
           className="field w-full sm:w-64"
           placeholder="Search titles, summaries, states"
