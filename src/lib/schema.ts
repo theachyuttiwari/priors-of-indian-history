@@ -1,6 +1,11 @@
 import { z } from "zod";
 import { canonicalParty } from "./parties";
 
+// Zod probes for eval with Function("") to decide whether to compile parsers. The site's
+// Content-Security-Policy forbids eval, so the probe shows as a CSP violation in browsers.
+// Interpreted parsing is fast enough for this content.
+z.config({ jitless: true });
+
 export const ACTION_TYPES = [
   "permission_denied",
   "permission_granted",
